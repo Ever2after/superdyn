@@ -1,0 +1,265 @@
+{
+  "family": {
+    "id": "urban",
+    "title": "Stepped pedestrian quarter",
+    "title_ko": "경사 보행로와 계단형 도시 광장",
+    "seed": 202,
+    "xy_scale": 1.35,
+    "ground_texture": "PavingStones046",
+    "wall_texture": "Concrete033",
+    "path_texture": "Concrete033",
+    "ground_tile_cm": 240,
+    "wall_tint": [
+      0.82,
+      0.77,
+      0.68
+    ],
+    "description": "Shopfront buildings, paved upper and lower plazas, connecting ramps, street furniture and parked cars.",
+    "asset_groups": [
+      {
+        "asset": "cafe",
+        "count": 1,
+        "size_cm": 480
+      },
+      {
+        "asset": "sedan",
+        "count": 2,
+        "size_cm": 430
+      },
+      {
+        "asset": "bench",
+        "count": 5,
+        "size_cm": 180
+      },
+      {
+        "asset": "lamp",
+        "count": 5,
+        "size_cm": 340,
+        "height_size": true
+      },
+      {
+        "asset": "trash",
+        "count": 3,
+        "size_cm": 90,
+        "height_size": true
+      },
+      {
+        "asset": "tree",
+        "count": 4,
+        "size_cm": 480,
+        "height_size": true
+      },
+      {
+        "asset": "worker",
+        "count": 3,
+        "size_cm": 178,
+        "height_size": true
+      }
+    ]
+  },
+  "assets": [
+    {
+      "asset": "cafe",
+      "count": 1,
+      "size_cm": 480,
+      "id": "cafe_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding01"
+    },
+    {
+      "asset": "sedan",
+      "count": 2,
+      "size_cm": 430,
+      "id": "sedan_00",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a"
+    },
+    {
+      "asset": "sedan",
+      "count": 2,
+      "size_cm": 430,
+      "id": "sedan_01",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a"
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01"
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01"
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01"
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01"
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01"
+    },
+    {
+      "asset": "trash",
+      "count": 3,
+      "size_cm": 90,
+      "height_size": true,
+      "id": "trash_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_TrashCan01"
+    },
+    {
+      "asset": "trash",
+      "count": 3,
+      "size_cm": 90,
+      "height_size": true,
+      "id": "trash_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_TrashCan01"
+    },
+    {
+      "asset": "trash",
+      "count": 3,
+      "size_cm": 90,
+      "height_size": true,
+      "id": "trash_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_TrashCan01"
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "worker",
+      "count": 3,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_00",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop"
+    },
+    {
+      "asset": "worker",
+      "count": 3,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_01",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop"
+    },
+    {
+      "asset": "worker",
+      "count": 3,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_02",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop"
+    }
+  ],
+  "stage": "Scene construction and inspection; no benchmark QA or dynamic root trajectories yet"
+}

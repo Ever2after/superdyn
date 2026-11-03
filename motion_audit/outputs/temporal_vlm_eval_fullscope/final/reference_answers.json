@@ -1,0 +1,6274 @@
+{
+  "DAVIS__dogs-scale__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "DAVIS__dogs-scale",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "DAVIS__dogs-scale__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "DAVIS__dogs-scale",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "DAVIS__drift-turn__camera_object_distance_change__00": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "DAVIS__drift-turn",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "DAVIS__lady-running__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "DAVIS__lady-running",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "DAVIS__lady-running__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "DAVIS__lady-running",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "DAVIS__lady-running__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "DAVIS__lady-running",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "DAVIS__libby__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "DAVIS__libby",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "DAVIS__libby__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "DAVIS__libby",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "DAVIS__longboard__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "DAVIS__longboard",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "DAVIS__longboard__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "DAVIS__longboard",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "DAVIS__motocross-bumps__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "DAVIS__motocross-bumps",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "DAVIS__motocross-bumps__camera_object_distance_change__04": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "DAVIS__motocross-bumps",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "DAVIS__motocross-bumps__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "DAVIS__motocross-bumps",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "DAVIS__motocross-bumps__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "DAVIS__motocross-bumps",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "DAVIS__motocross-bumps__object_world_motion_direction__03": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "DAVIS__motocross-bumps",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "DAVIS__motorbike__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "DAVIS__motorbike",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "DAVIS__motorbike__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "DAVIS__motorbike",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "DAVIS__motorbike__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "DAVIS__motorbike",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "DAVIS__night-race__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "DAVIS__night-race",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "DAVIS__night-race__object_travel_distance_comparison__03": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "DAVIS__night-race",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "DAVIS__night-race__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "DAVIS__night-race",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "DAVIS__night-race__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "DAVIS__night-race",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "DAVIS__scooter-black__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "DAVIS__scooter-black",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "DAVIS__scooter-black__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "DAVIS__scooter-black",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "DAVIS__scooter-black__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "DAVIS__scooter-black",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "DAVIS__scooter-gray__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "DAVIS__scooter-gray",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "DAVIS__snowboard__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "DAVIS__snowboard",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "DAVIS__stroller__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "DAVIS__stroller",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "DAVIS__stroller__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "DAVIS__stroller",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "DAVIS__stroller__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "DAVIS__stroller",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "DAVIS__swing__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "DAVIS__swing",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "DAVIS__train__camera_object_distance_change__03": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "DAVIS__train",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "DAVIS__train__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "DAVIS__train",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "DAVIS__train__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "DAVIS__train",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "DAVIS__train__object_world_motion_direction__02": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "DAVIS__train",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "DAVIS__walking__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "DAVIS__walking",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "DAVIS__walking__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "DAVIS__walking",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__028f6f64__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "MOSE__028f6f64",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__02deca50__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__02deca50",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__02deca50__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "MOSE__02deca50",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__02deca50__object_world_motion_direction__02": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__02deca50",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__03e0f9b8__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "MOSE__03e0f9b8",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__03e0f9b8__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "MOSE__03e0f9b8",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__03e5f069__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "MOSE__03e5f069",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__03e5f069__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "MOSE__03e5f069",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__03e5f069__object_pair_distance_change__02": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "MOSE__03e5f069",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__04ae7a6b__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "MOSE__04ae7a6b",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__04ae7a6b__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__04ae7a6b",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__06273084__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__06273084",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__06273084__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "MOSE__06273084",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__0ba9c5ad__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__0ba9c5ad",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__0ba9c5ad__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "MOSE__0ba9c5ad",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__0ba9c5ad__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__0ba9c5ad",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__0d4feda2__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__0d4feda2",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__0d4feda2__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__0d4feda2",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__0d4feda2__object_travel_distance_comparison__03": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "MOSE__0d4feda2",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__0d4feda2__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "MOSE__0d4feda2",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__0e7001dd__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__0e7001dd",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__12e509c2__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__12e509c2",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "MOSE__138c81fe__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__138c81fe",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__149dbae2__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "MOSE__149dbae2",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__149dbae2__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__149dbae2",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__149dbae2__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__149dbae2",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__149dbae2__object_travel_distance_comparison__03": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "MOSE__149dbae2",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__1a6a731f__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "MOSE__1a6a731f",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__1b7eada8__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__1b7eada8",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__1d29944c__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "MOSE__1d29944c",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__1d29944c__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "MOSE__1d29944c",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__1e95ef5e__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__1e95ef5e",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__1e95ef5e__object_pair_distance_change__03": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__1e95ef5e",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__265a69f4__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "MOSE__265a69f4",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__265a69f4__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__265a69f4",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__2d3b0320__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__2d3b0320",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__2d8d7d35__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "MOSE__2d8d7d35",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__2d8d7d35__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__2d8d7d35",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__2eb73c7c__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__2eb73c7c",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__2f477d05__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "MOSE__2f477d05",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__2f477d05__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "MOSE__2f477d05",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "MOSE__31b09833__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "MOSE__31b09833",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "MOSE__31b09833__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__31b09833",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__31b09833__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__31b09833",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "MOSE__31b09833__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "MOSE__31b09833",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "MOSE__31b09833__object_travel_distance_comparison__04": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "MOSE__31b09833",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "MOSE__32e5d721__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "MOSE__32e5d721",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__3592425a__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__3592425a",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__3592425a__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "MOSE__3592425a",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__376dd830__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "MOSE__376dd830",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__39cc637e__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "MOSE__39cc637e",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__3d08dadd__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__3d08dadd",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__3d08dadd__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "MOSE__3d08dadd",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__3da63bd5__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__3da63bd5",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__3da63bd5__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "MOSE__3da63bd5",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__3da63bd5__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "MOSE__3da63bd5",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__4023fc77__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "MOSE__4023fc77",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__4023fc77__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "MOSE__4023fc77",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__405e3ee7__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__405e3ee7",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__4f5db794__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "MOSE__4f5db794",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__4f5db794__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "MOSE__4f5db794",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__52fa9174__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "MOSE__52fa9174",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__52fa9174__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "MOSE__52fa9174",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__52fa9174__object_pair_distance_change__03": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__52fa9174",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__52fa9174__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "MOSE__52fa9174",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__5457b298__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__5457b298",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__5457b298__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "MOSE__5457b298",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__5457b298__object_world_motion_direction__03": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "MOSE__5457b298",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__54b8f502__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "MOSE__54b8f502",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__58f24fa4__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "MOSE__58f24fa4",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__58f24fa4__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "MOSE__58f24fa4",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__59750be4__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__59750be4",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__59750be4__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__59750be4",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "MOSE__5a723c30__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "MOSE__5a723c30",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__5a723c30__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__5a723c30",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__5c80c82c__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "MOSE__5c80c82c",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "MOSE__5e167efa__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "MOSE__5e167efa",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__5e167efa__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__5e167efa",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__61cf0ec8__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__61cf0ec8",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__61cf0ec8__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__61cf0ec8",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__62132822__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "MOSE__62132822",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__63f138de__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "MOSE__63f138de",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__63f138de__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__63f138de",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__6487110a__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "MOSE__6487110a",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__657242e8__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__657242e8",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__657242e8__object_world_motion_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "MOSE__657242e8",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__65856fa0__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__65856fa0",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__65856fa0__camera_object_distance_change__04": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__65856fa0",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__65856fa0__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__65856fa0",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__65856fa0__object_pair_distance_change__05": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "MOSE__65856fa0",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__65856fa0__object_travel_distance_comparison__06": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "MOSE__65856fa0",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "MOSE__65856fa0__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "MOSE__65856fa0",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__65856fa0__object_world_motion_direction__03": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__65856fa0",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__6a3bc149__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "MOSE__6a3bc149",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__6a3bc149__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "MOSE__6a3bc149",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__6a428397__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__6a428397",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__75d26197__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "MOSE__75d26197",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__75d26197__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "MOSE__75d26197",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__77e246da__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "MOSE__77e246da",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__7ade3068__camera_object_distance_change__03": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__7ade3068",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__7ade3068__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__7ade3068",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__7ade3068__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__7ade3068",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__7ade3068__object_world_motion_direction__02": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "MOSE__7ade3068",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__7bc95dc2__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__7bc95dc2",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__8620c024__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__8620c024",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__8620c024__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "MOSE__8620c024",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__89b671bb__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__89b671bb",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__89b671bb__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "MOSE__89b671bb",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "MOSE__89b671bb__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "MOSE__89b671bb",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__8c494902__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__8c494902",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__8fa50320__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "MOSE__8fa50320",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "MOSE__8fa50320__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "MOSE__8fa50320",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__8fa50320__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__8fa50320",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "MOSE__8fa50320__object_pair_distance_change__03": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__8fa50320",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "MOSE__91b754c5__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "MOSE__91b754c5",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__9421b9ad__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__9421b9ad",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__95215aa1__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "MOSE__95215aa1",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__95cf72d7__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "MOSE__95cf72d7",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__97b0811e__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__97b0811e",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__97b0811e__camera_object_distance_change__04": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__97b0811e",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__97b0811e__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__97b0811e",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__97b0811e__object_pair_distance_change__05": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "MOSE__97b0811e",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__97b0811e__object_travel_distance_comparison__06": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "MOSE__97b0811e",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "MOSE__97b0811e__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "MOSE__97b0811e",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__97b0811e__object_world_motion_direction__03": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "MOSE__97b0811e",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__9dfa2cc5__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__9dfa2cc5",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__9dfa2cc5__camera_object_distance_change__04": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__9dfa2cc5",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__9dfa2cc5__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__9dfa2cc5",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__9dfa2cc5__object_pair_distance_change__05": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "MOSE__9dfa2cc5",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "MOSE__9dfa2cc5__object_travel_distance_comparison__06": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "MOSE__9dfa2cc5",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "MOSE__9dfa2cc5__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__9dfa2cc5",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__9dfa2cc5__object_world_motion_direction__03": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__9dfa2cc5",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__a14de179__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "MOSE__a14de179",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__a988ec74__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "MOSE__a988ec74",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__b0d09e6a__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__b0d09e6a",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__b12701b7__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "MOSE__b12701b7",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__b12701b7__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "MOSE__b12701b7",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__b12701b7__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__b12701b7",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__b12701b7__object_pair_distance_change__03": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "MOSE__b12701b7",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__b12701b7__object_travel_distance_comparison__04": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "MOSE__b12701b7",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__bbe97d18__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "MOSE__bbe97d18",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__beb693c9__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "MOSE__beb693c9",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__beb693c9__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "MOSE__beb693c9",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__c062f4d7__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "MOSE__c062f4d7",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__c33adbc2__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "MOSE__c33adbc2",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__c7e745ed__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "MOSE__c7e745ed",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__c8f0fd41__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "MOSE__c8f0fd41",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__cb170015__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__cb170015",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__cb8eedf4__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "MOSE__cb8eedf4",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__cb8eedf4__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__cb8eedf4",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__cfc68a82__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__cfc68a82",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__cfc68a82__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "MOSE__cfc68a82",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__cfc68a82__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "MOSE__cfc68a82",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__d25ff89d__camera_object_distance_change__00": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "MOSE__d25ff89d",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__d25ff89d__object_travel_distance_comparison__01": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "MOSE__d25ff89d",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__d2aa8c66__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "MOSE__d2aa8c66",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__d2aa8c66__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "MOSE__d2aa8c66",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__d321dde4__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "MOSE__d321dde4",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__d321dde4__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__d321dde4",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__d321dde4__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "MOSE__d321dde4",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__d321dde4__object_travel_distance_comparison__03": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "MOSE__d321dde4",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__d7969c29__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "MOSE__d7969c29",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "MOSE__dae93f5c__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "MOSE__dae93f5c",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__dae93f5c__object_travel_distance_comparison__02": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "MOSE__dae93f5c",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__dae93f5c__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "MOSE__dae93f5c",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__dbbbb401__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "MOSE__dbbbb401",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__dbbbb401__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "MOSE__dbbbb401",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__dbbbb401__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "MOSE__dbbbb401",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__dbbbb401__object_travel_distance_comparison__04": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "MOSE__dbbbb401",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__dbbbb401__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "MOSE__dbbbb401",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "MOSE__e35a8262__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__e35a8262",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "MOSE__e4a72496__camera_object_distance_change__00": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "MOSE__e4a72496",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__e4a72496__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "MOSE__e4a72496",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__f33d3c15__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "MOSE__f33d3c15",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__f4c4a2ca__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "MOSE__f4c4a2ca",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__f7935d24__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "MOSE__f7935d24",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__f7935d24__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "MOSE__f7935d24",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__f7935d24__object_pair_distance_change__02": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "MOSE__f7935d24",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__f7935d24__object_travel_distance_comparison__03": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "MOSE__f7935d24",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__f8916fef__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "MOSE__f8916fef",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__f8916fef__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "MOSE__f8916fef",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__f8916fef__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "MOSE__f8916fef",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "MOSE__f8916fef__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "MOSE__f8916fef",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "MOSE__f8916fef__object_travel_distance_comparison__04": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "MOSE__f8916fef",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "MOSE__f8e5f837__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "MOSE__f8e5f837",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__fa95a6a2__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "MOSE__fa95a6a2",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "MOSE__fb16e746__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "MOSE__fb16e746",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "MOSE__ff041cd1__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "MOSE__ff041cd1",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "SAV__sav_001982_manual__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "SAV__sav_001982_manual",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "SAV__sav_002251_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_002251_manual",
+    "task": "camera_translation_direction",
+    "group": "LHH"
+  },
+  "SAV__sav_002251_manual__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "SAV__sav_002251_manual",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "SAV__sav_003216_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_003216_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_013621_manual__camera_object_distance_change__03": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "SAV__sav_013621_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_013621_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "SAV__sav_013621_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_013621_manual__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "SAV__sav_013621_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_013621_manual__object_pair_distance_change__04": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "SAV__sav_013621_manual",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_013621_manual__object_travel_distance_comparison__05": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "SAV__sav_013621_manual",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "SAV__sav_013621_manual__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_013621_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_015437_manual__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "SAV__sav_015437_manual",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "SAV__sav_015437_manual__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "SAV__sav_015437_manual",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "SAV__sav_015437_manual__object_travel_distance_comparison__03": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "SAV__sav_015437_manual",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "SAV__sav_015437_manual__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "SAV__sav_015437_manual",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "SAV__sav_016153_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "SAV__sav_016153_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_016310_manual__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "SAV__sav_016310_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_016310_manual__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "SAV__sav_016310_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_016310_manual__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "SAV__sav_016310_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_016663_manual__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "SAV__sav_016663_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_017665_manual__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "SAV__sav_017665_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_017833_manual__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "SAV__sav_017833_manual",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "SAV__sav_017833_manual__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "SAV__sav_017833_manual",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "SAV__sav_017833_manual__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "SAV__sav_017833_manual",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "SAV__sav_017974_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "SAV__sav_017974_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_017974_manual__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "SAV__sav_017974_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_017974_manual__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_017974_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_018431_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_018431_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_018550_manual__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "SAV__sav_018550_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_018550_manual__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "SAV__sav_018550_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_018686_manual__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "SAV__sav_018686_manual",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "SAV__sav_020716_manual__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "SAV__sav_020716_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_020990_manual__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "SAV__sav_020990_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_020990_manual__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_020990_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_021393_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "SAV__sav_021393_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_021874_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_021874_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_022166_manual__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "SAV__sav_022166_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_022166_manual__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "SAV__sav_022166_manual",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "SAV__sav_022166_manual__object_travel_distance_comparison__03": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "SAV__sav_022166_manual",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "SAV__sav_022166_manual__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "SAV__sav_022166_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_023855_manual__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "SAV__sav_023855_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_023855_manual__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "SAV__sav_023855_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024015_manual__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "SAV__sav_024015_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024015_manual__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "SAV__sav_024015_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024015_manual__object_travel_distance_comparison__04": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "SAV__sav_024015_manual",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "SAV__sav_024015_manual__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_024015_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024015_manual__object_world_motion_direction__03": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "SAV__sav_024015_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024144_manual__camera_object_distance_change__03": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "SAV__sav_024144_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024144_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_024144_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024144_manual__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "SAV__sav_024144_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024144_manual__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_024144_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024544_manual__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "SAV__sav_024544_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024544_manual__camera_object_distance_change__05": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "SAV__sav_024544_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024544_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_024544_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024544_manual__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "SAV__sav_024544_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024544_manual__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "SAV__sav_024544_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024544_manual__object_world_motion_direction__04": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "SAV__sav_024544_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024785_manual__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "SAV__sav_024785_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024785_manual__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_024785_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_024785_manual__camera_view_direction_change__01": {
+    "answer": "up",
+    "answer_index": 1,
+    "video_id": "SAV__sav_024785_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_024863_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_024863_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_025300_manual__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "SAV__sav_025300_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_025300_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_025300_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_025300_manual__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "SAV__sav_025300_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_025300_manual__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "SAV__sav_025300_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_025398_manual__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "SAV__sav_025398_manual",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "SAV__sav_025398_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_025398_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_025398_manual__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "SAV__sav_025398_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_025430_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "SAV__sav_025430_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_025430_manual__object_pair_distance_change__03": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "SAV__sav_025430_manual",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "SAV__sav_025430_manual__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_025430_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_025430_manual__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "SAV__sav_025430_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_025445_manual__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_025445_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_025517_manual__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "SAV__sav_025517_manual",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "SAV__sav_025517_manual__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "SAV__sav_025517_manual",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "SAV__sav_026796_manual__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "SAV__sav_026796_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_026796_manual__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "SAV__sav_026796_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_026796_manual__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "SAV__sav_026796_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_026911_manual__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "SAV__sav_026911_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_026911_manual__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "SAV__sav_026911_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_026911_manual__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_026911_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_027268_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_027268_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_027268_manual__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "SAV__sav_027268_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_027604_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_027604_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_027897_manual__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "SAV__sav_027897_manual",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "SAV__sav_027897_manual__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "SAV__sav_027897_manual",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "SAV__sav_027897_manual__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "SAV__sav_027897_manual",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "SAV__sav_028490_manual__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "SAV__sav_028490_manual",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "SAV__sav_028490_manual__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "SAV__sav_028490_manual",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_028490_manual__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "SAV__sav_028490_manual",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "SAV__sav_028492_manual__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "SAV__sav_028492_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_028492_manual__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "SAV__sav_028492_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_028492_manual__object_world_motion_direction__02": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "SAV__sav_028492_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_029089_manual__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "SAV__sav_029089_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_029089_manual__camera_object_distance_change__05": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "SAV__sav_029089_manual",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "SAV__sav_029089_manual__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_029089_manual",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_029089_manual__camera_view_direction_change__01": {
+    "answer": "down",
+    "answer_index": 1,
+    "video_id": "SAV__sav_029089_manual",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "SAV__sav_029089_manual__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "SAV__sav_029089_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "SAV__sav_029089_manual__object_world_motion_direction__04": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "SAV__sav_029089_manual",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__1005_cut_potato__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__1005_cut_potato",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__1005_cut_potato__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__1005_cut_potato",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__1006_cut_onion__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "VOST__1006_cut_onion",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__1008_peel_cabbage__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__1008_peel_cabbage",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__10343_smooth_wood__camera_object_distance_change__00": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "VOST__10343_smooth_wood",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "VOST__10364_grate_carrot__camera_translation_direction__00": {
+    "answer": "up",
+    "answer_index": 1,
+    "video_id": "VOST__10364_grate_carrot",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__10364_grate_carrot__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__10364_grate_carrot",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__10364_grate_carrot__object_travel_distance_comparison__03": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__10364_grate_carrot",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__10364_grate_carrot__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "VOST__10364_grate_carrot",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__10379_sand_wood__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 1,
+    "video_id": "VOST__10379_sand_wood",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__10379_sand_wood__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "VOST__10379_sand_wood",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__10574_weld_iron__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "VOST__10574_weld_iron",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "VOST__10624_separate_dough__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__10624_separate_dough",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__10624_separate_dough__object_world_motion_direction__00": {
+    "answer": "down",
+    "answer_index": 5,
+    "video_id": "VOST__10624_separate_dough",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__10698_cut_paper__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "VOST__10698_cut_paper",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__10698_cut_paper__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "VOST__10698_cut_paper",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__10698_cut_paper__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__10698_cut_paper",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__10701_cut_cake__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__10701_cut_cake",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__1186_cut_chilli__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__1186_cut_chilli",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__1186_cut_chilli__object_travel_distance_comparison__02": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "VOST__1186_cut_chilli",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__1186_cut_chilli__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "VOST__1186_cut_chilli",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__1200_cut_onion__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "VOST__1200_cut_onion",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__1292_cut_cake__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "VOST__1292_cut_cake",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__1293_cut_mozzarella__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "VOST__1293_cut_mozzarella",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__1293_cut_mozzarella__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "VOST__1293_cut_mozzarella",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__1389_peel_banana__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__1389_peel_banana",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__1398_cut_ginger__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "VOST__1398_cut_ginger",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__1445_cut_carrot__object_travel_distance_comparison__00": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__1445_cut_carrot",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__1454_cut_carrot__object_travel_distance_comparison__00": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "VOST__1454_cut_carrot",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__1456_cut_carrot__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "VOST__1456_cut_carrot",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__1456_cut_carrot__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "VOST__1456_cut_carrot",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__1837_open_jar__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "VOST__1837_open_jar",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__1896_crush_box__camera_view_direction_change__00": {
+    "answer": "down",
+    "answer_index": 1,
+    "video_id": "VOST__1896_crush_box",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "VOST__1896_crush_box__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__1896_crush_box",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__2539_mix_biscuit__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "VOST__2539_mix_biscuit",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__2596_mix_dough__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__2596_mix_dough",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__2731_scoop_vegetable__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "VOST__2731_scoop_vegetable",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__2731_scoop_vegetable__object_travel_distance_comparison__03": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "VOST__2731_scoop_vegetable",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__2731_scoop_vegetable__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "VOST__2731_scoop_vegetable",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__2731_scoop_vegetable__object_world_motion_direction__02": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__2731_scoop_vegetable",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__2765_scoop_jam__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "VOST__2765_scoop_jam",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__2788_scoop_jam__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "VOST__2788_scoop_jam",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__2788_scoop_jam__object_world_motion_direction__02": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__2788_scoop_jam",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__283_squeeze_lime__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__283_squeeze_lime",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__2840_scoop_food__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__2840_scoop_food",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3131_scrape_stirfry__object_travel_distance_comparison__00": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "VOST__3131_scrape_stirfry",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__3135_scrape_pan__object_pair_distance_change__00": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "VOST__3135_scrape_pan",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__3150_peel_fish__object_travel_distance_comparison__00": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__3150_peel_fish",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__3160_peel_banana__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__3160_peel_banana",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3177_peel_peach__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "VOST__3177_peel_peach",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3292_peel_garlic__camera_translation_direction__00": {
+    "answer": "up",
+    "answer_index": 1,
+    "video_id": "VOST__3292_peel_garlic",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3295_break_garlic__camera_translation_direction__00": {
+    "answer": "up",
+    "answer_index": 4,
+    "video_id": "VOST__3295_break_garlic",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3303_open_salmon__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "VOST__3303_open_salmon",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "VOST__3303_open_salmon__camera_translation_direction__00": {
+    "answer": "up",
+    "answer_index": 3,
+    "video_id": "VOST__3303_open_salmon",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3303_open_salmon__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "VOST__3303_open_salmon",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__3304_open_package__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__3304_open_package",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3304_open_package__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "VOST__3304_open_package",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__3304_open_package__object_travel_distance_comparison__03": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "VOST__3304_open_package",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__3304_open_package__object_world_motion_direction__01": {
+    "answer": "up",
+    "answer_index": 2,
+    "video_id": "VOST__3304_open_package",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__3305_peel_fish__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 1,
+    "video_id": "VOST__3305_peel_fish",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3305_peel_fish__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "VOST__3305_peel_fish",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__3317_peel_onion__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__3317_peel_onion",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3317_peel_onion__camera_view_direction_change__01": {
+    "answer": "up",
+    "answer_index": 0,
+    "video_id": "VOST__3317_peel_onion",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__3318_peel_potato__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__3318_peel_potato",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3318_peel_potato__object_world_motion_direction__01": {
+    "answer": "up",
+    "answer_index": 5,
+    "video_id": "VOST__3318_peel_potato",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__3321_peel_onion__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "VOST__3321_peel_onion",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3322_peel_potato__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__3322_peel_potato",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3322_peel_potato__object_world_motion_direction__01": {
+    "answer": "down",
+    "answer_index": 4,
+    "video_id": "VOST__3322_peel_potato",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__3345_peel_courgette__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "VOST__3345_peel_courgette",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3447_squeeze_sausage__object_travel_distance_comparison__00": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__3447_squeeze_sausage",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__3496_peel_onion__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "VOST__3496_peel_onion",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3687_rip_foil__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "VOST__3687_rip_foil",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3687_rip_foil__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "VOST__3687_rip_foil",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__3702_grate_cheese__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 0,
+    "video_id": "VOST__3702_grate_cheese",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__3702_grate_cheese__object_world_motion_direction__01": {
+    "answer": "up",
+    "answer_index": 5,
+    "video_id": "VOST__3702_grate_cheese",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__3823_cut_paper__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__3823_cut_paper",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__3827_cut_paper__object_travel_distance_comparison__00": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__3827_cut_paper",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__3840_divide_dough__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "VOST__3840_divide_dough",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__4016_cut_herbs__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 1,
+    "video_id": "VOST__4016_cut_herbs",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4016_cut_herbs__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "VOST__4016_cut_herbs",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__4053_saw_wood__object_pair_distance_change__00": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "VOST__4053_saw_wood",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__4057_break_garlic__object_travel_distance_comparison__01": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "VOST__4057_break_garlic",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__4057_break_garlic__object_world_motion_direction__00": {
+    "answer": "down",
+    "answer_index": 4,
+    "video_id": "VOST__4057_break_garlic",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__4079_cut_pea__object_pair_distance_change__00": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "VOST__4079_cut_pea",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__4079_cut_pea__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__4079_cut_pea",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__4174_cut_cloth__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__4174_cut_cloth",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4176_cut_cloth__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "VOST__4176_cut_cloth",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4176_cut_cloth__camera_view_direction_change__01": {
+    "answer": "up",
+    "answer_index": 0,
+    "video_id": "VOST__4176_cut_cloth",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__4198_open_container__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__4198_open_container",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4210_cut_zucchini__camera_translation_direction__00": {
+    "answer": "up",
+    "answer_index": 1,
+    "video_id": "VOST__4210_cut_zucchini",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__455_fold_box__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 3,
+    "video_id": "VOST__455_fold_box",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4626_cut_paper__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "VOST__4626_cut_paper",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4632_cut_paper__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "VOST__4632_cut_paper",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "VOST__4632_cut_paper__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "VOST__4632_cut_paper",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__4632_cut_paper__object_pair_distance_change__02": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__4632_cut_paper",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__4663_cut_ginger__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "VOST__4663_cut_ginger",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4690_cut_guava__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "VOST__4690_cut_guava",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4690_cut_guava__camera_view_direction_change__01": {
+    "answer": "down",
+    "answer_index": 2,
+    "video_id": "VOST__4690_cut_guava",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__4691_cut_guava__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "VOST__4691_cut_guava",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__4836_peel_root__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 5,
+    "video_id": "VOST__4836_peel_root",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4900_cut_pumpkin__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__4900_cut_pumpkin",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4900_cut_pumpkin__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__4900_cut_pumpkin",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__4981_saw_wood__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__4981_saw_wood",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__4981_saw_wood__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__4981_saw_wood",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__502_cut_aubergine__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__502_cut_aubergine",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5033_cut_paper__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "VOST__5033_cut_paper",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5074_open_phone__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "VOST__5074_open_phone",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5074_open_phone__camera_view_direction_change__01": {
+    "answer": "down",
+    "answer_index": 0,
+    "video_id": "VOST__5074_open_phone",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__5179_unpack_meat__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "VOST__5179_unpack_meat",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5179_unpack_meat__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__5179_unpack_meat",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__5212_open_blender__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "VOST__5212_open_blender",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5253_open_package__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__5253_open_package",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5263_open_engine__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__5263_open_engine",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5263_open_engine__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__5263_open_engine",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__5288_open_box__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__5288_open_box",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__531_cut_potato__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__531_cut_potato",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5323_open_container__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 1,
+    "video_id": "VOST__5323_open_container",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__532_cut_potato__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "VOST__532_cut_potato",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__533_cut_asparagus__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "VOST__533_cut_asparagus",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__533_cut_asparagus__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "VOST__533_cut_asparagus",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__5342_open_bag__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__5342_open_bag",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__5783_apply_paint__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "VOST__5783_apply_paint",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__5788_apply_paint__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__5788_apply_paint",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__6077_wash_cloth__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "VOST__6077_wash_cloth",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__6099_spread_glue__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "VOST__6099_spread_glue",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__6099_spread_glue__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__6099_spread_glue",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__6099_spread_glue__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__6099_spread_glue",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__6101_spread_glue__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "VOST__6101_spread_glue",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__6152_knead_dough__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__6152_knead_dough",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__6209_apply_paint__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "VOST__6209_apply_paint",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__6268_apply_paint__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__6268_apply_paint",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__6268_apply_paint__object_pair_distance_change__02": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "VOST__6268_apply_paint",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__6268_apply_paint__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__6268_apply_paint",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__6315_apply_paint__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__6315_apply_paint",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__6315_apply_paint__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__6315_apply_paint",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__6315_apply_paint__object_world_motion_direction__00": {
+    "answer": "up",
+    "answer_index": 5,
+    "video_id": "VOST__6315_apply_paint",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__6342_apply_paint__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "VOST__6342_apply_paint",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "VOST__6342_apply_paint__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "VOST__6342_apply_paint",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__6404_apply_pencil__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "VOST__6404_apply_pencil",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "VOST__6404_apply_pencil__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "VOST__6404_apply_pencil",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__6404_apply_pencil__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "VOST__6404_apply_pencil",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__6404_apply_pencil__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__6404_apply_pencil",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__6407_apply_pencil__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__6407_apply_pencil",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__6407_apply_pencil__object_world_motion_direction__00": {
+    "answer": "down",
+    "answer_index": 3,
+    "video_id": "VOST__6407_apply_pencil",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__6409_paint_plate__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__6409_paint_plate",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__6417_apply_pencil__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "VOST__6417_apply_pencil",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__6417_apply_pencil__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__6417_apply_pencil",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__6490_apply_paint__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "VOST__6490_apply_paint",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__6863_spread_cards__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "VOST__6863_spread_cards",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__700_peel_onion__object_travel_distance_comparison__00": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__700_peel_onion",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__707_cut_butter__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__707_cut_butter",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__7088_spread_cards__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "VOST__7088_spread_cards",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__7088_spread_cards__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__7088_spread_cards",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__710_cut_paper__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "VOST__710_cut_paper",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__710_cut_paper__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "VOST__710_cut_paper",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__710_cut_paper__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__710_cut_paper",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__718_cut_pepper__object_world_motion_direction__00": {
+    "answer": "up",
+    "answer_index": 0,
+    "video_id": "VOST__718_cut_pepper",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__7202_clean_car__object_pair_distance_change__00": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__7202_clean_car",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__7202_clean_car__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__7202_clean_car",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__724_cut_cake__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "VOST__724_cut_cake",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__7359_fold_tape_measure__camera_translation_direction__00": {
+    "answer": "up",
+    "answer_index": 5,
+    "video_id": "VOST__7359_fold_tape_measure",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__739_cut_onion__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "VOST__739_cut_onion",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__7623_saw_wood__camera_translation_direction__00": {
+    "answer": "down",
+    "answer_index": 3,
+    "video_id": "VOST__7623_saw_wood",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__7786_break_puzzle__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "VOST__7786_break_puzzle",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__801_cut_chicken__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "VOST__801_cut_chicken",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__801_cut_chicken__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__801_cut_chicken",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__801_cut_chicken__object_world_motion_direction__02": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__801_cut_chicken",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__810_cut_dough__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "VOST__810_cut_dough",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__810_cut_dough__camera_view_direction_change__01": {
+    "answer": "down",
+    "answer_index": 3,
+    "video_id": "VOST__810_cut_dough",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__8267_pour_flour__object_pair_distance_change__00": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "VOST__8267_pour_flour",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "VOST__8601_peel_ginger__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "VOST__8601_peel_ginger",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__8679_roll_dough__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__8679_roll_dough",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__8918_eat_food__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "VOST__8918_eat_food",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "VOST__8918_eat_food__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "VOST__8918_eat_food",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__8921_eat_food__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "VOST__8921_eat_food",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__9119_break_nut__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "VOST__9119_break_nut",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__9258_split_cards__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__9258_split_cards",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__9285_apply_paint__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "VOST__9285_apply_paint",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__9285_apply_paint__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__9285_apply_paint",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__9285_apply_paint__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "VOST__9285_apply_paint",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__928_cut_chicken__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "VOST__928_cut_chicken",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__928_cut_chicken__object_travel_distance_comparison__01": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "VOST__928_cut_chicken",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__9291_apply_paint__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "VOST__9291_apply_paint",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__9366_pour_batter__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "VOST__9366_pour_batter",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__9368_pour_batter__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "VOST__9368_pour_batter",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "VOST__9368_pour_batter__object_world_motion_direction__00": {
+    "answer": "up",
+    "answer_index": 0,
+    "video_id": "VOST__9368_pour_batter",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__9369_scoop_batter__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "VOST__9369_scoop_batter",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__9369_scoop_batter__object_world_motion_direction__00": {
+    "answer": "down",
+    "answer_index": 3,
+    "video_id": "VOST__9369_scoop_batter",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__9370_scoop_batter__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__9370_scoop_batter",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__9370_scoop_batter__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__9370_scoop_batter",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "VOST__9370_scoop_batter__object_world_motion_direction__01": {
+    "answer": "down",
+    "answer_index": 4,
+    "video_id": "VOST__9370_scoop_batter",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__9398_scoop_cement__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "VOST__9398_scoop_cement",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__9398_scoop_cement__camera_view_direction_change__01": {
+    "answer": "up",
+    "answer_index": 2,
+    "video_id": "VOST__9398_scoop_cement",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__9688_divide_dough__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "VOST__9688_divide_dough",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__971_cut_onion__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__971_cut_onion",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "VOST__971_cut_onion__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__971_cut_onion",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "VOST__971_cut_onion__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "VOST__971_cut_onion",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "VOST__9857_sew_cloth__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__9857_sew_cloth",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__9857_sew_cloth__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "VOST__9857_sew_cloth",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "VOST__994_cut_onion__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "VOST__994_cut_onion",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__994_cut_onion__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "VOST__994_cut_onion",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "VOST__996_cut_bacon__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "VOST__996_cut_bacon",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "VOST__996_cut_bacon__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "VOST__996_cut_bacon",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__-327uLLh08w__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__-327uLLh08w",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__-3pWBL1TJZg__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "uvo__-3pWBL1TJZg",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "uvo__-3pWBL1TJZg__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "uvo__-3pWBL1TJZg",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__-5O_xxIpooE__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__-5O_xxIpooE",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-5O_xxIpooE__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__-5O_xxIpooE",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__-5O_xxIpooE__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__-5O_xxIpooE",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__-5kButbj9OE__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__-5kButbj9OE",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__-5kButbj9OE__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__-5kButbj9OE",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "uvo__-6VzhYhWDMY__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__-6VzhYhWDMY",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-6VzhYhWDMY__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "uvo__-6VzhYhWDMY",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__-BkcYlaP_gI__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__-BkcYlaP_gI",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__-BkcYlaP_gI__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__-BkcYlaP_gI",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-Fp5reKg40w__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "uvo__-Fp5reKg40w",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__-LenAZs2OFM__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__-LenAZs2OFM",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__-MYJtLnxUqY__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__-MYJtLnxUqY",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "uvo__-MYJtLnxUqY__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__-MYJtLnxUqY",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "uvo__-MYJtLnxUqY__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__-MYJtLnxUqY",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "uvo__-MYJtLnxUqY__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 0,
+    "video_id": "uvo__-MYJtLnxUqY",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "uvo__-MYJtLnxUqY__object_travel_distance_comparison__04": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "uvo__-MYJtLnxUqY",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "uvo__-RhNquKdM0M__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__-RhNquKdM0M",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__-T5iLC1Bm0g__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "uvo__-T5iLC1Bm0g",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__-T5iLC1Bm0g__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__-T5iLC1Bm0g",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-T5iLC1Bm0g__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__-T5iLC1Bm0g",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__-TUCIO1M01o__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__-TUCIO1M01o",
+    "task": "camera_translation_direction",
+    "group": "LHH"
+  },
+  "uvo__-TUCIO1M01o__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__-TUCIO1M01o",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__-TUCIO1M01o__object_world_motion_direction__02": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__-TUCIO1M01o",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__-UVoHU_lcfQ__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__-UVoHU_lcfQ",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__-UVoHU_lcfQ__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "uvo__-UVoHU_lcfQ",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__-V44aYCVuWU__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "uvo__-V44aYCVuWU",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-WkSAiei4r4__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__-WkSAiei4r4",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__-XmBkxUhfMQ__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__-XmBkxUhfMQ",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__-YCuMrVTf0U__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "uvo__-YCuMrVTf0U",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-cUGz7HAGBg__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "uvo__-cUGz7HAGBg",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__-cUGz7HAGBg__object_world_motion_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__-cUGz7HAGBg",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__-cUGz7HAGBg__object_world_motion_direction__02": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__-cUGz7HAGBg",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__-gcoV6rYgyE__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__-gcoV6rYgyE",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-gcoV6rYgyE__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__-gcoV6rYgyE",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__-heNc38TpNI__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__-heNc38TpNI",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__-jskAtCipd8__object_travel_distance_comparison__00": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "uvo__-jskAtCipd8",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__-k1jF9CkQ2A__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "uvo__-k1jF9CkQ2A",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__-nt0YjZdboY__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__-nt0YjZdboY",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-nt0YjZdboY__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__-nt0YjZdboY",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__-pOpjuLHCqk__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "uvo__-pOpjuLHCqk",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__-pOpjuLHCqk__camera_object_distance_change__03": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "uvo__-pOpjuLHCqk",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__-pOpjuLHCqk__object_world_motion_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__-pOpjuLHCqk",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__-pOpjuLHCqk__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__-pOpjuLHCqk",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__-pUiDc8X-To__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "uvo__-pUiDc8X-To",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-pUiDc8X-To__object_travel_distance_comparison__01": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "uvo__-pUiDc8X-To",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__-pWAEIT0HRo__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__-pWAEIT0HRo",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__-u59xQTOcmY__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__-u59xQTOcmY",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-xuVfmYKSsE__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__-xuVfmYKSsE",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__-xuVfmYKSsE__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__-xuVfmYKSsE",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__-xuVfmYKSsE__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__-xuVfmYKSsE",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__-zjCHnN9SdQ__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__-zjCHnN9SdQ",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__06DYNQ5z00E__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "uvo__06DYNQ5z00E",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "uvo__081YeOmMfRg__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__081YeOmMfRg",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__081YeOmMfRg__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "uvo__081YeOmMfRg",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0A61TZLTGGg__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__0A61TZLTGGg",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0BLyz0GTX8w__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__0BLyz0GTX8w",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0C3barg2QKI__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__0C3barg2QKI",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0DdXhnmSEbE__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__0DdXhnmSEbE",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__0DfXV_B7WvI__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__0DfXV_B7WvI",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0GUtW9-GQQw__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "uvo__0GUtW9-GQQw",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__0GpOe8tgrRo__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__0GpOe8tgrRo",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0GpOe8tgrRo__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__0GpOe8tgrRo",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0L3RDU3j3h4__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__0L3RDU3j3h4",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0L3RDU3j3h4__camera_view_direction_change__01": {
+    "answer": "down",
+    "answer_index": 2,
+    "video_id": "uvo__0L3RDU3j3h4",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0MVxFYLQbic__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__0MVxFYLQbic",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0NDp0DgOHxs__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__0NDp0DgOHxs",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0NUTcXmBjRs__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__0NUTcXmBjRs",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__0NUTcXmBjRs__camera_object_distance_change__05": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__0NUTcXmBjRs",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__0NUTcXmBjRs__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__0NUTcXmBjRs",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0NUTcXmBjRs__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "uvo__0NUTcXmBjRs",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0NUTcXmBjRs__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "uvo__0NUTcXmBjRs",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0NUTcXmBjRs__object_world_motion_direction__04": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__0NUTcXmBjRs",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0OFE-Ics0YU__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__0OFE-Ics0YU",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0P30A-kxQGo__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__0P30A-kxQGo",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0PX-e1Vszs4__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__0PX-e1Vszs4",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0Q5bI7XJYuE__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__0Q5bI7XJYuE",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__0QUYujr9t54__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__0QUYujr9t54",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__0R47I9RNtDY__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__0R47I9RNtDY",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0R47I9RNtDY__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__0R47I9RNtDY",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0Rr9z282Atw__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__0Rr9z282Atw",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__0Rr9z282Atw__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "uvo__0Rr9z282Atw",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__0SfGmvlluvs__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__0SfGmvlluvs",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0U5eS-mrCLo__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__0U5eS-mrCLo",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__0WaDbpdRZGc__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "uvo__0WaDbpdRZGc",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "uvo__0WaDbpdRZGc__camera_object_distance_change__04": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "uvo__0WaDbpdRZGc",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "uvo__0WaDbpdRZGc__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__0WaDbpdRZGc",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__0WaDbpdRZGc__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__0WaDbpdRZGc",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "uvo__0WaDbpdRZGc__object_world_motion_direction__03": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "uvo__0WaDbpdRZGc",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "uvo__0cSmJPgrEXE__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "uvo__0cSmJPgrEXE",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__0cSmJPgrEXE__camera_view_direction_change__00": {
+    "answer": "up",
+    "answer_index": 0,
+    "video_id": "uvo__0cSmJPgrEXE",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0cSmJPgrEXE__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "uvo__0cSmJPgrEXE",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0ewQXPz9kWk__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "uvo__0ewQXPz9kWk",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__0igSLIh3ntQ__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__0igSLIh3ntQ",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0igSLIh3ntQ__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__0igSLIh3ntQ",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0igSLIh3ntQ__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__0igSLIh3ntQ",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0igSLIh3ntQ__object_world_motion_direction__03": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__0igSLIh3ntQ",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0jQaeta58yI__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__0jQaeta58yI",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0jQaeta58yI__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__0jQaeta58yI",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0jQaeta58yI__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "uvo__0jQaeta58yI",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0lX9npPI08w__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__0lX9npPI08w",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0lp9mBNDAQM__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__0lp9mBNDAQM",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0oMNrDyWUEo__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "uvo__0oMNrDyWUEo",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0pbMyICJUPw__camera_view_direction_change__00": {
+    "answer": "up",
+    "answer_index": 1,
+    "video_id": "uvo__0pbMyICJUPw",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0pbMyICJUPw__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "uvo__0pbMyICJUPw",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__0pbMyICJUPw__object_world_motion_direction__01": {
+    "answer": "down",
+    "answer_index": 2,
+    "video_id": "uvo__0pbMyICJUPw",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0sCN0p4ZgeA__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__0sCN0p4ZgeA",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__0sCN0p4ZgeA__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__0sCN0p4ZgeA",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0sCN0p4ZgeA__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__0sCN0p4ZgeA",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__0sCN0p4ZgeA__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__0sCN0p4ZgeA",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__0ssER51PqQc__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__0ssER51PqQc",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__0vXBP5tdNtg__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__0vXBP5tdNtg",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__0vlR8sTEsXE__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__0vlR8sTEsXE",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0w_ShCl1xvg__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__0w_ShCl1xvg",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__0w_ShCl1xvg__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__0w_ShCl1xvg",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__0zCzhU85ESU__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__0zCzhU85ESU",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__1-HzoNEwKO4__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__1-HzoNEwKO4",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__1-HzoNEwKO4__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__1-HzoNEwKO4",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__1-HzoNEwKO4__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "uvo__1-HzoNEwKO4",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__1-HzoNEwKO4__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "uvo__1-HzoNEwKO4",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__12vWZg5BdG4__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__12vWZg5BdG4",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__13sohDAPS0g__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__13sohDAPS0g",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__14tjqjjjAEI__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "uvo__14tjqjjjAEI",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__14tjqjjjAEI__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "uvo__14tjqjjjAEI",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "uvo__14tjqjjjAEI__object_travel_distance_comparison__02": {
+    "answer": "B",
+    "answer_index": 1,
+    "video_id": "uvo__14tjqjjjAEI",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "uvo__15LSh_XPils__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__15LSh_XPils",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__161EH1x7Uxc__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__161EH1x7Uxc",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__161EH1x7Uxc__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__161EH1x7Uxc",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "uvo__16dDTSncELA__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__16dDTSncELA",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__16dDTSncELA__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__16dDTSncELA",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__16dDTSncELA__object_travel_distance_comparison__04": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "uvo__16dDTSncELA",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__16dDTSncELA__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__16dDTSncELA",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__16dDTSncELA__object_world_motion_direction__03": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__16dDTSncELA",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__17iNFBWzqOg__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__17iNFBWzqOg",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__17v7761cTMU__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__17v7761cTMU",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__17v7761cTMU__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "uvo__17v7761cTMU",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__17v7761cTMU__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "uvo__17v7761cTMU",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__19PvF8GoPp4__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__19PvF8GoPp4",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__1AXnss7WdJI__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__1AXnss7WdJI",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__1CTlE-tPD_A__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__1CTlE-tPD_A",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__1CTlE-tPD_A__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__1CTlE-tPD_A",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__1EEIjxNmFgk__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__1EEIjxNmFgk",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__1EEIjxNmFgk__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "uvo__1EEIjxNmFgk",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "uvo__1EEIjxNmFgk__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "uvo__1EEIjxNmFgk",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "uvo__1EVYUcLNXbE__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "uvo__1EVYUcLNXbE",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "uvo__1EVYUcLNXbE__object_travel_distance_comparison__02": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "uvo__1EVYUcLNXbE",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "uvo__1EVYUcLNXbE__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "uvo__1EVYUcLNXbE",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__1EdD1OkUrLs__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__1EdD1OkUrLs",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__1EdD1OkUrLs__object_pair_distance_change__01": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "uvo__1EdD1OkUrLs",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "uvo__1Gez2PibPlg__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__1Gez2PibPlg",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__1Gez2PibPlg__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "uvo__1Gez2PibPlg",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__1J109MGAspk__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__1J109MGAspk",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__1K4FIaiPL6I__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__1K4FIaiPL6I",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__1K4FIaiPL6I__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "uvo__1K4FIaiPL6I",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__1K5OXfQF4NA__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__1K5OXfQF4NA",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__1K5OXfQF4NA__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__1K5OXfQF4NA",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__1KO4KH5i1rk__camera_view_direction_change__00": {
+    "answer": "up",
+    "answer_index": 1,
+    "video_id": "uvo__1KO4KH5i1rk",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__1LS1eWN_TbE__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__1LS1eWN_TbE",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "uvo__1LS1eWN_TbE__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "uvo__1LS1eWN_TbE",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__1PQcIT6UuZo__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__1PQcIT6UuZo",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__1PQcIT6UuZo__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__1PQcIT6UuZo",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__1PQcIT6UuZo__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "uvo__1PQcIT6UuZo",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__1U3F4rtpMHs__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__1U3F4rtpMHs",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__1U3F4rtpMHs__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "uvo__1U3F4rtpMHs",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "uvo__1U3F4rtpMHs__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__1U3F4rtpMHs",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__1WOies49wDc__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "uvo__1WOies49wDc",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__1WOies49wDc__object_world_motion_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__1WOies49wDc",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__1_mioTBdjgM__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__1_mioTBdjgM",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__1dvRF5N2BIs__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__1dvRF5N2BIs",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__1dvRF5N2BIs__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__1dvRF5N2BIs",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__1l84CF_6o5w__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__1l84CF_6o5w",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__1l84CF_6o5w__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__1l84CF_6o5w",
+    "task": "camera_translation_direction",
+    "group": "LHH"
+  },
+  "uvo__1l84CF_6o5w__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "uvo__1l84CF_6o5w",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__1l84CF_6o5w__object_world_motion_direction__02": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__1l84CF_6o5w",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__1l84CF_6o5w__object_world_motion_direction__04": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__1l84CF_6o5w",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__21m7Y8hto2o__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__21m7Y8hto2o",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__21m7Y8hto2o__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__21m7Y8hto2o",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "uvo__2Bmjw4OGE2U__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__2Bmjw4OGE2U",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__2FMF6BhiVqs__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__2FMF6BhiVqs",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__2FMF6BhiVqs__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "uvo__2FMF6BhiVqs",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__2HSFfjEXKlU__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__2HSFfjEXKlU",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__2IjLUjatXNY__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "uvo__2IjLUjatXNY",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__2NeC5vzrP20__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__2NeC5vzrP20",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__2QeFt-2QcQw__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__2QeFt-2QcQw",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__2gDXSXMQOwo__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__2gDXSXMQOwo",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__2gDXSXMQOwo__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__2gDXSXMQOwo",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "uvo__32X8SJ-nFGI__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__32X8SJ-nFGI",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "uvo__39TjWkmBseY__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "uvo__39TjWkmBseY",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__39TjWkmBseY__camera_object_distance_change__04": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "uvo__39TjWkmBseY",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "uvo__39TjWkmBseY__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__39TjWkmBseY",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__39TjWkmBseY__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "uvo__39TjWkmBseY",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__39TjWkmBseY__object_world_motion_direction__03": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__39TjWkmBseY",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "uvo__3GTEJEh-bC8__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__3GTEJEh-bC8",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__3GTEJEh-bC8__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "uvo__3GTEJEh-bC8",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__3GTEJEh-bC8__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "uvo__3GTEJEh-bC8",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__3k8PCuYldBs__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__3k8PCuYldBs",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__3k8PCuYldBs__camera_view_direction_change__01": {
+    "answer": "up",
+    "answer_index": 1,
+    "video_id": "uvo__3k8PCuYldBs",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__3k8PCuYldBs__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "uvo__3k8PCuYldBs",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__3k8PCuYldBs__object_world_motion_direction__03": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "uvo__3k8PCuYldBs",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__40SoUIggUEw__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__40SoUIggUEw",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__40SoUIggUEw__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "uvo__40SoUIggUEw",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__40SoUIggUEw__object_pair_distance_change__04": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "uvo__40SoUIggUEw",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "uvo__40SoUIggUEw__object_travel_distance_comparison__05": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "uvo__40SoUIggUEw",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__40SoUIggUEw__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "uvo__40SoUIggUEw",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__40SoUIggUEw__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "uvo__40SoUIggUEw",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__43QnKFB8tW8__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "uvo__43QnKFB8tW8",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "uvo__44qN_OJUGLk__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__44qN_OJUGLk",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__4VZUCNBf1P4__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__4VZUCNBf1P4",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__4VZUCNBf1P4__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 1,
+    "video_id": "uvo__4VZUCNBf1P4",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__4VZUCNBf1P4__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "uvo__4VZUCNBf1P4",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "uvo__4VZUCNBf1P4__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "uvo__4VZUCNBf1P4",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__4Z6f8pFs-G4__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__4Z6f8pFs-G4",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__4Z6f8pFs-G4__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "uvo__4Z6f8pFs-G4",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__4eRwcuIRiCg__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__4eRwcuIRiCg",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__4kjSczWgOS8__camera_object_distance_change__00": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__4kjSczWgOS8",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__4kjSczWgOS8__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__4kjSczWgOS8",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__4ul7FGez_V8__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "uvo__4ul7FGez_V8",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__55rkeqdUVK4__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "uvo__55rkeqdUVK4",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__5ZDcQMSeOUo__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "uvo__5ZDcQMSeOUo",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "uvo__5hCBTx6i9Rk__object_pair_distance_change__00": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "uvo__5hCBTx6i9Rk",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "uvo__5unu_IlrT7E__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__5unu_IlrT7E",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__GRDtDxRR1uE__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__GRDtDxRR1uE",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__GRDtDxRR1uE__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__GRDtDxRR1uE",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__GRDtDxRR1uE__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__GRDtDxRR1uE",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__GXbWyROGNa8__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "uvo__GXbWyROGNa8",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "uvo__NMKc_U02sxY__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "uvo__NMKc_U02sxY",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__ehKx69TyL5Q__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "uvo__ehKx69TyL5Q",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "uvo__ehKx69TyL5Q__object_pair_distance_change__02": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "uvo__ehKx69TyL5Q",
+    "task": "object_pair_distance_change",
+    "group": "HHH"
+  },
+  "uvo__ehKx69TyL5Q__object_travel_distance_comparison__03": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "uvo__ehKx69TyL5Q",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "uvo__ehKx69TyL5Q__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "uvo__ehKx69TyL5Q",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__nUEZNKi_98Y__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "uvo__nUEZNKi_98Y",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__nUEZNKi_98Y__camera_object_distance_change__04": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "uvo__nUEZNKi_98Y",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "uvo__nUEZNKi_98Y__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "uvo__nUEZNKi_98Y",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "uvo__nUEZNKi_98Y__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "uvo__nUEZNKi_98Y",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "uvo__nUEZNKi_98Y__object_world_motion_direction__03": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "uvo__nUEZNKi_98Y",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__088c295569__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "youtube_vis__088c295569",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__088c295569__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__088c295569",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__0b5b5e8e5a__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__0b5b5e8e5a",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__0b5b5e8e5a__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__0b5b5e8e5a",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__122896672d__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__122896672d",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__122896672d__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "youtube_vis__122896672d",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__126d203967__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__126d203967",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__126d203967__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "youtube_vis__126d203967",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__18d7382a94__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "youtube_vis__18d7382a94",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__18d7382a94__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__18d7382a94",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__19ee80dac6__object_world_motion_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "youtube_vis__19ee80dac6",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__1f7b3de3bc__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "youtube_vis__1f7b3de3bc",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__1f7b3de3bc__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 3,
+    "video_id": "youtube_vis__1f7b3de3bc",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__25d2163904__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "youtube_vis__25d2163904",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__25d2163904__object_pair_distance_change__01": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "youtube_vis__25d2163904",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__25d2163904__object_travel_distance_comparison__02": {
+    "answer": "A",
+    "answer_index": 0,
+    "video_id": "youtube_vis__25d2163904",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "youtube_vis__30d00e92ee__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "youtube_vis__30d00e92ee",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__3ae81609d6__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__3ae81609d6",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__3ae81609d6__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "youtube_vis__3ae81609d6",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__3ae81609d6__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__3ae81609d6",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__3c6d549570__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__3c6d549570",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__3c6d549570__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__3c6d549570",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__429c3d0c93__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "youtube_vis__429c3d0c93",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__429c3d0c93__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__429c3d0c93",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__4fdfef4dea__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "youtube_vis__4fdfef4dea",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__4fdfef4dea__object_pair_distance_change__03": {
+    "answer": "decreased",
+    "answer_index": 1,
+    "video_id": "youtube_vis__4fdfef4dea",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__4fdfef4dea__object_travel_distance_comparison__04": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "youtube_vis__4fdfef4dea",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "youtube_vis__4fdfef4dea__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 4,
+    "video_id": "youtube_vis__4fdfef4dea",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__4fdfef4dea__object_world_motion_direction__02": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "youtube_vis__4fdfef4dea",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__4feb3ac01f__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__4feb3ac01f",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__5892409fbd__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__5892409fbd",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__5a50640995__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "youtube_vis__5a50640995",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__5a50640995__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "youtube_vis__5a50640995",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__5a5a1d6632__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "youtube_vis__5a5a1d6632",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__644081b88d__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__644081b88d",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__644081b88d__object_world_motion_direction__01": {
+    "answer": "left",
+    "answer_index": 5,
+    "video_id": "youtube_vis__644081b88d",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__6797f20aa9__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "youtube_vis__6797f20aa9",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__6797f20aa9__camera_object_distance_change__04": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "youtube_vis__6797f20aa9",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__6797f20aa9__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "youtube_vis__6797f20aa9",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__6797f20aa9__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "youtube_vis__6797f20aa9",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__6797f20aa9__object_world_motion_direction__03": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "youtube_vis__6797f20aa9",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__695dcb6f16__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__695dcb6f16",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__6acc6049d9__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__6acc6049d9",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__6acc6049d9__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__6acc6049d9",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__6aea2205ec__object_travel_distance_comparison__00": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "youtube_vis__6aea2205ec",
+    "task": "object_travel_distance_comparison",
+    "group": "HHH"
+  },
+  "youtube_vis__6bf95df2b9__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__6bf95df2b9",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__6bf95df2b9__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "youtube_vis__6bf95df2b9",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__6cedf0aabd__object_pair_distance_change__00": {
+    "answer": "increased",
+    "answer_index": 1,
+    "video_id": "youtube_vis__6cedf0aabd",
+    "task": "object_pair_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__6d04ed1fcd__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 5,
+    "video_id": "youtube_vis__6d04ed1fcd",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__6d6fb37d94__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "youtube_vis__6d6fb37d94",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__6eb2e1cd9e__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__6eb2e1cd9e",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__6eb2e1cd9e__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "youtube_vis__6eb2e1cd9e",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__711dce6fe2__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__711dce6fe2",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__711dce6fe2__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "youtube_vis__711dce6fe2",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__711dce6fe2__camera_view_direction_change__01": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "youtube_vis__711dce6fe2",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "youtube_vis__735a547379__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "youtube_vis__735a547379",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__74d05e4305__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__74d05e4305",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__74d05e4305__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__74d05e4305",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__7a17878a33__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__7a17878a33",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__7a17878a33__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__7a17878a33",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__7b17cc8dc9__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "youtube_vis__7b17cc8dc9",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__7e5d433323__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__7e5d433323",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__837ea3be6a__camera_object_distance_change__00": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__837ea3be6a",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__837ea3be6a__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__837ea3be6a",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__8554d8b755__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__8554d8b755",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__8554d8b755__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__8554d8b755",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__8aca214360__camera_view_direction_change__00": {
+    "answer": "down",
+    "answer_index": 3,
+    "video_id": "youtube_vis__8aca214360",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "youtube_vis__8d44170b57__camera_object_distance_change__00": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__8d44170b57",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__8d44170b57__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__8d44170b57",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__8d44170b57__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__8d44170b57",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__8e5cbc711b__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__8e5cbc711b",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__8e5cbc711b__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__8e5cbc711b",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__8e5cbc711b__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__8e5cbc711b",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__911a08836d__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__911a08836d",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__997117a654__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__997117a654",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__997117a654__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__997117a654",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__99c6b1acf2__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "youtube_vis__99c6b1acf2",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__a2c996e429__camera_object_distance_change__03": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "youtube_vis__a2c996e429",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__a2c996e429__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "youtube_vis__a2c996e429",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__a2c996e429__object_pair_distance_change__04": {
+    "answer": "increased",
+    "answer_index": 0,
+    "video_id": "youtube_vis__a2c996e429",
+    "task": "object_pair_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__a2c996e429__object_travel_distance_comparison__05": {
+    "answer": "B",
+    "answer_index": 0,
+    "video_id": "youtube_vis__a2c996e429",
+    "task": "object_travel_distance_comparison",
+    "group": "HLH"
+  },
+  "youtube_vis__a2c996e429__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__a2c996e429",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__a2c996e429__object_world_motion_direction__02": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__a2c996e429",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__a56d08782d__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 3,
+    "video_id": "youtube_vis__a56d08782d",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__a9d6aa2506__object_travel_distance_comparison__01": {
+    "answer": "A",
+    "answer_index": 1,
+    "video_id": "youtube_vis__a9d6aa2506",
+    "task": "object_travel_distance_comparison",
+    "group": "LHH"
+  },
+  "youtube_vis__a9d6aa2506__object_world_motion_direction__00": {
+    "answer": "right",
+    "answer_index": 5,
+    "video_id": "youtube_vis__a9d6aa2506",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__b84b8ae665__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "youtube_vis__b84b8ae665",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__bb1b0ee89f__camera_object_distance_change__00": {
+    "answer": "farther",
+    "answer_index": 1,
+    "video_id": "youtube_vis__bb1b0ee89f",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__c51821b990__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__c51821b990",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__c51821b990__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__c51821b990",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__c6c8368e32__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__c6c8368e32",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__c6c8368e32__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__c6c8368e32",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__d0b1e8b322__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "youtube_vis__d0b1e8b322",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__d3f5c309cc__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__d3f5c309cc",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__de79f45168__object_world_motion_direction__00": {
+    "answer": "left",
+    "answer_index": 4,
+    "video_id": "youtube_vis__de79f45168",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__df3d268e87__camera_translation_direction__00": {
+    "answer": "left",
+    "answer_index": 2,
+    "video_id": "youtube_vis__df3d268e87",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__e0de82caa7__camera_translation_direction__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "youtube_vis__e0de82caa7",
+    "task": "camera_translation_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__e0de82caa7__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "youtube_vis__e0de82caa7",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__e0de82caa7__object_world_motion_direction__02": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "youtube_vis__e0de82caa7",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__e2ea25542c__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__e2ea25542c",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__e2ea25542c__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__e2ea25542c",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__e979fce0d2__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__e979fce0d2",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__e979fce0d2__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 3,
+    "video_id": "youtube_vis__e979fce0d2",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__e979fce0d2__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 3,
+    "video_id": "youtube_vis__e979fce0d2",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__ea04120098__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__ea04120098",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__ea04120098__camera_object_distance_change__03": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__ea04120098",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__ea04120098__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__ea04120098",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__ea04120098__object_world_motion_direction__02": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__ea04120098",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__ed8d7e7513__camera_object_distance_change__02": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "youtube_vis__ed8d7e7513",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__ed8d7e7513__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__ed8d7e7513",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__ed8d7e7513__object_world_motion_direction__01": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "youtube_vis__ed8d7e7513",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__edcf78a43b__camera_translation_direction__00": {
+    "answer": "forward",
+    "answer_index": 5,
+    "video_id": "youtube_vis__edcf78a43b",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__edcf78a43b__camera_view_direction_change__01": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "youtube_vis__edcf78a43b",
+    "task": "camera_view_direction_change",
+    "group": "HLH"
+  },
+  "youtube_vis__edcf78a43b__object_world_motion_direction__02": {
+    "answer": "right",
+    "answer_index": 2,
+    "video_id": "youtube_vis__edcf78a43b",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__f272aea880__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 0,
+    "video_id": "youtube_vis__f272aea880",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__f272aea880__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__f272aea880",
+    "task": "object_world_motion_direction",
+    "group": "LHH"
+  },
+  "youtube_vis__f4dd51ac35__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__f4dd51ac35",
+    "task": "camera_object_distance_change",
+    "group": "HHH"
+  },
+  "youtube_vis__f4dd51ac35__object_world_motion_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__f4dd51ac35",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__f6adb12c42__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__f6adb12c42",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__f6adb12c42__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 0,
+    "video_id": "youtube_vis__f6adb12c42",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__f8d9c1eaf7__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__f8d9c1eaf7",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__f8d9c1eaf7__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__f8d9c1eaf7",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__f8d9c1eaf7__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 4,
+    "video_id": "youtube_vis__f8d9c1eaf7",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__f8fb020f47__camera_translation_direction__00": {
+    "answer": "backward",
+    "answer_index": 1,
+    "video_id": "youtube_vis__f8fb020f47",
+    "task": "camera_translation_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__f8fb020f47__object_world_motion_direction__01": {
+    "answer": "backward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__f8fb020f47",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__f9f3852526__camera_view_direction_change__00": {
+    "answer": "left",
+    "answer_index": 0,
+    "video_id": "youtube_vis__f9f3852526",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  },
+  "youtube_vis__fbe53dc8e8__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "youtube_vis__fbe53dc8e8",
+    "task": "camera_view_direction_change",
+    "group": "HHH"
+  },
+  "youtube_vis__fbe53dc8e8__object_world_motion_direction__01": {
+    "answer": "right",
+    "answer_index": 0,
+    "video_id": "youtube_vis__fbe53dc8e8",
+    "task": "object_world_motion_direction",
+    "group": "HHH"
+  },
+  "youtube_vis__fd3dd6202e__camera_object_distance_change__01": {
+    "answer": "farther",
+    "answer_index": 0,
+    "video_id": "youtube_vis__fd3dd6202e",
+    "task": "camera_object_distance_change",
+    "group": "HLH"
+  },
+  "youtube_vis__fd3dd6202e__object_world_motion_direction__00": {
+    "answer": "forward",
+    "answer_index": 2,
+    "video_id": "youtube_vis__fd3dd6202e",
+    "task": "object_world_motion_direction",
+    "group": "HLH"
+  },
+  "youtube_vis__fdc6e3d581__camera_object_distance_change__01": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__fdc6e3d581",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__fdc6e3d581__camera_object_distance_change__02": {
+    "answer": "closer",
+    "answer_index": 1,
+    "video_id": "youtube_vis__fdc6e3d581",
+    "task": "camera_object_distance_change",
+    "group": "LHH"
+  },
+  "youtube_vis__fdc6e3d581__camera_view_direction_change__00": {
+    "answer": "right",
+    "answer_index": 1,
+    "video_id": "youtube_vis__fdc6e3d581",
+    "task": "camera_view_direction_change",
+    "group": "LHH"
+  }
+}

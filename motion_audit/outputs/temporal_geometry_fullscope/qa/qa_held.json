@@ -1,0 +1,1500 @@
+[
+  {
+    "qa_id": "DAVIS__dance-jump__object_world_motion_direction__00",
+    "video_id": "DAVIS__dance-jump",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F5 to F8, in which dominant direction did object A (person in blue shirt) move? Use the camera axes frozen at F5: right/down/forward are +x/+y/+z.",
+    "answer": "backward",
+    "options": [
+      "down",
+      "up",
+      "forward",
+      "backward",
+      "left",
+      "right"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      5,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 5,
+        "released_frame_index": 31,
+        "released_frame_name": "00032.jpg",
+        "normalized_time": 0.6326530612244898,
+        "image_path": "cases/DAVIS__dance-jump/rgb_5.jpg"
+      },
+      {
+        "frame_index": 8,
+        "released_frame_index": 49,
+        "released_frame_name": "00050.jpg",
+        "normalized_time": 1.0,
+        "image_path": "cases/DAVIS__dance-jump/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "g3"
+    ],
+    "target_mapping": {
+      "A": "g3",
+      "B": "g4"
+    },
+    "target_descriptions": {
+      "A": "person in blue shirt",
+      "B": "tracked object [g4]"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.03312083045034997,
+        0.02910265300162429,
+        -0.15153628965045413
+      ],
+      "dominant_component_bootstrap95": [
+        -0.20824331492573497,
+        -0.10031947533637513
+      ],
+      "bootstrap_direction_agreement": 0.9765625,
+      "min_bootstrap_direction_agreement": 0.95
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LLH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "MOSE__242b74b1__object_world_motion_direction__00",
+    "video_id": "MOSE__242b74b1",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F2, in which dominant direction did object B (dark horse running in a group) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "left",
+    "options": [
+      "up",
+      "backward",
+      "forward",
+      "right",
+      "down",
+      "left"
+    ],
+    "answer_index": 5,
+    "frame_indices": [
+      0,
+      2
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "released_frame_index": 0,
+        "released_frame_name": "00001.jpg",
+        "normalized_time": 0.0,
+        "image_path": "cases/MOSE__242b74b1/rgb_0.jpg"
+      },
+      {
+        "frame_index": 2,
+        "released_frame_index": 3,
+        "released_frame_name": "00004.jpg",
+        "normalized_time": 0.25,
+        "image_path": "cases/MOSE__242b74b1/rgb_2.jpg"
+      }
+    ],
+    "object_ids": [
+      "g2"
+    ],
+    "target_mapping": {
+      "A": "g1",
+      "B": "g2"
+    },
+    "target_descriptions": {
+      "A": "tracked object [g1]",
+      "B": "dark horse running in a group"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.22171833973083205,
+        -0.013973789199756071,
+        -0.016759622459097765
+      ],
+      "dominant_component_bootstrap95": [
+        -0.2227874142619282,
+        -0.2205352426543485
+      ],
+      "bootstrap_direction_agreement": 1.0,
+      "min_bootstrap_direction_agreement": 0.95
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LLH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "MOSE__8dbebbd9__object_world_motion_direction__01",
+    "video_id": "MOSE__8dbebbd9",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F2 to F4, in which dominant direction did object A (sheep in the center of the flock) move? Use the camera axes frozen at F2: right/down/forward are +x/+y/+z.",
+    "answer": "forward",
+    "options": [
+      "forward",
+      "up",
+      "left",
+      "down",
+      "right",
+      "backward"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      2,
+      4
+    ],
+    "frame_references": [
+      {
+        "frame_index": 2,
+        "released_frame_index": 12,
+        "released_frame_name": "00013.jpg",
+        "normalized_time": 0.24489795918367346,
+        "image_path": "cases/MOSE__8dbebbd9/rgb_2.jpg"
+      },
+      {
+        "frame_index": 4,
+        "released_frame_index": 24,
+        "released_frame_name": "00025.jpg",
+        "normalized_time": 0.4897959183673469,
+        "image_path": "cases/MOSE__8dbebbd9/rgb_4.jpg"
+      }
+    ],
+    "object_ids": [
+      "g2"
+    ],
+    "target_mapping": {
+      "A": "g2",
+      "B": "g3"
+    },
+    "target_descriptions": {
+      "A": "sheep in the center of the flock",
+      "B": "tracked object [g3]"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.02360490823767164,
+        -0.022433775417150154,
+        0.1734583668433094
+      ],
+      "dominant_component_bootstrap95": [
+        0.16274466536431612,
+        0.18189606131860997
+      ],
+      "bootstrap_direction_agreement": 1.0,
+      "min_bootstrap_direction_agreement": 0.95
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "HLL",
+    "manual_review": false
+  },
+  {
+    "qa_id": "MOSE__c5398714__object_world_motion_direction__00",
+    "video_id": "MOSE__c5398714",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F2, in which dominant direction did object A (giraffe on the right) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "left",
+      "down",
+      "backward",
+      "forward",
+      "up",
+      "right"
+    ],
+    "answer_index": 5,
+    "frame_indices": [
+      0,
+      2
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "released_frame_index": 0,
+        "released_frame_name": "00001.jpg",
+        "normalized_time": 0.0,
+        "image_path": "cases/MOSE__c5398714/rgb_0.jpg"
+      },
+      {
+        "frame_index": 2,
+        "released_frame_index": 9,
+        "released_frame_name": "00010.jpg",
+        "normalized_time": 0.2571428571428571,
+        "image_path": "cases/MOSE__c5398714/rgb_2.jpg"
+      }
+    ],
+    "object_ids": [
+      "g1"
+    ],
+    "target_mapping": {
+      "A": "g1",
+      "B": "g2"
+    },
+    "target_descriptions": {
+      "A": "giraffe on the right",
+      "B": "tracked object [g2]"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.10668994715347191,
+        0.008821130438599773,
+        0.03341889012666241
+      ],
+      "dominant_component_bootstrap95": [
+        0.0994887963244023,
+        0.11313171844106931
+      ],
+      "bootstrap_direction_agreement": 0.9609375,
+      "min_bootstrap_direction_agreement": 0.95
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LLH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "SAV__sav_027961_manual__object_travel_distance_comparison__00",
+    "video_id": "SAV__sav_027961_manual",
+    "task": "object_travel_distance_comparison",
+    "question": "Over the sampled trajectory from F5 through F7, which object traveled a greater cumulative 3D distance after compensating for camera motion: A (red cab truck with a long dark grey dump trailer) or B (partial view of a dark truck on the far left edge)? Sum consecutive sampled 3D displacements, rather than using only the start-to-end displacement.",
+    "answer": "A",
+    "options": [
+      "B",
+      "A"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      5,
+      6,
+      7
+    ],
+    "frame_references": [
+      {
+        "frame_index": 5,
+        "released_frame_index": 31,
+        "released_frame_name": "00032.png",
+        "normalized_time": 0.6326530612244898,
+        "image_path": "cases/SAV__sav_027961_manual/rgb_5.jpg"
+      },
+      {
+        "frame_index": 6,
+        "released_frame_index": 37,
+        "released_frame_name": "00038.png",
+        "normalized_time": 0.7551020408163265,
+        "image_path": "cases/SAV__sav_027961_manual/rgb_6.jpg"
+      },
+      {
+        "frame_index": 7,
+        "released_frame_index": 43,
+        "released_frame_name": "00044.png",
+        "normalized_time": 0.8775510204081632,
+        "image_path": "cases/SAV__sav_027961_manual/rgb_7.jpg"
+      }
+    ],
+    "object_ids": [
+      "g1",
+      "g2"
+    ],
+    "target_mapping": {
+      "A": "g1",
+      "B": "g2"
+    },
+    "target_descriptions": {
+      "A": "red cab truck with a long dark grey dump trailer",
+      "B": "partial view of a dark truck on the far left edge"
+    },
+    "evidence": {
+      "metrics": {
+        "distance_depths": [
+          0.8971167802810669,
+          0.8482549786567688,
+          0.8180858492851257
+        ],
+        "distance_change_depths": -0.07903093099594116,
+        "relative_distance_change": 0.08809436266611885,
+        "travel_a_depths": 0.22488269209861755,
+        "travel_b_depths": 0.026686225086450577,
+        "travel_gap_depths": 0.19819646701216698,
+        "travel_ratio": 8.426920307016276,
+        "distance_change_bootstrap95": [
+          -0.12344665825366974,
+          -0.026505510509014115
+        ],
+        "travel_a_minus_b_bootstrap95": [
+          0.18989138528704644,
+          0.2085814315825701
+        ]
+      },
+      "record_key": "SAV__sav_027961_manual__g1_g2__F5-F7",
+      "anchors_a": [
+        [
+          -0.5175109505653381,
+          -0.6486765146255493,
+          2.528329610824585
+        ],
+        [
+          -0.6094324588775635,
+          -0.657102644443512,
+          2.5974903106689453
+        ],
+        [
+          -0.696286678314209,
+          -0.6666381359100342,
+          2.663555383682251
+        ]
+      ],
+      "anchors_b": [
+        [
+          -1.3233412504196167,
+          -0.4538242518901825,
+          2.185563325881958
+        ],
+        [
+          -1.3279997110366821,
+          -0.4552513062953949,
+          2.194434881210327
+        ],
+        [
+          -1.3208826780319214,
+          -0.45494163036346436,
+          2.1794800758361816
+        ]
+      ],
+      "track_counts": [
+        254,
+        238
+      ],
+      "initial_track_counts": [
+        256,
+        256
+      ],
+      "track_survival": [
+        0.9921875,
+        0.9296875
+      ],
+      "mask_overlap": 0.0,
+      "tracking": "RAFT-large 33 context frames",
+      "position_definition": "arithmetic mean of the same persistent surface-core points"
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LHH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "VOST__1398_cut_ginger__object_travel_distance_comparison__01",
+    "video_id": "VOST__1398_cut_ginger",
+    "task": "object_travel_distance_comparison",
+    "question": "Over the sampled trajectory from F3 through F7, which object traveled a greater cumulative 3D distance after compensating for camera motion: A (person's left arm wearing a grey long-sleeved shirt) or B (green vegetable pieces on the counter)? Sum consecutive sampled 3D displacements, rather than using only the start-to-end displacement.",
+    "answer": "A",
+    "options": [
+      "B",
+      "A"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "frame_references": [
+      {
+        "frame_index": 3,
+        "released_frame_index": 18,
+        "released_frame_name": "00019.jpg",
+        "normalized_time": 0.3673469387755102,
+        "image_path": "cases/VOST__1398_cut_ginger/rgb_3.jpg"
+      },
+      {
+        "frame_index": 4,
+        "released_frame_index": 24,
+        "released_frame_name": "00025.jpg",
+        "normalized_time": 0.4897959183673469,
+        "image_path": "cases/VOST__1398_cut_ginger/rgb_4.jpg"
+      },
+      {
+        "frame_index": 5,
+        "released_frame_index": 31,
+        "released_frame_name": "00032.jpg",
+        "normalized_time": 0.6326530612244898,
+        "image_path": "cases/VOST__1398_cut_ginger/rgb_5.jpg"
+      },
+      {
+        "frame_index": 6,
+        "released_frame_index": 37,
+        "released_frame_name": "00038.jpg",
+        "normalized_time": 0.7551020408163265,
+        "image_path": "cases/VOST__1398_cut_ginger/rgb_6.jpg"
+      },
+      {
+        "frame_index": 7,
+        "released_frame_index": 43,
+        "released_frame_name": "00044.jpg",
+        "normalized_time": 0.8775510204081632,
+        "image_path": "cases/VOST__1398_cut_ginger/rgb_7.jpg"
+      }
+    ],
+    "object_ids": [
+      "g3",
+      "g4"
+    ],
+    "target_mapping": {
+      "A": "g3",
+      "B": "g4"
+    },
+    "target_descriptions": {
+      "A": "person's left arm wearing a grey long-sleeved shirt",
+      "B": "green vegetable pieces on the counter"
+    },
+    "evidence": {
+      "metrics": {
+        "distance_depths": [
+          0.47498854994773865,
+          0.4521152079105377,
+          0.4803616404533386,
+          0.49243900179862976,
+          0.542881190776825
+        ],
+        "distance_change_depths": 0.0678926408290863,
+        "relative_distance_change": 0.14293532093890746,
+        "travel_a_depths": 0.21658769249916077,
+        "travel_b_depths": 0.01595110073685646,
+        "travel_gap_depths": 0.2006365917623043,
+        "travel_ratio": 13.578228617083166,
+        "distance_change_bootstrap95": [
+          0.06323240250349045,
+          0.07202939912676812
+        ],
+        "travel_a_minus_b_bootstrap95": [
+          0.1953020144253969,
+          0.20835542976856233
+        ]
+      },
+      "record_key": "VOST__1398_cut_ginger__g3_g4__F3-F7",
+      "anchors_a": [
+        [
+          -0.10759924352169037,
+          0.29088759422302246,
+          0.8635460734367371
+        ],
+        [
+          -0.10154636949300766,
+          0.26242783665657043,
+          0.8559517860412598
+        ],
+        [
+          -0.10654892027378082,
+          0.2961498498916626,
+          0.8582860231399536
+        ],
+        [
+          -0.07308939844369888,
+          0.29120904207229614,
+          0.8354210257530212
+        ],
+        [
+          0.02512330748140812,
+          0.2687472701072693,
+          0.7876046895980835
+        ]
+      ],
+      "anchors_b": [
+        [
+          -0.27456381916999817,
+          -0.14279556274414062,
+          0.9618103504180908
+        ],
+        [
+          -0.27386340498924255,
+          -0.14175808429718018,
+          0.9624823331832886
+        ],
+        [
+          -0.27518367767333984,
+          -0.14113140106201172,
+          0.9636176228523254
+        ],
+        [
+          -0.27455583214759827,
+          -0.1393527090549469,
+          0.9639667868614197
+        ],
+        [
+          -0.281139075756073,
+          -0.13959799706935883,
+          0.9724761843681335
+        ]
+      ],
+      "track_counts": [
+        70,
+        228
+      ],
+      "initial_track_counts": [
+        256,
+        256
+      ],
+      "track_survival": [
+        0.2734375,
+        0.890625
+      ],
+      "mask_overlap": 0.0,
+      "tracking": "RAFT-large 33 context frames",
+      "position_definition": "arithmetic mean of the same persistent surface-core points"
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "HHH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "uvo__-4_M902vHy8__object_world_motion_direction__01",
+    "video_id": "uvo__-4_M902vHy8",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F1 to F8, in which dominant direction did object A (person in dark clothing) move? Use the camera axes frozen at F1: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "backward",
+      "right",
+      "forward",
+      "left",
+      "down",
+      "up"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      1,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 1,
+        "released_frame_index": 6,
+        "released_frame_name": "00007.jpg",
+        "normalized_time": 0.12244897959183673,
+        "image_path": "cases/uvo__-4_M902vHy8/rgb_1.jpg"
+      },
+      {
+        "frame_index": 8,
+        "released_frame_index": 49,
+        "released_frame_name": "00050.jpg",
+        "normalized_time": 1.0,
+        "image_path": "cases/uvo__-4_M902vHy8/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "g1"
+    ],
+    "target_mapping": {
+      "A": "g1"
+    },
+    "target_descriptions": {
+      "A": "person in dark clothing"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.46131929474565714,
+        -0.0319212805479725,
+        0.18638859643557346
+      ],
+      "dominant_component_bootstrap95": [
+        0.46017253933715124,
+        0.4625374886553663
+      ],
+      "bootstrap_direction_agreement": 1.0,
+      "min_bootstrap_direction_agreement": 0.95
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LLL",
+    "manual_review": false
+  },
+  {
+    "qa_id": "uvo__-HkV3zIyRhQ__object_world_motion_direction__00",
+    "video_id": "uvo__-HkV3zIyRhQ",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F3 to F6, in which dominant direction did object B (person in dark clothing walking in the background) move? Use the camera axes frozen at F3: right/down/forward are +x/+y/+z.",
+    "answer": "backward",
+    "options": [
+      "up",
+      "right",
+      "forward",
+      "backward",
+      "down",
+      "left"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      3,
+      6
+    ],
+    "frame_references": [
+      {
+        "frame_index": 3,
+        "released_frame_index": 18,
+        "released_frame_name": "00019.jpg",
+        "normalized_time": 0.3673469387755102,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_3.jpg"
+      },
+      {
+        "frame_index": 6,
+        "released_frame_index": 37,
+        "released_frame_name": "00038.jpg",
+        "normalized_time": 0.7551020408163265,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_6.jpg"
+      }
+    ],
+    "object_ids": [
+      "g5"
+    ],
+    "target_mapping": {
+      "A": "g1",
+      "B": "g5"
+    },
+    "target_descriptions": {
+      "A": "person in a futuristic robot costume with glowing blue lights",
+      "B": "person in dark clothing walking in the background"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.09660849279540554,
+        0.03221394611448286,
+        -0.354861432227277
+      ],
+      "dominant_component_bootstrap95": [
+        -0.36216963757341647,
+        -0.3476173700517538
+      ],
+      "bootstrap_direction_agreement": 1.0,
+      "min_bootstrap_direction_agreement": 0.95
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LLH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "uvo__-HkV3zIyRhQ__object_pair_distance_change__01",
+    "video_id": "uvo__-HkV3zIyRhQ",
+    "task": "object_pair_distance_change",
+    "question": "From F3 to F6, did the 3D distance between object A (person in a futuristic robot costume with glowing blue lights) and object B (person in dark clothing walking in the background) increase or decrease? Compare their separation at the two specified frames.",
+    "answer": "decreased",
+    "options": [
+      "increased",
+      "decreased"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      3,
+      6
+    ],
+    "frame_references": [
+      {
+        "frame_index": 3,
+        "released_frame_index": 18,
+        "released_frame_name": "00019.jpg",
+        "normalized_time": 0.3673469387755102,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_3.jpg"
+      },
+      {
+        "frame_index": 6,
+        "released_frame_index": 37,
+        "released_frame_name": "00038.jpg",
+        "normalized_time": 0.7551020408163265,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_6.jpg"
+      }
+    ],
+    "object_ids": [
+      "g1",
+      "g5"
+    ],
+    "target_mapping": {
+      "A": "g1",
+      "B": "g5"
+    },
+    "target_descriptions": {
+      "A": "person in a futuristic robot costume with glowing blue lights",
+      "B": "person in dark clothing walking in the background"
+    },
+    "evidence": {
+      "metrics": {
+        "distance_depths": [
+          1.117052674293518,
+          1.0233603715896606,
+          0.8746848106384277,
+          0.7736605405807495
+        ],
+        "distance_change_depths": -0.34339213371276855,
+        "relative_distance_change": 0.30740907892275315,
+        "travel_a_depths": 0.05761471390724182,
+        "travel_b_depths": 0.37020787596702576,
+        "travel_gap_depths": 0.31259316205978394,
+        "travel_ratio": 6.425578656227483,
+        "distance_change_bootstrap95": [
+          -0.3511023700237274,
+          -0.3348739296197891
+        ],
+        "travel_a_minus_b_bootstrap95": [
+          -0.32264247089624404,
+          -0.2765067115426063
+        ]
+      },
+      "record_key": "uvo__-HkV3zIyRhQ__g1_g5__F3-F6",
+      "anchors_a": [
+        [
+          -0.03083718940615654,
+          0.04457240179181099,
+          0.6654087901115417
+        ],
+        [
+          -0.005558420903980732,
+          0.04173241928219795,
+          0.6796428561210632
+        ],
+        [
+          -0.016084859147667885,
+          0.04247506707906723,
+          0.6797802448272705
+        ],
+        [
+          -0.03312788903713226,
+          0.038266442716121674,
+          0.6833375096321106
+        ]
+      ],
+      "anchors_b": [
+        [
+          -0.23603615164756775,
+          -0.10383893549442291,
+          1.7533766031265259
+        ],
+        [
+          -0.26805827021598816,
+          -0.09581026434898376,
+          1.6591540575027466
+        ],
+        [
+          -0.2921314537525177,
+          -0.08618801832199097,
+          1.4997299909591675
+        ],
+        [
+          -0.3165152668952942,
+          -0.07544156908988953,
+          1.394191026687622
+        ]
+      ],
+      "track_counts": [
+        46,
+        119
+      ],
+      "initial_track_counts": [
+        256,
+        256
+      ],
+      "track_survival": [
+        0.1796875,
+        0.46484375
+      ],
+      "mask_overlap": 0.0,
+      "tracking": "RAFT-large 33 context frames",
+      "position_definition": "arithmetic mean of the same persistent surface-core points"
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LLH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "uvo__-HkV3zIyRhQ__object_travel_distance_comparison__02",
+    "video_id": "uvo__-HkV3zIyRhQ",
+    "task": "object_travel_distance_comparison",
+    "question": "Over the sampled trajectory from F3 through F6, which object traveled a greater cumulative 3D distance after compensating for camera motion: A (person in a futuristic robot costume with glowing blue lights) or B (person in dark clothing walking in the background)? Sum consecutive sampled 3D displacements, rather than using only the start-to-end displacement.",
+    "answer": "B",
+    "options": [
+      "A",
+      "B"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "frame_references": [
+      {
+        "frame_index": 3,
+        "released_frame_index": 18,
+        "released_frame_name": "00019.jpg",
+        "normalized_time": 0.3673469387755102,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_3.jpg"
+      },
+      {
+        "frame_index": 4,
+        "released_frame_index": 24,
+        "released_frame_name": "00025.jpg",
+        "normalized_time": 0.4897959183673469,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_4.jpg"
+      },
+      {
+        "frame_index": 5,
+        "released_frame_index": 31,
+        "released_frame_name": "00032.jpg",
+        "normalized_time": 0.6326530612244898,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_5.jpg"
+      },
+      {
+        "frame_index": 6,
+        "released_frame_index": 37,
+        "released_frame_name": "00038.jpg",
+        "normalized_time": 0.7551020408163265,
+        "image_path": "cases/uvo__-HkV3zIyRhQ/rgb_6.jpg"
+      }
+    ],
+    "object_ids": [
+      "g1",
+      "g5"
+    ],
+    "target_mapping": {
+      "A": "g1",
+      "B": "g5"
+    },
+    "target_descriptions": {
+      "A": "person in a futuristic robot costume with glowing blue lights",
+      "B": "person in dark clothing walking in the background"
+    },
+    "evidence": {
+      "metrics": {
+        "distance_depths": [
+          1.117052674293518,
+          1.0233603715896606,
+          0.8746848106384277,
+          0.7736605405807495
+        ],
+        "distance_change_depths": -0.34339213371276855,
+        "relative_distance_change": 0.30740907892275315,
+        "travel_a_depths": 0.05761471390724182,
+        "travel_b_depths": 0.37020787596702576,
+        "travel_gap_depths": 0.31259316205978394,
+        "travel_ratio": 6.425578656227483,
+        "distance_change_bootstrap95": [
+          -0.3511023700237274,
+          -0.3348739296197891
+        ],
+        "travel_a_minus_b_bootstrap95": [
+          -0.32264247089624404,
+          -0.2765067115426063
+        ]
+      },
+      "record_key": "uvo__-HkV3zIyRhQ__g1_g5__F3-F6",
+      "anchors_a": [
+        [
+          -0.03083718940615654,
+          0.04457240179181099,
+          0.6654087901115417
+        ],
+        [
+          -0.005558420903980732,
+          0.04173241928219795,
+          0.6796428561210632
+        ],
+        [
+          -0.016084859147667885,
+          0.04247506707906723,
+          0.6797802448272705
+        ],
+        [
+          -0.03312788903713226,
+          0.038266442716121674,
+          0.6833375096321106
+        ]
+      ],
+      "anchors_b": [
+        [
+          -0.23603615164756775,
+          -0.10383893549442291,
+          1.7533766031265259
+        ],
+        [
+          -0.26805827021598816,
+          -0.09581026434898376,
+          1.6591540575027466
+        ],
+        [
+          -0.2921314537525177,
+          -0.08618801832199097,
+          1.4997299909591675
+        ],
+        [
+          -0.3165152668952942,
+          -0.07544156908988953,
+          1.394191026687622
+        ]
+      ],
+      "track_counts": [
+        46,
+        119
+      ],
+      "initial_track_counts": [
+        256,
+        256
+      ],
+      "track_survival": [
+        0.1796875,
+        0.46484375
+      ],
+      "mask_overlap": 0.0,
+      "tracking": "RAFT-large 33 context frames",
+      "position_definition": "arithmetic mean of the same persistent surface-core points"
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "LLH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "uvo__0MgG4dV56Ik__camera_object_distance_change__00",
+    "video_id": "uvo__0MgG4dV56Ik",
+    "task": "camera_object_distance_change",
+    "question": "From F2 to F4, did object A (distant person on the green field) become closer to or farther from the camera? Compare 3D Euclidean range.",
+    "answer": "farther",
+    "options": [
+      "farther",
+      "closer"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      2,
+      4
+    ],
+    "frame_references": [
+      {
+        "frame_index": 2,
+        "released_frame_index": 12,
+        "released_frame_name": "00013.jpg",
+        "normalized_time": 0.24489795918367346,
+        "image_path": "cases/uvo__0MgG4dV56Ik/rgb_2.jpg"
+      },
+      {
+        "frame_index": 4,
+        "released_frame_index": 24,
+        "released_frame_name": "00025.jpg",
+        "normalized_time": 0.4897959183673469,
+        "image_path": "cases/uvo__0MgG4dV56Ik/rgb_4.jpg"
+      }
+    ],
+    "object_ids": [
+      "g2"
+    ],
+    "target_mapping": {
+      "A": "g2"
+    },
+    "target_descriptions": {
+      "A": "distant person on the green field"
+    },
+    "evidence": {
+      "ranges_depths": [
+        0.5641344936158756,
+        0.6681349412194382,
+        0.7398059792362195
+      ],
+      "delta_depths": 0.17567148562034385,
+      "relative_change": 0.3114000076371153,
+      "range_change_bootstrap95": [
+        0.1510194514968031,
+        0.20143204923075309
+      ]
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "HHH",
+    "manual_review": false
+  },
+  {
+    "qa_id": "uvo__1CTlE-tPD_A__object_world_motion_direction__02",
+    "video_id": "uvo__1CTlE-tPD_A",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F3 to F6, in which dominant direction did object A (dark blurry object in the bottom left foreground, likely part of the camera rig or a person's shoulder) move? Use the camera axes frozen at F3: right/down/forward are +x/+y/+z.",
+    "answer": "forward",
+    "options": [
+      "up",
+      "left",
+      "backward",
+      "right",
+      "down",
+      "forward"
+    ],
+    "answer_index": 5,
+    "frame_indices": [
+      3,
+      6
+    ],
+    "frame_references": [
+      {
+        "frame_index": 3,
+        "released_frame_index": 18,
+        "released_frame_name": "00019.jpg",
+        "normalized_time": 0.3673469387755102,
+        "image_path": "cases/uvo__1CTlE-tPD_A/rgb_3.jpg"
+      },
+      {
+        "frame_index": 6,
+        "released_frame_index": 37,
+        "released_frame_name": "00038.jpg",
+        "normalized_time": 0.7551020408163265,
+        "image_path": "cases/uvo__1CTlE-tPD_A/rgb_6.jpg"
+      }
+    ],
+    "object_ids": [
+      "g2"
+    ],
+    "target_mapping": {
+      "A": "g2"
+    },
+    "target_descriptions": {
+      "A": "dark blurry object in the bottom left foreground, likely part of the camera rig or a person's shoulder"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.17311077372616418,
+        -0.08699746976914446,
+        0.7880387506861153
+      ],
+      "dominant_component_bootstrap95": [
+        0.7493204276889002,
+        0.825776203338554
+      ],
+      "bootstrap_direction_agreement": 1.0,
+      "min_bootstrap_direction_agreement": 0.95
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "deterministic_VGGT_Omega_geometry_with_RAFT_large_tracks",
+    "position_definition": "centroid of the same surviving core surface points; model estimate, not object center of mass",
+    "units": "sequence background depths, not meters",
+    "split": "development",
+    "annotation_status": "model_estimated_automated_checks_only_needs_visual_review",
+    "quality_status": "semantic_review_required",
+    "localization_source": "GMOS MOS tracks",
+    "geometry_thresholds_unchanged": true,
+    "group": "HHH",
+    "manual_review": false
+  }
+]

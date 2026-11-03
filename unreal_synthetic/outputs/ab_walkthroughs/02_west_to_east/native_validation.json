@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "engine": "5.8.4-58902052+++UE5+Release-5.8",
+  "frames": 960,
+  "eye_height_cm": 165,
+  "terrain_support_error_cm": 0,
+  "camera_evaluation_error_cm": 2.5820330687714232e-05,
+  "path_length_cm": 7790.8263406963615,
+  "average_speed_cm_s": 194.77065851740903,
+  "camera_probes": 41,
+  "scope": "Eye-level camera on actual terrain; navigation avoids actor footprints; no player hands/HUD"
+}

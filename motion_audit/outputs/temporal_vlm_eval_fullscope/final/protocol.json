@@ -1,0 +1,104 @@
+{
+  "examples": 896,
+  "source_video_count": 461,
+  "qa_video_count": 461,
+  "source_hashes": {
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/qa/final/qa.json": "4ed3eb2356fb055c6a5fdad1ba89ab233af2941dd343c4cbffe9f7bd9bb503ce"
+  },
+  "presentation": "All nine measurement RGB frames as ordered images, with frame labels and requested target contours only.",
+  "targets": "Original QA A/B mapping retained; model receives only visual marks and original question/descriptions.",
+  "excluded_from_model_input": [
+    "reference answer",
+    "answer index",
+    "depth",
+    "camera pose",
+    "geometry evidence",
+    "threshold-derived metrics"
+  ],
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 64
+  },
+  "group4_mapping": {
+    "LLL": "LLL",
+    "LLH": "LLH",
+    "HLL": "HLL+LHL+HHL",
+    "LHL": "HLL+LHL+HHL",
+    "HHL": "HLL+LHL+HHL",
+    "HLH": "HLH+LHH+HHH",
+    "LHH": "HLH+LHH+HHH",
+    "HHH": "HLH+LHH+HHH"
+  },
+  "group4_counts": {
+    "HLH+LHH+HHH": 896
+  },
+  "scoring": "Deterministic MCQ matching; invalid/error predictions count as incorrect; denominator 896 per model.",
+  "reference_status": "Provisional model-estimated geometry labels; no human review.",
+  "model_input_policy": "Same marked images, question and option order for all models; native per-model visual preprocessing.",
+  "scope": "Initial evaluation at nine frames; not the papers original benchmark protocol or a 16/32-frame setting.",
+  "jobs": [
+    {
+      "model": "qwen25vl_3b",
+      "gpu": 0,
+      "shard": 0,
+      "shards": 1
+    },
+    {
+      "model": "qwen25vl_7b",
+      "gpu": 1,
+      "shard": 0,
+      "shards": 1
+    },
+    {
+      "model": "vgllm_qa_4b",
+      "gpu": 2,
+      "shard": 0,
+      "shards": 1
+    },
+    {
+      "model": "vgllm_qa_8b",
+      "gpu": 3,
+      "shard": 0,
+      "shards": 2
+    },
+    {
+      "model": "vgllm_qa_8b",
+      "gpu": 4,
+      "shard": 1,
+      "shards": 2
+    },
+    {
+      "model": "mllm4d_sft_8b",
+      "gpu": 5,
+      "shard": 0,
+      "shards": 1
+    },
+    {
+      "model": "4drgpt_8b",
+      "gpu": 6,
+      "shard": 0,
+      "shards": 1
+    },
+    {
+      "model": "dsr_suite_7b",
+      "gpu": 7,
+      "shard": 0,
+      "shards": 1
+    }
+  ],
+  "created_at": "2026-10-21T09:51:25.961939+00:00",
+  "native_input_packaging": {
+    "default": "nine ordered marked RGB images",
+    "dsr_suite_7b": "Same nine marked RGB frames packaged as a video; native final-frame temporal padding and 32 GSM query tokens. fps=2 is an index encoding convention, not measured seconds."
+  },
+  "excluded_sources": [
+    "dynamic_replica",
+    "dynpose-100k",
+    "point_odyssey",
+    "spring"
+  ],
+  "additional_model_source": "https://github.com/TencentARC/DSR_Suite",
+  "selection_rule": "QA audit decision=keep AND group in HLH/LHH/HHH (N=L)",
+  "reused_evaluation": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope"
+}

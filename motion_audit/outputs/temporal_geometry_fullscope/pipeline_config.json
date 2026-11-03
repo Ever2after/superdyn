@@ -1,0 +1,48 @@
+{
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "cache_roots": [
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/geometry"
+  ],
+  "reuse_runs": [],
+  "base_port": 19620,
+  "qwen_model": null,
+  "quality_filter": false,
+  "qa_thresholds": {
+    "camera_translation": 0.1,
+    "object_translation": 0.1,
+    "direction_dominance": 2.0,
+    "direction_gap": 0.05,
+    "camera_turn_deg": 15.0,
+    "camera_turn_gap_deg": 8.0,
+    "camera_object_range_abs": 0.1,
+    "camera_object_range_relative": 0.2,
+    "pair_range_abs": 0.1,
+    "pair_range_relative": 0.2,
+    "pair_initial_separation": 0.08,
+    "travel_gap": 0.1,
+    "travel_ratio": 1.5,
+    "travel_max_min": 0.2,
+    "bootstrap_gap": 0.05,
+    "min_time_span": 0.2,
+    "min_intervals": 2,
+    "min_tracks": 32,
+    "min_track_survival": 0.15,
+    "sam_score": 0.8,
+    "min_mask_pixels": 150,
+    "min_forward_coverage": 0.25,
+    "max_fb_error_px": 2.0,
+    "max_pair_mask_overlap": 0.05,
+    "seed_count": 256,
+    "bootstrap_replicates": 128,
+    "bootstrap_direction_agreement": 0.95
+  }
+}

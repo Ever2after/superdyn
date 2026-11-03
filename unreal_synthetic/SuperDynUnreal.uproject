@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "",
+  "Category": "Research",
+  "Description": "Compact 4D benchmark terrains, three moving objects, low drone camera sequences.",
+  "Plugins": [
+    {"Name":"PythonScriptPlugin","Enabled":true},
+    {"Name":"EditorScriptingUtilities","Enabled":true},
+    {"Name":"SequencerScripting","Enabled":true},
+    {"Name":"GeometryScripting","Enabled":true},
+    {"Name":"MovieRenderPipeline","Enabled":true}
+  ],
+  "TargetPlatforms": ["Linux","Win64"]
+}

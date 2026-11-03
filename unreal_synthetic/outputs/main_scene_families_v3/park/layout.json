@@ -1,0 +1,690 @@
+{
+  "title": "Random connected terraced ground",
+  "title_ko": "랜덤 단차 지면 · seed 303",
+  "bounds": [
+    -15.75,
+    15.75,
+    -15.0,
+    15.0
+  ],
+  "grid_step": 0.1875,
+  "bottom_z": -0.35,
+  "levels": [
+    0.0,
+    1.5,
+    3.0
+  ],
+  "plateaus": [
+    {
+      "id": "region_00",
+      "bounds": [
+        -15.75,
+        -3.0,
+        3.75,
+        15.0
+      ],
+      "height": 3.0
+    },
+    {
+      "id": "region_01",
+      "bounds": [
+        -15.75,
+        -3.0,
+        -15.0,
+        -6.75
+      ],
+      "height": 0.0
+    },
+    {
+      "id": "region_02",
+      "bounds": [
+        -15.75,
+        -3.0,
+        -6.75,
+        3.75
+      ],
+      "height": 1.5
+    },
+    {
+      "id": "region_03",
+      "bounds": [
+        -3.0,
+        6.0,
+        -0.75,
+        7.5
+      ],
+      "height": 0.0
+    },
+    {
+      "id": "region_04",
+      "bounds": [
+        -3.0,
+        6.0,
+        7.5,
+        15.0
+      ],
+      "height": 1.5
+    },
+    {
+      "id": "region_05",
+      "bounds": [
+        -3.0,
+        7.5,
+        -15.0,
+        -0.75
+      ],
+      "height": 1.5
+    },
+    {
+      "id": "region_06",
+      "bounds": [
+        7.5,
+        15.75,
+        -15.0,
+        -0.75
+      ],
+      "height": 3.0
+    },
+    {
+      "id": "region_07",
+      "bounds": [
+        6.0,
+        15.75,
+        -0.75,
+        6.75
+      ],
+      "height": 1.5
+    },
+    {
+      "id": "region_08",
+      "bounds": [
+        6.0,
+        15.75,
+        6.75,
+        15.0
+      ],
+      "height": 1.5
+    }
+  ],
+  "ramps": [
+    {
+      "id": "ramp_00",
+      "bounds": [
+        3.0,
+        10.125,
+        -0.375,
+        6.375
+      ],
+      "axis": "x",
+      "z0": 0.0,
+      "z1": 1.5,
+      "regions": [
+        "region_03",
+        "region_07"
+      ]
+    },
+    {
+      "id": "ramp_01",
+      "bounds": [
+        -14.25,
+        -7.5,
+        -10.125,
+        -2.25
+      ],
+      "axis": "y",
+      "z0": 0.0,
+      "z1": 1.5,
+      "regions": [
+        "region_01",
+        "region_02"
+      ]
+    },
+    {
+      "id": "ramp_02",
+      "bounds": [
+        -6.0,
+        1.875,
+        7.875,
+        13.875
+      ],
+      "axis": "x",
+      "z0": 3.0,
+      "z1": 1.5,
+      "regions": [
+        "region_00",
+        "region_04"
+      ]
+    },
+    {
+      "id": "ramp_03",
+      "bounds": [
+        3.375,
+        10.5,
+        -8.25,
+        -3.0
+      ],
+      "axis": "x",
+      "z0": 1.5,
+      "z1": 3.0,
+      "regions": [
+        "region_05",
+        "region_06"
+      ]
+    },
+    {
+      "id": "ramp_04",
+      "bounds": [
+        -14.625,
+        -7.5,
+        0.0,
+        9.0
+      ],
+      "axis": "y",
+      "z0": 1.5,
+      "z1": 3.0,
+      "regions": [
+        "region_02",
+        "region_00"
+      ]
+    },
+    {
+      "id": "ramp_05",
+      "bounds": [
+        -6.375,
+        2.625,
+        -14.25,
+        -8.625
+      ],
+      "axis": "x",
+      "z0": 0.0,
+      "z1": 1.5,
+      "regions": [
+        "region_01",
+        "region_05"
+      ]
+    }
+  ],
+  "generation": {
+    "seed": 303,
+    "algorithm": "bsp_graph_terraces_v3",
+    "settings": {
+      "schema_version": 2,
+      "length_range": [
+        30.0,
+        36.0
+      ],
+      "width_range": [
+        27.0,
+        33.0
+      ],
+      "dimension_snap": 0.75,
+      "region_count_range": [
+        7,
+        10
+      ],
+      "minimum_region_side": 7.5,
+      "maximum_region_aspect": 2.8,
+      "height_steps": [
+        1.0,
+        1.25,
+        1.5
+      ],
+      "level_count_range": [
+        3,
+        5
+      ],
+      "minimum_height_span": 3.0,
+      "maximum_height": 6.0,
+      "ramp_width_range": [
+        5.25,
+        7.125
+      ],
+      "ramp_length_range": [
+        6.75,
+        9.75
+      ],
+      "maximum_grade": 0.6,
+      "landing_length": 0.75,
+      "edge_margin": 0.375,
+      "ramp_clearance": 0.375,
+      "minimum_flat_fraction": 0.5,
+      "minimum_flat_rectangle_side": 3.375,
+      "minimum_flat_rectangle_area": 18.0,
+      "extra_ramp_links_range": [
+        2,
+        5
+      ],
+      "walk_grid_step": 0.375,
+      "mesh_grid_step": 0.1875,
+      "bottom_z": -0.35,
+      "people_count": 8,
+      "rover_count": 2,
+      "prop_count": 6,
+      "maximum_attempts": 300,
+      "navigation_clearance_radius": 1.125,
+      "height_assignment": {
+        "mode": "mixed_extrema",
+        "minimum_peak_components": 2,
+        "minimum_low_components": 2,
+        "minimum_extreme_area_fraction": 0.12,
+        "maximum_planar_trend_r2": 0.5,
+        "anchor_search_attempts": 80,
+        "assignment_search_limit": 4096
+      },
+      "maximum_flat_fraction": 0.7
+    },
+    "partition_tree": [
+      {
+        "bounds": [
+          -10.5,
+          10.5,
+          -10.0,
+          10.0
+        ],
+        "axis": "x",
+        "cut": -2.0
+      },
+      {
+        "bounds": [
+          -10.5,
+          -2.0,
+          -10.0,
+          10.0
+        ],
+        "axis": "y",
+        "cut": 2.5
+      },
+      {
+        "bounds": [
+          -2.0,
+          10.5,
+          -10.0,
+          10.0
+        ],
+        "axis": "y",
+        "cut": -0.5
+      },
+      {
+        "bounds": [
+          -10.5,
+          -2.0,
+          -10.0,
+          2.5
+        ],
+        "axis": "y",
+        "cut": -4.5
+      },
+      {
+        "bounds": [
+          -2.0,
+          10.5,
+          -0.5,
+          10.0
+        ],
+        "axis": "x",
+        "cut": 4.0
+      },
+      {
+        "bounds": [
+          -2.0,
+          4.0,
+          -0.5,
+          10.0
+        ],
+        "axis": "y",
+        "cut": 5.0
+      },
+      {
+        "bounds": [
+          -2.0,
+          10.5,
+          -10.0,
+          -0.5
+        ],
+        "axis": "x",
+        "cut": 5.0
+      },
+      {
+        "bounds": [
+          4.0,
+          10.5,
+          -0.5,
+          10.0
+        ],
+        "axis": "y",
+        "cut": 4.5
+      }
+    ],
+    "adjacency": [
+      {
+        "a": 0,
+        "b": 2,
+        "axis": "y",
+        "boundary": 2.5,
+        "span": [
+          -10.5,
+          -2.0
+        ]
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "axis": "x",
+        "boundary": -2.0,
+        "span": [
+          2.5,
+          5.0
+        ]
+      },
+      {
+        "a": 0,
+        "b": 4,
+        "axis": "x",
+        "boundary": -2.0,
+        "span": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "axis": "y",
+        "boundary": -4.5,
+        "span": [
+          -10.5,
+          -2.0
+        ]
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "axis": "x",
+        "boundary": -2.0,
+        "span": [
+          -10.0,
+          -4.5
+        ]
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "axis": "x",
+        "boundary": -2.0,
+        "span": [
+          -0.5,
+          2.5
+        ]
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "axis": "x",
+        "boundary": -2.0,
+        "span": [
+          -4.5,
+          -0.5
+        ]
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "axis": "y",
+        "boundary": 5.0,
+        "span": [
+          -2.0,
+          4.0
+        ]
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "axis": "y",
+        "boundary": -0.5,
+        "span": [
+          -2.0,
+          4.0
+        ]
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "axis": "x",
+        "boundary": 4.0,
+        "span": [
+          -0.5,
+          4.5
+        ]
+      },
+      {
+        "a": 4,
+        "b": 8,
+        "axis": "x",
+        "boundary": 4.0,
+        "span": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "axis": "x",
+        "boundary": 5.0,
+        "span": [
+          -10.0,
+          -0.5
+        ]
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "axis": "y",
+        "boundary": -0.5,
+        "span": [
+          5.0,
+          10.5
+        ]
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "axis": "y",
+        "boundary": 4.5,
+        "span": [
+          4.0,
+          10.5
+        ]
+      }
+    ],
+    "height_step": 1.5,
+    "bands": 3,
+    "pattern": "mixed_extrema",
+    "height_assignment": "independent_extrema_with_connectivity_repair",
+    "low_anchors": [
+      1,
+      3
+    ],
+    "high_anchors": [
+      0,
+      6
+    ],
+    "sampled_tiers": [
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    "assigned_tiers": [
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    "height_repair_changed_regions": 0,
+    "height_anchor_trials": 1,
+    "height_assignment_candidates": 1,
+    "height_metrics": {
+      "local_peak_components": 2,
+      "local_low_components": 2,
+      "global_high_components": 2,
+      "global_low_components": 2,
+      "peak_regions": [
+        [
+          "region_00"
+        ],
+        [
+          "region_06"
+        ]
+      ],
+      "low_regions": [
+        [
+          "region_01"
+        ],
+        [
+          "region_03"
+        ]
+      ],
+      "global_high_regions": [
+        [
+          "region_00"
+        ],
+        [
+          "region_06"
+        ]
+      ],
+      "global_low_regions": [
+        [
+          "region_01"
+        ],
+        [
+          "region_03"
+        ]
+      ],
+      "high_area_fraction": 0.276190476,
+      "low_area_fraction": 0.189880952,
+      "planar_trend_r2": 0.091616547
+    },
+    "attempt": 24,
+    "rejections": {
+      "ramp_graph_disconnected": 15,
+      "sufficient_ramp_coverage": 3,
+      "every_region_has_broad_flat_rectangle": 4,
+      "partition_capacity": 1
+    },
+    "flat_fraction": 0.681845238,
+    "flat_rectangles": [
+      {
+        "region": "region_00",
+        "height": 3.0,
+        "bounds": [
+          -15.75,
+          -6.0,
+          9.0,
+          15.0
+        ],
+        "area_m2": 58.5
+      },
+      {
+        "region": "region_01",
+        "height": 0.0,
+        "bounds": [
+          -15.75,
+          -6.375,
+          -15.0,
+          -10.125
+        ],
+        "area_m2": 45.703125
+      },
+      {
+        "region": "region_02",
+        "height": 1.5,
+        "bounds": [
+          -7.5,
+          -3.0,
+          -6.75,
+          3.75
+        ],
+        "area_m2": 47.25
+      },
+      {
+        "region": "region_03",
+        "height": 0.0,
+        "bounds": [
+          -3.0,
+          3.0,
+          -0.75,
+          7.5
+        ],
+        "area_m2": 49.5
+      },
+      {
+        "region": "region_04",
+        "height": 1.5,
+        "bounds": [
+          1.875,
+          6.0,
+          7.5,
+          15.0
+        ],
+        "area_m2": 30.9375
+      },
+      {
+        "region": "region_05",
+        "height": 1.5,
+        "bounds": [
+          -3.0,
+          3.375,
+          -8.625,
+          -0.75
+        ],
+        "area_m2": 50.203125
+      },
+      {
+        "region": "region_06",
+        "height": 3.0,
+        "bounds": [
+          10.5,
+          15.75,
+          -15.0,
+          -0.75
+        ],
+        "area_m2": 74.8125
+      },
+      {
+        "region": "region_07",
+        "height": 1.5,
+        "bounds": [
+          10.125,
+          15.75,
+          -0.75,
+          6.75
+        ],
+        "area_m2": 42.1875
+      },
+      {
+        "region": "region_08",
+        "height": 1.5,
+        "bounds": [
+          6.0,
+          15.75,
+          6.75,
+          15.0
+        ],
+        "area_m2": 80.4375
+      }
+    ],
+    "layout_sha256": "fb489395878d5b5a01ffce31eca2ca874a6fe6e24b7174f712619a5bf58bcc23",
+    "xy_scale": 1.5
+  }
+}

@@ -1,0 +1,1696 @@
+{
+  "status": "built",
+  "family": {
+    "id": "urban",
+    "title": "Stepped pedestrian quarter",
+    "title_ko": "경사 보행로와 계단형 도시 광장",
+    "seed": 202,
+    "xy_scale": 1.35,
+    "ground_texture": "PavingStones046",
+    "wall_texture": "Concrete033",
+    "path_texture": "Concrete033",
+    "ground_tile_cm": 240,
+    "wall_tint": [
+      0.82,
+      0.77,
+      0.68
+    ],
+    "description": "Shopfront buildings, paved upper and lower plazas, connecting ramps, street furniture and parked cars.",
+    "asset_groups": [
+      {
+        "asset": "cafe",
+        "count": 1,
+        "size_cm": 480
+      },
+      {
+        "asset": "sedan",
+        "count": 2,
+        "size_cm": 430
+      },
+      {
+        "asset": "bench",
+        "count": 5,
+        "size_cm": 180
+      },
+      {
+        "asset": "lamp",
+        "count": 5,
+        "size_cm": 340,
+        "height_size": true
+      },
+      {
+        "asset": "trash",
+        "count": 3,
+        "size_cm": 90,
+        "height_size": true
+      },
+      {
+        "asset": "tree",
+        "count": 4,
+        "size_cm": 480,
+        "height_size": true
+      },
+      {
+        "asset": "worker",
+        "count": 3,
+        "size_cm": 178,
+        "height_size": true
+      }
+    ]
+  },
+  "map_path": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/Maps/urban",
+  "objects": [
+    {
+      "asset": "cafe",
+      "count": 1,
+      "size_cm": 480,
+      "id": "cafe_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding01",
+      "actor": "SD_Main_cafe_00",
+      "anchor_m": [
+        9.649999999999999,
+        -10.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        2.4000000000000004,
+        1.7367206669400743
+      ],
+      "collision_half_xy_m": [
+        2.4000000000000004,
+        1.7367206669400743
+      ],
+      "transform": {
+        "location_cm": [
+          964.9999999999999,
+          -1050.0000139651866,
+          153.82423113501125
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.45761123620297744,
+          0.45761123620297744,
+          0.45761123620297744
+        ]
+      },
+      "instance_id": 10,
+      "evaluated_world_matrix_cm": [
+        [
+          1.296307129354373e-16,
+          0.45761123620297744,
+          0.0,
+          964.9999999999999
+        ],
+        [
+          -0.45761123620297744,
+          1.296307129354373e-16,
+          0.0,
+          -1050.0000139651866
+        ],
+        [
+          0.0,
+          -0.0,
+          0.45761123620297744,
+          153.82423113501125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "sedan",
+      "count": 2,
+      "size_cm": 430,
+      "id": "sedan_00",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a",
+      "actor": "SD_Main_sedan_00",
+      "anchor_m": [
+        5.649999999999999,
+        -10.5
+      ],
+      "ground_z_m": 1.5000000000000002,
+      "half_xy_m": [
+        0.938395755730511,
+        2.15
+      ],
+      "collision_half_xy_m": [
+        0.938395755730511,
+        2.15
+      ],
+      "transform": {
+        "location_cm": [
+          564.9999999999999,
+          -1040.7464221201944,
+          150.5081306408335
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.872579735569494,
+          0.872579735569494,
+          0.872579735569494
+        ]
+      },
+      "instance_id": 11,
+      "evaluated_world_matrix_cm": [
+        [
+          2.4718172165841784e-16,
+          -0.872579735569494,
+          0.0,
+          564.9999999999999
+        ],
+        [
+          0.872579735569494,
+          2.4718172165841784e-16,
+          -0.0,
+          -1040.7464221201944
+        ],
+        [
+          0.0,
+          0.0,
+          0.872579735569494,
+          150.5081306408335
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "sedan",
+      "count": 2,
+      "size_cm": 430,
+      "id": "sedan_01",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a",
+      "actor": "SD_Main_sedan_01",
+      "anchor_m": [
+        9.149999999999999,
+        -7.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        2.15,
+        0.9383957557305109
+      ],
+      "collision_half_xy_m": [
+        2.15,
+        0.9383957557305109
+      ],
+      "transform": {
+        "location_cm": [
+          924.2535778798053,
+          -750.0,
+          150.50813064083349
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.872579735569494,
+          0.872579735569494,
+          0.872579735569494
+        ]
+      },
+      "instance_id": 12,
+      "evaluated_world_matrix_cm": [
+        [
+          0.872579735569494,
+          -0.0,
+          0.0,
+          924.2535778798053
+        ],
+        [
+          0.0,
+          0.872579735569494,
+          -0.0,
+          -750.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.872579735569494,
+          150.50813064083349
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_00",
+      "anchor_m": [
+        0.6499999999999986,
+        -3.0
+      ],
+      "ground_z_m": 1.5000000000000002,
+      "half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "collision_half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "transform": {
+        "location_cm": [
+          64.99999999999986,
+          -299.3459261179004,
+          156.3741419296532
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 13,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8710086853664534,
+          -0.0,
+          0.0,
+          64.99999999999986
+        ],
+        [
+          0.0,
+          0.8710086853664534,
+          -0.0,
+          -299.3459261179004
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          156.3741419296532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_01",
+      "anchor_m": [
+        -0.8500000000000014,
+        -2.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "collision_half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "transform": {
+        "location_cm": [
+          -85.65407388209978,
+          -250.0,
+          156.37414192965318
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 14,
+      "evaluated_world_matrix_cm": [
+        [
+          2.467366793566436e-16,
+          -0.8710086853664534,
+          0.0,
+          -85.65407388209978
+        ],
+        [
+          0.8710086853664534,
+          2.467366793566436e-16,
+          -0.0,
+          -250.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          156.37414192965318
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_02",
+      "anchor_m": [
+        0.6499999999999986,
+        -4.5
+      ],
+      "ground_z_m": 1.5000000000000002,
+      "half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "collision_half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "transform": {
+        "location_cm": [
+          64.34592611790022,
+          -450.0,
+          156.3741419296532
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 15,
+      "evaluated_world_matrix_cm": [
+        [
+          2.467366793566436e-16,
+          -0.8710086853664534,
+          0.0,
+          64.34592611790022
+        ],
+        [
+          0.8710086853664534,
+          2.467366793566436e-16,
+          -0.0,
+          -450.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          156.3741419296532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_03",
+      "anchor_m": [
+        -12.350000000000001,
+        10.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "collision_half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "transform": {
+        "location_cm": [
+          -1235.6540738821,
+          1050.0,
+          306.3741419296532
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 16,
+      "evaluated_world_matrix_cm": [
+        [
+          2.467366793566436e-16,
+          -0.8710086853664534,
+          0.0,
+          -1235.6540738821
+        ],
+        [
+          0.8710086853664534,
+          2.467366793566436e-16,
+          -0.0,
+          1050.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          306.3741419296532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 5,
+      "size_cm": 180,
+      "id": "bench_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_04",
+      "anchor_m": [
+        -10.850000000000001,
+        11.5
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "collision_half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "transform": {
+        "location_cm": [
+          -1085.0000000000002,
+          1150.6540738820997,
+          306.37414192965326
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 17,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8710086853664534,
+          -0.0,
+          0.0,
+          -1085.0000000000002
+        ],
+        [
+          0.0,
+          0.8710086853664534,
+          -0.0,
+          1150.6540738820997
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          306.37414192965326
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "worker",
+      "count": 3,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_00",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "actor": "SD_Main_worker_00",
+      "anchor_m": [
+        -9.350000000000001,
+        10.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.1723357592403923,
+        0.6416543242244878
+      ],
+      "collision_half_xy_m": [
+        0.1723357592403923,
+        0.6416543242244878
+      ],
+      "transform": {
+        "location_cm": [
+          -935.0850944109452,
+          1050.0,
+          300.5082177809724
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          1.0750485795151041,
+          1.0750485795151041,
+          1.0750485795151041
+        ]
+      },
+      "instance_id": 18,
+      "foot_adjustment_cm": -2.9526980560179936,
+      "evaluated_world_matrix_cm": [
+        [
+          3.0453647720520145e-16,
+          1.0750485795151041,
+          0.0,
+          -935.0850944109452
+        ],
+        [
+          -1.0750485795151041,
+          3.0453647720520145e-16,
+          0.0,
+          1050.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0750485795151041,
+          297.5555197249544
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "worker",
+      "count": 3,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_01",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "actor": "SD_Main_worker_01",
+      "anchor_m": [
+        0.6499999999999986,
+        -9.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.6416543242244878,
+        0.1723357592403922
+      ],
+      "collision_half_xy_m": [
+        0.6416543242244878,
+        0.1723357592403922
+      ],
+      "transform": {
+        "location_cm": [
+          64.99999999999986,
+          -949.9149055890549,
+          150.50821778097242
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          1.0750485795151041,
+          1.0750485795151041,
+          1.0750485795151041
+        ]
+      },
+      "instance_id": 19,
+      "foot_adjustment_cm": -2.952698056018022,
+      "evaluated_world_matrix_cm": [
+        [
+          -1.0750485795151041,
+          -1.316554801831081e-16,
+          0.0,
+          64.99999999999986
+        ],
+        [
+          1.316554801831081e-16,
+          -1.0750485795151041,
+          0.0,
+          -949.9149055890549
+        ],
+        [
+          0.0,
+          0.0,
+          1.0750485795151041,
+          147.5555197249544
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "worker",
+      "count": 3,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_02",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "actor": "SD_Main_worker_02",
+      "anchor_m": [
+        -0.8500000000000014,
+        -9.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.17233575924039218,
+        0.6416543242244878
+      ],
+      "collision_half_xy_m": [
+        0.17233575924039218,
+        0.6416543242244878
+      ],
+      "transform": {
+        "location_cm": [
+          -84.91490558905504,
+          -950.0,
+          150.50821778097242
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          1.0750485795151041,
+          1.0750485795151041,
+          1.0750485795151041
+        ]
+      },
+      "instance_id": 20,
+      "foot_adjustment_cm": -2.952698056018022,
+      "evaluated_world_matrix_cm": [
+        [
+          3.0453647720520145e-16,
+          -1.0750485795151041,
+          0.0,
+          -84.91490558905504
+        ],
+        [
+          1.0750485795151041,
+          3.0453647720520145e-16,
+          -0.0,
+          -950.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0750485795151041,
+          147.5555197249544
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01",
+      "actor": "SD_Main_lamp_00",
+      "anchor_m": [
+        -0.3500000000000014,
+        -11.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.1642849739744525,
+        0.16428490943449636
+      ],
+      "collision_half_xy_m": [
+        0.1642849739744525,
+        0.16428490943449636
+      ],
+      "transform": {
+        "location_cm": [
+          -34.99999838650124,
+          -1100.0,
+          150.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8459381133194068,
+          0.8459381133194068,
+          0.8459381133194068
+        ]
+      },
+      "instance_id": 21,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8459381133194068,
+          -0.0,
+          0.0,
+          -34.99999838650124
+        ],
+        [
+          0.0,
+          0.8459381133194068,
+          -0.0,
+          -1100.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8459381133194068,
+          150.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01",
+      "actor": "SD_Main_lamp_01",
+      "anchor_m": [
+        -8.850000000000001,
+        -12.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.16428490943449636,
+        0.1642849739744525
+      ],
+      "collision_half_xy_m": [
+        0.16428490943449636,
+        0.1642849739744525
+      ],
+      "transform": {
+        "location_cm": [
+          -885.0000000000001,
+          -1249.9999983865011,
+          150.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8459381133194068,
+          0.8459381133194068,
+          0.8459381133194068
+        ]
+      },
+      "instance_id": 22,
+      "evaluated_world_matrix_cm": [
+        [
+          2.396347643007022e-16,
+          -0.8459381133194068,
+          0.0,
+          -885.0000000000001
+        ],
+        [
+          0.8459381133194068,
+          2.396347643007022e-16,
+          -0.0,
+          -1249.9999983865011
+        ],
+        [
+          0.0,
+          0.0,
+          0.8459381133194068,
+          150.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01",
+      "actor": "SD_Main_lamp_02",
+      "anchor_m": [
+        -8.850000000000001,
+        -11.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.16428490943449636,
+        0.1642849739744525
+      ],
+      "collision_half_xy_m": [
+        0.16428490943449636,
+        0.1642849739744525
+      ],
+      "transform": {
+        "location_cm": [
+          -885.0000000000001,
+          -1149.9999983865011,
+          150.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8459381133194068,
+          0.8459381133194068,
+          0.8459381133194068
+        ]
+      },
+      "instance_id": 23,
+      "evaluated_world_matrix_cm": [
+        [
+          2.396347643007022e-16,
+          -0.8459381133194068,
+          0.0,
+          -885.0000000000001
+        ],
+        [
+          0.8459381133194068,
+          2.396347643007022e-16,
+          -0.0,
+          -1149.9999983865011
+        ],
+        [
+          0.0,
+          0.0,
+          0.8459381133194068,
+          150.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01",
+      "actor": "SD_Main_lamp_03",
+      "anchor_m": [
+        -9.850000000000001,
+        -12.5
+      ],
+      "ground_z_m": 1.5000000000000002,
+      "half_xy_m": [
+        0.16428490943449636,
+        0.1642849739744525
+      ],
+      "collision_half_xy_m": [
+        0.16428490943449636,
+        0.1642849739744525
+      ],
+      "transform": {
+        "location_cm": [
+          -985.0000000000001,
+          -1249.9999983865011,
+          150.50000000000003
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8459381133194068,
+          0.8459381133194068,
+          0.8459381133194068
+        ]
+      },
+      "instance_id": 24,
+      "evaluated_world_matrix_cm": [
+        [
+          2.396347643007022e-16,
+          -0.8459381133194068,
+          0.0,
+          -985.0000000000001
+        ],
+        [
+          0.8459381133194068,
+          2.396347643007022e-16,
+          -0.0,
+          -1249.9999983865011
+        ],
+        [
+          0.0,
+          0.0,
+          0.8459381133194068,
+          150.50000000000003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "lamp",
+      "count": 5,
+      "size_cm": 340,
+      "height_size": true,
+      "id": "lamp_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_LampPost01",
+      "actor": "SD_Main_lamp_04",
+      "anchor_m": [
+        5.649999999999999,
+        9.5
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.16428497397445252,
+        0.1642849094344964
+      ],
+      "collision_half_xy_m": [
+        0.16428497397445252,
+        0.1642849094344964
+      ],
+      "transform": {
+        "location_cm": [
+          564.999998386501,
+          950.0,
+          300.50000000000006
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.8459381133194068,
+          0.8459381133194068,
+          0.8459381133194068
+        ]
+      },
+      "instance_id": 25,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.8459381133194068,
+          -1.0359754027533625e-16,
+          0.0,
+          564.999998386501
+        ],
+        [
+          1.0359754027533625e-16,
+          -0.8459381133194068,
+          0.0,
+          950.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8459381133194068,
+          300.50000000000006
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_00",
+      "anchor_m": [
+        7.149999999999999,
+        9.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        2.8351076766211913,
+        2.842368457500961
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          747.2659699996584,
+          999.61209097003,
+          310.1015168489951
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          2.726500706125935,
+          2.726500706125935,
+          2.726500706125935
+        ]
+      },
+      "instance_id": 26,
+      "evaluated_world_matrix_cm": [
+        [
+          7.723547902510585e-16,
+          2.726500706125935,
+          0.0,
+          747.2659699996584
+        ],
+        [
+          -2.726500706125935,
+          7.723547902510585e-16,
+          0.0,
+          999.61209097003
+        ],
+        [
+          0.0,
+          -0.0,
+          2.726500706125935,
+          310.1015168489951
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_01",
+      "anchor_m": [
+        6.649999999999999,
+        10.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        2.842368457500961,
+        2.8351076766211913
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          714.6120909700298,
+          1017.7340300003415,
+          310.1015168489951
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          2.726500706125935,
+          2.726500706125935,
+          2.726500706125935
+        ]
+      },
+      "instance_id": 27,
+      "evaluated_world_matrix_cm": [
+        [
+          -2.726500706125935,
+          -3.3390003626301246e-16,
+          0.0,
+          714.6120909700298
+        ],
+        [
+          3.3390003626301246e-16,
+          -2.726500706125935,
+          0.0,
+          1017.7340300003415
+        ],
+        [
+          0.0,
+          0.0,
+          2.726500706125935,
+          310.1015168489951
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_02",
+      "anchor_m": [
+        -8.350000000000001,
+        -3.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        2.8351076766211913,
+        2.842368457500961
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          -802.7340300003416,
+          -300.38790902997,
+          10.10151684899514
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          2.726500706125935,
+          2.726500706125935,
+          2.726500706125935
+        ]
+      },
+      "instance_id": 28,
+      "evaluated_world_matrix_cm": [
+        [
+          7.723547902510585e-16,
+          2.726500706125935,
+          0.0,
+          -802.7340300003416
+        ],
+        [
+          -2.726500706125935,
+          7.723547902510585e-16,
+          0.0,
+          -300.38790902997
+        ],
+        [
+          0.0,
+          -0.0,
+          2.726500706125935,
+          10.10151684899514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 4,
+      "size_cm": 480,
+      "height_size": true,
+      "id": "tree_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_03",
+      "anchor_m": [
+        -6.850000000000001,
+        -5.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        2.842368457500961,
+        2.8351076766211913
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          -635.3879090299702,
+          -582.2659699996585,
+          10.10151684899514
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          2.726500706125935,
+          2.726500706125935,
+          2.726500706125935
+        ]
+      },
+      "instance_id": 29,
+      "evaluated_world_matrix_cm": [
+        [
+          -2.726500706125935,
+          -3.3390003626301246e-16,
+          0.0,
+          -635.3879090299702
+        ],
+        [
+          3.3390003626301246e-16,
+          -2.726500706125935,
+          0.0,
+          -582.2659699996585
+        ],
+        [
+          0.0,
+          0.0,
+          2.726500706125935,
+          10.10151684899514
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "trash",
+      "count": 3,
+      "size_cm": 90,
+      "height_size": true,
+      "id": "trash_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_TrashCan01",
+      "actor": "SD_Main_trash_00",
+      "anchor_m": [
+        -5.850000000000001,
+        -5.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.31176248894911374,
+        0.31176248894911374
+      ],
+      "collision_half_xy_m": [
+        0.31176248894911374,
+        0.31176248894911374
+      ],
+      "transform": {
+        "location_cm": [
+          -585.0000000000001,
+          -550.0,
+          1.6493373540509906
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.7506063591257128,
+          0.7506063591257128,
+          0.7506063591257128
+        ]
+      },
+      "instance_id": 30,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.7506063591257128,
+          -9.192276751229529e-17,
+          0.0,
+          -585.0000000000001
+        ],
+        [
+          9.192276751229529e-17,
+          -0.7506063591257128,
+          0.0,
+          -550.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7506063591257128,
+          1.6493373540509906
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "trash",
+      "count": 3,
+      "size_cm": 90,
+      "height_size": true,
+      "id": "trash_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_TrashCan01",
+      "actor": "SD_Main_trash_01",
+      "anchor_m": [
+        12.649999999999999,
+        -1.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.31176248894911374,
+        0.31176248894911374
+      ],
+      "collision_half_xy_m": [
+        0.31176248894911374,
+        0.31176248894911374
+      ],
+      "transform": {
+        "location_cm": [
+          1264.9999999999998,
+          -150.0,
+          1.6493373540509906
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.7506063591257128,
+          0.7506063591257128,
+          0.7506063591257128
+        ]
+      },
+      "instance_id": 31,
+      "evaluated_world_matrix_cm": [
+        [
+          2.1262947622243272e-16,
+          -0.7506063591257128,
+          0.0,
+          1264.9999999999998
+        ],
+        [
+          0.7506063591257128,
+          2.1262947622243272e-16,
+          -0.0,
+          -150.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7506063591257128,
+          1.6493373540509906
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "trash",
+      "count": 3,
+      "size_cm": 90,
+      "height_size": true,
+      "id": "trash_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_TrashCan01",
+      "actor": "SD_Main_trash_02",
+      "anchor_m": [
+        12.649999999999999,
+        -0.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.31176248894911374,
+        0.31176248894911374
+      ],
+      "collision_half_xy_m": [
+        0.31176248894911374,
+        0.31176248894911374
+      ],
+      "transform": {
+        "location_cm": [
+          1264.9999999999998,
+          -50.0,
+          1.6493373540509906
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.7506063591257128,
+          0.7506063591257128,
+          0.7506063591257128
+        ]
+      },
+      "instance_id": 32,
+      "evaluated_world_matrix_cm": [
+        [
+          2.1262947622243272e-16,
+          0.7506063591257128,
+          0.0,
+          1264.9999999999998
+        ],
+        [
+          -0.7506063591257128,
+          2.1262947622243272e-16,
+          0.0,
+          -50.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.7506063591257128,
+          1.6493373540509906
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "logical_objects": 23,
+  "architecture_actors": [
+    "SD_Main_building_0",
+    "SD_Main_roof_0",
+    "SD_Main_shopfront_0_-1",
+    "SD_Main_shopfront_0_1",
+    "SD_Main_brick_facade_0_1_0",
+    "SD_Main_brick_facade_0_1_1",
+    "SD_Main_brick_facade_0_1_2",
+    "SD_Main_upper_window_0_1_-1",
+    "SD_Main_upper_window_0_1_1",
+    "SD_Main_brick_facade_0_2_0",
+    "SD_Main_brick_facade_0_2_1",
+    "SD_Main_brick_facade_0_2_2",
+    "SD_Main_upper_window_0_2_-1",
+    "SD_Main_upper_window_0_2_1",
+    "SD_Main_building_1",
+    "SD_Main_roof_1",
+    "SD_Main_shopfront_1_-1",
+    "SD_Main_shopfront_1_1",
+    "SD_Main_brick_facade_1_1_0",
+    "SD_Main_brick_facade_1_1_1",
+    "SD_Main_brick_facade_1_1_2",
+    "SD_Main_upper_window_1_1_-1",
+    "SD_Main_upper_window_1_1_1",
+    "SD_Main_brick_facade_1_2_0",
+    "SD_Main_brick_facade_1_2_1",
+    "SD_Main_brick_facade_1_2_2",
+    "SD_Main_upper_window_1_2_-1",
+    "SD_Main_upper_window_1_2_1",
+    "SD_Main_building_2",
+    "SD_Main_roof_2",
+    "SD_Main_shopfront_2_-1",
+    "SD_Main_shopfront_2_1",
+    "SD_Main_brick_facade_2_1_0",
+    "SD_Main_brick_facade_2_1_1",
+    "SD_Main_brick_facade_2_1_2",
+    "SD_Main_upper_window_2_1_-1",
+    "SD_Main_upper_window_2_1_1",
+    "SD_Main_upper_window_2_2_-1",
+    "SD_Main_upper_window_2_2_1"
+  ],
+  "source_packs": [
+    "city_park_environment",
+    "game_animation_sample",
+    "modular_building_set",
+    "vehicle_variety_pack_2"
+  ],
+  "lighting_source": {
+    "asset": "kloofendal_48d_partly_cloudy_puresky",
+    "title": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+    "authors": {
+      "Greg Zaal": "Original",
+      "Jarod Guest": "Sky edits"
+    },
+    "publisher": "Poly Haven",
+    "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "api_terms_url": "https://polyhaven.com/our-api",
+    "credit": "Powered by Poly Haven",
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+    "relative_path": "inputs/lighting/polyhaven/kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+    "bytes": 20674857,
+    "md5": "816340c969d2e60d659051d13ac3c4dc",
+    "sha256": "3061c00a16ecae748e84fd6c44c04804f539c118bb66325db858bad87b11bf88",
+    "resolution": [
+      4096,
+      2048
+    ],
+    "purpose": "Pure sky for visible sky dome, skylight illumination and reflections; no exterior scenery",
+    "luminance": {
+      "upper_median": 0.3444511592388153,
+      "spherical_mean": 0.6914662485189841,
+      "maximum": 74608.84375
+    },
+    "background_multiplier": 0.8128873789211726,
+    "skylight_intensity": 0.7954112021780047,
+    "sun_direction_world": [
+      0.3774760124257408,
+      -0.5547432295333827,
+      0.7414659866305633
+    ],
+    "directional_light_rotation": {
+      "pitch": -47.8564453125,
+      "yaw": 124.2333984375,
+      "roll": 0
+    },
+    "whitebalance_kelvin": 5400,
+    "basis": "Unreal long-lat cubemap import: sample-space direction=(sin(phi)*sin(theta),-sin(phi)*cos(theta),cos(phi))"
+  },
+  "architecture_materials": "Native solid-volume construction with original Modular Building Set shopfront/brick modules in the urban family",
+  "scope": "Independent seeded terrain and coherent family dressing; root-static scene inspection with idle clips; benchmark dynamics and QA are a later stage"
+}

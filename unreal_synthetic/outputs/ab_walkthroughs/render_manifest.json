@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "expected_cases": 3,
+  "cases": [
+    {
+      "id": "01_east_to_west",
+      "status": "passed",
+      "frames": 960,
+      "seconds": 40.0,
+      "movie_sha256": "e5597319c9d8f102809e5983bc4095e42038b4955c55583798f3be6a29fd10a5"
+    },
+    {
+      "id": "02_west_to_east",
+      "status": "passed",
+      "frames": 960,
+      "seconds": 40.0,
+      "movie_sha256": "aecb27d60023344d001b05002a44e1ed870e1cfa793fb0e33eadbb62426a74e9"
+    },
+    {
+      "id": "03_full_loop",
+      "status": "passed",
+      "frames": 960,
+      "seconds": 40.0,
+      "movie_sha256": "1099b0c5e606b923a20f2188a241a74d373a74352bdc4de5d93047f7b721a3dc"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-26T11:35:20.957498+00:00",
+  "retained_decisions": [
+    "exclude",
+    "review"
+  ],
+  "original_videos": 1275,
+  "removed_keep_videos": 1255,
+  "retained_videos": 20,
+  "retained_counts": {
+    "review": 15,
+    "exclude": 5
+  },
+  "original_qa_sha256": "6a9aca3043050cac003f15bc802284f2c609f1eb9beb0e044082141e00b6d5bb",
+  "original_qa_count": 2387,
+  "video_ids": [
+    "DAVIS__lab-coat",
+    "MOSE__138c81fe",
+    "MOSE__34ccea00",
+    "MOSE__495be321",
+    "MOSE__6e0f0ecc",
+    "MOSE__cbd144f5",
+    "MOSE__fc4c1c67",
+    "SAV__sav_018304_manual",
+    "SAV__sav_024015_manual",
+    "SAV__sav_025445_manual",
+    "SAV__sav_027651_manual",
+    "uvo__0_tduei7o5g",
+    "uvo__0jFBHhjvbYs",
+    "uvo__1C8rdJEBgbU",
+    "uvo__1JhYwcmxvtY",
+    "uvo__43QnKFB8tW8",
+    "uvo__4eRwcuIRiCg",
+    "uvo__5PjPLbFbH_s",
+    "youtube_vis__04d62d9d98",
+    "youtube_vis__d3b2cc407e"
+  ],
+  "finished_at": "2026-10-26T11:36:23.826189+00:00",
+  "retained_images": 180,
+  "original_qa_unchanged": true,
+  "remaining_entries": [
+    "exclude",
+    "review"
+  ]
+}

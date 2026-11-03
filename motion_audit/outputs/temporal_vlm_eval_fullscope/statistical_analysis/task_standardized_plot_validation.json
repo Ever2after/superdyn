@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "n_models": 7,
+  "n_groups": 4,
+  "n_qa": 2387,
+  "n_videos": 1275,
+  "common_weights": {
+    "camera_translation_direction": 0.187683284457478,
+    "camera_view_direction_change": 0.1935483870967742,
+    "object_world_motion_direction": 0.2488479262672811,
+    "camera_object_distance_change": 0.16966904063678256,
+    "object_pair_distance_change": 0.0980310012568077,
+    "object_travel_distance_comparison": 0.10222036028487641
+  },
+  "matches_previous_analysis": true,
+  "uncertainty": "CR1 cluster robust normal 95% CI; independent unit = video",
+  "qa_subsampled": false,
+  "common_random_accuracy_percent": 30.610249965088677
+}

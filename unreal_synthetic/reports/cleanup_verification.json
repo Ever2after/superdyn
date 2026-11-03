@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Current synthetic/Unreal docs, sources and final delivery; legacy/vendor/engine excluded",
+  "final_output_directories": [
+    "unreal_synthetic/outputs/ab_walkthroughs"
+  ],
+  "legacy_output_paths_removed": true,
+  "protected_files_unchanged": 26,
+  "movies": 3,
+  "decoded_frames": 2880,
+  "rgb_hashes": 2880,
+  "unreal_offline_tests": 24,
+  "blender_tests": 55,
+  "active_python_files_parsed": 33,
+  "current_markdown_files": 10,
+  "local_markdown_links": 50,
+  "http_head_checks": 6,
+  "archived_source_files_sha256_unchanged": 27,
+  "source_deletion": false,
+  "bytecode_cache_cleanup": {
+    "directories": 14,
+    "files": 154,
+    "bytes": 1530270
+  },
+  "fresh_gpu_render_after_refactor": false
+}

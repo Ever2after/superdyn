@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "phase": "completed",
+  "planned": 2387,
+  "finished": 2387,
+  "valid": 2387,
+  "errors": 0,
+  "decisions": {
+    "keep": 2262,
+    "exclude": 112,
+    "review": 13
+  },
+  "workers": [
+    {
+      "gpu": 4,
+      "phase": "completed",
+      "updated_at": "2026-10-26T19:31:02.717397+00:00"
+    },
+    {
+      "gpu": 5,
+      "phase": "completed",
+      "updated_at": "2026-10-26T19:31:00.503397+00:00"
+    },
+    {
+      "gpu": 6,
+      "phase": "completed",
+      "updated_at": "2026-10-26T19:29:26.731892+00:00"
+    },
+    {
+      "gpu": 7,
+      "phase": "completed",
+      "updated_at": "2026-10-26T19:29:39.889980+00:00"
+    }
+  ],
+  "worker_errors": {},
+  "elapsed_seconds": 565.8698680140078,
+  "eta_seconds": 0.0,
+  "updated_at": "2026-10-26T19:31:04.847017+00:00",
+  "gpus": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "unit": "QA",
+  "original_qa_modified": false
+}

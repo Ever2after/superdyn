@@ -1,0 +1,1214 @@
+{
+  "id": "construction_site_vol1",
+  "roots": [
+    "/Game/Construction_VOL1"
+  ],
+  "class_counts": {
+    "World": 2,
+    "MapBuildDataRegistry": 2,
+    "StaticMesh": 73,
+    "MaterialInstanceConstant": 31,
+    "MaterialFunction": 3,
+    "Material": 5,
+    "Blueprint": 20,
+    "Texture2D": 102,
+    "TextureCube": 1
+  },
+  "assets": [
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BoxStack_01",
+      "name": "BP_BoxStack_01",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BoxStack_02",
+      "name": "BP_BoxStack_02",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BoxStack_03",
+      "name": "BP_BoxStack_03",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BrickStack_01",
+      "name": "BP_BrickStack_01",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BrickStack_02",
+      "name": "BP_BrickStack_02",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BrickStack_03",
+      "name": "BP_BrickStack_03",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BrickStack_04",
+      "name": "BP_BrickStack_04",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BrickStack_05",
+      "name": "BP_BrickStack_05",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_BrickStack_06",
+      "name": "BP_BrickStack_06",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_Cinderstack_01",
+      "name": "BP_Cinderstack_01",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_Cinderstack_02",
+      "name": "BP_Cinderstack_02",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_Cinderstack_03",
+      "name": "BP_Cinderstack_03",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_Cinderstack_04",
+      "name": "BP_Cinderstack_04",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_ConcreteStack_01",
+      "name": "BP_ConcreteStack_01",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_ConcreteStack_02",
+      "name": "BP_ConcreteStack_02",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_ConcreteStack_03",
+      "name": "BP_ConcreteStack_03",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_ConstructionFence_01a",
+      "name": "BP_ConstructionFence_01a",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_DrywallStack_01",
+      "name": "BP_DrywallStack_01",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_LightGenerator_01",
+      "name": "BP_LightGenerator_01",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Blueprints/BP_Portapotty_01",
+      "name": "BP_Portapotty_01",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Maps/Demonstration",
+      "name": "Demonstration",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Maps/Demonstration_BuiltData",
+      "name": "Demonstration_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Maps/Overview_BuiltData",
+      "name": "Overview_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Functions/MF_MicroDetail_01a",
+      "name": "MF_MicroDetail_01a",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Functions/MF_VertexBlend_01a",
+      "name": "MF_VertexBlend_01a",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Functions/MI_VertexBlend_02a",
+      "name": "MI_VertexBlend_02a",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Background_01a",
+      "name": "MI_Background_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_BrickPaletteStack_01a",
+      "name": "MI_BrickPaletteStack_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_CableReel_01a",
+      "name": "MI_CableReel_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_CardboardBoxes_01a",
+      "name": "MI_CardboardBoxes_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Cinderstack_01a",
+      "name": "MI_Cinderstack_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_ConcreteBag_01a",
+      "name": "MI_ConcreteBag_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_ConcretePipe_01a",
+      "name": "MI_ConcretePipe_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_ConstructionPylon_01a",
+      "name": "MI_ConstructionPylon_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Crate_01a",
+      "name": "MI_Crate_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_DebrisTile_01a",
+      "name": "MI_DebrisTile_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Decal_01a",
+      "name": "MI_Decal_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Drywall_01a",
+      "name": "MI_Drywall_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Dumpster_01a",
+      "name": "MI_Dumpster_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Fence_01a",
+      "name": "MI_Fence_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_FreightContainer_01a",
+      "name": "MI_FreightContainer_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_FreightContainer_01b",
+      "name": "MI_FreightContainer_01b",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Lightgenerator_01a",
+      "name": "MI_Lightgenerator_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Lightgenerator_01b",
+      "name": "MI_Lightgenerator_01b",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_OilBarrel_01a",
+      "name": "MI_OilBarrel_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_PlasticBarrel_01a",
+      "name": "MI_PlasticBarrel_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Portapotty_01a",
+      "name": "MI_Portapotty_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Portapotty_01b",
+      "name": "MI_Portapotty_01b",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Propanetank_01a",
+      "name": "MI_Propanetank_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Rebar_01a",
+      "name": "MI_Rebar_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Roadblock_01a",
+      "name": "MI_Roadblock_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Skybox",
+      "name": "MI_Skybox",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Spool_01a",
+      "name": "MI_Spool_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Tarp_01a",
+      "name": "MI_Tarp_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_Trafficbarrier_01a",
+      "name": "MI_Trafficbarrier_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_WaterTank_01a",
+      "name": "MI_WaterTank_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Instances/MI_WoodenPalette_01a",
+      "name": "MI_WoodenPalette_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Masters/MM_Background_01a",
+      "name": "MM_Background_01a",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Masters/MM_Decal_01",
+      "name": "MM_Decal_01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Masters/MM_MasterMaterial_01",
+      "name": "MM_MasterMaterial_01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Masters/MM_PP_Sharpen",
+      "name": "MM_PP_Sharpen",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Materials/Masters/MM_SkyBox",
+      "name": "MM_SkyBox",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Barrel_01",
+      "name": "SM_Barrel_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Boxes_01a",
+      "name": "SM_Boxes_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Boxes_02a",
+      "name": "SM_Boxes_02a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Boxes_03a",
+      "name": "SM_Boxes_03a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Boxes_04a",
+      "name": "SM_Boxes_04a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "name": "SM_BrickPaletteStack_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01b",
+      "name": "SM_BrickPaletteStack_01b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01c",
+      "name": "SM_BrickPaletteStack_01c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01d",
+      "name": "SM_BrickPaletteStack_01d",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01e",
+      "name": "SM_BrickPaletteStack_01e",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01f",
+      "name": "SM_BrickPaletteStack_01f",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01g",
+      "name": "SM_BrickPaletteStack_01g",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_Brick_01a",
+      "name": "SM_BrickPaletteStack_Brick_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "name": "SM_CableReel",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_CinderStack_01a",
+      "name": "SM_CinderStack_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_CinderStack_01b",
+      "name": "SM_CinderStack_01b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_CinderStack_02a",
+      "name": "SM_CinderStack_02a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_CinderStack_03a",
+      "name": "SM_CinderStack_03a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_CinderStack_Pallete_01a",
+      "name": "SM_CinderStack_Pallete_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_CinderStack_Single_01a",
+      "name": "SM_CinderStack_Single_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcreteBag_01a",
+      "name": "SM_ConcreteBag_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcreteBag_02a",
+      "name": "SM_ConcreteBag_02a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcreteBag_03a",
+      "name": "SM_ConcreteBag_03a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcreteBag_04a",
+      "name": "SM_ConcreteBag_04a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcreteBag_05a",
+      "name": "SM_ConcreteBag_05a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcretePipe_01",
+      "name": "SM_ConcretePipe_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcretePipe_02",
+      "name": "SM_ConcretePipe_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConcretePipe_03",
+      "name": "SM_ConcretePipe_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConstructionPylons_01a",
+      "name": "SM_ConstructionPylons_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConstructionPylons_01b",
+      "name": "SM_ConstructionPylons_01b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConstructionPylons_01c",
+      "name": "SM_ConstructionPylons_01c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConstructionPylons_01d",
+      "name": "SM_ConstructionPylons_01d",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConstructionPylons_01e",
+      "name": "SM_ConstructionPylons_01e",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConstructionPylons_01f",
+      "name": "SM_ConstructionPylons_01f",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ConstructionPylons_01g",
+      "name": "SM_ConstructionPylons_01g",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "name": "SM_Crate_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Crate_Base_01a",
+      "name": "SM_Crate_Base_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Crate_Lid_01a",
+      "name": "SM_Crate_Lid_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Drywall_01a",
+      "name": "SM_Drywall_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Drywall_01b",
+      "name": "SM_Drywall_01b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Dumpster",
+      "name": "SM_Dumpster",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_FreightContainer_01",
+      "name": "SM_FreightContainer_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_LightGenerator_01a",
+      "name": "SM_LightGenerator_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_LightGenerator_Base_01a",
+      "name": "SM_LightGenerator_Base_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_LightGenerator_Lights_01a",
+      "name": "SM_LightGenerator_Lights_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_PlasticBarrel_01a",
+      "name": "SM_PlasticBarrel_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Portapotty_01",
+      "name": "SM_Portapotty_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Portapotty_02",
+      "name": "SM_Portapotty_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Portapotty_03",
+      "name": "SM_Portapotty_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Rebar_01a",
+      "name": "SM_Rebar_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Rebar_01b",
+      "name": "SM_Rebar_01b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Roadblock_01a",
+      "name": "SM_Roadblock_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Roadblock_02a",
+      "name": "SM_Roadblock_02a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Roadblock_03a",
+      "name": "SM_Roadblock_03a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Roadblock_03b",
+      "name": "SM_Roadblock_03b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Roadblock_04a",
+      "name": "SM_Roadblock_04a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Roadblock_Flag_03a",
+      "name": "SM_Roadblock_Flag_03a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Spool_01a",
+      "name": "SM_Spool_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Tarp_01",
+      "name": "SM_Tarp_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Tarp_02",
+      "name": "SM_Tarp_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Tarp_03",
+      "name": "SM_Tarp_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Tarp_04",
+      "name": "SM_Tarp_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Tarp_05",
+      "name": "SM_Tarp_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Tarp_06",
+      "name": "SM_Tarp_06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_Trafficbarrier_01",
+      "name": "SM_Trafficbarrier_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_WaterTank_01a",
+      "name": "SM_WaterTank_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ZBackdrop_01",
+      "name": "SM_ZBackdrop_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ZPlane_01a",
+      "name": "SM_ZPlane_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_ZSphere",
+      "name": "SM_ZSphere",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_construction_fence_01a",
+      "name": "SM_construction_fence_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_construction_fence_connectors_01a",
+      "name": "SM_construction_fence_connectors_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_construction_fence_support_01a",
+      "name": "SM_construction_fence_support_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Meshes/SM_woodenpalette_01",
+      "name": "SM_woodenpalette_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_DebrisTile_ALB",
+      "name": "TX_DebrisTile_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_DebrisTile_NRM",
+      "name": "TX_DebrisTile_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_DebrisTile_RMA",
+      "name": "TX_DebrisTile_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_Dirt_01_ALB",
+      "name": "TX_Dirt_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_Micro_MASK",
+      "name": "TX_Micro_MASK",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_Noise_NRM",
+      "name": "TX_Noise_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_RockyMud_01_ALB",
+      "name": "TX_RockyMud_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_RockyMud_01_NRM",
+      "name": "TX_RockyMud_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_RockyMud_01_RHA",
+      "name": "TX_RockyMud_01_RHA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_RockyMud_02_ALB",
+      "name": "TX_RockyMud_02_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_RockyMud_02_NRM",
+      "name": "TX_RockyMud_02_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Tileable/TX_RockyMud_02_RHA",
+      "name": "TX_RockyMud_02_RHA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Boxes_01a_ALB",
+      "name": "TX_Boxes_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Boxes_01a_NRM",
+      "name": "TX_Boxes_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Boxes_01a_RMA",
+      "name": "TX_Boxes_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_BrickPaletteStack_01_ALB",
+      "name": "TX_BrickPaletteStack_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_BrickPaletteStack_01_NRM",
+      "name": "TX_BrickPaletteStack_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_BrickPaletteStack_01_RMA",
+      "name": "TX_BrickPaletteStack_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_CableReel_ALB",
+      "name": "TX_CableReel_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_CableReel_NRM",
+      "name": "TX_CableReel_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_CableReel_RMA",
+      "name": "TX_CableReel_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_CinderStack_ALB",
+      "name": "TX_CinderStack_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_CinderStack_NRM",
+      "name": "TX_CinderStack_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_CinderStack_RMA",
+      "name": "TX_CinderStack_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConcreteBag_01a_ALB",
+      "name": "TX_ConcreteBag_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConcreteBag_01a_NRM",
+      "name": "TX_ConcreteBag_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConcreteBag_01a_RMA",
+      "name": "TX_ConcreteBag_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConcretePipe_Set_ALB",
+      "name": "TX_ConcretePipe_Set_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConcretePipe_Set_NRM",
+      "name": "TX_ConcretePipe_Set_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConcretePipe_Set_RMA",
+      "name": "TX_ConcretePipe_Set_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_ALB",
+      "name": "TX_ConstructionFence_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_DISP",
+      "name": "TX_ConstructionFence_01a_DISP",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_NRM",
+      "name": "TX_ConstructionFence_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_RMA",
+      "name": "TX_ConstructionFence_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConstructionPylons_01_ALB",
+      "name": "TX_ConstructionPylons_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConstructionPylons_01_NRM",
+      "name": "TX_ConstructionPylons_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_ConstructionPylons_01_RMA",
+      "name": "TX_ConstructionPylons_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Crates_01a_ALB",
+      "name": "TX_Crates_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Crates_01a_NRM",
+      "name": "TX_Crates_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Crates_01a_RMA",
+      "name": "TX_Crates_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Decal_01a_ALB",
+      "name": "TX_Decal_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Drywall_01a_ALB",
+      "name": "TX_Drywall_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Drywall_01a_NRM",
+      "name": "TX_Drywall_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Drywall_01a_RMA",
+      "name": "TX_Drywall_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Dumpster_ALB",
+      "name": "TX_Dumpster_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Dumpster_NRM",
+      "name": "TX_Dumpster_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Dumpster_RMA",
+      "name": "TX_Dumpster_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_FreightContainer_01a_ALB",
+      "name": "TX_FreightContainer_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_FreightContainer_01a_NRM",
+      "name": "TX_FreightContainer_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_FreightContainer_01a_RMA",
+      "name": "TX_FreightContainer_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_FreightContainer_01b_ALB",
+      "name": "TX_FreightContainer_01b_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_FreightContainer_01b_NRM",
+      "name": "TX_FreightContainer_01b_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_FreightContainer_01b_RMA",
+      "name": "TX_FreightContainer_01b_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_LightGenerator_01a_ALB",
+      "name": "TX_LightGenerator_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_LightGenerator_01a_NRM",
+      "name": "TX_LightGenerator_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_LightGenerator_01a_RMA",
+      "name": "TX_LightGenerator_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_LightGenerator_01b_ALB",
+      "name": "TX_LightGenerator_01b_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_LightGenerator_01b_NRM",
+      "name": "TX_LightGenerator_01b_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_LightGenerator_01b_RMA",
+      "name": "TX_LightGenerator_01b_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_OilBarrel_01a_ALB",
+      "name": "TX_OilBarrel_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_OilBarrel_01a_NRM",
+      "name": "TX_OilBarrel_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_OilBarrel_01a_RMA",
+      "name": "TX_OilBarrel_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_PlasticBarrel_01a_ALB",
+      "name": "TX_PlasticBarrel_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_PlasticBarrel_01a_NRM",
+      "name": "TX_PlasticBarrel_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_PlasticBarrel_01a_RMA",
+      "name": "TX_PlasticBarrel_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_PortableWaterTank_01_ALB",
+      "name": "TX_PortableWaterTank_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_PortableWaterTank_01_NRM",
+      "name": "TX_PortableWaterTank_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_PortableWaterTank_01_RMA",
+      "name": "TX_PortableWaterTank_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Portapotty_01_ALB",
+      "name": "TX_Portapotty_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Portapotty_01_NRM",
+      "name": "TX_Portapotty_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Portapotty_01_RMA",
+      "name": "TX_Portapotty_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Portapotty_02_ALB",
+      "name": "TX_Portapotty_02_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Portapotty_02_NRM",
+      "name": "TX_Portapotty_02_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Portapotty_02_RMA",
+      "name": "TX_Portapotty_02_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Propane_01_ALB",
+      "name": "TX_Propane_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Propane_01_NRM",
+      "name": "TX_Propane_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Propane_01_RMA",
+      "name": "TX_Propane_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Rebar_ALB",
+      "name": "TX_Rebar_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Rebar_NRM",
+      "name": "TX_Rebar_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Rebar_RMA",
+      "name": "TX_Rebar_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Roadblock_ALB",
+      "name": "TX_Roadblock_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Roadblock_NRM",
+      "name": "TX_Roadblock_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Roadblock_RMA",
+      "name": "TX_Roadblock_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Spool_01a_ALB",
+      "name": "TX_Spool_01a_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Spool_01a_NRM",
+      "name": "TX_Spool_01a_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Spool_01a_RMA",
+      "name": "TX_Spool_01a_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Tarp_01_ALB",
+      "name": "TX_Tarp_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Tarp_01_NRM",
+      "name": "TX_Tarp_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Tarp_01_RMA",
+      "name": "TX_Tarp_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Trafficbarrier_ALB",
+      "name": "TX_Trafficbarrier_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Trafficbarrier_NRM",
+      "name": "TX_Trafficbarrier_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_Trafficbarrier_RMA",
+      "name": "TX_Trafficbarrier_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_WoodenPalette_01_ALB",
+      "name": "TX_WoodenPalette_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_WoodenPalette_01_NRM",
+      "name": "TX_WoodenPalette_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Unique/TX_WoodenPalette_01_RMA",
+      "name": "TX_WoodenPalette_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_Backdrop_01_ALB",
+      "name": "TX_Backdrop_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_Backdrop_01_NRM",
+      "name": "TX_Backdrop_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_Cubemap_Stairs",
+      "name": "TX_Cubemap_Stairs",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_Fill_01_ALB",
+      "name": "TX_Fill_01_ALB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_Fill_01_NRM",
+      "name": "TX_Fill_01_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_Fill_01_RMA",
+      "name": "TX_Fill_01_RMA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_LUT_01",
+      "name": "TX_LUT_01",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Construction_VOL1/Textures/Utility/TX_Lookup_01a_LUT",
+      "name": "TX_Lookup_01a_LUT",
+      "asset_class": "Texture2D"
+    }
+  ]
+}

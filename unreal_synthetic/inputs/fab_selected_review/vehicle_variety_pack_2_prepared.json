@@ -1,0 +1,810 @@
+{
+  "source": {
+    "id": "vehicle_variety_pack_2",
+    "category": "차량",
+    "rank": 3,
+    "title": "Vehicle Variety Pack Volume 2",
+    "listing_id": "591e3b3f-9d49-4cd2-8e28-d471c1a10cab",
+    "source_url": "https://www.fab.com/listings/591e3b3f-9d49-4cd2-8e28-d471c1a10cab",
+    "owned": false,
+    "status": "awaiting_library_addition"
+  },
+  "original_files_verified": 160,
+  "original_bytes": 1409498111,
+  "asset_id": "5843a726b45b4330a400fce886af74cd",
+  "engine": {
+    "artifactId": "VehicleVc016a8147616V2",
+    "matchType": "exact",
+    "requested": "UE_5.8",
+    "selected": "UE_5.8",
+    "available": [
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4",
+      "UE_5.5",
+      "UE_5.6",
+      "UE_5.7",
+      "UE_5.8"
+    ]
+  },
+  "copied_content": [
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/ABP_BoxTruck_Chaos.uasset",
+      "sha1": "ceac081c60e45a2ac27d3e25e31638bc89182432",
+      "bytes": 50934
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/BP_BoxTruck_FrontWheel_Chaos.uasset",
+      "sha1": "062fcf57b9f803ffae23e26df5392f4d56bb5667",
+      "bytes": 7087
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/BP_BoxTruck_RearWheel_Chaos.uasset",
+      "sha1": "3baa8b16386c9bf434656995aec363988938c081",
+      "bytes": 6395
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/SlipGraph_BoxTruck.uasset",
+      "sha1": "fd49f498a4d44632400caeeb7e0f2a5c65962b32",
+      "bytes": 1916
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/TQC_BoxTruck.uasset",
+      "sha1": "e92bceb1d2af6cc280ddd2b0880414ec03acf068",
+      "bytes": 2000
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/BoxTruck/BP_BoxTruck_Chaos.uasset",
+      "sha1": "1913340a03dafdca5856c9e4eb5f0d14e0cd752f",
+      "bytes": 83267
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/BoxTruck/BP_GM_BoxTruck.uasset",
+      "sha1": "44fcbc52490a3a32ce7f81193eac2b80e116d96d",
+      "bytes": 18660
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Campervan/BP_Campervan_Chaos.uasset",
+      "sha1": "4feba793e7dfe3cea3a7d119a98d59c10db660b1",
+      "bytes": 83912
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Campervan/BP_GM_Campervan.uasset",
+      "sha1": "3feceee5a7cbef465dfd3708de948b6cbf726fc9",
+      "bytes": 18677
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Campervan/Campervan_Config/ABP_Campervan_Chaos.uasset",
+      "sha1": "69ce899ab065910874c146a8e4830d0d7594d171",
+      "bytes": 50706
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Campervan/Campervan_Config/BP_Campervan_FrontWheel_Chaos.uasset",
+      "sha1": "af62dfdab7fd4bba19bee906e6774e17a497e1a6",
+      "bytes": 7035
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Campervan/Campervan_Config/BP_Campervan_RearWheel_Chaos.uasset",
+      "sha1": "f330e7beebccd83be1d1d1322dbe201da12ac158",
+      "bytes": 6397
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Sedan/BP_GM_Sedan.uasset",
+      "sha1": "60fa2232cb4b0ac43c76eec6ae041813f89088df",
+      "bytes": 18609
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Sedan/BP_Sedan_Chaos.uasset",
+      "sha1": "70c9d8855601c3da956804210b81486811d5dcc3",
+      "bytes": 82967
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/ABP_Sedan_Chaos.uasset",
+      "sha1": "16165d759dfdf9db1b9cec9cd28557c8f11578ee",
+      "bytes": 50680
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/BP_Sedan_FrontWheel_Chaos.uasset",
+      "sha1": "2c2d522e7dcff12956378688dd96c2982f0fb8a4",
+      "bytes": 6329
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/BP_Sedan_RearWheel_Chaos.uasset",
+      "sha1": "2a0f79f44b1dbaf7cc1f66f533a98a714c7862f7",
+      "bytes": 6318
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/SlipGraph_Sedan.uasset",
+      "sha1": "614f0a4889424d2931c5934d519852addb924d5c",
+      "bytes": 1891
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/TQC_Sedan.uasset",
+      "sha1": "d9c282ab0a8b1f774912f3f7c6fca84c39d052bc",
+      "bytes": 1975
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/SUV/BP_GM_SUV.uasset",
+      "sha1": "02071951b104b5dae130b4b93dddc1dc48bcca4c",
+      "bytes": 18575
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/SUV/BP_SUV_Chaos.uasset",
+      "sha1": "973346ccf8576c0c3b9ea3bf897986a0f6838907",
+      "bytes": 81925
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/ABP_SUV_Chaos.uasset",
+      "sha1": "175afd588b02395b5c3ffb19c36359177cf0d843",
+      "bytes": 50632
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/BP_SUV_FrontWheel_Chaos.uasset",
+      "sha1": "c20ab5ef8db083d0346411a8c7132be7843d3de9",
+      "bytes": 6444
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/BP_SUV_RearWheel_Chaos.uasset",
+      "sha1": "9a2cef04769ccb64705478cae11c4c2d29bb1a60",
+      "bytes": 6326
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/SlipGraph_SUV.uasset",
+      "sha1": "cb572ab49162e7859d256c50ac8cc93de0ed4a34",
+      "bytes": 1879
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/TQC_SUV.uasset",
+      "sha1": "0af04a1995ffee66f5088ec4e0a1ef00b5642ee0",
+      "bytes": 1963
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Maps/Demonstration.umap",
+      "sha1": "b010ab7de17d4617338fee3ead7cd4740ec1552a",
+      "bytes": 57890
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Maps/Demonstration_BuiltData.uasset",
+      "sha1": "e99c83cbb0fd79a23a4fb24176a041d1da5da3b5",
+      "bytes": 16919941
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Exterior_01a.uasset",
+      "sha1": "836428c60d18e7eeac72875bc0463bf585574edd",
+      "bytes": 15290
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Exterior_01b.uasset",
+      "sha1": "95ed89297ad4a152ff0ac0b575c0f316bb307d2e",
+      "bytes": 102975
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Exterior_01c.uasset",
+      "sha1": "163cd65efbae8041c0522ab94c166feda532a566",
+      "bytes": 102144
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_ExteriorDetailing_01a.uasset",
+      "sha1": "71c656e317c4682171ea0f878624d49e8395a742",
+      "bytes": 143384
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Interior_01a.uasset",
+      "sha1": "dc7d8d1c97ee072f908f9cbd62a07c72fc615641",
+      "bytes": 141795
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Interior_01b.uasset",
+      "sha1": "38b13b8505fdc0ab903c51600a0fc9f70fab1aa3",
+      "bytes": 136193
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/BoxTruck/Mi_GlassPlanes_01a.uasset",
+      "sha1": "61ed933d8b8bd9cbfce59aca70794dc3c4906d90",
+      "bytes": 109423
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_Camper_Body_01a.uasset",
+      "sha1": "1cd320ea10b7216e89d5a8c1b1284bb278aeabd0",
+      "bytes": 19253
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_Camper_BodyPieces_01a.uasset",
+      "sha1": "26ffd5cc3bebdebaede076f43955138c09fd8631",
+      "bytes": 22854
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_Camper_Glass_01a.uasset",
+      "sha1": "0a721b3c01dddd6a86d87be6a2f1084080e1940c",
+      "bytes": 122684
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_Camper_InteriorFront_01a.uasset",
+      "sha1": "b74cf83605631b9ecd58baffae5dcb37127b7d18",
+      "bytes": 130728
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_CamperChassis_01a.uasset",
+      "sha1": "7ce5e2116c5daf5156b67acdab14194b1ea7aa74",
+      "bytes": 144915
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_CamperRear_01a.uasset",
+      "sha1": "5ef1eff731c29455bc204e95d6f3f617b4face79",
+      "bytes": 18064
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_CarpetFloor_01a.uasset",
+      "sha1": "bf80045913321928e74d24052e5116b9492f8591",
+      "bytes": 122270
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Camper/Mi_InteriorWall_01a.uasset",
+      "sha1": "cf6cccd82ef6e4b790ece46d3347373d5e858921",
+      "bytes": 118982
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Master/M_Glass.uasset",
+      "sha1": "500dcbcb1f513838fc2a3fd111908265d2088e96",
+      "bytes": 125821
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Master/M_Master.uasset",
+      "sha1": "4f509e649fd870eed3ca7994b0d25e898ae50975",
+      "bytes": 128968
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Body_01a.uasset",
+      "sha1": "9208581d4c02ca5e56c079f111446152e5d3553d",
+      "bytes": 20183
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Chassis_01a.uasset",
+      "sha1": "481e210748cfacfa420f7c6d787c2f2e2aecc4c0",
+      "bytes": 124799
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Glass_01a.uasset",
+      "sha1": "aaed1dbcba3a4cc6d6318eef6956dc83c66da808",
+      "bytes": 114947
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Interior_01a.uasset",
+      "sha1": "112b90f04119cd0c1e1f17f370fd376074bf9979",
+      "bytes": 128302
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/SUV/Mi_Sedan_Glass_01a.uasset",
+      "sha1": "0413d2ff88e4d4401e509d6d5d96c325747a341b",
+      "bytes": 18183
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/SUV/MI_SUV_Body_01a.uasset",
+      "sha1": "71ef563ed2f9c47e550edc2dd9490a4100b02aa0",
+      "bytes": 21041
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/SUV/MI_SUV_Interior_01a.uasset",
+      "sha1": "6fe96f19a3526491dbb8264361290cfbbbd09d59",
+      "bytes": 133668
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Materials/SUV/MI_SUV_Pieces_01a.uasset",
+      "sha1": "905a6e1721343e3dfc02d7320ee63a8bedb1d0c0",
+      "bytes": 21671
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Meshes/SM_BoxTruck_01a.uasset",
+      "sha1": "1acf9fefb1942150c0f49c010386271db2f7efca",
+      "bytes": 4073324
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Meshes/SM_Campervan_01a.uasset",
+      "sha1": "a41bc7121bb395022a0d665b84a914b3b8bd5044",
+      "bytes": 4615125
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Meshes/SM_Sedan_01a.uasset",
+      "sha1": "9a0eec0eeebe7ae03967f21ddbf9b1af3b407686",
+      "bytes": 6896686
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Meshes/SM_SUV_01a.uasset",
+      "sha1": "a1ded5896cfde4527319509f355570454c38d5d6",
+      "bytes": 3913629
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_BoxTruck_01a.uasset",
+      "sha1": "d1535ca2668785764d42e3ca640f6cc7b998fdff",
+      "bytes": 20096310
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_BoxTruck_01a_PhysicsAsset.uasset",
+      "sha1": "c4ae46eefb911149dc93eed53cf90a797b161f26",
+      "bytes": 14864
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_CamperVan_01a.uasset",
+      "sha1": "0630a2f790a978fb94763308b09f3c0304da0b9c",
+      "bytes": 20071508
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_CamperVan_01a_PhysicsAsset.uasset",
+      "sha1": "eb6d3fc55ca3c59a4e225aa1a46f00927c71f5d6",
+      "bytes": 15712
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_Sedan_01a.uasset",
+      "sha1": "aa0b34525ba87e1e87a10e425f3d25b868efe3af",
+      "bytes": 24754248
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_Sedan_01a_PhysicsAsset.uasset",
+      "sha1": "f7fe1924c71167711bc7ea36e768fb801f1a7102",
+      "bytes": 102029
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_SUV_01a.uasset",
+      "sha1": "7c7e6718420e61dcf4ea81bc7c36dca7652acdfc",
+      "bytes": 14450537
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_SUV_01a_PhysicsAsset.uasset",
+      "sha1": "abae4083742d2e5e0cb9677ec9c324c096aa18c2",
+      "bytes": 14184
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Skeletons/SK_Vehicle_Skeleton.uasset",
+      "sha1": "178443b26ffb5865ccae7b2a0101ebac83f225f1",
+      "bytes": 9916
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF.uasset",
+      "sha1": "f8011c06753b9e5cfcd70b33317a671a927a6c6c",
+      "bytes": 17507103
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_1.uasset",
+      "sha1": "cb6a7bd9d65e78368d70c9d2fb1994c1a01849e9",
+      "bytes": 18650876
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_11.uasset",
+      "sha1": "e99476f5e171fbf63c9629dbac7b8a92926316ae",
+      "bytes": 16744891
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_16.uasset",
+      "sha1": "fef9e2e5bd0b419f57b738074a24914b8d22a5ed",
+      "bytes": 25358590
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_21.uasset",
+      "sha1": "5324f7f7847ce1edd1296ba2baa0f4db275014c6",
+      "bytes": 21595766
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_26.uasset",
+      "sha1": "767ef998f1b10bcc06b87ae1a9789ccc3fd870f8",
+      "bytes": 33744372
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_6.uasset",
+      "sha1": "340f3e2cba7e77c554e7a27a5b79ddd5b461663c",
+      "bytes": 11930006
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK.uasset",
+      "sha1": "53df6485e43d045a9fedc922d08d1f44648f3ccf",
+      "bytes": 5820443
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK_1.uasset",
+      "sha1": "609cd71b9fec2e213c43cd1164371a586e3f2f22",
+      "bytes": 4226460
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK_2.uasset",
+      "sha1": "7044928b084806ba7a3639f4c2f1af2b93f2a225",
+      "bytes": 8017
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK_3.uasset",
+      "sha1": "0d0bfab92bf6da8b77de80547e2bf639630b672c",
+      "bytes": 654240
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM.uasset",
+      "sha1": "7ab6dee72050b8db543a1e7671926fe61ac75ed6",
+      "bytes": 9010606
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_12.uasset",
+      "sha1": "05de6eb3469e64f9e6a3553ea8b813362f4a3418",
+      "bytes": 11124995
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_17.uasset",
+      "sha1": "47d5bec867b505ee41d09007328a6546659e1d44",
+      "bytes": 31659692
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_2.uasset",
+      "sha1": "6519dfd1671b83a4951e0424ecdcfb63dd61b546",
+      "bytes": 5753474
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_22.uasset",
+      "sha1": "adaeae443098d65398581334bf88f18b022eb958",
+      "bytes": 14722875
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_27.uasset",
+      "sha1": "dd1fae4cb0b541f20cc547e2689d6197657ccd76",
+      "bytes": 13833496
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_7.uasset",
+      "sha1": "928161fdd7364d3283661ca6a9d42255f5f4fc0b",
+      "bytes": 7581596
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_OPC_15.uasset",
+      "sha1": "3cd01c26e621848f6621cd59bf13071aabd75f1a",
+      "bytes": 2424442
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_OPC_20.uasset",
+      "sha1": "d0ef674139aa532239e0a29bfd96c8515d8145a7",
+      "bytes": 21481
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM.uasset",
+      "sha1": "0e6236253827d7f94eeaa80ec7d732b210589949",
+      "bytes": 23113408
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_13.uasset",
+      "sha1": "14d897d7bad7c5d0198f6df9b557ca1f24d8ac85",
+      "bytes": 22842722
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_18.uasset",
+      "sha1": "5692dcd8d18f0e0f4de39bcef395b04aeabd9506",
+      "bytes": 27479342
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_23.uasset",
+      "sha1": "0d3d7a8df1fb4bf848208712319b8fd458f47435",
+      "bytes": 31995902
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_28.uasset",
+      "sha1": "a1230682a7731d5b887331916ea97b326b64a21e",
+      "bytes": 31997205
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_3.uasset",
+      "sha1": "92bec688d0ea882449944af7aa037b0ae30f2b89",
+      "bytes": 20243451
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_8.uasset",
+      "sha1": "f5e6fb794d398504f5c01ad0d4196f19a90da641",
+      "bytes": 11611729
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF.uasset",
+      "sha1": "8516c69291c9a5ba26af91059a9df2e8b7be763d",
+      "bytes": 13678064
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_1.uasset",
+      "sha1": "8346f329e0697a5efb67b6e2731bb1089a9b623a",
+      "bytes": 11799925
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_11.uasset",
+      "sha1": "a18c0cbdb8b82ff9db3038366634558e7b93d813",
+      "bytes": 19542074
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_16.uasset",
+      "sha1": "e0613f830651ed4bafee4f438bfdc4b5b844a373",
+      "bytes": 9769699
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_6.uasset",
+      "sha1": "6f05041572a035a075c804798a2eb48b0d3011f6",
+      "bytes": 10219806
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_EMM_4.uasset",
+      "sha1": "0a680b6a65e36d9bb360323f18ae7ae9c2336461",
+      "bytes": 16589
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_MASK.uasset",
+      "sha1": "02a8ef530228f3a99e876bf58032c2ad3f154529",
+      "bytes": 2886282
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_MASK_1.uasset",
+      "sha1": "f8de60e003d27565f47efd17ef8d84bd634b286c",
+      "bytes": 2856546
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_MASK_2.uasset",
+      "sha1": "94cff028ec29460bc9a0fb98015ab273d0a433e6",
+      "bytes": 1449441
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM.uasset",
+      "sha1": "f5e0c0ef2b6ff4f762ba078bc736f053e5084daf",
+      "bytes": 16756011
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_12.uasset",
+      "sha1": "ae704504c45f7e9405373e45c57d29a0935dea9d",
+      "bytes": 33818541
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_17.uasset",
+      "sha1": "7ee66af2677281aa2659af5ef05f5e98f34064eb",
+      "bytes": 15000435
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_2.uasset",
+      "sha1": "f4c4b49fef9236392bd789ba2cf4c4cd1bd6ab74",
+      "bytes": 21189665
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_7.uasset",
+      "sha1": "d04d4d8a0502e3d736c29921243635dfb69b4529",
+      "bytes": 14408248
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_OPC_20.uasset",
+      "sha1": "8e38d6a76b21d5db08d58aa9d55d2d96d4fdc1c7",
+      "bytes": 13544
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM.uasset",
+      "sha1": "f61a846e9bc2403546012c9500d02284b4b5d57a",
+      "bytes": 21010370
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_13.uasset",
+      "sha1": "bbb55378472a116e48c3647da4c5ef9d159ca811",
+      "bytes": 23339721
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_18.uasset",
+      "sha1": "2231c4e4a63f20d5b74fe77028547889e27db7fa",
+      "bytes": 3529042
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_3.uasset",
+      "sha1": "25921fbe4414bcb20cd8537c3169c28ace451485",
+      "bytes": 20896153
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_8.uasset",
+      "sha1": "f15ae1a52192c7e7944a91cd60ad1513388b7dd3",
+      "bytes": 26930116
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_CampervanInterior_DIF.uasset",
+      "sha1": "d1ccca1866165c6bb34d6c00ae07dd272bd75b70",
+      "bytes": 32599769
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_CampervanInterior_NRM.uasset",
+      "sha1": "75842985607ee931919bb61001084cfc4f919cdc",
+      "bytes": 33969323
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_CampervanInterior_ORM.uasset",
+      "sha1": "80756a7437cac283f293c0fb4a834c176b06ea59",
+      "bytes": 27712034
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_CarpetFloor01b_DIF.uasset",
+      "sha1": "4b34d2e0c4610868d5156d9b9ef700962cf8295a",
+      "bytes": 32500135
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_CarpetFloor_NRM.uasset",
+      "sha1": "2d18f05c7df2a783f7fe9dec88feabe1b055e7b1",
+      "bytes": 24306502
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_CarpetFloor_ORM.uasset",
+      "sha1": "669fce25240a831cea99ae21264fc6e58c9120fc",
+      "bytes": 31550472
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_WoodWithCoving_DIF.uasset",
+      "sha1": "b1714ded46cf65b8dcd8c155e0987f82baec065d",
+      "bytes": 23476774
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Camper/TX_WoodWithCoving_NRM.uasset",
+      "sha1": "9db38ed598e12ee31cd240ca34ee0c3ee12c6ea6",
+      "bytes": 28144800
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Default/TX_Default_DIF.uasset",
+      "sha1": "fa6d584b51b2b131a1bae3f5619312c1312f7bc9",
+      "bytes": 5608
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Default/TX_Default_Grey.uasset",
+      "sha1": "31c406921b32756003c8e85cf8acaad3e300bdbe",
+      "bytes": 5106
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Default/TX_Default_MASKS.uasset",
+      "sha1": "c580d630e5169d97cefd33ca1738ac1a5ee9238a",
+      "bytes": 5631
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Default/TX_Default_NRM.uasset",
+      "sha1": "662656e2a9acacf44cffaf5fcd6bab919a6fb186",
+      "bytes": 18005
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_DIF.uasset",
+      "sha1": "b6dd4b453e0cc37d3e847a82295388811f649e2a",
+      "bytes": 15506382
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_MASK.uasset",
+      "sha1": "904d3dbef7b3a7f267ca2428e9165d5ea5f32492",
+      "bytes": 637768
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_NRM.uasset",
+      "sha1": "3bf6d58c3a95facf76a24a7649978141924cf4d0",
+      "bytes": 13641906
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_ORM.uasset",
+      "sha1": "516f4c117b52c21841c534c492a6dfef674294dd",
+      "bytes": 23934159
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Chassis_DIF.uasset",
+      "sha1": "84661abb0fb156b5de0fed0344724f9c1b0c93d2",
+      "bytes": 13465053
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Chassis_NRM.uasset",
+      "sha1": "807da538e8ff5d05bc3d13777c588bce0efae3a8",
+      "bytes": 21338955
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Chassis_ORM.uasset",
+      "sha1": "517b08d98eaba2eba6ec753ddb96b14caa5863d2",
+      "bytes": 19828570
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_DIF.uasset",
+      "sha1": "35c2ca0ec0e1d9ac3d7ed4d7de6a5ea0bab5bded",
+      "bytes": 5937087
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_NRM.uasset",
+      "sha1": "8ba408122c53d2d1da17f886456a77a497d28a96",
+      "bytes": 12755853
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_OPC.uasset",
+      "sha1": "27a630287d9a6f2e0f076ac2e2d569b69b1c86da",
+      "bytes": 2449039
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_ORM.uasset",
+      "sha1": "aa8c6e5f8db2d2feab80cebb4cfd6b1589bf67b3",
+      "bytes": 13253769
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Interior_DIF.uasset",
+      "sha1": "6ccd7d5de8cfd2bfb160b1744696311082fbf9d4",
+      "bytes": 19987432
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Interior_NRM.uasset",
+      "sha1": "2ab09c5db932a1630abc5a8df46d287a95227c2e",
+      "bytes": 23895704
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Interior_ORM.uasset",
+      "sha1": "58d75e4865f894b0a9a696723695d8858ca8a1c3",
+      "bytes": 15841401
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_Body_MASK_01a.uasset",
+      "sha1": "136373c07ac80e300fbb67ffae133b83030aa3a3",
+      "bytes": 259522
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_Details_MASK_01a.uasset",
+      "sha1": "6940bd7dc9b47ca7e0a086fb2dd09ec9b146c188",
+      "bytes": 226480
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_.uasset",
+      "sha1": "ddb229565fa72fae27380f51650889dd2a245a7e",
+      "bytes": 14591490
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_1.uasset",
+      "sha1": "f62da0279f4a48fa5f316ba27a4a7835bb1e885d",
+      "bytes": 11059395
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_11.uasset",
+      "sha1": "ac732a565adb50c974f457a7ab59733f8d172247",
+      "bytes": 178960
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_6.uasset",
+      "sha1": "104bdff012531b21248c8378bf603b5c4545e8ce",
+      "bytes": 14959422
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_.uasset",
+      "sha1": "e43764123934742982186c635d29a166fade2f84",
+      "bytes": 18650963
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_12.uasset",
+      "sha1": "11cb666777e5d886afc0fb72a41052358c0a5232",
+      "bytes": 8877825
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_2.uasset",
+      "sha1": "bc304b307720b8237f93bd2a9c2cc1d74ba039e1",
+      "bytes": 15428381
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_7.uasset",
+      "sha1": "5aa7a6e9b36bef5d63746049d3fedfb968f22816",
+      "bytes": 21604293
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_OPC_10.uasset",
+      "sha1": "67a47802783586ed7e247c85151b263aeaa4a19b",
+      "bytes": 112190
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_.uasset",
+      "sha1": "a2c979623f3ea1362d2bbc9882981bca62b2732b",
+      "bytes": 19323378
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_13.uasset",
+      "sha1": "cf68ded66a0ef2d842a801eab6633dcd9fa1435d",
+      "bytes": 4343191
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_3.uasset",
+      "sha1": "df977e32797865f798762aa05c6fdada5202ec0b",
+      "bytes": 16804267
+    },
+    {
+      "path": "Content/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_8.uasset",
+      "sha1": "6ee2482e5d29d8ab1dd57fea6e13867cc925ca1a",
+      "bytes": 16560255
+    }
+  ],
+  "content_roots": [
+    "/Game/VehicleVarietyVol2"
+  ],
+  "status": "sha1_verified_and_staged"
+}

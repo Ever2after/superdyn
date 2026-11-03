@@ -1,0 +1,18 @@
+{
+  "status": "cleaned",
+  "checked_at": "2026-11-03T07:04:06.647670+00:00",
+  "files": 9,
+  "bytes": 135221,
+  "removed": [
+    "qa_pipeline/__pycache__/__init__.cpython-311.pyc",
+    "qa_pipeline/__pycache__/cli.cpython-311.pyc",
+    "qa_pipeline/__pycache__/config.cpython-311.pyc",
+    "qa_pipeline/__pycache__/maintenance.cpython-311.pyc",
+    "qa_pipeline/__pycache__/storage.cpython-311.pyc",
+    "qa_pipeline/__pycache__/tracking.cpython-311.pyc",
+    "qa_pipeline/evaluation/__pycache__/__init__.cpython-311.pyc",
+    "qa_pipeline/evaluation/__pycache__/protocol.cpython-311.pyc",
+    "qa_pipeline/evaluation/__pycache__/runner.cpython-311.pyc"
+  ],
+  "preserved": "QA, model responses, references, marked media, geometry/GMOS caches, models and environments"
+}

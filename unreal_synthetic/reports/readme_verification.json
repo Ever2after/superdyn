@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "documents": [
+    "unreal_synthetic/README.md",
+    "synthetic/README.md"
+  ],
+  "local_links_checked": 46,
+  "anchors_checked": 1,
+  "metadata_checks": [
+    "source/placement/mesh counts",
+    "route length/speed/vertical step",
+    "HDRI identity/resolution/license receipt"
+  ],
+  "protected_artifacts_unchanged": 26,
+  "scope": "Documentation-only update; no new render or runtime tests"
+}

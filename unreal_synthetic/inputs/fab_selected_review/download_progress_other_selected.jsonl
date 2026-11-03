@@ -1,0 +1,18 @@
+{"source":"paragon_gadget","status":"downloaded","bytes":1801783881,"files":1454}
+{"source":"vehicle_variety_pack","status":"downloaded","bytes":1474180917,"files":156}
+{"source":"vehicle_variety_pack_2","status":"downloaded","bytes":1409498111,"files":160}
+{"source":"animal_variety_pack","status":"downloaded","bytes":517854968,"files":220}
+{"source":"construction_site_vol1","status":"downloaded","bytes":624313263,"files":240}
+{"source":"industry_props_6","status":"downloaded","bytes":192958008,"files":94}
+{"source":"unfinished_building","status":"downloaded","bytes":3278900240,"files":382}
+{"source":"modular_building_set","status":"downloaded","bytes":766113199,"files":317}
+{"source":"city_park_environment","status":"downloaded","bytes":4365042758,"files":1123}
+{"source":"modular_rural_cabins","status":"downloaded","bytes":1659214296,"files":587}
+{
+  "selected": 14,
+  "owned": 14,
+  "missing": [],
+  "known_original_bytes": 37184061286,
+  "additional_original_bytes": 0,
+  "status_file": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/inputs/fab_selected_review/download_state_530434403de8.json"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "case": "04_ramp_ascent",
+  "frames": 192,
+  "meshes": 8,
+  "triangles": 166772,
+  "conversion": {
+    "status": "passed",
+    "max_matrix_error": 5.0905776483034515e-08,
+    "max_projection_error_px": 0.00013613097438124538
+  },
+  "unreal_execution_verified": false
+}

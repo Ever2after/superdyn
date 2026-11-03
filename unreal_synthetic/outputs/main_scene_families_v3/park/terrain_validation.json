@@ -1,0 +1,576 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "all_cells_have_ground",
+      "passed": true,
+      "evidence": 6720
+    },
+    {
+      "name": "sufficient_flat_ground",
+      "passed": true,
+      "evidence": 0.6818452380952381
+    },
+    {
+      "name": "sufficient_ramp_coverage",
+      "passed": true,
+      "evidence": {
+        "flat_fraction": 0.6818452380952381,
+        "ramp_fraction": 0.3181547619047619,
+        "maximum_flat_fraction": 0.7
+      }
+    },
+    {
+      "name": "every_region_has_broad_flat_rectangle",
+      "passed": true,
+      "evidence": [
+        {
+          "region": "region_00",
+          "height": 3.0,
+          "bounds": [
+            -15.75,
+            -6.0,
+            9.0,
+            15.0
+          ],
+          "area_m2": 58.5
+        },
+        {
+          "region": "region_01",
+          "height": 0.0,
+          "bounds": [
+            -15.75,
+            -6.375,
+            -15.0,
+            -10.125
+          ],
+          "area_m2": 45.703125
+        },
+        {
+          "region": "region_02",
+          "height": 1.5,
+          "bounds": [
+            -7.5,
+            -3.0,
+            -6.75,
+            3.75
+          ],
+          "area_m2": 47.25
+        },
+        {
+          "region": "region_03",
+          "height": 0.0,
+          "bounds": [
+            -3.0,
+            3.0,
+            -0.75,
+            7.5
+          ],
+          "area_m2": 49.5
+        },
+        {
+          "region": "region_04",
+          "height": 1.5,
+          "bounds": [
+            1.875,
+            6.0,
+            7.5,
+            15.0
+          ],
+          "area_m2": 30.9375
+        },
+        {
+          "region": "region_05",
+          "height": 1.5,
+          "bounds": [
+            -3.0,
+            3.375,
+            -8.625,
+            -0.75
+          ],
+          "area_m2": 50.203125
+        },
+        {
+          "region": "region_06",
+          "height": 3.0,
+          "bounds": [
+            10.5,
+            15.75,
+            -15.0,
+            -0.75
+          ],
+          "area_m2": 74.8125
+        },
+        {
+          "region": "region_07",
+          "height": 1.5,
+          "bounds": [
+            10.125,
+            15.75,
+            -0.75,
+            6.75
+          ],
+          "area_m2": 42.1875
+        },
+        {
+          "region": "region_08",
+          "height": 1.5,
+          "bounds": [
+            6.0,
+            15.75,
+            6.75,
+            15.0
+          ],
+          "area_m2": 80.4375
+        }
+      ]
+    },
+    {
+      "name": "ramp_ends_join_across_full_width",
+      "passed": true,
+      "evidence": [
+        {
+          "id": "ramp_00",
+          "start": [
+            3.0,
+            3.0
+          ],
+          "end": [
+            10.125,
+            3.0
+          ],
+          "z0": 0.0,
+          "z1": 1.5,
+          "join_error_m": 0.0,
+          "maximum_grade": 0.25062656641604014,
+          "passed": true
+        },
+        {
+          "id": "ramp_01",
+          "start": [
+            -10.875,
+            -10.125
+          ],
+          "end": [
+            -10.875,
+            -2.25
+          ],
+          "z0": 0.0,
+          "z1": 1.5,
+          "join_error_m": 0.0,
+          "maximum_grade": 0.22675736961451248,
+          "passed": true
+        },
+        {
+          "id": "ramp_02",
+          "start": [
+            -6.0,
+            10.875
+          ],
+          "end": [
+            1.875,
+            10.875
+          ],
+          "z0": 3.0,
+          "z1": 1.5,
+          "join_error_m": 0.0,
+          "maximum_grade": 0.22675736961451248,
+          "passed": true
+        },
+        {
+          "id": "ramp_03",
+          "start": [
+            3.375,
+            -5.625
+          ],
+          "end": [
+            10.5,
+            -5.625
+          ],
+          "z0": 1.5,
+          "z1": 3.0,
+          "join_error_m": 0.0,
+          "maximum_grade": 0.25062656641604014,
+          "passed": true
+        },
+        {
+          "id": "ramp_04",
+          "start": [
+            -11.0625,
+            0.0
+          ],
+          "end": [
+            -11.0625,
+            9.0
+          ],
+          "z0": 1.5,
+          "z1": 3.0,
+          "join_error_m": 0.0,
+          "maximum_grade": 0.19841269841269843,
+          "passed": true
+        },
+        {
+          "id": "ramp_05",
+          "start": [
+            -6.375,
+            -11.4375
+          ],
+          "end": [
+            2.625,
+            -11.4375
+          ],
+          "z0": 0.0,
+          "z1": 1.5,
+          "join_error_m": 0.0,
+          "maximum_grade": 0.19841269841269843,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "ramp_grades_are_bounded",
+      "passed": true,
+      "evidence": [
+        0.25062656641604014,
+        0.22675736961451248,
+        0.22675736961451248,
+        0.25062656641604014,
+        0.19841269841269843,
+        0.19841269841269843
+      ]
+    },
+    {
+      "name": "entire_walkable_surface_is_connected",
+      "passed": true,
+      "evidence": {
+        "fraction": 1.0,
+        "cells": 6720,
+        "step_m": 0.375
+      }
+    },
+    {
+      "name": "region_centres_and_ramps_connect_with_clearance",
+      "passed": true,
+      "evidence": {
+        "radius_m": 1.125,
+        "probes": 15,
+        "safe_area_fraction": 0.5401785714285714
+      }
+    },
+    {
+      "name": "full_width_flat_landing_aprons",
+      "passed": true,
+      "evidence": 0.0
+    },
+    {
+      "name": "multiple_height_levels",
+      "passed": true,
+      "evidence": [
+        0.0,
+        1.5,
+        3.0
+      ]
+    },
+    {
+      "name": "multiple_separated_high_and_low_zones",
+      "passed": true,
+      "evidence": {
+        "local_peak_components": 2,
+        "local_low_components": 2,
+        "global_high_components": 2,
+        "global_low_components": 2,
+        "peak_regions": [
+          [
+            "region_00"
+          ],
+          [
+            "region_06"
+          ]
+        ],
+        "low_regions": [
+          [
+            "region_01"
+          ],
+          [
+            "region_03"
+          ]
+        ],
+        "global_high_regions": [
+          [
+            "region_00"
+          ],
+          [
+            "region_06"
+          ]
+        ],
+        "global_low_regions": [
+          [
+            "region_01"
+          ],
+          [
+            "region_03"
+          ]
+        ],
+        "high_area_fraction": 0.2761904761904762,
+        "low_area_fraction": 0.18988095238095237,
+        "planar_trend_r2": 0.09161654742835312
+      }
+    },
+    {
+      "name": "extreme_zones_have_meaningful_area",
+      "passed": true,
+      "evidence": {
+        "high_area_fraction": 0.2761904761904762,
+        "low_area_fraction": 0.18988095238095237
+      }
+    },
+    {
+      "name": "height_distribution_is_not_a_dominant_plane",
+      "passed": true,
+      "evidence": 0.09161654742835312
+    }
+  ],
+  "flat_fraction": 0.6818452380952381,
+  "flat_rectangles": [
+    {
+      "region": "region_00",
+      "height": 3.0,
+      "bounds": [
+        -15.75,
+        -6.0,
+        9.0,
+        15.0
+      ],
+      "area_m2": 58.5
+    },
+    {
+      "region": "region_01",
+      "height": 0.0,
+      "bounds": [
+        -15.75,
+        -6.375,
+        -15.0,
+        -10.125
+      ],
+      "area_m2": 45.703125
+    },
+    {
+      "region": "region_02",
+      "height": 1.5,
+      "bounds": [
+        -7.5,
+        -3.0,
+        -6.75,
+        3.75
+      ],
+      "area_m2": 47.25
+    },
+    {
+      "region": "region_03",
+      "height": 0.0,
+      "bounds": [
+        -3.0,
+        3.0,
+        -0.75,
+        7.5
+      ],
+      "area_m2": 49.5
+    },
+    {
+      "region": "region_04",
+      "height": 1.5,
+      "bounds": [
+        1.875,
+        6.0,
+        7.5,
+        15.0
+      ],
+      "area_m2": 30.9375
+    },
+    {
+      "region": "region_05",
+      "height": 1.5,
+      "bounds": [
+        -3.0,
+        3.375,
+        -8.625,
+        -0.75
+      ],
+      "area_m2": 50.203125
+    },
+    {
+      "region": "region_06",
+      "height": 3.0,
+      "bounds": [
+        10.5,
+        15.75,
+        -15.0,
+        -0.75
+      ],
+      "area_m2": 74.8125
+    },
+    {
+      "region": "region_07",
+      "height": 1.5,
+      "bounds": [
+        10.125,
+        15.75,
+        -0.75,
+        6.75
+      ],
+      "area_m2": 42.1875
+    },
+    {
+      "region": "region_08",
+      "height": 1.5,
+      "bounds": [
+        6.0,
+        15.75,
+        6.75,
+        15.0
+      ],
+      "area_m2": 80.4375
+    }
+  ],
+  "height_metrics": {
+    "local_peak_components": 2,
+    "local_low_components": 2,
+    "global_high_components": 2,
+    "global_low_components": 2,
+    "peak_regions": [
+      [
+        "region_00"
+      ],
+      [
+        "region_06"
+      ]
+    ],
+    "low_regions": [
+      [
+        "region_01"
+      ],
+      [
+        "region_03"
+      ]
+    ],
+    "global_high_regions": [
+      [
+        "region_00"
+      ],
+      [
+        "region_06"
+      ]
+    ],
+    "global_low_regions": [
+      [
+        "region_01"
+      ],
+      [
+        "region_03"
+      ]
+    ],
+    "high_area_fraction": 0.2761904761904762,
+    "low_area_fraction": 0.18988095238095237,
+    "planar_trend_r2": 0.09161654742835312
+  },
+  "ramp_connections": [
+    {
+      "id": "ramp_00",
+      "start": [
+        3.0,
+        3.0
+      ],
+      "end": [
+        10.125,
+        3.0
+      ],
+      "z0": 0.0,
+      "z1": 1.5,
+      "join_error_m": 0.0,
+      "maximum_grade": 0.25062656641604014,
+      "passed": true
+    },
+    {
+      "id": "ramp_01",
+      "start": [
+        -10.875,
+        -10.125
+      ],
+      "end": [
+        -10.875,
+        -2.25
+      ],
+      "z0": 0.0,
+      "z1": 1.5,
+      "join_error_m": 0.0,
+      "maximum_grade": 0.22675736961451248,
+      "passed": true
+    },
+    {
+      "id": "ramp_02",
+      "start": [
+        -6.0,
+        10.875
+      ],
+      "end": [
+        1.875,
+        10.875
+      ],
+      "z0": 3.0,
+      "z1": 1.5,
+      "join_error_m": 0.0,
+      "maximum_grade": 0.22675736961451248,
+      "passed": true
+    },
+    {
+      "id": "ramp_03",
+      "start": [
+        3.375,
+        -5.625
+      ],
+      "end": [
+        10.5,
+        -5.625
+      ],
+      "z0": 1.5,
+      "z1": 3.0,
+      "join_error_m": 0.0,
+      "maximum_grade": 0.25062656641604014,
+      "passed": true
+    },
+    {
+      "id": "ramp_04",
+      "start": [
+        -11.0625,
+        0.0
+      ],
+      "end": [
+        -11.0625,
+        9.0
+      ],
+      "z0": 1.5,
+      "z1": 3.0,
+      "join_error_m": 0.0,
+      "maximum_grade": 0.19841269841269843,
+      "passed": true
+    },
+    {
+      "id": "ramp_05",
+      "start": [
+        -6.375,
+        -11.4375
+      ],
+      "end": [
+        2.625,
+        -11.4375
+      ],
+      "z0": 0.0,
+      "z1": 1.5,
+      "join_error_m": 0.0,
+      "maximum_grade": 0.19841269841269843,
+      "passed": true
+    }
+  ],
+  "walkable_grid_cells": 6720,
+  "ground_area_m2": 945.0
+}

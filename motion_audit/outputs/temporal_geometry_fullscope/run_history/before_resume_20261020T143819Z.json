@@ -1,0 +1,91 @@
+{
+  "status": "failed",
+  "stage": "prepare_qa",
+  "started_at": "2026-10-20T11:08:04.032553+00:00",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "excluded_sources": [
+    "dynamic_replica",
+    "dynpose-100k",
+    "point_odyssey",
+    "spring"
+  ],
+  "manual_review": false,
+  "updated_at": "2026-10-20T12:05:47.799979+00:00",
+  "elapsed_seconds": 3463.767451286316,
+  "inventoried": 4493,
+  "valid_videos": 4457,
+  "unusable_videos": 36,
+  "reused_geometry": 765,
+  "new_geometry": 3692,
+  "source_counts": {
+    "DAVIS": 88,
+    "MOSE": 1327,
+    "MVS-Synth": 120,
+    "SAV": 288,
+    "VOST": 641,
+    "uvo": 1244,
+    "youtube_vis": 749
+  },
+  "stage_controller_pid": 3806595,
+  "stage_progress": {
+    "status": "completed",
+    "planned": 3692,
+    "finished": 3692,
+    "successful": 3692,
+    "failures": 0,
+    "elapsed_seconds": 3379.5441620349884,
+    "eta": {
+      "remaining_seconds": 0,
+      "measured_videos": 3692,
+      "mean_video_seconds": 7.070848724586367,
+      "scope": "geometry stage only; GMOS/QA follows",
+      "method": "Maximum remaining shard times observed mean service time"
+    },
+    "workers": [
+      {
+        "pid": 3806596,
+        "exit_code": 0
+      },
+      {
+        "pid": 3806597,
+        "exit_code": 0
+      },
+      {
+        "pid": 3806598,
+        "exit_code": 0
+      },
+      {
+        "pid": 3806599,
+        "exit_code": 0
+      },
+      {
+        "pid": 3806600,
+        "exit_code": 0
+      },
+      {
+        "pid": 3806601,
+        "exit_code": 0
+      },
+      {
+        "pid": 3806602,
+        "exit_code": 0
+      },
+      {
+        "pid": 3806603,
+        "exit_code": 0
+      }
+    ]
+  },
+  "geometry_successful": 4457,
+  "geometry_failures": 0,
+  "error": "ValueError: 6 requested videos lack a usable cache. Run preprocess first, or explicitly use --skip-missing-cache. First: ['SAV__sav_018965_manual', 'VOST__10585_apply_paint', 'VOST__3294_unpack_chorizo']"
+}

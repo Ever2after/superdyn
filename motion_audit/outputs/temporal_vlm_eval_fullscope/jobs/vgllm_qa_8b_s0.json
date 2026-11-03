@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "model": "vgllm_qa_8b",
+  "gpu": 3,
+  "pid": 376533,
+  "updated_at": "2026-10-21T10:21:17.153014+00:00"
+}

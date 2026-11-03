@@ -1,0 +1,792 @@
+{
+  "id": "vehicle_variety_pack_2",
+  "roots": [
+    "/Game/VehicleVarietyVol2"
+  ],
+  "class_counts": {
+    "World": 1,
+    "MapBuildDataRegistry": 1,
+    "StaticMesh": 4,
+    "MaterialInstanceConstant": 23,
+    "Material": 2,
+    "Blueprint": 16,
+    "CurveFloat": 6,
+    "AnimBlueprint": 4,
+    "PhysicsAsset": 4,
+    "Skeleton": 1,
+    "SkeletalMesh": 4,
+    "Texture2D": 88
+  },
+  "assets": [
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/BoxTruck/BP_BoxTruck_Chaos",
+      "name": "BP_BoxTruck_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/BoxTruck/BP_GM_BoxTruck",
+      "name": "BP_GM_BoxTruck",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/ABP_BoxTruck_Chaos",
+      "name": "ABP_BoxTruck_Chaos",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/BP_BoxTruck_FrontWheel_Chaos",
+      "name": "BP_BoxTruck_FrontWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/BP_BoxTruck_RearWheel_Chaos",
+      "name": "BP_BoxTruck_RearWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/SlipGraph_BoxTruck",
+      "name": "SlipGraph_BoxTruck",
+      "asset_class": "CurveFloat"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/BoxTruck/BoxTruck_VehicleConfig/TQC_BoxTruck",
+      "name": "TQC_BoxTruck",
+      "asset_class": "CurveFloat"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Campervan/BP_Campervan_Chaos",
+      "name": "BP_Campervan_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Campervan/BP_GM_Campervan",
+      "name": "BP_GM_Campervan",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Campervan/Campervan_Config/ABP_Campervan_Chaos",
+      "name": "ABP_Campervan_Chaos",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Campervan/Campervan_Config/BP_Campervan_FrontWheel_Chaos",
+      "name": "BP_Campervan_FrontWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Campervan/Campervan_Config/BP_Campervan_RearWheel_Chaos",
+      "name": "BP_Campervan_RearWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/SUV/BP_GM_SUV",
+      "name": "BP_GM_SUV",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/SUV/BP_SUV_Chaos",
+      "name": "BP_SUV_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/ABP_SUV_Chaos",
+      "name": "ABP_SUV_Chaos",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/BP_SUV_FrontWheel_Chaos",
+      "name": "BP_SUV_FrontWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/BP_SUV_RearWheel_Chaos",
+      "name": "BP_SUV_RearWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/SlipGraph_SUV",
+      "name": "SlipGraph_SUV",
+      "asset_class": "CurveFloat"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/SUV/SUV_Config/TQC_SUV",
+      "name": "TQC_SUV",
+      "asset_class": "CurveFloat"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Sedan/BP_GM_Sedan",
+      "name": "BP_GM_Sedan",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Sedan/BP_Sedan_Chaos",
+      "name": "BP_Sedan_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/ABP_Sedan_Chaos",
+      "name": "ABP_Sedan_Chaos",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/BP_Sedan_FrontWheel_Chaos",
+      "name": "BP_Sedan_FrontWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/BP_Sedan_RearWheel_Chaos",
+      "name": "BP_Sedan_RearWheel_Chaos",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/SlipGraph_Sedan",
+      "name": "SlipGraph_Sedan",
+      "asset_class": "CurveFloat"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Blueprints/Sedan/Sedan_Config/TQC_Sedan",
+      "name": "TQC_Sedan",
+      "asset_class": "CurveFloat"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Maps/Demonstration",
+      "name": "Demonstration",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Maps/Demonstration_BuiltData",
+      "name": "Demonstration_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_ExteriorDetailing_01a",
+      "name": "Mi_BoxTruck_ExteriorDetailing_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Exterior_01a",
+      "name": "Mi_BoxTruck_Exterior_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Exterior_01b",
+      "name": "Mi_BoxTruck_Exterior_01b",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Exterior_01c",
+      "name": "Mi_BoxTruck_Exterior_01c",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Interior_01a",
+      "name": "Mi_BoxTruck_Interior_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/BoxTruck/Mi_BoxTruck_Interior_01b",
+      "name": "Mi_BoxTruck_Interior_01b",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/BoxTruck/Mi_GlassPlanes_01a",
+      "name": "Mi_GlassPlanes_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_CamperChassis_01a",
+      "name": "Mi_CamperChassis_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_CamperRear_01a",
+      "name": "Mi_CamperRear_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_BodyPieces_01a",
+      "name": "Mi_Camper_BodyPieces_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_Body_01a",
+      "name": "Mi_Camper_Body_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_Glass_01a",
+      "name": "Mi_Camper_Glass_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_InteriorFront_01a",
+      "name": "Mi_Camper_InteriorFront_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_CarpetFloor_01a",
+      "name": "Mi_CarpetFloor_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Camper/Mi_InteriorWall_01a",
+      "name": "Mi_InteriorWall_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Master/M_Glass",
+      "name": "M_Glass",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Master/M_Master",
+      "name": "M_Master",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/SUV/MI_SUV_Body_01a",
+      "name": "MI_SUV_Body_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/SUV/MI_SUV_Interior_01a",
+      "name": "MI_SUV_Interior_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/SUV/MI_SUV_Pieces_01a",
+      "name": "MI_SUV_Pieces_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/SUV/Mi_Sedan_Glass_01a",
+      "name": "Mi_Sedan_Glass_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Body_01a",
+      "name": "Mi_Sedan_Body_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Chassis_01a",
+      "name": "Mi_Sedan_Chassis_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Glass_01a",
+      "name": "Mi_Sedan_Glass_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Interior_01a",
+      "name": "Mi_Sedan_Interior_01a",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Meshes/SM_BoxTruck_01a",
+      "name": "SM_BoxTruck_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Meshes/SM_Campervan_01a",
+      "name": "SM_Campervan_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Meshes/SM_SUV_01a",
+      "name": "SM_SUV_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Meshes/SM_Sedan_01a",
+      "name": "SM_Sedan_01a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_BoxTruck_01a",
+      "name": "SK_BoxTruck_01a",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_BoxTruck_01a_PhysicsAsset",
+      "name": "SK_BoxTruck_01a_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_CamperVan_01a",
+      "name": "SK_CamperVan_01a",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_CamperVan_01a_PhysicsAsset",
+      "name": "SK_CamperVan_01a_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_SUV_01a",
+      "name": "SK_SUV_01a",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_SUV_01a_PhysicsAsset",
+      "name": "SK_SUV_01a_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a",
+      "name": "SK_Sedan_01a",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a_PhysicsAsset",
+      "name": "SK_Sedan_01a_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Skeletons/SK_Vehicle_Skeleton",
+      "name": "SK_Vehicle_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF",
+      "name": "TX_BoxTruck_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_1",
+      "name": "TX_BoxTruck_DIF_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_11",
+      "name": "TX_BoxTruck_DIF_11",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_16",
+      "name": "TX_BoxTruck_DIF_16",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_21",
+      "name": "TX_BoxTruck_DIF_21",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_26",
+      "name": "TX_BoxTruck_DIF_26",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_DIF_6",
+      "name": "TX_BoxTruck_DIF_6",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK",
+      "name": "TX_BoxTruck_MASK",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK_1",
+      "name": "TX_BoxTruck_MASK_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK_2",
+      "name": "TX_BoxTruck_MASK_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_MASK_3",
+      "name": "TX_BoxTruck_MASK_3",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM",
+      "name": "TX_BoxTruck_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_12",
+      "name": "TX_BoxTruck_NRM_12",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_17",
+      "name": "TX_BoxTruck_NRM_17",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_2",
+      "name": "TX_BoxTruck_NRM_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_22",
+      "name": "TX_BoxTruck_NRM_22",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_27",
+      "name": "TX_BoxTruck_NRM_27",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_NRM_7",
+      "name": "TX_BoxTruck_NRM_7",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_OPC_15",
+      "name": "TX_BoxTruck_OPC_15",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_OPC_20",
+      "name": "TX_BoxTruck_OPC_20",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM",
+      "name": "TX_BoxTruck_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_13",
+      "name": "TX_BoxTruck_ORM_13",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_18",
+      "name": "TX_BoxTruck_ORM_18",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_23",
+      "name": "TX_BoxTruck_ORM_23",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_28",
+      "name": "TX_BoxTruck_ORM_28",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_3",
+      "name": "TX_BoxTruck_ORM_3",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/BoxTruck/TX_BoxTruck_ORM_8",
+      "name": "TX_BoxTruck_ORM_8",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_CampervanInterior_DIF",
+      "name": "TX_CampervanInterior_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_CampervanInterior_NRM",
+      "name": "TX_CampervanInterior_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_CampervanInterior_ORM",
+      "name": "TX_CampervanInterior_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF",
+      "name": "TX_Campervan_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_1",
+      "name": "TX_Campervan_DIF_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_11",
+      "name": "TX_Campervan_DIF_11",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_16",
+      "name": "TX_Campervan_DIF_16",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_DIF_6",
+      "name": "TX_Campervan_DIF_6",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_EMM_4",
+      "name": "TX_Campervan_EMM_4",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_MASK",
+      "name": "TX_Campervan_MASK",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_MASK_1",
+      "name": "TX_Campervan_MASK_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_MASK_2",
+      "name": "TX_Campervan_MASK_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM",
+      "name": "TX_Campervan_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_12",
+      "name": "TX_Campervan_NRM_12",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_17",
+      "name": "TX_Campervan_NRM_17",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_2",
+      "name": "TX_Campervan_NRM_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_NRM_7",
+      "name": "TX_Campervan_NRM_7",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_OPC_20",
+      "name": "TX_Campervan_OPC_20",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM",
+      "name": "TX_Campervan_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_13",
+      "name": "TX_Campervan_ORM_13",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_18",
+      "name": "TX_Campervan_ORM_18",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_3",
+      "name": "TX_Campervan_ORM_3",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_Campervan_ORM_8",
+      "name": "TX_Campervan_ORM_8",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_CarpetFloor01b_DIF",
+      "name": "TX_CarpetFloor01b_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_CarpetFloor_NRM",
+      "name": "TX_CarpetFloor_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_CarpetFloor_ORM",
+      "name": "TX_CarpetFloor_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_WoodWithCoving_DIF",
+      "name": "TX_WoodWithCoving_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Camper/TX_WoodWithCoving_NRM",
+      "name": "TX_WoodWithCoving_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Default/TX_Default_DIF",
+      "name": "TX_Default_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Default/TX_Default_Grey",
+      "name": "TX_Default_Grey",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Default/TX_Default_MASKS",
+      "name": "TX_Default_MASKS",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Default/TX_Default_NRM",
+      "name": "TX_Default_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_Body_MASK_01a",
+      "name": "TX_SUV_Body_MASK_01a",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_",
+      "name": "TX_SUV_DIF_",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_1",
+      "name": "TX_SUV_DIF_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_11",
+      "name": "TX_SUV_DIF_11",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_DIF_6",
+      "name": "TX_SUV_DIF_6",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_Details_MASK_01a",
+      "name": "TX_SUV_Details_MASK_01a",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_",
+      "name": "TX_SUV_NRM_",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_12",
+      "name": "TX_SUV_NRM_12",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_2",
+      "name": "TX_SUV_NRM_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_NRM_7",
+      "name": "TX_SUV_NRM_7",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_OPC_10",
+      "name": "TX_SUV_OPC_10",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_",
+      "name": "TX_SUV_ORM_",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_13",
+      "name": "TX_SUV_ORM_13",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_3",
+      "name": "TX_SUV_ORM_3",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/SUV/TX_SUV_ORM_8",
+      "name": "TX_SUV_ORM_8",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_DIF",
+      "name": "TX_Sedan_Body_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_MASK",
+      "name": "TX_Sedan_Body_MASK",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_NRM",
+      "name": "TX_Sedan_Body_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Body_ORM",
+      "name": "TX_Sedan_Body_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Chassis_DIF",
+      "name": "TX_Sedan_Chassis_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Chassis_NRM",
+      "name": "TX_Sedan_Chassis_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Chassis_ORM",
+      "name": "TX_Sedan_Chassis_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_DIF",
+      "name": "TX_Sedan_Glass_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_NRM",
+      "name": "TX_Sedan_Glass_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_OPC",
+      "name": "TX_Sedan_Glass_OPC",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Glass_ORM",
+      "name": "TX_Sedan_Glass_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Interior_DIF",
+      "name": "TX_Sedan_Interior_DIF",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Interior_NRM",
+      "name": "TX_Sedan_Interior_NRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyVol2/Textures/Sedan/TX_Sedan_Interior_ORM",
+      "name": "TX_Sedan_Interior_ORM",
+      "asset_class": "Texture2D"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "/home/jovyan/data-1/jusang/superdyn/motion_audit/qa_pipeline/qa_visual_filter.py": "6a9bc77465eb6b26ecec9fe4ad8718e3d02b47832dd1180416a1acc36a01254c",
+  "/home/jovyan/data-1/jusang/superdyn/motion_audit/qa_pipeline/framing_filter.py": "3610ebed2824d518652f074b3b45b8f03019e3d266453614cad7ee5710a49acd",
+  "/home/jovyan/data-1/jusang/superdyn/motion_audit/qa_pipeline/cli.py": "2112856ce9caeb7e3fab525539b03ed08cda8ae469cb9b8a447e1476df3c1219",
+  "/home/jovyan/data-1/jusang/superdyn/motion_audit/tests/test_qa_visual_filter.py": "efa538350fed990cd20a1e9c92f1ada8d2a652e074800b0c15d5da44bf1df369"
+}

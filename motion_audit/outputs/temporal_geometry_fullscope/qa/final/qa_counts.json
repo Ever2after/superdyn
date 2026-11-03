@@ -1,0 +1,104 @@
+[
+  {
+    "dimension": "task",
+    "value": "camera_translation_direction",
+    "qa": 271,
+    "videos": 271
+  },
+  {
+    "dimension": "task",
+    "value": "camera_view_direction_change",
+    "qa": 152,
+    "videos": 152
+  },
+  {
+    "dimension": "task",
+    "value": "object_world_motion_direction",
+    "qa": 203,
+    "videos": 170
+  },
+  {
+    "dimension": "task",
+    "value": "camera_object_distance_change",
+    "qa": 145,
+    "videos": 118
+  },
+  {
+    "dimension": "task",
+    "value": "object_pair_distance_change",
+    "qa": 60,
+    "videos": 60
+  },
+  {
+    "dimension": "task",
+    "value": "object_travel_distance_comparison",
+    "qa": 65,
+    "videos": 65
+  },
+  {
+    "dimension": "group",
+    "value": "HHH",
+    "qa": 392,
+    "videos": 203
+  },
+  {
+    "dimension": "group",
+    "value": "HLH",
+    "qa": 314,
+    "videos": 164
+  },
+  {
+    "dimension": "group",
+    "value": "LHH",
+    "qa": 190,
+    "videos": 94
+  },
+  {
+    "dimension": "group4",
+    "value": "HLH+LHH+HHH",
+    "qa": 896,
+    "videos": 461
+  },
+  {
+    "dimension": "source",
+    "value": "DAVIS",
+    "qa": 37,
+    "videos": 15
+  },
+  {
+    "dimension": "source",
+    "value": "MOSE",
+    "qa": 188,
+    "videos": 90
+  },
+  {
+    "dimension": "source",
+    "value": "SAV",
+    "qa": 98,
+    "videos": 38
+  },
+  {
+    "dimension": "source",
+    "value": "VOST",
+    "qa": 203,
+    "videos": 129
+  },
+  {
+    "dimension": "source",
+    "value": "uvo",
+    "qa": 237,
+    "videos": 122
+  },
+  {
+    "dimension": "source",
+    "value": "youtube_vis",
+    "qa": 133,
+    "videos": 67
+  },
+  {
+    "dimension": "all",
+    "value": "all",
+    "qa": 896,
+    "videos": 461
+  }
+]

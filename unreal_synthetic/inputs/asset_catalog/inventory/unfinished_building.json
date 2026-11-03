@@ -1,0 +1,1930 @@
+{
+  "id": "unfinished_building",
+  "roots": [
+    "/Game/Scene_UnfinishedBuilding"
+  ],
+  "class_counts": {
+    "World": 1,
+    "Material": 20,
+    "StaticMesh": 95,
+    "MaterialInstanceConstant": 79,
+    "Texture2D": 156,
+    "DataTable": 1,
+    "UserDefinedStruct": 3,
+    "UserDefinedEnum": 1,
+    "Blueprint": 4,
+    "MaterialFunction": 22
+  },
+  "assets": [
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Blueprints/Ind_Unf_Wire/BP_Ind_Unf_Wire",
+      "name": "BP_Ind_Unf_Wire",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Blueprints/Ind_Unf_Wire/SM_Ind_Unf_Wire",
+      "name": "SM_Ind_Unf_Wire",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf_Ceiling_01/SM_Ind_Unf_Ceiling_01",
+      "name": "SM_Ind_Unf_Ceiling_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__FloorPlane_01/SM_Ind_Unf_FloorPlane_01",
+      "name": "SM_Ind_Unf_FloorPlane_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__FloorPlane_02/SM_Ind_Unf_FloorPlane_02",
+      "name": "SM_Ind_Unf_FloorPlane_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Pillar_01/SM_Ind_Unf_Pillar_01",
+      "name": "SM_Ind_Unf_Pillar_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__StairBase_01/SM_Ind_Unf_StairBase_01",
+      "name": "SM_Ind_Unf_StairBase_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__StairBase_01/SM_Ind_Unf_StairBase_02",
+      "name": "SM_Ind_Unf_StairBase_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Wall_01/SM_Ind_Unf_Wall_01",
+      "name": "SM_Ind_Unf_Wall_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Wall_02/SM_Ind_Unf_Wall_02",
+      "name": "SM_Ind_Unf_Wall_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Wall_03/SM_Ind_Unf_Wall_03",
+      "name": "SM_Ind_Unf_Wall_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowFrame_01/SM_Ind_Unf_WindowFrame_01",
+      "name": "SM_Ind_Unf_WindowFrame_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowFrame_01/SM_Ind_Unf_WindowFrame_02",
+      "name": "SM_Ind_Unf_WindowFrame_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowFrame_01/SM_Ind_Unf_WindowFrame_03",
+      "name": "SM_Ind_Unf_WindowFrame_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowGlass_01/SM_Ind_Unf_WindowGlass_01",
+      "name": "SM_Ind_Unf_WindowGlass_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Window_01/SM_Ind_Unf_Window_01",
+      "name": "SM_Ind_Unf_Window_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Custom/Inf_Unf_GlowPlane/SM_Ind_Unf_GlowPlane_01",
+      "name": "SM_Ind_Unf_GlowPlane_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/MI_Ind_Con_Beams_Ceiling_Concrete_Rough_01",
+      "name": "MI_Ind_Con_Beams_Ceiling_Concrete_Rough_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/SM_Ind_Con_Beams_Ceiling_Concrete_Rough_01",
+      "name": "SM_Ind_Con_Beams_Ceiling_Concrete_Rough_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_D",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_DpR",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_N",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/MI_Ind_Con_Beams_Ceiling_Concrete_Rough_02",
+      "name": "MI_Ind_Con_Beams_Ceiling_Concrete_Rough_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/SM_Ind_Con_Beams_Ceiling_Concrete_Rough_02",
+      "name": "SM_Ind_Con_Beams_Ceiling_Concrete_Rough_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_D",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_DpR",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_N",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/MI_Ind_Con_Beams_Ceiling_Concrete_Rough_03",
+      "name": "MI_Ind_Con_Beams_Ceiling_Concrete_Rough_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/SM_Ind_Con_Beams_Ceiling_Concrete_Rough_03",
+      "name": "SM_Ind_Con_Beams_Ceiling_Concrete_Rough_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_D",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_DpR",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_N",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/MI_Ind_Con_Beams_Ceiling_Concrete_Worn_01",
+      "name": "MI_Ind_Con_Beams_Ceiling_Concrete_Worn_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/SM_Ind_Con_Beams_Ceiling_Concrete_Worn_01",
+      "name": "SM_Ind_Con_Beams_Ceiling_Concrete_Worn_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_D",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_DpR",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_N",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/MI_Ind_Con_Beams_Ceiling_Concrete_Worn_02",
+      "name": "MI_Ind_Con_Beams_Ceiling_Concrete_Worn_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/SM_Ind_Con_Beams_Ceiling_Concrete_Worn_02",
+      "name": "SM_Ind_Con_Beams_Ceiling_Concrete_Worn_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_D",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_DpR",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_N",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/MI_Ind_Con_Beams_Ceiling_Concrete_Worn_03",
+      "name": "MI_Ind_Con_Beams_Ceiling_Concrete_Worn_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/SM_Ind_Con_Beams_Ceiling_Concrete_Worn_03",
+      "name": "SM_Ind_Con_Beams_Ceiling_Concrete_Worn_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_D",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_DpR",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_N",
+      "name": "T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/MI_Ind_Con_Pile_Rubble_Gravel_Patch_01",
+      "name": "MI_Ind_Con_Pile_Rubble_Gravel_Patch_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/SM_Ind_Con_Pile_Rubble_Gravel_Patch_01",
+      "name": "SM_Ind_Con_Pile_Rubble_Gravel_Patch_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/T_Ind_Con_Pile_Rubble_Gravel_Patch_01_D",
+      "name": "T_Ind_Con_Pile_Rubble_Gravel_Patch_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/T_Ind_Con_Pile_Rubble_Gravel_Patch_01_DpR",
+      "name": "T_Ind_Con_Pile_Rubble_Gravel_Patch_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/T_Ind_Con_Pile_Rubble_Gravel_Patch_01_N",
+      "name": "T_Ind_Con_Pile_Rubble_Gravel_Patch_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/MI_Ind_Con_Pillar_Concrete_Round_01",
+      "name": "MI_Ind_Con_Pillar_Concrete_Round_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/SM_Ind_Con_Pillar_Concrete_Round_01",
+      "name": "SM_Ind_Con_Pillar_Concrete_Round_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/T_Ind_Con_Pillar_Concrete_Round_01_D",
+      "name": "T_Ind_Con_Pillar_Concrete_Round_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/T_Ind_Con_Pillar_Concrete_Round_01_DpR",
+      "name": "T_Ind_Con_Pillar_Concrete_Round_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/T_Ind_Con_Pillar_Concrete_Round_01_N",
+      "name": "T_Ind_Con_Pillar_Concrete_Round_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/MI_Ind_Con_Pillar_Round_Concrete_01",
+      "name": "MI_Ind_Con_Pillar_Round_Concrete_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/SM_Ind_Con_Pillar_Round_Concrete_01",
+      "name": "SM_Ind_Con_Pillar_Round_Concrete_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/T_Ind_Con_Pillar_Round_Concrete_01_D",
+      "name": "T_Ind_Con_Pillar_Round_Concrete_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/T_Ind_Con_Pillar_Round_Concrete_01_DpR",
+      "name": "T_Ind_Con_Pillar_Round_Concrete_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/T_Ind_Con_Pillar_Round_Concrete_01_N",
+      "name": "T_Ind_Con_Pillar_Round_Concrete_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/MI_Ind_Con_Pillar_Round_Concrete_02",
+      "name": "MI_Ind_Con_Pillar_Round_Concrete_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/SM_Ind_Con_Pillar_Round_Concrete_02",
+      "name": "SM_Ind_Con_Pillar_Round_Concrete_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/T_Ind_Con_Pillar_Round_Concrete_02_D",
+      "name": "T_Ind_Con_Pillar_Round_Concrete_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/T_Ind_Con_Pillar_Round_Concrete_02_DpR",
+      "name": "T_Ind_Con_Pillar_Round_Concrete_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/T_Ind_Con_Pillar_Round_Concrete_02_N",
+      "name": "T_Ind_Con_Pillar_Round_Concrete_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/MI_Ind_Con_Pillar_Square_Concrete_Stained_01",
+      "name": "MI_Ind_Con_Pillar_Square_Concrete_Stained_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/SM_Ind_Con_Pillar_Square_Concrete_Stained_01",
+      "name": "SM_Ind_Con_Pillar_Square_Concrete_Stained_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/T_Ind_Con_Pillar_Square_Concrete_Stained_01_D",
+      "name": "T_Ind_Con_Pillar_Square_Concrete_Stained_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/T_Ind_Con_Pillar_Square_Concrete_Stained_01_DpR",
+      "name": "T_Ind_Con_Pillar_Square_Concrete_Stained_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/T_Ind_Con_Pillar_Square_Concrete_Stained_01_N",
+      "name": "T_Ind_Con_Pillar_Square_Concrete_Stained_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/MI_Ind_Con_Stairs_Concrete_Worn_01_A",
+      "name": "MI_Ind_Con_Stairs_Concrete_Worn_01_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/MI_Ind_Con_Stairs_Concrete_Worn_01_B",
+      "name": "MI_Ind_Con_Stairs_Concrete_Worn_01_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/SM_Ind_Con_Stairs_Concrete_Worn_01",
+      "name": "SM_Ind_Con_Stairs_Concrete_Worn_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/T_Ind_Con_Stairs_Concrete_Worn_01_D",
+      "name": "T_Ind_Con_Stairs_Concrete_Worn_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/T_Ind_Con_Stairs_Concrete_Worn_01_DpR",
+      "name": "T_Ind_Con_Stairs_Concrete_Worn_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/T_Ind_Con_Stairs_Concrete_Worn_01_N",
+      "name": "T_Ind_Con_Stairs_Concrete_Worn_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/MI_Ind_Con_Storeage_Sack_Debris_M_01",
+      "name": "MI_Ind_Con_Storeage_Sack_Debris_M_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/SM_Ind_Con_Storeage_Sack_Debris_M_01",
+      "name": "SM_Ind_Con_Storeage_Sack_Debris_M_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/T_Ind_Con_Storeage_Sack_Debris_M_01_D",
+      "name": "T_Ind_Con_Storeage_Sack_Debris_M_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/T_Ind_Con_Storeage_Sack_Debris_M_01_DpR",
+      "name": "T_Ind_Con_Storeage_Sack_Debris_M_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/T_Ind_Con_Storeage_Sack_Debris_M_01_N",
+      "name": "T_Ind_Con_Storeage_Sack_Debris_M_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/MI_Ind_Fac_Container_Drum_Metal_Worn_02",
+      "name": "MI_Ind_Fac_Container_Drum_Metal_Worn_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/SM_Ind_Fac_Container_Drum_Metal_Worn_02",
+      "name": "SM_Ind_Fac_Container_Drum_Metal_Worn_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/T_Ind_Fac_Container_Drum_Metal_Worn_02_D",
+      "name": "T_Ind_Fac_Container_Drum_Metal_Worn_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/T_Ind_Fac_Container_Drum_Metal_Worn_02_DpR",
+      "name": "T_Ind_Fac_Container_Drum_Metal_Worn_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/T_Ind_Fac_Container_Drum_Metal_Worn_02_N",
+      "name": "T_Ind_Fac_Container_Drum_Metal_Worn_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/MI_Ind_Rub_Block_Cinder_Concrete_Chipped_02",
+      "name": "MI_Ind_Rub_Block_Cinder_Concrete_Chipped_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/SM_Ind_Rub_Block_Cinder_Concrete_Chipped_02",
+      "name": "SM_Ind_Rub_Block_Cinder_Concrete_Chipped_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_D",
+      "name": "T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_DpR",
+      "name": "T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_N",
+      "name": "T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/MI_Ind_Rub_Block_Cinder_Concrete_Chipped_03",
+      "name": "MI_Ind_Rub_Block_Cinder_Concrete_Chipped_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/SM_Ind_Rub_Block_Cinder_Concrete_Chipped_03",
+      "name": "SM_Ind_Rub_Block_Cinder_Concrete_Chipped_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_D",
+      "name": "T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_DpR",
+      "name": "T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_N",
+      "name": "T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/MI_Ind_Rub_Debris_Concrete_Broken_01",
+      "name": "MI_Ind_Rub_Debris_Concrete_Broken_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/SM_Ind_Rub_Debris_Concrete_Broken_01",
+      "name": "SM_Ind_Rub_Debris_Concrete_Broken_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/T_Ind_Rub_Debris_Concrete_Broken_01_D",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/T_Ind_Rub_Debris_Concrete_Broken_01_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/T_Ind_Rub_Debris_Concrete_Broken_01_N",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/MI_Ind_Rub_Debris_Concrete_Broken_02",
+      "name": "MI_Ind_Rub_Debris_Concrete_Broken_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/SM_Ind_Rub_Debris_Concrete_Broken_02",
+      "name": "SM_Ind_Rub_Debris_Concrete_Broken_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/T_Ind_Rub_Debris_Concrete_Broken_02_D",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/T_Ind_Rub_Debris_Concrete_Broken_02_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/T_Ind_Rub_Debris_Concrete_Broken_02_N",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/MI_Ind_Rub_Debris_Concrete_Broken_03",
+      "name": "MI_Ind_Rub_Debris_Concrete_Broken_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/SM_Ind_Rub_Debris_Concrete_Broken_03",
+      "name": "SM_Ind_Rub_Debris_Concrete_Broken_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/T_Ind_Rub_Debris_Concrete_Broken_03_D",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/T_Ind_Rub_Debris_Concrete_Broken_03_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_03_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/T_Ind_Rub_Debris_Concrete_Broken_03_N",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/MI_Ind_Rub_Debris_Concrete_Broken_04",
+      "name": "MI_Ind_Rub_Debris_Concrete_Broken_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/SM_Ind_Rub_Debris_Concrete_Broken_04",
+      "name": "SM_Ind_Rub_Debris_Concrete_Broken_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/T_Ind_Rub_Debris_Concrete_Broken_04_D",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/T_Ind_Rub_Debris_Concrete_Broken_04_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_04_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/T_Ind_Rub_Debris_Concrete_Broken_04_N",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/MI_Ind_Rub_Debris_Concrete_Broken_05",
+      "name": "MI_Ind_Rub_Debris_Concrete_Broken_05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/SM_Ind_Rub_Debris_Concrete_Broken_05",
+      "name": "SM_Ind_Rub_Debris_Concrete_Broken_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/T_Ind_Rub_Debris_Concrete_Broken_05_D",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/T_Ind_Rub_Debris_Concrete_Broken_05_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_05_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/T_Ind_Rub_Debris_Concrete_Broken_05_N",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/MI_Ind_Rub_Debris_Concrete_Broken_06",
+      "name": "MI_Ind_Rub_Debris_Concrete_Broken_06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/SM_Ind_Rub_Debris_Concrete_Broken_06",
+      "name": "SM_Ind_Rub_Debris_Concrete_Broken_06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/T_Ind_Rub_Debris_Concrete_Broken_06_D",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_06_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/T_Ind_Rub_Debris_Concrete_Broken_06_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_06_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/T_Ind_Rub_Debris_Concrete_Broken_06_N",
+      "name": "T_Ind_Rub_Debris_Concrete_Broken_06_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/MI_Ind_Rub_Debris_Concrete_S_01",
+      "name": "MI_Ind_Rub_Debris_Concrete_S_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/SM_Ind_Rub_Debris_Concrete_S_01",
+      "name": "SM_Ind_Rub_Debris_Concrete_S_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/T_Ind_Rub_Debris_Concrete_S_01_D",
+      "name": "T_Ind_Rub_Debris_Concrete_S_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/T_Ind_Rub_Debris_Concrete_S_01_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_S_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/T_Ind_Rub_Debris_Concrete_S_01_N",
+      "name": "T_Ind_Rub_Debris_Concrete_S_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/MI_Ind_Rub_Debris_Concrete_S_02",
+      "name": "MI_Ind_Rub_Debris_Concrete_S_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/SM_Ind_Rub_Debris_Concrete_S_02",
+      "name": "SM_Ind_Rub_Debris_Concrete_S_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/T_Ind_Rub_Debris_Concrete_S_02_D",
+      "name": "T_Ind_Rub_Debris_Concrete_S_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/T_Ind_Rub_Debris_Concrete_S_02_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_S_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/T_Ind_Rub_Debris_Concrete_S_02_N",
+      "name": "T_Ind_Rub_Debris_Concrete_S_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/MI_Ind_Rub_Debris_Concrete_S_03",
+      "name": "MI_Ind_Rub_Debris_Concrete_S_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/SM_Ind_Rub_Debris_Concrete_S_03",
+      "name": "SM_Ind_Rub_Debris_Concrete_S_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/T_Ind_Rub_Debris_Concrete_S_03_D",
+      "name": "T_Ind_Rub_Debris_Concrete_S_03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/T_Ind_Rub_Debris_Concrete_S_03_DpR",
+      "name": "T_Ind_Rub_Debris_Concrete_S_03_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/T_Ind_Rub_Debris_Concrete_S_03_N",
+      "name": "T_Ind_Rub_Debris_Concrete_S_03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/MI_Ind_Rub_Pile_Concrete_M_01",
+      "name": "MI_Ind_Rub_Pile_Concrete_M_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/SM_Ind_Rub_Pile_Concrete_M_01",
+      "name": "SM_Ind_Rub_Pile_Concrete_M_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/T_Ind_Rub_Pile_Concrete_M_01_D",
+      "name": "T_Ind_Rub_Pile_Concrete_M_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/T_Ind_Rub_Pile_Concrete_M_01_DpR",
+      "name": "T_Ind_Rub_Pile_Concrete_M_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/T_Ind_Rub_Pile_Concrete_M_01_N",
+      "name": "T_Ind_Rub_Pile_Concrete_M_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/MI_Ind_Rub_Pile_Concrete_M_05",
+      "name": "MI_Ind_Rub_Pile_Concrete_M_05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/SM_Ind_Rub_Pile_Concrete_M_05",
+      "name": "SM_Ind_Rub_Pile_Concrete_M_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/T_Ind_Rub_Pile_Concrete_M_05_D",
+      "name": "T_Ind_Rub_Pile_Concrete_M_05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/T_Ind_Rub_Pile_Concrete_M_05_DpR",
+      "name": "T_Ind_Rub_Pile_Concrete_M_05_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/T_Ind_Rub_Pile_Concrete_M_05_N",
+      "name": "T_Ind_Rub_Pile_Concrete_M_05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/MI_Ind_Rub_Pile_Debris_Concrete_M_05",
+      "name": "MI_Ind_Rub_Pile_Debris_Concrete_M_05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/SM_Ind_Rub_Pile_Debris_Concrete_M_05",
+      "name": "SM_Ind_Rub_Pile_Debris_Concrete_M_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/T_Ind_Rub_Pile_Debris_Concrete_M_05_D",
+      "name": "T_Ind_Rub_Pile_Debris_Concrete_M_05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/T_Ind_Rub_Pile_Debris_Concrete_M_05_DpR",
+      "name": "T_Ind_Rub_Pile_Debris_Concrete_M_05_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/T_Ind_Rub_Pile_Debris_Concrete_M_05_N",
+      "name": "T_Ind_Rub_Pile_Debris_Concrete_M_05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/MI_Ind_Rub_Pile_Debris_Gravel_M_01_A",
+      "name": "MI_Ind_Rub_Pile_Debris_Gravel_M_01_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/MI_Ind_Rub_Pile_Debris_Gravel_M_01_B",
+      "name": "MI_Ind_Rub_Pile_Debris_Gravel_M_01_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/SM_Ind_Rub_Pile_Debris_Gravel_M_01",
+      "name": "SM_Ind_Rub_Pile_Debris_Gravel_M_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/T_Ind_Rub_Pile_Debris_Gravel_M_01_D",
+      "name": "T_Ind_Rub_Pile_Debris_Gravel_M_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/T_Ind_Rub_Pile_Debris_Gravel_M_01_DpR",
+      "name": "T_Ind_Rub_Pile_Debris_Gravel_M_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/T_Ind_Rub_Pile_Debris_Gravel_M_01_N",
+      "name": "T_Ind_Rub_Pile_Debris_Gravel_M_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/MI_Ind_War_Light_Ceiling_Metal_Hanging_02",
+      "name": "MI_Ind_War_Light_Ceiling_Metal_Hanging_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/SM_Ind_War_Light_Ceiling_Metal_Hanging_02",
+      "name": "SM_Ind_War_Light_Ceiling_Metal_Hanging_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/T_Ind_War_Light_Ceiling_Metal_Hanging_02_D",
+      "name": "T_Ind_War_Light_Ceiling_Metal_Hanging_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/T_Ind_War_Light_Ceiling_Metal_Hanging_02_DpR",
+      "name": "T_Ind_War_Light_Ceiling_Metal_Hanging_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/T_Ind_War_Light_Ceiling_Metal_Hanging_02_N",
+      "name": "T_Ind_War_Light_Ceiling_Metal_Hanging_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/MI_Ind_War_Storage_Pallet_Wood_Worn_01",
+      "name": "MI_Ind_War_Storage_Pallet_Wood_Worn_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/SM_Ind_War_Storage_Pallet_Wood_Worn_01",
+      "name": "SM_Ind_War_Storage_Pallet_Wood_Worn_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/T_Ind_War_Storage_Pallet_Wood_Worn_01_D",
+      "name": "T_Ind_War_Storage_Pallet_Wood_Worn_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/T_Ind_War_Storage_Pallet_Wood_Worn_01_DpR",
+      "name": "T_Ind_War_Storage_Pallet_Wood_Worn_01_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/T_Ind_War_Storage_Pallet_Wood_Worn_01_N",
+      "name": "T_Ind_War_Storage_Pallet_Wood_Worn_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/MI_Ind_War_Storage_Sheet_Cardboard_Flattened_02",
+      "name": "MI_Ind_War_Storage_Sheet_Cardboard_Flattened_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/SM_Ind_War_Storage_Sheet_Cardboard_Flattened_02",
+      "name": "SM_Ind_War_Storage_Sheet_Cardboard_Flattened_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_D",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_DpR",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_N",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/MI_Ind_War_Storage_Sheet_Cardboard_Flattened_04",
+      "name": "MI_Ind_War_Storage_Sheet_Cardboard_Flattened_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/SM_Ind_War_Storage_Sheet_Cardboard_Flattened_04",
+      "name": "SM_Ind_War_Storage_Sheet_Cardboard_Flattened_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_D",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_DpR",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_N",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/MI_Ind_War_Storage_Sheet_Cardboard_Flattened_05",
+      "name": "MI_Ind_War_Storage_Sheet_Cardboard_Flattened_05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/SM_Ind_War_Storage_Sheet_Cardboard_Flattened_05",
+      "name": "SM_Ind_War_Storage_Sheet_Cardboard_Flattened_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_D",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_DpR",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_DpR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_N",
+      "name": "T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_01/MI_Decal_Leak_Dirt_01",
+      "name": "MI_Decal_Leak_Dirt_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_01/T_Decal_Leak_Dirt_01_D",
+      "name": "T_Decal_Leak_Dirt_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_01/T_Decal_Leak_Dirt_01_DpRA",
+      "name": "T_Decal_Leak_Dirt_01_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/MI_Decal_Leak_Dirt_02_A",
+      "name": "MI_Decal_Leak_Dirt_02_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/MI_Decal_Leak_Dirt_02_B",
+      "name": "MI_Decal_Leak_Dirt_02_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/T_Decal_Leak_Dirt_02_D",
+      "name": "T_Decal_Leak_Dirt_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/T_Decal_Leak_Dirt_02_DpRA",
+      "name": "T_Decal_Leak_Dirt_02_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/MI_Decal_Leak_Grease_01_A",
+      "name": "MI_Decal_Leak_Grease_01_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/MI_Decal_Leak_Grease_01_B",
+      "name": "MI_Decal_Leak_Grease_01_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/T_Decal_Leak_Grease_01_D",
+      "name": "T_Decal_Leak_Grease_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/T_Decal_Leak_Grease_01_DpRA",
+      "name": "T_Decal_Leak_Grease_01_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/MI_Decal_Leak_Grease_02_A",
+      "name": "MI_Decal_Leak_Grease_02_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/MI_Decal_Leak_Grease_02_B",
+      "name": "MI_Decal_Leak_Grease_02_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/T_Decal_Leak_Grease_02_D",
+      "name": "T_Decal_Leak_Grease_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/T_Decal_Leak_Grease_02_DpRA",
+      "name": "T_Decal_Leak_Grease_02_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_01/MI_Decal_Leak_Grime_01",
+      "name": "MI_Decal_Leak_Grime_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_01/T_Decal_Leak_Grime_01_D",
+      "name": "T_Decal_Leak_Grime_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_01/T_Decal_Leak_Grime_01_DpRA",
+      "name": "T_Decal_Leak_Grime_01_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_02/MI_Decal_Leak_Grime_02",
+      "name": "MI_Decal_Leak_Grime_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_02/T_Decal_Leak_Grime_02_D",
+      "name": "T_Decal_Leak_Grime_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_02/T_Decal_Leak_Grime_02_DpRA",
+      "name": "T_Decal_Leak_Grime_02_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_03/MI_Decal_Leak_Grime_03",
+      "name": "MI_Decal_Leak_Grime_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_03/T_Decal_Leak_Grime_03_D",
+      "name": "T_Decal_Leak_Grime_03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_03/T_Decal_Leak_Grime_03_DpRA",
+      "name": "T_Decal_Leak_Grime_03_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_04/MI_Decal_Leak_Grime_04",
+      "name": "MI_Decal_Leak_Grime_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_04/T_Decal_Leak_Grime_04_D",
+      "name": "T_Decal_Leak_Grime_04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_04/T_Decal_Leak_Grime_04_DpRA",
+      "name": "T_Decal_Leak_Grime_04_DpRA",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/MI_Ceiling_Concrete_Raw_01",
+      "name": "MI_Ceiling_Concrete_Raw_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/T_Ceiling_Concrete_Raw_01_D",
+      "name": "T_Ceiling_Concrete_Raw_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/T_Ceiling_Concrete_Raw_01_N",
+      "name": "T_Ceiling_Concrete_Raw_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/T_Ceiling_Concrete_Raw_01_ORDp",
+      "name": "T_Ceiling_Concrete_Raw_01_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/MI_Ceiling_Concrete_Worn_01_A",
+      "name": "MI_Ceiling_Concrete_Worn_01_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/MI_Ceiling_Concrete_Worn_01_B",
+      "name": "MI_Ceiling_Concrete_Worn_01_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/T_Ceiling_Concrete_Worn_01_D",
+      "name": "T_Ceiling_Concrete_Worn_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/T_Ceiling_Concrete_Worn_01_N",
+      "name": "T_Ceiling_Concrete_Worn_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/T_Ceiling_Concrete_Worn_01_ORDp",
+      "name": "T_Ceiling_Concrete_Worn_01_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/MI_Ceiling_Concrete_Worn_02_A",
+      "name": "MI_Ceiling_Concrete_Worn_02_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/MI_Ceiling_Concrete_Worn_02_B",
+      "name": "MI_Ceiling_Concrete_Worn_02_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/MI_Ceiling_Concrete_Worn_02_C",
+      "name": "MI_Ceiling_Concrete_Worn_02_C",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/T_Ceiling_Concrete_Worn_02_D",
+      "name": "T_Ceiling_Concrete_Worn_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/T_Ceiling_Concrete_Worn_02_N",
+      "name": "T_Ceiling_Concrete_Worn_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/T_Ceiling_Concrete_Worn_02_ORDp",
+      "name": "T_Ceiling_Concrete_Worn_02_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/MI_Floor_Concrete_Dusty_01",
+      "name": "MI_Floor_Concrete_Dusty_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/T_Floor_Concrete_Dusty_01_D",
+      "name": "T_Floor_Concrete_Dusty_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/T_Floor_Concrete_Dusty_01_N",
+      "name": "T_Floor_Concrete_Dusty_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/T_Floor_Concrete_Dusty_01_ORDp",
+      "name": "T_Floor_Concrete_Dusty_01_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/MI_Floor_Concrete_Dusty_02",
+      "name": "MI_Floor_Concrete_Dusty_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/T_Floor_Concrete_Dusty_02_D",
+      "name": "T_Floor_Concrete_Dusty_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/T_Floor_Concrete_Dusty_02_N",
+      "name": "T_Floor_Concrete_Dusty_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/T_Floor_Concrete_Dusty_02_ORDp",
+      "name": "T_Floor_Concrete_Dusty_02_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/MI_Ground_Gravel_Rough_01",
+      "name": "MI_Ground_Gravel_Rough_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/T_Ground_Gravel_Rough_01_D",
+      "name": "T_Ground_Gravel_Rough_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/T_Ground_Gravel_Rough_01_N",
+      "name": "T_Ground_Gravel_Rough_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/T_Ground_Gravel_Rough_01_ORDp",
+      "name": "T_Ground_Gravel_Rough_01_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_A",
+      "name": "MI_Wall_Concrete_Damaged_01_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_B",
+      "name": "MI_Wall_Concrete_Damaged_01_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_C",
+      "name": "MI_Wall_Concrete_Damaged_01_C",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_D",
+      "name": "MI_Wall_Concrete_Damaged_01_D",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/T_Wall_Concrete_Damaged_01_D",
+      "name": "T_Wall_Concrete_Damaged_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/T_Wall_Concrete_Damaged_01_N",
+      "name": "T_Wall_Concrete_Damaged_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/T_Wall_Concrete_Damaged_01_ORDp",
+      "name": "T_Wall_Concrete_Damaged_01_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_A",
+      "name": "MI_Wall_Concrete_Rough_01_A",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_B",
+      "name": "MI_Wall_Concrete_Rough_01_B",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_C",
+      "name": "MI_Wall_Concrete_Rough_01_C",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_D",
+      "name": "MI_Wall_Concrete_Rough_01_D",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/T_Wall_Concrete_Rough_01_D",
+      "name": "T_Wall_Concrete_Rough_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/T_Wall_Concrete_Rough_01_N",
+      "name": "T_Wall_Concrete_Rough_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/T_Wall_Concrete_Rough_01_ORDp",
+      "name": "T_Wall_Concrete_Rough_01_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/MI_Wall_Concrete_Stained_01",
+      "name": "MI_Wall_Concrete_Stained_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/T_Wall_Concrete_Stained_01_D",
+      "name": "T_Wall_Concrete_Stained_01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/T_Wall_Concrete_Stained_01_N",
+      "name": "T_Wall_Concrete_Stained_01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/T_Wall_Concrete_Stained_01_ORDp",
+      "name": "T_Wall_Concrete_Stained_01_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/MI_Wall_Concrete_Stained_02",
+      "name": "MI_Wall_Concrete_Stained_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/T_Wall_Concrete_Stained_02_D",
+      "name": "T_Wall_Concrete_Stained_02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/T_Wall_Concrete_Stained_02_N",
+      "name": "T_Wall_Concrete_Stained_02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/T_Wall_Concrete_Stained_02_ORDp",
+      "name": "T_Wall_Concrete_Stained_02_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/MI_Wall_Concrete_Stained_03",
+      "name": "MI_Wall_Concrete_Stained_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/T_Wall_Concrete_Stained_03_D",
+      "name": "T_Wall_Concrete_Stained_03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/T_Wall_Concrete_Stained_03_N",
+      "name": "T_Wall_Concrete_Stained_03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/T_Wall_Concrete_Stained_03_ORDp",
+      "name": "T_Wall_Concrete_Stained_03_ORDp",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Maps/Industrial_UnfinishedBuilding",
+      "name": "Industrial_UnfinishedBuilding",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/BlackPlaceholder",
+      "name": "BlackPlaceholder",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/DefaultDiffuse",
+      "name": "DefaultDiffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/Placeholder_Normal",
+      "name": "Placeholder_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/WhitePlaceholder",
+      "name": "WhitePlaceholder",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Decal_Material_VT/MF_QuixelDecalPOM",
+      "name": "MF_QuixelDecalPOM",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Decal_Material_VT/M_MS_Decal_Material_VT",
+      "name": "M_MS_Decal_Material_VT",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_DetailNormalTiling",
+      "name": "MF_DetailNormalTiling",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Displacement",
+      "name": "MF_Displacement",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Fuzz",
+      "name": "MF_Fuzz",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_MapAdjustments",
+      "name": "MF_MapAdjustments",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_ObjAdjustments",
+      "name": "MF_ObjAdjustments",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Tiling",
+      "name": "MF_Tiling",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Transmission",
+      "name": "MF_Transmission",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/M_MS_Default_Material_VT",
+      "name": "M_MS_Default_Material_VT",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_Displacement",
+      "name": "MF_Displacement",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_MapAdjustments",
+      "name": "MF_MapAdjustments",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_ObjAdjustments",
+      "name": "MF_ObjAdjustments",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_Tiling",
+      "name": "MF_Tiling",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_Transmission",
+      "name": "MF_Transmission",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/M_MS_Surface_Material_VT",
+      "name": "M_MS_Surface_Material_VT",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Basic",
+      "name": "M_Basic",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Basic_Emissive",
+      "name": "M_Basic_Emissive",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Glass",
+      "name": "M_Glass",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_MS_Custom_Decal_Material",
+      "name": "M_MS_Custom_Decal_Material",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_MS_LayerSurface_01",
+      "name": "M_MS_LayerSurface_01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Wire",
+      "name": "M_Wire",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Base/MF_BaseLayerAdjustments",
+      "name": "MF_BaseLayerAdjustments",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Base/MF_BaseLayerTextures",
+      "name": "MF_BaseLayerTextures",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/MF_MaterialBlend",
+      "name": "MF_MaterialBlend",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/MF_NormalCorrection",
+      "name": "MF_NormalCorrection",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Middle/MF_MiddleLayerAdjustments",
+      "name": "MF_MiddleLayerAdjustments",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Middle/MF_MiddleLayerTextures",
+      "name": "MF_MiddleLayerTextures",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Puddle/MF_PuddleLayer",
+      "name": "MF_PuddleLayer",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Top/MF_TopLayerAdjustments",
+      "name": "MF_TopLayerAdjustments",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Top/MF_TopLayerTextures",
+      "name": "MF_TopLayerTextures",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Basic_Emissive",
+      "name": "MI_Basic_Emissive",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Basic_Emissive_TubeLight",
+      "name": "MI_Basic_Emissive_TubeLight",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Basic_Emissive_Window",
+      "name": "MI_Basic_Emissive_Window",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Glass",
+      "name": "MI_Glass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_LayerSurface_01",
+      "name": "MI_LayerSurface_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_LayerSurface_02",
+      "name": "MI_LayerSurface_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Wire01",
+      "name": "MI_Wire01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Blueprints/BP_DemoDisplay",
+      "name": "BP_DemoDisplay",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Blueprints/BP_DemoRoom",
+      "name": "BP_DemoRoom",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Blueprints/BP_FrameDisplay",
+      "name": "BP_FrameDisplay",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/MI_Display_Blue",
+      "name": "MI_Display_Blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/MI_TileBlack",
+      "name": "MI_TileBlack",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/MI_Tile_Ceiling",
+      "name": "MI_Tile_Ceiling",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_DemoRoom",
+      "name": "M_DemoRoom",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Display",
+      "name": "M_Display",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Glow",
+      "name": "M_Glow",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Glow_Ceiling",
+      "name": "M_Glow_Ceiling",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Glow_Ceiling_Cold",
+      "name": "M_Glow_Ceiling_Cold",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Metal",
+      "name": "M_Metal",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile",
+      "name": "M_Tile",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile_2",
+      "name": "M_Tile_2",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile_Glossy",
+      "name": "M_Tile_Glossy",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile_Glossy_02",
+      "name": "M_Tile_Glossy_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_UELogo",
+      "name": "M_UELogo",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/Textures/T_GrungySurface_slnneipc_4K_MR",
+      "name": "T_GrungySurface_slnneipc_4K_MR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Corner_B",
+      "name": "Display_Corner_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Corner_C",
+      "name": "Display_Corner_C",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Curve_B",
+      "name": "Display_Curve_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Curve_C",
+      "name": "Display_Curve_C",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_EdgeCurve_B",
+      "name": "Display_EdgeCurve_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_EdgeCurve_C",
+      "name": "Display_EdgeCurve_C",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Main_B",
+      "name": "Display_Main_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Main_C",
+      "name": "Display_Main_C",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Side_B",
+      "name": "Display_Side_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Side_C",
+      "name": "Display_Side_C",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Floor_Corner",
+      "name": "Floor_Corner",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Floor_Edge",
+      "name": "Floor_Edge",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Pipe",
+      "name": "Pipe",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Podium_01",
+      "name": "Podium_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Podium_02",
+      "name": "Podium_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/QuixelLogo",
+      "name": "QuixelLogo",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Corner",
+      "name": "SM_DisplayFrame_Corner",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Corner_Bottom",
+      "name": "SM_DisplayFrame_Corner_Bottom",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Corner_Top",
+      "name": "SM_DisplayFrame_Corner_Top",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Side",
+      "name": "SM_DisplayFrame_Side",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Side_Bottom",
+      "name": "SM_DisplayFrame_Side_Bottom",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Side_Top",
+      "name": "SM_DisplayFrame_Side_Top",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/ShadowBox_1MPanel",
+      "name": "ShadowBox_1MPanel",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/ShadowBox_1MPanel2",
+      "name": "ShadowBox_1MPanel2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/ShadowBox_RoundEdge",
+      "name": "ShadowBox_RoundEdge",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Splitter_Curve",
+      "name": "Splitter_Curve",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Splitter_Wall",
+      "name": "Splitter_Wall",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Splitter_Wall2",
+      "name": "Splitter_Wall2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TagBar_Middle",
+      "name": "TagBar_Middle",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TagBar_TitleCap",
+      "name": "TagBar_TitleCap",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TagBar_TitleCap1",
+      "name": "TagBar_TitleCap1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_10MPillar_B",
+      "name": "Tile_10MPillar_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_10MPillar_B_2",
+      "name": "Tile_10MPillar_B_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_10MWall",
+      "name": "Tile_10MWall",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_Edge",
+      "name": "Tile_Edge",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_Edge_2",
+      "name": "Tile_Edge_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurveEdge",
+      "name": "Tile_InnerCurveEdge",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurveEdge2",
+      "name": "Tile_InnerCurveEdge2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurveEdge_2",
+      "name": "Tile_InnerCurveEdge_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurve_B",
+      "name": "Tile_InnerCurve_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Bend",
+      "name": "TrimFeature_MetalTrim_Bend",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Bend_B",
+      "name": "TrimFeature_MetalTrim_Bend_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Straight",
+      "name": "TrimFeature_MetalTrim_Straight",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Straight_B",
+      "name": "TrimFeature_MetalTrim_Straight_B",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/UELogo",
+      "name": "UELogo",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/lambert1",
+      "name": "lambert1",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/standardSurface1",
+      "name": "standardSurface1",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/DT_Colourways",
+      "name": "DT_Colourways",
+      "asset_class": "DataTable"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/E_EnclosureLevel",
+      "name": "E_EnclosureLevel",
+      "asset_class": "UserDefinedEnum"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/E_RoomLighting",
+      "name": "E_RoomLighting",
+      "asset_class": "UserDefinedStruct"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/S_Colour",
+      "name": "S_Colour",
+      "asset_class": "UserDefinedStruct"
+    },
+    {
+      "path": "/Game/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/S_RoomSettings",
+      "name": "S_RoomSettings",
+      "asset_class": "UserDefinedStruct"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "installed",
+  "engine": "/tmp/superdyn_unreal_1002/ue_5_8_4/Engine/Binaries/Linux/UnrealEditor",
+  "build_version": {
+    "MajorVersion": 5,
+    "MinorVersion": 8,
+    "PatchVersion": 4,
+    "Changelist": 58902052,
+    "CompatibleChangelist": 55116800,
+    "IsLicenseeVersion": 0,
+    "IsPromotedBuild": 1,
+    "BranchName": "++UE5+Release-5.8"
+  },
+  "zip_crc_verified_during_extraction": true,
+  "unreal_execution_verified": false
+}

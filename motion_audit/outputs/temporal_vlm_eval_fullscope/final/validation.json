@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "qa": 896,
+  "videos": 461,
+  "models": 7,
+  "predictions": 6272,
+  "unique_images": 6579,
+  "new_inference": false,
+  "source_sha256": {
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/qa/qa.json": "6a9aca3043050cac003f15bc802284f2c609f1eb9beb0e044082141e00b6d5bb",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/qa/qa_visual_filter_fullscope/results.json": "3cac111d2fa525547f5042dc75793c637877b5f2091aeb0a9067903acbcda388",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/qa/qa_visual_filter_fullscope/config.json": "fe0121ae91b6381b327af8a951387ec908e332df8e8d9a5b1a024bb9130e7104",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/inputs.json": "131655e2483668a1a29e5679d682f8a6cd662e484f397b89c247afc13f240f1c",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/reference_answers.json": "660e559483a63a30b8f6b6a0ccc5865355df6af6402a937d3fbe2c44f8040ce4",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/models.json": "82c74c33b5c6e4fd5eb452932798e7b1d640e5e7311f5099b092217b6cd9485f",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/protocol.json": "e15b748cdb98d5cb1ad33d3787fdad6201776f338aa3e3eda7e3868056c988b8",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/summary.json": "4d3ee4ff58534205b8233a0f6c1f94d40c482dd338001feb4aea6445f71e84a6",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/leaderboard.csv": "494ec516673b41259d9d693436cf54443942ccc0c682e4778b3e83ab4569a090"
+  },
+  "source_predictions_unchanged": true,
+  "checks": [
+    "exact audit coverage",
+    "keep AND motion-group intersection",
+    "matching QA and references",
+    "same model prompts and option order",
+    "no reference fields in inputs",
+    "same marked pixels",
+    "raw responses reparsed and rescored",
+    "all QA frame references resolve",
+    "source hashes unchanged"
+  ],
+  "last_report": {
+    "status": "passed",
+    "checked_at": "2026-11-02T07:35:05.127394+00:00",
+    "qa": 896,
+    "videos": 461,
+    "models": 7,
+    "predictions": 6272,
+    "source_inputs_sha256": "131655e2483668a1a29e5679d682f8a6cd662e484f397b89c247afc13f240f1c",
+    "source_summary_sha256": "4d3ee4ff58534205b8233a0f6c1f94d40c482dd338001feb4aea6445f71e84a6",
+    "checks": [
+      "Exact selected QA IDs and requested groups",
+      "Same denominator for every model",
+      "Raw answers reparsed and rescored"
+    ],
+    "new_inference": false
+  }
+}

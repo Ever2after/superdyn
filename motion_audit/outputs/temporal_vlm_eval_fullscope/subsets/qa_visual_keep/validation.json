@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-29T10:32:08.999481+00:00",
+  "qa": 2262,
+  "videos": 1247,
+  "models": 7,
+  "retained_predictions": 15834,
+  "all_parent_predictions_reparsed": 16709,
+  "removed_qa": 125,
+  "original_data_hashes_unchanged": {
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/inputs.json": "131655e2483668a1a29e5679d682f8a6cd662e484f397b89c247afc13f240f1c",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/reference_answers.json": "660e559483a63a30b8f6b6a0ccc5865355df6af6402a937d3fbe2c44f8040ce4",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/summary.json": "4d3ee4ff58534205b8233a0f6c1f94d40c482dd338001feb4aea6445f71e84a6",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/leaderboard.csv": "494ec516673b41259d9d693436cf54443942ccc0c682e4778b3e83ab4569a090",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/models.json": "82c74c33b5c6e4fd5eb452932798e7b1d640e5e7311f5099b092217b6cd9485f",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope/protocol.json": "e15b748cdb98d5cb1ad33d3787fdad6201776f338aa3e3eda7e3868056c988b8",
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/qa/qa_visual_filter_fullscope/results.json": "3cac111d2fa525547f5042dc75793c637877b5f2091aeb0a9067903acbcda388"
+  },
+  "parsed_prediction_manifest_sha256": "fb7d13f301b04d4423b3f9ad0850c41e998ef70c838043c30fccc511f4695320",
+  "task_group_cell_counts": [
+    [
+      14,
+      41,
+      56,
+      24,
+      21,
+      17
+    ],
+    [
+      21,
+      69,
+      271,
+      196,
+      136,
+      101
+    ],
+    [
+      142,
+      200,
+      19,
+      31,
+      3,
+      4
+    ],
+    [
+      271,
+      152,
+      203,
+      145,
+      60,
+      65
+    ]
+  ],
+  "new_inference": false,
+  "checks": [
+    "exact keep-ID coverage",
+    "same QA across models",
+    "all raw responses reparsed and rescored",
+    "retained + removed correct/invalid counts equal original statistics",
+    "source/filter hashes unchanged",
+    "nonempty task x cohort cells",
+    "video-cluster uncertainty"
+  ],
+  "code_sha256": "949f682ba9477ff57fba58cc7632c587445f0797d8e4d0161e4413183efabf78"
+}

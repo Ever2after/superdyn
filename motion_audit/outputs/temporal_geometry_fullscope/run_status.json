@@ -1,0 +1,195 @@
+{
+  "status": "completed",
+  "stage": "finished",
+  "started_at": "2026-10-21T02:56:30.804222+00:00",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "excluded_sources": [
+    "dynamic_replica",
+    "dynpose-100k",
+    "point_odyssey",
+    "spring"
+  ],
+  "manual_review": false,
+  "updated_at": "2026-10-21T03:12:03.109600+00:00",
+  "elapsed_seconds": 932.3053846359253,
+  "inventoried": 4493,
+  "valid_videos": 4457,
+  "unusable_videos": 36,
+  "reused_geometry": 765,
+  "new_geometry": 3692,
+  "source_counts": {
+    "DAVIS": 88,
+    "MOSE": 1327,
+    "MVS-Synth": 120,
+    "SAV": 288,
+    "VOST": 641,
+    "uvo": 1244,
+    "youtube_vis": 749
+  },
+  "stage_controller_pid": 197450,
+  "stage_progress": {
+    "status": "completed",
+    "planned": 4457,
+    "finished": 4457,
+    "preprocessed": 4457,
+    "qa_count": 2387,
+    "held_qa_count": 12,
+    "failures": 0,
+    "worker_failures": [],
+    "videos_with_qa": 1275,
+    "videos_without_qa": 3182,
+    "selected_groups": {
+      "HHH": 1059,
+      "HHL": 230,
+      "HLH": 631,
+      "HLL": 120,
+      "LHH": 240,
+      "LHL": 94,
+      "LLH": 1492,
+      "LLL": 591
+    },
+    "finished_groups": {
+      "LLH": 1492,
+      "HHH": 1059,
+      "HLH": 631,
+      "LHH": 240,
+      "HLL": 120,
+      "LLL": 591,
+      "HHL": 230,
+      "LHL": 94
+    },
+    "qa_groups": {
+      "LLH": 848,
+      "HLH": 339,
+      "LHH": 192,
+      "HLL": 96,
+      "HHH": 426,
+      "LLL": 176,
+      "HHL": 230,
+      "LHL": 80
+    },
+    "task_counts": {
+      "object_world_motion_direction": 594,
+      "camera_view_direction_change": 462,
+      "camera_object_distance_change": 405,
+      "object_pair_distance_change": 234,
+      "camera_translation_direction": 448,
+      "object_travel_distance_comparison": 244
+    },
+    "elapsed_seconds": 892.216739654541,
+    "updated_at": "2026-10-21T03:11:58.772636+00:00",
+    "manual_review": false,
+    "workers": [
+      {
+        "gpu": 0,
+        "phase": "completed",
+        "preprocessed": 558,
+        "finished": 558,
+        "planned": 558,
+        "pid": 204669,
+        "server_pid": 197649,
+        "error": null
+      },
+      {
+        "gpu": 1,
+        "phase": "completed",
+        "preprocessed": 557,
+        "finished": 557,
+        "planned": 557,
+        "pid": 204670,
+        "server_pid": 197650,
+        "error": null
+      },
+      {
+        "gpu": 2,
+        "phase": "completed",
+        "preprocessed": 557,
+        "finished": 557,
+        "planned": 557,
+        "pid": 204671,
+        "server_pid": 197657,
+        "error": null
+      },
+      {
+        "gpu": 3,
+        "phase": "completed",
+        "preprocessed": 557,
+        "finished": 557,
+        "planned": 557,
+        "pid": 204672,
+        "server_pid": 197667,
+        "error": null
+      },
+      {
+        "gpu": 4,
+        "phase": "completed",
+        "preprocessed": 557,
+        "finished": 557,
+        "planned": 557,
+        "pid": 204673,
+        "server_pid": 197672,
+        "error": null
+      },
+      {
+        "gpu": 5,
+        "phase": "completed",
+        "preprocessed": 557,
+        "finished": 557,
+        "planned": 557,
+        "pid": 204674,
+        "server_pid": 197673,
+        "error": null
+      },
+      {
+        "gpu": 6,
+        "phase": "completed",
+        "preprocessed": 557,
+        "finished": 557,
+        "planned": 557,
+        "pid": 204675,
+        "server_pid": 197674,
+        "error": null
+      },
+      {
+        "gpu": 7,
+        "phase": "completed",
+        "preprocessed": 557,
+        "finished": 557,
+        "planned": 557,
+        "pid": 204676,
+        "server_pid": 197675,
+        "error": null
+      }
+    ],
+    "eta": {
+      "remaining_seconds": 0,
+      "range_seconds": [
+        0,
+        0
+      ],
+      "estimated_completion_utc": "2026-10-21T03:11:58.772658+00:00",
+      "measured_preprocess_videos": 3808,
+      "mean_preprocess_seconds_per_video": 18.897286904378532,
+      "measured_semantic_videos": 806,
+      "mean_semantic_request_seconds": 5.997360126226308,
+      "method": "Maximum remaining shard pipeline; observed preprocess service times, estimated 120s server load and two semantic requests per GPU; contention uncertainty included."
+    }
+  },
+  "geometry_successful": 4457,
+  "geometry_failures": 0,
+  "reused_completed_qa_cases": 649,
+  "reused_qa": 347,
+  "qa_count": 2387,
+  "finished_qa_videos": 4457,
+  "qa_failures": 0,
+  "completed_at": "2026-10-21T03:12:03.109571+00:00"
+}

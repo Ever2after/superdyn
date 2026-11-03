@@ -1,0 +1,91 @@
+# ---- Python, editors, OS ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+nohup.out
+*.pid
+
+# ---- Secrets and local environments ----
+.env
+**/.auth/
+.venv*/
+**/.venv*/
+
+# ---- motion_audit (real split): models, raw videos, caches ----
+motion_audit/vendor/
+motion_audit/checkpoints/
+motion_audit/cache/
+motion_audit/videos/
+motion_audit/metadata/
+motion_audit/results/
+motion_audit/*.tar
+motion_audit/sample_manifest*.json
+motion_audit/download_manifest.json
+# Per-video evidence, marked media, model predictions and geometry caches
+# (the released videos and QA annotations live in the Hugging Face dataset).
+motion_audit/outputs/**/cases/
+motion_audit/outputs/**/media/
+motion_audit/outputs/**/predictions/
+motion_audit/outputs/**/geometry/
+motion_audit/outputs/**/workers/
+motion_audit/outputs/**/source/
+motion_audit/outputs/**/exclude/
+motion_audit/outputs/**/review/
+motion_audit/outputs/**/qa_examples/
+motion_audit/outputs/**/downloads/
+motion_audit/outputs/**/*.npz
+motion_audit/outputs/temporal_geometry_fullscope/missing_geometry.json
+motion_audit/outputs/temporal_geometry_fullscope/output_cleanup_scan.json
+motion_audit/outputs/**/raw/
+motion_audit/outputs/**/qa_visual_filter_pilot100/
+# Large intermediate tables (>5 MB); the released QA set is qa/final/ and the HF dataset.
+motion_audit/outputs/temporal_geometry_fullscope/qa/selected_records.json
+motion_audit/outputs/temporal_geometry_fullscope/qa/qa_generated.json
+motion_audit/outputs/temporal_geometry_fullscope/qa/qa.json
+motion_audit/outputs/temporal_geometry_fullscope/qa/qa.jsonl
+motion_audit/outputs/temporal_geometry_fullscope/qa/qa_visual_filter_fullscope/selection.json
+motion_audit/outputs/temporal_vlm_eval_fullscope/inputs.json
+
+# ---- unreal_synthetic: engine, caches, Fab assets ----
+unreal_synthetic/Binaries/
+unreal_synthetic/DerivedDataCache
+unreal_synthetic/Intermediate/
+unreal_synthetic/Saved/
+unreal_synthetic/.deps/
+unreal_synthetic/.engine
+unreal_synthetic/.downloads/
+unreal_synthetic/.tools/
+unreal_synthetic/legacy/
+# Fab packs cannot be redistributed; only project Python is tracked under Content/.
+unreal_synthetic/Content/*
+!unreal_synthetic/Content/Python/
+unreal_synthetic/inputs/source_demos/
+unreal_synthetic/inputs/lighting/**/*.hdr
+unreal_synthetic/inputs/lighting/**/*.exr
+unreal_synthetic/inputs/themes/textures/
+# Render outputs: keep reports, plans and preview images only.
+unreal_synthetic/outputs/main_scene_families/
+unreal_synthetic/outputs/main_scene_families_v2/
+unreal_synthetic/outputs/scene_family_development/
+unreal_synthetic/outputs/**/rgb/
+unreal_synthetic/outputs/**/native/
+unreal_synthetic/outputs/**/logs/
+unreal_synthetic/outputs/**/survey/
+unreal_synthetic/outputs/**/look/
+unreal_synthetic/outputs/**/eval/
+unreal_synthetic/outputs/**/eval_test/
+unreal_synthetic/outputs/**/cases/
+unreal_synthetic/outputs/**/gt/
+unreal_synthetic/outputs/**/qa_test/
+unreal_synthetic/outputs/**/videos/
+unreal_synthetic/outputs/**/source_snapshot/
+unreal_synthetic/outputs/**/*.exr
+unreal_synthetic/outputs/**/*.png
+!unreal_synthetic/outputs/**/layout*.png
+!unreal_synthetic/outputs/**/plan_*.png
+unreal_synthetic/outputs/**/*.mp4
+unreal_synthetic/outputs/**/*.npz
+unreal_synthetic/outputs/**/*.gz

@@ -1,0 +1,71 @@
+{
+  "checked_at_utc": "2026-10-29T06:51:36.951Z",
+  "selected_count": 15,
+  "mode": "download",
+  "results": [
+    {
+      "id": "game_animation_sample",
+      "category": "사람",
+      "rank": 1,
+      "title": "Game Animation Sample",
+      "listing_id": "880e319a-a59e-4ed2-b268-b32dac7fa016",
+      "source_url": "https://www.fab.com/listings/880e319a-a59e-4ed2-b268-b32dac7fa016",
+      "owned": true,
+      "asset_id": "c5c0cc79127c41a19fa7aaf5293d2677",
+      "status": "already_downloaded",
+      "bytes": 7461773881,
+      "files": 3912,
+      "unique_chunk_bytes": 4528716062,
+      "engine": "UE_5.8",
+      "target": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/inputs/source_demos/fab_downloads/c5c0cc79127c41a19fa7aaf5293d2677"
+    },
+    {
+      "id": "paragon_twinblast",
+      "category": "사람",
+      "rank": 2,
+      "title": "Paragon: Twinblast",
+      "listing_id": "9fa88852-5711-42e1-94fa-2491498a64da",
+      "source_url": "https://www.fab.com/listings/9fa88852-5711-42e1-94fa-2491498a64da",
+      "owned": true,
+      "status": "downloaded",
+      "asset_id": "537ac40a2839491f90bc6317f76012f2",
+      "bytes": 2479880443,
+      "files": 1986,
+      "unique_chunk_bytes": 2321731303,
+      "engine": "UE_5.8",
+      "target": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/inputs/source_demos/fab_downloads/537ac40a2839491f90bc6317f76012f2"
+    },
+    {
+      "id": "paragon_sparrow",
+      "category": "사람",
+      "rank": 2,
+      "title": "Paragon: Sparrow",
+      "listing_id": "7d76ddf0-d9ce-4d00-939e-d72793534d01",
+      "source_url": "https://www.fab.com/listings/7d76ddf0-d9ce-4d00-939e-d72793534d01",
+      "owned": true,
+      "status": "downloaded",
+      "asset_id": "13df842f013b4c07b385c106ea3c3219",
+      "bytes": 3208798797,
+      "files": 1723,
+      "unique_chunk_bytes": 3040534833,
+      "engine": "UE_5.8",
+      "target": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/inputs/source_demos/fab_downloads/13df842f013b4c07b385c106ea3c3219"
+    },
+    {
+      "id": "paragon_gadget",
+      "category": "사람",
+      "rank": 2,
+      "title": "Paragon: Gadget",
+      "listing_id": "52a621fd-28bb-4898-a2e7-93229a40e3f4",
+      "source_url": "https://www.fab.com/listings/52a621fd-28bb-4898-a2e7-93229a40e3f4",
+      "owned": true,
+      "status": "downloading",
+      "asset_id": "869314ef319945ed81142934fd519dac",
+      "bytes": 1801783881,
+      "files": 1454,
+      "unique_chunk_bytes": 1709366492,
+      "engine": "UE_5.8",
+      "target": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/inputs/source_demos/fab_downloads/869314ef319945ed81142934fd519dac"
+    }
+  ]
+}

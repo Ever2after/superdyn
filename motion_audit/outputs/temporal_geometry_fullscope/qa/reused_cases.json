@@ -1,0 +1,3247 @@
+[
+  {
+    "video_id": "DAVIS__schoolgirls",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__schoolgirls",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__3f313a2f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__3f313a2f",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__87fc565c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__87fc565c",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__a10da3274a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__a10da3274a",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__kite-walk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__kite-walk",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0LOJzsBnOpI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0LOJzsBnOpI",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__bb467ff9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__bb467ff9",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__dogs-scale",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__dogs-scale",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__1gUai0f0Y18",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__1gUai0f0Y18",
+    "qa": 5
+  },
+  {
+    "video_id": "MOSE__e6348d2c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__e6348d2c",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0nUL5Qi9k7Q",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0nUL5Qi9k7Q",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__swing",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__swing",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__motorbike",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__motorbike",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__2RXKDJ2b3Wc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__2RXKDJ2b3Wc",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__cd182615",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__cd182615",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__lab-coat",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__lab-coat",
+    "qa": 3
+  },
+  {
+    "video_id": "MOSE__57895315",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__57895315",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__267bfd6c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__267bfd6c",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3u4CZU_ANqY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__3u4CZU_ANqY",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-yoVvwigll4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-yoVvwigll4",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__16a65wnUux0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__16a65wnUux0",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__1pMWY61FQT8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__1pMWY61FQT8",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__265a69f4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__265a69f4",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__2tNj-ludBKQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__2tNj-ludBKQ",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__334cb835ac",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__334cb835ac",
+    "qa": 4
+  },
+  {
+    "video_id": "uvo__-T5iLC1Bm0g",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-T5iLC1Bm0g",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__0RKX6s2vY94",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0RKX6s2vY94",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__e2ea25542c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__e2ea25542c",
+    "qa": 2
+  },
+  {
+    "video_id": "DAVIS__scooter-black",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__scooter-black",
+    "qa": 3
+  },
+  {
+    "video_id": "MOSE__5a74660c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__5a74660c",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0OVuyIAduMI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0OVuyIAduMI",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-nxElRBL0VU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-nxElRBL0VU",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__stroller",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__stroller",
+    "qa": 3
+  },
+  {
+    "video_id": "DAVIS__train",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__train",
+    "qa": 4
+  },
+  {
+    "video_id": "youtube_vis__33a49e3ca4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__33a49e3ca4",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__198021ad",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__198021ad",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__crossing",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__crossing",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__xrygOElnq5I",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__xrygOElnq5I",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__71217dfc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__71217dfc",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__38030c69",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__38030c69",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__tractor-sand",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__tractor-sand",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__0lp9mBNDAQM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0lp9mBNDAQM",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__40514eea6c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__40514eea6c",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__car-shadow",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__car-shadow",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__-vAOikxwtSI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-vAOikxwtSI",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__06ebc138",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__06ebc138",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3MwrY-NOdC0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__3MwrY-NOdC0",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1Cw4Q_5YQHU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__1Cw4Q_5YQHU",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0F1WmMXjml4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0F1WmMXjml4",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__edd663afa3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__edd663afa3",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__fc4c1c67",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__fc4c1c67",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__fe6c244f63",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__fe6c244f63",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__libby",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__libby",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__1mBPyRkZefY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__1mBPyRkZefY",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__168HoJooFQA",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__168HoJooFQA",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-q_i7bVaBNg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-q_i7bVaBNg",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f8fb020f47",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__f8fb020f47",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__-3pWBL1TJZg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-3pWBL1TJZg",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__1dba51af",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__1dba51af",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__GXbWyROGNa8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__GXbWyROGNa8",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-icUwF7k3vc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-icUwF7k3vc",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__17Aso9nG3N0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__17Aso9nG3N0",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0347ZoDXyP0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0347ZoDXyP0",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__1gRJ-gl2_2A",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__1gRJ-gl2_2A",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-L-WOazh1xI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-L-WOazh1xI",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-Fp5reKg40w",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-Fp5reKg40w",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__bus",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__bus",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-Cw8Z-5ShUM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-Cw8Z-5ShUM",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__1LS1eWN_TbE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__1LS1eWN_TbE",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__a0ad437be4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__a0ad437be4",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__0d4feda2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__0d4feda2",
+    "qa": 4
+  },
+  {
+    "video_id": "MOSE__eaff3301",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__eaff3301",
+    "qa": 2
+  },
+  {
+    "video_id": "DAVIS__lady-running",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__lady-running",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__7b17cc8dc9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__7b17cc8dc9",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__12nT-AHwIdM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__12nT-AHwIdM",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__06DYNQ5z00E",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__06DYNQ5z00E",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__935b5ad8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__935b5ad8",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__a4fc4f17",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/MOSE__a4fc4f17",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__3rj5OBpN_DI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__3rj5OBpN_DI",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-HkV3zIyRhQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-HkV3zIyRhQ",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0dDzds7o0BM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0dDzds7o0BM",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__0vXBP5tdNtg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__0vXBP5tdNtg",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-mDRf2N08EI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/uvo__-mDRf2N08EI",
+    "qa": 5
+  },
+  {
+    "video_id": "youtube_vis__483c72fb4d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__483c72fb4d",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__68807d8601",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__68807d8601",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__43d63b752a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/youtube_vis__43d63b752a",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__judo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_balanced100/cases/DAVIS__judo",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__70ec0d96b9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__70ec0d96b9",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__1hhfZG8ModU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__1hhfZG8ModU",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__yhRflFv8s18",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__yhRflFv8s18",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__5JFPmQgim3E",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__5JFPmQgim3E",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1eWNJ7BjEc4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__1eWNJ7BjEc4",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-lTupVOk3AY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-lTupVOk3AY",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0eSFmX-NTIU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0eSFmX-NTIU",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__-QYKQnySHdo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-QYKQnySHdo",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__india",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__india",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__cows",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__cows",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__B7ZdgRF4pw0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__B7ZdgRF4pw0",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__79af6097",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__79af6097",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__-zmyDOwxEaE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-zmyDOwxEaE",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__322f7bed9c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__322f7bed9c",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__flamingo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__flamingo",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-70nvwi_zNw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-70nvwi_zNw",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0jAW9MSfRqM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0jAW9MSfRqM",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2xm78yHBLFs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__2xm78yHBLFs",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__stunt",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__stunt",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__1dR4RFrcGNo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__1dR4RFrcGNo",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__planes-water",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__planes-water",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__96b2a414",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__96b2a414",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__car-roundabout",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__car-roundabout",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__8157b1bc1f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__8157b1bc1f",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__0QNaUcfF-Ak",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0QNaUcfF-Ak",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__loading",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__loading",
+    "qa": 4
+  },
+  {
+    "video_id": "MOSE__b6e2c041",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__b6e2c041",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__857e375e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__857e375e",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__15SqU9wyekc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__15SqU9wyekc",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__mbike-trick",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__mbike-trick",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__8e24501e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__8e24501e",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__aab5ed11",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__aab5ed11",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__06H25GTTqkA",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__06H25GTTqkA",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__9e2d57ed8a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__9e2d57ed8a",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__b3b51117",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__b3b51117",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__ba0e4dd4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__ba0e4dd4",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__29etCiaGuas",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__29etCiaGuas",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__ce954bd7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__ce954bd7",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__lindy-hop",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__lindy-hop",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__181ec185",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__181ec185",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__d1d95c61",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__d1d95c61",
+    "qa": 2
+  },
+  {
+    "video_id": "DAVIS__koala",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__koala",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__588f925ab6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__588f925ab6",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__ee2c0688",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__ee2c0688",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__5883c6e381",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__5883c6e381",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__897066e3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__897066e3",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__dog",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__dog",
+    "qa": 4
+  },
+  {
+    "video_id": "uvo__0pTKQ3gY1ZA",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0pTKQ3gY1ZA",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2mk6JIUcVj8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__2mk6JIUcVj8",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1F8DhAMABpU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__1F8DhAMABpU",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__0WHzA-7kBnA",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0WHzA-7kBnA",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__35QqEr2eIXQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__35QqEr2eIXQ",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__0GutYXQG_hY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0GutYXQG_hY",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__8200245704",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__8200245704",
+    "qa": 3
+  },
+  {
+    "video_id": "MOSE__e362c16b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__e362c16b",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__89fd5681",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__89fd5681",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__breakdance",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__breakdance",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__49eb0315",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__49eb0315",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__d8tR7RyWdBM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__d8tR7RyWdBM",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__0f3b1fcb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__0f3b1fcb",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__3ee062a2fd",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__3ee062a2fd",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__68c879f2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__68c879f2",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__7eb2605d96",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__7eb2605d96",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__4c83eab8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__4c83eab8",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2eBqLh-rrXU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__2eBqLh-rrXU",
+    "qa": 3
+  },
+  {
+    "video_id": "MOSE__e1c26a53",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__e1c26a53",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__484ab44de4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__484ab44de4",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__ad1881d1",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__ad1881d1",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1AAd-4k9sXo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__1AAd-4k9sXo",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-yA7IX3Au5w",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-yA7IX3Au5w",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-psBKORmrzk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-psBKORmrzk",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__49vI3KRt4fw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__49vI3KRt4fw",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__d29991b4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__d29991b4",
+    "qa": 4
+  },
+  {
+    "video_id": "MOSE__54b9dea2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__54b9dea2",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1bcRscXDrLk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__1bcRscXDrLk",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__17tNN4BrJsQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__17tNN4BrJsQ",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__blackswan",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__blackswan",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__01IsL7cOQvM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__01IsL7cOQvM",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__hockey",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__hockey",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__60471744",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__60471744",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__elephant",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__elephant",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__e1c48bdd",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__e1c48bdd",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3meJ2yO9zFk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__3meJ2yO9zFk",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__05ed1023",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__05ed1023",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__2SV0SHZUm28",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__2SV0SHZUm28",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1be1Nb8riDw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__1be1Nb8riDw",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__5a50640995",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__5a50640995",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__0vB64hOPGpg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0vB64hOPGpg",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0aT84tv2V9Q",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0aT84tv2V9Q",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__d97c9309",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__d97c9309",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__a4_r1dBPs_8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__a4_r1dBPs_8",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__9cb1ba0e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__9cb1ba0e",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__e78d450a9c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__e78d450a9c",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__e1d9fb32",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__e1d9fb32",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__2Nw5OJsBfdw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__2Nw5OJsBfdw",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__9293b755",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__9293b755",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__-O3yc1TtPe0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-O3yc1TtPe0",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__cbb66185",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__cbb66185",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__843d8f25",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__843d8f25",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__camel",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__camel",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__62d6ece152",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__62d6ece152",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__80fb79c6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__80fb79c6",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-FMCSgaNTvw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-FMCSgaNTvw",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__1f220f98",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__1f220f98",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__2-KpBW7QNIs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__2-KpBW7QNIs",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__e158805399",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__e158805399",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__varanus-cage",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__varanus-cage",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__0ba9c5ad",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__0ba9c5ad",
+    "qa": 4
+  },
+  {
+    "video_id": "youtube_vis__9a17abd0f3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__9a17abd0f3",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__980baf58",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__980baf58",
+    "qa": 4
+  },
+  {
+    "video_id": "uvo__ze4QI2twMuc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__ze4QI2twMuc",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0XolsaCpWtE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0XolsaCpWtE",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__e7e2a0b9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__e7e2a0b9",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__70405185d2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__70405185d2",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__2ea465de",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__2ea465de",
+    "qa": 3
+  },
+  {
+    "video_id": "DAVIS__soapbox",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__soapbox",
+    "qa": 4
+  },
+  {
+    "video_id": "DAVIS__sheep",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__sheep",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__d3af3c85",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__d3af3c85",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__car-turn",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__car-turn",
+    "qa": 2
+  },
+  {
+    "video_id": "DAVIS__rhino",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__rhino",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__fee3371f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__fee3371f",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0QqDduDEmeo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0QqDduDEmeo",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__pigs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__pigs",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__5bc7ea74",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__5bc7ea74",
+    "qa": 6
+  },
+  {
+    "video_id": "uvo__0s2mvbfzzyc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0s2mvbfzzyc",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__145975e717",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__145975e717",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__0af03282",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__0af03282",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__0b7dbfa3cb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__0b7dbfa3cb",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__paragliding-launch",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__paragliding-launch",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__3bfa8379",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__3bfa8379",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__497c5e80da",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__497c5e80da",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__a810399b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__a810399b",
+    "qa": 5
+  },
+  {
+    "video_id": "DAVIS__hike",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__hike",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-xSO-SmAuvU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-xSO-SmAuvU",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__02KL2MkN2X8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__02KL2MkN2X8",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__e4b2095f58",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__e4b2095f58",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__skate-park",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__skate-park",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__5buTKoaekyI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__5buTKoaekyI",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__e495537a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__e495537a",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__03692b14",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__03692b14",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__41a34c20e7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__41a34c20e7",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__029c028307",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__029c028307",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__1143b3fe",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__1143b3fe",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__4okH_YJ_iQY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__4okH_YJ_iQY",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-WO68JX_cH0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-WO68JX_cH0",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__7c78e351",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__7c78e351",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__0y4G0-TabMM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0y4G0-TabMM",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__b99d1bd6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__b99d1bd6",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__gold-fish",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/DAVIS__gold-fish",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__81220a93",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__81220a93",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__c9fdf703",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__c9fdf703",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__3c4b6736",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__3c4b6736",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d64572618d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__d64572618d",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__a8934c0d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__a8934c0d",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__6406c72e4d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__6406c72e4d",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f8687b9a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__f8687b9a",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__32sk9GPUaMI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__32sk9GPUaMI",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__e1eff80c9a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__e1eff80c9a",
+    "qa": 5
+  },
+  {
+    "video_id": "youtube_vis__684dc1c40c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/youtube_vis__684dc1c40c",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__57ad022e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/MOSE__57ad022e",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-OZYs_pcp4c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__-OZYs_pcp4c",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0noW-jf_E-A",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_additional182/cases/uvo__0noW-jf_E-A",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__e8cee8bf0b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__e8cee8bf0b",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__dancing",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__dancing",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1zPKRzbuBqI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1zPKRzbuBqI",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__a5dd11de0d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__a5dd11de0d",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__debe4249",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__debe4249",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__bike-packing",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__bike-packing",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c7647dc369",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c7647dc369",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-RhNquKdM0M",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-RhNquKdM0M",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__66a25278",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__66a25278",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__16af445362",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__16af445362",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__26FXepc0PI8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__26FXepc0PI8",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__c818d30a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__c818d30a",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f9884439",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f9884439",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__2e92a7dc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__2e92a7dc",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__619812a1a7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__619812a1a7",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__cfd946b2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__cfd946b2",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__a32dd8f6ee",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__a32dd8f6ee",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__76adaeea",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__76adaeea",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__disc-jockey",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__disc-jockey",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__c7c7528c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__c7c7528c",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__852a4d6067",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__852a4d6067",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0KppsOd9MQw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0KppsOd9MQw",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-jpEwMcl-Wg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-jpEwMcl-Wg",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__2000c02f9d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__2000c02f9d",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__2b69ee5c26",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__2b69ee5c26",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0led40klRiQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0led40klRiQ",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__596f02570f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__596f02570f",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__7b39fe7371",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__7b39fe7371",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__2184bb93",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__2184bb93",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-anAg1F_95A",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-anAg1F_95A",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__ca619b7f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__ca619b7f",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__18d8931e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__18d8931e",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__rallye",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__rallye",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__ced51047",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__ced51047",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__bf551a6f60",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__bf551a6f60",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__df96aa609a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__df96aa609a",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__939378f6d6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__939378f6d6",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__fc580996c9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__fc580996c9",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__c0fe8e1a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__c0fe8e1a",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2oTngO-V_28",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2oTngO-V_28",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__1731babb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__1731babb",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1mlN8haHqng",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1mlN8haHqng",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__1c45d2e5d4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__1c45d2e5d4",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__classic-car",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__classic-car",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__60c61cc2e5",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__60c61cc2e5",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-JE_MDba7RY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-JE_MDba7RY",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__9061dac9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__9061dac9",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__4ul7FGez_V8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__4ul7FGez_V8",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__11e53de6f2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__11e53de6f2",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__e2160f17",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__e2160f17",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__5f808d0d2d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__5f808d0d2d",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f6dba17b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f6dba17b",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c8b869a04a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c8b869a04a",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c9ce3750cc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c9ce3750cc",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__8c934e67",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__8c934e67",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1CNhonUnZLw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1CNhonUnZLw",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__bmx-trees",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__bmx-trees",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0pbMyICJUPw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0pbMyICJUPw",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__247d729e36",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__247d729e36",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3jMoKDs3VUs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__3jMoKDs3VUs",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-jskAtCipd8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-jskAtCipd8",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-01PKgtzCxc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-01PKgtzCxc",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__05aa652648",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__05aa652648",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-4ano7snqlI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-4ano7snqlI",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-qCYMzHkc2k",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-qCYMzHkc2k",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__walking",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__walking",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__8e1ed7cbc0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__8e1ed7cbc0",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__74267f68b9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__74267f68b9",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__drift-turn",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__drift-turn",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__39bc49a28c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__39bc49a28c",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f06632aa",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f06632aa",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__2c6e63b7de",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__2c6e63b7de",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__fbd77444cd",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__fbd77444cd",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__a2da8ab5ab",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__a2da8ab5ab",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f6f59d986f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f6f59d986f",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d51c0a04e1",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__d51c0a04e1",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-heNc38TpNI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-heNc38TpNI",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__0hlTrRCscYg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0hlTrRCscYg",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0JZm3c-ZhKo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0JZm3c-ZhKo",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__064ee04ab8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__064ee04ab8",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__eb93ed20",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__eb93ed20",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__a0b61c959e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__a0b61c959e",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__4607f6c03c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__4607f6c03c",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__horsejump-high",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__horsejump-high",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__efd3e008f0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__efd3e008f0",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f069095b53",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f069095b53",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__a4f05d681c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__a4f05d681c",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__8e478e73f3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__8e478e73f3",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__362c5bc56e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__362c5bc56e",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__4536c882e5",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__4536c882e5",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__b80e028c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__b80e028c",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f28b429a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f28b429a",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__2fc476f9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__2fc476f9",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1Ldv_OjPZpM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1Ldv_OjPZpM",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__997117a654",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__997117a654",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__200782372f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__200782372f",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__03bjtsA_ZNg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__03bjtsA_ZNg",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__4019231330",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__4019231330",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__4f5db794",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__4f5db794",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__677c8ed7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__677c8ed7",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c47e961d81",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c47e961d81",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__b5276b3f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__b5276b3f",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__rollerblade",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__rollerblade",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__3588ea03",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__3588ea03",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__1233ac8596",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__1233ac8596",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d6ac0e065c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__d6ac0e065c",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__20a3d90790",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__20a3d90790",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__b9d3b92169",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__b9d3b92169",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__6f81a3b0e6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__6f81a3b0e6",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__3245e049fb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__3245e049fb",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__snowboard",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__snowboard",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__1mHDWwNpYyE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1mHDWwNpYyE",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-TQv5UbXUjA",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-TQv5UbXUjA",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-irEfHMrsyw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-irEfHMrsyw",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2vlzJt3b9Ks",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2vlzJt3b9Ks",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__e92b6bfea4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__e92b6bfea4",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-ueQpq7t1VE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-ueQpq7t1VE",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__18x8_ohsWTE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__18x8_ohsWTE",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__17c7bcd146",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__17c7bcd146",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__87afaad470",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__87afaad470",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__scooter-gray",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__scooter-gray",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__-gCD_Lp9aLs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-gCD_Lp9aLs",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f9b6217959",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f9b6217959",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__10552818",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__10552818",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__46a502de",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__46a502de",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__103df575",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__103df575",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__db506b2c53",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__db506b2c53",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-pvHNmFR4fM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-pvHNmFR4fM",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__tennis",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__tennis",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__fef0aba4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__fef0aba4",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__67703fd221",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__67703fd221",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__885673ea17",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__885673ea17",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__71f4b40e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__71f4b40e",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__horsejump-low",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__horsejump-low",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__8515f6db22",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__8515f6db22",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c01faff1ed",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c01faff1ed",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__5f3e8022",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__5f3e8022",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f7360199",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f7360199",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__2cFCRuiGwwg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2cFCRuiGwwg",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__db735509",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__db735509",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__34ccea00",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__34ccea00",
+    "qa": 4
+  },
+  {
+    "video_id": "uvo__0YaHecm_Zns",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0YaHecm_Zns",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__5949ee84",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__5949ee84",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__7bfe9b57",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__7bfe9b57",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-enPIivwlsY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-enPIivwlsY",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__464066da",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__464066da",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__30d00e92ee",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__30d00e92ee",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__7981f344",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__7981f344",
+    "qa": 1
+  },
+  {
+    "video_id": "DAVIS__motocross-jump",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__motocross-jump",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__boxing-fisheye",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__boxing-fisheye",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-hJplcuqFt4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-hJplcuqFt4",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__a9f5e251",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__a9f5e251",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-yGqXEZRbEk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-yGqXEZRbEk",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__88ab50cd",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__88ab50cd",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__ba98512f97",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__ba98512f97",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__drone",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__drone",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__3d9a7023",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__3d9a7023",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__86d5b29b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__86d5b29b",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__62ad6e121c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__62ad6e121c",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__6a428397",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__6a428397",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__12156b25b3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__12156b25b3",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__32dc49d4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__32dc49d4",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__miami-surf",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__miami-surf",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__03fNmrVdZRE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__03fNmrVdZRE",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__126d203967",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__126d203967",
+    "qa": 2
+  },
+  {
+    "video_id": "DAVIS__dogs-jump",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__dogs-jump",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__05579ca250",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__05579ca250",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__57647f2578",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__57647f2578",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__upside-down",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__upside-down",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__04rJw21bE5Q",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__04rJw21bE5Q",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__cfddad4954",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__cfddad4954",
+    "qa": 2
+  },
+  {
+    "video_id": "DAVIS__color-run",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__color-run",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__902f7d2e68",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__902f7d2e68",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c65241e4a1",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c65241e4a1",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__motocross-bumps",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__motocross-bumps",
+    "qa": 5
+  },
+  {
+    "video_id": "youtube_vis__f9cac1e19b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f9cac1e19b",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__fff04fd5e8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__fff04fd5e8",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-WyCr-v2vN0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-WyCr-v2vN0",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__50ae03b0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__50ae03b0",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f7203226",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f7203226",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f7375ab3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f7375ab3",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__efd6bf5011",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__efd6bf5011",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d7fbf545b3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__d7fbf545b3",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__d8e8d984",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__d8e8d984",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__4b4428d6bb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__4b4428d6bb",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__a263ce8a87",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__a263ce8a87",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__04Wxzj7Ekv4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__04Wxzj7Ekv4",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__ff77a145",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__ff77a145",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__da7dee28",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__da7dee28",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f283d865aa",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f283d865aa",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c3e4274614",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c3e4274614",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__scooter-board",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__scooter-board",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f82a8d0ad3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f82a8d0ad3",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__7e87750e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__7e87750e",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__14RZeKXUlAs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__14RZeKXUlAs",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__2bdd82fb86",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__2bdd82fb86",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3075Va8CXY8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__3075Va8CXY8",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1imVrO0b9GM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1imVrO0b9GM",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__e7e3d638d5",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__e7e3d638d5",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1SIcxed2Os4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1SIcxed2Os4",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__bdc5ccf7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__bdc5ccf7",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0zmahgV05wU",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0zmahgV05wU",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__524b470fd0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__524b470fd0",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__70cd40d693",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__70cd40d693",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__47t_PMvnRC8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__47t_PMvnRC8",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__b4eaea9e6b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__b4eaea9e6b",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1YHoEM2Z9OM",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1YHoEM2Z9OM",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__kid-football",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__kid-football",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__b84b8ae665",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__b84b8ae665",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__493c6685f7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__493c6685f7",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__8bd1b45776",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__8bd1b45776",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__c33adbc2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__c33adbc2",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__12102ef45d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__12102ef45d",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__03Ti8572JRY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__03Ti8572JRY",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__71caded286",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__71caded286",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__9086715949",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__9086715949",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__5ddcfef7a4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__5ddcfef7a4",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-at41X_mVW4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-at41X_mVW4",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1EQveI35Ogk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1EQveI35Ogk",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__bfd28682",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__bfd28682",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f1ec5c08fa",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f1ec5c08fa",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__6a8d35d6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__6a8d35d6",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2B9EqxlMx0o",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2B9EqxlMx0o",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__fdc6e3d581",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__fdc6e3d581",
+    "qa": 3
+  },
+  {
+    "video_id": "uvo__-Qi9hSDBqFI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-Qi9hSDBqFI",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__efb24f950f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__efb24f950f",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f6474735be",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f6474735be",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__shooting",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__shooting",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__longboard",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__longboard",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__628a337b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__628a337b",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__e4b6f2ef",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__e4b6f2ef",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__soccerball",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__soccerball",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__mallard-fly",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__mallard-fly",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__755877cf81",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__755877cf81",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__e979fce0d2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__e979fce0d2",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__625d9c8aab",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__625d9c8aab",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c9f3e7a8c3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c9f3e7a8c3",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__837ea3be6a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__837ea3be6a",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__-limihGomfg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-limihGomfg",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__cfc68a82",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__cfc68a82",
+    "qa": 3
+  },
+  {
+    "video_id": "DAVIS__dog-gooses",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__dog-gooses",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__13e6df75",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__13e6df75",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__e6e48ac8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__e6e48ac8",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__37fa0001e8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__37fa0001e8",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__7416ab4e",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__7416ab4e",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d8596701b7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__d8596701b7",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0t7dUcSKsMw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0t7dUcSKsMw",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__8c5fc83d20",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__8c5fc83d20",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__1dc0c9a0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__1dc0c9a0",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__0d967fd1",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__0d967fd1",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__drift-chicane",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__drift-chicane",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__ee3a7bc15c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__ee3a7bc15c",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-A-VnQIVFLo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-A-VnQIVFLo",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__82f24ce7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__82f24ce7",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__6ff75fceca",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__6ff75fceca",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__405e3ee7",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__405e3ee7",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__39E4n_Zo380",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__39E4n_Zo380",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1AHwyzUMU2E",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1AHwyzUMU2E",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f6bfc699",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f6bfc699",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__mallard-water",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__mallard-water",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__3462c85e04",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__3462c85e04",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0w-KyOuNx18",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0w-KyOuNx18",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__b1d7c03927",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__b1d7c03927",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0SfGmvlluvs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0SfGmvlluvs",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__4A_SAZO_2Rg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__4A_SAZO_2Rg",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__dmOTUzvTnpo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__dmOTUzvTnpo",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1av2rp5evR4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1av2rp5evR4",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__bmx-bumps",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__bmx-bumps",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__4ce088c6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__4ce088c6",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__22CPTflKLnE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__22CPTflKLnE",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__adeaf5aa",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__adeaf5aa",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__dog-agility",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__dog-agility",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0MHz5U8qMyQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0MHz5U8qMyQ",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0C3barg2QKI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0C3barg2QKI",
+    "qa": 1
+  },
+  {
+    "video_id": "uvo__05-73___szY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__05-73___szY",
+    "qa": 2
+  },
+  {
+    "video_id": "DAVIS__tuk-tuk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__tuk-tuk",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__1f805416",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__1f805416",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3saTEfv2nCI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__3saTEfv2nCI",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3CQfzVL5tbQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__3CQfzVL5tbQ",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__e33cddc9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__e33cddc9",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__cd1aee3f23",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__cd1aee3f23",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1l_djoystQs",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1l_djoystQs",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__aafea009",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__aafea009",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-_7PMt0I2Fg",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-_7PMt0I2Fg",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__3CcRVfamCZ0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__3CcRVfamCZ0",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0BwI2gigU7k",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0BwI2gigU7k",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__adb82dc9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__adb82dc9",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__99c4277aee",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__99c4277aee",
+    "qa": 2
+  },
+  {
+    "video_id": "uvo__22VjZRFIrCw",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__22VjZRFIrCw",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__8136ffeab1",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__8136ffeab1",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__d670ce7b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__d670ce7b",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d1802f69f8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__d1802f69f8",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__b0aece727f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__b0aece727f",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__breakdance-flare",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__breakdance-flare",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f6f441eb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f6f441eb",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__657c9dd9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__657c9dd9",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__442bf02b66",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__442bf02b66",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__5-erlyTZJY0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__5-erlyTZJY0",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__15f67b0fab",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__15f67b0fab",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2eg8pY5Yoh4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2eg8pY5Yoh4",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__6e7f9437",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__6e7f9437",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__2c0b9d99",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__2c0b9d99",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c6c8368e32",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c6c8368e32",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__6d533759",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__6d533759",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-ieVw_C-v-E",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-ieVw_C-v-E",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__54364322",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__54364322",
+    "qa": 3
+  },
+  {
+    "video_id": "youtube_vis__2d90d69240",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__2d90d69240",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__2c54cfbb78",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__2c54cfbb78",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__paragliding",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__paragliding",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__8620c024",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__8620c024",
+    "qa": 2
+  },
+  {
+    "video_id": "youtube_vis__15de6e922a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__15de6e922a",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__dance-twirl",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__dance-twirl",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__dance-jump",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__dance-jump",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c0f49c6579",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c0f49c6579",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__c5082b3c",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__c5082b3c",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__cd4dc03dc0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__cd4dc03dc0",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__fe5db62170",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__fe5db62170",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1AlSW6WX_hk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1AlSW6WX_hk",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__28hIME0Xf24",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__28hIME0Xf24",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-pOpjuLHCqk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-pOpjuLHCqk",
+    "qa": 4
+  },
+  {
+    "video_id": "uvo__3CgkPXzVVlA",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__3CgkPXzVVlA",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__f643141f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__f643141f",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__75924351",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__75924351",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__9d394f1a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__9d394f1a",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0_pqsQFxUKo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0_pqsQFxUKo",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0l1PpBxALXY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0l1PpBxALXY",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__631b82bd",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__631b82bd",
+    "qa": 2
+  },
+  {
+    "video_id": "MOSE__4017d1b3",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__4017d1b3",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__734ea0d7fb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__734ea0d7fb",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__9b98dfd60a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__9b98dfd60a",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__0660fa84b2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__0660fa84b2",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__89986c60be",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__89986c60be",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__258f321f95",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__258f321f95",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0lQnF7fuiyY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0lQnF7fuiyY",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__2d9a1a1d49",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__2d9a1a1d49",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__boat",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__boat",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__7f0b7662",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__7f0b7662",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0jOvya0RQ74",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0jOvya0RQ74",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__b3ffa4b122",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__b3ffa4b122",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__81fdc526",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__81fdc526",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__0d31d3a6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__0d31d3a6",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-z40cOE5ECI",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-z40cOE5ECI",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__kite-surf",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__kite-surf",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__c8f6cba9fd",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__c8f6cba9fd",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__4c56bbea",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__4c56bbea",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__6cedf0aabd",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__6cedf0aabd",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__432f9884f9",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__432f9884f9",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-4dHxTY4iwo",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-4dHxTY4iwo",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__6aa0b6f2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__6aa0b6f2",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-NomkUSvxes",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-NomkUSvxes",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d58b5df04a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__d58b5df04a",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__a95f0aea",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__a95f0aea",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2C0wN5CtIX4",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2C0wN5CtIX4",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__d15f6c713b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__d15f6c713b",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__074c9767d6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__074c9767d6",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__dcf8984421",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__dcf8984421",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__50f290b95d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__50f290b95d",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__4ba2dd48de",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__4ba2dd48de",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__07b00746",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__07b00746",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__f04cf99ee6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__f04cf99ee6",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-KSm0RzIF-Y",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-KSm0RzIF-Y",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__ee9706ac7f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__ee9706ac7f",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1vTntvHTRFc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1vTntvHTRFc",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__bb1b0ee89f",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__bb1b0ee89f",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__8fa50320",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__8fa50320",
+    "qa": 4
+  },
+  {
+    "video_id": "MOSE__e85301d5",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__e85301d5",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__0s5ZSQCnP-Y",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__0s5ZSQCnP-Y",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2evwbONkzW0",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2evwbONkzW0",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__e417a6d8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__e417a6d8",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__255bedbc",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__255bedbc",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__635577d5",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__635577d5",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__goat",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__goat",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__lucia",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__lucia",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__5f54d077",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__5f54d077",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__a84c60e6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__a84c60e6",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__1b2f691839",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__1b2f691839",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__af1ef522a2",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__af1ef522a2",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__87ad6c5253",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__87ad6c5253",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__ab461319",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__ab461319",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__30dbdb2cd6",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__30dbdb2cd6",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__05a7d84d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__05a7d84d",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__1KO4KH5i1rk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__1KO4KH5i1rk",
+    "qa": 1
+  },
+  {
+    "video_id": "MOSE__cc32235b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__cc32235b",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__parkour",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__parkour",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__8f415dd1",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__8f415dd1",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__11cbcb0b4d",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__11cbcb0b4d",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-Ps0gFe_XrY",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-Ps0gFe_XrY",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__drift-straight",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__drift-straight",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__561f6380",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__561f6380",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__surf",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__surf",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__XuDJdOxxIcA",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__XuDJdOxxIcA",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__fc96cda9d8",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__fc96cda9d8",
+    "qa": 0
+  },
+  {
+    "video_id": "DAVIS__night-race",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/DAVIS__night-race",
+    "qa": 4
+  },
+  {
+    "video_id": "uvo__3GznvUGWPLQ",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__3GznvUGWPLQ",
+    "qa": 0
+  },
+  {
+    "video_id": "MOSE__a6f0d882",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/MOSE__a6f0d882",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__-7v9I2psvFk",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__-7v9I2psvFk",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__948f3ae6fb",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__948f3ae6fb",
+    "qa": 0
+  },
+  {
+    "video_id": "youtube_vis__ec43d2492a",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__ec43d2492a",
+    "qa": 0
+  },
+  {
+    "video_id": "uvo__2ElBbDU9NpE",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/uvo__2ElBbDU9NpE",
+    "qa": 1
+  },
+  {
+    "video_id": "youtube_vis__fb4cbc514b",
+    "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_gmos_unused403/cases/youtube_vis__fb4cbc514b",
+    "qa": 0
+  }
+]

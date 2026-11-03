@@ -1,0 +1,272 @@
+{
+  "family": {
+    "id": "industrial",
+    "title": "Terraced logistics yard",
+    "title_ko": "단차형 산업 야드",
+    "seed": 101,
+    "xy_scale": 1.25,
+    "ground_texture": "Asphalt012",
+    "wall_texture": "Concrete033",
+    "path_texture": "Concrete033",
+    "ground_tile_cm": 220,
+    "wall_tint": [
+      0.7,
+      0.74,
+      0.77
+    ],
+    "description": "Loading terraces, connected vehicle ramps, a warehouse edge, container storage and grouped construction supplies.",
+    "asset_groups": [
+      {
+        "asset": "container",
+        "count": 2,
+        "size_cm": 520,
+        "zone": "edge"
+      },
+      {
+        "asset": "pickup",
+        "count": 1,
+        "size_cm": 440
+      },
+      {
+        "asset": "sedan",
+        "count": 1,
+        "size_cm": 430
+      },
+      {
+        "asset": "pallet",
+        "count": 6,
+        "size_cm": 115
+      },
+      {
+        "asset": "crate",
+        "count": 4,
+        "size_cm": 100
+      },
+      {
+        "asset": "reel",
+        "count": 3,
+        "size_cm": 110
+      },
+      {
+        "asset": "barrel",
+        "count": 6,
+        "size_cm": 90
+      },
+      {
+        "asset": "worker",
+        "count": 2,
+        "size_cm": 178,
+        "height_size": true
+      }
+    ]
+  },
+  "assets": [
+    {
+      "asset": "container",
+      "count": 2,
+      "size_cm": 520,
+      "zone": "edge",
+      "id": "container_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_FreightContainer_01"
+    },
+    {
+      "asset": "container",
+      "count": 2,
+      "size_cm": 520,
+      "zone": "edge",
+      "id": "container_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_FreightContainer_01"
+    },
+    {
+      "asset": "pickup",
+      "count": 1,
+      "size_cm": 440,
+      "id": "pickup_00",
+      "source_pack": "vehicle_variety_pack",
+      "mesh": "/Game/VehicleVarietyPack/Skeletons/SK_Pickup"
+    },
+    {
+      "asset": "sedan",
+      "count": 1,
+      "size_cm": 430,
+      "id": "sedan_00",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a"
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a"
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a"
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_02",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a"
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_03",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a"
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_04",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a"
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_05",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a"
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a"
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a"
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_02",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a"
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_03",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a"
+    },
+    {
+      "asset": "reel",
+      "count": 3,
+      "size_cm": 110,
+      "id": "reel_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel"
+    },
+    {
+      "asset": "reel",
+      "count": 3,
+      "size_cm": 110,
+      "id": "reel_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel"
+    },
+    {
+      "asset": "reel",
+      "count": 3,
+      "size_cm": 110,
+      "id": "reel_02",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel"
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_00",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01"
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01"
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_02",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01"
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_03",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01"
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_04",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01"
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_05",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01"
+    },
+    {
+      "asset": "worker",
+      "count": 2,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_00",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop"
+    },
+    {
+      "asset": "worker",
+      "count": 2,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_01",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop"
+    }
+  ],
+  "stage": "Scene construction and inspection; no benchmark QA or dynamic root trajectories yet"
+}

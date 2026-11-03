@@ -1,0 +1,14 @@
+{
+  "ready": true,
+  "action": "render",
+  "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east",
+  "map_path": "/Game/SuperDyn/ABWalkthroughs/Maps/PopulatedYard",
+  "cases": [
+    {
+      "id": "02_west_to_east",
+      "title": "West structures, north passage and vehicle bays",
+      "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east",
+      "sequence_path": "/Game/SuperDyn/ABWalkthroughs/Sequences/LS_02_west_to_east"
+    }
+  ]
+}

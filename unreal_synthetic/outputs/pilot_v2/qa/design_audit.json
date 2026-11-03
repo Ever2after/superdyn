@@ -1,0 +1,896 @@
+[
+  {
+    "clip": "m01_truck_right",
+    "task": "camera_translation_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "right",
+    "design_cue": null,
+    "gt_answer": "right",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m01_truck_right",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "left",
+    "design_cue": "consistent",
+    "gt_answer": "left",
+    "visible_anchor_answer": "left",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m01_truck_right",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "forward",
+    "design_cue": null,
+    "gt_answer": "forward",
+    "visible_anchor_answer": "forward",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m01_truck_right",
+    "task": "camera_object_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "farther",
+    "design_cue": null,
+    "gt_answer": "farther",
+    "visible_anchor_answer": "farther",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m01_truck_right",
+    "task": "object_pair_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "increased",
+    "design_cue": null,
+    "gt_answer": "increased",
+    "visible_anchor_answer": "increased",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m02_pan_left",
+    "task": "camera_view_direction_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "left",
+    "design_cue": null,
+    "gt_answer": "left",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m02_pan_left",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "left",
+    "design_cue": null,
+    "gt_answer": "left",
+    "visible_anchor_answer": "left",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "conflict"
+  },
+  {
+    "clip": "m02_pan_left",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "right",
+    "design_cue": null,
+    "gt_answer": "right",
+    "visible_anchor_answer": "right",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m02_pan_left",
+    "task": "object_travel_distance_comparison",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "A",
+    "design_cue": null,
+    "gt_answer": "A",
+    "visible_anchor_answer": "A",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "conflict"
+  },
+  {
+    "clip": "m03_walk_forward",
+    "task": "camera_translation_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "forward",
+    "design_cue": null,
+    "gt_answer": "forward",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m03_walk_forward",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "forward",
+    "design_cue": null,
+    "gt_answer": "forward",
+    "visible_anchor_answer": "forward",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "conflict"
+  },
+  {
+    "clip": "m03_walk_forward",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "backward",
+    "design_cue": null,
+    "gt_answer": "backward",
+    "visible_anchor_answer": "backward",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m03_walk_forward",
+    "task": "camera_object_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "closer",
+    "design_cue": "conflict",
+    "gt_answer": "closer",
+    "visible_anchor_answer": "closer",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m03_walk_forward",
+    "task": "camera_object_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "closer",
+    "design_cue": null,
+    "gt_answer": "closer",
+    "visible_anchor_answer": "closer",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m03_walk_forward",
+    "task": "object_pair_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "decreased",
+    "design_cue": null,
+    "gt_answer": "decreased",
+    "visible_anchor_answer": "decreased",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "conflict"
+  },
+  {
+    "clip": "m04_pull_back",
+    "task": "camera_translation_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "backward",
+    "design_cue": null,
+    "gt_answer": "backward",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m04_pull_back",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "backward",
+    "design_cue": null,
+    "gt_answer": "backward",
+    "visible_anchor_answer": "backward",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m04_pull_back",
+    "task": "camera_object_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "closer",
+    "design_cue": null,
+    "gt_answer": "closer",
+    "visible_anchor_answer": "closer",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m04_pull_back",
+    "task": "object_travel_distance_comparison",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "A",
+    "design_cue": null,
+    "gt_answer": "A",
+    "visible_anchor_answer": "A",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "conflict"
+  },
+  {
+    "clip": "m05_crane_up",
+    "task": "camera_translation_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "up",
+    "design_cue": null,
+    "gt_answer": "up",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m05_crane_up",
+    "task": "camera_view_direction_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "down",
+    "design_cue": null,
+    "gt_answer": "down",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m05_crane_up",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "left",
+    "design_cue": null,
+    "gt_answer": "left",
+    "visible_anchor_answer": "left",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m05_crane_up",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "right",
+    "design_cue": null,
+    "gt_answer": "right",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": false,
+      "anchors_agree": false,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m05_crane_up",
+    "task": "object_pair_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "increased",
+    "design_cue": null,
+    "gt_answer": "increased",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": false,
+      "anchors_agree": false,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m05_crane_up",
+    "task": "object_travel_distance_comparison",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "B",
+    "design_cue": null,
+    "gt_answer": "B",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": false,
+      "anchors_agree": false,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m06_crane_down_crow_up",
+    "task": "camera_translation_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "down",
+    "design_cue": null,
+    "gt_answer": "down",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m06_crane_down_crow_up",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "up",
+    "design_cue": null,
+    "gt_answer": "up",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": false,
+      "anchors_agree": false,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m06_crane_down_crow_up",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "right",
+    "design_cue": null,
+    "gt_answer": "right",
+    "visible_anchor_answer": "right",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m07_tilt_up",
+    "task": "camera_view_direction_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "up",
+    "design_cue": null,
+    "gt_answer": "up",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m07_tilt_up",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "up",
+    "design_cue": null,
+    "gt_answer": "up",
+    "visible_anchor_answer": "up",
+    "gates": {
+      "effect": true,
+      "visible": false,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m07_tilt_up",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "down",
+    "design_cue": null,
+    "gt_answer": "down",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": false,
+      "anchors_agree": false,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m08_orbit",
+    "task": "camera_translation_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "right",
+    "design_cue": null,
+    "gt_answer": "right",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m08_orbit",
+    "task": "camera_view_direction_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "left",
+    "design_cue": null,
+    "gt_answer": "left",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "m08_orbit",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "right",
+    "design_cue": null,
+    "gt_answer": "right",
+    "visible_anchor_answer": "right",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m08_orbit",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "B"
+    ],
+    "design_answer": "left",
+    "design_cue": null,
+    "gt_answer": "left",
+    "visible_anchor_answer": "left",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "m08_orbit",
+    "task": "object_pair_distance_change",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "decreased",
+    "design_cue": null,
+    "gt_answer": "decreased",
+    "visible_anchor_answer": "decreased",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "c1a_static_left",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "left",
+    "design_cue": "consistent",
+    "gt_answer": "left",
+    "visible_anchor_answer": "left",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true,
+      "cue_matches_design": true
+    },
+    "measured_cue": "consistent"
+  },
+  {
+    "clip": "c1b_truck_right",
+    "task": "camera_translation_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [],
+    "design_answer": "right",
+    "design_cue": null,
+    "gt_answer": "right",
+    "visible_anchor_answer": null,
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true,
+      "cue_matches_design": true
+    },
+    "measured_cue": null
+  },
+  {
+    "clip": "c1b_truck_right",
+    "task": "object_world_motion_direction",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A"
+    ],
+    "design_answer": "right",
+    "design_cue": "conflict",
+    "gt_answer": "right",
+    "visible_anchor_answer": "right",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true,
+      "cue_matches_design": true
+    },
+    "measured_cue": "conflict"
+  },
+  {
+    "clip": "c2a_follow",
+    "task": "object_travel_distance_comparison",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "A",
+    "design_cue": "conflict",
+    "gt_answer": "A",
+    "visible_anchor_answer": "A",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true,
+      "cue_matches_design": true
+    },
+    "measured_cue": "conflict"
+  },
+  {
+    "clip": "c2b_static",
+    "task": "object_travel_distance_comparison",
+    "window": [
+      0,
+      8
+    ],
+    "objects": [
+      "A",
+      "B"
+    ],
+    "design_answer": "B",
+    "design_cue": "consistent",
+    "gt_answer": "B",
+    "visible_anchor_answer": "B",
+    "gates": {
+      "effect": true,
+      "visible": true,
+      "anchors_agree": true,
+      "matches_design": true,
+      "cue_matches_design": true
+    },
+    "measured_cue": "consistent"
+  }
+]

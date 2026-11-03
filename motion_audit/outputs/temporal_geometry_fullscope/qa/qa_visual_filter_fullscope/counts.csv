@@ -1,0 +1,14 @@
+dimension,value,qa,keep,exclude,review
+task,camera_object_distance_change,405,396,6,3
+task,camera_translation_direction,448,448,0,0
+task,camera_view_direction_change,462,462,0,0
+task,object_pair_distance_change,234,220,13,1
+task,object_travel_distance_comparison,244,187,55,2
+task,object_world_motion_direction,594,549,38,7
+group4,HH,957,896,56,5
+group4,HL,406,399,6,1
+group4,LH,848,794,47,7
+group4,LL,176,173,3,0
+prior_video_decision,exclude,6,6,0,0
+prior_video_decision,not_previously_flagged,2353,2230,110,13
+prior_video_decision,review,28,26,2,0

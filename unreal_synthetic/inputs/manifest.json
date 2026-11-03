@@ -1,0 +1,70 @@
+{
+  "status": "prepared",
+  "unreal_execution_verified": false,
+  "cases": [
+    {
+      "status": "passed",
+      "case": "01_low_follow",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 167100,
+      "conversion": {
+        "status": "passed",
+        "max_matrix_error": 3.373576351606289e-08,
+        "max_projection_error_px": 8.394316461017143e-05
+      },
+      "unreal_execution_verified": false
+    },
+    {
+      "status": "passed",
+      "case": "02_low_slalom",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 167100,
+      "conversion": {
+        "status": "passed",
+        "max_matrix_error": 3.373576351606289e-08,
+        "max_projection_error_px": 8.61998464712496e-05
+      },
+      "unreal_execution_verified": false
+    },
+    {
+      "status": "passed",
+      "case": "03_low_orbit",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 177648,
+      "conversion": {
+        "status": "passed",
+        "max_matrix_error": 4.794306285305083e-08,
+        "max_projection_error_px": 0.00015671764425361572
+      },
+      "unreal_execution_verified": false
+    },
+    {
+      "status": "passed",
+      "case": "04_ramp_ascent",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 166772,
+      "conversion": {
+        "status": "passed",
+        "max_matrix_error": 5.0905776483034515e-08,
+        "max_projection_error_px": 0.00013613097438124538
+      },
+      "unreal_execution_verified": false
+    }
+  ],
+  "files": {
+    "01_low_follow/export_report.json": "c2394cef4d7982efa393eea8247a302eb6b441f4746d9364f05d600348e66ced",
+    "01_low_follow/scene.json.gz": "e04662fed1ffb12b79b5de471d32ac33c63d844bb461e7f872f7c7219b14fffc",
+    "04_ramp_ascent/export_report.json": "079fe03ac4fcee95857fa3af45e15dde2083ae5586d27be0f618fb527e94aa13",
+    "04_ramp_ascent/scene.json.gz": "bb8725ba1d4efbb577ef765b4a9bdb73cbe17d62006fdbfc3c52055e463e49fc",
+    "lighting/environment.hdr": "439d7e99b34bd3727896d9a06247d4bd80d8276f208f4fdefce919ce74b602c3",
+    "lighting/license_and_source.json": "dc6b89f1d691389d1adcc868a979fa53b140957b0ee1df6fb04dd90c9bdacd77",
+    "02_low_slalom/export_report.json": "ff13b02f8225c4b02c3795e4533e3c214c75636b6988153b3bfb808f0d047765",
+    "02_low_slalom/scene.json.gz": "365241fc7ee36772a1d16054d0c14f6a36d09ce78e170c08bd0ca083d792ba7a",
+    "03_low_orbit/export_report.json": "0d1141e4895e7459845013cb7895851e7357c423bd28c7654d27dd930867d77c",
+    "03_low_orbit/scene.json.gz": "97174ea943253e89e28ac7321836af1e51b906e3cad8a04b6bd1851e4fdeecb4"
+  }
+}

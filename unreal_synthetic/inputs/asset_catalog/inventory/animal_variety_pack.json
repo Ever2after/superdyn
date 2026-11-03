@@ -1,0 +1,1118 @@
+{
+  "id": "animal_variety_pack",
+  "roots": [
+    "/Game/AnimalVarietyPack"
+  ],
+  "class_counts": {
+    "AnimSequence": 146,
+    "MapBuildDataRegistry": 5,
+    "World": 5,
+    "PhysicsAsset": 6,
+    "Skeleton": 6,
+    "SkeletalMesh": 6,
+    "Material": 17,
+    "Texture2D": 29
+  },
+  "assets": [
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_DeathGrounded",
+      "name": "ANIM_Crow_DeathGrounded",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_DeathHitTheGround",
+      "name": "ANIM_Crow_DeathHitTheGround",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_EatSomething",
+      "name": "ANIM_Crow_EatSomething",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Falling",
+      "name": "ANIM_Crow_Falling",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Fly",
+      "name": "ANIM_Crow_Fly",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_FlyingAttack",
+      "name": "ANIM_Crow_FlyingAttack",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Glide",
+      "name": "ANIM_Crow_Glide",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Hop",
+      "name": "ANIM_Crow_Hop",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Hop_RM",
+      "name": "ANIM_Crow_Hop_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleLookAround",
+      "name": "ANIM_Crow_IdleLookAround",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleScratchWing",
+      "name": "ANIM_Crow_IdleScratchWing",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleStretchWings",
+      "name": "ANIM_Crow_IdleStretchWings",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_InAirDeathGoToFall",
+      "name": "ANIM_Crow_InAirDeathGoToFall",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Landing",
+      "name": "ANIM_Crow_Landing",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_TakeOff",
+      "name": "ANIM_Crow_TakeOff",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Walk",
+      "name": "ANIM_Crow_Walk",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Walk_RM",
+      "name": "ANIM_Crow_Walk_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Maps/Overview_BuiltData",
+      "name": "Overview_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Materials/M_Crow",
+      "name": "M_Crow",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Meshes/SK_Crow",
+      "name": "SK_Crow",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Meshes/SK_Crow_PhysicsAsset",
+      "name": "SK_Crow_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Meshes/SK_Crow_Skeleton",
+      "name": "SK_Crow_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Textures/T_Crow_BaseColor",
+      "name": "T_Crow_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Textures/T_Crow_Nml",
+      "name": "T_Crow_Nml",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Textures/T_Crow_OcclusionRoughnessMetallic",
+      "name": "T_Crow_OcclusionRoughnessMetallic",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Crow/Textures/T_Crow_Specular",
+      "name": "T_Crow_Specular",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Death",
+      "name": "ANIM_DeerDoe_Death",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_GetHit",
+      "name": "ANIM_DeerDoe_GetHit",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_GoToRest",
+      "name": "ANIM_DeerDoe_GoToRest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_GrazeOnce",
+      "name": "ANIM_DeerDoe_GrazeOnce",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleBreathe",
+      "name": "ANIM_DeerDoe_IdleBreathe",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleChew",
+      "name": "ANIM_DeerDoe_IdleChew",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleGraze",
+      "name": "ANIM_DeerDoe_IdleGraze",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleLookAround",
+      "name": "ANIM_DeerDoe_IdleLookAround",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleRest",
+      "name": "ANIM_DeerDoe_IdleRest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleSleep",
+      "name": "ANIM_DeerDoe_IdleSleep",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_RestToGoBackUp",
+      "name": "ANIM_DeerDoe_RestToGoBackUp",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Run",
+      "name": "ANIM_DeerDoe_Run",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Run_RM",
+      "name": "ANIM_DeerDoe_Run_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_SleepToGoBackUp",
+      "name": "ANIM_DeerDoe_SleepToGoBackUp",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Walk",
+      "name": "ANIM_DeerDoe_Walk",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkGraze",
+      "name": "ANIM_DeerDoe_WalkGraze",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkGraze_RM",
+      "name": "ANIM_DeerDoe_WalkGraze_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnL",
+      "name": "ANIM_DeerDoe_WalkTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnL_RM",
+      "name": "ANIM_DeerDoe_WalkTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnR",
+      "name": "ANIM_DeerDoe_WalkTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnR_RM",
+      "name": "ANIM_DeerDoe_WalkTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Walk_RM",
+      "name": "ANIM_DeerDoe_Walk_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_AntlersAttack",
+      "name": "ANIM_DeerStag_AntlersAttack",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_AntlersComboAttack",
+      "name": "ANIM_DeerStag_AntlersComboAttack",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_AntlersComboAttack_RM",
+      "name": "ANIM_DeerStag_AntlersComboAttack_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Death",
+      "name": "ANIM_DeerStag_Death",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_GetHit",
+      "name": "ANIM_DeerStag_GetHit",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_GoToRest",
+      "name": "ANIM_DeerStag_GoToRest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_GrazeOnce",
+      "name": "ANIM_DeerStag_GrazeOnce",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe",
+      "name": "ANIM_DeerStag_IdleBreathe",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleChew",
+      "name": "ANIM_DeerStag_IdleChew",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleGraze",
+      "name": "ANIM_DeerStag_IdleGraze",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleLookAround",
+      "name": "ANIM_DeerStag_IdleLookAround",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Rest",
+      "name": "ANIM_DeerStag_Rest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_RestToGoBackUp",
+      "name": "ANIM_DeerStag_RestToGoBackUp",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Run",
+      "name": "ANIM_DeerStag_Run",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Run_RM",
+      "name": "ANIM_DeerStag_Run_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Sleep",
+      "name": "ANIM_DeerStag_Sleep",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_SleepToGoBackUp",
+      "name": "ANIM_DeerStag_SleepToGoBackUp",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Walk",
+      "name": "ANIM_DeerStag_Walk",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkGraze_RM",
+      "name": "ANIM_DeerStag_WalkGraze_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnL",
+      "name": "ANIM_DeerStag_WalkTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnL_RM",
+      "name": "ANIM_DeerStag_WalkTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnR",
+      "name": "ANIM_DeerStag_WalkTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnR_RM",
+      "name": "ANIM_DeerStag_WalkTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Walk_RM",
+      "name": "ANIM_DeerStag_Walk_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Maps/Overview_BuiltData",
+      "name": "Overview_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoe",
+      "name": "M_DeerDoe",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoeFur",
+      "name": "M_DeerDoeFur",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStag",
+      "name": "M_DeerStag",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStagFur",
+      "name": "M_DeerStagFur",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe",
+      "name": "SK_DeerDoe",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe_PhysicsAsset",
+      "name": "SK_DeerDoe_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe_Skeleton",
+      "name": "SK_DeerDoe_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag",
+      "name": "SK_DeerStag",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag_PhysicsAsset",
+      "name": "SK_DeerStag_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag_Skeleton",
+      "name": "SK_DeerStag_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Textures/T_DeeDoe_BaseColor",
+      "name": "T_DeeDoe_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Textures/T_DeeDoe_Nml",
+      "name": "T_DeeDoe_Nml",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Textures/T_DeerDoe_OcclusionRoughnessMetallic",
+      "name": "T_DeerDoe_OcclusionRoughnessMetallic",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_BaseColor",
+      "name": "T_Stag_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_Nml",
+      "name": "T_Stag_Nml",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_OcclusionRoughnessMetllic",
+      "name": "T_Stag_OcclusionRoughnessMetllic",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_Specular",
+      "name": "T_Stag_Specular",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Bite",
+      "name": "ANIM_Fox_Bite",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Death",
+      "name": "ANIM_Fox_Death",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GetHitFront",
+      "name": "ANIM_Fox_GetHitFront",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GetHitLeft",
+      "name": "ANIM_Fox_GetHitLeft",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GetHitRight",
+      "name": "ANIM_Fox_GetHitRight",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GoToRest",
+      "name": "ANIM_Fox_GoToRest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleAggressive",
+      "name": "ANIM_Fox_IdleAggressive",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleBreathe",
+      "name": "ANIM_Fox_IdleBreathe",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleLookAround",
+      "name": "ANIM_Fox_IdleLookAround",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_JumpBite",
+      "name": "ANIM_Fox_JumpBite",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_JumpBite_RM",
+      "name": "ANIM_Fox_JumpBite_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RestToGoBackUp",
+      "name": "ANIM_Fox_RestToGoBackUp",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Resting",
+      "name": "ANIM_Fox_Resting",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Run",
+      "name": "ANIM_Fox_Run",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunBite",
+      "name": "ANIM_Fox_RunBite",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunBite_RM",
+      "name": "ANIM_Fox_RunBite_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnL",
+      "name": "ANIM_Fox_RunTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnL_RM",
+      "name": "ANIM_Fox_RunTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnR",
+      "name": "ANIM_Fox_RunTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnR_RM",
+      "name": "ANIM_Fox_RunTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Run_RM",
+      "name": "ANIM_Fox_Run_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Sleeping",
+      "name": "ANIM_Fox_Sleeping",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Walk",
+      "name": "ANIM_Fox_Walk",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnL",
+      "name": "ANIM_Fox_WalkTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnL_RM",
+      "name": "ANIM_Fox_WalkTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnR",
+      "name": "ANIM_Fox_WalkTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnR_RM",
+      "name": "ANIM_Fox_WalkTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Walk_RM",
+      "name": "ANIM_Fox_Walk_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Maps/Overview_BuiltData",
+      "name": "Overview_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Materials/M_Fox",
+      "name": "M_Fox",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Materials/M_FoxFur",
+      "name": "M_FoxFur",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Meshes/SK_Fox",
+      "name": "SK_Fox",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Meshes/SK_Fox_PhysicsAsset",
+      "name": "SK_Fox_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Meshes/SK_Fox_Skeleton",
+      "name": "SK_Fox_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Textures/T_Fox_BaseColor",
+      "name": "T_Fox_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Textures/T_Fox_Nml",
+      "name": "T_Fox_Nml",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Textures/T_Fox_OcclusionRoughnessMetallic",
+      "name": "T_Fox_OcclusionRoughnessMetallic",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Fox/Textures/T_Fox_Specular",
+      "name": "T_Fox_Specular",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Chew",
+      "name": "ANIM_Pig_Chew",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_ComboAttackForward",
+      "name": "ANIM_Pig_ComboAttackForward",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_ComboAttackForward_RM",
+      "name": "ANIM_Pig_ComboAttackForward_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Death",
+      "name": "ANIM_Pig_Death",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_GetHit",
+      "name": "ANIM_Pig_GetHit",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_GoBackUp",
+      "name": "ANIM_Pig_GoBackUp",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_GoToRest",
+      "name": "ANIM_Pig_GoToRest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_IdleBreathe",
+      "name": "ANIM_Pig_IdleBreathe",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_IdleLookAround",
+      "name": "ANIM_Pig_IdleLookAround",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_JumpAttack",
+      "name": "ANIM_Pig_JumpAttack",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_JumpAttack_RM",
+      "name": "ANIM_Pig_JumpAttack_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Rest",
+      "name": "ANIM_Pig_Rest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Run",
+      "name": "ANIM_Pig_Run",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnL",
+      "name": "ANIM_Pig_RunTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnL_RM",
+      "name": "ANIM_Pig_RunTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnR",
+      "name": "ANIM_Pig_RunTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnR_RM",
+      "name": "ANIM_Pig_RunTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Run_RM",
+      "name": "ANIM_Pig_Run_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_SniffleforFood",
+      "name": "ANIM_Pig_SniffleforFood",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Walk",
+      "name": "ANIM_Pig_Walk",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnL",
+      "name": "ANIM_Pig_WalkTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnL_RM",
+      "name": "ANIM_Pig_WalkTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnR",
+      "name": "ANIM_Pig_WalkTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnR_RM",
+      "name": "ANIM_Pig_WalkTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Walk_RM",
+      "name": "ANIM_Pig_Walk_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_attack",
+      "name": "ANIM_Pig_attack",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Maps/Overview_BuiltData",
+      "name": "Overview_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Materials/M_Pig",
+      "name": "M_Pig",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Materials/M_PigDirty",
+      "name": "M_PigDirty",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Materials/M_PigHair",
+      "name": "M_PigHair",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Materials/M_PigHairDirty",
+      "name": "M_PigHairDirty",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Meshes/SK_Pig",
+      "name": "SK_Pig",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Meshes/SK_Pig_PhysicsAsset",
+      "name": "SK_Pig_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Meshes/SK_Pig_Skeleton",
+      "name": "SK_Pig_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Textures/T_PigDirty_BaseColor",
+      "name": "T_PigDirty_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Textures/T_PigDirty_Nml",
+      "name": "T_PigDirty_Nml",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Textures/T_PigDirty_OcclusionRoughnessMetallic",
+      "name": "T_PigDirty_OcclusionRoughnessMetallic",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Textures/T_Pig_BaseColor",
+      "name": "T_Pig_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Textures/T_Pig_Nml",
+      "name": "T_Pig_Nml",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Textures/T_Pig_OcclusionRoughnessMetallic",
+      "name": "T_Pig_OcclusionRoughnessMetallic",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Pig/Textures/T_Pig_Specular",
+      "name": "T_Pig_Specular",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Bite",
+      "name": "ANIM_Wolf_Bite",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Death",
+      "name": "ANIM_Wolf_Death",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GetHitFront",
+      "name": "ANIM_Wolf_GetHitFront",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GetHitLeft",
+      "name": "ANIM_Wolf_GetHitLeft",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GetHitRight",
+      "name": "ANIM_Wolf_GetHitRight",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GoToRest",
+      "name": "ANIM_Wolf_GoToRest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Howl",
+      "name": "ANIM_Wolf_Howl",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleAggressive",
+      "name": "ANIM_Wolf_IdleAggressive",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleBreathe",
+      "name": "ANIM_Wolf_IdleBreathe",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleLookAround",
+      "name": "ANIM_Wolf_IdleLookAround",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_JumpBite",
+      "name": "ANIM_Wolf_JumpBite",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_JumpBite_RM",
+      "name": "ANIM_Wolf_JumpBite_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Rest",
+      "name": "ANIM_Wolf_Rest",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RestToGoBackUp",
+      "name": "ANIM_Wolf_RestToGoBackUp",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Run",
+      "name": "ANIM_Wolf_Run",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunBite",
+      "name": "ANIM_Wolf_RunBite",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunBite_RM",
+      "name": "ANIM_Wolf_RunBite_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnL",
+      "name": "ANIM_Wolf_RunTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnL_RM",
+      "name": "ANIM_Wolf_RunTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnR",
+      "name": "ANIM_Wolf_RunTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnR_RM",
+      "name": "ANIM_Wolf_RunTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Run_RM",
+      "name": "ANIM_Wolf_Run_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Sleep",
+      "name": "ANIM_Wolf_Sleep",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Walk",
+      "name": "ANIM_Wolf_Walk",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnL",
+      "name": "ANIM_Wolf_WalkTurnL",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnL_RM",
+      "name": "ANIM_Wolf_WalkTurnL_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnR",
+      "name": "ANIM_Wolf_WalkTurnR",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnR_RM",
+      "name": "ANIM_Wolf_WalkTurnR_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Walk_RM",
+      "name": "ANIM_Wolf_Walk_RM",
+      "asset_class": "AnimSequence"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Maps/Overview_BuiltData",
+      "name": "Overview_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Materials/M_Wolf",
+      "name": "M_Wolf",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Materials/M_WolfArctic",
+      "name": "M_WolfArctic",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Materials/M_WolfDark",
+      "name": "M_WolfDark",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Materials/M_WolfFur",
+      "name": "M_WolfFur",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Materials/M_WolfFurArctic",
+      "name": "M_WolfFurArctic",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Materials/M_WolfFurDark",
+      "name": "M_WolfFurDark",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf",
+      "name": "SK_Wolf",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf_PhysicsAsset",
+      "name": "SK_Wolf_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf_Skeleton",
+      "name": "SK_Wolf_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Textures/T_WolfArctic_BaseColorAlpha",
+      "name": "T_WolfArctic_BaseColorAlpha",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Textures/T_WolfDark_BaseColorAlpha",
+      "name": "T_WolfDark_BaseColorAlpha",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Textures/T_WolfDark_Illum",
+      "name": "T_WolfDark_Illum",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Textures/T_Wolf_BaseColorAlpha",
+      "name": "T_Wolf_BaseColorAlpha",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Textures/T_Wolf_Nml",
+      "name": "T_Wolf_Nml",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Textures/T_Wolf_OcclusionRoughnessMetallic",
+      "name": "T_Wolf_OcclusionRoughnessMetallic",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/AnimalVarietyPack/Wolf/Textures/T_Wolf_Specular",
+      "name": "T_Wolf_Specular",
+      "asset_class": "Texture2D"
+    }
+  ]
+}

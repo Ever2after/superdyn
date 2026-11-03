@@ -1,0 +1,3787 @@
+[
+  {
+    "qa_id": "synth_pilot__m01_truck_right__camera_translation_direction__00",
+    "video_id": "synth_pilot__m01_truck_right",
+    "task": "camera_translation_direction",
+    "question": "From F0 to F8, in which dominant direction did the camera center move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "backward",
+      "right",
+      "left",
+      "down",
+      "up",
+      "forward"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.4556962742198719,
+        -0.0010671552753434416,
+        0.0010298633402363558
+      ],
+      "displacement_m": [
+        4.9937733763332615,
+        -0.011694481398924894,
+        0.01128581562036762
+      ],
+      "anchor_answers": {
+        "center": "right"
+      },
+      "scale_m": 10.958556518554687,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m01_truck_right__object_world_motion_direction__01",
+    "video_id": "synth_pilot__m01_truck_right",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (man in a long coat) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "left",
+    "options": [
+      "backward",
+      "up",
+      "right",
+      "left",
+      "forward",
+      "down"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m01_truck_right__A"
+    ],
+    "target_mapping": {
+      "A": "m01_truck_right__A"
+    },
+    "target_descriptions": {
+      "A": "man in a long coat"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.5824652855585069,
+        0.006081850495486546,
+        0.004003076575060569
+      ],
+      "displacement_m": [
+        -6.382978751888992,
+        0.06664830239218913,
+        0.04386794089590357
+      ],
+      "anchor_answers": {
+        "center": "left",
+        "visible": "left"
+      },
+      "scale_m": 10.958556518554687,
+      "cue": {
+        "image_du_px": -1052.558276980166,
+        "image_dv_px": 12.289469004653427,
+        "mask_area_ratio": 1.400637196336121
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m01_truck_right__object_world_motion_direction__02",
+    "video_id": "synth_pilot__m01_truck_right",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object B (gray wolf) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "forward",
+    "options": [
+      "left",
+      "down",
+      "up",
+      "right",
+      "backward",
+      "forward"
+    ],
+    "answer_index": 5,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m01_truck_right__B"
+    ],
+    "target_mapping": {
+      "A": "m01_truck_right__B"
+    },
+    "target_descriptions": {
+      "A": "gray wolf"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.04289971775585511,
+        -0.04173167474672329,
+        0.6058206602073196
+      ],
+      "displacement_m": [
+        0.47011898165758226,
+        -0.45731891632590854,
+        6.638919944990026
+      ],
+      "anchor_answers": {
+        "center": "forward",
+        "visible": "forward"
+      },
+      "scale_m": 10.958556518554687,
+      "cue": {
+        "image_du_px": -576.0874641206433,
+        "image_dv_px": -80.33034753018643,
+        "mask_area_ratio": 0.12339951753572091
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m01_truck_right__camera_object_distance_change__03",
+    "video_id": "synth_pilot__m01_truck_right",
+    "task": "camera_object_distance_change",
+    "question": "From F0 to F8, did object B (gray wolf) become closer to or farther from the camera? Compare 3D Euclidean range.",
+    "answer": "farther",
+    "options": [
+      "closer",
+      "farther"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m01_truck_right__B"
+    ],
+    "target_mapping": {
+      "A": "m01_truck_right__B"
+    },
+    "target_descriptions": {
+      "A": "gray wolf"
+    },
+    "evidence": {
+      "ranges_m": [
+        7.401672314833825,
+        7.664310180336772,
+        8.183051666137636,
+        8.747875928165424,
+        9.332738110952546,
+        10.203928776095385,
+        11.11228409757774,
+        12.00205377694817,
+        12.816283279271767
+      ],
+      "delta_depths": 0.4940989221773954,
+      "relative_change": 0.73153886501925,
+      "anchor_answers": {
+        "center": "farther",
+        "visible": "farther"
+      },
+      "scale_m": 10.958556518554687,
+      "cue": {
+        "mask_area_ratio": 0.12339951753572091
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m01_truck_right__object_pair_distance_change__04",
+    "video_id": "synth_pilot__m01_truck_right",
+    "task": "object_pair_distance_change",
+    "question": "From F0 to F8, did the 3D distance between object A (man in a long coat) and object B (gray wolf) increase or decrease? Compare their separation at the two specified frames.",
+    "answer": "increased",
+    "options": [
+      "increased",
+      "decreased"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m01_truck_right/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m01_truck_right__A",
+      "m01_truck_right__B"
+    ],
+    "target_mapping": {
+      "A": "m01_truck_right__A",
+      "B": "m01_truck_right__B"
+    },
+    "target_descriptions": {
+      "A": "man in a long coat",
+      "B": "gray wolf"
+    },
+    "evidence": {
+      "distance_m": [
+        3.553378913612509,
+        3.016995197118789,
+        1.8517032160349756,
+        1.0088166471474889,
+        1.2875561926564625,
+        2.532288179193021,
+        3.7783750702214824,
+        5.059397036302786,
+        6.195921793095474
+      ],
+      "distance_change_depths": 0.24113968614467549,
+      "anchor_answers": {
+        "center": "increased",
+        "visible": "increased"
+      },
+      "scale_m": 10.958556518554687,
+      "cue": {
+        "image_separation_px": [
+          117.1313022388332,
+          468.25848860494233
+        ]
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m02_pan_left__camera_view_direction_change__00",
+    "video_id": "synth_pilot__m02_pan_left",
+    "task": "camera_view_direction_change",
+    "question": "From F0 to F8, toward which direction did the camera optical axis turn, using the camera axes frozen at F0?",
+    "answer": "left",
+    "options": [
+      "right",
+      "down",
+      "up",
+      "left"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "yaw_deg": -47.478910151664316,
+      "pitch_deg": -0.04240736865202297,
+      "anchor_answers": {
+        "center": "left"
+      },
+      "scale_m": 8.474219970703125,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "LHH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m02_pan_left__object_world_motion_direction__01",
+    "video_id": "synth_pilot__m02_pan_left",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (red fox) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "left",
+    "options": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "up",
+      "down"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m02_pan_left__A"
+    ],
+    "target_mapping": {
+      "A": "m02_pan_left__A"
+    },
+    "target_descriptions": {
+      "A": "red fox"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -1.3809257047495216,
+        -0.02469731854452586,
+        -0.006454389266204726
+      ],
+      "displacement_m": [
+        -11.702268185245682,
+        -0.2092905100328377,
+        -0.05469591441836398
+      ],
+      "anchor_answers": {
+        "center": "left",
+        "visible": "left"
+      },
+      "scale_m": 8.474219970703125,
+      "cue": {
+        "image_du_px": 5.673909396046838,
+        "image_dv_px": -14.132052948529463,
+        "mask_area_ratio": 0.4331360946745562
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "conflict",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "LHH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m02_pan_left__object_world_motion_direction__02",
+    "video_id": "synth_pilot__m02_pan_left",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object B (pink pig) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "down",
+      "forward",
+      "up",
+      "backward",
+      "left",
+      "right"
+    ],
+    "answer_index": 5,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m02_pan_left__B"
+    ],
+    "target_mapping": {
+      "A": "m02_pan_left__B"
+    },
+    "target_descriptions": {
+      "A": "pink pig"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.4536916532725438,
+        0.007094054953076207,
+        0.0016275241742097913
+      ],
+      "displacement_m": [
+        3.8446828687035084,
+        0.06011658215662381,
+        0.013791997859890725
+      ],
+      "anchor_answers": {
+        "center": "right",
+        "visible": "right"
+      },
+      "scale_m": 8.474219970703125,
+      "cue": {
+        "image_du_px": 1257.2682009769255,
+        "image_dv_px": 68.41847179798333,
+        "mask_area_ratio": 3.4940425531914894
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "LHH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m02_pan_left__object_travel_distance_comparison__03",
+    "video_id": "synth_pilot__m02_pan_left",
+    "task": "object_travel_distance_comparison",
+    "question": "Over the sampled trajectory from F0 through F8, which object traveled a greater cumulative 3D distance after compensating for camera motion: A (red fox) or B (pink pig)? Sum consecutive sampled 3D displacements, rather than using only the start-to-end displacement.",
+    "answer": "A",
+    "options": [
+      "A",
+      "B"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_0.jpg"
+      },
+      {
+        "frame_index": 1,
+        "rendered_frame_index": 16,
+        "normalized_time": 0.125,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_1.jpg"
+      },
+      {
+        "frame_index": 2,
+        "rendered_frame_index": 32,
+        "normalized_time": 0.25,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_2.jpg"
+      },
+      {
+        "frame_index": 3,
+        "rendered_frame_index": 48,
+        "normalized_time": 0.375,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_3.jpg"
+      },
+      {
+        "frame_index": 4,
+        "rendered_frame_index": 64,
+        "normalized_time": 0.5,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_4.jpg"
+      },
+      {
+        "frame_index": 5,
+        "rendered_frame_index": 80,
+        "normalized_time": 0.625,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_5.jpg"
+      },
+      {
+        "frame_index": 6,
+        "rendered_frame_index": 96,
+        "normalized_time": 0.75,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_6.jpg"
+      },
+      {
+        "frame_index": 7,
+        "rendered_frame_index": 112,
+        "normalized_time": 0.875,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_7.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m02_pan_left/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m02_pan_left__A",
+      "m02_pan_left__B"
+    ],
+    "target_mapping": {
+      "A": "m02_pan_left__A",
+      "B": "m02_pan_left__B"
+    },
+    "target_descriptions": {
+      "A": "red fox",
+      "B": "pink pig"
+    },
+    "evidence": {
+      "travel_a_m": 11.705710378088842,
+      "travel_b_m": 3.846686076209658,
+      "travel_gap_depths": 0.9274038588860354,
+      "travel_ratio": 3.043063599726623,
+      "anchor_answers": {
+        "center": "A",
+        "visible": "A"
+      },
+      "scale_m": 8.474219970703125,
+      "cue": {
+        "image_path_px": {
+          "A": 49.00004462904313,
+          "B": 1261.9836647902648
+        }
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "conflict",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "LHH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m03_walk_forward__camera_translation_direction__00",
+    "video_id": "synth_pilot__m03_walk_forward",
+    "task": "camera_translation_direction",
+    "question": "From F0 to F8, in which dominant direction did the camera center move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "forward",
+    "options": [
+      "down",
+      "up",
+      "backward",
+      "left",
+      "right",
+      "forward"
+    ],
+    "answer_index": 5,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.0013399769159511794,
+        -0.044236181424497596,
+        0.8342854133189159
+      ],
+      "displacement_m": [
+        0.01282315298215351,
+        -0.42332618942914474,
+        7.9838461084037124
+      ],
+      "anchor_answers": {
+        "center": "forward"
+      },
+      "scale_m": 9.569682006835937,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m03_walk_forward__object_world_motion_direction__01",
+    "video_id": "synth_pilot__m03_walk_forward",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (man in casual clothes) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "forward",
+    "options": [
+      "down",
+      "left",
+      "forward",
+      "right",
+      "up",
+      "backward"
+    ],
+    "answer_index": 2,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m03_walk_forward__A"
+    ],
+    "target_mapping": {
+      "A": "m03_walk_forward__A"
+    },
+    "target_descriptions": {
+      "A": "man in casual clothes"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.0006238958413225109,
+        -0.014839551497700115,
+        0.3451098063440436
+      ],
+      "displacement_m": [
+        0.005970484806843801,
+        -0.14200978895705607,
+        3.3025911041532283
+      ],
+      "anchor_answers": {
+        "center": "forward",
+        "visible": "forward"
+      },
+      "scale_m": 9.569682006835937,
+      "cue": {
+        "image_du_px": -104.16406408516104,
+        "image_dv_px": 79.921222085181,
+        "mask_area_ratio": 5.92228835978836
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "conflict",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m03_walk_forward__object_world_motion_direction__02",
+    "video_id": "synth_pilot__m03_walk_forward",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object B (stag deer with antlers) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "backward",
+    "options": [
+      "up",
+      "backward",
+      "left",
+      "down",
+      "forward",
+      "right"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m03_walk_forward__B"
+    ],
+    "target_mapping": {
+      "A": "m03_walk_forward__B"
+    },
+    "target_descriptions": {
+      "A": "stag deer with antlers"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.049355302821837525,
+        0.05439753150287879,
+        -0.5772404093719633
+      ],
+      "displacement_m": [
+        -0.47231455335607747,
+        0.5205670784393902,
+        -5.524007159185487
+      ],
+      "anchor_answers": {
+        "center": "backward",
+        "visible": "backward"
+      },
+      "scale_m": 9.569682006835937,
+      "cue": {
+        "image_du_px": 370.03693171719203,
+        "image_dv_px": 92.79054704590237,
+        "mask_area_ratio": 39.211486486486486
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m03_walk_forward__camera_object_distance_change__03",
+    "video_id": "synth_pilot__m03_walk_forward",
+    "task": "camera_object_distance_change",
+    "question": "From F0 to F8, did object A (man in casual clothes) become closer to or farther from the camera? Compare 3D Euclidean range.",
+    "answer": "closer",
+    "options": [
+      "farther",
+      "closer"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m03_walk_forward__A"
+    ],
+    "target_mapping": {
+      "A": "m03_walk_forward__A"
+    },
+    "target_descriptions": {
+      "A": "man in casual clothes"
+    },
+    "evidence": {
+      "ranges_m": [
+        8.075322468595612,
+        7.98398456672793,
+        7.517674437567022,
+        6.678245680534744,
+        5.624488678884986,
+        4.580362996341393,
+        3.756393092560964,
+        3.345276041995026,
+        3.454296819501483
+      ],
+      "delta_depths": -0.48288183931223416,
+      "relative_change": 0.5722403863207925,
+      "anchor_answers": {
+        "center": "closer",
+        "visible": "closer"
+      },
+      "scale_m": 9.569682006835937,
+      "cue": {
+        "mask_area_ratio": 5.92228835978836
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m03_walk_forward__camera_object_distance_change__04",
+    "video_id": "synth_pilot__m03_walk_forward",
+    "task": "camera_object_distance_change",
+    "question": "From F0 to F8, did object B (stag deer with antlers) become closer to or farther from the camera? Compare 3D Euclidean range.",
+    "answer": "closer",
+    "options": [
+      "closer",
+      "farther"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m03_walk_forward__B"
+    ],
+    "target_mapping": {
+      "A": "m03_walk_forward__B"
+    },
+    "target_descriptions": {
+      "A": "stag deer with antlers"
+    },
+    "evidence": {
+      "ranges_m": [
+        17.112486549450114,
+        16.49615244198218,
+        14.89238675321688,
+        12.946757304530752,
+        10.675748490773458,
+        8.37530640234336,
+        6.425217687229456,
+        4.89095012542317,
+        3.9755558700453033
+      ],
+      "delta_depths": -1.3727656436254279,
+      "relative_change": 0.7676809937260081,
+      "anchor_answers": {
+        "center": "closer",
+        "visible": "closer"
+      },
+      "scale_m": 9.569682006835937,
+      "cue": {
+        "mask_area_ratio": 39.211486486486486
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m03_walk_forward__object_pair_distance_change__05",
+    "video_id": "synth_pilot__m03_walk_forward",
+    "task": "object_pair_distance_change",
+    "question": "From F0 to F8, did the 3D distance between object A (man in casual clothes) and object B (stag deer with antlers) increase or decrease? Compare their separation at the two specified frames.",
+    "answer": "decreased",
+    "options": [
+      "increased",
+      "decreased"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m03_walk_forward/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m03_walk_forward__A",
+      "m03_walk_forward__B"
+    ],
+    "target_mapping": {
+      "A": "m03_walk_forward__A",
+      "B": "m03_walk_forward__B"
+    },
+    "target_descriptions": {
+      "A": "man in casual clothes",
+      "B": "stag deer with antlers"
+    },
+    "evidence": {
+      "distance_m": [
+        9.459891281124863,
+        8.959825260443143,
+        7.871345166397917,
+        6.828450006314996,
+        5.711770550906072,
+        4.613232380910772,
+        3.727121959227007,
+        3.0290165568100136,
+        2.732678642316939
+      ],
+      "distance_change_depths": -0.7029713875552454,
+      "anchor_answers": {
+        "center": "decreased",
+        "visible": "decreased"
+      },
+      "scale_m": 9.569682006835937,
+      "cue": {
+        "image_separation_px": [
+          200.061841503335,
+          670.285370029744
+        ]
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "conflict",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m04_pull_back__camera_translation_direction__00",
+    "video_id": "synth_pilot__m04_pull_back",
+    "task": "camera_translation_direction",
+    "question": "From F0 to F8, in which dominant direction did the camera center move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "backward",
+    "options": [
+      "down",
+      "backward",
+      "forward",
+      "right",
+      "up",
+      "left"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.0010180445252531399,
+        0.009934993004439728,
+        -0.2807968322957846
+      ],
+      "displacement_m": [
+        0.016281403286770847,
+        0.15888855913871677,
+        -4.490733317502637
+      ],
+      "anchor_answers": {
+        "center": "backward"
+      },
+      "scale_m": 15.992820434570312,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLL",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m04_pull_back__object_world_motion_direction__01",
+    "video_id": "synth_pilot__m04_pull_back",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (woman with a bow) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "backward",
+    "options": [
+      "down",
+      "left",
+      "forward",
+      "right",
+      "backward",
+      "up"
+    ],
+    "answer_index": 4,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m04_pull_back__A"
+    ],
+    "target_mapping": {
+      "A": "m04_pull_back__A"
+    },
+    "target_descriptions": {
+      "A": "woman with a bow"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.032781884539681186,
+        0.021072060231880834,
+        -0.6781979741728308
+      ],
+      "displacement_m": [
+        0.5242747929499378,
+        0.3370016754749202,
+        -10.846298420035437
+      ],
+      "anchor_answers": {
+        "center": "backward",
+        "visible": "backward"
+      },
+      "scale_m": 15.992820434570312,
+      "cue": {
+        "image_du_px": -14.424844204678948,
+        "image_dv_px": 16.521421225828476,
+        "mask_area_ratio": 3.009677419354839
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLL",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m04_pull_back__camera_object_distance_change__02",
+    "video_id": "synth_pilot__m04_pull_back",
+    "task": "camera_object_distance_change",
+    "question": "From F0 to F8, did object A (woman with a bow) become closer to or farther from the camera? Compare 3D Euclidean range.",
+    "answer": "closer",
+    "options": [
+      "farther",
+      "closer"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m04_pull_back__A"
+    ],
+    "target_mapping": {
+      "A": "m04_pull_back__A"
+    },
+    "target_descriptions": {
+      "A": "woman with a bow"
+    },
+    "evidence": {
+      "ranges_m": [
+        15.033958676599166,
+        14.528701958109375,
+        13.684402953802092,
+        12.898521079871953,
+        12.229474610972225,
+        11.544816414922142,
+        10.73411212702799,
+        9.814834098129804,
+        8.661995898536349
+      ],
+      "delta_depths": -0.39842645667984183,
+      "relative_change": 0.42383798672940215,
+      "anchor_answers": {
+        "center": "closer",
+        "visible": "closer"
+      },
+      "scale_m": 15.992820434570312,
+      "cue": {
+        "mask_area_ratio": 3.009677419354839
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLL",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m04_pull_back__object_travel_distance_comparison__03",
+    "video_id": "synth_pilot__m04_pull_back",
+    "task": "object_travel_distance_comparison",
+    "question": "Over the sampled trajectory from F0 through F8, which object traveled a greater cumulative 3D distance after compensating for camera motion: A (woman with a bow) or B (gray wolf)? Sum consecutive sampled 3D displacements, rather than using only the start-to-end displacement.",
+    "answer": "A",
+    "options": [
+      "A",
+      "B"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_0.jpg"
+      },
+      {
+        "frame_index": 1,
+        "rendered_frame_index": 16,
+        "normalized_time": 0.125,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_1.jpg"
+      },
+      {
+        "frame_index": 2,
+        "rendered_frame_index": 32,
+        "normalized_time": 0.25,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_2.jpg"
+      },
+      {
+        "frame_index": 3,
+        "rendered_frame_index": 48,
+        "normalized_time": 0.375,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_3.jpg"
+      },
+      {
+        "frame_index": 4,
+        "rendered_frame_index": 64,
+        "normalized_time": 0.5,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_4.jpg"
+      },
+      {
+        "frame_index": 5,
+        "rendered_frame_index": 80,
+        "normalized_time": 0.625,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_5.jpg"
+      },
+      {
+        "frame_index": 6,
+        "rendered_frame_index": 96,
+        "normalized_time": 0.75,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_6.jpg"
+      },
+      {
+        "frame_index": 7,
+        "rendered_frame_index": 112,
+        "normalized_time": 0.875,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_7.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m04_pull_back/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m04_pull_back__A",
+      "m04_pull_back__B"
+    ],
+    "target_mapping": {
+      "A": "m04_pull_back__A",
+      "B": "m04_pull_back__B"
+    },
+    "target_descriptions": {
+      "A": "woman with a bow",
+      "B": "gray wolf"
+    },
+    "evidence": {
+      "travel_a_m": 10.880850338286798,
+      "travel_b_m": 4.476932606964514,
+      "travel_gap_depths": 0.4004245378432114,
+      "travel_ratio": 2.4304253142788137,
+      "anchor_answers": {
+        "center": "A",
+        "visible": "A"
+      },
+      "scale_m": 15.992820434570312,
+      "cue": {
+        "image_path_px": {
+          "A": 65.67966941237015,
+          "B": 139.54553306449145
+        }
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "conflict",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLL",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m05_crane_up__camera_translation_direction__00",
+    "video_id": "synth_pilot__m05_crane_up",
+    "task": "camera_translation_direction",
+    "question": "From F0 to F8, in which dominant direction did the camera center move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "up",
+    "options": [
+      "right",
+      "up",
+      "forward",
+      "left",
+      "down",
+      "backward"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m05_crane_up/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m05_crane_up/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.0008397275465804523,
+        -0.4002734748476576,
+        -0.07216225847902104
+      ],
+      "displacement_m": [
+        0.007433617889627696,
+        -3.543387465955799,
+        -0.6388103591099651
+      ],
+      "anchor_answers": {
+        "center": "up"
+      },
+      "scale_m": 8.852416381835937,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m05_crane_up__camera_view_direction_change__01",
+    "video_id": "synth_pilot__m05_crane_up",
+    "task": "camera_view_direction_change",
+    "question": "From F0 to F8, toward which direction did the camera optical axis turn, using the camera axes frozen at F0?",
+    "answer": "down",
+    "options": [
+      "down",
+      "right",
+      "up",
+      "left"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m05_crane_up/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m05_crane_up/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "yaw_deg": 0.012712521923289852,
+      "pitch_deg": 22.05666807309403,
+      "anchor_answers": {
+        "center": "down"
+      },
+      "scale_m": 8.852416381835937,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m05_crane_up__object_world_motion_direction__02",
+    "video_id": "synth_pilot__m05_crane_up",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (pink pig) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "left",
+    "options": [
+      "down",
+      "up",
+      "backward",
+      "left",
+      "right",
+      "forward"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m05_crane_up/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m05_crane_up/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m05_crane_up__A"
+    ],
+    "target_mapping": {
+      "A": "m05_crane_up__A"
+    },
+    "target_descriptions": {
+      "A": "pink pig"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.46242056350588484,
+        0.0023489079066307365,
+        0.054070556811456214
+      ],
+      "displacement_m": [
+        -4.0935393716773,
+        0.02079351083208189,
+        0.4786550828927257
+      ],
+      "anchor_answers": {
+        "center": "left",
+        "visible": "left"
+      },
+      "scale_m": 8.852416381835937,
+      "cue": {
+        "image_du_px": -320.80926352722275,
+        "image_dv_px": -7.104500778790737,
+        "mask_area_ratio": 0.7045032497678737
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m06_crane_down_crow_up__camera_translation_direction__00",
+    "video_id": "synth_pilot__m06_crane_down_crow_up",
+    "task": "camera_translation_direction",
+    "question": "From F0 to F8, in which dominant direction did the camera center move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "down",
+    "options": [
+      "right",
+      "down",
+      "forward",
+      "up",
+      "backward",
+      "left"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m06_crane_down_crow_up/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m06_crane_down_crow_up/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.0006194024765152689,
+        0.3715464338165504,
+        0.06421461802243653
+      ],
+      "displacement_m": [
+        -0.004913110726768039,
+        2.9471124812842207,
+        0.509351416216961
+      ],
+      "anchor_answers": {
+        "center": "down"
+      },
+      "scale_m": 7.9320166015625,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "rural_cabins",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m06_crane_down_crow_up__object_world_motion_direction__02",
+    "video_id": "synth_pilot__m06_crane_down_crow_up",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object B (female deer) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "backward",
+      "down",
+      "right",
+      "forward",
+      "up",
+      "left"
+    ],
+    "answer_index": 2,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m06_crane_down_crow_up/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m06_crane_down_crow_up/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m06_crane_down_crow_up__B"
+    ],
+    "target_mapping": {
+      "A": "m06_crane_down_crow_up__B"
+    },
+    "target_descriptions": {
+      "A": "female deer"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.7590935981814779,
+        -0.058976037889817166,
+        0.04887934608432777
+      ],
+      "displacement_m": [
+        6.021143022915297,
+        -0.4677989116364088,
+        0.38771178461440686
+      ],
+      "anchor_answers": {
+        "center": "right",
+        "visible": "right"
+      },
+      "scale_m": 7.9320166015625,
+      "cue": {
+        "image_du_px": 442.8074724551724,
+        "image_dv_px": -164.07674702352801,
+        "mask_area_ratio": 0.965924276169265
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "rural_cabins",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m07_tilt_up__camera_view_direction_change__00",
+    "video_id": "synth_pilot__m07_tilt_up",
+    "task": "camera_view_direction_change",
+    "question": "From F0 to F8, toward which direction did the camera optical axis turn, using the camera axes frozen at F0?",
+    "answer": "up",
+    "options": [
+      "up",
+      "down",
+      "right",
+      "left"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m07_tilt_up/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m07_tilt_up/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "yaw_deg": 2.2566911791967114e-15,
+      "pitch_deg": -27.38327980041505,
+      "anchor_answers": {
+        "center": "up"
+      },
+      "scale_m": 7.29771240234375,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "rural_cabins",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "LLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m08_orbit__camera_translation_direction__00",
+    "video_id": "synth_pilot__m08_orbit",
+    "task": "camera_translation_direction",
+    "question": "From F0 to F8, in which dominant direction did the camera center move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "backward",
+      "down",
+      "up",
+      "forward",
+      "right",
+      "left"
+    ],
+    "answer_index": 4,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.45040442175202605,
+        -0.009577202615930421,
+        0.13965221545742737
+      ],
+      "displacement_m": [
+        5.175992413841734,
+        -0.11006003869378772,
+        1.6048661444576147
+      ],
+      "anchor_answers": {
+        "center": "right"
+      },
+      "scale_m": 11.491877441406249,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m08_orbit__camera_view_direction_change__01",
+    "video_id": "synth_pilot__m08_orbit",
+    "task": "camera_view_direction_change",
+    "question": "From F0 to F8, toward which direction did the camera optical axis turn, using the camera axes frozen at F0?",
+    "answer": "left",
+    "options": [
+      "up",
+      "left",
+      "right",
+      "down"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "yaw_deg": -34.68269982818047,
+      "pitch_deg": 0.9398869007537133,
+      "anchor_answers": {
+        "center": "left"
+      },
+      "scale_m": 11.491877441406249,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m08_orbit__object_world_motion_direction__02",
+    "video_id": "synth_pilot__m08_orbit",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (man in a long coat) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "forward",
+      "backward",
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m08_orbit__A"
+    ],
+    "target_mapping": {
+      "A": "m08_orbit__A"
+    },
+    "target_descriptions": {
+      "A": "man in a long coat"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.28431154577684215,
+        0.003497302849234307,
+        -0.002885894580938514
+      ],
+      "displacement_m": [
+        3.2672734392442324,
+        0.04019057571888153,
+        -0.03316434683296385
+      ],
+      "anchor_answers": {
+        "center": "right",
+        "visible": "right"
+      },
+      "scale_m": 11.491877441406249,
+      "cue": {
+        "image_du_px": 317.5261439475619,
+        "image_dv_px": -1.997436667592467,
+        "mask_area_ratio": 0.7627811860940695
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m08_orbit__object_world_motion_direction__03",
+    "video_id": "synth_pilot__m08_orbit",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object B (woman with goggles) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "left",
+    "options": [
+      "right",
+      "down",
+      "backward",
+      "left",
+      "forward",
+      "up"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m08_orbit__B"
+    ],
+    "target_mapping": {
+      "A": "m08_orbit__B"
+    },
+    "target_descriptions": {
+      "A": "woman with goggles"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.3124194862352423,
+        -0.010874855541659546,
+        -0.0008922332254192256
+      ],
+      "displacement_m": [
+        -3.5902864461225112,
+        -0.12497250707774908,
+        -0.010253434875668335
+      ],
+      "anchor_answers": {
+        "center": "left",
+        "visible": "left"
+      },
+      "scale_m": 11.491877441406249,
+      "cue": {
+        "image_du_px": -394.9586516289553,
+        "image_dv_px": -11.040813623803444,
+        "mask_area_ratio": 0.9775303643724697
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__m08_orbit__object_pair_distance_change__04",
+    "video_id": "synth_pilot__m08_orbit",
+    "task": "object_pair_distance_change",
+    "question": "From F0 to F8, did the 3D distance between object A (man in a long coat) and object B (woman with goggles) increase or decrease? Compare their separation at the two specified frames.",
+    "answer": "decreased",
+    "options": [
+      "increased",
+      "decreased"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__m08_orbit/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "m08_orbit__A",
+      "m08_orbit__B"
+    ],
+    "target_mapping": {
+      "A": "m08_orbit__A",
+      "B": "m08_orbit__B"
+    },
+    "target_descriptions": {
+      "A": "man in a long coat",
+      "B": "woman with goggles"
+    },
+    "evidence": {
+      "distance_m": [
+        8.529711480573553,
+        8.185380041378608,
+        7.322698787222756,
+        6.407517240109191,
+        5.458823024801089,
+        4.498388474481536,
+        3.518722753340234,
+        2.693453996154569,
+        1.890386427779623
+      ],
+      "distance_change_depths": -0.5777406769821488,
+      "anchor_answers": {
+        "center": "decreased",
+        "visible": "decreased"
+      },
+      "scale_m": 11.491877441406249,
+      "cue": {
+        "image_separation_px": [
+          785.7130065210897,
+          76.76084695123572
+        ]
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "matched",
+    "pair_id": null,
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__c1a_static_left__object_world_motion_direction__00",
+    "video_id": "synth_pilot__c1a_static_left",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (man in casual clothes) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "left",
+    "options": [
+      "right",
+      "forward",
+      "up",
+      "left",
+      "down",
+      "backward"
+    ],
+    "answer_index": 3,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__c1a_static_left/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__c1a_static_left/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "c1a_static_left__A"
+    ],
+    "target_mapping": {
+      "A": "c1a_static_left__A"
+    },
+    "target_descriptions": {
+      "A": "man in casual clothes"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        -0.29419896881191215,
+        0.0021846450209024692,
+        0.00015193604544602672
+      ],
+      "displacement_m": [
+        -3.690024324505865,
+        0.0274011608541516,
+        0.001905675284074505
+      ],
+      "anchor_answers": {
+        "center": "left",
+        "visible": "left"
+      },
+      "scale_m": 12.54261474609375,
+      "cue": {
+        "image_du_px": -341.0508311130132,
+        "image_dv_px": 2.531914664341741,
+        "mask_area_ratio": 0.9961180124223602
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "counterfactual",
+    "pair_id": "cf1",
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "LLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__c1b_truck_right__camera_translation_direction__00",
+    "video_id": "synth_pilot__c1b_truck_right",
+    "task": "camera_translation_direction",
+    "question": "From F0 to F8, in which dominant direction did the camera center move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "down",
+      "right",
+      "up",
+      "backward",
+      "forward",
+      "left"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__c1b_truck_right/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__c1b_truck_right/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [],
+    "target_mapping": {},
+    "target_descriptions": {},
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.635557123379447,
+        -0.001411782353171819,
+        0.001805825156419374
+      ],
+      "displacement_m": [
+        7.495770178221312,
+        -0.016650582098387424,
+        0.02129792878820232
+      ],
+      "anchor_answers": {
+        "center": "right"
+      },
+      "scale_m": 11.794014892578126,
+      "cue": {}
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "counterfactual",
+    "pair_id": "cf1",
+    "cue": null,
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__c1b_truck_right__object_world_motion_direction__01",
+    "video_id": "synth_pilot__c1b_truck_right",
+    "task": "object_world_motion_direction",
+    "question": "After compensating for camera motion from F0 to F8, in which dominant direction did object A (man in casual clothes) move? Use the camera axes frozen at F0: right/down/forward are +x/+y/+z.",
+    "answer": "right",
+    "options": [
+      "right",
+      "down",
+      "backward",
+      "up",
+      "forward",
+      "left"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__c1b_truck_right/rgb_0.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__c1b_truck_right/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "c1b_truck_right__A"
+    ],
+    "target_mapping": {
+      "A": "c1b_truck_right__A"
+    },
+    "target_descriptions": {
+      "A": "man in casual clothes"
+    },
+    "evidence": {
+      "displacement_start_camera_depths": [
+        0.241145161941606,
+        -0.0019518192712894426,
+        0.00034818657287383035
+      ],
+      "displacement_m": [
+        2.844069631212465,
+        -0.02301978555320867,
+        0.004106517625869694
+      ],
+      "anchor_answers": {
+        "center": "right",
+        "visible": "right"
+      },
+      "scale_m": 11.794014892578126,
+      "cue": {
+        "image_du_px": -431.16483479376905,
+        "image_dv_px": 1.1684495128587855,
+        "mask_area_ratio": 1.156282183316169
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "counterfactual",
+    "pair_id": "cf1",
+    "cue": "conflict",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__c2a_follow__object_travel_distance_comparison__00",
+    "video_id": "synth_pilot__c2a_follow",
+    "task": "object_travel_distance_comparison",
+    "question": "Over the sampled trajectory from F0 through F8, which object traveled a greater cumulative 3D distance after compensating for camera motion: A (woman with a bow) or B (stag deer with antlers)? Sum consecutive sampled 3D displacements, rather than using only the start-to-end displacement.",
+    "answer": "A",
+    "options": [
+      "B",
+      "A"
+    ],
+    "answer_index": 1,
+    "frame_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_0.jpg"
+      },
+      {
+        "frame_index": 1,
+        "rendered_frame_index": 16,
+        "normalized_time": 0.125,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_1.jpg"
+      },
+      {
+        "frame_index": 2,
+        "rendered_frame_index": 32,
+        "normalized_time": 0.25,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_2.jpg"
+      },
+      {
+        "frame_index": 3,
+        "rendered_frame_index": 48,
+        "normalized_time": 0.375,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_3.jpg"
+      },
+      {
+        "frame_index": 4,
+        "rendered_frame_index": 64,
+        "normalized_time": 0.5,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_4.jpg"
+      },
+      {
+        "frame_index": 5,
+        "rendered_frame_index": 80,
+        "normalized_time": 0.625,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_5.jpg"
+      },
+      {
+        "frame_index": 6,
+        "rendered_frame_index": 96,
+        "normalized_time": 0.75,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_6.jpg"
+      },
+      {
+        "frame_index": 7,
+        "rendered_frame_index": 112,
+        "normalized_time": 0.875,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_7.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__c2a_follow/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "c2a_follow__A",
+      "c2a_follow__B"
+    ],
+    "target_mapping": {
+      "A": "c2a_follow__A",
+      "B": "c2a_follow__B"
+    },
+    "target_descriptions": {
+      "A": "woman with a bow",
+      "B": "stag deer with antlers"
+    },
+    "evidence": {
+      "travel_a_m": 6.980795256046601,
+      "travel_b_m": 3.0477199136639945,
+      "travel_gap_depths": 0.2962437503863249,
+      "travel_ratio": 2.2904976355436255,
+      "anchor_answers": {
+        "center": "A",
+        "visible": "A"
+      },
+      "scale_m": 13.276483764648438,
+      "cue": {
+        "image_path_px": {
+          "A": 258.6233964090941,
+          "B": 693.9175131044785
+        }
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "counterfactual",
+    "pair_id": "cf2",
+    "cue": "conflict",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "HLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  },
+  {
+    "qa_id": "synth_pilot__c2b_static__object_travel_distance_comparison__00",
+    "video_id": "synth_pilot__c2b_static",
+    "task": "object_travel_distance_comparison",
+    "question": "Over the sampled trajectory from F0 through F8, which object traveled a greater cumulative 3D distance after compensating for camera motion: A (woman with a bow) or B (stag deer with antlers)? Sum consecutive sampled 3D displacements, rather than using only the start-to-end displacement.",
+    "answer": "B",
+    "options": [
+      "B",
+      "A"
+    ],
+    "answer_index": 0,
+    "frame_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "frame_references": [
+      {
+        "frame_index": 0,
+        "rendered_frame_index": 0,
+        "normalized_time": 0.0,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_0.jpg"
+      },
+      {
+        "frame_index": 1,
+        "rendered_frame_index": 16,
+        "normalized_time": 0.125,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_1.jpg"
+      },
+      {
+        "frame_index": 2,
+        "rendered_frame_index": 32,
+        "normalized_time": 0.25,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_2.jpg"
+      },
+      {
+        "frame_index": 3,
+        "rendered_frame_index": 48,
+        "normalized_time": 0.375,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_3.jpg"
+      },
+      {
+        "frame_index": 4,
+        "rendered_frame_index": 64,
+        "normalized_time": 0.5,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_4.jpg"
+      },
+      {
+        "frame_index": 5,
+        "rendered_frame_index": 80,
+        "normalized_time": 0.625,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_5.jpg"
+      },
+      {
+        "frame_index": 6,
+        "rendered_frame_index": 96,
+        "normalized_time": 0.75,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_6.jpg"
+      },
+      {
+        "frame_index": 7,
+        "rendered_frame_index": 112,
+        "normalized_time": 0.875,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_7.jpg"
+      },
+      {
+        "frame_index": 8,
+        "rendered_frame_index": 128,
+        "normalized_time": 1.0,
+        "image_path": "cases/synth_pilot__c2b_static/rgb_8.jpg"
+      }
+    ],
+    "object_ids": [
+      "c2b_static__A",
+      "c2b_static__B"
+    ],
+    "target_mapping": {
+      "A": "c2b_static__A",
+      "B": "c2b_static__B"
+    },
+    "target_descriptions": {
+      "A": "woman with a bow",
+      "B": "stag deer with antlers"
+    },
+    "evidence": {
+      "travel_a_m": 0.021407659094076843,
+      "travel_b_m": 9.259498065242006,
+      "travel_gap_depths": 0.7082555459685298,
+      "travel_ratio": 432.5320215793217,
+      "anchor_answers": {
+        "center": "B",
+        "visible": "B"
+      },
+      "scale_m": 13.0434423828125,
+      "cue": {
+        "image_path_px": {
+          "A": 1.140623460924051,
+          "B": 642.1902864242331
+        }
+      }
+    },
+    "thresholds": {
+      "camera_translation": 0.1,
+      "object_translation": 0.1,
+      "direction_dominance": 2.0,
+      "direction_gap": 0.05,
+      "camera_turn_deg": 15.0,
+      "camera_turn_gap_deg": 8.0,
+      "camera_object_range_abs": 0.1,
+      "camera_object_range_relative": 0.2,
+      "pair_range_abs": 0.1,
+      "pair_range_relative": 0.2,
+      "pair_initial_separation": 0.08,
+      "travel_gap": 0.1,
+      "travel_ratio": 1.5,
+      "travel_max_min": 0.2,
+      "bootstrap_gap": 0.05,
+      "min_time_span": 0.2,
+      "min_intervals": 2,
+      "min_tracks": 32,
+      "min_track_survival": 0.15,
+      "sam_score": 0.8,
+      "min_mask_pixels": 150,
+      "min_forward_coverage": 0.25,
+      "max_fb_error_px": 2.0,
+      "max_pair_mask_overlap": 0.05,
+      "seed_count": 256,
+      "bootstrap_replicates": 128,
+      "bootstrap_direction_agreement": 0.95
+    },
+    "answer_source": "exact_Unreal_render_ground_truth",
+    "units": "sequence background depths (also metres in evidence)",
+    "position_definition": "evaluated body-centre bone; visible-surface centroid from GT depth+mask must give the same answer",
+    "split": "synthetic_pilot",
+    "sub_split": "counterfactual",
+    "pair_id": "cf2",
+    "cue": "consistent",
+    "environment": "city_park",
+    "annotation_status": "exact_render_ground_truth_automated_gates",
+    "quality_status": "provisional_automated_pass",
+    "group": "LLH",
+    "manual_review": false,
+    "localization_source": "Unreal custom-stencil visibility pass",
+    "geometry_thresholds_unchanged": true
+  }
+]

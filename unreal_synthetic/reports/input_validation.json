@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "scope": "offline geometry/coordinate/schema verification; not an Unreal engine execution test",
+  "cases": 4,
+  "frames": 768,
+  "unreal_execution_verified": false,
+  "results": [
+    {
+      "case": "01_low_follow",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 167100,
+      "max_projection_error_px": 8.394316461017143e-05
+    },
+    {
+      "case": "02_low_slalom",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 167100,
+      "max_projection_error_px": 8.61998464712496e-05
+    },
+    {
+      "case": "03_low_orbit",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 177648,
+      "max_projection_error_px": 0.00015671764425361572
+    },
+    {
+      "case": "04_ramp_ascent",
+      "frames": 192,
+      "meshes": 8,
+      "triangles": 166772,
+      "max_projection_error_px": 0.00013613097438124538
+    }
+  ]
+}

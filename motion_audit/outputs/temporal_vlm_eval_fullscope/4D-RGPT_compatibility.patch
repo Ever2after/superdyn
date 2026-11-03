@@ -1,0 +1,143 @@
+diff --git a/llava/model/builder.py b/llava/model/builder.py
+index b329259..0b2a559 100755
+--- a/llava/model/builder.py
++++ b/llava/model/builder.py
+@@ -53,7 +53,7 @@ def load_pretrained_model(
+             bnb_4bit_quant_type="nf4",
+         )
+     else:
+-        kwargs["torch_dtype"] = torch.float16
++        kwargs.setdefault("torch_dtype", torch.float16)
+         # kwargs["torch_dtype"] = torch.bfloat16
+ 
+     if is_mm_model(model_path):
+@@ -178,6 +178,8 @@ def load_pretrained_model(
+ 
+ 
+ def prepare_config_for_eval(config: PretrainedConfig, kwargs: dict):
++    config.eval_only = True
++    config.eval_vision_attention = kwargs.get("attn_implementation", "sdpa")
+     try:
+         # compatible with deprecated config convention
+         if getattr(config, "vision_tower_cfg", None) is None:
+diff --git a/llava/model/llava_arch.py b/llava/model/llava_arch.py
+index cd9a792..7c1badd 100755
+--- a/llava/model/llava_arch.py
++++ b/llava/model/llava_arch.py
+@@ -47,7 +47,6 @@ from llava.model.configuration_llava import LlavaConfig
+ from llava.model.language_model.builder import build_llm_and_tokenizer
+ from llava.model.multimodal_encoder.builder import build_vision_tower
+ from llava.model.multimodal_projector.builder import build_mm_projector
+-from llava.model.low_level_perception.builder import build_l4p_encoder_decoder, build_distillation
+ from llava.model.pe.time_pe import TimePositionalEncoding
+ from llava.model.region_extractor.builder import build_region_extractor, RegionExtractor
+ 
+@@ -91,9 +90,16 @@ class LlavaMetaModel(ABC):
+         downsample_rate = self.get_mm_projector().downsample_rate
+         self.num_image_tokens = math.ceil(num_patches**0.5 / downsample_rate) ** 2
+ 
+-        self.encoder_l4p = build_l4p_encoder_decoder("", config)
+-        # self.low_level_heads = build_low_level_heads()
+-        self.distillation = build_distillation("", config)
++        # The published L4P teacher is training-only. Evaluation must load the
++        # released student checkpoint without constructing a random teacher or
++        # requiring its separate reconstruction-model checkpoint.
++        if getattr(config, "eval_only", False):
++            self.encoder_l4p = None
++            self.distillation = None
++        else:
++            from llava.model.low_level_perception.builder import build_l4p_encoder_decoder, build_distillation
++            self.encoder_l4p = build_l4p_encoder_decoder("", config)
++            self.distillation = build_distillation("", config)
+ 
+         # 4D-RGPT Timestamp Positional Encoding (paper §3, eq. 5). Sinusoidal,
+         # no learned params. Added to vision features before the mm_projector
+diff --git a/llava/model/multimodal_encoder/builder.py b/llava/model/multimodal_encoder/builder.py
+index 7db3dca..4a25d09 100755
+--- a/llava/model/multimodal_encoder/builder.py
++++ b/llava/model/multimodal_encoder/builder.py
+@@ -21,8 +21,6 @@ import os
+ from transformers import AutoConfig, PretrainedConfig, PreTrainedModel
+ 
+ # from .clip_encoder import CLIPVisionTower, CLIPVisionTowerS2
+-from .intern_encoder import InternVisionTower, InternVisionTowerS2
+-from .radio_encoder import RADIOVisionTower
+ from .siglip_encoder import SiglipVisionTower, SiglipVisionTowerDynamicS2, SiglipVisionTowerS2
+ 
+ 
+@@ -42,12 +40,14 @@ def build_vision_tower(model_name_or_path: str, config: PretrainedConfig) -> Pre
+     use_dynamic_s2 = getattr(config, "dynamic_s2", False)
+ 
+     if "intern" in vision_tower_name.lower():
++        from .intern_encoder import InternVisionTower, InternVisionTowerS2
+         drop_path_rate = getattr(config, "drop_path_rate", 0.0)
+         if use_s2:
+             vision_tower = InternVisionTowerS2(model_name_or_path, config=config, drop_path_rate=drop_path_rate)
+         else:
+             vision_tower = InternVisionTower(model_name_or_path, config=config, drop_path_rate=drop_path_rate)
+     elif "radio" in vision_tower_name:
++        from .radio_encoder import RADIOVisionTower
+         vision_tower = RADIOVisionTower(model_name_or_path, config)
+     elif "clip" in vision_tower_name:
+         from .clip_encoder import CLIPVisionTower, CLIPVisionTowerS2
+diff --git a/llava/model/multimodal_encoder/siglip_encoder.py b/llava/model/multimodal_encoder/siglip_encoder.py
+index da11ae3..917cdcd 100755
+--- a/llava/model/multimodal_encoder/siglip_encoder.py
++++ b/llava/model/multimodal_encoder/siglip_encoder.py
+@@ -28,7 +28,7 @@ class SiglipVisionTower(VisionTower):
+         # TODO(ligengl): why pass config here leading to errors?
+         self.vision_tower = SiglipVisionModel.from_pretrained(
+             model_name_or_path,
+-            attn_implementation="flash_attention_2",
++            attn_implementation=getattr(config, "eval_vision_attention", "flash_attention_2"),
+             torch_dtype=eval(config.model_dtype),
+         )
+         self.image_processor = SiglipImageProcessor.from_pretrained(model_name_or_path)
+@@ -40,7 +40,7 @@ class SiglipVisionTowerS2(VisionTowerS2):
+         super().__init__(model_name_or_path, config)
+         self.vision_tower = SiglipVisionModel.from_pretrained(
+             model_name_or_path,
+-            attn_implementation="flash_attention_2",
++            attn_implementation=getattr(config, "eval_vision_attention", "flash_attention_2"),
+             torch_dtype=eval(config.model_dtype),
+         )
+         self.image_processor = SiglipImageProcessor.from_pretrained(model_name_or_path)
+@@ -54,7 +54,7 @@ class SiglipVisionTowerDynamicS2(VisionTowerDynamicS2):
+         super().__init__(model_name_or_path, config)
+         self.vision_tower = SiglipVisionModel.from_pretrained(
+             model_name_or_path,
+-            attn_implementation="flash_attention_2",
++            attn_implementation=getattr(config, "eval_vision_attention", "flash_attention_2"),
+             torch_dtype=eval(config.model_dtype),
+         )
+         self.image_processor = SiglipImageProcessor.from_pretrained(model_name_or_path)
+diff --git a/llava/model/utils/packing.py b/llava/model/utils/packing.py
+index b8a4cbd..c8a1e31 100644
+--- a/llava/model/utils/packing.py
++++ b/llava/model/utils/packing.py
+@@ -48,4 +48,4 @@ def patch(model: nn.Module) -> None:
+             raise ValueError(f"Module {m} does not have function '_get_unpad_data' for packing")
+         m._get_unpad_data = _get_unpad_data
+     else:
+-        transformers.modeling_flash_attention_utils._get_unpad_data = _get_unpad_data
++        import_module("transformers.modeling_flash_attention_utils")._get_unpad_data = _get_unpad_data
+diff --git a/llava/utils/media.py b/llava/utils/media.py
+index a2a1ed6..8a49820 100644
+--- a/llava/utils/media.py
++++ b/llava/utils/media.py
+@@ -38,7 +38,6 @@ from llava.constants import MEDIA_TOKENS
+ from llava.media import Image, Video
+ from llava.utils import make_list
+ from llava.utils.logging import logger
+-from data.utils.som_helper import apply_time_marks
+ 
+ __all__ = ["extract_media"]
+ 
+@@ -130,6 +129,7 @@ def _load_video_with_time(
+ 
+         sample_sec = (vidcap.get(cv2.CAP_PROP_POS_MSEC) / 1000.0)
+         if paint:
++            from data.utils.som_helper import apply_time_marks
+             frame = apply_time_marks(frame, sample_sec)
+         sample_secs[index] = sample_sec
+ 

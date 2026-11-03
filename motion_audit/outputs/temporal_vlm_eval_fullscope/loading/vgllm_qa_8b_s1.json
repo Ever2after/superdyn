@@ -1,0 +1,17 @@
+{
+  "model": "vgllm_qa_8b",
+  "gpu": 4,
+  "load_seconds": 19.287281535565853,
+  "torch": "2.9.1+cu130",
+  "transformers": "4.50.0",
+  "attention": "sdpa",
+  "dtype": "bfloat16",
+  "patch_projection_check": null,
+  "model_class": "Qwen2_5_VLForConditionalGenerationWithVGGT",
+  "checkpoint": "/tmp/superdyn_vlm_eval255/models/vgllm_qa_8b",
+  "revision": "73d51445fbb307c453c944bc3354aef68ec3cc59",
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "geometry_encoder_enabled": true,
+  "preprocessing": "official VG-LLM geometry+RGB crop"
+}

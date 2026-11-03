@@ -1,0 +1,1288 @@
+{
+  "status": "completed",
+  "planned_models": 7,
+  "planned_predictions": 16709,
+  "finished_predictions": 16709,
+  "completed_models": 7,
+  "updated_at": "2026-10-21T10:58:43.253042+00:00",
+  "elapsed_seconds": 3935.6179761886597,
+  "models": {
+    "qwen25vl_3b": {
+      "processed": 2387,
+      "expected": 2387,
+      "correct": 991,
+      "accuracy": 0.4151654796816087,
+      "invalid": 16,
+      "errors": 0,
+      "status": "completed",
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 448,
+          "expected": 448,
+          "correct": 130,
+          "accuracy": 0.29017857142857145,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 462,
+          "expected": 462,
+          "correct": 245,
+          "accuracy": 0.5303030303030303,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 594,
+          "expected": 594,
+          "correct": 152,
+          "accuracy": 0.2558922558922559,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 405,
+          "expected": 405,
+          "correct": 227,
+          "accuracy": 0.5604938271604938,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 234,
+          "expected": 234,
+          "correct": 117,
+          "accuracy": 0.5,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 244,
+          "expected": 244,
+          "correct": 120,
+          "accuracy": 0.4918032786885246,
+          "invalid": 16,
+          "errors": 0
+        }
+      },
+      "per_group4": {
+        "HLH+LHH+HHH": {
+          "processed": 957,
+          "expected": 957,
+          "correct": 381,
+          "accuracy": 0.3981191222570533,
+          "invalid": 8,
+          "errors": 0
+        },
+        "HLL+LHL+HHL": {
+          "processed": 406,
+          "expected": 406,
+          "correct": 160,
+          "accuracy": 0.39408866995073893,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 374,
+          "accuracy": 0.4410377358490566,
+          "invalid": 8,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 76,
+          "accuracy": 0.4318181818181818,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 175,
+          "accuracy": 0.4107981220657277,
+          "invalid": 6,
+          "errors": 0
+        },
+        "HHL": {
+          "processed": 230,
+          "expected": 230,
+          "correct": 86,
+          "accuracy": 0.3739130434782609,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 114,
+          "accuracy": 0.336283185840708,
+          "invalid": 1,
+          "errors": 0
+        },
+        "HLL": {
+          "processed": 96,
+          "expected": 96,
+          "correct": 32,
+          "accuracy": 0.3333333333333333,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 92,
+          "accuracy": 0.4791666666666667,
+          "invalid": 1,
+          "errors": 0
+        },
+        "LHL": {
+          "processed": 80,
+          "expected": 80,
+          "correct": 42,
+          "accuracy": 0.525,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 374,
+          "accuracy": 0.4410377358490566,
+          "invalid": 8,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 76,
+          "accuracy": 0.4318181818181818,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.43811182724547937
+    },
+    "qwen25vl_7b": {
+      "processed": 2387,
+      "expected": 2387,
+      "correct": 1053,
+      "accuracy": 0.4411395056556347,
+      "invalid": 0,
+      "errors": 0,
+      "status": "completed",
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 448,
+          "expected": 448,
+          "correct": 146,
+          "accuracy": 0.32589285714285715,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 462,
+          "expected": 462,
+          "correct": 250,
+          "accuracy": 0.5411255411255411,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 594,
+          "expected": 594,
+          "correct": 124,
+          "accuracy": 0.20875420875420875,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 405,
+          "expected": 405,
+          "correct": 255,
+          "accuracy": 0.6296296296296297,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 234,
+          "expected": 234,
+          "correct": 116,
+          "accuracy": 0.49572649572649574,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 244,
+          "expected": 244,
+          "correct": 162,
+          "accuracy": 0.6639344262295082,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group4": {
+        "HLH+LHH+HHH": {
+          "processed": 957,
+          "expected": 957,
+          "correct": 401,
+          "accuracy": 0.41901776384535006,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL+LHL+HHL": {
+          "processed": 406,
+          "expected": 406,
+          "correct": 186,
+          "accuracy": 0.458128078817734,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 383,
+          "accuracy": 0.4516509433962264,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 83,
+          "accuracy": 0.4715909090909091,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 180,
+          "accuracy": 0.4225352112676056,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHL": {
+          "processed": 230,
+          "expected": 230,
+          "correct": 102,
+          "accuracy": 0.4434782608695652,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 135,
+          "accuracy": 0.39823008849557523,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL": {
+          "processed": 96,
+          "expected": 96,
+          "correct": 43,
+          "accuracy": 0.4479166666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 86,
+          "accuracy": 0.4479166666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHL": {
+          "processed": 80,
+          "expected": 80,
+          "correct": 41,
+          "accuracy": 0.5125,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 383,
+          "accuracy": 0.4516509433962264,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 83,
+          "accuracy": 0.4715909090909091,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.47751052643470676
+    },
+    "vgllm_qa_4b": {
+      "processed": 2387,
+      "expected": 2387,
+      "correct": 953,
+      "accuracy": 0.39924591537494764,
+      "invalid": 0,
+      "errors": 0,
+      "status": "completed",
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 448,
+          "expected": 448,
+          "correct": 131,
+          "accuracy": 0.2924107142857143,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 462,
+          "expected": 462,
+          "correct": 232,
+          "accuracy": 0.5021645021645021,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 594,
+          "expected": 594,
+          "correct": 127,
+          "accuracy": 0.2138047138047138,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 405,
+          "expected": 405,
+          "correct": 216,
+          "accuracy": 0.5333333333333333,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 234,
+          "expected": 234,
+          "correct": 105,
+          "accuracy": 0.44871794871794873,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 244,
+          "expected": 244,
+          "correct": 142,
+          "accuracy": 0.5819672131147541,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group4": {
+        "HLH+LHH+HHH": {
+          "processed": 957,
+          "expected": 957,
+          "correct": 388,
+          "accuracy": 0.4054336468129572,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL+LHL+HHL": {
+          "processed": 406,
+          "expected": 406,
+          "correct": 156,
+          "accuracy": 0.3842364532019704,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 326,
+          "accuracy": 0.38443396226415094,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 83,
+          "accuracy": 0.4715909090909091,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 173,
+          "accuracy": 0.4061032863849765,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHL": {
+          "processed": 230,
+          "expected": 230,
+          "correct": 87,
+          "accuracy": 0.3782608695652174,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 127,
+          "accuracy": 0.3746312684365782,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL": {
+          "processed": 96,
+          "expected": 96,
+          "correct": 30,
+          "accuracy": 0.3125,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 88,
+          "accuracy": 0.4583333333333333,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHL": {
+          "processed": 80,
+          "expected": 80,
+          "correct": 39,
+          "accuracy": 0.4875,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 326,
+          "accuracy": 0.38443396226415094,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 83,
+          "accuracy": 0.4715909090909091,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.42873307090349444
+    },
+    "vgllm_qa_8b": {
+      "processed": 2387,
+      "expected": 2387,
+      "correct": 1132,
+      "accuracy": 0.47423544197737744,
+      "invalid": 0,
+      "errors": 0,
+      "status": "completed",
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 448,
+          "expected": 448,
+          "correct": 151,
+          "accuracy": 0.33705357142857145,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 462,
+          "expected": 462,
+          "correct": 311,
+          "accuracy": 0.6731601731601732,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 594,
+          "expected": 594,
+          "correct": 151,
+          "accuracy": 0.2542087542087542,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 405,
+          "expected": 405,
+          "correct": 259,
+          "accuracy": 0.6395061728395062,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 234,
+          "expected": 234,
+          "correct": 110,
+          "accuracy": 0.4700854700854701,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 244,
+          "expected": 244,
+          "correct": 150,
+          "accuracy": 0.6147540983606558,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group4": {
+        "HLH+LHH+HHH": {
+          "processed": 957,
+          "expected": 957,
+          "correct": 451,
+          "accuracy": 0.47126436781609193,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL+LHL+HHL": {
+          "processed": 406,
+          "expected": 406,
+          "correct": 222,
+          "accuracy": 0.5467980295566502,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 361,
+          "accuracy": 0.4257075471698113,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 98,
+          "accuracy": 0.5568181818181818,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 196,
+          "accuracy": 0.460093896713615,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHL": {
+          "processed": 230,
+          "expected": 230,
+          "correct": 126,
+          "accuracy": 0.5478260869565217,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 145,
+          "accuracy": 0.4277286135693215,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL": {
+          "processed": 96,
+          "expected": 96,
+          "correct": 43,
+          "accuracy": 0.4479166666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 110,
+          "accuracy": 0.5729166666666666,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHL": {
+          "processed": 80,
+          "expected": 80,
+          "correct": 53,
+          "accuracy": 0.6625,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 361,
+          "accuracy": 0.4257075471698113,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 98,
+          "accuracy": 0.5568181818181818,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.4981280400138552
+    },
+    "mllm4d_sft_8b": {
+      "processed": 2387,
+      "expected": 2387,
+      "correct": 1344,
+      "accuracy": 0.5630498533724341,
+      "invalid": 0,
+      "errors": 0,
+      "status": "completed",
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 448,
+          "expected": 448,
+          "correct": 155,
+          "accuracy": 0.34598214285714285,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 462,
+          "expected": 462,
+          "correct": 306,
+          "accuracy": 0.6623376623376623,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 594,
+          "expected": 594,
+          "correct": 249,
+          "accuracy": 0.41919191919191917,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 405,
+          "expected": 405,
+          "correct": 361,
+          "accuracy": 0.891358024691358,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 234,
+          "expected": 234,
+          "correct": 120,
+          "accuracy": 0.5128205128205128,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 244,
+          "expected": 244,
+          "correct": 153,
+          "accuracy": 0.6270491803278688,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group4": {
+        "HLH+LHH+HHH": {
+          "processed": 957,
+          "expected": 957,
+          "correct": 474,
+          "accuracy": 0.4952978056426332,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL+LHL+HHL": {
+          "processed": 406,
+          "expected": 406,
+          "correct": 242,
+          "accuracy": 0.5960591133004927,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 532,
+          "accuracy": 0.6273584905660378,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 96,
+          "accuracy": 0.5454545454545454,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 201,
+          "accuracy": 0.47183098591549294,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHL": {
+          "processed": 230,
+          "expected": 230,
+          "correct": 134,
+          "accuracy": 0.5826086956521739,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 160,
+          "accuracy": 0.471976401179941,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL": {
+          "processed": 96,
+          "expected": 96,
+          "correct": 56,
+          "accuracy": 0.5833333333333334,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 113,
+          "accuracy": 0.5885416666666666,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHL": {
+          "processed": 80,
+          "expected": 80,
+          "correct": 52,
+          "accuracy": 0.65,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 532,
+          "accuracy": 0.6273584905660378,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 96,
+          "accuracy": 0.5454545454545454,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.5764565737044106
+    },
+    "4drgpt_8b": {
+      "processed": 2387,
+      "expected": 2387,
+      "correct": 840,
+      "accuracy": 0.3519061583577713,
+      "invalid": 7,
+      "errors": 0,
+      "status": "completed",
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 448,
+          "expected": 448,
+          "correct": 111,
+          "accuracy": 0.24776785714285715,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 462,
+          "expected": 462,
+          "correct": 110,
+          "accuracy": 0.23809523809523808,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 594,
+          "expected": 594,
+          "correct": 166,
+          "accuracy": 0.27946127946127947,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 405,
+          "expected": 405,
+          "correct": 216,
+          "accuracy": 0.5333333333333333,
+          "invalid": 7,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 234,
+          "expected": 234,
+          "correct": 119,
+          "accuracy": 0.5085470085470085,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 244,
+          "expected": 244,
+          "correct": 118,
+          "accuracy": 0.48360655737704916,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group4": {
+        "HLH+LHH+HHH": {
+          "processed": 957,
+          "expected": 957,
+          "correct": 317,
+          "accuracy": 0.33124346917450365,
+          "invalid": 1,
+          "errors": 0
+        },
+        "HLL+LHL+HHL": {
+          "processed": 406,
+          "expected": 406,
+          "correct": 111,
+          "accuracy": 0.2733990147783251,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 350,
+          "accuracy": 0.41273584905660377,
+          "invalid": 4,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 62,
+          "accuracy": 0.3522727272727273,
+          "invalid": 2,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 134,
+          "accuracy": 0.3145539906103286,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHL": {
+          "processed": 230,
+          "expected": 230,
+          "correct": 60,
+          "accuracy": 0.2608695652173913,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 109,
+          "accuracy": 0.3215339233038348,
+          "invalid": 1,
+          "errors": 0
+        },
+        "HLL": {
+          "processed": 96,
+          "expected": 96,
+          "correct": 32,
+          "accuracy": 0.3333333333333333,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 74,
+          "accuracy": 0.3854166666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHL": {
+          "processed": 80,
+          "expected": 80,
+          "correct": 19,
+          "accuracy": 0.2375,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 350,
+          "accuracy": 0.41273584905660377,
+          "invalid": 4,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 62,
+          "accuracy": 0.3522727272727273,
+          "invalid": 2,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.3818018789927942
+    },
+    "dsr_suite_7b": {
+      "processed": 2387,
+      "expected": 2387,
+      "correct": 1020,
+      "accuracy": 0.427314620863008,
+      "invalid": 0,
+      "errors": 0,
+      "status": "completed",
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 448,
+          "expected": 448,
+          "correct": 161,
+          "accuracy": 0.359375,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 462,
+          "expected": 462,
+          "correct": 232,
+          "accuracy": 0.5021645021645021,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 594,
+          "expected": 594,
+          "correct": 138,
+          "accuracy": 0.23232323232323232,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 405,
+          "expected": 405,
+          "correct": 218,
+          "accuracy": 0.5382716049382716,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 234,
+          "expected": 234,
+          "correct": 124,
+          "accuracy": 0.5299145299145299,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 244,
+          "expected": 244,
+          "correct": 147,
+          "accuracy": 0.6024590163934426,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group4": {
+        "HLH+LHH+HHH": {
+          "processed": 957,
+          "expected": 957,
+          "correct": 413,
+          "accuracy": 0.4315569487983281,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL+LHL+HHL": {
+          "processed": 406,
+          "expected": 406,
+          "correct": 169,
+          "accuracy": 0.41625615763546797,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 362,
+          "accuracy": 0.4268867924528302,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 76,
+          "accuracy": 0.4318181818181818,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 181,
+          "accuracy": 0.42488262910798125,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHL": {
+          "processed": 230,
+          "expected": 230,
+          "correct": 93,
+          "accuracy": 0.4043478260869565,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 143,
+          "accuracy": 0.4218289085545723,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HLL": {
+          "processed": 96,
+          "expected": 96,
+          "correct": 42,
+          "accuracy": 0.4375,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 89,
+          "accuracy": 0.4635416666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHL": {
+          "processed": 80,
+          "expected": 80,
+          "correct": 34,
+          "accuracy": 0.425,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLH": {
+          "processed": 848,
+          "expected": 848,
+          "correct": 362,
+          "accuracy": 0.4268867924528302,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LLL": {
+          "processed": 176,
+          "expected": 176,
+          "correct": 76,
+          "accuracy": 0.4318181818181818,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.46075131428899646
+    }
+  },
+  "jobs": [
+    {
+      "model": "qwen25vl_3b",
+      "gpu": 0,
+      "shard": 0,
+      "pid": 376530,
+      "exit_code": 0,
+      "attempts": 1
+    },
+    {
+      "model": "qwen25vl_7b",
+      "gpu": 1,
+      "shard": 0,
+      "pid": 376531,
+      "exit_code": 0,
+      "attempts": 1
+    },
+    {
+      "model": "vgllm_qa_4b",
+      "gpu": 2,
+      "shard": 0,
+      "pid": 376532,
+      "exit_code": 0,
+      "attempts": 1
+    },
+    {
+      "model": "vgllm_qa_8b",
+      "gpu": 3,
+      "shard": 0,
+      "pid": 376533,
+      "exit_code": 0,
+      "attempts": 1
+    },
+    {
+      "model": "vgllm_qa_8b",
+      "gpu": 4,
+      "shard": 1,
+      "pid": 376534,
+      "exit_code": 0,
+      "attempts": 1
+    },
+    {
+      "model": "mllm4d_sft_8b",
+      "gpu": 5,
+      "shard": 0,
+      "pid": 376535,
+      "exit_code": 0,
+      "attempts": 1
+    },
+    {
+      "model": "4drgpt_8b",
+      "gpu": 6,
+      "shard": 0,
+      "pid": 376536,
+      "exit_code": 0,
+      "attempts": 1
+    },
+    {
+      "model": "dsr_suite_7b",
+      "gpu": 7,
+      "shard": 0,
+      "pid": 376968,
+      "exit_code": 0,
+      "attempts": 3
+    }
+  ],
+  "reference_status": "automatic geometry labels, not visually reviewed",
+  "eta": {
+    "remaining_seconds": 0,
+    "range_seconds": [
+      0,
+      0
+    ],
+    "shards": [
+      {
+        "model": "qwen25vl_3b",
+        "shard": 0,
+        "gpu": 0,
+        "remaining": 0,
+        "mean_seconds": 1.9124181320762956,
+        "measured": 2040,
+        "phase": "completed",
+        "seconds": 0.0
+      },
+      {
+        "model": "qwen25vl_7b",
+        "shard": 0,
+        "gpu": 1,
+        "remaining": 0,
+        "mean_seconds": 1.8840325434710465,
+        "measured": 2040,
+        "phase": "completed",
+        "seconds": 0.0
+      },
+      {
+        "model": "vgllm_qa_4b",
+        "shard": 0,
+        "gpu": 2,
+        "remaining": 0,
+        "mean_seconds": 1.7402854676513622,
+        "measured": 2040,
+        "phase": "completed",
+        "seconds": 0.0
+      },
+      {
+        "model": "vgllm_qa_8b",
+        "shard": 0,
+        "gpu": 3,
+        "remaining": 0,
+        "mean_seconds": 1.6348646288902007,
+        "measured": 2040,
+        "phase": "completed",
+        "seconds": 0.0
+      },
+      {
+        "model": "vgllm_qa_8b",
+        "shard": 1,
+        "gpu": 4,
+        "remaining": 0,
+        "mean_seconds": 1.6348646288902007,
+        "measured": 2040,
+        "phase": "completed",
+        "seconds": 0.0
+      },
+      {
+        "model": "mllm4d_sft_8b",
+        "shard": 0,
+        "gpu": 5,
+        "remaining": 0,
+        "mean_seconds": 0.17043188424032255,
+        "measured": 2040,
+        "phase": "completed",
+        "seconds": 0.0
+      },
+      {
+        "model": "4drgpt_8b",
+        "shard": 0,
+        "gpu": 6,
+        "remaining": 0,
+        "mean_seconds": 0.15578711180235533,
+        "measured": 2040,
+        "phase": "completed",
+        "seconds": 0.0
+      },
+      {
+        "model": "dsr_suite_7b",
+        "shard": 0,
+        "gpu": 7,
+        "remaining": 0,
+        "mean_seconds": 0.5678898764163206,
+        "measured": 2387,
+        "phase": "completed",
+        "seconds": 0.0
+      }
+    ],
+    "method": "Maximum remaining shard times observed generation service time; prior timings only before new observations. Checkpoint download wait is additional."
+  }
+}

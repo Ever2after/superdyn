@@ -1,0 +1,1944 @@
+{
+  "source": {
+    "id": "unfinished_building",
+    "category": "조형물",
+    "rank": 3,
+    "title": "Unfinished Building",
+    "listing_id": "25f2e7e5-5cca-48a5-99a3-35c38b8240ac",
+    "source_url": "https://www.fab.com/listings/25f2e7e5-5cca-48a5-99a3-35c38b8240ac",
+    "owned": false,
+    "status": "awaiting_library_addition"
+  },
+  "original_files_verified": 382,
+  "original_bytes": 3278900240,
+  "asset_id": "4141f08fecea49249b0ca953ead93e2d",
+  "engine": {
+    "artifactId": "Unfinishefd623cfe7e2V1",
+    "matchType": "exact",
+    "requested": "UE_5.8",
+    "selected": "UE_5.8",
+    "available": [
+      "UE_5.4",
+      "UE_5.5",
+      "UE_5.6",
+      "UE_5.7",
+      "UE_5.8"
+    ]
+  },
+  "copied_content": [
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Blueprints/Ind_Unf_Wire/BP_Ind_Unf_Wire.uasset",
+      "sha1": "cf71aeeb4e0bc8a91bc969a6d8395911978d5e76",
+      "bytes": 68244
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Blueprints/Ind_Unf_Wire/SM_Ind_Unf_Wire.uasset",
+      "sha1": "80c70377b378b0fa5a200fac83267d5a220500a1",
+      "bytes": 20248
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__FloorPlane_01/SM_Ind_Unf_FloorPlane_01.uasset",
+      "sha1": "67af3802b2db33fb0993cd178184a9175556a718",
+      "bytes": 2382075
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__FloorPlane_02/SM_Ind_Unf_FloorPlane_02.uasset",
+      "sha1": "89c71b3b0600a2c18222b1837d7367beb3c51abd",
+      "bytes": 2441120
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Pillar_01/SM_Ind_Unf_Pillar_01.uasset",
+      "sha1": "9daabba235b747356e6ac30b7f1c0d0a3f8b6232",
+      "bytes": 16233
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__StairBase_01/SM_Ind_Unf_StairBase_01.uasset",
+      "sha1": "d31c9562ee88e665fb75cf3ae88b35fcfe1ecc83",
+      "bytes": 17009
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__StairBase_01/SM_Ind_Unf_StairBase_02.uasset",
+      "sha1": "12197d9e2a6454c2b982f8edbcf115bf1f0e4bc5",
+      "bytes": 16384
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Wall_01/SM_Ind_Unf_Wall_01.uasset",
+      "sha1": "2d0b9001a8e589e54d46a98def391fb6e8b20e70",
+      "bytes": 15072
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Wall_02/SM_Ind_Unf_Wall_02.uasset",
+      "sha1": "543694b3ab4c34a9b6a9b478f83a7997597e7ab8",
+      "bytes": 15224
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Wall_03/SM_Ind_Unf_Wall_03.uasset",
+      "sha1": "2776feb8b94c774bf156a0f0a4fd6b42d8e04b4e",
+      "bytes": 18481
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__Window_01/SM_Ind_Unf_Window_01.uasset",
+      "sha1": "5b2d6d215646b7ea14920336245d144e44961cda",
+      "bytes": 31346
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowFrame_01/SM_Ind_Unf_WindowFrame_01.uasset",
+      "sha1": "78ca582091b271381e1b185d26b64724a17d738e",
+      "bytes": 15866
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowFrame_01/SM_Ind_Unf_WindowFrame_02.uasset",
+      "sha1": "cb3c9a1e50728eb684141539fc1d7bf8937eef20",
+      "bytes": 15797
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowFrame_01/SM_Ind_Unf_WindowFrame_03.uasset",
+      "sha1": "a99dfa0d4cacaffcc3b9e8dcca0827dda3430b10",
+      "bytes": 31151
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf__WindowGlass_01/SM_Ind_Unf_WindowGlass_01.uasset",
+      "sha1": "282b5ee334698728d9965d04ae24976f9759d4bd",
+      "bytes": 15200
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Ind_Unf_Ceiling_01/SM_Ind_Unf_Ceiling_01.uasset",
+      "sha1": "e5176f84bc49c714030a509388e001032b15fed2",
+      "bytes": 15838
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Custom/Inf_Unf_GlowPlane/SM_Ind_Unf_GlowPlane_01.uasset",
+      "sha1": "3b94a5b2c44419a50ca87e071b55dc5a42e14143",
+      "bytes": 16376
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/MI_Ind_Con_Beams_Ceiling_Concrete_Rough_01.uasset",
+      "sha1": "2ec0a1d2018b8002dd701a7d0b041a78046badc7",
+      "bytes": 15239
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/SM_Ind_Con_Beams_Ceiling_Concrete_Rough_01.uasset",
+      "sha1": "8152b842ae42ad9b4000d82df7fb61f8ff2d8ed9",
+      "bytes": 135485623
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_D.uasset",
+      "sha1": "9c95d978528921da55a42c3d077a964058164b86",
+      "bytes": 4441870
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_DpR.uasset",
+      "sha1": "e9d20e0adbf284e1af4cb29acf8c7df48311b6ff",
+      "bytes": 1599609
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_01/T_Ind_Con_Beams_Ceiling_Concrete_Rough_01_N.uasset",
+      "sha1": "abb16740dedc08b27fb6d59d44dcd513b265c565",
+      "bytes": 2834094
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/MI_Ind_Con_Beams_Ceiling_Concrete_Rough_02.uasset",
+      "sha1": "46b9e16105d21da4d9baf6933229d7c449bb48ef",
+      "bytes": 13864
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/SM_Ind_Con_Beams_Ceiling_Concrete_Rough_02.uasset",
+      "sha1": "c156b9b55de1706162f72918a2c998bc8e534e23",
+      "bytes": 65150814
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_D.uasset",
+      "sha1": "7908839bbf013a8b0189aaad5e598d36f4239e81",
+      "bytes": 4337241
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_DpR.uasset",
+      "sha1": "35e73abc72c29792b7923c24b130f97d2eba7c26",
+      "bytes": 858515
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_02/T_Ind_Con_Beams_Ceiling_Concrete_Rough_02_N.uasset",
+      "sha1": "25bf50c465b6d6a6fbeb2a5dbd74637cfc046e17",
+      "bytes": 2969579
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/MI_Ind_Con_Beams_Ceiling_Concrete_Rough_03.uasset",
+      "sha1": "4446210e806f783d165550f9d16de520cca234e5",
+      "bytes": 13697
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/SM_Ind_Con_Beams_Ceiling_Concrete_Rough_03.uasset",
+      "sha1": "e3470d0ef4017961a9d42ae599acac367fa9b19b",
+      "bytes": 34562039
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_D.uasset",
+      "sha1": "1bb762e3c591fed182139e43569191dfe5c6306e",
+      "bytes": 4439203
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_DpR.uasset",
+      "sha1": "f2be97ca80e5514769832def0e78ea422cb626ec",
+      "bytes": 1720070
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Rough_03/T_Ind_Con_Beams_Ceiling_Concrete_Rough_03_N.uasset",
+      "sha1": "5809317c182d0afaa56614ecc78c4c983101304b",
+      "bytes": 3092772
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/MI_Ind_Con_Beams_Ceiling_Concrete_Worn_01.uasset",
+      "sha1": "0a6fa0237cbef2fad8239e6caa769974e81be5ee",
+      "bytes": 13482
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/SM_Ind_Con_Beams_Ceiling_Concrete_Worn_01.uasset",
+      "sha1": "637285b7b9ee192c8e6833f30a80087b82992aac",
+      "bytes": 134635109
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_D.uasset",
+      "sha1": "10b2bba9ebae9b24fdc78cfa70d764d9bcaca997",
+      "bytes": 4493159
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_DpR.uasset",
+      "sha1": "507109627b533c95e892af97d99aa9eed5e4aead",
+      "bytes": 1408378
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_01/T_Ind_Con_Beams_Ceiling_Concrete_Worn_01_N.uasset",
+      "sha1": "1010573e5025f882619dfa7c8131acde83c79e2b",
+      "bytes": 2768433
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/MI_Ind_Con_Beams_Ceiling_Concrete_Worn_02.uasset",
+      "sha1": "8cddcd434b83c790149b896cdc87c21c8ab1ce70",
+      "bytes": 15245
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/SM_Ind_Con_Beams_Ceiling_Concrete_Worn_02.uasset",
+      "sha1": "12e26c1a8a2f32ee1b8ffa83766bf61c1ca3431b",
+      "bytes": 67463808
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_D.uasset",
+      "sha1": "569b4b9a68e7732324edfa4c18c8935f2c13aab1",
+      "bytes": 4541753
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_DpR.uasset",
+      "sha1": "99c003c06d7f43720e543f9ba1c261d13b6058df",
+      "bytes": 1462835
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_02/T_Ind_Con_Beams_Ceiling_Concrete_Worn_02_N.uasset",
+      "sha1": "8a69b15d16e9f72844a6abfd00befc36be9f6bf4",
+      "bytes": 3149686
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/MI_Ind_Con_Beams_Ceiling_Concrete_Worn_03.uasset",
+      "sha1": "0946850cdc77d25c43fe9530d98589602c76ad85",
+      "bytes": 13700
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/SM_Ind_Con_Beams_Ceiling_Concrete_Worn_03.uasset",
+      "sha1": "9dd008b648c4b628c64d6c3c46a2d790682083fa",
+      "bytes": 66944074
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_D.uasset",
+      "sha1": "855664059221a1f953d4979ac9c3611fe36a2b90",
+      "bytes": 4207212
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_DpR.uasset",
+      "sha1": "fa9d2adbffedfacc9b22bc5a5bc8b42cffe0ae1f",
+      "bytes": 1596179
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Beams_Ceiling_Concrete_Worn_03/T_Ind_Con_Beams_Ceiling_Concrete_Worn_03_N.uasset",
+      "sha1": "9d24bf38ac6d305d6d1c1802042bc7257576d9c0",
+      "bytes": 3003537
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/MI_Ind_Con_Pile_Rubble_Gravel_Patch_01.uasset",
+      "sha1": "2b1a5670e89315b10bc258467925baad359ba85e",
+      "bytes": 17455
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/SM_Ind_Con_Pile_Rubble_Gravel_Patch_01.uasset",
+      "sha1": "093ba1ec63bcd0ce455a0b95d9b4dd32dbdb726b",
+      "bytes": 102736138
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/T_Ind_Con_Pile_Rubble_Gravel_Patch_01_D.uasset",
+      "sha1": "a0fc37b3db0752d9c132793c228bc6ffd4c04c48",
+      "bytes": 4564078
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/T_Ind_Con_Pile_Rubble_Gravel_Patch_01_DpR.uasset",
+      "sha1": "6d500ae1c31c4f02cd6c1ef9189cf48435172b6d",
+      "bytes": 2194340
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pile_Rubble_Gravel_Patch_01/T_Ind_Con_Pile_Rubble_Gravel_Patch_01_N.uasset",
+      "sha1": "d630d3f7f893fdb3663b44cd0e1e956619813874",
+      "bytes": 4173509
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/MI_Ind_Con_Pillar_Concrete_Round_01.uasset",
+      "sha1": "5a57d12ba42dff4c2dfae64fa19cc600a38e9d21",
+      "bytes": 13137
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/SM_Ind_Con_Pillar_Concrete_Round_01.uasset",
+      "sha1": "61ebb1440e7d6fe0c9cd81f965a324849df09765",
+      "bytes": 132227290
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/T_Ind_Con_Pillar_Concrete_Round_01_D.uasset",
+      "sha1": "5c1bcad78f38292b2cf4dbb188bc5296a108e64a",
+      "bytes": 15409948
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/T_Ind_Con_Pillar_Concrete_Round_01_DpR.uasset",
+      "sha1": "ad8b5e2c948ada95b9dd1a44fd903c1bfa73b2f3",
+      "bytes": 5734150
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Concrete_Round_01/T_Ind_Con_Pillar_Concrete_Round_01_N.uasset",
+      "sha1": "f6b34dadf9d2024409bc28188c9be67f99a6c3f7",
+      "bytes": 10976812
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/MI_Ind_Con_Pillar_Round_Concrete_01.uasset",
+      "sha1": "5af293259501a685b9bea3b6fa4e1be587c05b79",
+      "bytes": 12297
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/SM_Ind_Con_Pillar_Round_Concrete_01.uasset",
+      "sha1": "0d560b370985e6833f00c298ec5aadfd155983fa",
+      "bytes": 66684941
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/T_Ind_Con_Pillar_Round_Concrete_01_D.uasset",
+      "sha1": "ac3809eb93c723ad7e733e2ff6f803ea02e75fe9",
+      "bytes": 13268067
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/T_Ind_Con_Pillar_Round_Concrete_01_DpR.uasset",
+      "sha1": "14523e0ec23d5e2fdc1e5003b0290affe18770ec",
+      "bytes": 4669154
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_01/T_Ind_Con_Pillar_Round_Concrete_01_N.uasset",
+      "sha1": "baf0a9603836c7aa7f3d253f27e1c88da1a15d76",
+      "bytes": 10036754
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/MI_Ind_Con_Pillar_Round_Concrete_02.uasset",
+      "sha1": "2be1f1f3042a253d48ca952624045febc34b7905",
+      "bytes": 13685
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/SM_Ind_Con_Pillar_Round_Concrete_02.uasset",
+      "sha1": "361a856282f01ca69f81c47f55f32a0f56d9cf05",
+      "bytes": 134599648
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/T_Ind_Con_Pillar_Round_Concrete_02_D.uasset",
+      "sha1": "3194c1f420bf4560bb517013a27e3bcdd32808b0",
+      "bytes": 17573137
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/T_Ind_Con_Pillar_Round_Concrete_02_DpR.uasset",
+      "sha1": "532c08e4bef9ef35f7c627efa06510c4988873d4",
+      "bytes": 5650694
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Round_Concrete_02/T_Ind_Con_Pillar_Round_Concrete_02_N.uasset",
+      "sha1": "c0c45da76c017f73f5059224e88adeebbfc169ac",
+      "bytes": 13452649
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/MI_Ind_Con_Pillar_Square_Concrete_Stained_01.uasset",
+      "sha1": "0c802180d889a71e9a9eab054843455e861b59b3",
+      "bytes": 15164
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/SM_Ind_Con_Pillar_Square_Concrete_Stained_01.uasset",
+      "sha1": "1eb5f8377776c90c8ad7285475bd2a8ec685b3da",
+      "bytes": 36091033
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/T_Ind_Con_Pillar_Square_Concrete_Stained_01_D.uasset",
+      "sha1": "22316357a6fc4ddd857c1ba059e53c9bc5633b8a",
+      "bytes": 17766121
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/T_Ind_Con_Pillar_Square_Concrete_Stained_01_DpR.uasset",
+      "sha1": "f910ae115c35ad95f25be1396b7d5ba445a18d54",
+      "bytes": 7884256
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Pillar_Square_Concrete_Stained_01/T_Ind_Con_Pillar_Square_Concrete_Stained_01_N.uasset",
+      "sha1": "08e1621096bd956aea1f26f042ed999c8aee0600",
+      "bytes": 15053087
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/MI_Ind_Con_Stairs_Concrete_Worn_01_A.uasset",
+      "sha1": "20095a1234f37d304c2cbab1884dd1efc5808efe",
+      "bytes": 14562
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/MI_Ind_Con_Stairs_Concrete_Worn_01_B.uasset",
+      "sha1": "7ae99729bfbc7bfd6adcdab6bedeaaf57a2ed5f2",
+      "bytes": 14840
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/SM_Ind_Con_Stairs_Concrete_Worn_01.uasset",
+      "sha1": "06ee909c7f5996d4dda45408433542987993d31a",
+      "bytes": 92970371
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/T_Ind_Con_Stairs_Concrete_Worn_01_D.uasset",
+      "sha1": "51bb434ced10e06c3ba276fcbe362db1043a4679",
+      "bytes": 17597520
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/T_Ind_Con_Stairs_Concrete_Worn_01_DpR.uasset",
+      "sha1": "7e41811bc0701be6ecd00353b83baea1cb1d3287",
+      "bytes": 6519808
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Stairs_Concrete_Worn_01/T_Ind_Con_Stairs_Concrete_Worn_01_N.uasset",
+      "sha1": "97419b27553994f75afcc50c4f63643382d73d14",
+      "bytes": 14282227
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/MI_Ind_Con_Storeage_Sack_Debris_M_01.uasset",
+      "sha1": "6a2fc70bed0b0bb14dc2a4985e42d0b9b616a5e0",
+      "bytes": 16528
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/SM_Ind_Con_Storeage_Sack_Debris_M_01.uasset",
+      "sha1": "6fd2d5342dd7e39b4709e573094b899190aa12b0",
+      "bytes": 136113384
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/T_Ind_Con_Storeage_Sack_Debris_M_01_D.uasset",
+      "sha1": "0ce5ee851b3c24a8209863bcbde6201d148573dd",
+      "bytes": 5208990
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/T_Ind_Con_Storeage_Sack_Debris_M_01_DpR.uasset",
+      "sha1": "2b6b8bb24108d81fa234f32fb1989354f06e0928",
+      "bytes": 2110236
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Con_Storeage_Sack_Debris_M_01/T_Ind_Con_Storeage_Sack_Debris_M_01_N.uasset",
+      "sha1": "c10c1107cedc3a530747a8c31c0462fd4b129144",
+      "bytes": 4132905
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/MI_Ind_Fac_Container_Drum_Metal_Worn_02.uasset",
+      "sha1": "9012f960f4059ce1a45e0c927f469e289d1889c9",
+      "bytes": 12876
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/SM_Ind_Fac_Container_Drum_Metal_Worn_02.uasset",
+      "sha1": "f3444148d0a6a157ffdb724c468934abbe1b8111",
+      "bytes": 136172614
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/T_Ind_Fac_Container_Drum_Metal_Worn_02_D.uasset",
+      "sha1": "800e6886e02803bbad7f5d4930a07f405796aad8",
+      "bytes": 4415581
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/T_Ind_Fac_Container_Drum_Metal_Worn_02_DpR.uasset",
+      "sha1": "402f338a9d6149e9641c1fc08b4ca00c9c25b00b",
+      "bytes": 1513519
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Fac_Container_Drum_Metal_Worn_02/T_Ind_Fac_Container_Drum_Metal_Worn_02_N.uasset",
+      "sha1": "bc87e4509c37369295d358cff13fa45e95fe2c3b",
+      "bytes": 2776432
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/MI_Ind_Rub_Block_Cinder_Concrete_Chipped_02.uasset",
+      "sha1": "e6be995be62416a0b7dcfd6537410e577c2463c8",
+      "bytes": 15170
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/SM_Ind_Rub_Block_Cinder_Concrete_Chipped_02.uasset",
+      "sha1": "b819014c9b70f653fc131313b98ca6ada5f8be0a",
+      "bytes": 792454
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_D.uasset",
+      "sha1": "bb874a5afca0ff6e586c2bdff1698db7747f14e4",
+      "bytes": 1258080
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_DpR.uasset",
+      "sha1": "2e1c291c6582be16cdaa98dccb31b36344b7c182",
+      "bytes": 552574
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_02/T_Ind_Rub_Block_Cinder_Concrete_Chipped_02_N.uasset",
+      "sha1": "bb1c03fe166c9a5395521ca3307b9b273c4adada",
+      "bytes": 1120762
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/MI_Ind_Rub_Block_Cinder_Concrete_Chipped_03.uasset",
+      "sha1": "978689f0a97c1a62cc4caf0d6c7e983f2dff32c2",
+      "bytes": 14932
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/SM_Ind_Rub_Block_Cinder_Concrete_Chipped_03.uasset",
+      "sha1": "a900bd7eb61ff0ee9c18dd8281811cbc3bc82529",
+      "bytes": 69460486
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_D.uasset",
+      "sha1": "4dcd320cfe94abb5b55b7c63b4591f96e316c298",
+      "bytes": 1210729
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_DpR.uasset",
+      "sha1": "9e57bac58fe8621d9e1ef923e88306f3d6f32c1c",
+      "bytes": 415952
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Block_Cinder_Concrete_Chipped_03/T_Ind_Rub_Block_Cinder_Concrete_Chipped_03_N.uasset",
+      "sha1": "e72ed7b20e8f0813feac5b6be2f5b62f1334f963",
+      "bytes": 1086562
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/MI_Ind_Rub_Debris_Concrete_Broken_01.uasset",
+      "sha1": "4b90beb04463beba215aac220dab0bc7c32f5631",
+      "bytes": 14885
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/SM_Ind_Rub_Debris_Concrete_Broken_01.uasset",
+      "sha1": "53d51391508a958f96071718ae670bd09ba22e91",
+      "bytes": 437418
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/T_Ind_Rub_Debris_Concrete_Broken_01_D.uasset",
+      "sha1": "55c469524299099f2b48adb378cbfa63a6dc3d6a",
+      "bytes": 303408
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/T_Ind_Rub_Debris_Concrete_Broken_01_DpR.uasset",
+      "sha1": "7c8be2fa26fc1784d61817b5a4ce1a671581e519",
+      "bytes": 101290
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_01/T_Ind_Rub_Debris_Concrete_Broken_01_N.uasset",
+      "sha1": "7b024b3fedacdeab414ca977527bfd12516fad68",
+      "bytes": 282080
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/MI_Ind_Rub_Debris_Concrete_Broken_02.uasset",
+      "sha1": "4bd0259e616dddbd1813a54ab463235027be75fb",
+      "bytes": 14671
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/SM_Ind_Rub_Debris_Concrete_Broken_02.uasset",
+      "sha1": "492f00072d28abca3db9a06891de6a2635e7fc71",
+      "bytes": 437906
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/T_Ind_Rub_Debris_Concrete_Broken_02_D.uasset",
+      "sha1": "a38313c3ba96e033cf85d52b65483fef9cda02fd",
+      "bytes": 303173
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/T_Ind_Rub_Debris_Concrete_Broken_02_DpR.uasset",
+      "sha1": "b9d5cf94259402f82d3d3a004325543bf2acb722",
+      "bytes": 114515
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_02/T_Ind_Rub_Debris_Concrete_Broken_02_N.uasset",
+      "sha1": "de29ba5158c74ac4b8c4ea6ddfdb4e1c42e012ca",
+      "bytes": 283949
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/MI_Ind_Rub_Debris_Concrete_Broken_03.uasset",
+      "sha1": "043278add7d1d1f1a0e965c03a2333cf1bdfdef8",
+      "bytes": 15851
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/SM_Ind_Rub_Debris_Concrete_Broken_03.uasset",
+      "sha1": "2b481321f5c22fc2239c1b2aa0996dd480b9809c",
+      "bytes": 416958
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/T_Ind_Rub_Debris_Concrete_Broken_03_D.uasset",
+      "sha1": "bda7b0ba1d9f1255474e4169fde7bca5d2b83a47",
+      "bytes": 307034
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/T_Ind_Rub_Debris_Concrete_Broken_03_DpR.uasset",
+      "sha1": "0caf3ec5d7600f46e70b6b10bfa5a60ccc07c0cf",
+      "bytes": 110423
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_03/T_Ind_Rub_Debris_Concrete_Broken_03_N.uasset",
+      "sha1": "67941b201ff21b5c5ca7a0c7892cdd439aed4842",
+      "bytes": 280000
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/MI_Ind_Rub_Debris_Concrete_Broken_04.uasset",
+      "sha1": "e87ea51809ea00254996247ac9c11bb28a031a7e",
+      "bytes": 15705
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/SM_Ind_Rub_Debris_Concrete_Broken_04.uasset",
+      "sha1": "c3df2ea1c9657d5a61a9446f113f13b539632687",
+      "bytes": 548759
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/T_Ind_Rub_Debris_Concrete_Broken_04_D.uasset",
+      "sha1": "772d187e3b4e83cfe7785bf0e3cf9672d45db3df",
+      "bytes": 316820
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/T_Ind_Rub_Debris_Concrete_Broken_04_DpR.uasset",
+      "sha1": "3161ddb3fde08a989ce5f59c5b6afb6e42e1f59e",
+      "bytes": 97440
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_04/T_Ind_Rub_Debris_Concrete_Broken_04_N.uasset",
+      "sha1": "25c7f78121ef92bac0b35c18219d4ea0926a22cb",
+      "bytes": 279948
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/MI_Ind_Rub_Debris_Concrete_Broken_05.uasset",
+      "sha1": "4ecdef0367f4abe3310f6539516949a140c7067c",
+      "bytes": 14895
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/SM_Ind_Rub_Debris_Concrete_Broken_05.uasset",
+      "sha1": "17cc9122e2d652f364d21c01689ec84a5ef64049",
+      "bytes": 436709
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/T_Ind_Rub_Debris_Concrete_Broken_05_D.uasset",
+      "sha1": "cf56776df650d8517e53f8714fe197434677bf1c",
+      "bytes": 305394
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/T_Ind_Rub_Debris_Concrete_Broken_05_DpR.uasset",
+      "sha1": "7a44fd505cd71bf7388dbfee378a2168dd008455",
+      "bytes": 98799
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_05/T_Ind_Rub_Debris_Concrete_Broken_05_N.uasset",
+      "sha1": "95047db19424a435a8a2bb36ac86107d6afa43a7",
+      "bytes": 281873
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/MI_Ind_Rub_Debris_Concrete_Broken_06.uasset",
+      "sha1": "7dc6e2cd7c7d1bc9d35bbcba1498f5ef2781ea36",
+      "bytes": 15737
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/SM_Ind_Rub_Debris_Concrete_Broken_06.uasset",
+      "sha1": "c08920f4120350bda87fc91d6e3544404f46e2d0",
+      "bytes": 461918
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/T_Ind_Rub_Debris_Concrete_Broken_06_D.uasset",
+      "sha1": "f35b3af18c9e9a326b97e1f668cdbb3569610f9a",
+      "bytes": 308519
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/T_Ind_Rub_Debris_Concrete_Broken_06_DpR.uasset",
+      "sha1": "60a03dce35683ce0e46a7a083689c6f67e1ce72f",
+      "bytes": 98459
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_Broken_06/T_Ind_Rub_Debris_Concrete_Broken_06_N.uasset",
+      "sha1": "49c464fdd10c8c36e634c360384e17896de6022f",
+      "bytes": 288992
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/MI_Ind_Rub_Debris_Concrete_S_01.uasset",
+      "sha1": "03fd6d0e428a0309eb683e7aa137d3faa7018713",
+      "bytes": 14726
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/SM_Ind_Rub_Debris_Concrete_S_01.uasset",
+      "sha1": "50052d7a9e00a6ff33a2b9f65483666c69f975c7",
+      "bytes": 503938
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/T_Ind_Rub_Debris_Concrete_S_01_D.uasset",
+      "sha1": "3198a4dd7a4326ff6cfaa79390fce8d18cbf1265",
+      "bytes": 313140
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/T_Ind_Rub_Debris_Concrete_S_01_DpR.uasset",
+      "sha1": "6613fcf881cab4b3891cecffc0b4790196136729",
+      "bytes": 131113
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_01/T_Ind_Rub_Debris_Concrete_S_01_N.uasset",
+      "sha1": "9e47528536f13afd2d22668d34e3c434e50378c4",
+      "bytes": 286803
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/MI_Ind_Rub_Debris_Concrete_S_02.uasset",
+      "sha1": "73b561af7702915d372bc0a27f4863753448b572",
+      "bytes": 15897
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/SM_Ind_Rub_Debris_Concrete_S_02.uasset",
+      "sha1": "a08a2730ca3e425fa42458c79e51cf17a433c261",
+      "bytes": 457824
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/T_Ind_Rub_Debris_Concrete_S_02_D.uasset",
+      "sha1": "e91d7b921c2075d39e3877e0cbf4e9b24fa39f2c",
+      "bytes": 323202
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/T_Ind_Rub_Debris_Concrete_S_02_DpR.uasset",
+      "sha1": "3914daea9bc47305b279bfb91bac395ffb885064",
+      "bytes": 126274
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_02/T_Ind_Rub_Debris_Concrete_S_02_N.uasset",
+      "sha1": "9377d43e0efc25a4bdc4cf8950f94265ed24cf94",
+      "bytes": 278327
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/MI_Ind_Rub_Debris_Concrete_S_03.uasset",
+      "sha1": "d1facce331f60e11616c575490097d190ee5bc27",
+      "bytes": 16540
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/SM_Ind_Rub_Debris_Concrete_S_03.uasset",
+      "sha1": "f05792c81c2072cf369300d503aa56ef729503d0",
+      "bytes": 480895
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/T_Ind_Rub_Debris_Concrete_S_03_D.uasset",
+      "sha1": "2632b45c45dc448407edf6d6acaab44bb2987861",
+      "bytes": 326714
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/T_Ind_Rub_Debris_Concrete_S_03_DpR.uasset",
+      "sha1": "07ef055fd986cb5f7821b934cea62e2175626bf1",
+      "bytes": 131853
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Debris_Concrete_S_03/T_Ind_Rub_Debris_Concrete_S_03_N.uasset",
+      "sha1": "7e9916de972baa1dfc1914bfb83bc430545b6a66",
+      "bytes": 290326
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/MI_Ind_Rub_Pile_Concrete_M_01.uasset",
+      "sha1": "898030fcde060e01bf85b09fac63875222d04484",
+      "bytes": 19972
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/SM_Ind_Rub_Pile_Concrete_M_01.uasset",
+      "sha1": "4f950e7cdbf86e87015cb70f7d440b5b5baad64d",
+      "bytes": 140691370
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/T_Ind_Rub_Pile_Concrete_M_01_D.uasset",
+      "sha1": "bc1683e26f67e6a1caedef6d69181d6fa30b11fa",
+      "bytes": 5205016
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/T_Ind_Rub_Pile_Concrete_M_01_DpR.uasset",
+      "sha1": "d987cfbe558a7a4ae3be8740cec8e06e72716f26",
+      "bytes": 2172931
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_01/T_Ind_Rub_Pile_Concrete_M_01_N.uasset",
+      "sha1": "75df8398eb4747d274976ab49d994c558b78a354",
+      "bytes": 4847630
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/MI_Ind_Rub_Pile_Concrete_M_05.uasset",
+      "sha1": "134fee016966af454d834d75253c113652ba5d45",
+      "bytes": 18702
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/SM_Ind_Rub_Pile_Concrete_M_05.uasset",
+      "sha1": "b781aee14465e5e82637080cf4cf411d60afac81",
+      "bytes": 142537837
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/T_Ind_Rub_Pile_Concrete_M_05_D.uasset",
+      "sha1": "bf627a1bf36e5d4daf915d2ed90d6d0677316a28",
+      "bytes": 5272510
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/T_Ind_Rub_Pile_Concrete_M_05_DpR.uasset",
+      "sha1": "f40cf98b9b4c2bff8835e60af6628e18363cc884",
+      "bytes": 2170219
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Concrete_M_05/T_Ind_Rub_Pile_Concrete_M_05_N.uasset",
+      "sha1": "43ed3f3fd798228c656bc9d0167e02f1eaa3761f",
+      "bytes": 4784683
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/MI_Ind_Rub_Pile_Debris_Concrete_M_05.uasset",
+      "sha1": "f390dc0766d0ac53c9a45d4012acae28e5cb42c4",
+      "bytes": 15819
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/SM_Ind_Rub_Pile_Debris_Concrete_M_05.uasset",
+      "sha1": "b2402c027aad7ddfa45a893d9782df08540012e1",
+      "bytes": 240538410
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/T_Ind_Rub_Pile_Debris_Concrete_M_05_D.uasset",
+      "sha1": "370412e37cae8dd958a7fb6079fc00e2726c5321",
+      "bytes": 5272716
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/T_Ind_Rub_Pile_Debris_Concrete_M_05_DpR.uasset",
+      "sha1": "333986e073abd93e550da47f9f58045877db9edb",
+      "bytes": 2434058
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Concrete_M_05/T_Ind_Rub_Pile_Debris_Concrete_M_05_N.uasset",
+      "sha1": "97b5fe4d8f92edb04bcd0a89f44cb714b8fa7419",
+      "bytes": 4470195
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/MI_Ind_Rub_Pile_Debris_Gravel_M_01_A.uasset",
+      "sha1": "81d13cb05ff3ba8d2f77b346dfe45742a3ebf4cc",
+      "bytes": 19703
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/MI_Ind_Rub_Pile_Debris_Gravel_M_01_B.uasset",
+      "sha1": "f01447c2b01216a990d9b2f1effe17bb813efbb4",
+      "bytes": 19358
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/SM_Ind_Rub_Pile_Debris_Gravel_M_01.uasset",
+      "sha1": "ed75ae0245fbbf43c9aea29991174ab78540ebec",
+      "bytes": 221293764
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/T_Ind_Rub_Pile_Debris_Gravel_M_01_D.uasset",
+      "sha1": "46fadf461a71563e2373e4fedbb5ff1eba220d9f",
+      "bytes": 5392646
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/T_Ind_Rub_Pile_Debris_Gravel_M_01_DpR.uasset",
+      "sha1": "1163f90c2f4606a049d4c3190a41d60d18522e89",
+      "bytes": 2388480
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_Rub_Pile_Debris_Gravel_M_01/T_Ind_Rub_Pile_Debris_Gravel_M_01_N.uasset",
+      "sha1": "ef5870d8997f76ec0d96ee465c23c772204d547f",
+      "bytes": 4293015
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/MI_Ind_War_Light_Ceiling_Metal_Hanging_02.uasset",
+      "sha1": "a411ceaa4ca9879cf27ba1b4a362d4850d8e3f4d",
+      "bytes": 15022
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/SM_Ind_War_Light_Ceiling_Metal_Hanging_02.uasset",
+      "sha1": "608b6af386db80403f5318689d80a20daa8f5200",
+      "bytes": 74798402
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/T_Ind_War_Light_Ceiling_Metal_Hanging_02_D.uasset",
+      "sha1": "902e95ffb47205b6b5b722efe1dcb96b2c17bca5",
+      "bytes": 1370406
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/T_Ind_War_Light_Ceiling_Metal_Hanging_02_DpR.uasset",
+      "sha1": "ad33141b620e975932e25899a1a46b6f448b7c87",
+      "bytes": 533331
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Light_Ceiling_Metal_Hanging_02/T_Ind_War_Light_Ceiling_Metal_Hanging_02_N.uasset",
+      "sha1": "c3d412c008653d2370f27706e60d8a1402f1d78a",
+      "bytes": 849274
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/MI_Ind_War_Storage_Pallet_Wood_Worn_01.uasset",
+      "sha1": "af781fa4433de9a0a0299dafc9d8f00c5440e6e8",
+      "bytes": 15785
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/SM_Ind_War_Storage_Pallet_Wood_Worn_01.uasset",
+      "sha1": "6dee73d509f41d3e0c9f1f0508067153367bc9e5",
+      "bytes": 77512943
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/T_Ind_War_Storage_Pallet_Wood_Worn_01_D.uasset",
+      "sha1": "08067ed43ae3da35e1d80cd6670479066f83ee5d",
+      "bytes": 5104001
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/T_Ind_War_Storage_Pallet_Wood_Worn_01_DpR.uasset",
+      "sha1": "749c7d8c216f44fda8150b797263442222b7ce79",
+      "bytes": 1648396
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Pallet_Wood_Worn_01/T_Ind_War_Storage_Pallet_Wood_Worn_01_N.uasset",
+      "sha1": "43451eccd046096900a45c8707649765ab535776",
+      "bytes": 3845102
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/MI_Ind_War_Storage_Sheet_Cardboard_Flattened_02.uasset",
+      "sha1": "33908724af10bfb69ab8cef89ad7540686db845f",
+      "bytes": 14397
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/SM_Ind_War_Storage_Sheet_Cardboard_Flattened_02.uasset",
+      "sha1": "7593c26795606bacb31145575164d8c5d10ec1c4",
+      "bytes": 77553323
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_D.uasset",
+      "sha1": "af2c2f613567d4b14681ffa8df2f086e810107c3",
+      "bytes": 1233994
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_DpR.uasset",
+      "sha1": "291c2710b815ae943960e7e984615187b582c994",
+      "bytes": 422606
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_02/T_Ind_War_Storage_Sheet_Cardboard_Flattened_02_N.uasset",
+      "sha1": "c61d4b39d85de7763335e86b0e2a0df23224e126",
+      "bytes": 949379
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/MI_Ind_War_Storage_Sheet_Cardboard_Flattened_04.uasset",
+      "sha1": "7de3ce4ae0b4d25c7cf9eff2b98d822a63c8085d",
+      "bytes": 13833
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/SM_Ind_War_Storage_Sheet_Cardboard_Flattened_04.uasset",
+      "sha1": "c12ffd436211b16f7b2016b118cba13d84365b49",
+      "bytes": 73747737
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_D.uasset",
+      "sha1": "2ba36aa7cfb8bf44d49ca56a247f872008b87f5d",
+      "bytes": 1223628
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_DpR.uasset",
+      "sha1": "2df1381799b99ca4d28f99a0f96fdb053c84d737",
+      "bytes": 404596
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_04/T_Ind_War_Storage_Sheet_Cardboard_Flattened_04_N.uasset",
+      "sha1": "65efe6183c077183833d298f71364a8b015426f7",
+      "bytes": 852402
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/MI_Ind_War_Storage_Sheet_Cardboard_Flattened_05.uasset",
+      "sha1": "7726ba50ae2bf40c4edd4bfe761cc472b2b03329",
+      "bytes": 14825
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/SM_Ind_War_Storage_Sheet_Cardboard_Flattened_05.uasset",
+      "sha1": "e55050ed17286089859a4269b3c3b4f228d62b09",
+      "bytes": 41766069
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_D.uasset",
+      "sha1": "969686469f8a1f6112c7dbc31dfb237a2ef11dec",
+      "bytes": 1180942
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_DpR.uasset",
+      "sha1": "1499e0ef9754eaf6bf1541097cf018648cca12de",
+      "bytes": 403126
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/3D_Assets/Ind_War_Storage_Sheet_Cardboard_Flattened_05/T_Ind_War_Storage_Sheet_Cardboard_Flattened_05_N.uasset",
+      "sha1": "5489b3651fd8cc08f3fd10f14ecb1290b936b9ab",
+      "bytes": 845085
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_01/MI_Decal_Leak_Dirt_01.uasset",
+      "sha1": "6b399f1388349b50b1efebffa9d857e5afcb98dc",
+      "bytes": 11510
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_01/T_Decal_Leak_Dirt_01_D.uasset",
+      "sha1": "d13679a67118f1a2c99085d0a76bb0b82d67c987",
+      "bytes": 1496644
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_01/T_Decal_Leak_Dirt_01_DpRA.uasset",
+      "sha1": "85367c1cdb32223e19d64cf5f734152c63abf6e3",
+      "bytes": 621232
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/MI_Decal_Leak_Dirt_02_A.uasset",
+      "sha1": "b34604b1cdb0819302abc421d87706249fcad4bd",
+      "bytes": 12884
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/MI_Decal_Leak_Dirt_02_B.uasset",
+      "sha1": "7d6611bf105fa1f9e27bc44c4e734559bab988ea",
+      "bytes": 18637
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/T_Decal_Leak_Dirt_02_D.uasset",
+      "sha1": "bc543eb0b8112c4eb2a3cea720dd9d313e8f8824",
+      "bytes": 1755372
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Dirt_02/T_Decal_Leak_Dirt_02_DpRA.uasset",
+      "sha1": "b1ff227bcc951bdeaf1e67cd7f26955ff04e40a9",
+      "bytes": 649389
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/MI_Decal_Leak_Grease_01_A.uasset",
+      "sha1": "94df719232713ca25ac2a49e737384502eb04c1f",
+      "bytes": 11320
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/MI_Decal_Leak_Grease_01_B.uasset",
+      "sha1": "ebee2cf6ec9755a08308580e0e79f4890942a757",
+      "bytes": 17840
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/T_Decal_Leak_Grease_01_D.uasset",
+      "sha1": "40bbea9126b7318b426213a213dcdadc22a2a155",
+      "bytes": 2013526
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_01/T_Decal_Leak_Grease_01_DpRA.uasset",
+      "sha1": "821b872298ab90c744bc3d3ade806b33bc976bb9",
+      "bytes": 1105099
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/MI_Decal_Leak_Grease_02_A.uasset",
+      "sha1": "cb9ae4a93d1311375707dd69ac977b4875b74251",
+      "bytes": 11108
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/MI_Decal_Leak_Grease_02_B.uasset",
+      "sha1": "59449490b2d9739d28ad4460fc360b50e5023e0c",
+      "bytes": 14412
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/T_Decal_Leak_Grease_02_D.uasset",
+      "sha1": "ef22df3280323c54325a1944b0df8d22abf929ae",
+      "bytes": 1308526
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grease_02/T_Decal_Leak_Grease_02_DpRA.uasset",
+      "sha1": "c943d71ff56f574a6d146d6337c57792b11ec51c",
+      "bytes": 476816
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_01/MI_Decal_Leak_Grime_01.uasset",
+      "sha1": "d0830983597e15e9238287fb454ef39833361b4e",
+      "bytes": 10720
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_01/T_Decal_Leak_Grime_01_D.uasset",
+      "sha1": "f5458b6daf4c757ce5741e185ff7d4697f31181f",
+      "bytes": 1178120
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_01/T_Decal_Leak_Grime_01_DpRA.uasset",
+      "sha1": "d3279ded605e77f2e4d843476e710edea453e4d9",
+      "bytes": 563170
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_02/MI_Decal_Leak_Grime_02.uasset",
+      "sha1": "0849f4e4b908393e9e2cbccd86504b386f6fdf2a",
+      "bytes": 10441
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_02/T_Decal_Leak_Grime_02_D.uasset",
+      "sha1": "4cf5a4178dd7cdeef8370d7cea1d7080626a8fe2",
+      "bytes": 393219
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_02/T_Decal_Leak_Grime_02_DpRA.uasset",
+      "sha1": "a5bbf0f7704c367940280937262cb67c9f4ceb0d",
+      "bytes": 203945
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_03/MI_Decal_Leak_Grime_03.uasset",
+      "sha1": "5f43b27ed12459364d0a02f3f01822c4c1609ec9",
+      "bytes": 11364
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_03/T_Decal_Leak_Grime_03_D.uasset",
+      "sha1": "9f53080992d112423477258672a3944fa5b048dc",
+      "bytes": 707421
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_03/T_Decal_Leak_Grime_03_DpRA.uasset",
+      "sha1": "06ad932caddb964f0cbcdafb2e95e8d626d8eda9",
+      "bytes": 401322
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_04/MI_Decal_Leak_Grime_04.uasset",
+      "sha1": "ab4d1f991a458b603d6a7a21c4b7597863e4c57c",
+      "bytes": 10783
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_04/T_Decal_Leak_Grime_04_D.uasset",
+      "sha1": "5db414a3653f372f93ec5a3b605420bc407692af",
+      "bytes": 582920
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Decals/Decal_Leak_Grime_04/T_Decal_Leak_Grime_04_DpRA.uasset",
+      "sha1": "d6728b6aae45f4ce74ef926f33b08bdecb7436ae",
+      "bytes": 235387
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/MI_Ceiling_Concrete_Raw_01.uasset",
+      "sha1": "d13ddd304fec54df3a1f841bffd7ea68c7c8190d",
+      "bytes": 14869
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/T_Ceiling_Concrete_Raw_01_D.uasset",
+      "sha1": "a346c7d33a5e35a446a7559153c2385ea76c9f88",
+      "bytes": 4653656
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/T_Ceiling_Concrete_Raw_01_N.uasset",
+      "sha1": "495c1827ed0494d729e758bd65925a3d3a8d258e",
+      "bytes": 3338798
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Raw_01/T_Ceiling_Concrete_Raw_01_ORDp.uasset",
+      "sha1": "a8840d184be36313259365c08cafd0e3fb50f1b8",
+      "bytes": 1902881
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/MI_Ceiling_Concrete_Worn_01_A.uasset",
+      "sha1": "821755ea6d02d3c83b0f12130625d617f4f771a5",
+      "bytes": 17504
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/MI_Ceiling_Concrete_Worn_01_B.uasset",
+      "sha1": "d45d692310aeec75550a84af2b0a8e8904b052dd",
+      "bytes": 17043
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/T_Ceiling_Concrete_Worn_01_D.uasset",
+      "sha1": "4fce265ae6be0d49ddb123646191911a995250b4",
+      "bytes": 5173536
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/T_Ceiling_Concrete_Worn_01_N.uasset",
+      "sha1": "b320991bd8a70cb8fe7f1242cc6a9198ce7ac451",
+      "bytes": 3413826
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_01/T_Ceiling_Concrete_Worn_01_ORDp.uasset",
+      "sha1": "00702956958d6777d043c6ba029381955eb5829c",
+      "bytes": 2425914
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/MI_Ceiling_Concrete_Worn_02_A.uasset",
+      "sha1": "537ca2148e3e81601a0d25cd942bb919f9a564a2",
+      "bytes": 20152
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/MI_Ceiling_Concrete_Worn_02_B.uasset",
+      "sha1": "bd1494978940c9da45f7fe636deb735d79f5d07b",
+      "bytes": 19176
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/MI_Ceiling_Concrete_Worn_02_C.uasset",
+      "sha1": "f7218a5766af6e15a087631de71b602974779a60",
+      "bytes": 20147
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/T_Ceiling_Concrete_Worn_02_D.uasset",
+      "sha1": "a3f383d69c6a8f60e47e9ead897c5682e3971199",
+      "bytes": 10582118
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/T_Ceiling_Concrete_Worn_02_N.uasset",
+      "sha1": "b1d437546f2bca159ee79f82eabb65508b3e0de2",
+      "bytes": 6935186
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ceiling_Concrete_Worn_02/T_Ceiling_Concrete_Worn_02_ORDp.uasset",
+      "sha1": "fe8735826e9478e525401106d313ec0a1b217550",
+      "bytes": 4939765
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/MI_Floor_Concrete_Dusty_01.uasset",
+      "sha1": "b26b1b952f7730d25453de4e631295f82a2d58bd",
+      "bytes": 13575
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/T_Floor_Concrete_Dusty_01_D.uasset",
+      "sha1": "0b630a081752e62a679fd4930d5cd6e5695c62a2",
+      "bytes": 20829951
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/T_Floor_Concrete_Dusty_01_N.uasset",
+      "sha1": "10598ab91b55ff3d40458f50fdbf71a6716ff4e2",
+      "bytes": 18576552
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_01/T_Floor_Concrete_Dusty_01_ORDp.uasset",
+      "sha1": "70ff4a047cf6e966ca2083f5c05efb1200e466dd",
+      "bytes": 13102286
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/MI_Floor_Concrete_Dusty_02.uasset",
+      "sha1": "51f917368790deccb837536f8132584d44a42c2e",
+      "bytes": 12338
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/T_Floor_Concrete_Dusty_02_D.uasset",
+      "sha1": "aad37e4f8212f9992ce5eae9aff0d41c91a080e5",
+      "bytes": 18456958
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/T_Floor_Concrete_Dusty_02_N.uasset",
+      "sha1": "34abe1c61bba44350f6e69be61a75906a1e572eb",
+      "bytes": 18209768
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Floor_Concrete_Dusty_02/T_Floor_Concrete_Dusty_02_ORDp.uasset",
+      "sha1": "6b8d74b4a8d1012e9d8453bd4182f776f3633d82",
+      "bytes": 13952821
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/MI_Ground_Gravel_Rough_01.uasset",
+      "sha1": "9dd9326a3ed14b191c1da03f59eb8b6922b71a55",
+      "bytes": 13330
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/T_Ground_Gravel_Rough_01_D.uasset",
+      "sha1": "f6f5a50b3199764a7c6e88f039d1f391037f9d67",
+      "bytes": 19531005
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/T_Ground_Gravel_Rough_01_N.uasset",
+      "sha1": "876b98c4b39acba1c791933d4a6f609ec50833ba",
+      "bytes": 20177830
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Ground_Gravel_Rough_01/T_Ground_Gravel_Rough_01_ORDp.uasset",
+      "sha1": "fb9c6bb3fbe8ce145fb56c93be16110340770553",
+      "bytes": 16688830
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_A.uasset",
+      "sha1": "50144b9a29b7d53a35e8dae7509d5f8a40ccbf86",
+      "bytes": 13883
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_B.uasset",
+      "sha1": "aeb7c9398e4c5aa3090229aa266906e8106233ab",
+      "bytes": 15071
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_C.uasset",
+      "sha1": "0d03f80bc417610f71d050b1ea77b16858a70c81",
+      "bytes": 16231
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/MI_Wall_Concrete_Damaged_01_D.uasset",
+      "sha1": "1ce876a4d21a08a427b815c28caab8f40822be7a",
+      "bytes": 15275
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/T_Wall_Concrete_Damaged_01_D.uasset",
+      "sha1": "9cbf31075cdf5ae62f98e6e35b4577a6bf04bf4a",
+      "bytes": 18878750
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/T_Wall_Concrete_Damaged_01_N.uasset",
+      "sha1": "ee223cad7178da88e6fb7afae0fb890ed324791b",
+      "bytes": 14922686
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Damaged_01/T_Wall_Concrete_Damaged_01_ORDp.uasset",
+      "sha1": "64ce738088bccb190ee7801f31bba9f7ab5b59a7",
+      "bytes": 10756129
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_A.uasset",
+      "sha1": "57d1ea3e9137c8b362937b7d9ea600e22604d0a6",
+      "bytes": 13285
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_B.uasset",
+      "sha1": "2f23c7089a92619d80a27c4b909e83d5d0e10ef5",
+      "bytes": 19174
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_C.uasset",
+      "sha1": "5b80befbfa65841541e050155b7a9f1bb8cbcfc6",
+      "bytes": 19271
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/MI_Wall_Concrete_Rough_01_D.uasset",
+      "sha1": "bf9d8ae0cac14fc318c0d46e64ba0743fe500381",
+      "bytes": 18282
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/T_Wall_Concrete_Rough_01_D.uasset",
+      "sha1": "ab06d38cdee3825f20e4897a082f8411cd29982d",
+      "bytes": 5051252
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/T_Wall_Concrete_Rough_01_N.uasset",
+      "sha1": "b4ec953a6a0c3c0c8eef5ea0e46a0e54aae8fc0f",
+      "bytes": 4287905
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Rough_01/T_Wall_Concrete_Rough_01_ORDp.uasset",
+      "sha1": "11b44a34f1ff2e526c1454f9cb4c20bbcad28f65",
+      "bytes": 3856837
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/MI_Wall_Concrete_Stained_01.uasset",
+      "sha1": "5a66d2f34cc93b0d6e1d667b089cc48a77e028ea",
+      "bytes": 14023
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/T_Wall_Concrete_Stained_01_D.uasset",
+      "sha1": "c545910f1b0cf4d78ad2ec213c69c8020ddf9f45",
+      "bytes": 18190752
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/T_Wall_Concrete_Stained_01_N.uasset",
+      "sha1": "1693012329e3b1b299f67b78c90c7aff082ce248",
+      "bytes": 14088393
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_01/T_Wall_Concrete_Stained_01_ORDp.uasset",
+      "sha1": "527571d97618d82fffdf18784f754c7b267c8812",
+      "bytes": 8870946
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/MI_Wall_Concrete_Stained_02.uasset",
+      "sha1": "dbd4d1a4c3e09d12fc6642b31b07f2f1a867f5f2",
+      "bytes": 14394
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/T_Wall_Concrete_Stained_02_D.uasset",
+      "sha1": "e8f19b2b8a0ac63764a7c6fdc95303685c07a768",
+      "bytes": 19185392
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/T_Wall_Concrete_Stained_02_N.uasset",
+      "sha1": "3cc8b33ffe9088cacbd465d484f4cc0ff78293e7",
+      "bytes": 14946438
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_02/T_Wall_Concrete_Stained_02_ORDp.uasset",
+      "sha1": "de350f91ba9937b97a7ef8e160bc448571a535ea",
+      "bytes": 12623648
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/MI_Wall_Concrete_Stained_03.uasset",
+      "sha1": "aa40ebd3ac97e0e277225715cf1049a0144c0f97",
+      "bytes": 17726
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/T_Wall_Concrete_Stained_03_D.uasset",
+      "sha1": "c99a08f0a67a2d86cc28e96329a135566694528b",
+      "bytes": 5081155
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/T_Wall_Concrete_Stained_03_N.uasset",
+      "sha1": "be39632e2c4ec328e56843528bc3e1c35751d48a",
+      "bytes": 4206113
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Assets/Megascans/Surfaces/Wall_Concrete_Stained_03/T_Wall_Concrete_Stained_03_ORDp.uasset",
+      "sha1": "8ac45e9a024d7a3ee3ccf3e5b80ade785c7fff45",
+      "bytes": 2808558
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Maps/Industrial_UnfinishedBuilding.umap",
+      "sha1": "f6048940abb8921cd5635170a6dd21567ccd2226",
+      "bytes": 3359176
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Basic.uasset",
+      "sha1": "510636eefe414ca1edb1f1b1da576f94cdf484c3",
+      "bytes": 8915
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Basic_Emissive.uasset",
+      "sha1": "81eca705e591cab3a4598515ca585a4d52d07664",
+      "bytes": 15178
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Glass.uasset",
+      "sha1": "5afeb6f6a4c1921cf4d10a29945207e2ac7c6327",
+      "bytes": 16225
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_MS_Custom_Decal_Material.uasset",
+      "sha1": "a56a14dea5aa11a2454527233e312083f894a521",
+      "bytes": 53465
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_MS_LayerSurface_01.uasset",
+      "sha1": "b066c5f8387d9dc63c1801fd01f876b02c21c3c4",
+      "bytes": 53222
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MasterMaterials/M_Wire.uasset",
+      "sha1": "df97371c2e998356718abd6790b18dd33f384593",
+      "bytes": 9136
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Base/MF_BaseLayerAdjustments.uasset",
+      "sha1": "962bfd15b40c6273766a700a8242595b23339767",
+      "bytes": 31958
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Base/MF_BaseLayerTextures.uasset",
+      "sha1": "b67004779a40b7644670c56f4226b79fc1789303",
+      "bytes": 28048
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/MF_MaterialBlend.uasset",
+      "sha1": "207aa588b4948746377da5834f629a9900ef051f",
+      "bytes": 26047
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/MF_NormalCorrection.uasset",
+      "sha1": "2e6056a0e4f57ef8a25dc36889780054b6ef3386",
+      "bytes": 76688
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Middle/MF_MiddleLayerAdjustments.uasset",
+      "sha1": "fbe268dd30825069fc8dfaed7389d2fc34807234",
+      "bytes": 32036
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Middle/MF_MiddleLayerTextures.uasset",
+      "sha1": "d32690f137068cebb2633e6f2af13dd4d3e18e84",
+      "bytes": 28184
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Puddle/MF_PuddleLayer.uasset",
+      "sha1": "b3e67d7c9f37992e043d2806f02edb2029e99efe",
+      "bytes": 50397
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Top/MF_TopLayerAdjustments.uasset",
+      "sha1": "78016462e5b1e1fdc576b14267a018111693ee4e",
+      "bytes": 31903
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialFunctions/LayerFunctions/Top/MF_TopLayerTextures.uasset",
+      "sha1": "5657fffe42cc5d8ab7619dd8d973e619c8e56709",
+      "bytes": 27668
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Basic_Emissive.uasset",
+      "sha1": "3dd9114a97764d7a3e2871839b94c34e2df1b05a",
+      "bytes": 9430
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Basic_Emissive_TubeLight.uasset",
+      "sha1": "09c31d52fc810944c1a52447c6260665bc43613a",
+      "bytes": 9750
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Basic_Emissive_Window.uasset",
+      "sha1": "ed1a7c07ee37c5b8c2dc345b090ac411a82923c6",
+      "bytes": 9483
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Glass.uasset",
+      "sha1": "e0e5e235ca12926858ba2021c043c6d1ec3aab4f",
+      "bytes": 10601
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_LayerSurface_01.uasset",
+      "sha1": "32e4a7813e5d5269841e2fc2237c0d28446dfbd4",
+      "bytes": 30275
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_LayerSurface_02.uasset",
+      "sha1": "467b779a900a25a19316637b3428b4bfe21a2845",
+      "bytes": 25627
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MaterialInstances/MI_Wire01.uasset",
+      "sha1": "1723e7889c4b9c6667bc3a1788e3fbf5f35b10c1",
+      "bytes": 8101
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Decal_Material_VT/M_MS_Decal_Material_VT.uasset",
+      "sha1": "5dedfc140122125d99d56a420556f153a6e8c008",
+      "bytes": 53159
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Decal_Material_VT/MF_QuixelDecalPOM.uasset",
+      "sha1": "23e385cf6d0d9b3caac823ffd6ad37100a010b81",
+      "bytes": 88971
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_DetailNormalTiling.uasset",
+      "sha1": "8b92a429ad7a7adc26c06b9f51145883c2111a5f",
+      "bytes": 18458
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Displacement.uasset",
+      "sha1": "4ce4fa6a58376524d1398e2899f0a720b66b9944",
+      "bytes": 21765
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Fuzz.uasset",
+      "sha1": "c49c24924b6081699955dfd042eb8f3efcf07687",
+      "bytes": 17344
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_MapAdjustments.uasset",
+      "sha1": "4192929ffaa0183dabdf4beb3fa7e56b3775fc70",
+      "bytes": 47526
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_ObjAdjustments.uasset",
+      "sha1": "29f61f3e072a8ed3a8ff7fac2f0d1a3744c95c68",
+      "bytes": 38987
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Tiling.uasset",
+      "sha1": "eca62d12a710d7810e0c95637e349bb4b0acf262",
+      "bytes": 18615
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/Functions/MF_Transmission.uasset",
+      "sha1": "a3553bba8334fd934bcc9807db04825192be6225",
+      "bytes": 20135
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Default_Material_VT/M_MS_Default_Material_VT.uasset",
+      "sha1": "82310d5fa0e173e251157c121aaa4b0e90039581",
+      "bytes": 24805
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_Displacement.uasset",
+      "sha1": "606b1b4e7e42a1cc6ef8e747343febdec1789797",
+      "bytes": 24923
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_MapAdjustments.uasset",
+      "sha1": "0c19cacbbbb7db045bdc13e702141b12b59750f0",
+      "bytes": 47737
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_ObjAdjustments.uasset",
+      "sha1": "86f1c258c1c4782aa1b5a5d5e3a39d72599e24d2",
+      "bytes": 42211
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_Tiling.uasset",
+      "sha1": "b9e112481dc7d02ee8f046624ac1345f5ef98db9",
+      "bytes": 18826
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/Functions/MF_Transmission.uasset",
+      "sha1": "317fe4acfa4c72dd64e0957ad2ea5b290a6484a1",
+      "bytes": 20323
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/M_MS_Surface_Material_VT/M_MS_Surface_Material_VT.uasset",
+      "sha1": "f068e8426ce1622639d7ff5314c31f326374b7ee",
+      "bytes": 28335
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/BlackPlaceholder.uasset",
+      "sha1": "e66e5aea49465c0819e8bd8672a69ace56b6b001",
+      "bytes": 4299
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/DefaultDiffuse.uasset",
+      "sha1": "91b1e44ba1cdd099c0efa84585644ef0d8d94ea0",
+      "bytes": 2131755
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/Placeholder_Normal.uasset",
+      "sha1": "5d520a623638e02f60d924e39ddc51655849e484",
+      "bytes": 4972
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/Materials/MSPresets/MSVTTextures/WhitePlaceholder.uasset",
+      "sha1": "6f9cac2fcc17b6cca1d250210fa52f961c7cfe7a",
+      "bytes": 4691
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Blueprints/BP_DemoDisplay.uasset",
+      "sha1": "8d04afefcf355677ddaf0e9c52baf936076ba592",
+      "bytes": 1465100
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Blueprints/BP_DemoRoom.uasset",
+      "sha1": "6905efc7235e257828ee4066811074eac8c89214",
+      "bytes": 2933556
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Blueprints/BP_FrameDisplay.uasset",
+      "sha1": "8042c7e5b9f5957e791cfe2bfc1f9bce62a75b35",
+      "bytes": 697404
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_DemoRoom.uasset",
+      "sha1": "3b4864d669070e1f3828b29b228fbe05849232ff",
+      "bytes": 24269
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Display.uasset",
+      "sha1": "feb8f8f1589ec928f5737883c9944952383e12e5",
+      "bytes": 10964
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Glow.uasset",
+      "sha1": "c20aef454e41850661862cb543d20fcf5bdab1e4",
+      "bytes": 9961
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Glow_Ceiling.uasset",
+      "sha1": "e6d4a8be19f962a95e7b9fc2731b7e99050002bc",
+      "bytes": 13140
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Glow_Ceiling_Cold.uasset",
+      "sha1": "4f807607147465c83bb1978ed5038bc68982edf5",
+      "bytes": 14190
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Metal.uasset",
+      "sha1": "fd106afa2d583bade460731ece6eb552a7dcfddd",
+      "bytes": 25914
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile.uasset",
+      "sha1": "21239b384991cc25da859f38c2a5189202513522",
+      "bytes": 71951
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile_2.uasset",
+      "sha1": "723d6229cfbf96300d1f783fe846769ce648723c",
+      "bytes": 40646
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile_Glossy.uasset",
+      "sha1": "d2424f819c684542c4f3de37575484a6d7711ad3",
+      "bytes": 10258
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_Tile_Glossy_02.uasset",
+      "sha1": "aeb0c0a452c9b209dcd415846a428b410649c844",
+      "bytes": 9331
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/M_UELogo.uasset",
+      "sha1": "a88c7e5077d8e28c445d14bab40e9a87845290cd",
+      "bytes": 18735
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/MI_Display_Blue.uasset",
+      "sha1": "fe035250d05158f6b9257829785723be5d67bb14",
+      "bytes": 7711
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/MI_Tile_Ceiling.uasset",
+      "sha1": "8a830a4cda0457a0102fa00af8e53771245bfc49",
+      "bytes": 9703
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/MI_TileBlack.uasset",
+      "sha1": "78cbdb713734fdd5063c338cbcde3bb932544d5b",
+      "bytes": 9016
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Materials/Textures/T_GrungySurface_slnneipc_4K_MR.uasset",
+      "sha1": "c277355294ca75b70ecb2ea244387567dd5efdc8",
+      "bytes": 32756863
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Corner_B.uasset",
+      "sha1": "5b1d996c6f5155ed68af40843e83befe8b2c5df8",
+      "bytes": 116274
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Corner_C.uasset",
+      "sha1": "27265db9850be6991f2bd36c8f1594c473d37dd1",
+      "bytes": 26706
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Curve_B.uasset",
+      "sha1": "06d2513cddc6096d40105961dffcb4941f1f6fb1",
+      "bytes": 24710
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Curve_C.uasset",
+      "sha1": "f621f687081202f559606c75ecb48377d370c680",
+      "bytes": 21833
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_EdgeCurve_B.uasset",
+      "sha1": "a0f68b8c04a5cf27ef9efef73e15f9e39bf4b30c",
+      "bytes": 156015
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_EdgeCurve_C.uasset",
+      "sha1": "a07168f42d5bffdf7d9738a934cf7ef6689dfc63",
+      "bytes": 27818
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Main_B.uasset",
+      "sha1": "f5adfc070f9dbeda5a0c730ec1675a895fbe5220",
+      "bytes": 18026
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Main_C.uasset",
+      "sha1": "c158f8753d2f4ad0fab8a14557617d6102a5dc20",
+      "bytes": 17484
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Side_B.uasset",
+      "sha1": "9911724e11df0fb9bbc6ea62e7f59734be697f11",
+      "bytes": 29004
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Display_Side_C.uasset",
+      "sha1": "bdcce971dc21b5899cd66f9cb58643d8d17b5210",
+      "bytes": 17332
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Floor_Corner.uasset",
+      "sha1": "2f06acfc5531a8f69d83e3e8dc07ad4e55faf026",
+      "bytes": 81517
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Floor_Edge.uasset",
+      "sha1": "3932977d8622d02593a7ba9f03cee42055ae62a6",
+      "bytes": 21730
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/lambert1.uasset",
+      "sha1": "3ac1b1bf2f91e76c9fff030f35afb6e5014f9b41",
+      "bytes": 9222
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Pipe.uasset",
+      "sha1": "713cf031e3471d68a8a9e3bd2ccd648f5f6b7e2a",
+      "bytes": 19435
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Podium_01.uasset",
+      "sha1": "c909da6cbc8ce0fae2d6a081ca486d3cf93d6765",
+      "bytes": 67831
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Podium_02.uasset",
+      "sha1": "e4fb24eb875d7ad52d1e8b4d559301830d72d1d7",
+      "bytes": 27257
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/QuixelLogo.uasset",
+      "sha1": "b94df5ab8de7dfe708872b0014357511f379c18d",
+      "bytes": 37529
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/ShadowBox_1MPanel.uasset",
+      "sha1": "b1582a4e2da9424fed25bbeea9a2c1c72e464d94",
+      "bytes": 42825
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/ShadowBox_1MPanel2.uasset",
+      "sha1": "b51968d18354b2458549d4082be834e215e2f24c",
+      "bytes": 20421
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/ShadowBox_RoundEdge.uasset",
+      "sha1": "bbf4065940ab91a220f32f5e0abfc6037e99ca8d",
+      "bytes": 56659
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Corner.uasset",
+      "sha1": "57d9048092e1e3813a8991108f822b8c12f7d6d9",
+      "bytes": 19282
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Corner_Bottom.uasset",
+      "sha1": "005aa526b55d0fd7881d43f05e42f2659467d0b2",
+      "bytes": 19248
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Corner_Top.uasset",
+      "sha1": "7230bb5a3e7abaf47cb8cfe7a9b68b114cbca68b",
+      "bytes": 18388
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Side.uasset",
+      "sha1": "cf42f72f853c12e88b9d62836466d191357845bc",
+      "bytes": 16450
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Side_Bottom.uasset",
+      "sha1": "5423e90e5b60633e7e646557fc5cbe94b3cf0bd9",
+      "bytes": 15966
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/SM_DisplayFrame_Side_Top.uasset",
+      "sha1": "762afc4b6c5961c84b28e4b9785308f8c6aa95fa",
+      "bytes": 16276
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Splitter_Curve.uasset",
+      "sha1": "306b2bc72681cbfd6710f4f6fc12df09b2e82709",
+      "bytes": 54332
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Splitter_Wall.uasset",
+      "sha1": "84d2772ba127b4ae7223e71fa2d0c3ea56a9d5c4",
+      "bytes": 44883
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Splitter_Wall2.uasset",
+      "sha1": "a9e0511311973010241013841047d461b77ed7bc",
+      "bytes": 108625
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/standardSurface1.uasset",
+      "sha1": "8f9192aca9b704955dfef85b3e27add68a872ffb",
+      "bytes": 9378
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TagBar_Middle.uasset",
+      "sha1": "43e3bc08265445d416d434b6136237c69ca49b2a",
+      "bytes": 43121
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TagBar_TitleCap.uasset",
+      "sha1": "c4d59473323a7195a39a48cd3e9fb42a394a4305",
+      "bytes": 147701
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TagBar_TitleCap1.uasset",
+      "sha1": "368ad11fe9ab621a05e968941071e4d5f8e11fcc",
+      "bytes": 165413
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_10MPillar_B.uasset",
+      "sha1": "34aa060a6a3eb860dcc49dd612742f3c6570f1ef",
+      "bytes": 19152
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_10MPillar_B_2.uasset",
+      "sha1": "c604b11a4e9b3c8e5ff96a520a67378ce6c2ed17",
+      "bytes": 18324
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_10MWall.uasset",
+      "sha1": "b3e33d8bcb7780597132e35933a59afa3df5a467",
+      "bytes": 17348
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_Edge.uasset",
+      "sha1": "578bce043736f71406fb524b4f819fe659af87c9",
+      "bytes": 19641
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_Edge_2.uasset",
+      "sha1": "389fde476a5ddc356baaee9e695da5308511e234",
+      "bytes": 18273
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurve_B.uasset",
+      "sha1": "944b062e83b33bda337ecf3d5984f560e81ae1e4",
+      "bytes": 44642
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurveEdge.uasset",
+      "sha1": "a4e6e852428ea2a68424e4ad650ae9de2d0722b5",
+      "bytes": 45677
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurveEdge2.uasset",
+      "sha1": "71667580f8112a63e0552b29b38ad5ad579ef036",
+      "bytes": 25490
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/Tile_InnerCurveEdge_2.uasset",
+      "sha1": "9cdf9265c7f0de1b5bc2ce730f68664a2bf69086",
+      "bytes": 27270
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Bend.uasset",
+      "sha1": "4bc6a8f3bf8d7f68eef061c5ba2b77605e118af1",
+      "bytes": 35083
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Bend_B.uasset",
+      "sha1": "9344c0c4d02a904290de55ee0e1e3655191ccf38",
+      "bytes": 46320
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Straight.uasset",
+      "sha1": "95f891667a904c1fbc1277f70421394cc0cd3069",
+      "bytes": 31298
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/TrimFeature_MetalTrim_Straight_B.uasset",
+      "sha1": "3dd43ace19e34f3aff45bed9f410ed43c954c591",
+      "bytes": 18875
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Meshes/UELogo.uasset",
+      "sha1": "db9890a53ce5dff5a1c03333112e8f8273a3fc4e",
+      "bytes": 3530795
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/DT_Colourways.uasset",
+      "sha1": "b55b4a5612b502419924ed1fc4bb8ca35bc3019e",
+      "bytes": 3041
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/E_EnclosureLevel.uasset",
+      "sha1": "f3ea59bbe80b4fda213aae25963ccbf1960567a8",
+      "bytes": 2953
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/E_RoomLighting.uasset",
+      "sha1": "c1be8b20828ee5acb4b2bfe90301bb00413a5cbd",
+      "bytes": 6205
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/S_Colour.uasset",
+      "sha1": "6cb750b558a2a500c8f607466db9a9d25a1a6037",
+      "bytes": 4121
+    },
+    {
+      "path": "Content/Scene_UnfinishedBuilding/VisualFramework/DemoRoom/Misc/S_RoomSettings.uasset",
+      "sha1": "144f8513f22af77ef65ba2d83b89cc05f2951bfe",
+      "bytes": 15609
+    }
+  ],
+  "content_roots": [
+    "/Game/Scene_UnfinishedBuilding"
+  ],
+  "status": "sha1_verified_and_staged"
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/tmp/superdyn_unreal_1002/ue_5_8_4/Engine/Binaries/Linux/UnrealEditor",
+    "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/SuperDynUnreal.uproject",
+    "-unattended",
+    "-nosplash",
+    "-nosound",
+    "-RenderOffscreen",
+    "-vulkan",
+    "-graphicsadapter=7",
+    "-corelimit=16",
+    "-ExecCmds=r.RDG.AsyncCompute 0,py '/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/Content/Python/run_ab_walkthroughs.py'",
+    "-stdout",
+    "-FullStdOutLogOutput",
+    "-norhithread"
+  ],
+  "entry_sha256": "621d6186281bfeb34ad16b7d50e1e295b4f20430b211e89bae984f29717d4350"
+}

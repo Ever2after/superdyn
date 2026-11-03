@@ -1,0 +1,44 @@
+{
+  "active_source_sha256": {
+    "qa_pipeline/pipeline.py": "18712906488328d6aad748219856f6ec8f56a731368ce93d6a6d4ed5fecdfefe",
+    "qa_pipeline/questions.py": "7a3088e62fa6b842e7197a65441e760eb38d103299b8b1f363875d07c42f1abf",
+    "qa_pipeline/objects.py": "425b91fbe148f61463586f49c9549a25787d41031e723fc4ac01fb5f75a88966",
+    "qa_pipeline/cli.py": "5a4fdb659812ee82c7e723d6f812e55ad1837fbffc1b55de1aa7a490c3f9c89e",
+    "qa_pipeline/tracking.py": "3cf81ac400e4a9b051cb5c1f0bd25392ead008bdfe8a2df7cefb844db55f8ed1",
+    "qa_pipeline/frames.py": "dd6d589ac9168d9bd91cc9984702f6478f3a40b1c97b0316bd6bea013e21d350",
+    "qa_pipeline/__init__.py": "7d432abe8baf5015a3f7f9db7dc9a2d4b42964b201ccc8fb7391b90edde5ca94",
+    "qa_pipeline/inventory.py": "def278f5d656dfdae30b9a2ea122bd9972311e187afab7fbb14a1c6fd1780eaf",
+    "qa_pipeline/inference.py": "76dfe06a69704f5eb51bcdb82b67d71e2721a4e8909db79966045ae9ac1fc0ba",
+    "qa_pipeline/qa_visual_filter.py": "6a9bc77465eb6b26ecec9fe4ad8718e3d02b47832dd1180416a1acc36a01254c",
+    "qa_pipeline/finalize.py": "3dcecbd65aa661926b12b82c9d61af37484e5025cab121113c84d94948c32157",
+    "qa_pipeline/maintenance.py": "cc5ec32bcb8f9ad09c550ab8368a0e43241e3d6cc6c8a97c11eb59f09bc34116",
+    "qa_pipeline/extraction.py": "a8b5693eee66609c9fdef5fbc46f59bef47ea38f3e78a64fd50c3dbe2d3735c7",
+    "qa_pipeline/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "qa_pipeline/generation.py": "3b47938c0e90880e4a6dfca88cbf936e983c98203ed5fb1dcba9de374b1078e8",
+    "qa_pipeline/framing_filter.py": "e63531ef2a5b1e9653a8b1748be520071228cfa5308ecf742ecd883a122cf279",
+    "qa_pipeline/storage.py": "b8a474166856d5eed2c27a4a3fb74dd92952195b00f00735d456039ddb1bbbb5",
+    "qa_pipeline/config.py": "41f13c02b394eaa4d7a8f8f03a81a58148cc5d28dd087abcf5cefb207f681afd",
+    "qa_pipeline/preprocess.py": "e0848415b1a260234e1d6ff50026c616c2120833ef8657dcfaebd9f79a228a9a",
+    "qa_pipeline/metrics.py": "8304fa48564ee5e06b520e186f449872dfab31ceb8373c123e1f7360d237e2a3",
+    "qa_pipeline/flow.py": "fd086e6f3e4b99db4c6184fb0923fcdb960db8a3a44ea9a1cd30ab8dedcd3b47",
+    "qa_pipeline/evaluation/__init__.py": "e1f9d6e1b4e5a4a6981b997be826d8772b9edb7786d7fdfe6554f15ab26b6477",
+    "qa_pipeline/evaluation/protocol.py": "4c21efe48a7a5df6f4d5df3c79e2c3aa25ca4af9280c4dbae3d8c754d7e382da",
+    "qa_pipeline/evaluation/reports.py": "90f74e7ea9d447038ff35e10e1951b3ce2fac7e3f407003965a2540ac2613800",
+    "qa_pipeline/evaluation/filtered_report.py": "76e33055dcf45800918c8137720e7ac5f6ba4796b7c2ca38439f961fac9b7b4a",
+    "qa_pipeline/evaluation/backends.py": "016982e3c54b1162e1662cc1e9e3895cbc68ef8f3effc3e7f0cc13f8e824a498",
+    "qa_pipeline/evaluation/runner.py": "10a2ba03d8a4f40f43e3c323c8e523cf4384c1082fcdfa3cf377e9cba10f0764"
+  },
+  "reused_inference_source_versions": {
+    "vendor_commits": {
+      "VG-LLM": "c77fd1d7c0d9c69529bc4fb303a3ca8d391f0803",
+      "4D-RGPT": "7de3e4cdf80218cfddbb4f7555a1c7700ae8db56",
+      "MLLM-4D": "544fbd57627bbe789b92e42eb33ab4bf8e6a7fec",
+      "DSR_Suite": "ae81203a672613bc746fce8299b2be3b9133ede1"
+    },
+    "local_code_sha256": {
+      "temporal_vlm_eval.py": "0d0a76760870bf5435770e71133c78a6dfde887fa7dba86f5b7f9e690938b4ac",
+      "temporal_vlm_backends.py": "932f295dd3b797efd563e0573c6b154290b20f0790f02b735a6f55ba9ac4e240",
+      "temporal_vlm_report.py": "a246d791a651c7977a997f95bbc66043cac1b1e1967cae2cecc00c92f250181e"
+    }
+  }
+}

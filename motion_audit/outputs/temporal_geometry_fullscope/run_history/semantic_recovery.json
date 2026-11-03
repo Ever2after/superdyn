@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-10-21T02:59:47.503882+00:00",
+  "root_cause": "Missing urllib.request import in readiness probe; NameError was incorrectly caught as not ready.",
+  "fix": "Imported urllib.request and restricted readiness exception handling; real HTTP regression test added.",
+  "tests_passed": 27,
+  "geometry_completed_videos": 4457,
+  "pending_numeric_qa": 2048,
+  "pending_qa_videos": 1100,
+  "pending_qwen_videos": 670,
+  "numeric_task_counts": {
+    "object_world_motion_direction": 511,
+    "object_pair_distance_change": 199,
+    "camera_view_direction_change": 399,
+    "camera_object_distance_change": 322,
+    "object_travel_distance_comparison": 212,
+    "camera_translation_direction": 405
+  }
+}

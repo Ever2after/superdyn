@@ -1,0 +1,6 @@
+numpy==1.26.4
+Pillow==11.3.0
+OpenEXR==3.5.2
+opencv-python-headless==4.11.0.86
+matplotlib==3.11.1
+imageio-ffmpeg==0.6.0

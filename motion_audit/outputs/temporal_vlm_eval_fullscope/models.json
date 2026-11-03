@@ -1,0 +1,65 @@
+[
+  {
+    "key": "qwen25vl_3b",
+    "repo": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "backend": "qwen25",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "path": "/tmp/superdyn_vlm_eval255/models/qwen25vl_3b",
+    "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_eval_vg/bin/python"
+  },
+  {
+    "key": "qwen25vl_7b",
+    "repo": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "backend": "qwen25",
+    "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "path": "/tmp/superdyn_vlm_eval255/models/qwen25vl_7b",
+    "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_eval_vg/bin/python"
+  },
+  {
+    "key": "vgllm_qa_4b",
+    "repo": "zd11024/vgllm-qa-vggt-4b",
+    "backend": "vgllm",
+    "revision": "1cf227a134353753aba6ac6c7509d2f79d40d00c",
+    "path": "/tmp/superdyn_vlm_eval255/models/vgllm_qa_4b",
+    "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_eval_vg/bin/python"
+  },
+  {
+    "key": "vgllm_qa_8b",
+    "repo": "zd11024/vgllm-qa-vggt-8b",
+    "backend": "vgllm",
+    "revision": "73d51445fbb307c453c944bc3354aef68ec3cc59",
+    "path": "/tmp/superdyn_vlm_eval255/models/vgllm_qa_8b",
+    "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_eval_vg/bin/python"
+  },
+  {
+    "key": "mllm4d_sft_8b",
+    "repo": "flow666/MLLM-4D",
+    "backend": "qwen3",
+    "subfolder": "MLLM-4D-SFT-1.0",
+    "revision": "16bb0c579bc480fc02413c05987ae992b38f306b",
+    "path": "/tmp/superdyn_vlm_eval255/models/mllm4d_sft_8b/MLLM-4D-SFT-1.0",
+    "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_qwen/bin/python"
+  },
+  {
+    "key": "4drgpt_8b",
+    "repo": "nvidia/4D-RGPT-8B",
+    "backend": "4drgpt",
+    "revision": "2c113ec8d3568ebc755b4596c2c138f24bd9d7bf",
+    "path": "/tmp/superdyn_vlm_eval255/models/4drgpt_8b",
+    "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_eval_rgpt/bin/python"
+  },
+  {
+    "key": "dsr_suite_7b",
+    "repo": "TencentARC/DSR_Suite-Model",
+    "backend": "dsr",
+    "revision": "d0df6d2adced373a4b4caa71015c03596032bcdf",
+    "path": "/tmp/superdyn_vlm_eval255/models/dsr_suite_7b",
+    "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_eval_dsr/bin/python",
+    "label": "DSR Suite (7B backbone)",
+    "backbone": "Qwen2.5-VL-7B-Instruct",
+    "total_parameters_approx": "9B including spatial modules",
+    "source": "https://github.com/TencentARC/DSR_Suite",
+    "vendor_revision": "ae81203a672613bc746fce8299b2be3b9133ede1",
+    "venue": "CVPR 2026"
+  }
+]

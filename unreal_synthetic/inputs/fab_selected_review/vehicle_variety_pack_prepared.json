@@ -1,0 +1,825 @@
+{
+  "source": {
+    "id": "vehicle_variety_pack",
+    "category": "차량",
+    "rank": 2,
+    "title": "Vehicle Variety Pack",
+    "listing_id": "dc1ada50-2523-44b1-b0e2-a72d14076fb4",
+    "source_url": "https://www.fab.com/listings/dc1ada50-2523-44b1-b0e2-a72d14076fb4",
+    "owned": false,
+    "status": "awaiting_library_addition"
+  },
+  "original_files_verified": 156,
+  "original_bytes": 1474180917,
+  "asset_id": "0e58d8516afe4a2f832b7a7f949a223c",
+  "engine": {
+    "artifactId": "VehicleP15e5452c412cV1",
+    "matchType": "exact",
+    "requested": "UE_5.8",
+    "selected": "UE_5.8",
+    "available": [
+      "UE_4.21",
+      "UE_4.22",
+      "UE_4.23",
+      "UE_4.24",
+      "UE_4.25",
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4",
+      "UE_5.5",
+      "UE_5.6",
+      "UE_5.7",
+      "UE_5.8"
+    ]
+  },
+  "copied_content": [
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/BoxTruck/AB_BoxTruck.uasset",
+      "sha1": "7242950cd58f5b4c0eb65e8696628cb5dbe29a6e",
+      "bytes": 134476
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/BoxTruck/BP_BoxTruck.uasset",
+      "sha1": "5950c3d295e6c672d2c42aa4cd529995e5e999e2",
+      "bytes": 167911
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/BoxTruck/BP_BoxTruck_Gamemode.uasset",
+      "sha1": "3e738340fe07dbd356a8886939f8eeefd336dd5b",
+      "bytes": 18024
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_FrontTire.uasset",
+      "sha1": "99906bece1c45ea97354280d4037148ed1b73f90",
+      "bytes": 5661
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_RearTire.uasset",
+      "sha1": "3194495f3a0441bc4855e75d31883a01c25c5b5b",
+      "bytes": 5043
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/BoxTruck/DA_BT_TireConfig.uasset",
+      "sha1": "53bf46bd28ab240818aacb996bae520d57b8d38b",
+      "bytes": 1227
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Hatchback/AB_Hatchback.uasset",
+      "sha1": "06b17e8bcfce6e71dbc25b110813f17e448e2a40",
+      "bytes": 123726
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Hatchback/BP_Hatchback.uasset",
+      "sha1": "efd7edef841b9b31d0a92809ea2c1a50c0fdbae6",
+      "bytes": 157647
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Hatchback/BP_Hatchback_Gamemode.uasset",
+      "sha1": "fe44972938ba78fd535d6fcdcf71e8258869e105",
+      "bytes": 18025
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_FrontWheel.uasset",
+      "sha1": "043d9ac804c4e93b35fdd61ce74ace10ea577b47",
+      "bytes": 5429
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_RearWheel.uasset",
+      "sha1": "52ce75362e399f590227af8be25858a64c3c6bd7",
+      "bytes": 5029
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Hatchback/DA_HB_TireConfig.uasset",
+      "sha1": "412e238a5655782b5cf7a5fde15adcdb52b46211",
+      "bytes": 1155
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Pickup/AB_Pickup.uasset",
+      "sha1": "fcfdf88d957712276fc119233caa782f15ba50b9",
+      "bytes": 113778
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Pickup/BP_Pickup.uasset",
+      "sha1": "4da1ee7cd935f734175a0e6cc69e39e8f224da66",
+      "bytes": 168216
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Pickup/BP_Pickup_Gamemode.uasset",
+      "sha1": "8555e9ac9096fd65b7527a4f305d3b55b20cadf0",
+      "bytes": 17974
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Front.uasset",
+      "sha1": "9abc3f3281d868c09f869a4a53106cc72a1ceb71",
+      "bytes": 5067
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Rear.uasset",
+      "sha1": "ef92ef46d713063473ee253af1b8b8dc6425a7ec",
+      "bytes": 5004
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/Pickup/DA_PU_TireConfig.uasset",
+      "sha1": "6904f1e754e8b7607f346a6a4d68fa61fa045128",
+      "bytes": 1152
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SportsCar/AB_SportsCar.uasset",
+      "sha1": "7cedc54e9d89f2a705f34f8582a6d81e7a347873",
+      "bytes": 132382
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Gamemode.uasset",
+      "sha1": "8d5d3e29c6ee387f5165036af783b398bd775878",
+      "bytes": 17140
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Front.uasset",
+      "sha1": "eb731eb98f77903e58625f5a06cc261cccb0ff5d",
+      "bytes": 5070
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Rear.uasset",
+      "sha1": "19b7ee4f2d51f572984d32176d896058242d1dfe",
+      "bytes": 5126
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SportsCar/BP_SportsCar.uasset",
+      "sha1": "10ff29aa98ced5cf9febef625edfd90b6b300196",
+      "bytes": 157473
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SportsCar/DA_SC_TireConfig.uasset",
+      "sha1": "78bd604f3393625eca16676d7ff6e7830592096e",
+      "bytes": 1155
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SUV/AB_SUV.uasset",
+      "sha1": "1f14886993ad8b84cd7b0faed5790ddb4c2421f5",
+      "bytes": 145166
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SUV/BP_SUV.uasset",
+      "sha1": "7bf787238c560cadc8511eb0f86d0dd5aef03286",
+      "bytes": 168433
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Gamemode.uasset",
+      "sha1": "58f4cb593dfb1919c5923fec3973173b728113e2",
+      "bytes": 17685
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Front.uasset",
+      "sha1": "4f7a91159cc9ac0b61f9fcd58d2614ef9ad42cfa",
+      "bytes": 5062
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Rear.uasset",
+      "sha1": "01817644662b2ee1f2665cbcda0c262a1830566d",
+      "bytes": 5055
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Blueprints/SUV/DA_SUV_TireConfig.uasset",
+      "sha1": "649a124550296123d16682b490fea80a112d512e",
+      "bytes": 1153
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Maps/Playground.umap",
+      "sha1": "56d2c6e38eda65eba48e584f7fe7faf1a675873f",
+      "bytes": 877455
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Maps/Playground_BuiltData.uasset",
+      "sha1": "404c56deda1b9b0871acb29141cf4924e93eaf55",
+      "bytes": 46375489
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Maps/Presentation.umap",
+      "sha1": "497afc0575d3df892a9b0f780c942b0618f92bcb",
+      "bytes": 234328
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Maps/Presentation_BuiltData.uasset",
+      "sha1": "7e300a69a0f19221cb6249b3207106edd8fcd0e0",
+      "bytes": 9924962
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Body.uasset",
+      "sha1": "03f33d9cd91956a53d154e39b19076292537dbb9",
+      "bytes": 144595
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Box.uasset",
+      "sha1": "66c0010dbead0362459287b18d1292cec80a451a",
+      "bytes": 156740
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Chassis.uasset",
+      "sha1": "2c9964833d35f9e7c28490e1cfe4ac6b84d7c982",
+      "bytes": 158754
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Interior.uasset",
+      "sha1": "078a3219b6d2ea7de5e7f11981843bae6c1c567c",
+      "bytes": 164674
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/BoxTruck/Mi_BoxTruck_Glass.uasset",
+      "sha1": "6c1dd89f1a3e6dc436009ba63fe9d7858b5d2f8c",
+      "bytes": 128610
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Body.uasset",
+      "sha1": "329a450d67933d34918c3c130155c3be1a3f4654",
+      "bytes": 152406
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Interior.uasset",
+      "sha1": "3a3c4e7a943141f72b4c7eabfa20a220ecbf7855",
+      "bytes": 122015
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Under.uasset",
+      "sha1": "ea45095a0e53b3c7ce5987f22b769be3f5a600c6",
+      "bytes": 134469
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Hatchback/Mi_Hatchback_Glass.uasset",
+      "sha1": "1679125588efc23f57831f67f4dfce6140c64e55",
+      "bytes": 122182
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Masters/M_Blank.uasset",
+      "sha1": "3831ae96813d5ae689c6f489f56a8812a2693ab4",
+      "bytes": 88725
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Masters/M_Floor.uasset",
+      "sha1": "01816d1b841820c6ea0e8bd14666d54cfdd4f429",
+      "bytes": 128290
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Masters/M_Glass.uasset",
+      "sha1": "ff121a6eb887115e528b345749d29822c1d1b3c2",
+      "bytes": 110167
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Pickup/M_Pickup_Body.uasset",
+      "sha1": "98e02088801f54f87e9d70bca1de32e893cb57cb",
+      "bytes": 155109
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Pickup/M_Pickup_Interior.uasset",
+      "sha1": "a494d7f383e1ad5774d36854f646854268ffe63d",
+      "bytes": 162722
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Pickup/M_Pickup_Under.uasset",
+      "sha1": "02440824e0ce2deb50392094d68370e39cdc4fc6",
+      "bytes": 143753
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/Pickup/Mi_Pickup_Glass.uasset",
+      "sha1": "bb8d09b13eb693c69c098ec6d8073ba5633f6170",
+      "bytes": 116198
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SportsCar/M_SportsCar_Body.uasset",
+      "sha1": "cadf2bc69bf305f24f1967db4212d77b2dfaa4a7",
+      "bytes": 130246
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SportsCar/M_SportsCar_Interior.uasset",
+      "sha1": "7aa9319618b5053979b78221083349a7c7fda645",
+      "bytes": 128872
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SportsCar/M_SportsCar_Under.uasset",
+      "sha1": "87c6c238c7f2189f4a4b5cef9f5ac669c40c6150",
+      "bytes": 138844
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SportsCar/Mi_Glass_SportsCar.uasset",
+      "sha1": "38077370dec4a1f2663af072d06b2e115c5be7e0",
+      "bytes": 104571
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SUV/M_SUV_Body.uasset",
+      "sha1": "7aa6827f3ca7db5e8807be4a8d555228ed5655f3",
+      "bytes": 135167
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SUV/M_SUV_Interior.uasset",
+      "sha1": "fb5dc228308e404170dc563a8bbbe2df96919232",
+      "bytes": 137143
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SUV/M_SUV_Under.uasset",
+      "sha1": "b9ad104a1468c43b63dd70429f53a054966d4959",
+      "bytes": 152029
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Materials/SUV/Mi_SUV_Glass.uasset",
+      "sha1": "b199dbe835d701d2097ac69c930150d4f3bfc5d2",
+      "bytes": 107297
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Meshes/SM_Floorplane.uasset",
+      "sha1": "50b07279e86ecfb1df4f0650ace82856400a72e2",
+      "bytes": 1001947
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Meshes/SM_Hatchback.uasset",
+      "sha1": "1cdfa0b48a93ae92b75596ca4437a9db17fd3b88",
+      "bytes": 9851371
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Meshes/SM_Pickup.uasset",
+      "sha1": "36a2b6392817d4fafc683f63546053cd5e948601",
+      "bytes": 11570757
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Meshes/SM_SportsCar.uasset",
+      "sha1": "21170217929812f0e0b45aac7bfe5c1b178e3ceb",
+      "bytes": 16179314
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Meshes/SM_SUV.uasset",
+      "sha1": "c141e72ff47e1eaff83f85dbeca612add2f7a3ed",
+      "bytes": 20753181
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Meshes/SM_Truck_Box.uasset",
+      "sha1": "1dff70d629eec5ac893cc70f4b5eb456b16e11db",
+      "bytes": 19494055
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Plane.uasset",
+      "sha1": "297aca33d86707e6d27e32d7d4103b5ccd858d56",
+      "bytes": 97116
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Hatchback.uasset",
+      "sha1": "e426d4adc88d2f1c4e62003ec0b39a4629b38fd1",
+      "bytes": 13201578
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Hatchback_PhysicsAsset.uasset",
+      "sha1": "56680116be71f9dc93faa44cb1f7c6c29504d587",
+      "bytes": 107260
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Pickup.uasset",
+      "sha1": "6adb9fdf83babe44918dce2c5d1d801c590999fb",
+      "bytes": 16169263
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Pickup_PhysicsAsset.uasset",
+      "sha1": "ff36fc3e2dabb55c39276d5b49448a02ed668738",
+      "bytes": 112572
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_SportsCar.uasset",
+      "sha1": "77143566a7243a8e25fd53a713b4ef0c99fe4d24",
+      "bytes": 27153698
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_SportsCar_PhysicsAsset.uasset",
+      "sha1": "537d112bdace171f077d32796daa81e2baa5ed47",
+      "bytes": 105389
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_SUV.uasset",
+      "sha1": "5da45a8902e3cc007348f39234d4cc968fed6f7b",
+      "bytes": 25689067
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_SUV_PhysicsAsset.uasset",
+      "sha1": "335dc3fb8ae60553cd4680af50035ee71ac89383",
+      "bytes": 120222
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Truck_Box.uasset",
+      "sha1": "1b24cc45c85192fddbbcb1a904119a110cdb1786",
+      "bytes": 49596559
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Truck_Box_PhysicsAsset.uasset",
+      "sha1": "518508df0db20d16b3ce865db477888671996d16",
+      "bytes": 111418
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Truck_Chassis.uasset",
+      "sha1": "eaa22b14f52467dac5fdbc92a360431e9066d8d6",
+      "bytes": 49224714
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Truck_Chassis_PhysicsAsset.uasset",
+      "sha1": "ef8502b48ab62ec39820288e6d4500ea305cfd01",
+      "bytes": 112416
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Skeletons/SK_Vehicle_Skeleton.uasset",
+      "sha1": "09441857d884d058e17695ea1beb47d8deb2388f",
+      "bytes": 2486
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Box_Diffuse.uasset",
+      "sha1": "5653bb2055ce76f5c6afd5a36a72fd337664d305",
+      "bytes": 17660087
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Box_Normal.uasset",
+      "sha1": "47c06befc256bec8a5862702718941ed0a8d8e9e",
+      "bytes": 17613655
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Box_ORM.uasset",
+      "sha1": "ada3380f6feedff12ca112c15d626d4dd67ccbc9",
+      "bytes": 22114513
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_Diffuse.uasset",
+      "sha1": "248540663e25d11170262ebe1614e9e8ee7ca9fc",
+      "bytes": 13937308
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_EMM.uasset",
+      "sha1": "3a1a260555fb5d21fa3083f363697e09462ca5d4",
+      "bytes": 98396
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_Normal.uasset",
+      "sha1": "50046848aca17f4ad44fa66d42258a78b6c90176",
+      "bytes": 21593432
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_ORM.uasset",
+      "sha1": "ea3d22b2412d0715ea76097e77ad54edc88279b0",
+      "bytes": 20057356
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_Diffuse.uasset",
+      "sha1": "7a63bd6fc46cb5ba162be530642cdeabcc028ad5",
+      "bytes": 18330811
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_EMM.uasset",
+      "sha1": "c970a22afbf03326f4931819acc3d0b16aee50a8",
+      "bytes": 85893
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_Normal.uasset",
+      "sha1": "639b41a78dcaeb8cc7caadc208c2d806152eb3aa",
+      "bytes": 19326822
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_ORM.uasset",
+      "sha1": "be4fb7f55643999da20f1ea36cde6189862b1107",
+      "bytes": 21305754
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_Diffuse.uasset",
+      "sha1": "16e437325924238e3b5551b83f706e67e83f2d7a",
+      "bytes": 11820356
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_Normal.uasset",
+      "sha1": "05501773d923149d19cd1b6e5ec500fd1dcfe155",
+      "bytes": 9555298
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_OPC.uasset",
+      "sha1": "e801d44ce17dcdd621bfa8ada73d39a6e1b319b2",
+      "bytes": 6457477
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_ORM.uasset",
+      "sha1": "1c23ec6bf5628b9e09fafc3dfb1999c513063f5d",
+      "bytes": 10133857
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Interior_Diffuse.uasset",
+      "sha1": "4364b037fa9f2da5b61897654cb62ec433be9429",
+      "bytes": 14161328
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Interior_Normal.uasset",
+      "sha1": "d8d8aae7b8150423c7b70ed0292f7a23e8086a42",
+      "bytes": 33577247
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Interior_ORM.uasset",
+      "sha1": "79cc21f3bf43d8cd1a9f5d7daa8afe5fdedb6435",
+      "bytes": 22284260
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse.uasset",
+      "sha1": "9d01882e2ac93471f514aef8ef47fb7b8b362f50",
+      "bytes": 20378941
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse_0.uasset",
+      "sha1": "34836e9f964c642ba675dd8df32763a307749da1",
+      "bytes": 11996284
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse_1.uasset",
+      "sha1": "9b01d5f3ee989e51d46cebb505419fce2741b402",
+      "bytes": 13328952
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse_2.uasset",
+      "sha1": "4b29e4d178a082f855ca78f58d7e43aad4b6b127",
+      "bytes": 8964113
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_EMM_0.uasset",
+      "sha1": "45c0ab26d0e3ee878e738d8813c599bf22d2af0a",
+      "bytes": 326532
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal.uasset",
+      "sha1": "9cef34b5bdd71877995df6eb1c36055b0fdc7fe4",
+      "bytes": 28215013
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal_0.uasset",
+      "sha1": "2a8746bf8d3a6fa81ef827d4d7f58e3bc2f3b165",
+      "bytes": 21021343
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal_1.uasset",
+      "sha1": "bf1a5ee01deb9a49acaf30267aa4b0197bd29624",
+      "bytes": 31138368
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal_2.uasset",
+      "sha1": "ea2ed00f05d47c9d4b8538042d2e8fd33848a2f2",
+      "bytes": 14986638
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_OPC_2.uasset",
+      "sha1": "dc923303a6ac6c1ad8cb11eceda888503474cb58",
+      "bytes": 4110737
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM.uasset",
+      "sha1": "f7903bd1c8880ecf3a8f5860fd66b4b2773299ac",
+      "bytes": 27345846
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM_0.uasset",
+      "sha1": "435421177c8136d7839885d675ced791861e1f47",
+      "bytes": 21097989
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM_1.uasset",
+      "sha1": "911a0c1275df43930ef4b8ffea524a3590898559",
+      "bytes": 23168614
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM_2.uasset",
+      "sha1": "6d18ffb115094673c8f56ca0da558abfdfa7665b",
+      "bytes": 9634462
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Diffuse.uasset",
+      "sha1": "6c3202e496fcbcb0ce7f8ed8c248bc84e9b54166",
+      "bytes": 15267488
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Diffuse_1.uasset",
+      "sha1": "96e8d71369e8e4b87841bb2e0b7a009fbe4e7efa",
+      "bytes": 17738232
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Diffuse_2.uasset",
+      "sha1": "1985ecc7105ea98378094d66a3e2811525d27369",
+      "bytes": 20524016
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_EMM.uasset",
+      "sha1": "c3bd48509bc0fae204b3c956665bbc0af67c9814",
+      "bytes": 324860
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_Diffuse.uasset",
+      "sha1": "8f25a3e5f58ca9443fdf2bc4076fa365bbc4c6f7",
+      "bytes": 23256217
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_Normal.uasset",
+      "sha1": "985b00205c389a90c42ba8dc4330ac969a5e5a61",
+      "bytes": 29828916
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_OPC.uasset",
+      "sha1": "3faba8da359aebf1f8b2dd485ce8a574e215a3b0",
+      "bytes": 164258
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_ORM.uasset",
+      "sha1": "2312bc13a18bf7182f52e75289bff8471da932bb",
+      "bytes": 14988920
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Normal.uasset",
+      "sha1": "90a280bad219520e038fad0207ec6c7729c27c7b",
+      "bytes": 25125680
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Normal_1.uasset",
+      "sha1": "442305e462cc075bb5e4743a6b1ee038a844dc0d",
+      "bytes": 27076712
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Normal_2.uasset",
+      "sha1": "50aa567156febf5efec3bc21f6f252c71530e484",
+      "bytes": 10627933
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_OPC_2.uasset",
+      "sha1": "ea721b7cd9be66db4ad7f48a92e04a3381694a32",
+      "bytes": 1841082
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_ORM.uasset",
+      "sha1": "2f76a88b8e8f56e2518e6ab43810475e6c4c07bf",
+      "bytes": 19775743
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_ORM_1.uasset",
+      "sha1": "383e3fb04f4f1a82244f3e0337a29b173dba7075",
+      "bytes": 19892764
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/Pickup/TX_Pickup_ORM_2.uasset",
+      "sha1": "05b9555491e9ed474ad8b5e4a38a85714672f437",
+      "bytes": 6559877
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Exterior_Diffuse.uasset",
+      "sha1": "362df851cf6283fd87a9d26b5ae1f9e3be6bba9d",
+      "bytes": 6502772
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_Sportscar_Exterior_Emissive.uasset",
+      "sha1": "c207c0d3ca59de071df71a2f70c94e4a6094e222",
+      "bytes": 325059
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Exterior_Normal.uasset",
+      "sha1": "560aafcda2a2f5baa0a975a5b04a40b6425aad8f",
+      "bytes": 17150222
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Exterior_ORM.uasset",
+      "sha1": "f8bf780c8991afddec5eb4091ed486735af5ebca",
+      "bytes": 16044550
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Glass_Diffuse.uasset",
+      "sha1": "4e745595db1b40fe8c5f002d19360c07f054c473",
+      "bytes": 25251
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Glass_Normal.uasset",
+      "sha1": "75e3e99ebf3d54628917df56fbc6b1f07b6da21c",
+      "bytes": 979119
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Glass_ORM.uasset",
+      "sha1": "16878af13fd0a732e2489b0a2d0647c5e1d54e78",
+      "bytes": 5187
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Interior_Diffuse.uasset",
+      "sha1": "1918741a78e292cb3b8abac603133195491403c0",
+      "bytes": 15707778
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Interior_Normal.uasset",
+      "sha1": "7f62729cd35557fff51eb8c492d3a8414a24acbd",
+      "bytes": 24452744
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Interior_ORM.uasset",
+      "sha1": "642be5786ab243283837ffc81c2d675c8c0b979b",
+      "bytes": 19086883
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Underside_Diffuse.uasset",
+      "sha1": "38e542583a82b2324e9163c45814157b70e80b5a",
+      "bytes": 9009417
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Underside_Normal.uasset",
+      "sha1": "e25dc64e2eb935645ac9aa7904254d1c6bece145",
+      "bytes": 21493352
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Underside_ORM.uasset",
+      "sha1": "47be205e63ab58012d32f843ca6fe001c59e7150",
+      "bytes": 14368530
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Details_Diffuse.uasset",
+      "sha1": "6edbc798a2141bb751fdb172daa215cc690182ec",
+      "bytes": 28887767
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Details_Normal.uasset",
+      "sha1": "e9c3e73c6f83f4aeb34a3ea502cf767d27463e7f",
+      "bytes": 26602672
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Details_ORM.uasset",
+      "sha1": "56ed1e1be4a2eb578665cbc278b6e38142dce2a9",
+      "bytes": 23349485
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Glass_BaseColor.uasset",
+      "sha1": "f07afecfa219aabaf77415a40f7e419b664dad86",
+      "bytes": 5643219
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Glass_Normal.uasset",
+      "sha1": "44417e8d78021a4c1cfa63e5e47285c27d08b139",
+      "bytes": 3773275
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Glass_ORM.uasset",
+      "sha1": "9292f5c125ce4d0b9cc07b1eae1ed2ee3d80ac25",
+      "bytes": 397332
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_Diffuse.uasset",
+      "sha1": "789e05b69677630bfd1fc2eb22f21b3a3cc06a47",
+      "bytes": 11416104
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_Emissive.uasset",
+      "sha1": "75842e0ec81d812672a5bdfe6a1d8cb5f5829269",
+      "bytes": 335422
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_Normal.uasset",
+      "sha1": "ca52c2be17f644f67b5c3251205032771a987f01",
+      "bytes": 31123974
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_ORM.uasset",
+      "sha1": "abaac9a0d03742b374df949c6a7b21e95fc4b812",
+      "bytes": 15936543
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Undercar_Diffuse.uasset",
+      "sha1": "1204e8d2f8e022d1ff0e13370ba9b24298ccebab",
+      "bytes": 22842897
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Undercar_Normal.uasset",
+      "sha1": "e464077b5d800b677decccc73d31eda739e18f20",
+      "bytes": 40818195
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/SUV/TX_SUV_Undercar_ORM.uasset",
+      "sha1": "de1627865375cba4eaaa166b3ae53b678e7cf3ee",
+      "bytes": 24386487
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/TX_Asphalt_Dry_Diffuse.uasset",
+      "sha1": "bafee085757e0fd38f08bd2b4fb5b170eb429574",
+      "bytes": 3482449
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/TX_Asphalt_Dry_Normal.uasset",
+      "sha1": "e1e4fc5a202477c53871a16306f5df527fc28e01",
+      "bytes": 8566196
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/TX_Asphalt_Wet_RGB.uasset",
+      "sha1": "9ef22ab341c8efe7dc037c9ee36b6cbdb163706e",
+      "bytes": 4431685
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/TX_LUT_Adjustments.uasset",
+      "sha1": "b2ef91d3f41991838adbbaa989e1c2987ac2b412",
+      "bytes": 13782
+    },
+    {
+      "path": "Content/VehicleVarietyPack/Textures/TX_StudioLighting.uasset",
+      "sha1": "df867361ec9f8b3d00060c7dcda82d273e1ce43f",
+      "bytes": 5296550
+    }
+  ],
+  "content_roots": [
+    "/Game/VehicleVarietyPack"
+  ],
+  "status": "sha1_verified_and_staged"
+}

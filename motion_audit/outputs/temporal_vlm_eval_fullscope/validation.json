@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-21T10:58:45.669399+00:00",
+  "models": 7,
+  "predictions": 16709,
+  "qa": 2387,
+  "qa_videos": 1275,
+  "unique_images": 17082,
+  "checks": [
+    "exact QA coverage",
+    "source hashes unchanged",
+    "prompt reconstruction and hashes",
+    "no gold or geometry in model-input fields",
+    "all frames exist",
+    "all raw responses reparsed and rescored",
+    "VG RGB geometry encoder enabled",
+    "four group denominators"
+  ],
+  "chance_accuracy": 0.3061024996508867
+}

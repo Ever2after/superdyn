@@ -1,0 +1,373 @@
+{
+  "status": "completed",
+  "scope": "Generated outputs and superseded Markdown only. No source code, assets, input exports, engine, environment, or motion_audit deleted.",
+  "protected_sha256": {
+    "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/sample.mp4": "e5597319c9d8f102809e5983bc4095e42038b4955c55583798f3be6a29fd10a5",
+    "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/route.json": "60aa38078e77c5886c0498ef2905f7c4ed777c11d86394df9df98d443bbc5923",
+    "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/verification.json": "3afc015b7dac219b0cd8fd53006b4798720c3629f2b64e24d9f77fbfb82251a3",
+    "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/native_validation.json": "25dd0ea517ee058f77b1f917991685d248fee52ad8969b8ada3842b6a77b70e4",
+    "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/sample.mp4": "aecb27d60023344d001b05002a44e1ed870e1cfa793fb0e33eadbb62426a74e9",
+    "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/route.json": "eeb745d99f4fe00a8d9f9bea862aa46d28224be10fbee45a519fc1af9e2cf99a",
+    "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/verification.json": "90a64279010fcb2684baa267239ecf2ee479727100babff6a34b337dcced647a",
+    "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/native_validation.json": "d36fd1ddec06441c7baae7f1ea27ff63f271717dcc5631beb0588bbb68fae11e",
+    "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/sample.mp4": "1099b0c5e606b923a20f2188a241a74d373a74352bdc4de5d93047f7b721a3dc",
+    "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/route.json": "de24ff8e9e553df16d3ee5e5a1ba08a5d377b9a2d8cbd21a7c055de7d14aa455",
+    "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/verification.json": "73747da62bd51eab0c3365ca3a1c324fb30da66bd5bb4a60fedba07a9710d6fc",
+    "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/native_validation.json": "ae694bebd75f1f1f1a69de2e460bc759eaf095053f0912ba535278d386c657be",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Maps/PopulatedYard.umap": "fa5c1bbdfc11c3d83dbe78def7a8a57eef78c518338fbda95395525af66366bd",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Sequences/LS_01_east_to_west.uasset": "309ff72878a59d83b6d127ecda11f73c6384c99c7ddc24b6b1df561e32a7f6ef",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Sequences/LS_02_west_to_east.uasset": "eee931154b06ec90d41b527216e6e544ef8a12fa93360f876c43134bbb1bc73b",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Sequences/LS_03_full_loop.uasset": "ef5c7260e91278a882826046c3f4daedeeb313d3921de535c9fc7db0a26609d9",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_018_sk_deerstag.uasset": "9698b7ef3b7a523740f951971ca46bc85fbc07bdde6d0bafae3f28cdd99cd7e0",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_016_sk_wolf.uasset": "cb9a9468f998005572c2cde9f88c524d7fd07c6e16930042695affb2de2bf5df",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_021_sk_crow.uasset": "c2e8ed4dcd33d31165091770c047309dddea6233a714be9ddf2098a2c2df8c73",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_019_sk_deerdoe.uasset": "7b407b12819710872c386d48d71595ce4ed0c891656556108eb9743e99c7c291",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_012_skm_uefn_mannequin.uasset": "9294f7145767f95e55d6b88ebbfabc014bcc87c0ce6065a8fda4fe96ff2f441f",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_017_sk_fox.uasset": "e99a793aa5099682cf521b3c72c4655a8257eb57306c64c573a2c484080b0208",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_014_sparrow.uasset": "d940703474a8389f2697bd890d0ef13cc9ad0752002bb39005c97fef4f93e2c3",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_020_sk_pig.uasset": "02485175902b9b1c11bcb4a0d5a95c02aaf3563daaaf6c54ec9d927819232b7e",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_013_twinblast.uasset": "db0a3d9d5d1355031db1847a40d9c5a49975d5fa9b7c8325872248aba792d369",
+    "unreal_synthetic/Content/SuperDyn/ABWalkthroughs/Motion/ab_015_gadget.uasset": "3468582ca781ff97eebc4c30e019bcb2029a3dcad5d9017a88fa3862cbf7f5d1"
+  },
+  "entries": [
+    {
+      "path": "unreal_synthetic/outputs/fab_source_demos",
+      "category": "legacy_unreal_outputs",
+      "files": 456,
+      "logical_bytes": 613619981,
+      "allocated_bytes": 615953408
+    },
+    {
+      "path": "unreal_synthetic/outputs/selected_fab_review",
+      "category": "legacy_unreal_outputs",
+      "files": 5059,
+      "logical_bytes": 7348853510,
+      "allocated_bytes": 7387660800
+    },
+    {
+      "path": "unreal_synthetic/outputs/theme_examples",
+      "category": "legacy_unreal_outputs",
+      "files": 689,
+      "logical_bytes": 833908392,
+      "allocated_bytes": 839165952
+    },
+    {
+      "path": "unreal_synthetic/outputs/source_demos",
+      "category": "legacy_unreal_outputs",
+      "files": 1899,
+      "logical_bytes": 2511161656,
+      "allocated_bytes": 2525192704
+    },
+    {
+      "path": "unreal_synthetic/outputs/enclosed_hdri_level",
+      "category": "legacy_unreal_outputs",
+      "files": 705,
+      "logical_bytes": 851159674,
+      "allocated_bytes": 856338944
+    },
+    {
+      "path": "unreal_synthetic/outputs/_attempts",
+      "category": "legacy_unreal_outputs",
+      "files": 105,
+      "logical_bytes": 25678922,
+      "allocated_bytes": 26065408
+    },
+    {
+      "path": "unreal_synthetic/outputs/official_assets",
+      "category": "legacy_unreal_outputs",
+      "files": 887,
+      "logical_bytes": 743026257,
+      "allocated_bytes": 749779968
+    },
+    {
+      "path": "synthetic/outputs/themed5",
+      "category": "legacy_blender_outputs",
+      "files": 1561,
+      "logical_bytes": 931572125,
+      "allocated_bytes": 941832704
+    },
+    {
+      "path": "synthetic/outputs/domains10",
+      "category": "legacy_blender_outputs",
+      "files": 2697,
+      "logical_bytes": 8546676212,
+      "allocated_bytes": 8567759360
+    },
+    {
+      "path": "synthetic/outputs/terraced_draft",
+      "category": "legacy_blender_outputs",
+      "files": 74,
+      "logical_bytes": 16730253,
+      "allocated_bytes": 16932352
+    },
+    {
+      "path": "synthetic/outputs/current",
+      "category": "legacy_blender_outputs",
+      "files": 1317,
+      "logical_bytes": 1357148408,
+      "allocated_bytes": 1361100800
+    },
+    {
+      "path": "synthetic/outputs/drone_views",
+      "category": "legacy_blender_outputs",
+      "files": 1294,
+      "logical_bytes": 950765966,
+      "allocated_bytes": 959099392
+    },
+    {
+      "path": "synthetic/outputs/terraces",
+      "category": "legacy_blender_outputs",
+      "files": 579,
+      "logical_bytes": 117087876,
+      "allocated_bytes": 118886912
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/attempts",
+      "category": "development_outputs",
+      "files": 9,
+      "logical_bytes": 1717820,
+      "allocated_bytes": 1755136
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/attempt_cliff_corner",
+      "category": "development_outputs",
+      "files": 732,
+      "logical_bytes": 1105283102,
+      "allocated_bytes": 1111034368
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/attempt_cliff_corner",
+      "category": "development_outputs",
+      "files": 732,
+      "logical_bytes": 1103805514,
+      "allocated_bytes": 1109658112
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/attempt_cliff_corner",
+      "category": "development_outputs",
+      "files": 51,
+      "logical_bytes": 73068587,
+      "allocated_bytes": 73435648
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/preview",
+      "category": "development_outputs",
+      "files": 4,
+      "logical_bytes": 4893692,
+      "allocated_bytes": 4915712
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/preview",
+      "category": "development_outputs",
+      "files": 4,
+      "logical_bytes": 4539441,
+      "allocated_bytes": 4555264
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/preview",
+      "category": "development_outputs",
+      "files": 4,
+      "logical_bytes": 4605320,
+      "allocated_bytes": 4637184
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/preview_overview.jpg",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 254278,
+      "allocated_bytes": 262144
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/preview_editor.log",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 453572,
+      "allocated_bytes": 458752
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/preview_editor.launch.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 604,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/preview_verification.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 78,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/placement_preflight.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 19549,
+      "allocated_bytes": 32768
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/terrain_plan.png",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 38805,
+      "allocated_bytes": 49152
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/native_status_previous_1793273729.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 910,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/native_status_previous_1793275370.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 34,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/native_status_previous_1793274171.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 955,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/native_status_previous_1793274376.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 954,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/preview_verification.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 40,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west/preview_status.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 90,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/preview_verification.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 40,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/03_full_loop/preview_status.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 90,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/preview_verification.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 40,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/outputs/ab_walkthroughs/02_west_to_east/preview_status.json",
+      "category": "development_outputs",
+      "files": 1,
+      "logical_bytes": 90,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/ACTOR_ASSET_RESEARCH.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 13103,
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "unreal_synthetic/ENCLOSED_HDRI.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 5019,
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "unreal_synthetic/FAB_FREE_RECOMMENDATIONS.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 14923,
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "unreal_synthetic/FAB_SELECTED_REVIEW.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 1574,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/PREVIEW.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 2991,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "unreal_synthetic/SCENE_ASSET_RESEARCH.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 8374,
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "unreal_synthetic/SOURCE_DEMOS.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 9561,
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "unreal_synthetic/THEME_EXAMPLES.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 5551,
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "synthetic/PREVIEW.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 3237,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "synthetic/docs/LOW_DRONE_VIDEOS.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 2801,
+      "allocated_bytes": 512
+    },
+    {
+      "path": "synthetic/docs/THEMED_VIDEOS.md",
+      "category": "superseded_markdown",
+      "files": 1,
+      "logical_bytes": 5531,
+      "allocated_bytes": 16384
+    }
+  ],
+  "removed_files": 18885,
+  "logical_bytes": 27146145502,
+  "allocated_bytes": 27276685824,
+  "protected_files_verified": 26,
+  "all_targets_removed": true,
+  "bytecode_cache_cleanup": {
+    "directories": 14,
+    "files": 154,
+    "bytes": 1530270
+  }
+}

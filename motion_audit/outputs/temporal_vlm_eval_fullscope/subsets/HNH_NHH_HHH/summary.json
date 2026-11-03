@@ -1,0 +1,614 @@
+{
+  "status": "completed",
+  "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_vlm_eval_fullscope",
+  "groups": [
+    "HLH",
+    "LHH",
+    "HHH"
+  ],
+  "display_groups": [
+    "HNH",
+    "NHH",
+    "HHH"
+  ],
+  "qa": 957,
+  "videos": 473,
+  "models": {
+    "qwen25vl_3b": {
+      "processed": 957,
+      "expected": 957,
+      "correct": 381,
+      "accuracy": 0.3981191222570533,
+      "invalid": 8,
+      "errors": 0,
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 271,
+          "expected": 271,
+          "correct": 82,
+          "accuracy": 0.3025830258302583,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 152,
+          "expected": 152,
+          "correct": 78,
+          "accuracy": 0.5131578947368421,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 218,
+          "expected": 218,
+          "correct": 50,
+          "accuracy": 0.22935779816513763,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 148,
+          "expected": 148,
+          "correct": 94,
+          "accuracy": 0.6351351351351351,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 70,
+          "expected": 70,
+          "correct": 29,
+          "accuracy": 0.4142857142857143,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 98,
+          "expected": 98,
+          "correct": 48,
+          "accuracy": 0.4897959183673469,
+          "invalid": 8,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 114,
+          "accuracy": 0.336283185840708,
+          "invalid": 1,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 92,
+          "accuracy": 0.4791666666666667,
+          "invalid": 1,
+          "errors": 0
+        },
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 175,
+          "accuracy": 0.4107981220657277,
+          "invalid": 6,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.4307192477534057
+    },
+    "qwen25vl_7b": {
+      "processed": 957,
+      "expected": 957,
+      "correct": 401,
+      "accuracy": 0.41901776384535006,
+      "invalid": 0,
+      "errors": 0,
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 271,
+          "expected": 271,
+          "correct": 80,
+          "accuracy": 0.2952029520295203,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 152,
+          "expected": 152,
+          "correct": 80,
+          "accuracy": 0.5263157894736842,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 218,
+          "expected": 218,
+          "correct": 48,
+          "accuracy": 0.22018348623853212,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 148,
+          "expected": 148,
+          "correct": 95,
+          "accuracy": 0.6418918918918919,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 70,
+          "expected": 70,
+          "correct": 32,
+          "accuracy": 0.45714285714285713,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 98,
+          "expected": 98,
+          "correct": 66,
+          "accuracy": 0.673469387755102,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 135,
+          "accuracy": 0.39823008849557523,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 86,
+          "accuracy": 0.4479166666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 180,
+          "accuracy": 0.4225352112676056,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.46903439408859793
+    },
+    "vgllm_qa_4b": {
+      "processed": 957,
+      "expected": 957,
+      "correct": 388,
+      "accuracy": 0.4054336468129572,
+      "invalid": 0,
+      "errors": 0,
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 271,
+          "expected": 271,
+          "correct": 82,
+          "accuracy": 0.3025830258302583,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 152,
+          "expected": 152,
+          "correct": 75,
+          "accuracy": 0.4934210526315789,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 218,
+          "expected": 218,
+          "correct": 47,
+          "accuracy": 0.21559633027522937,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 148,
+          "expected": 148,
+          "correct": 90,
+          "accuracy": 0.6081081081081081,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 70,
+          "expected": 70,
+          "correct": 36,
+          "accuracy": 0.5142857142857142,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 98,
+          "expected": 98,
+          "correct": 58,
+          "accuracy": 0.5918367346938775,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 127,
+          "accuracy": 0.3746312684365782,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 88,
+          "accuracy": 0.4583333333333333,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 173,
+          "accuracy": 0.4061032863849765,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.45430516097079443
+    },
+    "vgllm_qa_8b": {
+      "processed": 957,
+      "expected": 957,
+      "correct": 451,
+      "accuracy": 0.47126436781609193,
+      "invalid": 0,
+      "errors": 0,
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 271,
+          "expected": 271,
+          "correct": 86,
+          "accuracy": 0.3173431734317343,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 152,
+          "expected": 152,
+          "correct": 98,
+          "accuracy": 0.6447368421052632,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 218,
+          "expected": 218,
+          "correct": 55,
+          "accuracy": 0.25229357798165136,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 148,
+          "expected": 148,
+          "correct": 112,
+          "accuracy": 0.7567567567567568,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 70,
+          "expected": 70,
+          "correct": 34,
+          "accuracy": 0.4857142857142857,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 98,
+          "expected": 98,
+          "correct": 66,
+          "accuracy": 0.673469387755102,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 145,
+          "accuracy": 0.4277286135693215,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 110,
+          "accuracy": 0.5729166666666666,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 196,
+          "accuracy": 0.460093896713615,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.5217190039574656
+    },
+    "mllm4d_sft_8b": {
+      "processed": 957,
+      "expected": 957,
+      "correct": 474,
+      "accuracy": 0.4952978056426332,
+      "invalid": 0,
+      "errors": 0,
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 271,
+          "expected": 271,
+          "correct": 88,
+          "accuracy": 0.3247232472324723,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 152,
+          "expected": 152,
+          "correct": 96,
+          "accuracy": 0.631578947368421,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 218,
+          "expected": 218,
+          "correct": 75,
+          "accuracy": 0.3440366972477064,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 148,
+          "expected": 148,
+          "correct": 126,
+          "accuracy": 0.8513513513513513,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 70,
+          "expected": 70,
+          "correct": 37,
+          "accuracy": 0.5285714285714286,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 98,
+          "expected": 98,
+          "correct": 52,
+          "accuracy": 0.5306122448979592,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 160,
+          "accuracy": 0.471976401179941,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 113,
+          "accuracy": 0.5885416666666666,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 201,
+          "accuracy": 0.47183098591549294,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.5351456527782231
+    },
+    "4drgpt_8b": {
+      "processed": 957,
+      "expected": 957,
+      "correct": 317,
+      "accuracy": 0.33124346917450365,
+      "invalid": 1,
+      "errors": 0,
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 271,
+          "expected": 271,
+          "correct": 61,
+          "accuracy": 0.22509225092250923,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 152,
+          "expected": 152,
+          "correct": 36,
+          "accuracy": 0.23684210526315788,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 218,
+          "expected": 218,
+          "correct": 53,
+          "accuracy": 0.24311926605504589,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 148,
+          "expected": 148,
+          "correct": 91,
+          "accuracy": 0.6148648648648649,
+          "invalid": 1,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 70,
+          "expected": 70,
+          "correct": 30,
+          "accuracy": 0.42857142857142855,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 98,
+          "expected": 98,
+          "correct": 46,
+          "accuracy": 0.46938775510204084,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 109,
+          "accuracy": 0.3215339233038348,
+          "invalid": 1,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 74,
+          "accuracy": 0.3854166666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 134,
+          "accuracy": 0.3145539906103286,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.3696462784631746
+    },
+    "dsr_suite_7b": {
+      "processed": 957,
+      "expected": 957,
+      "correct": 413,
+      "accuracy": 0.4315569487983281,
+      "invalid": 0,
+      "errors": 0,
+      "per_task": {
+        "camera_translation_direction": {
+          "processed": 271,
+          "expected": 271,
+          "correct": 93,
+          "accuracy": 0.34317343173431736,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_view_direction_change": {
+          "processed": 152,
+          "expected": 152,
+          "correct": 81,
+          "accuracy": 0.5328947368421053,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_world_motion_direction": {
+          "processed": 218,
+          "expected": 218,
+          "correct": 54,
+          "accuracy": 0.24770642201834864,
+          "invalid": 0,
+          "errors": 0
+        },
+        "camera_object_distance_change": {
+          "processed": 148,
+          "expected": 148,
+          "correct": 90,
+          "accuracy": 0.6081081081081081,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_pair_distance_change": {
+          "processed": 70,
+          "expected": 70,
+          "correct": 35,
+          "accuracy": 0.5,
+          "invalid": 0,
+          "errors": 0
+        },
+        "object_travel_distance_comparison": {
+          "processed": 98,
+          "expected": 98,
+          "correct": 60,
+          "accuracy": 0.6122448979591837,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "per_group8": {
+        "HLH": {
+          "processed": 339,
+          "expected": 339,
+          "correct": 143,
+          "accuracy": 0.4218289085545723,
+          "invalid": 0,
+          "errors": 0
+        },
+        "LHH": {
+          "processed": 192,
+          "expected": 192,
+          "correct": 89,
+          "accuracy": 0.4635416666666667,
+          "invalid": 0,
+          "errors": 0
+        },
+        "HHH": {
+          "processed": 426,
+          "expected": 426,
+          "correct": 181,
+          "accuracy": 0.42488262910798125,
+          "invalid": 0,
+          "errors": 0
+        }
+      },
+      "task_macro_accuracy": 0.47402126611034384
+    }
+  },
+  "created_at": "2026-10-21T11:20:08.935337+00:00"
+}

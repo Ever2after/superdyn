@@ -1,0 +1,803 @@
+{
+  "id": "vehicle_variety_pack",
+  "roots": [
+    "/Game/VehicleVarietyPack"
+  ],
+  "class_counts": {
+    "StaticMesh": 7,
+    "World": 2,
+    "MapBuildDataRegistry": 2,
+    "Material": 19,
+    "MaterialInstanceConstant": 5,
+    "TireConfig": 5,
+    "Blueprint": 20,
+    "AnimBlueprint": 5,
+    "PhysicsAsset": 6,
+    "Skeleton": 1,
+    "SkeletalMesh": 6,
+    "Texture2D": 77,
+    "TextureCube": 1
+  },
+  "assets": [
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/BoxTruck/AB_BoxTruck",
+      "name": "AB_BoxTruck",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_FrontTire",
+      "name": "BP_BT_FrontTire",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_RearTire",
+      "name": "BP_BT_RearTire",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BoxTruck",
+      "name": "BP_BoxTruck",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BoxTruck_Gamemode",
+      "name": "BP_BoxTruck_Gamemode",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/BoxTruck/DA_BT_TireConfig",
+      "name": "DA_BT_TireConfig",
+      "asset_class": "TireConfig"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Hatchback/AB_Hatchback",
+      "name": "AB_Hatchback",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_FrontWheel",
+      "name": "BP_HB_FrontWheel",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_RearWheel",
+      "name": "BP_HB_RearWheel",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Hatchback/BP_Hatchback",
+      "name": "BP_Hatchback",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Hatchback/BP_Hatchback_Gamemode",
+      "name": "BP_Hatchback_Gamemode",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Hatchback/DA_HB_TireConfig",
+      "name": "DA_HB_TireConfig",
+      "asset_class": "TireConfig"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Pickup/AB_Pickup",
+      "name": "AB_Pickup",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Front",
+      "name": "BP_PU_Wheel_Front",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Rear",
+      "name": "BP_PU_Wheel_Rear",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Pickup/BP_Pickup",
+      "name": "BP_Pickup",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Pickup/BP_Pickup_Gamemode",
+      "name": "BP_Pickup_Gamemode",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/Pickup/DA_PU_TireConfig",
+      "name": "DA_PU_TireConfig",
+      "asset_class": "TireConfig"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SUV/AB_SUV",
+      "name": "AB_SUV",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV",
+      "name": "BP_SUV",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Gamemode",
+      "name": "BP_SUV_Gamemode",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Front",
+      "name": "BP_SUV_Wheel_Front",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Rear",
+      "name": "BP_SUV_Wheel_Rear",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SUV/DA_SUV_TireConfig",
+      "name": "DA_SUV_TireConfig",
+      "asset_class": "TireConfig"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SportsCar/AB_SportsCar",
+      "name": "AB_SportsCar",
+      "asset_class": "AnimBlueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Gamemode",
+      "name": "BP_SC_Gamemode",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Front",
+      "name": "BP_SC_Wheel_Front",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Rear",
+      "name": "BP_SC_Wheel_Rear",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SportsCar",
+      "name": "BP_SportsCar",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Blueprints/SportsCar/DA_SC_TireConfig",
+      "name": "DA_SC_TireConfig",
+      "asset_class": "TireConfig"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Maps/Playground",
+      "name": "Playground",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Maps/Playground_BuiltData",
+      "name": "Playground_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Maps/Presentation",
+      "name": "Presentation",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Maps/Presentation_BuiltData",
+      "name": "Presentation_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Body",
+      "name": "M_BoxTruck_Body",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Box",
+      "name": "M_BoxTruck_Box",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Chassis",
+      "name": "M_BoxTruck_Chassis",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/BoxTruck/M_BoxTruck_Interior",
+      "name": "M_BoxTruck_Interior",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/BoxTruck/Mi_BoxTruck_Glass",
+      "name": "Mi_BoxTruck_Glass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Body",
+      "name": "M_Hatchback_Body",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Interior",
+      "name": "M_Hatchback_Interior",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Under",
+      "name": "M_Hatchback_Under",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Hatchback/Mi_Hatchback_Glass",
+      "name": "Mi_Hatchback_Glass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Masters/M_Blank",
+      "name": "M_Blank",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Masters/M_Floor",
+      "name": "M_Floor",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Masters/M_Glass",
+      "name": "M_Glass",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Body",
+      "name": "M_Pickup_Body",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Interior",
+      "name": "M_Pickup_Interior",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Under",
+      "name": "M_Pickup_Under",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/Pickup/Mi_Pickup_Glass",
+      "name": "Mi_Pickup_Glass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SUV/M_SUV_Body",
+      "name": "M_SUV_Body",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SUV/M_SUV_Interior",
+      "name": "M_SUV_Interior",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SUV/M_SUV_Under",
+      "name": "M_SUV_Under",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SUV/Mi_SUV_Glass",
+      "name": "Mi_SUV_Glass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SportsCar/M_SportsCar_Body",
+      "name": "M_SportsCar_Body",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SportsCar/M_SportsCar_Interior",
+      "name": "M_SportsCar_Interior",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SportsCar/M_SportsCar_Under",
+      "name": "M_SportsCar_Under",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Materials/SportsCar/Mi_Glass_SportsCar",
+      "name": "Mi_Glass_SportsCar",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_Floorplane",
+      "name": "SM_Floorplane",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_Hatchback",
+      "name": "SM_Hatchback",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_Pickup",
+      "name": "SM_Pickup",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_SUV",
+      "name": "SM_SUV",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_SportsCar",
+      "name": "SM_SportsCar",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_Truck_Box",
+      "name": "SM_Truck_Box",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Plane",
+      "name": "Plane",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Hatchback",
+      "name": "SK_Hatchback",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Hatchback_PhysicsAsset",
+      "name": "SK_Hatchback_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Pickup",
+      "name": "SK_Pickup",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Pickup_PhysicsAsset",
+      "name": "SK_Pickup_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_SUV",
+      "name": "SK_SUV",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_SUV_PhysicsAsset",
+      "name": "SK_SUV_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_SportsCar",
+      "name": "SK_SportsCar",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_SportsCar_PhysicsAsset",
+      "name": "SK_SportsCar_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Truck_Box",
+      "name": "SK_Truck_Box",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Truck_Box_PhysicsAsset",
+      "name": "SK_Truck_Box_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Truck_Chassis",
+      "name": "SK_Truck_Chassis",
+      "asset_class": "SkeletalMesh"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Truck_Chassis_PhysicsAsset",
+      "name": "SK_Truck_Chassis_PhysicsAsset",
+      "asset_class": "PhysicsAsset"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Skeletons/SK_Vehicle_Skeleton",
+      "name": "SK_Vehicle_Skeleton",
+      "asset_class": "Skeleton"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Box_Diffuse",
+      "name": "TX_Truck_Box_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Box_Normal",
+      "name": "TX_Truck_Box_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Box_ORM",
+      "name": "TX_Truck_Box_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_Diffuse",
+      "name": "TX_Truck_Chassis_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_EMM",
+      "name": "TX_Truck_Chassis_EMM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_Normal",
+      "name": "TX_Truck_Chassis_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Chassis_ORM",
+      "name": "TX_Truck_Chassis_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_Diffuse",
+      "name": "TX_Truck_Exterior_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_EMM",
+      "name": "TX_Truck_Exterior_EMM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_Normal",
+      "name": "TX_Truck_Exterior_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Exterior_ORM",
+      "name": "TX_Truck_Exterior_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_Diffuse",
+      "name": "TX_Truck_Glass_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_Normal",
+      "name": "TX_Truck_Glass_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_OPC",
+      "name": "TX_Truck_Glass_OPC",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Glass_ORM",
+      "name": "TX_Truck_Glass_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Interior_Diffuse",
+      "name": "TX_Truck_Interior_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Interior_Normal",
+      "name": "TX_Truck_Interior_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/BoxTruck/TX_Truck_Interior_ORM",
+      "name": "TX_Truck_Interior_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse",
+      "name": "TX_Hatchback_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse_0",
+      "name": "TX_Hatchback_Diffuse_0",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse_1",
+      "name": "TX_Hatchback_Diffuse_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Diffuse_2",
+      "name": "TX_Hatchback_Diffuse_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_EMM_0",
+      "name": "TX_Hatchback_EMM_0",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal",
+      "name": "TX_Hatchback_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal_0",
+      "name": "TX_Hatchback_Normal_0",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal_1",
+      "name": "TX_Hatchback_Normal_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_Normal_2",
+      "name": "TX_Hatchback_Normal_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_OPC_2",
+      "name": "TX_Hatchback_OPC_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM",
+      "name": "TX_Hatchback_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM_0",
+      "name": "TX_Hatchback_ORM_0",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM_1",
+      "name": "TX_Hatchback_ORM_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Hatchback/TX_Hatchback_ORM_2",
+      "name": "TX_Hatchback_ORM_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Diffuse",
+      "name": "TX_Pickup_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Diffuse_1",
+      "name": "TX_Pickup_Diffuse_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Diffuse_2",
+      "name": "TX_Pickup_Diffuse_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_EMM",
+      "name": "TX_Pickup_EMM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_Diffuse",
+      "name": "TX_Pickup_Interior_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_Normal",
+      "name": "TX_Pickup_Interior_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_OPC",
+      "name": "TX_Pickup_Interior_OPC",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Interior_ORM",
+      "name": "TX_Pickup_Interior_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Normal",
+      "name": "TX_Pickup_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Normal_1",
+      "name": "TX_Pickup_Normal_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_Normal_2",
+      "name": "TX_Pickup_Normal_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_OPC_2",
+      "name": "TX_Pickup_OPC_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_ORM",
+      "name": "TX_Pickup_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_ORM_1",
+      "name": "TX_Pickup_ORM_1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/Pickup/TX_Pickup_ORM_2",
+      "name": "TX_Pickup_ORM_2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Details_Diffuse",
+      "name": "TX_SUV_Details_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Details_Normal",
+      "name": "TX_SUV_Details_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Details_ORM",
+      "name": "TX_SUV_Details_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Glass_BaseColor",
+      "name": "TX_SUV_Glass_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Glass_Normal",
+      "name": "TX_SUV_Glass_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Glass_ORM",
+      "name": "TX_SUV_Glass_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_Diffuse",
+      "name": "TX_SUV_Main_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_Emissive",
+      "name": "TX_SUV_Main_Emissive",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_Normal",
+      "name": "TX_SUV_Main_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Main_ORM",
+      "name": "TX_SUV_Main_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Undercar_Diffuse",
+      "name": "TX_SUV_Undercar_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Undercar_Normal",
+      "name": "TX_SUV_Undercar_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SUV/TX_SUV_Undercar_ORM",
+      "name": "TX_SUV_Undercar_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Exterior_Diffuse",
+      "name": "TX_SportsCar_Exterior_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Exterior_Normal",
+      "name": "TX_SportsCar_Exterior_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Exterior_ORM",
+      "name": "TX_SportsCar_Exterior_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Glass_Diffuse",
+      "name": "TX_SportsCar_Glass_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Glass_Normal",
+      "name": "TX_SportsCar_Glass_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Glass_ORM",
+      "name": "TX_SportsCar_Glass_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Interior_Diffuse",
+      "name": "TX_SportsCar_Interior_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Interior_Normal",
+      "name": "TX_SportsCar_Interior_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Interior_ORM",
+      "name": "TX_SportsCar_Interior_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Underside_Diffuse",
+      "name": "TX_SportsCar_Underside_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Underside_Normal",
+      "name": "TX_SportsCar_Underside_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_SportsCar_Underside_ORM",
+      "name": "TX_SportsCar_Underside_ORM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/SportsCar/TX_Sportscar_Exterior_Emissive",
+      "name": "TX_Sportscar_Exterior_Emissive",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/TX_Asphalt_Dry_Diffuse",
+      "name": "TX_Asphalt_Dry_Diffuse",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/TX_Asphalt_Dry_Normal",
+      "name": "TX_Asphalt_Dry_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/TX_Asphalt_Wet_RGB",
+      "name": "TX_Asphalt_Wet_RGB",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/TX_LUT_Adjustments",
+      "name": "TX_LUT_Adjustments",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Textures/TX_StudioLighting",
+      "name": "TX_StudioLighting",
+      "asset_class": "TextureCube"
+    }
+  ]
+}

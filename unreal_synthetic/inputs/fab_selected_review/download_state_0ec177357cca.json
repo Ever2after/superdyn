@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-29T07:22:31.476Z",
+  "selected_count": 1,
+  "mode": "download",
+  "results": [
+    {
+      "id": "city_sample_buildings",
+      "category": "배경",
+      "rank": 1,
+      "title": "City Sample Buildings",
+      "listing_id": "008fe959-5511-428e-93bd-f99b1179f6d5",
+      "source_url": "https://www.fab.com/listings/008fe959-5511-428e-93bd-f99b1179f6d5",
+      "owned": true,
+      "status": "downloaded",
+      "asset_id": "7e0c3d260b824731b01ea14310739cb6",
+      "bytes": 15347376757,
+      "files": 10779,
+      "unique_chunk_bytes": 14966786651,
+      "engine": "UE_5.4",
+      "target": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/inputs/source_demos/fab_downloads/7e0c3d260b824731b01ea14310739cb6"
+    }
+  ]
+}

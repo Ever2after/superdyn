@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "stage": "synthetic_split_pilot",
+  "environments": [
+    {
+      "id": "rural_cabins",
+      "map": "/Game/Modular_Rural_Cabin/Maps/Rural_Cabins",
+      "source_pack": "modular_rural_cabins",
+      "archetype": "rural forest cabins",
+      "exclude_surfaces": [],
+      "paved_surfaces": [
+        "Road",
+        "road",
+        "Path",
+        "path"
+      ],
+      "window_m": 70,
+      "window_count": 1,
+      "exposure": {
+        "method": "histogram",
+        "bias": 0.0,
+        "min": -6.0,
+        "max": 16.0,
+        "speed": 2.0
+      },
+      "exposure_note": "Map PostProcessVolume clamps exposure (min 1, max -2 EV100) and blows out at eye level; histogram override chosen from pilot_v2 sweep0"
+    },
+    {
+      "id": "city_park",
+      "map": "/Game/CityPark/Maps/Showcase",
+      "source_pack": "city_park_environment",
+      "archetype": "urban park with roads, plaza and playground",
+      "exclude_surfaces": [
+        "Plane",
+        "SM_Pool"
+      ],
+      "paved_surfaces": [
+        "MergedRoad",
+        "SM_ParkSquare",
+        "TennisField",
+        "SM_Road",
+        "SM_Sidewalk"
+      ],
+      "window_m": 70,
+      "window_count": 4
+    }
+  ],
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "frames": 129,
+    "spatial_samples": 4,
+    "gt_frame_step": 4
+  },
+  "excluded_environments": [
+    {
+      "id": "town_street",
+      "map": "/Game/ModularBuildingSet/Demo_Scene",
+      "reason": "VK_ERROR_DEVICE_LOST in Nanite shadow pass while the editor viewport rendered the map (pilot_v1 survey, GPU 6)"
+    },
+    {
+      "id": "unfinished_building",
+      "map": "/Game/Scene_UnfinishedBuilding/Maps/Industrial_UnfinishedBuilding",
+      "reason": "Asset showroom; Quixel Bridge MSPresets material functions missing (LoadErrors)"
+    }
+  ],
+  "assignments": {
+    "m01_truck_right": "city_park",
+    "m02_pan_left": "rural_cabins",
+    "m03_walk_forward": "city_park",
+    "m04_pull_back": "city_park",
+    "m05_crane_up": "rural_cabins",
+    "m06_crane_down_crow_up": "rural_cabins",
+    "m07_tilt_up": "rural_cabins",
+    "m08_orbit": "city_park",
+    "c1a_static_left": "city_park",
+    "c1b_truck_right": "city_park",
+    "c2a_follow": "city_park",
+    "c2b_static": "city_park"
+  }
+}

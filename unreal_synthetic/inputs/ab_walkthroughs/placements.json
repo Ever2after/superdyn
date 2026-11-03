@@ -1,0 +1,691 @@
+{
+  "specs": [
+    {
+      "id": "ab_000_wall_door_window_a_4m",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_A_4m",
+      "anchor_cm": [
+        -920,
+        -735
+      ],
+      "size_cm": 300,
+      "yaw_deg": 0,
+      "category": "structure",
+      "structure_group": "cabin",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_001_wall_door_window_a_4m",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_A_4m",
+      "anchor_cm": [
+        -800,
+        -875
+      ],
+      "size_cm": 300,
+      "yaw_deg": 90,
+      "category": "structure",
+      "structure_group": "cabin",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_cabin_roof",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_Both_Ends_4m",
+      "anchor_cm": [
+        -800,
+        -735
+      ],
+      "size_cm": 330,
+      "yaw_deg": 0,
+      "category": "roof",
+      "overhead": true,
+      "raise_cm": 205,
+      "search_cm": 0
+    },
+    {
+      "id": "ab_003_sm_cafebuilding01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding01",
+      "anchor_cm": [
+        875,
+        775
+      ],
+      "size_cm": 380,
+      "yaw_deg": 180,
+      "category": "structure",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_004_upper_brick_wall_a_l_2x2",
+      "source_pack": "modular_building_set",
+      "mesh": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_2x2",
+      "anchor_cm": [
+        -1040,
+        300
+      ],
+      "size_cm": 245,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "double_face": true,
+      "search_cm": 300
+    },
+    {
+      "id": "ab_005_upper_brick_wall_a_l_2x2",
+      "source_pack": "modular_building_set",
+      "mesh": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_2x2",
+      "anchor_cm": [
+        -1040,
+        575
+      ],
+      "size_cm": 245,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "double_face": true,
+      "search_cm": 300
+    },
+    {
+      "id": "ab_006_sm_bldg_cha_l10_a_wall_01_n1",
+      "source_pack": "city_sample_buildings",
+      "mesh": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Mesh/SM_BLDG_CHA_L10_A_Wall_01_N1",
+      "anchor_cm": [
+        400,
+        -800
+      ],
+      "size_cm": 220,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "search_cm": 300
+    },
+    {
+      "id": "ab_007_sm_bldg_cha_l10_a_column_01_n1",
+      "source_pack": "city_sample_buildings",
+      "mesh": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Mesh/SM_BLDG_CHA_L10_A_Column_01_N1",
+      "anchor_cm": [
+        1050,
+        -600
+      ],
+      "size_cm": 250,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "search_cm": 300
+    },
+    {
+      "id": "ab_008_sm_vehcar_vehicle02_lod",
+      "source_pack": "city_sample_vehicles",
+      "mesh": "/Game/CitySampleVehicles/vehicle02_Car/Mesh/SM_vehCar_vehicle02_LOD",
+      "anchor_cm": [
+        930,
+        350
+      ],
+      "size_cm": 430,
+      "yaw_deg": 90,
+      "category": "vehicle",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_009_sk_pickup",
+      "source_pack": "vehicle_variety_pack",
+      "mesh": "/Game/VehicleVarietyPack/Skeletons/SK_Pickup",
+      "anchor_cm": [
+        -900,
+        825
+      ],
+      "size_cm": 400,
+      "yaw_deg": 0,
+      "category": "vehicle",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_010_sk_campervan_01a",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_CamperVan_01a",
+      "anchor_cm": [
+        850,
+        -855
+      ],
+      "size_cm": 475,
+      "yaw_deg": 0,
+      "category": "vehicle",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_011_sk_sedan_01a",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a",
+      "anchor_cm": [
+        980,
+        -150
+      ],
+      "size_cm": 390,
+      "yaw_deg": 90,
+      "category": "vehicle",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_012_skm_uefn_mannequin",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "anchor_cm": [
+        -150,
+        350
+      ],
+      "size_cm": 178,
+      "yaw_deg": -40,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_013_twinblast",
+      "source_pack": "paragon_twinblast",
+      "mesh": "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Meshes/TwinBlast",
+      "anchor_cm": [
+        -780,
+        100
+      ],
+      "size_cm": 178,
+      "yaw_deg": 0,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Animations/Idle_Relaxed",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_014_sparrow",
+      "source_pack": "paragon_sparrow",
+      "mesh": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Meshes/Sparrow",
+      "anchor_cm": [
+        -620,
+        -375
+      ],
+      "size_cm": 178,
+      "yaw_deg": 90,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/idle_relaxed",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_015_gadget",
+      "source_pack": "paragon_gadget",
+      "mesh": "/Game/ParagonGadget/Characters/Heroes/Gadget/Meshes/Gadget",
+      "anchor_cm": [
+        900,
+        -400
+      ],
+      "size_cm": 178,
+      "yaw_deg": 160,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/ParagonGadget/Characters/Heroes/Gadget/Animations/Idle_Relaxed",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_016_sk_wolf",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf",
+      "anchor_cm": [
+        -500,
+        275
+      ],
+      "size_cm": 165,
+      "yaw_deg": 25,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleBreathe",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_017_sk_fox",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Fox/Meshes/SK_Fox",
+      "anchor_cm": [
+        -100,
+        -850
+      ],
+      "size_cm": 115,
+      "yaw_deg": 110,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleBreathe",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_018_sk_deerstag",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag",
+      "anchor_cm": [
+        -150,
+        725
+      ],
+      "size_cm": 205,
+      "yaw_deg": -30,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_019_sk_deerdoe",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe",
+      "anchor_cm": [
+        -225,
+        -275
+      ],
+      "size_cm": 175,
+      "yaw_deg": 200,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleBreathe",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_020_sk_pig",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Pig/Meshes/SK_Pig",
+      "anchor_cm": [
+        -750,
+        -475
+      ],
+      "size_cm": 170,
+      "yaw_deg": 40,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_IdleBreathe",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_021_sk_crow",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Crow/Meshes/SK_Crow",
+      "anchor_cm": [
+        1000,
+        100
+      ],
+      "size_cm": 48,
+      "yaw_deg": 40,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleLookAround",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_022_sm_pine_tree_01",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "anchor_cm": [
+        -1050,
+        -475
+      ],
+      "size_cm": 350,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_023_sm_pine_tree_01",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "anchor_cm": [
+        950,
+        -525
+      ],
+      "size_cm": 350,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_024_sm_amurcork01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "anchor_cm": [
+        -100,
+        900
+      ],
+      "size_cm": 380,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_025_sm_amurcork01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "anchor_cm": [
+        1050,
+        500
+      ],
+      "size_cm": 380,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300
+    },
+    {
+      "id": "ab_026_sm_bench01_1",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "anchor_cm": [
+        -200,
+        400
+      ],
+      "size_cm": 155,
+      "yaw_deg": 90,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_027_sm_bench01_1",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "anchor_cm": [
+        100,
+        400
+      ],
+      "size_cm": 155,
+      "yaw_deg": 180,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_028_sm_bench01_1",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "anchor_cm": [
+        200,
+        -850
+      ],
+      "size_cm": 155,
+      "yaw_deg": 90,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_029_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        -650,
+        450
+      ],
+      "size_cm": 110,
+      "yaw_deg": 0,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_030_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        -625,
+        225
+      ],
+      "size_cm": 85,
+      "yaw_deg": 37,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_031_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        -650,
+        50
+      ],
+      "size_cm": 115,
+      "yaw_deg": 74,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_032_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        -800,
+        -900
+      ],
+      "size_cm": 110,
+      "yaw_deg": 111,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_033_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        -1050,
+        50
+      ],
+      "size_cm": 85,
+      "yaw_deg": 148,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_034_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        -1000,
+        925
+      ],
+      "size_cm": 115,
+      "yaw_deg": 185,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_035_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        300,
+        900
+      ],
+      "size_cm": 110,
+      "yaw_deg": 222,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_036_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        450,
+        350
+      ],
+      "size_cm": 85,
+      "yaw_deg": 259,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_037_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        1030,
+        -400
+      ],
+      "size_cm": 115,
+      "yaw_deg": 296,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_038_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        450,
+        -900
+      ],
+      "size_cm": 110,
+      "yaw_deg": 333,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_039_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        150,
+        -850
+      ],
+      "size_cm": 85,
+      "yaw_deg": 10,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_040_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        200,
+        350
+      ],
+      "size_cm": 115,
+      "yaw_deg": 47,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_041_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        -925,
+        425
+      ],
+      "size_cm": 85,
+      "yaw_deg": 0,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_042_sm_box01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Box01",
+      "anchor_cm": [
+        -725,
+        900
+      ],
+      "size_cm": 110,
+      "yaw_deg": 47,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_043_sm_hose01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Hose01",
+      "anchor_cm": [
+        -700,
+        375
+      ],
+      "size_cm": 70,
+      "yaw_deg": 94,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_044_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        -850,
+        -400
+      ],
+      "size_cm": 85,
+      "yaw_deg": 141,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_045_sm_box01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Box01",
+      "anchor_cm": [
+        -650,
+        -850
+      ],
+      "size_cm": 110,
+      "yaw_deg": 188,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_046_sm_hose01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Hose01",
+      "anchor_cm": [
+        -300,
+        -900
+      ],
+      "size_cm": 70,
+      "yaw_deg": 235,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_047_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        200,
+        -450
+      ],
+      "size_cm": 85,
+      "yaw_deg": 282,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_048_sm_box01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Box01",
+      "anchor_cm": [
+        1050,
+        650
+      ],
+      "size_cm": 110,
+      "yaw_deg": 329,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_049_sm_hose01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Hose01",
+      "anchor_cm": [
+        525,
+        900
+      ],
+      "size_cm": 70,
+      "yaw_deg": 16,
+      "category": "prop",
+      "search_cm": 650
+    },
+    {
+      "id": "ab_050_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        450,
+        125
+      ],
+      "size_cm": 85,
+      "yaw_deg": 63,
+      "category": "prop",
+      "search_cm": 650
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "vendor_commits": {
+    "VG-LLM": "c77fd1d7c0d9c69529bc4fb303a3ca8d391f0803",
+    "4D-RGPT": "7de3e4cdf80218cfddbb4f7555a1c7700ae8db56",
+    "MLLM-4D": "544fbd57627bbe789b92e42eb33ab4bf8e6a7fec",
+    "DSR_Suite": "ae81203a672613bc746fce8299b2be3b9133ede1"
+  },
+  "local_code_sha256": {
+    "temporal_vlm_eval.py": "0d0a76760870bf5435770e71133c78a6dfde887fa7dba86f5b7f9e690938b4ac",
+    "temporal_vlm_backends.py": "932f295dd3b797efd563e0573c6b154290b20f0790f02b735a6f55ba9ac4e240",
+    "temporal_vlm_report.py": "a246d791a651c7977a997f95bbc66043cac1b1e1967cae2cecc00c92f250181e"
+  }
+}

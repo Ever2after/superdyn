@@ -1,0 +1,20 @@
+{
+  "model": "dsr_suite_7b",
+  "gpu": 7,
+  "load_seconds": 8.369396716356277,
+  "torch": "2.9.1+cu130",
+  "transformers": "4.51.1",
+  "attention": "sdpa",
+  "dtype": "bfloat16",
+  "model_class": "Qwen2_5_VLForConditionalGeneration_Spatial",
+  "checkpoint": "/tmp/superdyn_vlm_eval255/models/dsr_suite_7b",
+  "revision": "d0df6d2adced373a4b4caa71015c03596032bcdf",
+  "vendor_revision": "ae81203a672613bc746fce8299b2be3b9133ede1",
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "geometry_encoder_enabled": true,
+  "geometry_queries": 32,
+  "preprocessing": "Same nine marked RGB frames in native video packaging; final frame repeated by native temporal patch padding; 32 GSM tokens appended per official inference script.",
+  "temporal_position_policy": "fps=2 maps native temporal-patch positions to ordered frame indices; not measured physical seconds",
+  "external_geometry_supplied": false
+}

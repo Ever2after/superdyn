@@ -1,0 +1,195 @@
+{
+  "status": "completed_with_errors",
+  "stage": "finished",
+  "started_at": "2026-10-20T14:38:19.770528+00:00",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "excluded_sources": [
+    "dynamic_replica",
+    "dynpose-100k",
+    "point_odyssey",
+    "spring"
+  ],
+  "manual_review": false,
+  "updated_at": "2026-10-20T17:24:44.531538+00:00",
+  "elapsed_seconds": 9984.76101732254,
+  "inventoried": 4493,
+  "valid_videos": 4457,
+  "unusable_videos": 36,
+  "reused_geometry": 765,
+  "new_geometry": 3692,
+  "source_counts": {
+    "DAVIS": 88,
+    "MOSE": 1327,
+    "MVS-Synth": 120,
+    "SAV": 288,
+    "VOST": 641,
+    "uvo": 1244,
+    "youtube_vis": 749
+  },
+  "stage_controller_pid": 3895422,
+  "stage_progress": {
+    "status": "failed",
+    "planned": 4457,
+    "finished": 649,
+    "preprocessed": 4457,
+    "qa_count": 347,
+    "held_qa_count": 4,
+    "failures": 0,
+    "videos_with_qa": 179,
+    "videos_without_qa": 470,
+    "selected_groups": {
+      "HHH": 1059,
+      "HHL": 230,
+      "HLH": 631,
+      "HLL": 120,
+      "LHH": 240,
+      "LHL": 94,
+      "LLH": 1492,
+      "LLL": 591
+    },
+    "finished_groups": {
+      "LLH": 271,
+      "HHH": 120,
+      "HLH": 83,
+      "LHH": 41,
+      "HLL": 20,
+      "LLL": 82,
+      "HHL": 13,
+      "LHL": 19
+    },
+    "qa_groups": {
+      "LLH": 168,
+      "HLH": 51,
+      "LHH": 35,
+      "HLL": 16,
+      "HHH": 26,
+      "LLL": 22,
+      "HHL": 11,
+      "LHL": 18
+    },
+    "task_counts": {
+      "object_world_motion_direction": 88,
+      "camera_view_direction_change": 63,
+      "camera_object_distance_change": 84,
+      "object_pair_distance_change": 35,
+      "camera_translation_direction": 43,
+      "object_travel_distance_comparison": 34
+    },
+    "elapsed_seconds": 9818.479844331741,
+    "updated_at": "2026-10-20T17:24:39.782832+00:00",
+    "manual_review": false,
+    "workers": [
+      {
+        "gpu": 0,
+        "phase": "failed",
+        "preprocessed": 558,
+        "finished": 82,
+        "planned": 558,
+        "pid": 3895428,
+        "server_pid": 4118311,
+        "error": "Qwen startup timed out after 600s"
+      },
+      {
+        "gpu": 1,
+        "phase": "failed",
+        "preprocessed": 557,
+        "finished": 83,
+        "planned": 557,
+        "pid": 3895429,
+        "server_pid": 4117016,
+        "error": "Qwen startup timed out after 600s"
+      },
+      {
+        "gpu": 2,
+        "phase": "failed",
+        "preprocessed": 557,
+        "finished": 70,
+        "planned": 557,
+        "pid": 3895430,
+        "server_pid": 4118326,
+        "error": "Qwen startup timed out after 600s"
+      },
+      {
+        "gpu": 3,
+        "phase": "failed",
+        "preprocessed": 557,
+        "finished": 76,
+        "planned": 557,
+        "pid": 3895431,
+        "server_pid": 4121270,
+        "error": "Qwen startup timed out after 600s"
+      },
+      {
+        "gpu": 4,
+        "phase": "failed",
+        "preprocessed": 557,
+        "finished": 91,
+        "planned": 557,
+        "pid": 3895432,
+        "server_pid": 4119476,
+        "error": "Qwen startup timed out after 600s"
+      },
+      {
+        "gpu": 5,
+        "phase": "failed",
+        "preprocessed": 557,
+        "finished": 90,
+        "planned": 557,
+        "pid": 3895433,
+        "server_pid": 4117934,
+        "error": "Qwen startup timed out after 600s"
+      },
+      {
+        "gpu": 6,
+        "phase": "failed",
+        "preprocessed": 557,
+        "finished": 85,
+        "planned": 557,
+        "pid": 3895434,
+        "server_pid": 4120090,
+        "error": "Qwen startup timed out after 600s"
+      },
+      {
+        "gpu": 7,
+        "phase": "failed",
+        "preprocessed": 557,
+        "finished": 72,
+        "planned": 557,
+        "pid": 3895435,
+        "server_pid": 4121870,
+        "error": "Qwen startup timed out after 600s"
+      }
+    ],
+    "eta": {
+      "remaining_seconds": 0,
+      "range_seconds": [
+        0,
+        0
+      ],
+      "estimated_completion_utc": "2026-10-20T17:24:39.782851+00:00",
+      "measured_preprocess_videos": 3808,
+      "mean_preprocess_seconds_per_video": 18.897286904378532,
+      "measured_semantic_videos": 136,
+      "mean_semantic_request_seconds": 6.069932821562842,
+      "method": "Maximum remaining shard pipeline; observed preprocess service times, estimated 120s server load and two semantic requests per GPU; contention uncertainty included."
+    },
+    "error": "RuntimeError: QA generation incomplete; see run_status.json"
+  },
+  "geometry_successful": 4457,
+  "geometry_failures": 0,
+  "reused_completed_qa_cases": 649,
+  "reused_qa": 347,
+  "qa_count": 347,
+  "finished_qa_videos": 649,
+  "qa_failures": 0,
+  "completed_at": "2026-10-20T17:24:44.531517+00:00"
+}

@@ -1,0 +1,2786 @@
+{
+  "status": "scene_built",
+  "map_path": "/Game/SuperDyn/ABWalkthroughs/Maps/PopulatedYard",
+  "objects": [
+    {
+      "id": "ab_000_wall_door_window_a_4m",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_A_4m",
+      "anchor_cm": [
+        -920,
+        -735
+      ],
+      "size_cm": 300,
+      "yaw_deg": 0,
+      "category": "structure",
+      "structure_group": "cabin",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -920,
+        -735
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        9.197721308521405,
+        150.0
+      ],
+      "scale": 0.7493154675744067,
+      "actor": "SD_AB_ab_000_wall_door_window_a_4m",
+      "transform": {
+        "location_cm": [
+          -923.9650503863658,
+          -734.9736683117397,
+          302.5728744050502
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7493154675744067,
+          0.7493154675744067,
+          0.7493154675744067
+        ]
+      },
+      "source_materials": [
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted.Wood_Planks_Painted",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_01.Wood_Planks_01",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Glass_Window.Glass_Window",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Window_Frame.Window_Frame",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Door_01.Door_01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_001_wall_door_window_a_4m",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_A_4m",
+      "anchor_cm": [
+        -825,
+        -875
+      ],
+      "size_cm": 300,
+      "yaw_deg": 90,
+      "category": "structure",
+      "structure_group": "cabin",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -800,
+        -875
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        150.0,
+        9.197721308521414
+      ],
+      "scale": 0.7493154675744067,
+      "actor": "SD_AB_ab_001_wall_door_window_a_4m",
+      "transform": {
+        "location_cm": [
+          -825.0263316882603,
+          -878.9650503863658,
+          302.5728744050502
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.7493154675744067,
+          0.7493154675744067,
+          0.7493154675744067
+        ]
+      },
+      "source_materials": [
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted.Wood_Planks_Painted",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_01.Wood_Planks_01",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Glass_Window.Glass_Window",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Window_Frame.Window_Frame",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Door_01.Door_01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_cabin_roof",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_Both_Ends_4m",
+      "anchor_cm": [
+        -800,
+        -735
+      ],
+      "size_cm": 330,
+      "yaw_deg": 0,
+      "category": "roof",
+      "overhead": true,
+      "raise_cm": 205,
+      "search_cm": 0,
+      "requested_anchor_cm": [
+        -800,
+        -735
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        165.0,
+        149.77210689145852
+      ],
+      "scale": 0.6069689753974551,
+      "actor": "SD_AB_ab_cabin_roof",
+      "transform": {
+        "location_cm": [
+          -799.2752048022971,
+          -735.7921386907808,
+          535.0289258091028
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.6069689753974551,
+          0.6069689753974551,
+          0.6069689753974551
+        ]
+      },
+      "source_materials": [
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Roof_blend.Metal_Roof_blend",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_01.Wood_Planks_01",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_2.Wood_Planks_Painted_2"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_003_sm_cafebuilding01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding01",
+      "anchor_cm": [
+        875,
+        750
+      ],
+      "size_cm": 380,
+      "yaw_deg": 180,
+      "category": "structure",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        875,
+        775
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        137.49038613275587,
+        190.0
+      ],
+      "scale": 0.36227556199402383,
+      "actor": "SD_AB_ab_003_sm_cafebuilding01",
+      "transform": {
+        "location_cm": [
+          874.9999889442272,
+          750.0,
+          3.1316829818838943
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.36227556199402383,
+          0.36227556199402383,
+          0.36227556199402383
+        ]
+      },
+      "source_materials": [
+        "/Game/CityPark/Materials/Buildings/MI_Wall01_1.MI_Wall01_1",
+        "/Game/CityPark/Materials/Buildings/MI_Wall02_2.MI_Wall02_2",
+        "/Game/CityPark/Materials/Buildings/MI_RoofTile01_1.MI_RoofTile01_1",
+        "/Game/CityPark/Materials/Buildings/MI_CafeBuilding01.MI_CafeBuilding01",
+        "/Game/CityPark/Materials/Buildings/MI_CafeGlass01.MI_CafeGlass01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_004_upper_brick_wall_a_l_2x2",
+      "source_pack": "modular_building_set",
+      "mesh": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_2x2",
+      "anchor_cm": [
+        -1040,
+        300
+      ],
+      "size_cm": 245,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "double_face": true,
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -1040,
+        300
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        0.0,
+        104.9999084472337
+      ],
+      "scale": 0.7000002441407102,
+      "actor": "SD_AB_ab_004_upper_brick_wall_a_l_2x2",
+      "transform": {
+        "location_cm": [
+          -1040.0,
+          195.00009155276632,
+          200.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7000002441407102,
+          0.7000002441407102,
+          0.7000002441407102
+        ]
+      },
+      "source_materials": [
+        "/Game/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_grey.brick_wall_grey"
+      ],
+      "backface_actor": "SD_AB_ab_004_upper_brick_wall_a_l_2x2_back",
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_005_upper_brick_wall_a_l_2x2",
+      "source_pack": "modular_building_set",
+      "mesh": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_2x2",
+      "anchor_cm": [
+        -1040,
+        575
+      ],
+      "size_cm": 245,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "double_face": true,
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -1040,
+        575
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        0.0,
+        104.9999084472337
+      ],
+      "scale": 0.7000002441407102,
+      "actor": "SD_AB_ab_005_upper_brick_wall_a_l_2x2",
+      "transform": {
+        "location_cm": [
+          -1040.0,
+          470.0000915527663,
+          200.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7000002441407102,
+          0.7000002441407102,
+          0.7000002441407102
+        ]
+      },
+      "source_materials": [
+        "/Game/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_grey.brick_wall_grey"
+      ],
+      "backface_actor": "SD_AB_ab_005_upper_brick_wall_a_l_2x2_back",
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_006_sm_bldg_cha_l10_a_wall_01_n1",
+      "source_pack": "city_sample_buildings",
+      "mesh": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Mesh/SM_BLDG_CHA_L10_A_Wall_01_N1",
+      "anchor_cm": [
+        400,
+        -800
+      ],
+      "size_cm": 220,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        400,
+        -800
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        30.96198323567708,
+        119.1666778564453
+      ],
+      "scale": 0.7333333333333333,
+      "actor": "SD_AB_ab_006_sm_bldg_cha_l10_a_wall_01_n1",
+      "transform": {
+        "location_cm": [
+          415.73484293619794,
+          -680.833344523112,
+          300.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7333333333333333,
+          0.7333333333333333,
+          0.7333333333333333
+        ]
+      },
+      "source_materials": [
+        "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Material/MI/MI_CHA_L10_A_Wall_01_0.MI_CHA_L10_A_Wall_01_0",
+        "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Material/MI/MI_CHA_L10_A_Wall_01_1.MI_CHA_L10_A_Wall_01_1",
+        "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Material/MI/MI_CHA_L10_A_Wall_01_2.MI_CHA_L10_A_Wall_01_2"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_007_sm_bldg_cha_l10_a_column_01_n1",
+      "source_pack": "city_sample_buildings",
+      "mesh": "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Mesh/SM_BLDG_CHA_L10_A_Column_01_N1",
+      "anchor_cm": [
+        1050,
+        -600
+      ],
+      "size_cm": 250,
+      "yaw_deg": 0,
+      "category": "structure",
+      "height_size": true,
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        1050,
+        -600
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        40.48929850260417,
+        52.083333333333336
+      ],
+      "scale": 0.8333333333333334,
+      "actor": "SD_AB_ab_007_sm_bldg_cha_l10_a_column_01_n1",
+      "transform": {
+        "location_cm": [
+          1073.0858357747395,
+          -547.9166666666666,
+          300.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8333333333333334,
+          0.8333333333333334,
+          0.8333333333333334
+        ]
+      },
+      "source_materials": [
+        "/Game/CitySampleBuildings/Building/CH/A/Kit_Bldg_CHA_L10_A/Material/MI/MI_CHA_L10_A_Column_01_0.MI_CHA_L10_A_Column_01_0"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_008_sm_vehcar_vehicle02_lod",
+      "source_pack": "city_sample_vehicles",
+      "mesh": "/Game/CitySampleVehicles/vehicle02_Car/Mesh/SM_vehCar_vehicle02_LOD",
+      "anchor_cm": [
+        955,
+        325
+      ],
+      "size_cm": 430,
+      "yaw_deg": 90,
+      "category": "vehicle",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        930,
+        350
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        94.72848203494327,
+        215.0
+      ],
+      "scale": 0.897920822958138,
+      "actor": "SD_AB_ab_008_sm_vehcar_vehicle02_lod",
+      "transform": {
+        "location_cm": [
+          955.0,
+          327.1761591233893,
+          8.090716728017757
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.897920822958138,
+          0.897920822958138,
+          0.897920822958138
+        ]
+      },
+      "source_materials": [
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_0.MI_vehCar_vehicle02_0",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_1.MI_vehCar_vehicle02_1",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_2.MI_vehCar_vehicle02_2",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_3.MI_vehCar_vehicle02_3",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_4.MI_vehCar_vehicle02_4",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_5.MI_vehCar_vehicle02_5",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_6.MI_vehCar_vehicle02_6",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_7.MI_vehCar_vehicle02_7",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_8.MI_vehCar_vehicle02_8",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_9.MI_vehCar_vehicle02_9",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_10.MI_vehCar_vehicle02_10",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_11.MI_vehCar_vehicle02_11",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_12.MI_vehCar_vehicle02_12",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_13.MI_vehCar_vehicle02_13",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_14.MI_vehCar_vehicle02_14",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_15.MI_vehCar_vehicle02_15",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_16.MI_vehCar_vehicle02_16",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_17.MI_vehCar_vehicle02_17",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_18.MI_vehCar_vehicle02_18",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_19.MI_vehCar_vehicle02_19",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_20.MI_vehCar_vehicle02_20",
+        "/Game/CitySampleVehicles/vehicle02_Car/Material/MI/MI_vehCar_vehicle02_21.MI_vehCar_vehicle02_21"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_009_sk_pickup",
+      "source_pack": "vehicle_variety_pack",
+      "mesh": "/Game/VehicleVarietyPack/Skeletons/SK_Pickup",
+      "anchor_cm": [
+        -900,
+        825
+      ],
+      "size_cm": 400,
+      "yaw_deg": 0,
+      "category": "vehicle",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -900,
+        825
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        200.0,
+        89.10891434214592
+      ],
+      "scale": 0.9323679354973704,
+      "actor": "SD_AB_ab_009_sk_pickup",
+      "transform": {
+        "location_cm": [
+          -900,
+          825,
+          202.0
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.9323679354973704,
+          0.9323679354973704,
+          0.9323679354973704
+        ]
+      },
+      "source_materials": [
+        "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Body.M_Pickup_Body",
+        "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Interior.M_Pickup_Interior",
+        "/Game/VehicleVarietyPack/Materials/Pickup/Mi_Pickup_Glass.Mi_Pickup_Glass",
+        "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Under.M_Pickup_Under"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_010_sk_campervan_01a",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_CamperVan_01a",
+      "anchor_cm": [
+        850,
+        -855
+      ],
+      "size_cm": 475,
+      "yaw_deg": 0,
+      "category": "vehicle",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        850,
+        -855
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        237.5,
+        103.31602879199497
+      ],
+      "scale": 0.7948818044339909,
+      "actor": "SD_AB_ab_010_sk_campervan_01a",
+      "transform": {
+        "location_cm": [
+          850,
+          -855,
+          302.0
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7948818044339909,
+          0.7948818044339909,
+          0.7948818044339909
+        ]
+      },
+      "source_materials": [
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_InteriorWall_01a.Mi_InteriorWall_01a",
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_BodyPieces_01a.Mi_Camper_BodyPieces_01a",
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_CamperRear_01a.Mi_CamperRear_01a",
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_CamperChassis_01a.Mi_CamperChassis_01a",
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_Body_01a.Mi_Camper_Body_01a",
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_Glass_01a.Mi_Camper_Glass_01a",
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_Camper_InteriorFront_01a.Mi_Camper_InteriorFront_01a",
+        "/Game/VehicleVarietyVol2/Materials/Camper/Mi_CarpetFloor_01a.Mi_CarpetFloor_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_011_sk_sedan_01a",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a",
+      "anchor_cm": [
+        980,
+        -150
+      ],
+      "size_cm": 390,
+      "yaw_deg": 90,
+      "category": "vehicle",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        980,
+        -150
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        85.11031272904636,
+        195.0
+      ],
+      "scale": 0.791409527609541,
+      "actor": "SD_AB_ab_011_sk_sedan_01a",
+      "transform": {
+        "location_cm": [
+          980,
+          -150,
+          108.50480031967163
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.791409527609541,
+          0.791409527609541,
+          0.791409527609541
+        ]
+      },
+      "source_materials": [
+        "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Body_01a.Mi_Sedan_Body_01a",
+        "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Glass_01a.Mi_Sedan_Glass_01a",
+        "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Chassis_01a.Mi_Sedan_Chassis_01a",
+        "/Game/VehicleVarietyVol2/Materials/Sedan/Mi_Sedan_Interior_01a.Mi_Sedan_Interior_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_012_skm_uefn_mannequin",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "anchor_cm": [
+        -150,
+        350
+      ],
+      "size_cm": 178,
+      "yaw_deg": -40,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -150,
+        350
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        60.23388285838002,
+        54.44894376421069
+      ],
+      "scale": 1.075098213906372,
+      "actor": "SD_AB_ab_012_skm_uefn_mannequin",
+      "transform": {
+        "location_cm": [
+          -150,
+          350,
+          102.0
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          -40
+        ],
+        "scale": [
+          1.075098213906372,
+          1.075098213906372,
+          1.075098213906372
+        ]
+      },
+      "source_materials": [
+        "/Game/Characters/UEFN_Mannequin/Materials/M_UEFN_Mannequin.M_UEFN_Mannequin"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_013_twinblast",
+      "source_pack": "paragon_twinblast",
+      "mesh": "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Meshes/TwinBlast",
+      "anchor_cm": [
+        -780,
+        100
+      ],
+      "size_cm": 178,
+      "yaw_deg": 0,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Animations/Idle_Relaxed",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -780,
+        100
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        60.953542530718245,
+        30.17578630712431
+      ],
+      "scale": 0.9420106722482784,
+      "actor": "SD_AB_ab_013_twinblast",
+      "transform": {
+        "location_cm": [
+          -780,
+          100,
+          202.0
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.9420106722482784,
+          0.9420106722482784,
+          0.9420106722482784
+        ]
+      },
+      "source_materials": [
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/M_TwinBlast_Head_Shirt.M_TwinBlast_Head_Shirt",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/M_TwinBlast_Coat.M_TwinBlast_Coat",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/M_TwinBlast_Pistol.M_TwinBlast_Pistol",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/M_TwinBlast_Arms.M_TwinBlast_Arms",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/M_TwinBlast_LowerBody.M_TwinBlast_LowerBody",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/MI_TearLine_Inst_TB_Bust.MI_TearLine_Inst_TB_Bust",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/MI_Twinblast_EyeRefractive_Bust.MI_Twinblast_EyeRefractive_Bust",
+        "/Game/ParagonTwinblast/Characters/Global/Mouth/Materials/MI_Human_Mouth.MI_Human_Mouth",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/M_HairSheet_Master2_Inst.M_HairSheet_Master2_Inst",
+        "/Game/ParagonTwinblast/Characters/Global/Eyelash/M_EyelashMaster_Inst.M_EyelashMaster_Inst",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/MI_TwinBlast_EyeBlend_Bust.MI_TwinBlast_EyeBlend_Bust",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/M_Eye_Occlusion_Inst.M_Eye_Occlusion_Inst",
+        "/Game/ParagonTwinblast/Characters/Heroes/TwinBlast/Materials/MI_TwinBlast_Hair_Bust_Eyebrow.MI_TwinBlast_Hair_Bust_Eyebrow"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_014_sparrow",
+      "source_pack": "paragon_sparrow",
+      "mesh": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Meshes/Sparrow",
+      "anchor_cm": [
+        -620,
+        -375
+      ],
+      "size_cm": 178,
+      "yaw_deg": 90,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Animations/idle_relaxed",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -620,
+        -375
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        18.436520909709586,
+        39.24260032073416
+      ],
+      "scale": 0.9771977846155496,
+      "actor": "SD_AB_ab_014_sparrow",
+      "transform": {
+        "location_cm": [
+          -620,
+          -375,
+          302.0
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.9771977846155496,
+          0.9771977846155496,
+          0.9771977846155496
+        ]
+      },
+      "source_materials": [
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Legs_Hands.M_Legs_Hands",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_Torso_Arms.M_Sparrow_Torso_Arms",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_ChestandBag.M_ChestandBag",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_Arrow.M_Sparrow_Arrow",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_Head_Arrow.M_Sparrow_Head_Arrow",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_ArrowString3.M_ArrowString3",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Skins/Rogue/Materials/M_TearLine_Inst2.M_TearLine_Inst2",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_EyeRefractive_Inst.M_Sparrow_EyeRefractive_Inst",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_Eyelash_Inst.M_Sparrow_Eyelash_Inst",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_Eye_Occlusion_Inst.M_Sparrow_Eye_Occlusion_Inst",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Feather.M_Feather",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_hair_Inst.M_Sparrow_hair_Inst",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Materials/M_Sparrow_New_Head.M_Sparrow_New_Head",
+        "/Game/ParagonSparrow/Characters/Heroes/Sparrow/Skins/Rogue/Materials/M_M04_TeethAndTongue.M_M04_TeethAndTongue"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_015_gadget",
+      "source_pack": "paragon_gadget",
+      "mesh": "/Game/ParagonGadget/Characters/Heroes/Gadget/Meshes/Gadget",
+      "anchor_cm": [
+        1000,
+        -425
+      ],
+      "size_cm": 178,
+      "yaw_deg": 160,
+      "category": "human",
+      "height_size": true,
+      "animation": "/Game/ParagonGadget/Characters/Heroes/Gadget/Animations/Idle_Relaxed",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        900,
+        -400
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        64.3341943261066,
+        41.934793574141565
+      ],
+      "scale": 0.8795314074845241,
+      "actor": "SD_AB_ab_015_gadget",
+      "transform": {
+        "location_cm": [
+          1000,
+          -425,
+          112.16549634476158
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          160
+        ],
+        "scale": [
+          0.8795314074845241,
+          0.8795314074845241,
+          0.8795314074845241
+        ]
+      },
+      "source_materials": [
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/M_Gadget_UpperBody.M_Gadget_UpperBody",
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/M_Gadget_LowerBody.M_Gadget_LowerBody",
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/M_Gadget_MachineArmBase.M_Gadget_MachineArmBase",
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/M_Gadget_MachineArm.M_Gadget_MachineArm",
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/M_Gadget_Gadgets.M_Gadget_Gadgets",
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/MIC_Gadget_Eye_Refractive.MIC_Gadget_Eye_Refractive",
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/MIC_Gadget_Hair.MIC_Gadget_Hair",
+        "/Game/ParagonGadget/Characters/Global/Mouth/Materials/MI_Human_Mouth.MI_Human_Mouth",
+        "/Game/ParagonGadget/Characters/Heroes/Gadget/Materials/M_GadgetEyelashMaster_Inst.M_GadgetEyelashMaster_Inst",
+        "/Game/ParagonGadget/Characters/Global/Eyes/Materials/M_Eye_Occlusion.M_Eye_Occlusion",
+        "/Game/ParagonGadget/Characters/Global/Eyes/Materials/M_TearDuct_2.M_TearDuct_2",
+        "/Game/ParagonGadget/Characters/Global/Eyes/Materials/M_TearLine.M_TearLine"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_016_sk_wolf",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf",
+      "anchor_cm": [
+        -500,
+        275
+      ],
+      "size_cm": 165,
+      "yaw_deg": 25,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleBreathe",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -500,
+        275
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        48.28838172569702,
+        81.02934874524608
+      ],
+      "scale": 0.8435665804424788,
+      "actor": "SD_AB_ab_016_sk_wolf",
+      "transform": {
+        "location_cm": [
+          -500,
+          275,
+          202.0
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          25
+        ],
+        "scale": [
+          0.8435665804424788,
+          0.8435665804424788,
+          0.8435665804424788
+        ]
+      },
+      "source_materials": [
+        "/Game/AnimalVarietyPack/Wolf/Materials/M_Wolf.M_Wolf",
+        "/Game/AnimalVarietyPack/Wolf/Materials/M_WolfFur.M_WolfFur"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_017_sk_fox",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Fox/Meshes/SK_Fox",
+      "anchor_cm": [
+        -100,
+        -850
+      ],
+      "size_cm": 115,
+      "yaw_deg": 110,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleBreathe",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -100,
+        -850
+      ],
+      "ground_z_cm": 0.634455680847168,
+      "half_xy_cm": [
+        57.520363831976475,
+        29.249464260244082
+      ],
+      "scale": 1.0742420526771492,
+      "actor": "SD_AB_ab_017_sk_fox",
+      "transform": {
+        "location_cm": [
+          -100,
+          -850,
+          19.27159968364579
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          110
+        ],
+        "scale": [
+          1.0742420526771492,
+          1.0742420526771492,
+          1.0742420526771492
+        ]
+      },
+      "source_materials": [
+        "/Game/AnimalVarietyPack/Fox/Materials/M_Fox.M_Fox",
+        "/Game/AnimalVarietyPack/Fox/Materials/M_FoxFur.M_FoxFur"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_018_sk_deerstag",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag",
+      "anchor_cm": [
+        -150,
+        825
+      ],
+      "size_cm": 205,
+      "yaw_deg": -30,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -150,
+        725
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        94.46877761812488,
+        113.71997677977593
+      ],
+      "scale": 0.9572016602520758,
+      "actor": "SD_AB_ab_018_sk_deerstag",
+      "transform": {
+        "location_cm": [
+          -150,
+          825,
+          107.13037293185295
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          -30
+        ],
+        "scale": [
+          0.9572016602520758,
+          0.9572016602520758,
+          0.9572016602520758
+        ]
+      },
+      "source_materials": [
+        "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStag.M_DeerStag",
+        "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStagFur.M_DeerStagFur"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_019_sk_deerdoe",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe",
+      "anchor_cm": [
+        -225,
+        -275
+      ],
+      "size_cm": 175,
+      "yaw_deg": 200,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleBreathe",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -225,
+        -275
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        52.654053158921826,
+        90.4951616092095
+      ],
+      "scale": 0.9259089944516747,
+      "actor": "SD_AB_ab_019_sk_deerdoe",
+      "transform": {
+        "location_cm": [
+          -225,
+          -275,
+          2.0
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          200
+        ],
+        "scale": [
+          0.9259089944516747,
+          0.9259089944516747,
+          0.9259089944516747
+        ]
+      },
+      "source_materials": [
+        "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoe.M_DeerDoe",
+        "/Game/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoeFur.M_DeerDoeFur"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_020_sk_pig",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Pig/Meshes/SK_Pig",
+      "anchor_cm": [
+        -500,
+        -400
+      ],
+      "size_cm": 170,
+      "yaw_deg": 40,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Pig/Animations/ANIM_Pig_IdleBreathe",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -750,
+        -475
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        76.01893796111462,
+        83.05539854264238
+      ],
+      "scale": 0.8518100443538928,
+      "actor": "SD_AB_ab_020_sk_pig",
+      "transform": {
+        "location_cm": [
+          -500,
+          -400,
+          302.00000000000006
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          40
+        ],
+        "scale": [
+          0.8518100443538928,
+          0.8518100443538928,
+          0.8518100443538928
+        ]
+      },
+      "source_materials": [
+        "/Game/AnimalVarietyPack/Pig/Materials/M_Pig.M_Pig",
+        "/Game/AnimalVarietyPack/Pig/Materials/M_PigHair.M_PigHair"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_021_sk_crow",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Crow/Meshes/SK_Crow",
+      "anchor_cm": [
+        800,
+        100
+      ],
+      "size_cm": 48,
+      "yaw_deg": 40,
+      "category": "animal",
+      "animation": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleLookAround",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        1000,
+        100
+      ],
+      "ground_z_cm": 46.86715602874756,
+      "half_xy_cm": [
+        25.507151116266147,
+        23.91467239995758
+      ],
+      "scale": 0.4632426549957515,
+      "actor": "SD_AB_ab_021_sk_crow",
+      "transform": {
+        "location_cm": [
+          800,
+          100,
+          54.860820123082405
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          40
+        ],
+        "scale": [
+          0.4632426549957515,
+          0.4632426549957515,
+          0.4632426549957515
+        ]
+      },
+      "source_materials": [
+        "/Game/AnimalVarietyPack/Crow/Materials/M_Crow.M_Crow"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_022_sm_pine_tree_01",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "anchor_cm": [
+        -1050,
+        -475
+      ],
+      "size_cm": 350,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -1050,
+        -475
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        78.94236636490449,
+        76.38632689119932
+      ],
+      "scale": 0.26862446230839593,
+      "actor": "SD_AB_ab_022_sm_pine_tree_01",
+      "transform": {
+        "location_cm": [
+          -1048.4378579204072,
+          -472.6985217175739,
+          313.48631384972157
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.26862446230839593,
+          0.26862446230839593,
+          0.26862446230839593
+        ]
+      },
+      "source_materials": [
+        "/Game/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Bark.MI_Pine_Tree_Bark",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Branches.MI_Pine_Tree_Branches"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_023_sm_pine_tree_01",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "anchor_cm": [
+        825,
+        -325
+      ],
+      "size_cm": 350,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        950,
+        -525
+      ],
+      "ground_z_cm": 101.23574733734131,
+      "half_xy_cm": [
+        78.94236636490449,
+        76.38632689119932
+      ],
+      "scale": 0.26862446230839593,
+      "actor": "SD_AB_ab_023_sm_pine_tree_01",
+      "transform": {
+        "location_cm": [
+          826.562142079593,
+          -322.6985217175739,
+          127.84052708748398
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.26862446230839593,
+          0.26862446230839593,
+          0.26862446230839593
+        ]
+      },
+      "source_materials": [
+        "/Game/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Bark.MI_Pine_Tree_Bark",
+        "/Game/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Branches.MI_Pine_Tree_Branches"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_024_sm_amurcork01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "anchor_cm": [
+        25,
+        900
+      ],
+      "size_cm": 380,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        -100,
+        900
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        190.0,
+        189.51464829849354
+      ],
+      "scale": 1.8225474350337725,
+      "actor": "SD_AB_ab_024_sm_amurcork01",
+      "transform": {
+        "location_cm": [
+          -8.163530433325292,
+          921.5684011119556,
+          106.91819745956866
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1.8225474350337725,
+          1.8225474350337725,
+          1.8225474350337725
+        ]
+      },
+      "source_materials": [
+        "/Game/CityPark/Materials/Flora/Trees/MI_AmurCorkBranch01.MI_AmurCorkBranch01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_025_sm_amurcork01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "anchor_cm": [
+        800,
+        500
+      ],
+      "size_cm": 380,
+      "yaw_deg": 0,
+      "category": "tree",
+      "search_cm": 300,
+      "requested_anchor_cm": [
+        1050,
+        500
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        190.0,
+        189.51464829849354
+      ],
+      "scale": 1.8225474350337725,
+      "actor": "SD_AB_ab_025_sm_amurcork01",
+      "transform": {
+        "location_cm": [
+          766.8364695666747,
+          521.5684011119556,
+          6.9181974595686615
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1.8225474350337725,
+          1.8225474350337725,
+          1.8225474350337725
+        ]
+      },
+      "source_materials": [
+        "/Game/CityPark/Materials/Flora/Trees/MI_AmurCorkBranch01.MI_AmurCorkBranch01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_026_sm_bench01_1",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "anchor_cm": [
+        -275,
+        375
+      ],
+      "size_cm": 155,
+      "yaw_deg": 90,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -200,
+        400
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        27.991080941590308,
+        77.5
+      ],
+      "scale": 0.7500352568433348,
+      "actor": "SD_AB_ab_026_sm_bench01_1",
+      "transform": {
+        "location_cm": [
+          -275.5632302873636,
+          375.0,
+          105.55828888386802
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.7500352568433348,
+          0.7500352568433348,
+          0.7500352568433348
+        ]
+      },
+      "source_materials": [
+        "/Game/CityPark/Materials/Props/MI_Bench1_01.MI_Bench1_01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_027_sm_bench01_1",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "anchor_cm": [
+        100,
+        400
+      ],
+      "size_cm": 155,
+      "yaw_deg": 180,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        100,
+        400
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        77.5,
+        27.99108094159031
+      ],
+      "scale": 0.7500352568433348,
+      "actor": "SD_AB_ab_027_sm_bench01_1",
+      "transform": {
+        "location_cm": [
+          100.0,
+          399.4367697126364,
+          105.55828888386802
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.7500352568433348,
+          0.7500352568433348,
+          0.7500352568433348
+        ]
+      },
+      "source_materials": [
+        "/Game/CityPark/Materials/Props/MI_Bench1_01.MI_Bench1_01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_028_sm_bench01_1",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "anchor_cm": [
+        200,
+        -850
+      ],
+      "size_cm": 155,
+      "yaw_deg": 90,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        200,
+        -850
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        27.991080941590308,
+        77.5
+      ],
+      "scale": 0.7500352568433348,
+      "actor": "SD_AB_ab_028_sm_bench01_1",
+      "transform": {
+        "location_cm": [
+          199.43676971263642,
+          -850.0,
+          5.558288883868019
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.7500352568433348,
+          0.7500352568433348,
+          0.7500352568433348
+        ]
+      },
+      "source_materials": [
+        "/Game/CityPark/Materials/Props/MI_Bench1_01.MI_Bench1_01"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_029_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        -650,
+        425
+      ],
+      "size_cm": 110,
+      "yaw_deg": 0,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -650,
+        450
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        46.31079675273941,
+        39.14111523154006
+      ],
+      "scale": 0.7894170009762369,
+      "actor": "SD_AB_ab_029_sm_brickpalettestack_01a",
+      "transform": {
+        "location_cm": [
+          -696.2926501354303,
+          385.87702235160845,
+          200.73382214530105
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7894170009762369,
+          0.7894170009762369,
+          0.7894170009762369
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_BrickPaletteStack_01a.MI_BrickPaletteStack_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_030_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        -625,
+        225
+      ],
+      "size_cm": 85,
+      "yaw_deg": 37,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -625,
+        225
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        50.80563607461364,
+        47.955927232165685
+      ],
+      "scale": 0.6356302610374885,
+      "actor": "SD_AB_ab_030_sm_crate_01a",
+      "transform": {
+        "location_cm": [
+          -624.616897077753,
+          221.4192282905304,
+          200.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          37
+        ],
+        "scale": [
+          0.6356302610374885,
+          0.6356302610374885,
+          0.6356302610374885
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_Crate_01a.MI_Crate_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_031_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        -625,
+        50
+      ],
+      "size_cm": 115,
+      "yaw_deg": 74,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -650,
+        50
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        60.93686619290343,
+        68.2012426742815
+      ],
+      "scale": 0.7531976200336752,
+      "actor": "SD_AB_ab_031_sm_cablereel",
+      "transform": {
+        "location_cm": [
+          -668.5365385452809,
+          62.43440353279433,
+          208.11627098836706
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          74
+        ],
+        "scale": [
+          0.7531976200336752,
+          0.7531976200336752,
+          0.7531976200336752
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_CableReel_01a.MI_CableReel_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_032_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        -800,
+        -775
+      ],
+      "size_cm": 110,
+      "yaw_deg": 111,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -800,
+        -900
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        53.13768432552566,
+        57.26177459229101
+      ],
+      "scale": 0.7894170009762369,
+      "actor": "SD_AB_ab_032_sm_brickpalettestack_01a",
+      "transform": {
+        "location_cm": [
+          -746.885751733122,
+          -804.19749077716,
+          300.7338221453011
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          111
+        ],
+        "scale": [
+          0.7894170009762369,
+          0.7894170009762369,
+          0.7894170009762369
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_BrickPaletteStack_01a.MI_BrickPaletteStack_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_033_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        -1050,
+        50
+      ],
+      "size_cm": 85,
+      "yaw_deg": 148,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -1050,
+        50
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        50.89105983749562,
+        46.28496135826691
+      ],
+      "scale": 0.6356302610374885,
+      "actor": "SD_AB_ab_033_sm_crate_01a",
+      "transform": {
+        "location_cm": [
+          -1046.7943534289948,
+          51.64089120485605,
+          203.525582885927
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          148
+        ],
+        "scale": [
+          0.6356302610374885,
+          0.6356302610374885,
+          0.6356302610374885
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_Crate_01a.MI_Crate_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_034_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        -775,
+        550
+      ],
+      "size_cm": 115,
+      "yaw_deg": 185,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -1000,
+        925
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        61.36921153376694,
+        51.73769640014495
+      ],
+      "scale": 0.7531976200336752,
+      "actor": "SD_AB_ab_034_sm_cablereel",
+      "transform": {
+        "location_cm": [
+          -771.0064157046122,
+          504.89904807881845,
+          200.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          185
+        ],
+        "scale": [
+          0.7531976200336752,
+          0.7531976200336752,
+          0.7531976200336752
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_CableReel_01a.MI_CableReel_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_035_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        275,
+        875
+      ],
+      "size_cm": 110,
+      "yaw_deg": 222,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        300,
+        900
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        60.60614713897595,
+        60.07548875985578
+      ],
+      "scale": 0.7894170009762369,
+      "actor": "SD_AB_ab_035_sm_brickpalettestack_01a",
+      "transform": {
+        "location_cm": [
+          283.2237616493481,
+          935.0498674517489,
+          100.73382214530106
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          222
+        ],
+        "scale": [
+          0.7894170009762369,
+          0.7894170009762369,
+          0.7894170009762369
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_BrickPaletteStack_01a.MI_BrickPaletteStack_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_036_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        450,
+        350
+      ],
+      "size_cm": 85,
+      "yaw_deg": 259,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        450,
+        350
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        35.615831855901014,
+        47.06586746380187
+      ],
+      "scale": 0.6356302610374885,
+      "actor": "SD_AB_ab_036_sm_crate_01a",
+      "transform": {
+        "location_cm": [
+          447.3192951005169,
+          352.4046860764472,
+          0.9206584267958966
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          259
+        ],
+        "scale": [
+          0.6356302610374885,
+          0.6356302610374885,
+          0.6356302610374885
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_Crate_01a.MI_Crate_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_037_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        505,
+        -275
+      ],
+      "size_cm": 115,
+      "yaw_deg": 296,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        1030,
+        -400
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        67.36403106851162,
+        72.24233699635714
+      ],
+      "scale": 0.7531976200336752,
+      "actor": "SD_AB_ab_037_sm_cablereel",
+      "transform": {
+        "location_cm": [
+          545.6741933147321,
+          -255.10893220772434,
+          107.7923777361511
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          296
+        ],
+        "scale": [
+          0.7531976200336752,
+          0.7531976200336752,
+          0.7531976200336752
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_CableReel_01a.MI_CableReel_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_038_sm_brickpalettestack_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "anchor_cm": [
+        525,
+        -900
+      ],
+      "size_cm": 110,
+      "yaw_deg": 333,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        450,
+        -900
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        59.03291651138236,
+        55.89965079642364
+      ],
+      "scale": 0.7894170009762369,
+      "actor": "SD_AB_ab_038_sm_brickpalettestack_01a",
+      "transform": {
+        "location_cm": [
+          465.9914865334697,
+          -913.8424049611406,
+          300.7338221453011
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          333
+        ],
+        "scale": [
+          0.7894170009762369,
+          0.7894170009762369,
+          0.7894170009762369
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_BrickPaletteStack_01a.MI_BrickPaletteStack_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_039_sm_crate_01a",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "anchor_cm": [
+        100,
+        -850
+      ],
+      "size_cm": 85,
+      "yaw_deg": 10,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        150,
+        -850
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        46.72017360289946,
+        34.975620731591576
+      ],
+      "scale": 0.6356302610374885,
+      "actor": "SD_AB_ab_039_sm_crate_01a",
+      "transform": {
+        "location_cm": [
+          98.71571086532232,
+          -853.3644160418891,
+          0.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          10
+        ],
+        "scale": [
+          0.6356302610374885,
+          0.6356302610374885,
+          0.6356302610374885
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_Crate_01a.MI_Crate_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_040_sm_cablereel",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "anchor_cm": [
+        275,
+        350
+      ],
+      "size_cm": 115,
+      "yaw_deg": 47,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        200,
+        350
+      ],
+      "ground_z_cm": 100.0,
+      "half_xy_cm": [
+        73.51885203466037,
+        74.0417853108787
+      ],
+      "scale": 0.7531976200336752,
+      "actor": "SD_AB_ab_040_sm_cablereel",
+      "transform": {
+        "location_cm": [
+          241.85376118939286,
+          380.84430956321273,
+          100.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          47
+        ],
+        "scale": [
+          0.7531976200336752,
+          0.7531976200336752,
+          0.7531976200336752
+        ]
+      },
+      "source_materials": [
+        "/Game/Construction_VOL1/Materials/Instances/MI_CableReel_01a.MI_CableReel_01a"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_041_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        -975,
+        425
+      ],
+      "size_cm": 85,
+      "yaw_deg": 0,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -925,
+        425
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        25.896586970816504,
+        25.893553341849927
+      ],
+      "scale": 0.9295705807304706,
+      "actor": "SD_AB_ab_041_sm_barrel01",
+      "transform": {
+        "location_cm": [
+          -975.0,
+          424.9999858158786,
+          200.67749300326494
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.9295705807304706,
+          0.9295705807304706,
+          0.9295705807304706
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Barrel01_1.MI_Barrel01_1"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_042_sm_box01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Box01",
+      "anchor_cm": [
+        -775,
+        300
+      ],
+      "size_cm": 110,
+      "yaw_deg": 47,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -725,
+        900
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        60.909778950889475,
+        59.692205478149376
+      ],
+      "scale": 0.46680308434937007,
+      "actor": "SD_AB_ab_042_sm_box01",
+      "transform": {
+        "location_cm": [
+          -775.0000026046613,
+          300.0000024288859,
+          201.6287223932102
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          47
+        ],
+        "scale": [
+          0.46680308434937007,
+          0.46680308434937007,
+          0.46680308434937007
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Box01_2.MI_Box01_2"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_043_sm_hose01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Hose01",
+      "anchor_cm": [
+        -750,
+        425
+      ],
+      "size_cm": 70,
+      "yaw_deg": 94,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -700,
+        375
+      ],
+      "ground_z_cm": 199.9999761581421,
+      "half_xy_cm": [
+        31.58370611259075,
+        36.95256496316091
+      ],
+      "scale": 0.7363379213740592,
+      "actor": "SD_AB_ab_043_sm_hose01",
+      "transform": {
+        "location_cm": [
+          -749.9993758815663,
+          424.99485981866184,
+          201.91447670959263
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          94
+        ],
+        "scale": [
+          0.7363379213740592,
+          0.7363379213740592,
+          0.7363379213740592
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Hose01_1.MI_Hose01_1"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_044_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        -775,
+        -400
+      ],
+      "size_cm": 85,
+      "yaw_deg": 141,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -850,
+        -400
+      ],
+      "ground_z_cm": 299.47144985198975,
+      "half_xy_cm": [
+        36.42076909465208,
+        36.42032064671969
+      ],
+      "scale": 0.9295705807304706,
+      "actor": "SD_AB_ab_044_sm_barrel01",
+      "transform": {
+        "location_cm": [
+          -774.9999910736432,
+          -399.9999889768673,
+          300.67749300326494
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          141
+        ],
+        "scale": [
+          0.9295705807304706,
+          0.9295705807304706,
+          0.9295705807304706
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Barrel01_1.MI_Barrel01_1"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_045_sm_box01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Box01",
+      "anchor_cm": [
+        -1000,
+        -775
+      ],
+      "size_cm": 110,
+      "yaw_deg": 188,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -650,
+        -850
+      ],
+      "ground_z_cm": 300.0000238418579,
+      "half_xy_cm": [
+        37.68980860757006,
+        58.68592823453002
+      ],
+      "scale": 0.46680308434937007,
+      "actor": "SD_AB_ab_045_sm_box01",
+      "transform": {
+        "location_cm": [
+          -999.9999995043454,
+          -775.0000035267653,
+          301.6287223932102
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          188
+        ],
+        "scale": [
+          0.46680308434937007,
+          0.46680308434937007,
+          0.46680308434937007
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Box01_2.MI_Box01_2"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_046_sm_hose01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Hose01",
+      "anchor_cm": [
+        -75,
+        -750
+      ],
+      "size_cm": 70,
+      "yaw_deg": 235,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        -300,
+        -900
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        44.00538495625386,
+        45.42643476176758
+      ],
+      "scale": 0.7363379213740592,
+      "actor": "SD_AB_ab_046_sm_hose01",
+      "transform": {
+        "location_cm": [
+          -74.99725021019042,
+          -749.9956125583751,
+          5.329670468173355
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          235
+        ],
+        "scale": [
+          0.7363379213740592,
+          0.7363379213740592,
+          0.7363379213740592
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Hose01_1.MI_Hose01_1"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_047_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        200,
+        -450
+      ],
+      "size_cm": 85,
+      "yaw_deg": 282,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        200,
+        -450
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        30.711920259314933,
+        30.714256869282362
+      ],
+      "scale": 0.9295705807304706,
+      "actor": "SD_AB_ab_047_sm_barrel01",
+      "transform": {
+        "location_cm": [
+          199.99998612583568,
+          -450.00000294904464,
+          0.6774930032649344
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          282
+        ],
+        "scale": [
+          0.9295705807304706,
+          0.9295705807304706,
+          0.9295705807304706
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Barrel01_1.MI_Barrel01_1"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_048_sm_box01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Box01",
+      "anchor_cm": [
+        775,
+        375
+      ],
+      "size_cm": 110,
+      "yaw_deg": 329,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        1050,
+        650
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        54.32537438413499,
+        62.765544311744485
+      ],
+      "scale": 0.46680308434937007,
+      "actor": "SD_AB_ab_048_sm_box01",
+      "transform": {
+        "location_cm": [
+          775.0000018342694,
+          375.000003052737,
+          1.707268341874813
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          329
+        ],
+        "scale": [
+          0.46680308434937007,
+          0.46680308434937007,
+          0.46680308434937007
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Box01_2.MI_Box01_2"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_049_sm_hose01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Hose01",
+      "anchor_cm": [
+        675,
+        900
+      ],
+      "size_cm": 70,
+      "yaw_deg": 16,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        525,
+        900
+      ],
+      "ground_z_cm": 2.384185791015625e-05,
+      "half_xy_cm": [
+        41.69646145172207,
+        37.72902208196566
+      ],
+      "scale": 0.7363379213740592,
+      "actor": "SD_AB_ab_049_sm_hose01",
+      "transform": {
+        "location_cm": [
+          674.9951019054755,
+          899.9983208162583,
+          1.9144767095926396
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          16
+        ],
+        "scale": [
+          0.7363379213740592,
+          0.7363379213740592,
+          0.7363379213740592
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Hose01_1.MI_Hose01_1"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    },
+    {
+      "id": "ab_050_sm_barrel01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "anchor_cm": [
+        550,
+        300
+      ],
+      "size_cm": 85,
+      "yaw_deg": 63,
+      "category": "prop",
+      "search_cm": 650,
+      "requested_anchor_cm": [
+        450,
+        125
+      ],
+      "ground_z_cm": 0.5285978317260742,
+      "half_xy_cm": [
+        34.82812942243742,
+        34.82945516690805
+      ],
+      "scale": 0.9295705807304706,
+      "actor": "SD_AB_ab_050_sm_barrel01",
+      "transform": {
+        "location_cm": [
+          550.0000126381448,
+          299.99999356054366,
+          6.342990535987945
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          63
+        ],
+        "scale": [
+          0.9295705807304706,
+          0.9295705807304706,
+          0.9295705807304706
+        ]
+      },
+      "source_materials": [
+        "/Game/IndustryPropsPack6/Materials/MI_Barrel01_1.MI_Barrel01_1"
+      ],
+      "native_ground_adjustment_cm": 0.0
+    }
+  ],
+  "logical_objects": 51,
+  "source_packs": [
+    "animal_variety_pack",
+    "city_park_environment",
+    "city_sample_buildings",
+    "city_sample_vehicles",
+    "construction_site_vol1",
+    "game_animation_sample",
+    "industry_props_6",
+    "modular_building_set",
+    "modular_rural_cabins",
+    "paragon_gadget",
+    "paragon_sparrow",
+    "paragon_twinblast",
+    "vehicle_variety_pack",
+    "vehicle_variety_pack_2"
+  ],
+  "excluded": [
+    "unfinished_building",
+    "city_park_environment:full_map",
+    "modular_rural_cabins:full_map"
+  ],
+  "enclosure_validation": {
+    "walls": 4,
+    "background_objects": 0,
+    "uniform_top_z_cm": 400.0,
+    "height_above_lowest_ground_cm": 400.0,
+    "clearance_above_highest_ground_cm": 100.0,
+    "ground_elevation_range_cm": [
+      0.0,
+      300.0
+    ],
+    "actual_wall_top_span_cm": 0.0,
+    "wall_top_collision_max_error_cm": 9.313225746154785e-08,
+    "wall_top_probes": [
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "west",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "east",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "south",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      },
+      {
+        "side": "north",
+        "expected_top_cm": 400.0,
+        "actual_top_cm": 400.00000009313226,
+        "error_cm": 9.313225746154785e-08
+      }
+    ],
+    "hdri_cube": "/Game/SuperDyn/Lighting/PolyHaven_kloofendal_48d_partly_cloudy_puresky_4k.PolyHaven_kloofendal_48d_partly_cloudy_puresky_4k",
+    "visible_hdri_verified": true
+  },
+  "eye_height_cm": 165,
+  "scope": "A/B meshes only; original surrounding walls and HDRI; no source sample maps instantiated",
+  "native_ground_aligned": true
+}

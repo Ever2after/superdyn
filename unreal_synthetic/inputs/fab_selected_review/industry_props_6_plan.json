@@ -1,0 +1,509 @@
+{
+  "candidate": "industry_props_6",
+  "id": "28b7df0e7f5e4202be89a20d362860c3",
+  "title": "Industry Props Pack 6",
+  "engine": {
+    "artifactId": "Industryf4a3f3ff297fV1",
+    "matchType": "fallback",
+    "requested": "UE_5.8",
+    "selected": "UE_5.7",
+    "available": [
+      "UE_4.18",
+      "UE_4.19",
+      "UE_4.20",
+      "UE_4.21",
+      "UE_4.22",
+      "UE_4.23",
+      "UE_4.24",
+      "UE_4.25",
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4",
+      "UE_5.5",
+      "UE_5.6",
+      "UE_5.7"
+    ]
+  },
+  "file_count": 94,
+  "bytes": 192958008,
+  "unique_chunk_bytes": 188544242,
+  "chunk_count": 185,
+  "artifact": "Industryf4a3f3ff297fV1",
+  "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+  "files": [
+    {
+      "filename": "Content/IndustryPropsPack6/Maps/Overview.umap",
+      "size": 202519,
+      "sha1": "202e06058e329c6714a98bf51871491c7af5e169"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Maps/Showcase.umap",
+      "size": 915680,
+      "sha1": "f25f83c3d2b068eae1d5812bfca6a87f3a15ed49"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/BaseMaterial/M_base.uasset",
+      "size": 285659,
+      "sha1": "799ded4d11cb014bf97370af76b3522d0fb35b4d"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Barrel01_1.uasset",
+      "size": 117487,
+      "sha1": "d10d4ee804bbc513e659d69be14ac3869b0f8a08"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Barrel01_2.uasset",
+      "size": 114376,
+      "sha1": "24b1d9a080be27a1d866ac3b898b5fb520281030"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Barrel01_3.uasset",
+      "size": 99599,
+      "sha1": "64467b581eaeafcd2550e5815c4ece3b2c8ec737"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Barrel01_4.uasset",
+      "size": 116750,
+      "sha1": "91a8182611fb39ce8f0ebb7528b0fecba5f5aaab"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Barrel01_5.uasset",
+      "size": 118001,
+      "sha1": "93b4f199d01cb49ed6315acaf43bd8b1fc1ba6f6"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Barrel01_6.uasset",
+      "size": 122192,
+      "sha1": "4c34616f86ac835fe99d316a52b5abda6f925c09"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Box01_1.uasset",
+      "size": 110199,
+      "sha1": "608b98f96d6c9789c63cf01a6a64fbf5682e5680"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Box01_2.uasset",
+      "size": 109070,
+      "sha1": "72e80e10fd87608e9d08f9593fcb016ce236d3b6"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Box01_3.uasset",
+      "size": 104296,
+      "sha1": "64d35dae75e0ba38b8cf83a15f6c0dc1bff8d764"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Box01_4.uasset",
+      "size": 109408,
+      "sha1": "cb0a20c27a9b46b2b9a90b4d5ffd36b5a8bd9f31"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Cartonbox01_1.uasset",
+      "size": 106419,
+      "sha1": "0020120dc6e46cfaef738b4adf976e7a40f4ce66"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Cartonbox01_2.uasset",
+      "size": 114768,
+      "sha1": "9699c7645da5e98c05e6316186bc52123aa49c6c"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Gray.uasset",
+      "size": 75964,
+      "sha1": "04a2cc7d2dc527440708eb97dc708e88575fd573"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Hose01_1.uasset",
+      "size": 108852,
+      "sha1": "e250dfbd92bb084c4d226affeaa50e2f05f8a43e"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Hose01_2.uasset",
+      "size": 129120,
+      "sha1": "fc49e70dd50e0dca6cfde73cd0e1750bbe844f74"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Newspaper01_1.uasset",
+      "size": 123500,
+      "sha1": "97dc46cce0db7b5ca2bdf01af46f24c9d0193780"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Newspaper01_2.uasset",
+      "size": 121948,
+      "sha1": "99587c101cd80e657e653fc3e5529b7ddf995de2"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Rack01_1.uasset",
+      "size": 112220,
+      "sha1": "6d66ec67f2470e552f1c479d7a2ba2b44b633227"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_Tarp01_1.uasset",
+      "size": 119722,
+      "sha1": "c232b6d749a5aea03ba071f24e8e96d6bffb4823"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/Mi_Tarp01_2.uasset",
+      "size": 119125,
+      "sha1": "eafa8ad290abfd1ccfc20b001f21c8db128e49a3"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_TrafficBarrel01_1.uasset",
+      "size": 103140,
+      "sha1": "f1a0e8e199d9c82cb456931794bb3ad5611d3ece"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Materials/MI_WaterTank01.uasset",
+      "size": 104585,
+      "sha1": "b6f866203817071a1ac4ff89eae3fb4616e76eed"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Barrel01.uasset",
+      "size": 304472,
+      "sha1": "fca426746be553d0f9b14a42ae8992919f41bed6"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Barrel02.uasset",
+      "size": 267344,
+      "sha1": "8d80335f03ad82ba41aafcd1c95755ddb5a417c2"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Barrel03.uasset",
+      "size": 265831,
+      "sha1": "5a533e0f5858f36c9c122c6d52ac269a59e18487"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Barrel04.uasset",
+      "size": 1009388,
+      "sha1": "a2ca9e2288d864d8c3c33a91f09b37b56c989552"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Box01.uasset",
+      "size": 476672,
+      "sha1": "d3ba32e645300f39435bbfa5e20778ddde945c86"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Box02.uasset",
+      "size": 427670,
+      "sha1": "b013189b6fccb1042311b1a304a9e1ef3a5a3997"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Box03.uasset",
+      "size": 772602,
+      "sha1": "90ef000e8aba5137cbede23ee90c9b80499d4941"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonBox01.uasset",
+      "size": 105896,
+      "sha1": "e5624d548700cf5160e70fb586ab9179229f83fb"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonBox02.uasset",
+      "size": 109574,
+      "sha1": "c9952a7b4178d0861c0d1f38934d21532f973730"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonBox03.uasset",
+      "size": 112764,
+      "sha1": "56d35cb550e35918168d354d097fd1ae1dc6bbbc"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage01.uasset",
+      "size": 111587,
+      "sha1": "66c6a096e1e62f8ea20600e8f53f78602bc811d3"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage02.uasset",
+      "size": 111446,
+      "sha1": "c4e6dfc57f5d1b4b07f6f92c79714b3b2cbbc6bc"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage03.uasset",
+      "size": 107027,
+      "sha1": "57a0c9382b26cdd231803b06ea38e4bdd92045d9"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage04.uasset",
+      "size": 101491,
+      "sha1": "96bd72daec91cfd1a7c242d4ddde2ffceedab844"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage05.uasset",
+      "size": 121207,
+      "sha1": "089cb8aca00b2f2b21540899ea8f97c5d745da21"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage06.uasset",
+      "size": 118433,
+      "sha1": "9477794975e75a622a09f82fefe4c556602da3bb"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage07.uasset",
+      "size": 145357,
+      "sha1": "f13a9eb67414d254682dedb83bea2e4a17ccff75"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage08.uasset",
+      "size": 134480,
+      "sha1": "7695c187d03289fbf686bcc941a04047e9b2d978"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_CartonGarbage09.uasset",
+      "size": 203040,
+      "sha1": "2808f779017d28bced299523970523aaaf3e3362"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Hose01.uasset",
+      "size": 261395,
+      "sha1": "c5b973e0bf58240b4b13634f0500601e72869693"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Newspaper01.uasset",
+      "size": 107930,
+      "sha1": "248cc0df81bc16d20725be7623a13d46fe9af643"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Newspaper02.uasset",
+      "size": 136764,
+      "sha1": "ffb504992db3b1617583b4c5f6da297102bc0968"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Newspaper03.uasset",
+      "size": 153256,
+      "sha1": "280fe9eba39d4b3f0ad854c10586021d2d92cb84"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Pallet01.uasset",
+      "size": 214138,
+      "sha1": "682fdbf8eccdaa7063b4e2187d419b5484258ef1"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Rack01.uasset",
+      "size": 275915,
+      "sha1": "a3a5e06965aaf9bd1b8058ff2051f2240003b7bd"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Rack02.uasset",
+      "size": 140905,
+      "sha1": "779485bf1b77d636a1d7d3f0256b674ffc0e8e04"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Tarp01.uasset",
+      "size": 269220,
+      "sha1": "17e2e4a6c8e56893bed1fb8af49e6c68b499c02a"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_Tarp02.uasset",
+      "size": 232643,
+      "sha1": "3720645b5e86171010c9c533de96e3fe360dfa42"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_TrafficBarrel01.uasset",
+      "size": 215027,
+      "sha1": "371fbcf43ea68b23e8f071477feb1ce0506f155e"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Meshes/SM_WaterTank01.uasset",
+      "size": 514590,
+      "sha1": "4ce6d4903020822169d15b94b6ecc1fc9f797295"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/B_N.uasset",
+      "size": 3206,
+      "sha1": "4e92ddd22edd26721dc6258a9b5ce20e24254c6d"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/BB_D.uasset",
+      "size": 2922,
+      "sha1": "b60403b8dc01005472e214168be7a6babbdee0b6"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/BG_D.uasset",
+      "size": 2919,
+      "sha1": "789fdfe9aa4571e7f80c266e7d97e4e318dcc472"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/BW_D.uasset",
+      "size": 2920,
+      "sha1": "cc904af04b84e479dc2164cb6846285138540f13"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/T_Dirt_N.uasset",
+      "size": 2561485,
+      "sha1": "1ac830c8ef2514924b719b470f686e5a723ff9d9"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/T_gradient_D.uasset",
+      "size": 92451,
+      "sha1": "9cc1f14e8cbd5096eb0cb0d6b4089a6b9c25e26a"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/T_MASK1.uasset",
+      "size": 110290,
+      "sha1": "f94c91fe882c2f8d6d31773c013feb3eedcde52d"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/T_MASK2.uasset",
+      "size": 13417254,
+      "sha1": "5f1e0385230971580deaf68e0866e3001801d1bf"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/TC_HDR01.uasset",
+      "size": 306438,
+      "sha1": "83cada46eec1ad970ea4d069202bb92e4c5940e6"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/BaseTextures/TC_HDR02.uasset",
+      "size": 2169032,
+      "sha1": "0b40aaf89d5a2c8677d49ab3498d36abdee2774a"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Barrel01_D.uasset",
+      "size": 8625891,
+      "sha1": "587856426ae698805128e08ff558c0d35e64e06f"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Barrel01_N.uasset",
+      "size": 7028207,
+      "sha1": "2b36e6f688f215c288c2cc5643b342cd5e7ad248"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Barrel01_SRM.uasset",
+      "size": 9324400,
+      "sha1": "fa0238b21539e56aec6ae7d4791a832a5fca2b87"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Box01_D.uasset",
+      "size": 10158190,
+      "sha1": "5611094651787b74d1c6b5364471cad1e7b061c7"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Box01_N.uasset",
+      "size": 8114831,
+      "sha1": "343d3ec423a46f4129f32b7e6d9555ea599554ed"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Box01_SRM.uasset",
+      "size": 6304317,
+      "sha1": "630d95bebffce28070b7a452e0ed4a2735003d2b"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Cartonbox01_D.uasset",
+      "size": 8103628,
+      "sha1": "377b05cf021af8e185e3089dc41532e72def89e4"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Cartonbox01_N.uasset",
+      "size": 7831109,
+      "sha1": "70aa265258460d0df1495471c4dfcf90ac61c422"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Cartonbox01_SRM.uasset",
+      "size": 10285801,
+      "sha1": "b05f7e76b5d11421ed3286fe95debc15892bd8a3"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Hose_D.uasset",
+      "size": 170141,
+      "sha1": "2c9f191b5b5cb5536f6a82540f5bab89683032e6"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Hose_N.uasset",
+      "size": 239557,
+      "sha1": "2c2d5b9caa67098338b0adc7e9e01631669553e8"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Hose_SRM.uasset",
+      "size": 194965,
+      "sha1": "543e8dabd0add550f5b51b5e99043c05c08b910c"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Newspaper01_D.uasset",
+      "size": 2179626,
+      "sha1": "aa874da92b24165c14850a2fc555d17493650c09"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Newspaper01_N.uasset",
+      "size": 2017666,
+      "sha1": "825f792b76beaf573ced07754a083bc2a0e99f03"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Newspaper01_SRM.uasset",
+      "size": 1850644,
+      "sha1": "46057bfc21ef225414e957db85fdfcb39df9b051"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Rack_D.uasset",
+      "size": 1564374,
+      "sha1": "b6cfa3e73f257229f0b67f587fd77dd14f46a5bf"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Rack_N.uasset",
+      "size": 863757,
+      "sha1": "f6287943a4e97ef8f97c161edb34f4713d8628d2"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Rack_SRM.uasset",
+      "size": 1283215,
+      "sha1": "782036675f92fad606719765350989515d74aa28"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Tarp01_D.uasset",
+      "size": 13328728,
+      "sha1": "a0c301d3c9fc7e80789f668b40c107be7cf95887"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Tarp01_N.uasset",
+      "size": 9762299,
+      "sha1": "019d057f8b557f3efc3e0f5b4c8de6016615c887"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Tarp01_SRM.uasset",
+      "size": 8654762,
+      "sha1": "854457ee4710342646a7bb69714d58fb64b28660"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Tarp02_D.uasset",
+      "size": 12128865,
+      "sha1": "183cb958beb8310f5fdd875119db1e1b5eed0cc2"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_Tarp02_N.uasset",
+      "size": 8895417,
+      "sha1": "bc0701408961119ad8bc471404596a72f3756db4"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_TrafficBarrel01_D.uasset",
+      "size": 3489800,
+      "sha1": "6dcd8f364cdd8d3b306149ed096e90b6f0eac6ba"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_TrafficBarrel01_N.uasset",
+      "size": 476538,
+      "sha1": "6fe81d3cbbb38e264d79a754408fabab95b171aa"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_TrafficBarrel01_SRM.uasset",
+      "size": 4871373,
+      "sha1": "3715e70fc931cfc86ff870eacba918faf3d5f3d5"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_WaterTank01_D.uasset",
+      "size": 4940341,
+      "sha1": "8174b3f6b1f959d5750ef4bf94dcb7c515a119ee"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_WaterTank01_N.uasset",
+      "size": 3785855,
+      "sha1": "cee3dc90b559004816795d887781e34446708a78"
+    },
+    {
+      "filename": "Content/IndustryPropsPack6/Textures/T_WaterTank01_SRM.uasset",
+      "size": 6422131,
+      "sha1": "48673d15632f3366d0f472468913de86ea513a35"
+    }
+  ]
+}

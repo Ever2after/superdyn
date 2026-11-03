@@ -1,0 +1,13 @@
+{
+  "remaining_seconds": 0,
+  "range_seconds": [
+    0,
+    0
+  ],
+  "estimated_completion_utc": "2026-10-20T17:24:39.782851+00:00",
+  "measured_preprocess_videos": 3808,
+  "mean_preprocess_seconds_per_video": 18.897286904378532,
+  "measured_semantic_videos": 136,
+  "mean_semantic_request_seconds": 6.069932821562842,
+  "method": "Maximum remaining shard pipeline; observed preprocess service times, estimated 120s server load and two semantic requests per GPU; contention uncertainty included."
+}

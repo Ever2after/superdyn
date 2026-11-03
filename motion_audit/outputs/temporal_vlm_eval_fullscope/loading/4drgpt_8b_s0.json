@@ -1,0 +1,14 @@
+{
+  "model": "4drgpt_8b",
+  "gpu": 6,
+  "load_seconds": 22.506508259102702,
+  "torch": "2.9.1+cu130",
+  "transformers": "4.46.3",
+  "attention": "sdpa",
+  "dtype": "bfloat16",
+  "checkpoint": "/tmp/superdyn_vlm_eval255/models/4drgpt_8b",
+  "revision": "2c113ec8d3568ebc755b4596c2c138f24bd9d7bf",
+  "model_class": "LlavaLlamaModel",
+  "geometry_teacher_inference": false,
+  "compatibility": "Official v4.46 stack on installed B200-compatible torch; lazy unused encoders, no training-only teacher, native SDPA."
+}

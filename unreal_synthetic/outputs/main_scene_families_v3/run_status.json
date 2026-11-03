@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "scenes": 3,
+  "decoded_frames": 576,
+  "overview_frames": 12,
+  "results": [
+    {
+      "id": "industrial",
+      "seed": 101,
+      "dimensions_m": [
+        29.375,
+        23.125
+      ],
+      "height_span_m": 3.0,
+      "levels": [
+        0.0,
+        1.5,
+        3.0
+      ],
+      "ramps": 6,
+      "ramp_area_fraction": 0.3467510063254744,
+      "objects": 25,
+      "decoded_frames": 192,
+      "route_vertical_span_m": 3.0000000000000004,
+      "native_support_error_cm": 0.000216265261457238
+    },
+    {
+      "id": "urban",
+      "seed": 202,
+      "dimensions_m": [
+        29.700000000000003,
+        27.0
+      ],
+      "height_span_m": 3.0,
+      "levels": [
+        0.0,
+        1.5,
+        3.0
+      ],
+      "ramps": 6,
+      "ramp_area_fraction": 0.3008522727272728,
+      "objects": 23,
+      "decoded_frames": 192,
+      "route_vertical_span_m": 3.0000000000000004,
+      "native_support_error_cm": 0.00019626241285664037
+    },
+    {
+      "id": "park",
+      "seed": 303,
+      "dimensions_m": [
+        31.5,
+        30.0
+      ],
+      "height_span_m": 3.0,
+      "levels": [
+        0.0,
+        1.5,
+        3.0
+      ],
+      "ramps": 6,
+      "ramp_area_fraction": 0.3181547619047619,
+      "objects": 40,
+      "decoded_frames": 192,
+      "route_vertical_span_m": 3.0,
+      "native_support_error_cm": 0.00020375327457600179
+    }
+  ]
+}

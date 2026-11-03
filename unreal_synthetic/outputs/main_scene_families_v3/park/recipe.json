@@ -1,0 +1,413 @@
+{
+  "family": {
+    "id": "park",
+    "title": "Woodland terrace park",
+    "title_ko": "완만한 경사와 쉼터가 있는 공원",
+    "seed": 303,
+    "xy_scale": 1.5,
+    "ground_texture": "Grass004",
+    "wall_texture": "Concrete033",
+    "path_texture": "PavingStones046",
+    "ground_tile_cm": 150,
+    "wall_tint": [
+      0.54,
+      0.57,
+      0.45
+    ],
+    "description": "Grass terraces, a paved winding trail, trees and shrubs, a timber shelter, and separate animal clearings.",
+    "asset_groups": [
+      {
+        "asset": "shelter",
+        "count": 1,
+        "size_cm": 420
+      },
+      {
+        "asset": "pine",
+        "count": 9,
+        "size_cm": 620,
+        "height_size": true
+      },
+      {
+        "asset": "tree",
+        "count": 7,
+        "size_cm": 550,
+        "height_size": true
+      },
+      {
+        "asset": "bush",
+        "count": 10,
+        "size_cm": 120
+      },
+      {
+        "asset": "rock",
+        "count": 6,
+        "size_cm": 115
+      },
+      {
+        "asset": "bench",
+        "count": 3,
+        "size_cm": 180
+      },
+      {
+        "asset": "deer",
+        "count": 2,
+        "size_cm": 205
+      },
+      {
+        "asset": "fox",
+        "count": 1,
+        "size_cm": 115
+      },
+      {
+        "asset": "worker",
+        "count": 1,
+        "size_cm": 178,
+        "height_size": true
+      }
+    ]
+  },
+  "assets": [
+    {
+      "asset": "shelter",
+      "count": 1,
+      "size_cm": 420,
+      "id": "shelter_00",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Porch_Roof_4x4m"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_00",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_01",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_02",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_03",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_04",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_05",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_06",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_07",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_08",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01"
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_05",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_06",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_05",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_06",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_07",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_08",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_09",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01"
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01"
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01"
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01"
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01"
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01"
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_05",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01"
+    },
+    {
+      "asset": "bench",
+      "count": 3,
+      "size_cm": 180,
+      "id": "bench_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "bench",
+      "count": 3,
+      "size_cm": 180,
+      "id": "bench_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "bench",
+      "count": 3,
+      "size_cm": 180,
+      "id": "bench_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1"
+    },
+    {
+      "asset": "deer",
+      "count": 2,
+      "size_cm": 205,
+      "id": "deer_00",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe"
+    },
+    {
+      "asset": "deer",
+      "count": 2,
+      "size_cm": 205,
+      "id": "deer_01",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe"
+    },
+    {
+      "asset": "fox",
+      "count": 1,
+      "size_cm": 115,
+      "id": "fox_00",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Fox/Meshes/SK_Fox",
+      "animation": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleBreathe"
+    },
+    {
+      "asset": "worker",
+      "count": 1,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_00",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop"
+    }
+  ],
+  "stage": "Scene construction and inspection; no benchmark QA or dynamic root trajectories yet"
+}

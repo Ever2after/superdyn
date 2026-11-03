@@ -1,0 +1,14 @@
+{
+  "key": "dsr_suite_7b",
+  "repo": "TencentARC/DSR_Suite-Model",
+  "backend": "dsr",
+  "revision": "d0df6d2adced373a4b4caa71015c03596032bcdf",
+  "path": "/tmp/superdyn_vlm_eval255/models/dsr_suite_7b",
+  "python": "/home/jovyan/data-1/jusang/superdyn/motion_audit/.venv_eval_dsr/bin/python",
+  "label": "DSR Suite (7B backbone)",
+  "backbone": "Qwen2.5-VL-7B-Instruct",
+  "total_parameters_approx": "9B including spatial modules",
+  "source": "https://github.com/TencentARC/DSR_Suite",
+  "vendor_revision": "ae81203a672613bc746fce8299b2be3b9133ede1",
+  "venue": "CVPR 2026"
+}

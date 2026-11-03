@@ -1,0 +1,361 @@
+[
+  {
+    "video_id": "MOSE__056e4786",
+    "stratum": "MOSE",
+    "scene_id": "056e4786",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/056e4786",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 6,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__0ab68ba2",
+    "stratum": "MOSE",
+    "scene_id": "0ab68ba2",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/0ab68ba2",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 8,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__0f5255e1",
+    "stratum": "MOSE",
+    "scene_id": "0f5255e1",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/0f5255e1",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__12099d59",
+    "stratum": "MOSE",
+    "scene_id": "12099d59",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/12099d59",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 4,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__196679a6",
+    "stratum": "MOSE",
+    "scene_id": "196679a6",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/196679a6",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 8,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__1f614262",
+    "stratum": "MOSE",
+    "scene_id": "1f614262",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/1f614262",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 6,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__22b69b5c",
+    "stratum": "MOSE",
+    "scene_id": "22b69b5c",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/22b69b5c",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__2722cebf",
+    "stratum": "MOSE",
+    "scene_id": "2722cebf",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/2722cebf",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 4,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__2f9e704c",
+    "stratum": "MOSE",
+    "scene_id": "2f9e704c",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/2f9e704c",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 3,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__305731ed",
+    "stratum": "MOSE",
+    "scene_id": "305731ed",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/305731ed",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 3,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__31782173",
+    "stratum": "MOSE",
+    "scene_id": "31782173",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/31782173",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 4,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__3437ed4f",
+    "stratum": "MOSE",
+    "scene_id": "3437ed4f",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/3437ed4f",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 3,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__3ab5abc1",
+    "stratum": "MOSE",
+    "scene_id": "3ab5abc1",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/3ab5abc1",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 4,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__443332ce",
+    "stratum": "MOSE",
+    "scene_id": "443332ce",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/443332ce",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 5,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__4455104a",
+    "stratum": "MOSE",
+    "scene_id": "4455104a",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/4455104a",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 3,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__467bca9c",
+    "stratum": "MOSE",
+    "scene_id": "467bca9c",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/467bca9c",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 8,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__5dcc5238",
+    "stratum": "MOSE",
+    "scene_id": "5dcc5238",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/5dcc5238",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 4,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__6555cdcf",
+    "stratum": "MOSE",
+    "scene_id": "6555cdcf",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/6555cdcf",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__8852a5e2",
+    "stratum": "MOSE",
+    "scene_id": "8852a5e2",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/8852a5e2",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__8fa0e537",
+    "stratum": "MOSE",
+    "scene_id": "8fa0e537",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/8fa0e537",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 8,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__9b7b2da8",
+    "stratum": "MOSE",
+    "scene_id": "9b7b2da8",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/9b7b2da8",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 4,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__9d000306",
+    "stratum": "MOSE",
+    "scene_id": "9d000306",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/9d000306",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 8,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__9e66a228",
+    "stratum": "MOSE",
+    "scene_id": "9e66a228",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/9e66a228",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 6,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__9fa2118b",
+    "stratum": "MOSE",
+    "scene_id": "9fa2118b",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/9fa2118b",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 6,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__a20baeec",
+    "stratum": "MOSE",
+    "scene_id": "a20baeec",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/a20baeec",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 1,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__a29472bf",
+    "stratum": "MOSE",
+    "scene_id": "a29472bf",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/a29472bf",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 6,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__a2bbc8c0",
+    "stratum": "MOSE",
+    "scene_id": "a2bbc8c0",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/a2bbc8c0",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 6,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__bc74c8a2",
+    "stratum": "MOSE",
+    "scene_id": "bc74c8a2",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/bc74c8a2",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__c8264720",
+    "stratum": "MOSE",
+    "scene_id": "c8264720",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/c8264720",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 5,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__d29fa9d4",
+    "stratum": "MOSE",
+    "scene_id": "d29fa9d4",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/d29fa9d4",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 8,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__d3b10bc6",
+    "stratum": "MOSE",
+    "scene_id": "d3b10bc6",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/d3b10bc6",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__d6395f2e",
+    "stratum": "MOSE",
+    "scene_id": "d6395f2e",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/d6395f2e",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 4,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__ec97bc21",
+    "stratum": "MOSE",
+    "scene_id": "ec97bc21",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/ec97bc21",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "MOSE__ee656443",
+    "stratum": "MOSE",
+    "scene_id": "ee656443",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/MOSE/ee656443",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 7,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "VOST__2026_empty_flour",
+    "stratum": "VOST",
+    "scene_id": "2026_empty_flour",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/VOST/2026_empty_flour",
+    "rgb_directory_ready": true,
+    "released_rgb_frames": 6,
+    "reason": "fewer_than_9_distinct_measurement_frames"
+  },
+  {
+    "video_id": "youtube_vis__split_1",
+    "stratum": "youtube_vis",
+    "scene_id": "split_1",
+    "source_kind": "directory",
+    "source_path": "/home/jovyan/data-1/jusang/dynamicVerse/youtube_vis/split_1",
+    "rgb_directory_ready": false,
+    "reason": "missing_rgb_directory"
+  }
+]

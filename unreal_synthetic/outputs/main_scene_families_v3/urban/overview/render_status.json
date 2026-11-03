@@ -1,0 +1,8 @@
+{
+  "status": "rendering",
+  "renderer": "Unreal Movie Render Queue / Deferred + Lumen",
+  "expected_frames": 4,
+  "preview": false,
+  "spatial_samples": 4,
+  "unreal_render_verified": false
+}

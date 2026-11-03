@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "case": "03_low_orbit",
+  "frames": 192,
+  "meshes": 8,
+  "triangles": 177648,
+  "conversion": {
+    "status": "passed",
+    "max_matrix_error": 4.794306285305083e-08,
+    "max_projection_error_px": 0.00015671764425361572
+  },
+  "unreal_execution_verified": false
+}

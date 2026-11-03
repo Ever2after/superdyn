@@ -1,0 +1,13 @@
+{
+  "status": "final",
+  "qa": 896,
+  "videos": 461,
+  "groups": [
+    "HLH",
+    "LHH",
+    "HHH"
+  ],
+  "qa_file": "outputs/temporal_geometry_fullscope/qa/final/qa.json",
+  "evaluation": "outputs/temporal_vlm_eval_fullscope/final",
+  "manifest": "outputs/temporal_geometry_fullscope/qa/final/manifest.json"
+}

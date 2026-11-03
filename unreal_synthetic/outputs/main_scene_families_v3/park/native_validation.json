@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "engine": "5.8.4-58902052+++UE5+Release-5.8",
+  "terrain_probes": 399,
+  "terrain_support_error_cm": 0.00020375327457600179,
+  "camera_evaluation_error_cm": 6.082829554543423e-05,
+  "eye_height_error_cm": 0.00022889772975531741,
+  "camera_frames": 192,
+  "terrain_levels_m": [
+    0.0,
+    1.5,
+    3.0
+  ],
+  "ramps": 6,
+  "route_vertical_span_m": 3.0,
+  "logical_objects": 40,
+  "scope": "Actual terrain collision and every walking camera pose; footprint placement and source material checks; no dense pixel GT certification"
+}

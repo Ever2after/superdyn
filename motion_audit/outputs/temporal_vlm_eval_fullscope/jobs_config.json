@@ -1,0 +1,50 @@
+[
+  {
+    "model": "qwen25vl_3b",
+    "gpu": 0,
+    "shard": 0,
+    "shards": 1
+  },
+  {
+    "model": "qwen25vl_7b",
+    "gpu": 1,
+    "shard": 0,
+    "shards": 1
+  },
+  {
+    "model": "vgllm_qa_4b",
+    "gpu": 2,
+    "shard": 0,
+    "shards": 1
+  },
+  {
+    "model": "vgllm_qa_8b",
+    "gpu": 3,
+    "shard": 0,
+    "shards": 2
+  },
+  {
+    "model": "vgllm_qa_8b",
+    "gpu": 4,
+    "shard": 1,
+    "shards": 2
+  },
+  {
+    "model": "mllm4d_sft_8b",
+    "gpu": 5,
+    "shard": 0,
+    "shards": 1
+  },
+  {
+    "model": "4drgpt_8b",
+    "gpu": 6,
+    "shard": 0,
+    "shards": 1
+  },
+  {
+    "model": "dsr_suite_7b",
+    "gpu": 7,
+    "shard": 0,
+    "shards": 1
+  }
+]

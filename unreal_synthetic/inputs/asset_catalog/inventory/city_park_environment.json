@@ -1,0 +1,5607 @@
+{
+  "id": "city_park_environment",
+  "roots": [
+    "/Game/CityPark"
+  ],
+  "class_counts": {
+    "World": 3,
+    "MapBuildDataRegistry": 1,
+    "LandscapeLayerInfoObject": 7,
+    "Blueprint": 1,
+    "Material": 10,
+    "MaterialFunction": 3,
+    "MaterialInstanceConstant": 212,
+    "StaticMesh": 524,
+    "ParticleSystem": 4,
+    "SoundWave": 6,
+    "Texture2D": 341,
+    "TextureCube": 5
+  },
+  "assets": [
+    {
+      "path": "/Game/CityPark/Blueprints/BP_SplineMeshes",
+      "name": "BP_SplineMeshes",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase",
+      "name": "Showcase",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_BuiltData",
+      "name": "Showcase_BuiltData",
+      "asset_class": "MapBuildDataRegistry"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_NotOptimized",
+      "name": "Showcase_NotOptimized",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_sharedassets/1_LayerInfo",
+      "name": "1_LayerInfo",
+      "asset_class": "LandscapeLayerInfoObject"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_sharedassets/2_LayerInfo",
+      "name": "2_LayerInfo",
+      "asset_class": "LandscapeLayerInfoObject"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_sharedassets/3_LayerInfo",
+      "name": "3_LayerInfo",
+      "asset_class": "LandscapeLayerInfoObject"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_sharedassets/4_LayerInfo",
+      "name": "4_LayerInfo",
+      "asset_class": "LandscapeLayerInfoObject"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_sharedassets/5_LayerInfo",
+      "name": "5_LayerInfo",
+      "asset_class": "LandscapeLayerInfoObject"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_sharedassets/6_LayerInfo",
+      "name": "6_LayerInfo",
+      "asset_class": "LandscapeLayerInfoObject"
+    },
+    {
+      "path": "/Game/CityPark/Maps/Showcase_sharedassets/7_LayerInfo",
+      "name": "7_LayerInfo",
+      "asset_class": "LandscapeLayerInfoObject"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_BaseballField",
+      "name": "M_BaseballField",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_FloraShader_V_04",
+      "name": "M_FloraShader_V_04",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_GlassShader_V_02",
+      "name": "M_GlassShader_V_02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_LandscapeShader_V_01",
+      "name": "M_LandscapeShader_V_01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_MainShader_V_11",
+      "name": "M_MainShader_V_11",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_Particle_water",
+      "name": "M_Particle_water",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_PixelNormalShader_V_01",
+      "name": "M_PixelNormalShader_V_01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_WaterShader_V_01",
+      "name": "M_WaterShader_V_01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/M_gray",
+      "name": "M_gray",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/MaterialFunction/MF_FlipbookWindAddSpeed",
+      "name": "MF_FlipbookWindAddSpeed",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/MaterialFunction/MF_LandscapeLayer1",
+      "name": "MF_LandscapeLayer1",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/MaterialFunction/MF_LandscapeTexturePosition1",
+      "name": "MF_LandscapeTexturePosition1",
+      "asset_class": "MaterialFunction"
+    },
+    {
+      "path": "/Game/CityPark/Materials/BaseMaterial/PostProcessingMaterial/M_Unsharp",
+      "name": "M_Unsharp",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_BuildingsGlass",
+      "name": "MI_BuildingsGlass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_CafeBuilding01",
+      "name": "MI_CafeBuilding01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_CafeGlass01",
+      "name": "MI_CafeGlass01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Floor01",
+      "name": "MI_Floor01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_House01",
+      "name": "MI_House01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_House02",
+      "name": "MI_House02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_RoofTile01_1",
+      "name": "MI_RoofTile01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_RoofTile01_2",
+      "name": "MI_RoofTile01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_RoofTile02_1",
+      "name": "MI_RoofTile02_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_RoofTile02_2",
+      "name": "MI_RoofTile02_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_RoofTile02_3",
+      "name": "MI_RoofTile02_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_RoofTile02_4",
+      "name": "MI_RoofTile02_4",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Stairs01",
+      "name": "MI_Stairs01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall01_1",
+      "name": "MI_Wall01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_1",
+      "name": "MI_Wall02_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_2",
+      "name": "MI_Wall02_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_3",
+      "name": "MI_Wall02_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_4",
+      "name": "MI_Wall02_4",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_5",
+      "name": "MI_Wall02_5",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_6",
+      "name": "MI_Wall02_6",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_7",
+      "name": "MI_Wall02_7",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_8",
+      "name": "MI_Wall02_8",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Buildings/MI_Wall02_9",
+      "name": "MI_Wall02_9",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush01",
+      "name": "MI_Bush01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush01_2",
+      "name": "MI_Bush01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush02",
+      "name": "MI_Bush02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush02_2",
+      "name": "MI_Bush02_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush04",
+      "name": "MI_Bush04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush04_2",
+      "name": "MI_Bush04_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush05",
+      "name": "MI_Bush05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Bushs/MI_Bush05_2",
+      "name": "MI_Bush05_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass01",
+      "name": "MI_Grass01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass02",
+      "name": "MI_Grass02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass03",
+      "name": "MI_Grass03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass04",
+      "name": "MI_Grass04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass05",
+      "name": "MI_Grass05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass06",
+      "name": "MI_Grass06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass07",
+      "name": "MI_Grass07",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass08",
+      "name": "MI_Grass08",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass09",
+      "name": "MI_Grass09",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass10",
+      "name": "MI_Grass10",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass11",
+      "name": "MI_Grass11",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass12",
+      "name": "MI_Grass12",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass13",
+      "name": "MI_Grass13",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Grass14",
+      "name": "MI_Grass14",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_Lawn01",
+      "name": "MI_Lawn01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Grass/MI_WaterPlants",
+      "name": "MI_WaterPlants",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Ivy/MI_Ivy01",
+      "name": "MI_Ivy01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/MI_BushMaster",
+      "name": "MI_BushMaster",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/MI_GrassMaster",
+      "name": "MI_GrassMaster",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/MI_TreeMaster",
+      "name": "MI_TreeMaster",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_AmurCorkBranch01",
+      "name": "MI_AmurCorkBranch01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_ElmBranch01",
+      "name": "MI_ElmBranch01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_MapleBranch01",
+      "name": "MI_MapleBranch01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_TreeBark01",
+      "name": "MI_TreeBark01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_TreeBark02_1",
+      "name": "MI_TreeBark02_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_TreeBark02_2",
+      "name": "MI_TreeBark02_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_TreeBark03",
+      "name": "MI_TreeBark03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Flora/Trees/MI_WeepingWillowBranch01",
+      "name": "MI_WeepingWillowBranch01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_DryLeaves",
+      "name": "MI_DryLeaves",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Ground01",
+      "name": "MI_Ground01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Ground02",
+      "name": "MI_Ground02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Ground03",
+      "name": "MI_Ground03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Landscape",
+      "name": "MI_Landscape",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock01",
+      "name": "MI_Rock01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock01_2",
+      "name": "MI_Rock01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock04",
+      "name": "MI_Rock04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock04_2",
+      "name": "MI_Rock04_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock06",
+      "name": "MI_Rock06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock06_2",
+      "name": "MI_Rock06_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock07",
+      "name": "MI_Rock07",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Rock07_2",
+      "name": "MI_Rock07_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Stone01",
+      "name": "MI_Stone01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Water1",
+      "name": "MI_Water1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Water2",
+      "name": "MI_Water2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Water3",
+      "name": "MI_Water3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Water4",
+      "name": "MI_Water4",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Water5",
+      "name": "MI_Water5",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Ground/MI_Water6",
+      "name": "MI_Water6",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_Fountain01",
+      "name": "MI_Fountain01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare01",
+      "name": "MI_ParkSquare01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare02",
+      "name": "MI_ParkSquare02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare03",
+      "name": "MI_ParkSquare03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare04",
+      "name": "MI_ParkSquare04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare04_2",
+      "name": "MI_ParkSquare04_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare05",
+      "name": "MI_ParkSquare05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare06",
+      "name": "MI_ParkSquare06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare07",
+      "name": "MI_ParkSquare07",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare08",
+      "name": "MI_ParkSquare08",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare09",
+      "name": "MI_ParkSquare09",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare10",
+      "name": "MI_ParkSquare10",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare11",
+      "name": "MI_ParkSquare11",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquare13",
+      "name": "MI_ParkSquare13",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_ParkSquareDoor01",
+      "name": "MI_ParkSquareDoor01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_Pool01",
+      "name": "MI_Pool01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_Pool02_1",
+      "name": "MI_Pool02_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_Pool02_2",
+      "name": "MI_Pool02_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/ParkSquare/MI_Pool02_3",
+      "name": "MI_Pool02_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Particles/MI_Fountain",
+      "name": "MI_Fountain",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Particles/MI_Leaves",
+      "name": "MI_Leaves",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Particles/MI_Splash1",
+      "name": "MI_Splash1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Particles/MI_Splash2",
+      "name": "MI_Splash2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_01",
+      "name": "MI_Playground1_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_02",
+      "name": "MI_Playground1_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_03",
+      "name": "MI_Playground1_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_04",
+      "name": "MI_Playground1_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_05",
+      "name": "MI_Playground1_05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_06",
+      "name": "MI_Playground1_06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_07",
+      "name": "MI_Playground1_07",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_08",
+      "name": "MI_Playground1_08",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_09",
+      "name": "MI_Playground1_09",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground1_10",
+      "name": "MI_Playground1_10",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground2_01",
+      "name": "MI_Playground2_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground2_02",
+      "name": "MI_Playground2_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground3_01",
+      "name": "MI_Playground3_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground4_01",
+      "name": "MI_Playground4_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground4_02",
+      "name": "MI_Playground4_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground4_03",
+      "name": "MI_Playground4_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground4_04",
+      "name": "MI_Playground4_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground4_05",
+      "name": "MI_Playground4_05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground4_06",
+      "name": "MI_Playground4_06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground4_07",
+      "name": "MI_Playground4_07",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground5_01",
+      "name": "MI_Playground5_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground5_02",
+      "name": "MI_Playground5_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground5_03",
+      "name": "MI_Playground5_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground5_04",
+      "name": "MI_Playground5_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground5_05",
+      "name": "MI_Playground5_05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Playground/MI_Playground5_06",
+      "name": "MI_Playground5_06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench1_01",
+      "name": "MI_Bench1_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench2_01",
+      "name": "MI_Bench2_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench2_02",
+      "name": "MI_Bench2_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench2_03",
+      "name": "MI_Bench2_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench2_04",
+      "name": "MI_Bench2_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench3_01",
+      "name": "MI_Bench3_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench3_02",
+      "name": "MI_Bench3_02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench3_03",
+      "name": "MI_Bench3_03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bench3_04",
+      "name": "MI_Bench3_04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_BorderWood",
+      "name": "MI_BorderWood",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Bower_1",
+      "name": "MI_Bower_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeChair01_1",
+      "name": "MI_CafeChair01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeChair01_2",
+      "name": "MI_CafeChair01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeChair02_1",
+      "name": "MI_CafeChair02_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeChair02_2",
+      "name": "MI_CafeChair02_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeTable01_1",
+      "name": "MI_CafeTable01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeTable01_2",
+      "name": "MI_CafeTable01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeTable01_3",
+      "name": "MI_CafeTable01_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_CafeTableCloth01",
+      "name": "MI_CafeTableCloth01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_DrinkingFountain_1",
+      "name": "MI_DrinkingFountain_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Fence01_1",
+      "name": "MI_Fence01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Fence01_2",
+      "name": "MI_Fence01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Fence02",
+      "name": "MI_Fence02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Fence03",
+      "name": "MI_Fence03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Fence04",
+      "name": "MI_Fence04",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Fence05",
+      "name": "MI_Fence05",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Fence06",
+      "name": "MI_Fence06",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_FoodStalls01",
+      "name": "MI_FoodStalls01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_FoodStallsGlass01",
+      "name": "MI_FoodStallsGlass01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_LampPost01",
+      "name": "MI_LampPost01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_LampPost01Glass",
+      "name": "MI_LampPost01Glass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_LampPost02",
+      "name": "MI_LampPost02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Manholes01",
+      "name": "MI_Manholes01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Net",
+      "name": "MI_Net",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Newspaper01_1",
+      "name": "MI_Newspaper01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_ParkFence01_01",
+      "name": "MI_ParkFence01_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_RoadBlock01",
+      "name": "MI_RoadBlock01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_RoadSigns01",
+      "name": "MI_RoadSigns01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Statue01_1",
+      "name": "MI_Statue01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Statue02",
+      "name": "MI_Statue02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Statue03",
+      "name": "MI_Statue03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_TrafficBarrel01_1",
+      "name": "MI_TrafficBarrel01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_TrafficLight",
+      "name": "MI_TrafficLight",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_TrashCan01_1",
+      "name": "MI_TrashCan01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Umbrella01_1",
+      "name": "MI_Umbrella01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Umbrella01_2",
+      "name": "MI_Umbrella01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Umbrella01_3",
+      "name": "MI_Umbrella01_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Umbrella02_1",
+      "name": "MI_Umbrella02_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Props/MI_Umbrella02_2",
+      "name": "MI_Umbrella02_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Asphalt01",
+      "name": "MI_Asphalt01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Asphalt02",
+      "name": "MI_Asphalt02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Asphalt03",
+      "name": "MI_Asphalt03",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Border01",
+      "name": "MI_Border01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Bridge01_1",
+      "name": "MI_Bridge01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Bridge01_2",
+      "name": "MI_Bridge01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Bridge02_1",
+      "name": "MI_Bridge02_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Bridge02_4",
+      "name": "MI_Bridge02_4",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Bridge03_1",
+      "name": "MI_Bridge03_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Bridge03_2",
+      "name": "MI_Bridge03_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_LeakDecal01",
+      "name": "MI_LeakDecal01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_LeakDecal02",
+      "name": "MI_LeakDecal02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_ParkPath",
+      "name": "MI_ParkPath",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_RoadDecal01",
+      "name": "MI_RoadDecal01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Sidewalk01",
+      "name": "MI_Sidewalk01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/Road/MI_Sidewalk02",
+      "name": "MI_Sidewalk02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_BaseballField1",
+      "name": "MI_BaseballField1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_BaseballGround",
+      "name": "MI_BaseballGround",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_BasketballField1",
+      "name": "MI_BasketballField1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_BasketballField2",
+      "name": "MI_BasketballField2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_BasketballField3",
+      "name": "MI_BasketballField3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_BasketballHoop",
+      "name": "MI_BasketballHoop",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_BasketballHoopGlass",
+      "name": "MI_BasketballHoopGlass",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_FootballField1",
+      "name": "MI_FootballField1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_FootballField2",
+      "name": "MI_FootballField2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_FootballField3",
+      "name": "MI_FootballField3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_FootballGate",
+      "name": "MI_FootballGate",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_FootballNet",
+      "name": "MI_FootballNet",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_TennisField01",
+      "name": "MI_TennisField01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_TennisField2",
+      "name": "MI_TennisField2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_TennisField3",
+      "name": "MI_TennisField3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_TennisField4",
+      "name": "MI_TennisField4",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_TennisNet1",
+      "name": "MI_TennisNet1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_Tribune01",
+      "name": "MI_Tribune01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Materials/SportsGround/MI_Tribune02",
+      "name": "MI_Tribune02",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding01",
+      "name": "SM_CafeBuilding01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding02",
+      "name": "SM_CafeBuilding02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding03",
+      "name": "SM_CafeBuilding03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding04",
+      "name": "SM_CafeBuilding04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_CafeBuilding05",
+      "name": "SM_CafeBuilding05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_House01",
+      "name": "SM_House01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_House02_1",
+      "name": "SM_House02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_House02_2",
+      "name": "SM_House02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_House02_3",
+      "name": "SM_House02_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_House02_4",
+      "name": "SM_House02_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_House02_5",
+      "name": "SM_House02_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Buildings/SM_House02_6",
+      "name": "SM_House02_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "name": "SM_Bush1_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_02",
+      "name": "SM_Bush1_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_03",
+      "name": "SM_Bush1_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_04",
+      "name": "SM_Bush1_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_05",
+      "name": "SM_Bush1_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush2_01",
+      "name": "SM_Bush2_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush2_02",
+      "name": "SM_Bush2_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush2_03",
+      "name": "SM_Bush2_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush2_04",
+      "name": "SM_Bush2_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush2_05",
+      "name": "SM_Bush2_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush3_01",
+      "name": "SM_Bush3_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush3_02",
+      "name": "SM_Bush3_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush3_03",
+      "name": "SM_Bush3_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush4_01",
+      "name": "SM_Bush4_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush4_02",
+      "name": "SM_Bush4_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush4_03",
+      "name": "SM_Bush4_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush4_04",
+      "name": "SM_Bush4_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush5_01",
+      "name": "SM_Bush5_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush5_02",
+      "name": "SM_Bush5_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush5_03",
+      "name": "SM_Bush5_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush5_04",
+      "name": "SM_Bush5_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass10_2",
+      "name": "SM_Grass10_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass10_3",
+      "name": "SM_Grass10_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass10_4",
+      "name": "SM_Grass10_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass10_5",
+      "name": "SM_Grass10_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass10_6",
+      "name": "SM_Grass10_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass10_7",
+      "name": "SM_Grass10_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass10_8",
+      "name": "SM_Grass10_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass11_1",
+      "name": "SM_Grass11_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass11_2",
+      "name": "SM_Grass11_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass11_3",
+      "name": "SM_Grass11_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass11_4",
+      "name": "SM_Grass11_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass12_1",
+      "name": "SM_Grass12_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass12_2",
+      "name": "SM_Grass12_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass12_3",
+      "name": "SM_Grass12_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass12_4",
+      "name": "SM_Grass12_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass12_5",
+      "name": "SM_Grass12_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass12_6",
+      "name": "SM_Grass12_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass13_1",
+      "name": "SM_Grass13_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass13_2",
+      "name": "SM_Grass13_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass13_3",
+      "name": "SM_Grass13_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass13_4",
+      "name": "SM_Grass13_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass14_1",
+      "name": "SM_Grass14_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Grass14_2",
+      "name": "SM_Grass14_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_Lawn01_1",
+      "name": "SM_Lawn01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_SmallBush1_01",
+      "name": "SM_SmallBush1_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_SmallBush1_02",
+      "name": "SM_SmallBush1_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_SmallBush2_01",
+      "name": "SM_SmallBush2_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_SmallBush2_02",
+      "name": "SM_SmallBush2_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_WaterPlant01",
+      "name": "SM_WaterPlant01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_WaterPlant02",
+      "name": "SM_WaterPlant02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_WaterPlant03",
+      "name": "SM_WaterPlant03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_WaterPlant04",
+      "name": "SM_WaterPlant04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass01_1",
+      "name": "SM_grass01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass01_2",
+      "name": "SM_grass01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass01_3",
+      "name": "SM_grass01_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass01_4",
+      "name": "SM_grass01_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass01_5",
+      "name": "SM_grass01_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass02",
+      "name": "SM_grass02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass03",
+      "name": "SM_grass03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass04",
+      "name": "SM_grass04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass05",
+      "name": "SM_grass05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass06_1",
+      "name": "SM_grass06_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass06_2",
+      "name": "SM_grass06_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass06_3",
+      "name": "SM_grass06_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass06_4",
+      "name": "SM_grass06_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass06_5",
+      "name": "SM_grass06_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass07_1",
+      "name": "SM_grass07_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass07_2",
+      "name": "SM_grass07_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass08_1",
+      "name": "SM_grass08_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass08_2",
+      "name": "SM_grass08_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass08_3",
+      "name": "SM_grass08_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass09_1",
+      "name": "SM_grass09_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass09_2",
+      "name": "SM_grass09_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass09_3",
+      "name": "SM_grass09_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass09_4",
+      "name": "SM_grass09_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass09_5",
+      "name": "SM_grass09_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Grass/SM_grass10_1",
+      "name": "SM_grass10_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_01",
+      "name": "SM_Ivy1_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_02",
+      "name": "SM_Ivy1_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_03",
+      "name": "SM_Ivy1_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_04",
+      "name": "SM_Ivy1_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_05",
+      "name": "SM_Ivy1_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_06",
+      "name": "SM_Ivy1_06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_07",
+      "name": "SM_Ivy1_07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_08",
+      "name": "SM_Ivy1_08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_09",
+      "name": "SM_Ivy1_09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_10",
+      "name": "SM_Ivy1_10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_11",
+      "name": "SM_Ivy1_11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy1_12",
+      "name": "SM_Ivy1_12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy2_01",
+      "name": "SM_Ivy2_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy2_02",
+      "name": "SM_Ivy2_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy2_03",
+      "name": "SM_Ivy2_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy2_04",
+      "name": "SM_Ivy2_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy2_05",
+      "name": "SM_Ivy2_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Ivy/SM_Ivy2_06",
+      "name": "SM_Ivy2_06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "name": "SM_AmurCork01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork02",
+      "name": "SM_AmurCork02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork03",
+      "name": "SM_AmurCork03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork04",
+      "name": "SM_AmurCork04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork05",
+      "name": "SM_AmurCork05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork06",
+      "name": "SM_AmurCork06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork07",
+      "name": "SM_AmurCork07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork08",
+      "name": "SM_AmurCork08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork09",
+      "name": "SM_AmurCork09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork10",
+      "name": "SM_AmurCork10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork11",
+      "name": "SM_AmurCork11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork12",
+      "name": "SM_AmurCork12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork13",
+      "name": "SM_AmurCork13",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork14",
+      "name": "SM_AmurCork14",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm01",
+      "name": "SM_Elm01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm02",
+      "name": "SM_Elm02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm03",
+      "name": "SM_Elm03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm04",
+      "name": "SM_Elm04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm05",
+      "name": "SM_Elm05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm06",
+      "name": "SM_Elm06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm07",
+      "name": "SM_Elm07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm08",
+      "name": "SM_Elm08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm09",
+      "name": "SM_Elm09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm10",
+      "name": "SM_Elm10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm11",
+      "name": "SM_Elm11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm12",
+      "name": "SM_Elm12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm13",
+      "name": "SM_Elm13",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm14",
+      "name": "SM_Elm14",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm15",
+      "name": "SM_Elm15",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm16",
+      "name": "SM_Elm16",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Elm17",
+      "name": "SM_Elm17",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple01",
+      "name": "SM_Maple01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple02",
+      "name": "SM_Maple02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple03",
+      "name": "SM_Maple03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple04",
+      "name": "SM_Maple04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple05",
+      "name": "SM_Maple05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple06",
+      "name": "SM_Maple06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple07",
+      "name": "SM_Maple07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple08",
+      "name": "SM_Maple08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple09",
+      "name": "SM_Maple09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple10",
+      "name": "SM_Maple10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple11",
+      "name": "SM_Maple11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_Maple12",
+      "name": "SM_Maple12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Flora/Trees/SM_WeepingWillow01",
+      "name": "SM_WeepingWillow01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_DryLeaves01",
+      "name": "SM_DryLeaves01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_DryLeaves02",
+      "name": "SM_DryLeaves02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_DryLeaves03",
+      "name": "SM_DryLeaves03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_DryLeaves04",
+      "name": "SM_DryLeaves04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_DryLeaves05",
+      "name": "SM_DryLeaves05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_DryLeaves06",
+      "name": "SM_DryLeaves06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_DryLeaves07",
+      "name": "SM_DryLeaves07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock01",
+      "name": "SM_Rock01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock02",
+      "name": "SM_Rock02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock03",
+      "name": "SM_Rock03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock04",
+      "name": "SM_Rock04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock04_2",
+      "name": "SM_Rock04_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock05",
+      "name": "SM_Rock05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock05_2",
+      "name": "SM_Rock05_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock06",
+      "name": "SM_Rock06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock06_2",
+      "name": "SM_Rock06_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock07",
+      "name": "SM_Rock07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_Rock07_2",
+      "name": "SM_Rock07_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_StickDebris01",
+      "name": "SM_StickDebris01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_StickDebris02",
+      "name": "SM_StickDebris02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_StickDebris03",
+      "name": "SM_StickDebris03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_StickDebris04",
+      "name": "SM_StickDebris04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Ground/SM_WaterPlane",
+      "name": "SM_WaterPlane",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedBridge01",
+      "name": "SM_MergedBridge01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedBridge03",
+      "name": "SM_MergedBridge03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedBridge03_2",
+      "name": "SM_MergedBridge03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence01_1",
+      "name": "SM_MergedFence01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence01_2",
+      "name": "SM_MergedFence01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence01_3",
+      "name": "SM_MergedFence01_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence01_4",
+      "name": "SM_MergedFence01_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence01_5",
+      "name": "SM_MergedFence01_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence01_6",
+      "name": "SM_MergedFence01_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence02_1",
+      "name": "SM_MergedFence02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence02_2",
+      "name": "SM_MergedFence02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence02_3",
+      "name": "SM_MergedFence02_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence02_4",
+      "name": "SM_MergedFence02_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_1",
+      "name": "SM_MergedFence03_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_2",
+      "name": "SM_MergedFence03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_3",
+      "name": "SM_MergedFence03_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_4",
+      "name": "SM_MergedFence03_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_5",
+      "name": "SM_MergedFence03_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_6",
+      "name": "SM_MergedFence03_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence04",
+      "name": "SM_MergedFence04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence05",
+      "name": "SM_MergedFence05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence06_1",
+      "name": "SM_MergedFence06_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedFence06_2",
+      "name": "SM_MergedFence06_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedGround01",
+      "name": "SM_MergedGround01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedLeaks01",
+      "name": "SM_MergedLeaks01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkFence02",
+      "name": "SM_MergedParkFence02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_1",
+      "name": "SM_MergedParkFence03_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_2",
+      "name": "SM_MergedParkFence03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_3",
+      "name": "SM_MergedParkFence03_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_4",
+      "name": "SM_MergedParkFence03_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_1",
+      "name": "SM_MergedParkSquare01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_2",
+      "name": "SM_MergedParkSquare01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_3",
+      "name": "SM_MergedParkSquare01_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_4",
+      "name": "SM_MergedParkSquare01_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedRoad01",
+      "name": "SM_MergedRoad01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedRoad02",
+      "name": "SM_MergedRoad02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedRoad03",
+      "name": "SM_MergedRoad03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedRoad04",
+      "name": "SM_MergedRoad04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedRoad05",
+      "name": "SM_MergedRoad05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/MergeMeshes/SM_MergedTunnel01",
+      "name": "SM_MergedTunnel01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_Fountain01",
+      "name": "SM_Fountain01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_1",
+      "name": "SM_ParkSquare01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_10",
+      "name": "SM_ParkSquare01_10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_11",
+      "name": "SM_ParkSquare01_11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_2",
+      "name": "SM_ParkSquare01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_3",
+      "name": "SM_ParkSquare01_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_4",
+      "name": "SM_ParkSquare01_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_5",
+      "name": "SM_ParkSquare01_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_6",
+      "name": "SM_ParkSquare01_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_7",
+      "name": "SM_ParkSquare01_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_8",
+      "name": "SM_ParkSquare01_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_9",
+      "name": "SM_ParkSquare01_9",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_1",
+      "name": "SM_ParkSquare02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_2",
+      "name": "SM_ParkSquare02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_3",
+      "name": "SM_ParkSquare02_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_4",
+      "name": "SM_ParkSquare02_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_5",
+      "name": "SM_ParkSquare02_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_6",
+      "name": "SM_ParkSquare02_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_7",
+      "name": "SM_ParkSquare02_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_8",
+      "name": "SM_ParkSquare02_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_1",
+      "name": "SM_ParkSquare03_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_2",
+      "name": "SM_ParkSquare03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_3",
+      "name": "SM_ParkSquare03_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_4",
+      "name": "SM_ParkSquare03_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_5",
+      "name": "SM_ParkSquare03_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_6",
+      "name": "SM_ParkSquare03_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_7",
+      "name": "SM_ParkSquare03_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_8",
+      "name": "SM_ParkSquare03_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare04_1",
+      "name": "SM_ParkSquare04_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare04_2",
+      "name": "SM_ParkSquare04_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_1",
+      "name": "SM_ParkSquare05_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_10",
+      "name": "SM_ParkSquare05_10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_11",
+      "name": "SM_ParkSquare05_11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_12",
+      "name": "SM_ParkSquare05_12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_2",
+      "name": "SM_ParkSquare05_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_3",
+      "name": "SM_ParkSquare05_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_4",
+      "name": "SM_ParkSquare05_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_5",
+      "name": "SM_ParkSquare05_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_6",
+      "name": "SM_ParkSquare05_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_7",
+      "name": "SM_ParkSquare05_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_8",
+      "name": "SM_ParkSquare05_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_9",
+      "name": "SM_ParkSquare05_9",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_1",
+      "name": "SM_ParkSquare06_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_2",
+      "name": "SM_ParkSquare06_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_3",
+      "name": "SM_ParkSquare06_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_4",
+      "name": "SM_ParkSquare06_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_5",
+      "name": "SM_ParkSquare06_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_6",
+      "name": "SM_ParkSquare06_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare07_1",
+      "name": "SM_ParkSquare07_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare07_2",
+      "name": "SM_ParkSquare07_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare07_3",
+      "name": "SM_ParkSquare07_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare08",
+      "name": "SM_ParkSquare08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare09_1",
+      "name": "SM_ParkSquare09_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare09_2",
+      "name": "SM_ParkSquare09_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare09_3",
+      "name": "SM_ParkSquare09_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare09_4",
+      "name": "SM_ParkSquare09_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare10",
+      "name": "SM_ParkSquare10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare11_1",
+      "name": "SM_ParkSquare11_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare11_2",
+      "name": "SM_ParkSquare11_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare11_3",
+      "name": "SM_ParkSquare11_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare12_1",
+      "name": "SM_ParkSquare12_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare12_2",
+      "name": "SM_ParkSquare12_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare12_3",
+      "name": "SM_ParkSquare12_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_1",
+      "name": "SM_ParkSquare13_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_2",
+      "name": "SM_ParkSquare13_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_3",
+      "name": "SM_ParkSquare13_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_4",
+      "name": "SM_ParkSquare13_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_5",
+      "name": "SM_ParkSquare13_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_6",
+      "name": "SM_ParkSquare13_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_7",
+      "name": "SM_ParkSquare13_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_1",
+      "name": "SM_ParkSquare14_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_2",
+      "name": "SM_ParkSquare14_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_3",
+      "name": "SM_ParkSquare14_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_4",
+      "name": "SM_ParkSquare14_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_5",
+      "name": "SM_ParkSquare14_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/ParkSquare/SM_Pool",
+      "name": "SM_Pool",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Particles/SM_Leaves01",
+      "name": "SM_Leaves01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Particles/SM_Splash",
+      "name": "SM_Splash",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround1_01",
+      "name": "SM_PlayGround1_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround1_02",
+      "name": "SM_PlayGround1_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround1_03",
+      "name": "SM_PlayGround1_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround1_04",
+      "name": "SM_PlayGround1_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround1_05",
+      "name": "SM_PlayGround1_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround2_01",
+      "name": "SM_PlayGround2_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround2_02",
+      "name": "SM_PlayGround2_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_01",
+      "name": "SM_PlayGround3_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_02",
+      "name": "SM_PlayGround3_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_03",
+      "name": "SM_PlayGround3_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_04",
+      "name": "SM_PlayGround3_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_05",
+      "name": "SM_PlayGround3_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_06",
+      "name": "SM_PlayGround3_06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_07",
+      "name": "SM_PlayGround3_07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_08",
+      "name": "SM_PlayGround3_08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_09",
+      "name": "SM_PlayGround3_09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround3_10",
+      "name": "SM_PlayGround3_10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround4_01",
+      "name": "SM_PlayGround4_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround5_01",
+      "name": "SM_PlayGround5_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround5_02",
+      "name": "SM_PlayGround5_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround5_03",
+      "name": "SM_PlayGround5_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround6_01",
+      "name": "SM_PlayGround6_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround6_02",
+      "name": "SM_PlayGround6_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround6_03",
+      "name": "SM_PlayGround6_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround6_04",
+      "name": "SM_PlayGround6_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround6_05",
+      "name": "SM_PlayGround6_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround6_06",
+      "name": "SM_PlayGround6_06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround6_07",
+      "name": "SM_PlayGround6_07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Playground/SM_PlayGround7_01",
+      "name": "SM_PlayGround7_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns01",
+      "name": "SM_RoadSigns01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns02",
+      "name": "SM_RoadSigns02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns03",
+      "name": "SM_RoadSigns03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns04",
+      "name": "SM_RoadSigns04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns05",
+      "name": "SM_RoadSigns05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns06",
+      "name": "SM_RoadSigns06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns07",
+      "name": "SM_RoadSigns07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns08",
+      "name": "SM_RoadSigns08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns09",
+      "name": "SM_RoadSigns09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns10",
+      "name": "SM_RoadSigns10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns11",
+      "name": "SM_RoadSigns11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns12",
+      "name": "SM_RoadSigns12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns13",
+      "name": "SM_RoadSigns13",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns14",
+      "name": "SM_RoadSigns14",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns15",
+      "name": "SM_RoadSigns15",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns16",
+      "name": "SM_RoadSigns16",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns17",
+      "name": "SM_RoadSigns17",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns18",
+      "name": "SM_RoadSigns18",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns19",
+      "name": "SM_RoadSigns19",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns20",
+      "name": "SM_RoadSigns20",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns21",
+      "name": "SM_RoadSigns21",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns22",
+      "name": "SM_RoadSigns22",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns23",
+      "name": "SM_RoadSigns23",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns24",
+      "name": "SM_RoadSigns24",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns25",
+      "name": "SM_RoadSigns25",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "name": "SM_Bench01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Bench01_2",
+      "name": "SM_Bench01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Bench02_1",
+      "name": "SM_Bench02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Bench02_2",
+      "name": "SM_Bench02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Bench03",
+      "name": "SM_Bench03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_BorderWood",
+      "name": "SM_BorderWood",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Bower01",
+      "name": "SM_Bower01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Bower02",
+      "name": "SM_Bower02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeChair01",
+      "name": "SM_CafeChair01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeChair02",
+      "name": "SM_CafeChair02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeChair03",
+      "name": "SM_CafeChair03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeChair04",
+      "name": "SM_CafeChair04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeTable01",
+      "name": "SM_CafeTable01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeTable02",
+      "name": "SM_CafeTable02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeTable03",
+      "name": "SM_CafeTable03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeTableCloth01",
+      "name": "SM_CafeTableCloth01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_CafeTableCloth02",
+      "name": "SM_CafeTableCloth02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_DrinkingFountain",
+      "name": "SM_DrinkingFountain",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence01_1",
+      "name": "SM_Fence01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence01_2",
+      "name": "SM_Fence01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence01_3",
+      "name": "SM_Fence01_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence01_4",
+      "name": "SM_Fence01_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence02_1",
+      "name": "SM_Fence02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence02_2",
+      "name": "SM_Fence02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence03_1",
+      "name": "SM_Fence03_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence03_2",
+      "name": "SM_Fence03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence03_3",
+      "name": "SM_Fence03_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence03_4",
+      "name": "SM_Fence03_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence03_5",
+      "name": "SM_Fence03_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence04_1",
+      "name": "SM_Fence04_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence05_1",
+      "name": "SM_Fence05_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence06_1",
+      "name": "SM_Fence06_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence06_2",
+      "name": "SM_Fence06_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence06_3",
+      "name": "SM_Fence06_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence06_4",
+      "name": "SM_Fence06_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence06_5",
+      "name": "SM_Fence06_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Fence06_6",
+      "name": "SM_Fence06_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_FoodStalls01",
+      "name": "SM_FoodStalls01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_FoodStalls02",
+      "name": "SM_FoodStalls02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_FoodStalls03",
+      "name": "SM_FoodStalls03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_FoodStalls04",
+      "name": "SM_FoodStalls04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_LampPost01",
+      "name": "SM_LampPost01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_LampPost02_1",
+      "name": "SM_LampPost02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_LampPost02_2",
+      "name": "SM_LampPost02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_LampPost02_3",
+      "name": "SM_LampPost02_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes01",
+      "name": "SM_Manholes01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes02",
+      "name": "SM_Manholes02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes03",
+      "name": "SM_Manholes03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes04",
+      "name": "SM_Manholes04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes05",
+      "name": "SM_Manholes05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes06",
+      "name": "SM_Manholes06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes07",
+      "name": "SM_Manholes07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes08",
+      "name": "SM_Manholes08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes09",
+      "name": "SM_Manholes09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Manholes10",
+      "name": "SM_Manholes10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Newspaper01",
+      "name": "SM_Newspaper01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Newspaper02",
+      "name": "SM_Newspaper02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Newspaper03",
+      "name": "SM_Newspaper03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence01",
+      "name": "SM_ParkFence01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence02_1",
+      "name": "SM_ParkFence02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence02_2",
+      "name": "SM_ParkFence02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence02_3",
+      "name": "SM_ParkFence02_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence02_4",
+      "name": "SM_ParkFence02_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence03_1",
+      "name": "SM_ParkFence03_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence03_2",
+      "name": "SM_ParkFence03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_ParkFence03_3",
+      "name": "SM_ParkFence03_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Pier01",
+      "name": "SM_Pier01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Pier02",
+      "name": "SM_Pier02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Pier03",
+      "name": "SM_Pier03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_RoadBlock01",
+      "name": "SM_RoadBlock01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_RoadBlock02",
+      "name": "SM_RoadBlock02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Statue01",
+      "name": "SM_Statue01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Statue02",
+      "name": "SM_Statue02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Statue03",
+      "name": "SM_Statue03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Statue04",
+      "name": "SM_Statue04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Statue05",
+      "name": "SM_Statue05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Statue06",
+      "name": "SM_Statue06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Statue07",
+      "name": "SM_Statue07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrafficBarrel01",
+      "name": "SM_TrafficBarrel01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrafficLight_01",
+      "name": "SM_TrafficLight_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrafficLight_02",
+      "name": "SM_TrafficLight_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrafficLight_03",
+      "name": "SM_TrafficLight_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrafficLight_04",
+      "name": "SM_TrafficLight_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrafficLight_05",
+      "name": "SM_TrafficLight_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrashCan01",
+      "name": "SM_TrashCan01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_TrashCan02",
+      "name": "SM_TrashCan02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Umbrella01",
+      "name": "SM_Umbrella01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Props/SM_Umbrella02",
+      "name": "SM_Umbrella02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_1",
+      "name": "SM_Asphalt01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_10",
+      "name": "SM_Asphalt01_10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_11",
+      "name": "SM_Asphalt01_11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_2",
+      "name": "SM_Asphalt01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_3",
+      "name": "SM_Asphalt01_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_4",
+      "name": "SM_Asphalt01_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_5",
+      "name": "SM_Asphalt01_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_6",
+      "name": "SM_Asphalt01_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_7",
+      "name": "SM_Asphalt01_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_8",
+      "name": "SM_Asphalt01_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt01_9",
+      "name": "SM_Asphalt01_9",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_1",
+      "name": "SM_Asphalt02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_10",
+      "name": "SM_Asphalt02_10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_11",
+      "name": "SM_Asphalt02_11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_2",
+      "name": "SM_Asphalt02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_3",
+      "name": "SM_Asphalt02_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_4",
+      "name": "SM_Asphalt02_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_5",
+      "name": "SM_Asphalt02_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_6",
+      "name": "SM_Asphalt02_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_7",
+      "name": "SM_Asphalt02_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_8",
+      "name": "SM_Asphalt02_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt02_9",
+      "name": "SM_Asphalt02_9",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt03_1",
+      "name": "SM_Asphalt03_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Asphalt03_2",
+      "name": "SM_Asphalt03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Border01",
+      "name": "SM_Border01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Border02",
+      "name": "SM_Border02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Border03",
+      "name": "SM_Border03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge01_1",
+      "name": "SM_Bridge01_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge01_2",
+      "name": "SM_Bridge01_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge02_1",
+      "name": "SM_Bridge02_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge02_2",
+      "name": "SM_Bridge02_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge02_3",
+      "name": "SM_Bridge02_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge02_4",
+      "name": "SM_Bridge02_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge02_5",
+      "name": "SM_Bridge02_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_1",
+      "name": "SM_Bridge03_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_10",
+      "name": "SM_Bridge03_10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_11",
+      "name": "SM_Bridge03_11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_12",
+      "name": "SM_Bridge03_12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_2",
+      "name": "SM_Bridge03_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_3",
+      "name": "SM_Bridge03_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_4",
+      "name": "SM_Bridge03_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_5",
+      "name": "SM_Bridge03_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_6",
+      "name": "SM_Bridge03_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_7",
+      "name": "SM_Bridge03_7",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_8",
+      "name": "SM_Bridge03_8",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Bridge03_9",
+      "name": "SM_Bridge03_9",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_LeakDecal01",
+      "name": "SM_LeakDecal01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_LeakDecal02",
+      "name": "SM_LeakDecal02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_LeakDecal03",
+      "name": "SM_LeakDecal03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_ParkPath1_1",
+      "name": "SM_ParkPath1_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_ParkPath1_2",
+      "name": "SM_ParkPath1_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_ParkPath1_3",
+      "name": "SM_ParkPath1_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_ParkPath1_4",
+      "name": "SM_ParkPath1_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_ParkPath2_1",
+      "name": "SM_ParkPath2_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal01",
+      "name": "SM_RoadDecal01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal02",
+      "name": "SM_RoadDecal02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal03",
+      "name": "SM_RoadDecal03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal04",
+      "name": "SM_RoadDecal04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal05",
+      "name": "SM_RoadDecal05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal06",
+      "name": "SM_RoadDecal06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal07",
+      "name": "SM_RoadDecal07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal08",
+      "name": "SM_RoadDecal08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal09",
+      "name": "SM_RoadDecal09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal10",
+      "name": "SM_RoadDecal10",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal11",
+      "name": "SM_RoadDecal11",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal12",
+      "name": "SM_RoadDecal12",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_RoadDecal13",
+      "name": "SM_RoadDecal13",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Sidewalk01",
+      "name": "SM_Sidewalk01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Sidewalk02",
+      "name": "SM_Sidewalk02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Sidewalk03",
+      "name": "SM_Sidewalk03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Sidewalk04",
+      "name": "SM_Sidewalk04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/Road/SM_Sidewalk05",
+      "name": "SM_Sidewalk05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_BaseballField",
+      "name": "SM_BaseballField",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_BaseballGate",
+      "name": "SM_BaseballGate",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_BasketballField",
+      "name": "SM_BasketballField",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_BasketballHoop",
+      "name": "SM_BasketballHoop",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_FootballField01",
+      "name": "SM_FootballField01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_FootballField02",
+      "name": "SM_FootballField02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_FootballGate",
+      "name": "SM_FootballGate",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_TennisBench",
+      "name": "SM_TennisBench",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_TennisField1",
+      "name": "SM_TennisField1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_TennisFloodlight",
+      "name": "SM_TennisFloodlight",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_TennisNet",
+      "name": "SM_TennisNet",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_TennisUmpiresChair",
+      "name": "SM_TennisUmpiresChair",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_Tribune01",
+      "name": "SM_Tribune01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_Tribune02",
+      "name": "SM_Tribune02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_Tribune03",
+      "name": "SM_Tribune03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_Tribune04",
+      "name": "SM_Tribune04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Meshes/SportsGround/SM_Tribune05",
+      "name": "SM_Tribune05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/CityPark/Particles/P_Fountain1",
+      "name": "P_Fountain1",
+      "asset_class": "ParticleSystem"
+    },
+    {
+      "path": "/Game/CityPark/Particles/P_Fountain2",
+      "name": "P_Fountain2",
+      "asset_class": "ParticleSystem"
+    },
+    {
+      "path": "/Game/CityPark/Particles/P_Leaves",
+      "name": "P_Leaves",
+      "asset_class": "ParticleSystem"
+    },
+    {
+      "path": "/Game/CityPark/Particles/P_Splash",
+      "name": "P_Splash",
+      "asset_class": "ParticleSystem"
+    },
+    {
+      "path": "/Game/CityPark/Sound/S_156969__martats__fountain",
+      "name": "S_156969__martats__fountain",
+      "asset_class": "SoundWave"
+    },
+    {
+      "path": "/Game/CityPark/Sound/S_231537__vkproduktion__forest-birds-loop-02",
+      "name": "S_231537__vkproduktion__forest-birds-loop-02",
+      "asset_class": "SoundWave"
+    },
+    {
+      "path": "/Game/CityPark/Sound/S_345852__hargissssound__spring-birds-loop-with-low-cut-new-jersey",
+      "name": "S_345852__hargissssound__spring-birds-loop-with-low-cut-new-jersey",
+      "asset_class": "SoundWave"
+    },
+    {
+      "path": "/Game/CityPark/Sound/S_354121__sean-sd2007__fountain",
+      "name": "S_354121__sean-sd2007__fountain",
+      "asset_class": "SoundWave"
+    },
+    {
+      "path": "/Game/CityPark/Sound/S_469009__innorecords__relaxing-mountains-rivers-streams-running-water",
+      "name": "S_469009__innorecords__relaxing-mountains-rivers-streams-running-water",
+      "asset_class": "SoundWave"
+    },
+    {
+      "path": "/Game/CityPark/Sound/S_511078__nox-sound__ambiance-waterfall-loop-01",
+      "name": "S_511078__nox-sound__ambiance-waterfall-loop-01",
+      "asset_class": "SoundWave"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/TC_HDR",
+      "name": "TC_HDR",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/TC_HDR01",
+      "name": "TC_HDR01",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/TC_HDR02",
+      "name": "TC_HDR02",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/TC_HDR03",
+      "name": "TC_HDR03",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/TC_HDR04",
+      "name": "TC_HDR04",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_BB_D",
+      "name": "T_BB_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_BG_D",
+      "name": "T_BG_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_BW_D",
+      "name": "T_BW_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_B_N",
+      "name": "T_B_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_Brush01",
+      "name": "T_Brush01",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_Dirt_N",
+      "name": "T_Dirt_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_LUT01",
+      "name": "T_LUT01",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_LUT02",
+      "name": "T_LUT02",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_MASK1",
+      "name": "T_MASK1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_MASK2",
+      "name": "T_MASK2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_WaterFoam_D",
+      "name": "T_WaterFoam_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_Water_N",
+      "name": "T_Water_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_gradient_D",
+      "name": "T_gradient_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/BaseTextures/T_lens_dirt",
+      "name": "T_lens_dirt",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_CafeBuilding_D",
+      "name": "T_CafeBuilding_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_CafeBuilding_N",
+      "name": "T_CafeBuilding_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_CafeBuilding_SRM",
+      "name": "T_CafeBuilding_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Floor01_D",
+      "name": "T_Floor01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Floor01_N",
+      "name": "T_Floor01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Floor01_SRM",
+      "name": "T_Floor01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_House01_D",
+      "name": "T_House01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_House01_N",
+      "name": "T_House01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_House01_SRM",
+      "name": "T_House01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_House02_D",
+      "name": "T_House02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_House02_N",
+      "name": "T_House02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_House02_SRM",
+      "name": "T_House02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_RoofTile01_D",
+      "name": "T_RoofTile01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_RoofTile01_N",
+      "name": "T_RoofTile01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_RoofTile01_SRM",
+      "name": "T_RoofTile01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_RoofTile02_D",
+      "name": "T_RoofTile02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_RoofTile02_N",
+      "name": "T_RoofTile02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_RoofTile02_SRM",
+      "name": "T_RoofTile02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Stairs01_D",
+      "name": "T_Stairs01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Stairs01_N",
+      "name": "T_Stairs01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Stairs01_SRM",
+      "name": "T_Stairs01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Wall01_D",
+      "name": "T_Wall01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Wall01_N",
+      "name": "T_Wall01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Wall01_SRM",
+      "name": "T_Wall01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Wall02_D",
+      "name": "T_Wall02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Wall02_N",
+      "name": "T_Wall02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Wall03_D",
+      "name": "T_Wall03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Buildings/T_Wall03_N",
+      "name": "T_Wall03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush01_D",
+      "name": "T_Bush01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush01_N",
+      "name": "T_Bush01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush01_SRM",
+      "name": "T_Bush01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush02_D",
+      "name": "T_Bush02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush02_N",
+      "name": "T_Bush02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush02_SRM",
+      "name": "T_Bush02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush04_D",
+      "name": "T_Bush04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush04_N",
+      "name": "T_Bush04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush04_SRM",
+      "name": "T_Bush04_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush05_D",
+      "name": "T_Bush05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush05_N",
+      "name": "T_Bush05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Bushs/T_Bush05_SRM",
+      "name": "T_Bush05_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass01_D",
+      "name": "T_Grass01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass01_N",
+      "name": "T_Grass01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass02_D",
+      "name": "T_Grass02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass02_N",
+      "name": "T_Grass02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass03_D",
+      "name": "T_Grass03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass03_N",
+      "name": "T_Grass03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass04_D",
+      "name": "T_Grass04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass04_N",
+      "name": "T_Grass04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass05_D",
+      "name": "T_Grass05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass05_N",
+      "name": "T_Grass05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass06_D",
+      "name": "T_Grass06_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass06_N",
+      "name": "T_Grass06_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass07_D",
+      "name": "T_Grass07_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass07_N",
+      "name": "T_Grass07_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass08_D",
+      "name": "T_Grass08_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass08_N",
+      "name": "T_Grass08_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass09_D",
+      "name": "T_Grass09_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass09_N",
+      "name": "T_Grass09_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass10_D",
+      "name": "T_Grass10_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass10_N",
+      "name": "T_Grass10_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass11_D",
+      "name": "T_Grass11_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass11_N",
+      "name": "T_Grass11_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass12_D",
+      "name": "T_Grass12_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass12_N",
+      "name": "T_Grass12_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass13_D",
+      "name": "T_Grass13_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass13_N",
+      "name": "T_Grass13_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass14_D",
+      "name": "T_Grass14_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_Grass14_N",
+      "name": "T_Grass14_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_WaterPlant_D",
+      "name": "T_WaterPlant_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Grass/T_WaterPlant_N",
+      "name": "T_WaterPlant_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Ivy/T_Ivy_D",
+      "name": "T_Ivy_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Ivy/T_Ivy_N",
+      "name": "T_Ivy_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_AmurCorkBranch01_D",
+      "name": "T_AmurCorkBranch01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_AmurCorkBranch01_N",
+      "name": "T_AmurCorkBranch01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_AmurCorkBranch01_SRM",
+      "name": "T_AmurCorkBranch01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_ElmBranch01_D",
+      "name": "T_ElmBranch01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_ElmBranch01_N",
+      "name": "T_ElmBranch01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_ElmBranch01_SRM",
+      "name": "T_ElmBranch01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_MapleBranch01_D",
+      "name": "T_MapleBranch01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_MapleBranch01_N",
+      "name": "T_MapleBranch01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_MapleBranch01_SRM",
+      "name": "T_MapleBranch01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark01_D",
+      "name": "T_TreeBark01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark01_N",
+      "name": "T_TreeBark01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark01_SRM",
+      "name": "T_TreeBark01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark02_D",
+      "name": "T_TreeBark02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark02_N",
+      "name": "T_TreeBark02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark02_SRM",
+      "name": "T_TreeBark02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark03_D",
+      "name": "T_TreeBark03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark03_N",
+      "name": "T_TreeBark03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_TreeBark03_SRM",
+      "name": "T_TreeBark03_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_WeepingWillowBranch_D",
+      "name": "T_WeepingWillowBranch_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_WeepingWillowBranch_N",
+      "name": "T_WeepingWillowBranch_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Flora/Trees/T_WeepingWillowBranch_SRM",
+      "name": "T_WeepingWillowBranch_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_DryLeaves_D",
+      "name": "T_DryLeaves_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_DryLeaves_N",
+      "name": "T_DryLeaves_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground01_D",
+      "name": "T_Ground01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground01_N",
+      "name": "T_Ground01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground02_D",
+      "name": "T_Ground02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground02_N",
+      "name": "T_Ground02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground03_D",
+      "name": "T_Ground03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground03_N",
+      "name": "T_Ground03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground05_D",
+      "name": "T_Ground05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Ground05_N",
+      "name": "T_Ground05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock01_D",
+      "name": "T_Rock01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock01_D2",
+      "name": "T_Rock01_D2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock01_N",
+      "name": "T_Rock01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock01_SRM",
+      "name": "T_Rock01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock04_D",
+      "name": "T_Rock04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock04_D2",
+      "name": "T_Rock04_D2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock04_N",
+      "name": "T_Rock04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock04_SRM",
+      "name": "T_Rock04_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock06_D",
+      "name": "T_Rock06_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock06_D2",
+      "name": "T_Rock06_D2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock06_N",
+      "name": "T_Rock06_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock06_SRM",
+      "name": "T_Rock06_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock07_D",
+      "name": "T_Rock07_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock07_D2",
+      "name": "T_Rock07_D2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock07_N",
+      "name": "T_Rock07_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Ground/T_Rock07_SRM",
+      "name": "T_Rock07_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Fountain01_D",
+      "name": "T_Fountain01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Fountain01_N",
+      "name": "T_Fountain01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Fountain01_SRM",
+      "name": "T_Fountain01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare01_D",
+      "name": "T_ParkSquare01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare01_N",
+      "name": "T_ParkSquare01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare01_SRM",
+      "name": "T_ParkSquare01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare02_D",
+      "name": "T_ParkSquare02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare02_N",
+      "name": "T_ParkSquare02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare02_SRM",
+      "name": "T_ParkSquare02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare03_D",
+      "name": "T_ParkSquare03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare03_N",
+      "name": "T_ParkSquare03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare03_SRM",
+      "name": "T_ParkSquare03_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare04_D",
+      "name": "T_ParkSquare04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare04_N",
+      "name": "T_ParkSquare04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare04_SRM",
+      "name": "T_ParkSquare04_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare05_D",
+      "name": "T_ParkSquare05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare05_N",
+      "name": "T_ParkSquare05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare05_SRM",
+      "name": "T_ParkSquare05_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare06_D",
+      "name": "T_ParkSquare06_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare06_N",
+      "name": "T_ParkSquare06_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare06_SRM",
+      "name": "T_ParkSquare06_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare07_D",
+      "name": "T_ParkSquare07_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare07_N",
+      "name": "T_ParkSquare07_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare07_SRM",
+      "name": "T_ParkSquare07_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare08_D",
+      "name": "T_ParkSquare08_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare08_N",
+      "name": "T_ParkSquare08_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare08_SRM",
+      "name": "T_ParkSquare08_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare09_D",
+      "name": "T_ParkSquare09_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare09_N",
+      "name": "T_ParkSquare09_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare09_SRM",
+      "name": "T_ParkSquare09_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare10_D",
+      "name": "T_ParkSquare10_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare10_N",
+      "name": "T_ParkSquare10_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare10_SRM",
+      "name": "T_ParkSquare10_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare11_D",
+      "name": "T_ParkSquare11_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare11_N",
+      "name": "T_ParkSquare11_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare11_SRM",
+      "name": "T_ParkSquare11_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare13_D",
+      "name": "T_ParkSquare13_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare13_N",
+      "name": "T_ParkSquare13_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquare13_SRM",
+      "name": "T_ParkSquare13_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquareDoor_D",
+      "name": "T_ParkSquareDoor_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_ParkSquareDoor_N",
+      "name": "T_ParkSquareDoor_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Poo1_D",
+      "name": "T_Poo1_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Pool1_N",
+      "name": "T_Pool1_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Pool1_SRM",
+      "name": "T_Pool1_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Pool2_D",
+      "name": "T_Pool2_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/ParkSquare/T_Pool2_N",
+      "name": "T_Pool2_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Particles/T_ParticlesWater_D",
+      "name": "T_ParticlesWater_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Particles/T_ParticlesWater_N",
+      "name": "T_ParticlesWater_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground01_D",
+      "name": "T_Playground01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground01_N",
+      "name": "T_Playground01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground02_D",
+      "name": "T_Playground02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground02_N",
+      "name": "T_Playground02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground03_D",
+      "name": "T_Playground03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground03_N",
+      "name": "T_Playground03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground04_D",
+      "name": "T_Playground04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground04_N",
+      "name": "T_Playground04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground04_SRM",
+      "name": "T_Playground04_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Playground/T_Playground05_D",
+      "name": "T_Playground05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench01_D",
+      "name": "T_Bench01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench01_N",
+      "name": "T_Bench01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench01_SRM",
+      "name": "T_Bench01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench02_D",
+      "name": "T_Bench02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench02_N",
+      "name": "T_Bench02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench02_SRM",
+      "name": "T_Bench02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench03_D",
+      "name": "T_Bench03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench03_N",
+      "name": "T_Bench03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bench03_SRM",
+      "name": "T_Bench03_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_BorderWood_D",
+      "name": "T_BorderWood_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_BorderWood_N",
+      "name": "T_BorderWood_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_BorderWood_SRM",
+      "name": "T_BorderWood_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bower_D",
+      "name": "T_Bower_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bower_N",
+      "name": "T_Bower_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Bower_SRM",
+      "name": "T_Bower_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeChair1_D",
+      "name": "T_CafeChair1_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeChair1_N",
+      "name": "T_CafeChair1_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeChair1_SRM",
+      "name": "T_CafeChair1_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeChair2_D",
+      "name": "T_CafeChair2_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeChair2_N",
+      "name": "T_CafeChair2_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeChair2_SRM",
+      "name": "T_CafeChair2_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeTableCloth_D",
+      "name": "T_CafeTableCloth_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeTableCloth_N",
+      "name": "T_CafeTableCloth_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeTableCloth_SRM",
+      "name": "T_CafeTableCloth_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeTable_D",
+      "name": "T_CafeTable_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeTable_N",
+      "name": "T_CafeTable_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_CafeTable_SRM",
+      "name": "T_CafeTable_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_DrinkingFountain_D",
+      "name": "T_DrinkingFountain_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_DrinkingFountain_N",
+      "name": "T_DrinkingFountain_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_DrinkingFountain_SRM",
+      "name": "T_DrinkingFountain_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence01_1_D",
+      "name": "T_Fence01_1_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence01_1_N",
+      "name": "T_Fence01_1_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence01_2_D",
+      "name": "T_Fence01_2_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence01_2_N",
+      "name": "T_Fence01_2_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence02_D",
+      "name": "T_Fence02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence02_N",
+      "name": "T_Fence02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence02_SRM",
+      "name": "T_Fence02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence04_D",
+      "name": "T_Fence04_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence04_N",
+      "name": "T_Fence04_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence04_SRM",
+      "name": "T_Fence04_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence05_D",
+      "name": "T_Fence05_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence05_N",
+      "name": "T_Fence05_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence05_SRM",
+      "name": "T_Fence05_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence06_D",
+      "name": "T_Fence06_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence06_N",
+      "name": "T_Fence06_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Fence06_SRM",
+      "name": "T_Fence06_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_FoodStalls_D",
+      "name": "T_FoodStalls_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_FoodStalls_N",
+      "name": "T_FoodStalls_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_FoodStalls_SRM",
+      "name": "T_FoodStalls_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_LampPost01_D",
+      "name": "T_LampPost01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_LampPost01_N",
+      "name": "T_LampPost01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_LampPost01_SRM",
+      "name": "T_LampPost01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_LampPost02_D",
+      "name": "T_LampPost02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_LampPost02_N",
+      "name": "T_LampPost02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_LampPost02_SRM",
+      "name": "T_LampPost02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Manholes_D",
+      "name": "T_Manholes_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Manholes_N",
+      "name": "T_Manholes_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Manholes_SRM",
+      "name": "T_Manholes_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Net_D",
+      "name": "T_Net_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Net_N",
+      "name": "T_Net_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Newspaper01_D",
+      "name": "T_Newspaper01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Newspaper01_N",
+      "name": "T_Newspaper01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Newspaper01_SRM",
+      "name": "T_Newspaper01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_ParkFence01_D",
+      "name": "T_ParkFence01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_ParkFence01_N",
+      "name": "T_ParkFence01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_ParkFence01_SRM",
+      "name": "T_ParkFence01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_ParkFence03_D",
+      "name": "T_ParkFence03_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_ParkFence03_N",
+      "name": "T_ParkFence03_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_ParkFence03_SRM",
+      "name": "T_ParkFence03_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_RoadSigns_D",
+      "name": "T_RoadSigns_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_RoadSigns_N",
+      "name": "T_RoadSigns_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_RoadSigns_SRM",
+      "name": "T_RoadSigns_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue1_D",
+      "name": "T_Statue1_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue1_N",
+      "name": "T_Statue1_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue2_D",
+      "name": "T_Statue2_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue2_N",
+      "name": "T_Statue2_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue2_SRM",
+      "name": "T_Statue2_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue3_1_D",
+      "name": "T_Statue3_1_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue3_1_N",
+      "name": "T_Statue3_1_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Statue3_2_D",
+      "name": "T_Statue3_2_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrafficBarrel01_D",
+      "name": "T_TrafficBarrel01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrafficBarrel01_N",
+      "name": "T_TrafficBarrel01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrafficBarrel01_SRM",
+      "name": "T_TrafficBarrel01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrafficLight_D",
+      "name": "T_TrafficLight_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrafficLight_E",
+      "name": "T_TrafficLight_E",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrafficLight_N",
+      "name": "T_TrafficLight_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrafficLight_SRM",
+      "name": "T_TrafficLight_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrashCan01_D",
+      "name": "T_TrashCan01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrashCan01_N",
+      "name": "T_TrashCan01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_TrashCan01_SRM",
+      "name": "T_TrashCan01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Umbrella01_D",
+      "name": "T_Umbrella01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Umbrella01_N",
+      "name": "T_Umbrella01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Umbrella01_SRM",
+      "name": "T_Umbrella01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Umbrella02_D",
+      "name": "T_Umbrella02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Props/T_Umbrella02_N",
+      "name": "T_Umbrella02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Asphalt_D",
+      "name": "T_Asphalt_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Asphalt_N",
+      "name": "T_Asphalt_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Asphalt_SRM",
+      "name": "T_Asphalt_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Border01_D",
+      "name": "T_Border01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Border01_N",
+      "name": "T_Border01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge01_D",
+      "name": "T_Bridge01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge01_N",
+      "name": "T_Bridge01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge01_SRM",
+      "name": "T_Bridge01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge02_1_D",
+      "name": "T_Bridge02_1_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge02_1_N",
+      "name": "T_Bridge02_1_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge02_1_SRM",
+      "name": "T_Bridge02_1_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge02_4_D",
+      "name": "T_Bridge02_4_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge02_4_N",
+      "name": "T_Bridge02_4_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge02_4_SRM",
+      "name": "T_Bridge02_4_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge03_1_D",
+      "name": "T_Bridge03_1_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge03_1_N",
+      "name": "T_Bridge03_1_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge03_1_SRM",
+      "name": "T_Bridge03_1_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge03_2_D",
+      "name": "T_Bridge03_2_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge03_2_N",
+      "name": "T_Bridge03_2_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Bridge03_2_SRM",
+      "name": "T_Bridge03_2_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_LeakDecal01_D",
+      "name": "T_LeakDecal01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_LeakDecal01_N",
+      "name": "T_LeakDecal01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_ParkPath01_D",
+      "name": "T_ParkPath01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_ParkPath01_N",
+      "name": "T_ParkPath01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_ParkPath01_SRM",
+      "name": "T_ParkPath01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_RoadDecal_D",
+      "name": "T_RoadDecal_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_RoadDecal_N",
+      "name": "T_RoadDecal_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Sidewalk01_D",
+      "name": "T_Sidewalk01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Sidewalk01_N",
+      "name": "T_Sidewalk01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Sidewalk01_SRM",
+      "name": "T_Sidewalk01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Sidewalk02_D",
+      "name": "T_Sidewalk02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Sidewalk02_N",
+      "name": "T_Sidewalk02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/Road/T_Sidewalk02_SRM",
+      "name": "T_Sidewalk02_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_BaseballFieldMask_D",
+      "name": "T_BaseballFieldMask_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_BaseballGround_D",
+      "name": "T_BaseballGround_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_BaseballGround_N",
+      "name": "T_BaseballGround_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_BasketballHoop_D",
+      "name": "T_BasketballHoop_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_BasketballHoop_N",
+      "name": "T_BasketballHoop_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_BasketballHoop_SRM",
+      "name": "T_BasketballHoop_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_Field_D",
+      "name": "T_Field_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_Field_N",
+      "name": "T_Field_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballFieldMask_D",
+      "name": "T_FootballFieldMask_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballField_D",
+      "name": "T_FootballField_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballField_N",
+      "name": "T_FootballField_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballGate_D",
+      "name": "T_FootballGate_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballGate_N",
+      "name": "T_FootballGate_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballGate_SRM",
+      "name": "T_FootballGate_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballNet_D",
+      "name": "T_FootballNet_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_FootballNet_N",
+      "name": "T_FootballNet_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_TennisField_D",
+      "name": "T_TennisField_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_TennisField_N",
+      "name": "T_TennisField_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_TennisField_SRM",
+      "name": "T_TennisField_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_Tribune_D",
+      "name": "T_Tribune_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_Tribune_N",
+      "name": "T_Tribune_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/CityPark/Textures/SportsGround/T_Tribune_SRM",
+      "name": "T_Tribune_SRM",
+      "asset_class": "Texture2D"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "length_range": [
+    20,
+    24
+  ],
+  "width_range": [
+    18,
+    22
+  ],
+  "dimension_snap": 0.5,
+  "region_count_range": [
+    7,
+    10
+  ],
+  "minimum_region_side": 5.0,
+  "maximum_region_aspect": 2.8,
+  "height_steps": [
+    1.0,
+    1.25,
+    1.5
+  ],
+  "level_count_range": [
+    3,
+    5
+  ],
+  "minimum_height_span": 3.0,
+  "maximum_height": 6.0,
+  "ramp_width_range": [
+    3.5,
+    4.75
+  ],
+  "ramp_length_range": [
+    4.5,
+    6.5
+  ],
+  "maximum_grade": 0.6,
+  "landing_length": 0.5,
+  "edge_margin": 0.25,
+  "ramp_clearance": 0.25,
+  "minimum_flat_fraction": 0.5,
+  "minimum_flat_rectangle_side": 2.25,
+  "minimum_flat_rectangle_area": 8.0,
+  "extra_ramp_links_range": [
+    2,
+    5
+  ],
+  "walk_grid_step": 0.25,
+  "mesh_grid_step": 0.125,
+  "bottom_z": -0.35,
+  "people_count": 8,
+  "rover_count": 2,
+  "prop_count": 6,
+  "maximum_attempts": 300,
+  "navigation_clearance_radius": 0.75,
+  "height_assignment": {
+    "mode": "mixed_extrema",
+    "minimum_peak_components": 2,
+    "minimum_low_components": 2,
+    "minimum_extreme_area_fraction": 0.12,
+    "maximum_planar_trend_r2": 0.5,
+    "anchor_search_attempts": 80,
+    "assignment_search_limit": 4096
+  },
+  "maximum_flat_fraction": 0.7
+}

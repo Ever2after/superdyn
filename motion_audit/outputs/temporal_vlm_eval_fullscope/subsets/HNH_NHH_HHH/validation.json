@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-21T11:20:09.270442+00:00",
+  "predictions": 6699,
+  "source_inputs_sha256": "131655e2483668a1a29e5679d682f8a6cd662e484f397b89c247afc13f240f1c",
+  "source_summary_sha256": "4d3ee4ff58534205b8233a0f6c1f94d40c482dd338001feb4aea6445f71e84a6",
+  "checks": [
+    "Only requested motion groups included",
+    "Each model covers exactly the same selected QA",
+    "Raw answers reparsed and rescored",
+    "Subset totals match parent group statistics"
+  ],
+  "new_inference": false
+}

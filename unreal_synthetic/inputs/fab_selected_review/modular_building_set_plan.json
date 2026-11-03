@@ -1,0 +1,1634 @@
+{
+  "candidate": "modular_building_set",
+  "id": "d0b0faf271be45a3a6b0cdfa2f57c9d4",
+  "title": "Modular Building Set",
+  "engine": {
+    "artifactId": "ModularBuildingSet410",
+    "matchType": "fallback",
+    "requested": "UE_5.8",
+    "selected": "UE_5.4",
+    "available": [
+      "UE_4.5",
+      "UE_4.6",
+      "UE_4.7",
+      "UE_4.8",
+      "UE_4.9",
+      "UE_4.10",
+      "UE_4.11",
+      "UE_4.12",
+      "UE_4.13",
+      "UE_4.14",
+      "UE_4.15",
+      "UE_4.16",
+      "UE_4.17",
+      "UE_4.18",
+      "UE_4.19",
+      "UE_4.20",
+      "UE_4.21",
+      "UE_4.22",
+      "UE_4.23",
+      "UE_4.24",
+      "UE_4.25",
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4"
+    ]
+  },
+  "file_count": 317,
+  "bytes": 766113199,
+  "unique_chunk_bytes": 793477852,
+  "chunk_count": 783,
+  "artifact": "ModularBuildingSet410",
+  "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+  "files": [
+    {
+      "filename": "Content/ModularBuildingSet/Demo_Scene.umap",
+      "size": 414527597,
+      "sha1": "d53d7d986051bf80b272e4a1d534864f09488978"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/black_interior.uasset",
+      "size": 71518,
+      "sha1": "1e87ef692d54ea8f7f134e01c82cb2b5b4c22c1e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_beige.uasset",
+      "size": 74401,
+      "sha1": "4da5a8862b608da531517686618180c5dc2c7e96"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_dark_red.uasset",
+      "size": 105434,
+      "sha1": "a5a2de60ab65914c24b40e6544af3b37ea3ed485"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_grey.uasset",
+      "size": 140189,
+      "sha1": "d69ea791816e467cca426f0a3af07b5c4a112356"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_orange.uasset",
+      "size": 94662,
+      "sha1": "456031f95aad0dde20348d2dd5178e918f7e3e90"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_red.uasset",
+      "size": 101894,
+      "sha1": "6bf985e2f0ddb4062f0207718f4a2de306459b52"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/bricks_red.uasset",
+      "size": 106946,
+      "sha1": "9ebd6ac17ff6af46ddab24980046aeec9f77143a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/bricks_red_concrete_trim.uasset",
+      "size": 107403,
+      "sha1": "c86d9b78618e3ce518a0abc10ef1f44ee27c15ea"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim___default.uasset",
+      "size": 99866,
+      "sha1": "9ff3f3e8f024a9c05d514c08708361b2911e137e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim__color_pckr.uasset",
+      "size": 104419,
+      "sha1": "c59572bb59b5be99594681c06967766c8ec50509"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean___default.uasset",
+      "size": 123584,
+      "sha1": "7ec0907736eb49b863637daeefb9828532e2f30d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean__color_pckr.uasset",
+      "size": 131016,
+      "sha1": "ecf8af142467c5435fddcd78eea0289c3abb7551"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_blue.uasset",
+      "size": 121295,
+      "sha1": "5000faf1abe41b766aea642ffd515805be34ab6e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_red.uasset",
+      "size": 126441,
+      "sha1": "e8dd3600b7333106ead071080f861175bb6a8878"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_white.uasset",
+      "size": 105954,
+      "sha1": "b3a5eee0e1aabc3c87ddfd74508d5427e034d1c6"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_black.uasset",
+      "size": 100801,
+      "sha1": "6f2c785830aeb1b1430881d1df21c8374052083d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_blue.uasset",
+      "size": 97549,
+      "sha1": "3e1e647f344ebaf9b390adeb1d0d9d894a32babc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_green.uasset",
+      "size": 101496,
+      "sha1": "0b01ff37122e8bca27ed4edd87bf16ba2187d546"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_red.uasset",
+      "size": 100001,
+      "sha1": "75eba21af2579f3c70d40134362a8852ac2ee0b0"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_white.uasset",
+      "size": 97220,
+      "sha1": "ec5930e21f4de9b4439102552967aa634230b54a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Cloth/cloth_awning_intact__default.uasset",
+      "size": 92208,
+      "sha1": "65f159342fff4decf8e673c802de43ee9cb47bc1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Cloth/cloth_awning_torn__default.uasset",
+      "size": 96777,
+      "sha1": "7ee4866dc80a6140b8f05de176ed1611d90dc120"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Cloth/cloth_intact_clr_pckr_blue.uasset",
+      "size": 90422,
+      "sha1": "bc0537508e690aeae457085b1a88d99eec974fc8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Cloth/cloth_intact_clr_pckr_red.uasset",
+      "size": 95542,
+      "sha1": "0946d0252bb11fd44ab2a7696a89535f2cb73394"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Cloth/cloth_torn_clr_pckr_blue.uasset",
+      "size": 94828,
+      "sha1": "aee97c75211b7fceac1d85301aea57a111db03b5"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Cloth/cloth_torn_clr_pckr_red.uasset",
+      "size": 96224,
+      "sha1": "1b8fb638c706ef4fc3fc4fbe570bd5da66726cd7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Concrete/concrete_trim.uasset",
+      "size": 100376,
+      "sha1": "e7bd6cf74e3151f644df295ab366f64a277a1d06"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Concrete/concrete_trim_CLR_BLK.uasset",
+      "size": 99390,
+      "sha1": "9113c5250755a5f0c98f3b01da583bb71e68b693"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Concrete/concrete_trim_CLR_PKR.uasset",
+      "size": 145640,
+      "sha1": "92c4e95430238c27a8fe89dc4a247e2d733dcca8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/bird_poop.uasset",
+      "size": 91846,
+      "sha1": "511488419e5ff81b123e35061d8ab333cc54d8e2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck01.uasset",
+      "size": 92623,
+      "sha1": "c8e73c0b649fa7fbae760c82f3a040788d67aa6d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck02.uasset",
+      "size": 92397,
+      "sha1": "a2ddaefb6b632221da7fc05e076367f1418b2e2b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck03.uasset",
+      "size": 92765,
+      "sha1": "640646ff0cb635fab1d35a5cf3747ac745bab8fd"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a01.uasset",
+      "size": 88057,
+      "sha1": "c01b488287b7f657c85cf957b54014ef3ccb1d9a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a02.uasset",
+      "size": 88163,
+      "sha1": "82f4f7968b2683dca09331b4d70f1338eb69080a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a03.uasset",
+      "size": 88233,
+      "sha1": "3f70b5d56400dd9833ad526d5829ae75db9c9ac4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a04.uasset",
+      "size": 88136,
+      "sha1": "e4d914a71060b98729611a0f9f61a7505891ea7d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a01.uasset",
+      "size": 91306,
+      "sha1": "fbda882e3cbbc2695f01b26b4a0d5dafbf61a253"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a02.uasset",
+      "size": 91539,
+      "sha1": "b7fd4cc93cdab822fbdac5c82a682749780650a4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a03.uasset",
+      "size": 91289,
+      "sha1": "4eafab54bdfe3a16419f50702310a90440de0602"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a04.uasset",
+      "size": 91301,
+      "sha1": "8fea47753a62f319bc280fc602b5b0fafb2b7fbc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck01.uasset",
+      "size": 91522,
+      "sha1": "61cbbd80ea014e7d7f2be21598a1da91e54a60f2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck02.uasset",
+      "size": 91343,
+      "sha1": "065e8068859686bc8ba91f3e0e19a94e4eed6ddc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck03.uasset",
+      "size": 91240,
+      "sha1": "dd7d4d5ed7ea6bfab8469707b0c9af0fe36c73dd"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a01.uasset",
+      "size": 94488,
+      "sha1": "6a0a930c3894ec23db233df3de81fc9cd47b8c59"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a02.uasset",
+      "size": 94603,
+      "sha1": "ca8495716dc30edc3cf5a5c0bd07f2790fbe5953"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a03.uasset",
+      "size": 94806,
+      "sha1": "16f3285def2b0a6866bebfdfe981de2e360e44d0"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a04.uasset",
+      "size": 94328,
+      "sha1": "472a18d709f759d75d6f241ef1f03109190048d0"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck01.uasset",
+      "size": 94607,
+      "sha1": "e32f1c2bbaf094ddb831bd175173e73acc578019"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck02.uasset",
+      "size": 94365,
+      "sha1": "068268ada73ff0f8a3652864524ecce6b115b3cb"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck03.uasset",
+      "size": 94760,
+      "sha1": "83aea8bcf0b53ca45cf5357660683c528632c6d4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a01.uasset",
+      "size": 98553,
+      "sha1": "afb50b2a0600ef67a1428354f1e087add85a16d4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a02.uasset",
+      "size": 99121,
+      "sha1": "1e653c9ced46f7b82b3ef3bf275b27710d1ad176"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a03.uasset",
+      "size": 99196,
+      "sha1": "de2dbdc5069975ab340fd51b99e5a8d845809af9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a04.uasset",
+      "size": 98998,
+      "sha1": "50f476802d3af7f010d2bbc0797b5365c450466c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b01.uasset",
+      "size": 99526,
+      "sha1": "c541a73d023afb5c3db0e0abc56dc90b2fb2355d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b02.uasset",
+      "size": 99653,
+      "sha1": "c552729b9eb8957b2cb2e3af8ecdf7283bf9425a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b03.uasset",
+      "size": 99646,
+      "sha1": "689078b25f7b36f9d4d093790297cd41538b576c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b04.uasset",
+      "size": 99824,
+      "sha1": "d9d83adbdd8dd6b1644abf11664704c045c30ac4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_01.uasset",
+      "size": 88036,
+      "sha1": "1e3d6774989e893c8169a047b15f276bb77ee1e7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_02.uasset",
+      "size": 87054,
+      "sha1": "e89603d79437bcacb89d40dd444b637c18611ffe"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_03.uasset",
+      "size": 87624,
+      "sha1": "32ab9c7a6dc256b1a5ce3535212ad6ec5437f29d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/stickers_decals.uasset",
+      "size": 130002,
+      "sha1": "1aefe5f2cebf02ed0f9cf1c2ce5c65e68feef34b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/store_signs.uasset",
+      "size": 103707,
+      "sha1": "3f1af36a1f905994dcdb60edfaa76c25b22843e3"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/t_alpha_white.uasset",
+      "size": 76457,
+      "sha1": "4baaf1080bef4732daa740aaf0d062e77de5607a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/t_alpha_yellow.uasset",
+      "size": 86378,
+      "sha1": "77e135c4dbc32c6485a2f56a1398c0a33ccf3782"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/White.uasset",
+      "size": 1039,
+      "sha1": "11257e764747c5f5e458178c47487dfb33e0ebb1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_dark.uasset",
+      "size": 81192,
+      "sha1": "6413d797d87802d44764a43160450f09d006b247"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_grey.uasset",
+      "size": 70071,
+      "sha1": "c89649e259e6124c1c234109a170902d79acfec1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_white.uasset",
+      "size": 69621,
+      "sha1": "04113b1ac3992403557e50902581592b879e86eb"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_yellow.uasset",
+      "size": 81926,
+      "sha1": "ebbfcf7f2f28efa4000555bc61809362ebd98ae8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Decals_Signs/Yellow.uasset",
+      "size": 1015,
+      "sha1": "b38e428e73b1ffb9013d4e7e58865a37cd908dfc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Glass/Glass.uasset",
+      "size": 72206,
+      "sha1": "169d14d710dfbe5c9238e59f188adf62d8a128e4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Glass/Glass2.uasset",
+      "size": 76667,
+      "sha1": "7fd1c1b2d0bed36b0b5c71a887857ad3f7a8faba"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Glass/Glass_Cracked.uasset",
+      "size": 89986,
+      "sha1": "063ff5428ec8f82462680b38a2df3efde8e9e17e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Glass/Glass_Opaq_Cracked.uasset",
+      "size": 128381,
+      "sha1": "df3e1e327e02936ad1e985835f70bd22ec925ade"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Glass/Glass_Opaque.uasset",
+      "size": 108538,
+      "sha1": "287fab3086068e93c0540774f4152ea148a9b223"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Glass/Glass_Shards.uasset",
+      "size": 82015,
+      "sha1": "529707d56e0de372926f87154bd606882d24aa87"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/dirt_pebble_pile.uasset",
+      "size": 90607,
+      "sha1": "d11756126f7075e00e6954a261fdf682e0c10e10"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/dirt_pebble_pile_dark.uasset",
+      "size": 93480,
+      "sha1": "ad95bad60c6fb1aa3a6e9b0efa8bcea10de74c45"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/ground_gravel_dirt.uasset",
+      "size": 90441,
+      "sha1": "27f410f8dbbf9e18a8fde87fa49521648d95ab68"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/ground_gravel_dirt_dark.uasset",
+      "size": 95248,
+      "sha1": "002a9b754b03a288f4c67c05b6524604bb13cf13"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/Light.uasset",
+      "size": 161948,
+      "sha1": "7ff13abfd99a92c1706e92bbaf9d3147c5f36ec4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/Road.uasset",
+      "size": 139474,
+      "sha1": "5ff0d7173d39ee0f0b862ccb4819a852b7d418db"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/Road_Inst.uasset",
+      "size": 98178,
+      "sha1": "18910a11516d62eb43efce034a3d2d2c6fe71280"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Ground_Rubble/trash_pile.uasset",
+      "size": 105699,
+      "sha1": "604256cf2de5e0bdece2fd5465511487b0e341aa"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Lights/interior_lights.uasset",
+      "size": 81826,
+      "sha1": "c6f3416aedab122acc700b1e2b26a8253c898f11"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Lights/LGT_white.uasset",
+      "size": 41658,
+      "sha1": "88f414502d7fcbbaad31a05fcabe79c9802934dd"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Lights/window_lgt_blue.uasset",
+      "size": 62564,
+      "sha1": "0094262ff1af8491fa9208f16e3274489c9c34b8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Lights/window_lgt_default.uasset",
+      "size": 105080,
+      "sha1": "8b49dc6980b24988504589c097ddf9ea4c8c3af0"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Lights/window_lgt_white.uasset",
+      "size": 55436,
+      "sha1": "cf3f753568f69fa209acfa68d5d978ab9e7fa10f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Lights/window_lgt_yellow.uasset",
+      "size": 63946,
+      "sha1": "acfe76bfc2239dd7ef0395299e7d77e89bcbb1b3"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_shutters.uasset",
+      "size": 105206,
+      "sha1": "3100b6c8dbeb96c05e695af95368ac172f6492f5"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim___default.uasset",
+      "size": 97465,
+      "sha1": "0a1c5bb079f0b002d23bd4a5885b5730104e27e4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim__color_pckr.uasset",
+      "size": 126819,
+      "sha1": "3fc3b57797eb72dd1b20eb43bf47d2bc14b11e1a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim__roughness+color_pckr.uasset",
+      "size": 124496,
+      "sha1": "ebe40def11a21db3c8e1874f30cabe009a913f60"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_black.uasset",
+      "size": 96675,
+      "sha1": "378f6c601553a72b175cda2d3bdd056465f7c668"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_black_glossy.uasset",
+      "size": 100842,
+      "sha1": "1a71245d4787fee8051d6eaa54f205dc7d300ecf"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_blue.uasset",
+      "size": 124257,
+      "sha1": "3146057cc53156f4b9dee9901166cfb26320f28e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean___default.uasset",
+      "size": 120920,
+      "sha1": "576731c39925b06756acb1b76695c0ef79c34008"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean__color_pckr.uasset",
+      "size": 102863,
+      "sha1": "72c9ab2b697bb08800ad349079c3a0ae7856184d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_black.uasset",
+      "size": 103864,
+      "sha1": "2bd5bdb43dc6ae6faba3dde24505d2d41ca00413"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_blue.uasset",
+      "size": 116632,
+      "sha1": "1b3665c88e7efdb2600726c5b414cd7543b928ac"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_green.uasset",
+      "size": 114486,
+      "sha1": "81a2af657468e5d9e57de44ca5908386d8132252"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_white.uasset",
+      "size": 113073,
+      "sha1": "67ef753955e80c305483ab9736694f4a69fe3377"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_green.uasset",
+      "size": 98966,
+      "sha1": "0fb310b38bec66c6f8918f0f159e6974c3803ff4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_grey_glossy.uasset",
+      "size": 94200,
+      "sha1": "d86743ea23b14d36e19c5640815570b92d8fe604"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_light_grey.uasset",
+      "size": 93830,
+      "sha1": "4f08c10f21486bfa4e489d7e7adcad208b2aab65"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/materials/Metal/metal_trim_white.uasset",
+      "size": 133377,
+      "sha1": "f9d663615f409eb5ee35f3283884cf19970d9f49"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_1x1.uasset",
+      "size": 59810,
+      "sha1": "130cdab8d5167061aac81c59b3ce520293108b9b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_4x1.uasset",
+      "size": 78816,
+      "sha1": "d93e0b3ae3d1c4bac68a6d0c1f369361915d4325"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_5x1.uasset",
+      "size": 79979,
+      "sha1": "398587d5e81fb37180616b50e29a815668525d56"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_corner.uasset",
+      "size": 65488,
+      "sha1": "b8bd100bdced5a714417a6340608f7e1cab45517"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1_top.uasset",
+      "size": 118187,
+      "sha1": "846dc3c575ba4ad9204fd7b779874094c404a206"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2.uasset",
+      "size": 81105,
+      "sha1": "07184b391d1ec56ee49f92bdc1f0b9e774e765c4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2_tiling.uasset",
+      "size": 73824,
+      "sha1": "f920b1aee340701e0c48ea26cdc7f5d91a1b8190"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x4.uasset",
+      "size": 80396,
+      "sha1": "85f3c4c05e3816fa84f77b19bf1350a543da6ff2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_corner_top.uasset",
+      "size": 136491,
+      "sha1": "0b04e608b8596197dd634d05797f04848f4b4465"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_tiles_corner_bottom.uasset",
+      "size": 95027,
+      "sha1": "5da9737389ccd931c143cfb5fae677877afded3d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_beam_a.uasset",
+      "size": 121794,
+      "sha1": "f8a20c81932fab511265e318d208209614b9292a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_beam_b.uasset",
+      "size": 119330,
+      "sha1": "3e8ca9273f34f559339b794555f9f4a784e69788"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_wire_a.uasset",
+      "size": 94029,
+      "sha1": "e790ce2f401fa3834c80ade034a0b626cc3e2da6"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_wire_b.uasset",
+      "size": 72888,
+      "sha1": "9f9d39b59a420ce23cf3f2a233a276e492e0d791"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_exhaust_vent.uasset",
+      "size": 185799,
+      "sha1": "7d325da8750852977d8ac67f1424ce7d3f96dfb0"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_store_awning_intact_4x1.uasset",
+      "size": 464505,
+      "sha1": "8d0ee12edfe333dd60130f03f24d2fc4096d8cba"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_store_awning_torn_4x1.uasset",
+      "size": 491310,
+      "sha1": "b1b35db1ccc12bb3cba7ecff77ff99781771d3df"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_airconditioning.uasset",
+      "size": 103454,
+      "sha1": "e6070eab37051dad2889f95473937d7c2e485dad"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_a.uasset",
+      "size": 64156,
+      "sha1": "db34e9f702692227c1d23ce38a03ef6e773c5120"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_b.uasset",
+      "size": 69034,
+      "sha1": "297fe47dbe41495c8fffb65dedc2885e2c20bb18"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_c.uasset",
+      "size": 64784,
+      "sha1": "93154aa03e94e753c9061a31cd673203fe12514a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_d.uasset",
+      "size": 64221,
+      "sha1": "d194d4ec54701e932e55f472ca7653f2d209df20"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_poster_lost_chicken.uasset",
+      "size": 56422,
+      "sha1": "59bd99aa7887213fa87037fa40fa1a0565334b29"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_health_code.uasset",
+      "size": 52282,
+      "sha1": "29636157c142420a4ace1c7a9a0f6a73dcf2a3ba"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_hours.uasset",
+      "size": 54333,
+      "sha1": "9140640830b27c725e0716377956c04a9271f329"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_sorry_open.uasset",
+      "size": 50619,
+      "sha1": "20d905d072248f25a402e859839feaf2356ad0f1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_alarm_warning.uasset",
+      "size": 50362,
+      "sha1": "f39459273855c13cce775fb49ceada9c608831a3"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_address_a.uasset",
+      "size": 49101,
+      "sha1": "73e51faf3828497b308d9a34252d27a098a5a473"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_address_b.uasset",
+      "size": 49256,
+      "sha1": "da11c41799c137e598f37dc4d556bf9b04aa685c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_pull.uasset",
+      "size": 46972,
+      "sha1": "4e440e0cc731868ca66e785870235e81624d0fbe"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_push.uasset",
+      "size": 46969,
+      "sha1": "ab1b14a701b3f6db098ea60834760d09c8c7b5e2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_1x1_a.uasset",
+      "size": 81157,
+      "sha1": "e2c703089255528408b145733646c6c7fbbc3441"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_4x1_a.uasset",
+      "size": 77262,
+      "sha1": "844f0920162af0bb25d9300a415f822e16c6df44"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_4x1_a_interior.uasset",
+      "size": 77178,
+      "sha1": "b90fc861d5db2b1e227c5e213a392569388d0993"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_1x1_a.uasset",
+      "size": 1112,
+      "sha1": "536b94cf6198e509de5b6d56fc0a7c945905c2b6"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_1x1_a_interior.uasset",
+      "size": 69196,
+      "sha1": "702053e92fbcb4be2c23db51e27c211313df504f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_2x2_a.uasset",
+      "size": 75531,
+      "sha1": "aeccd5c42991b105c0d88a43cf03cdb287221eb9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_2x2_b.uasset",
+      "size": 79911,
+      "sha1": "320749943ef3ca80a8dceb0c2692863abac5adc1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_4x4_a.uasset",
+      "size": 79052,
+      "sha1": "abde9a137d254a0a32eef6f5921eedf093de437f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_4x4_a_interior.uasset",
+      "size": 92927,
+      "sha1": "71bd37aa30e6c1ccfb54c179ff50fb1e4197c716"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_5x4_a.uasset",
+      "size": 81946,
+      "sha1": "1cffa4d2343543751945452f6a980139cd209d4c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_5x4_a_interior.uasset",
+      "size": 101189,
+      "sha1": "886ca12fcd801d5e732a2f4482c1e29dac3e1c42"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_end_cap_a.uasset",
+      "size": 66308,
+      "sha1": "f9240c93e828986e66750147897b1c3b9502e37e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_end_cap_b.uasset",
+      "size": 69609,
+      "sha1": "04c87a07837fecd6fdd7cf8b710e0232a163c695"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Rubble_Piles/rubble_dirt_pebble_pile_a.uasset",
+      "size": 116495,
+      "sha1": "74179a931b8f71017d7c0ce7ab09fc3c6b994b40"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Rubble_Piles/rubble_trash_pile_a.uasset",
+      "size": 167780,
+      "sha1": "3de41f9de015aaab35714c8e0cfa367a1967d1c4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_door_4x1_a.uasset",
+      "size": 286914,
+      "sha1": "20bf5bcb93318a2754d8b2c02774da4176e3703c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_door_4x1_b.uasset",
+      "size": 199944,
+      "sha1": "b1a08e3b335ce2279554e90525014e9564d1b1f8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_door_5x1_a.uasset",
+      "size": 244932,
+      "sha1": "aafc73bb236f6309bb6cc0f1106acbbe6d4f695c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_shutters_3x1_a.uasset",
+      "size": 92280,
+      "sha1": "31368f815663e0f7e0faa5160878139a39555d47"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_shutters_4x1_a.uasset",
+      "size": 91445,
+      "sha1": "271c0f7eaf81bddc5d29d25a4bd79af3fa019f28"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_a.uasset",
+      "size": 201266,
+      "sha1": "48fabfb6d8d6c43e58639b1bb54d881ed49d47f9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_b.uasset",
+      "size": 122491,
+      "sha1": "fc04546dcf18c4d47a5ce6cd43195a8a5a8d11c8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_c.uasset",
+      "size": 157515,
+      "sha1": "562c5384fd14f5299ecbf2311aafb0fd91e1870e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_a.uasset",
+      "size": 190855,
+      "sha1": "8ee6b7f4df1ef84cfc2e518b0a664b9b2a7ec706"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_b.uasset",
+      "size": 120716,
+      "sha1": "e48e38968454ba4b7a7827948466a188ba34203b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_c.uasset",
+      "size": 148162,
+      "sha1": "8bd858432b6818589cfc77fab08899cd2bc5e2bc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_a_left.uasset",
+      "size": 168293,
+      "sha1": "b01b54fe9efdba295bf9844d8d47e36b737b88d8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_a_right.uasset",
+      "size": 173657,
+      "sha1": "288442a73bb329bacbc46076c0cf34fc3de8ba0a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_b_left.uasset",
+      "size": 125448,
+      "sha1": "a20a73e7947089d94b99275b569fb55bc73171e6"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_b_right.uasset",
+      "size": 134126,
+      "sha1": "4a49c1be2557d198e5e79dadc3dc51aa098b3800"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_4x1_a.uasset",
+      "size": 239432,
+      "sha1": "a4202e4f67ac4dddab50e1c24e1c9bad726d3c50"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_4x1_b.uasset",
+      "size": 174391,
+      "sha1": "340d93e88a3e69a723f61d7d2077d6b545f78017"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_5x1_a.uasset",
+      "size": 298371,
+      "sha1": "be5bc652fd3d3c1eee96a5715c38ec35e15edcd8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_a.uasset",
+      "size": 235102,
+      "sha1": "bf2181548b5eef42974f5000f8de9afc1bc19137"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_b.uasset",
+      "size": 139847,
+      "sha1": "d7017dda6e828bd76ebcd810c07854ffb7302bef"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_c.uasset",
+      "size": 179353,
+      "sha1": "4dbf0e8244506a61a4658d0f8b33d6075f88e24c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_a.uasset",
+      "size": 224067,
+      "sha1": "e3152527afe63f76b4278c2fac0467a3b6235533"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_b.uasset",
+      "size": 136711,
+      "sha1": "b3ec6a258d0cdd604b09de14ad6d9ce8bf63bc72"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_c.uasset",
+      "size": 170370,
+      "sha1": "2be4b116ef418f9b9704f475c03a5002f5b03382"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_a.uasset",
+      "size": 94851,
+      "sha1": "2b720839875ea32e3b2d2c9750f1be2b56bf7214"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_a1.uasset",
+      "size": 96526,
+      "sha1": "526ecc1e4a4ee8db1d3bc62339c9d46f9e1e5364"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_b.uasset",
+      "size": 118783,
+      "sha1": "6488ea861010faed4f9f476232a5edb0456444b9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_b1.uasset",
+      "size": 119774,
+      "sha1": "001ee019d9d4cf6aadbbbc40de43d6ec44c26ace"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_broken_d.uasset",
+      "size": 157956,
+      "sha1": "785cbf5f628c6d13f00f8e137bd9f5fdbdf61661"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_c.uasset",
+      "size": 97378,
+      "sha1": "88a55f02b90d1ed349733102e07c23f7a18af921"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_c1.uasset",
+      "size": 97239,
+      "sha1": "23bf41dd43b1243e79351332bbd52ad6f2df8c43"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_intact_d.uasset",
+      "size": 154126,
+      "sha1": "163a036974f92e52daa426d491d0a209f3dff944"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_a.uasset",
+      "size": 112671,
+      "sha1": "bd6e0cfb62b7d61681be2dd67bb261e6729ff480"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_b.uasset",
+      "size": 90716,
+      "sha1": "a0a934019c08f9ae7253ea4ed6613e8801e16287"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_c.uasset",
+      "size": 91928,
+      "sha1": "06a664782713ed86f0ea2621197b51cefdac0099"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_d.uasset",
+      "size": 97017,
+      "sha1": "1464908abb181d3decb1df60128e006ed0bb6556"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_5x1_a.uasset",
+      "size": 112082,
+      "sha1": "14b5ea6abc2b793ff16c00664c1f7c9db8141264"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_clmn_1x2.uasset",
+      "size": 81162,
+      "sha1": "c4c6b008de7520c0e2b90231ca6756932f21ad6d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_clmn_dvdr_1x1.uasset",
+      "size": 66879,
+      "sha1": "edfdfe8345cb562bae3f3a0b7226e67ceb6b715b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_2x2.uasset",
+      "size": 86215,
+      "sha1": "741614d75c8b2cff3beb3987c5a34c44ee221f18"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_3x2.uasset",
+      "size": 85402,
+      "sha1": "48addd49d03af2f44e0073ff2b1e9b4335bb12e9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_r_2x2.uasset",
+      "size": 86098,
+      "sha1": "91d259989750b20fadf111bef9262a3459f9ca21"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_r_3x2.uasset",
+      "size": 86060,
+      "sha1": "7abf023daaf7b05e64b1e0690641c5e2c4189ea4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_l_2x2.uasset",
+      "size": 97928,
+      "sha1": "278e37e6befd523241b9a66a4b5259ed9cbeffd0"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_l_3x2.uasset",
+      "size": 100034,
+      "sha1": "8477a4b5732b77bfd1ffd5a2f925d9a448276029"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_r_2x2.uasset",
+      "size": 97233,
+      "sha1": "a74bb74bbe490575445f8cb63d80accf9fffd1c2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_r_3x2.uasset",
+      "size": 99663,
+      "sha1": "2eb8797f7983ae09a95d8b4bf22a6e983f9ad3da"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_l_2x2.uasset",
+      "size": 100576,
+      "sha1": "125d4b8576cf38320fbd32156fc7393a177f5436"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_l_3x2.uasset",
+      "size": 101308,
+      "sha1": "b34465a7352a423da59e7ebf26a4c5e18db23d62"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_r_2x2.uasset",
+      "size": 99461,
+      "sha1": "c2b105567dd374a3594f87c152d3693f77d07fd2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_r_3x2.uasset",
+      "size": 100424,
+      "sha1": "c032d037bae3c2e03e747eacc40e6635d07d39bd"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_2x2.uasset",
+      "size": 164819,
+      "sha1": "4b251065defca64149740b82f26d1e9f29cd5193"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_3x2.uasset",
+      "size": 173027,
+      "sha1": "c994ef7d2d848fb3635874e7473f3dbc6f35cd62"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_r_2x2.uasset",
+      "size": 164717,
+      "sha1": "132c883de356a26697815aa3c5f155d6eff1ab69"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_r_3x2.uasset",
+      "size": 172266,
+      "sha1": "2c07c49145041a47a5ae117632aa41280bc6f6b3"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_d_2x2.uasset",
+      "size": 89093,
+      "sha1": "b7408a25aac598df01c2f72667d4a4ef424f8519"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_d_3x2.uasset",
+      "size": 87625,
+      "sha1": "668af9dab74e13117216155ba04db359ed8167e2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_balcony.uasset",
+      "size": 153756,
+      "sha1": "6090199863558f36a34130347d271b6df37c39a8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder.uasset",
+      "size": 87253,
+      "sha1": "3e97d0bedcca124e868fa485b24b63e716f27df7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder_top.uasset",
+      "size": 102268,
+      "sha1": "798bc5ce8327e6779f805f410f5a6e08559d1c61"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_0x2.uasset",
+      "size": 86005,
+      "sha1": "db48ee32eff7c8c4c881447dc9afd573b92e2b59"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_cnr_0x2.uasset",
+      "size": 131010,
+      "sha1": "55043a4aa630b9d10ca94e3f2dac60e486f577b2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_cnr_1x2.uasset",
+      "size": 107735,
+      "sha1": "fc1be6cc57afbe0bbde887aca3b9389cd4b86318"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_a.uasset",
+      "size": 63229,
+      "sha1": "e68dd4ef6ffe1d28f5678536387977e027c866e2"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_b.uasset",
+      "size": 63067,
+      "sha1": "28a254141cf443c5c99f3cd6656b7a2084640732"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_c.uasset",
+      "size": 63379,
+      "sha1": "ca0845055b75b553c2b21c2465207c73273cfbcc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_l_2x2.uasset",
+      "size": 172225,
+      "sha1": "e268d0e671a09d8e0b4f6081e29e26a0b83f9777"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_l_3x2.uasset",
+      "size": 174130,
+      "sha1": "8221b4ac94f0c59fb55fe54136970fd973fc2b93"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_r_2x2.uasset",
+      "size": 172859,
+      "sha1": "39a15e59f018481fd9fb384eb746aa2c48aa8457"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_r_3x2.uasset",
+      "size": 173736,
+      "sha1": "07374b566fa8544c191bf37d59d7c6f0a619e12e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_l_2x2.uasset",
+      "size": 173293,
+      "sha1": "099b8dc7ddba4b92cec392d303f76912cf27a592"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_l_3x2.uasset",
+      "size": 175215,
+      "sha1": "b4070e0bbe1d622cfd9f2bd26f08588b3c764435"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_r_2x2.uasset",
+      "size": 172801,
+      "sha1": "d958fd5536f7b260e7f27886f233b9c77909b60a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_r_3x2.uasset",
+      "size": 174195,
+      "sha1": "aef7cb40c8c48487167d080e9bfdb35394bf6635"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_1x1.uasset",
+      "size": 70649,
+      "sha1": "3ff4ddcf8e6061f7b530c5a263cf987ff9943b8e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_4x1.uasset",
+      "size": 73929,
+      "sha1": "70044148327688e4960cd2a6378b170a521d245b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_2x2.uasset",
+      "size": 74602,
+      "sha1": "6b59905ab5a57eb78de2cf2ae8e34e650419e1e4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_4x4.uasset",
+      "size": 78163,
+      "sha1": "292ce5af3e8a5fc8697257f80f4b306ee57d68e1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_1x1.uasset",
+      "size": 71267,
+      "sha1": "78489572542264f2cab17e4523ef4ee2f096f2fe"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_4x1.uasset",
+      "size": 74745,
+      "sha1": "ff03bdcf3beda07b1b830e425d17bc37be641117"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_cnr_2x2.uasset",
+      "size": 75180,
+      "sha1": "ed33a17d91da60faa208a99103a67d8dc602569d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_cnr_4x4.uasset",
+      "size": 77889,
+      "sha1": "f30a34c456d494496783201862b8db43e8b6b3f7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_end_l.uasset",
+      "size": 62714,
+      "sha1": "7e454b715ff5cf8a25e8471e2fe5c5228838f4d3"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_end_r.uasset",
+      "size": 73382,
+      "sha1": "b76dfd0bb5fdb97fc76d2bf9ba19cb390cc427b5"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_ground_3x3.uasset",
+      "size": 68322,
+      "sha1": "6ce21d63b3ae1a10acc0c863dbd54dde252c58e9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_ground_4x4.uasset",
+      "size": 69955,
+      "sha1": "064b2c665d5844f81662adef0d0dd55a2bc85843"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_3x2.uasset",
+      "size": 85208,
+      "sha1": "4cd0650ee8c638514edcd66b59fac3a18308db9f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_3x3.uasset",
+      "size": 88709,
+      "sha1": "5dc5805dcfd5d7125c1c5ca6600a3532cb64b8e4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_left_2x2.uasset",
+      "size": 87260,
+      "sha1": "1b8a64931f1cc1e45e4fc57f14213e5721286a9f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_left_2x3.uasset",
+      "size": 87858,
+      "sha1": "1e6916235104658db9e14b93808a7615c0591542"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_right_2x2.uasset",
+      "size": 87624,
+      "sha1": "6203e9b659808e665662e66e0550635260cb74fc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_right_2x3.uasset",
+      "size": 87961,
+      "sha1": "2752b17e12586857e06f779d50595970402cfe64"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Overview.umap",
+      "size": 78872833,
+      "sha1": "523bd10edc971cc116c37f5bb89183ee5bdb8696"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/beam_window_supports_metal_ao.uasset",
+      "size": 597691,
+      "sha1": "2df75bdf4564c67f2cef8308640f47222876c124"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/beam_window_supports_metal_c.uasset",
+      "size": 6200402,
+      "sha1": "a684b2699e579697d3f193fcca790ed12419e329"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/beam_window_supports_metal_clean_c.uasset",
+      "size": 4426792,
+      "sha1": "b6e541360abb9e698cf729695b0d16e9952baae9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/beam_window_supports_metal_clean_g.uasset",
+      "size": 6442789,
+      "sha1": "0c6f04d98074ed75ac5e1b8992bc77d280f99a20"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/beam_window_supports_metal_clean_n.uasset",
+      "size": 1223433,
+      "sha1": "d3f746cb04c5cc966b5b8b874edb43e3909ebc13"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/beam_window_supports_metal_g.uasset",
+      "size": 9400923,
+      "sha1": "99fa59ecc9d1c605190339cb8cad233e424d108b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/beam_window_supports_metal_n.uasset",
+      "size": 3761938,
+      "sha1": "f5d8257ce056faaa153fcc231efdfb462db75cb8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/brick_wall_tiling_c_beige.uasset",
+      "size": 7905429,
+      "sha1": "1ddb440c4b4d1a2926c336a730ca58566acaa608"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/brick_wall_tiling_c_dark_red.uasset",
+      "size": 7280637,
+      "sha1": "7509bcd47a1e154bdb0bd9abdd364700f4fface7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/brick_wall_tiling_c_grey.uasset",
+      "size": 7866063,
+      "sha1": "cc225888b438f59590998e9990b88f2ed161a9b1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/brick_wall_tiling_c_orange.uasset",
+      "size": 8970045,
+      "sha1": "e89b6f2e30f32d04f9edc10d1d6ffa1d73718ee6"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/brick_wall_tiling_c_red.uasset",
+      "size": 8222269,
+      "sha1": "807774a5c0a29964f85c062b5986d9e4b667fb2f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/brick_wall_tiling_g.uasset",
+      "size": 2611209,
+      "sha1": "665090fd84e30fc408b88aec1d25cb8ef9fe03e4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/brick_wall_tiling_n.uasset",
+      "size": 6844722,
+      "sha1": "5527b27b1f158763f10c29fb69c61bb41d8d70bd"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/bricks_red_c.uasset",
+      "size": 9312631,
+      "sha1": "9d72d095c6ad39f01d63a0f6584c975066f2b4c1"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/bricks_red_concrete_trim_c.uasset",
+      "size": 9288510,
+      "sha1": "1bcf34e4f0ea72bf6367315ecf93728e27acf2e3"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/bricks_red_concrete_trim_g.uasset",
+      "size": 4337515,
+      "sha1": "1cf1d3a98918d9e835b93b5f85096a4f1bd9c5a4"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/bricks_red_concrete_trim_n.uasset",
+      "size": 8101218,
+      "sha1": "6bc4511ba633f6050b640871d41603af1e790a5a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/bricks_red_g.uasset",
+      "size": 4228211,
+      "sha1": "09e1bef4902dd1e7712bd33c6e21d74b42f128c9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/bricks_red_n.uasset",
+      "size": 8407265,
+      "sha1": "58dd392b2eb9951fde10da14fe5e82c8e5077b6e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/cloth_awning_intact_c.uasset",
+      "size": 638638,
+      "sha1": "7879b761624544450ec6e1b3b9c6002c4a6e98f7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/cloth_awning_intact_g.uasset",
+      "size": 897237,
+      "sha1": "14d33bb48d2076e86bf179e61e34cb5c716e336c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/cloth_awning_intact_n.uasset",
+      "size": 478365,
+      "sha1": "93985979a8a0ea6724172da42c2eeaeca40fb527"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/cloth_awning_torn_c.uasset",
+      "size": 1386777,
+      "sha1": "f530c73edf9273290ad5fceb206c36c74bd22d28"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/cloth_awning_torn_g.uasset",
+      "size": 1083738,
+      "sha1": "4bbc6e9108917fa2ae480a25fbc62a48b848672b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/cloth_awning_torn_n.uasset",
+      "size": 805829,
+      "sha1": "a7c180534cdcbd5189521af2f4e6374277038808"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/concrete_trim_c.uasset",
+      "size": 7338984,
+      "sha1": "b0c039df4cc354ecb66ca2f7be348f4b0d9f065a"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/concrete_trim_g.uasset",
+      "size": 3977281,
+      "sha1": "583cf31936a5b166e2837fd027d46d1639dd8199"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/concrete_trim_n.uasset",
+      "size": 10300034,
+      "sha1": "864aa2859f19bf1569465c27c4699cf5eaf53b73"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_bird_poop_c.uasset",
+      "size": 192525,
+      "sha1": "393c5855bff29bfa97307e36509eae3670b70076"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_concrete_muck_n.uasset",
+      "size": 455434,
+      "sha1": "5aa6734278961536743774c02b99d8d5758fa891"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_grunge_muck_01.uasset",
+      "size": 484312,
+      "sha1": "d466c0f7078c6aa884ad3c96b4e7050ebd476728"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_grunge_muck_c.uasset",
+      "size": 1798447,
+      "sha1": "ea71b8ca85e1dd9a17867b0379f57b04fb419f93"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_grunge_rust_c.uasset",
+      "size": 1138199,
+      "sha1": "940f9c448025c1b9e271aa741f7cf481dae25365"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_grunge_rust_dripping_01.uasset",
+      "size": 907361,
+      "sha1": "4d5c740bce63cedbddacbbae551258853a2493a6"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_grunge_scratches_01.uasset",
+      "size": 200689,
+      "sha1": "9f3f3da66858a6d88b94f94d56a10934e27979f8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/decal_rust_dripping_1_c.uasset",
+      "size": 416183,
+      "sha1": "59ee63ac893449ba482f1de91df17ac7d57fc1c8"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/glass_shards_c.uasset",
+      "size": 124906,
+      "sha1": "bfca9d63f1629d462bd66f51231346196b3febfe"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/glass_shards_n.uasset",
+      "size": 74562,
+      "sha1": "1a88904d0e7966ffb4e9c639a67f936cff833f96"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/glass_window_broken_c.uasset",
+      "size": 871545,
+      "sha1": "1a48855ffa7504a39c3f179523f08906ff576f08"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/glass_window_broken_g.uasset",
+      "size": 417121,
+      "sha1": "4b6401a3e098e65036317e0eff80659e8359ac38"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/glass_window_broken_n.uasset",
+      "size": 391957,
+      "sha1": "7ed4534da94110a6c52841685c1b4c1066ef53cd"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/ground_gravel_dirt_c.uasset",
+      "size": 12445101,
+      "sha1": "fab8a169dd93741cb9fb45dd43d01fb173e6c60b"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/ground_gravel_dirt_g.uasset",
+      "size": 4565766,
+      "sha1": "90f7761f1746b5727144b2893c677d1b8dfd5eb0"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/ground_gravel_dirt_n.uasset",
+      "size": 11835923,
+      "sha1": "247f67c77423775a4dfab4d084119ee282a23cd5"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_c.uasset",
+      "size": 3300549,
+      "sha1": "11ad8d8235438d1fe42918dc59c0c3fc86c9348f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_g.uasset",
+      "size": 1134956,
+      "sha1": "131c3a887d6a7c97c21dd9ac26d549a541441b20"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_n.uasset",
+      "size": 2464621,
+      "sha1": "d9b97a93d97e69517e57d2a11c43155e501e23b7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/grunge_rubble_pile_c.uasset",
+      "size": 2042809,
+      "sha1": "b73faab2246da24c29df0bf0e4c4b8f2587d5bd3"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/grunge_rubble_pile_g.uasset",
+      "size": 1082354,
+      "sha1": "eff1d0d81f82a70ee6f25dacdf387f43f46d547e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/grunge_rubble_pile_n.uasset",
+      "size": 2133321,
+      "sha1": "18d14b1cc32b2f2d056d78e5fd3c1af1d3e84048"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/signs_decals_chinese_stores_c.uasset",
+      "size": 2177561,
+      "sha1": "8c5408deb537486752a718ad3c15c00ec02859c9"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/signs_decals_chinese_stores_g.uasset",
+      "size": 1160826,
+      "sha1": "0f50501ff55d01441a6b725413410e5d45752d96"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/signs_decals_chinese_stores_n.uasset",
+      "size": 772443,
+      "sha1": "88125bdf499a3b47233005b324dffe35926df3db"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/signs_decals_stickers_c.uasset",
+      "size": 483749,
+      "sha1": "32061299f9e21889a4e9d31c5630c7b1a6ee1441"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/tiles_wall_broken_c.uasset",
+      "size": 6647292,
+      "sha1": "258daaf5b69fd630528d4e3552003b2430e07d03"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/tiles_wall_broken_g.uasset",
+      "size": 8196093,
+      "sha1": "9f638b441f670a5ac59aa01fba3f58f7e9e1ef01"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/tiles_wall_broken_n.uasset",
+      "size": 4765844,
+      "sha1": "e88214f9bcc298aa8159826e0dc26beb2f127ddc"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/tiles_wall_clean_ao.uasset",
+      "size": 1549252,
+      "sha1": "aff381e560c84d40b01798b727ead07bd5e579d6"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/tiles_wall_clean_c.uasset",
+      "size": 5611358,
+      "sha1": "bb2d9fcef11ae225144935a3cced46951ca94e44"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/tiles_wall_clean_g.uasset",
+      "size": 6934559,
+      "sha1": "3dd3951748b6ba475129ffca9973a410c8f58341"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/tiles_wall_clean_n.uasset",
+      "size": 2144357,
+      "sha1": "5813c6b48729f5018cecaadb2f6a6a45c9a06e4e"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/window_bump_detal_n.uasset",
+      "size": 18229,
+      "sha1": "0de51c0efd32b5a12789f883cc486579e154e632"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/window_depth_a.uasset",
+      "size": 82814,
+      "sha1": "c563e270963a0e91782cb423b377fbd17fbe8e8c"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/window_spec.uasset",
+      "size": 802722,
+      "sha1": "a2340d8a20fc48d42d98e08a663a42f564c8447d"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/window_store_shutters_c.uasset",
+      "size": 1873616,
+      "sha1": "38483cbb2fd818e46030b2210d5d67b87f0a480f"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/window_store_shutters_g.uasset",
+      "size": 1641420,
+      "sha1": "648e13a5781559b89ba26167034e76abfc417bd7"
+    },
+    {
+      "filename": "Content/ModularBuildingSet/Textures/window_store_shutters_n.uasset",
+      "size": 562523,
+      "sha1": "717c4433b25885a24477a85e8bb97d7499dce93f"
+    }
+  ]
+}

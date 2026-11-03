@@ -1,0 +1,1148 @@
+{
+  "source": {
+    "id": "animal_variety_pack",
+    "category": "동물",
+    "rank": 1,
+    "title": "ANIMAL VARIETY PACK",
+    "listing_id": "2dd7964c-a601-4264-a53d-465dcae1644c",
+    "source_url": "https://www.fab.com/listings/2dd7964c-a601-4264-a53d-465dcae1644c",
+    "owned": false,
+    "status": "awaiting_library_addition"
+  },
+  "original_files_verified": 220,
+  "original_bytes": 517854968,
+  "asset_id": "d2b2a0a767c849f7b2d8f601f4bef5f5",
+  "engine": {
+    "artifactId": "ANIMALVAc661d0a95645V1",
+    "matchType": "fallback",
+    "requested": "UE_5.8",
+    "selected": "UE_5.5",
+    "available": [
+      "UE_4.15",
+      "UE_4.16",
+      "UE_4.17",
+      "UE_4.18",
+      "UE_4.19",
+      "UE_4.20",
+      "UE_4.21",
+      "UE_4.22",
+      "UE_4.23",
+      "UE_4.24",
+      "UE_4.25",
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4",
+      "UE_5.5"
+    ]
+  },
+  "copied_content": [
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_DeathGrounded.uasset",
+      "sha1": "42499d57cf418f38434dc9cbefb177637450413c",
+      "bytes": 108832
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_DeathHitTheGround.uasset",
+      "sha1": "cf75949394dac7466895ff17abeac7bd5ef8935f",
+      "bytes": 95221
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_EatSomething.uasset",
+      "sha1": "cab39888ba378f9e9c7653b6b128acbe4a1eac47",
+      "bytes": 108392
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Falling.uasset",
+      "sha1": "65ceca4dfa0acdc1bc68925dac1e2aa5b2ae4685",
+      "bytes": 103583
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Fly.uasset",
+      "sha1": "f2c518ad42a781221046d23472601cd24ceb3b10",
+      "bytes": 97772
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_FlyingAttack.uasset",
+      "sha1": "396d4bb776315c86dd706ac7478feb95b6743e80",
+      "bytes": 119449
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Glide.uasset",
+      "sha1": "7c1d1afa138e4c6ee3bd448239cfc042f1f3e102",
+      "bytes": 86969
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Hop.uasset",
+      "sha1": "c97e8ed6fd2c0dd0164a0dff37b3f27a390f2ed2",
+      "bytes": 97440
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Hop_RM.uasset",
+      "sha1": "0f051ab5db4211c88657b37ab0c0a09b9c9d26b3",
+      "bytes": 97613
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleLookAround.uasset",
+      "sha1": "1ff49d842a693c84f54a519eb61afc7342cf270b",
+      "bytes": 108136
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleScratchWing.uasset",
+      "sha1": "3f324bac1cad1fc07ab28b016fa869f0a6b4c350",
+      "bytes": 95822
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_IdleStretchWings.uasset",
+      "sha1": "5f27553ef7d49ca6be5c884c333110df08034e99",
+      "bytes": 99187
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_InAirDeathGoToFall.uasset",
+      "sha1": "a94f168b02e63e484b2fbddc547d2322a433cd46",
+      "bytes": 112511
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Landing.uasset",
+      "sha1": "66fec7e8b27f3df7c732455882ec3497cc318675",
+      "bytes": 110078
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_TakeOff.uasset",
+      "sha1": "33b2fb0af37624ed455a342b27a33ec3dafaecbf",
+      "bytes": 127144
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Walk.uasset",
+      "sha1": "0c858f749b50233af09ba98f4fe3b100f5b9b7ad",
+      "bytes": 97045
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Walk_RM.uasset",
+      "sha1": "dd24a096358e0ef0361dd0a85c306eeea35691a3",
+      "bytes": 97208
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Maps/Overview.umap",
+      "sha1": "cbd96a0925f14a646b6ed231071b36b27428fd58",
+      "bytes": 981251
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Maps/Overview_BuiltData.uasset",
+      "sha1": "dda434de8e41c8c13069101f3bcdf03eeed5998b",
+      "bytes": 42074
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Materials/M_Crow.uasset",
+      "sha1": "4e0e186c8713afe80c44eef539032d9f2d1207be",
+      "bytes": 120718
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Meshes/SK_Crow.uasset",
+      "sha1": "27795d2004d39ab739a62c79eee1bdb78640289f",
+      "bytes": 350444
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Meshes/SK_Crow_PhysicsAsset.uasset",
+      "sha1": "7417e6df642838fe4f111c5b2ef2f578fdf67c5c",
+      "bytes": 29926
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Meshes/SK_Crow_Skeleton.uasset",
+      "sha1": "e5941ded5864a4ae7a3e539fd37770bc8087a372",
+      "bytes": 11116
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Textures/T_Crow_BaseColor.uasset",
+      "sha1": "82568de9da1fc76f7a368a16f82590d08e9443e1",
+      "bytes": 4960704
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Textures/T_Crow_Nml.uasset",
+      "sha1": "ce42cdb7970797839471ed5eb982bb58df087233",
+      "bytes": 7568794
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Textures/T_Crow_OcclusionRoughnessMetallic.uasset",
+      "sha1": "bdd2d05b17c1f7e894ab09d059ca0229033ab941",
+      "bytes": 9362671
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Crow/Textures/T_Crow_Specular.uasset",
+      "sha1": "6c73c308c606885e2d014ea9f71f4e8817187eeb",
+      "bytes": 3532
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Death.uasset",
+      "sha1": "6bab72c0332889a0af0ad84d3722ee4c8dae6770",
+      "bytes": 146167
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_GetHit.uasset",
+      "sha1": "62819323ae66ecfe794c1db1116ee157ee2270ed",
+      "bytes": 111872
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_GoToRest.uasset",
+      "sha1": "4830a0db2ffdaa86a0f9ae475511ff5e24eeb74e",
+      "bytes": 123606
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_GrazeOnce.uasset",
+      "sha1": "047964a0a4b848140ce2f2460cf995c64bb40a47",
+      "bytes": 143230
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleBreathe.uasset",
+      "sha1": "a0411a2fed70349c8ebfe3e29a0e53cbf6008c7f",
+      "bytes": 126884
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleChew.uasset",
+      "sha1": "be38fafe6c312d663eb288f59710402512b22d6f",
+      "bytes": 126686
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleGraze.uasset",
+      "sha1": "d8b1083533b7bd31516aaa7e96f4edbb8b977441",
+      "bytes": 109938
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleLookAround.uasset",
+      "sha1": "bb11fc8d608a935a8ca01dca2cf509b01f679673",
+      "bytes": 209751
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleRest.uasset",
+      "sha1": "4dff4aa4b588dd324bf36849421daba59a800c3c",
+      "bytes": 111350
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_IdleSleep.uasset",
+      "sha1": "c1d86cf5adc3fb8bbcd176c596d5c3a1c09cca7c",
+      "bytes": 102993
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_RestToGoBackUp.uasset",
+      "sha1": "b674bfbdaeb9250549422b55e264dbd458067188",
+      "bytes": 124930
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Run.uasset",
+      "sha1": "18259bc2fc85004efa0dcd25c06935ed71d17270",
+      "bytes": 113976
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Run_RM.uasset",
+      "sha1": "27d73fbc03bc3c618105d88eef0821fc3f1a8567",
+      "bytes": 114295
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_SleepToGoBackUp.uasset",
+      "sha1": "5ab3bec10e2d96080a3726bb108f1f5accf4fe00",
+      "bytes": 124839
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Walk.uasset",
+      "sha1": "528861f8315c8eabac99095ec73240525a0a21ac",
+      "bytes": 117050
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Walk_RM.uasset",
+      "sha1": "967486ba29182621b255b951d353bd68289394ad",
+      "bytes": 117300
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkGraze.uasset",
+      "sha1": "77ca13425efb6ea6f0c3e4266e31c65dabf981df",
+      "bytes": 114504
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkGraze_RM.uasset",
+      "sha1": "7adfeb9c3e23762b75ce70c11eeaef1a9d8574fa",
+      "bytes": 114688
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnL.uasset",
+      "sha1": "263ea93967d8a7347693fb71adbe336d565f8877",
+      "bytes": 115265
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnL_RM.uasset",
+      "sha1": "d202958395cb6563b946fa6e8cc3ac87bcac3068",
+      "bytes": 117363
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnR.uasset",
+      "sha1": "ea4f1b48da63b4a9953996dfeb317b6756fd27f9",
+      "bytes": 117424
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_WalkTurnR_RM.uasset",
+      "sha1": "a9e66190536992a914ac59b9aaded17ca85e7806",
+      "bytes": 119352
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_AntlersAttack.uasset",
+      "sha1": "77aac7046b55222fe2d4dabce28b6c4ab808016f",
+      "bytes": 117280
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_AntlersComboAttack.uasset",
+      "sha1": "b2cc01fe230d066dc301fbd83ba50426f822bc9f",
+      "bytes": 135153
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_AntlersComboAttack_RM.uasset",
+      "sha1": "284692fa13fe260cc23bb5f55acc0347729bc6e6",
+      "bytes": 135912
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Death.uasset",
+      "sha1": "7ae82fc628ca80f25e59b47e80f553473136cc80",
+      "bytes": 148651
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_GetHit.uasset",
+      "sha1": "e79258d09935929e06bd98140e11369e5c318251",
+      "bytes": 115688
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_GoToRest.uasset",
+      "sha1": "b892d8ba1bc2a4564eafad54d7a7c10810fddfae",
+      "bytes": 127619
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_GrazeOnce.uasset",
+      "sha1": "fee8423cb1ca29737f9f4ca26c3035442266b705",
+      "bytes": 145057
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe.uasset",
+      "sha1": "3de954ffcda2ff5c9f398b5bc55397a4ddf4cf46",
+      "bytes": 130673
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleChew.uasset",
+      "sha1": "2a75bc4dfe1b3520f7760f61bfd2eb2f7c73ea01",
+      "bytes": 130061
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleGraze.uasset",
+      "sha1": "17d897a3b0c6ccaa6a41173a87629552fad83d9c",
+      "bytes": 111850
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleLookAround.uasset",
+      "sha1": "07f2dee85dca18f15c138faf722cb13260c79822",
+      "bytes": 210413
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Rest.uasset",
+      "sha1": "e9786ee5f4239f3b30b14241c9c3fbd5a8ac4e1c",
+      "bytes": 117884
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_RestToGoBackUp.uasset",
+      "sha1": "38ad92e24bb098d8cf067ac38afd595e456c02d4",
+      "bytes": 127892
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Run.uasset",
+      "sha1": "cc0ed45d12149949510d805cd9a0061062bc92e0",
+      "bytes": 118278
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Run_RM.uasset",
+      "sha1": "a70c1884e011ee4477ba8368e2128c58378b773e",
+      "bytes": 118991
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Sleep.uasset",
+      "sha1": "ade7a15e9cad9e83902118c2b628527d46ea47d8",
+      "bytes": 104700
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_SleepToGoBackUp.uasset",
+      "sha1": "ffe842c7b7ae25e79f19acf18cb67c6156e51a2a",
+      "bytes": 127874
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Walk.uasset",
+      "sha1": "b13f35eeb5b9c5b23d4b2410d71c730094a3b2b4",
+      "bytes": 120813
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_Walk_RM.uasset",
+      "sha1": "aa176bdc67d9ba3e421380ff96199ce0eafd8c9d",
+      "bytes": 121192
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkGraze_RM.uasset",
+      "sha1": "d18bd69885204fb46eb8cd7ec0cb0208465fc81f",
+      "bytes": 115858
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnL.uasset",
+      "sha1": "d00571c0a5aca2a2e7d6b9655ec8997f53b37afd",
+      "bytes": 119129
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnL_RM.uasset",
+      "sha1": "c606e1c4e3d814aa77e7a92ccf208d1c4a69e509",
+      "bytes": 119687
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnR.uasset",
+      "sha1": "d5e5af4d52dc94190a50ccbfbdbe0d928b917cad",
+      "bytes": 122427
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_WalkTurnR_RM.uasset",
+      "sha1": "38f36bdd4c358c31ec388c4fd177c255d2dd5be4",
+      "bytes": 123268
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Maps/Overview.umap",
+      "sha1": "c870134144cfa6da58f023c757694b7ef5cace39",
+      "bytes": 1002736
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Maps/Overview_BuiltData.uasset",
+      "sha1": "7ed8c7b2cb4730fd5b74eb2e855d9e1abf890267",
+      "bytes": 123309
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoe.uasset",
+      "sha1": "f934d8ddef612140271d3fe65fdab414303cccf1",
+      "bytes": 131532
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerDoeFur.uasset",
+      "sha1": "6a599b731b9ca22358aa6737ccda138a92633def",
+      "bytes": 132406
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStag.uasset",
+      "sha1": "54c37ec5b4ccb2aa914b7e432c1f8072568df8ea",
+      "bytes": 133180
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Materials/M_DeerStagFur.uasset",
+      "sha1": "6cf21f8667d5a9e7873e6073b38472b02d3c5abc",
+      "bytes": 135461
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe.uasset",
+      "sha1": "40781ae2c4951b8e4cdeb64055cc65d635f3f162",
+      "bytes": 2992241
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe_PhysicsAsset.uasset",
+      "sha1": "d9449b82679f3076992ab3a78cbb1edc96926e32",
+      "bytes": 41169
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe_Skeleton.uasset",
+      "sha1": "c9543a89cbdfa15ecfb9c7cbf6df1a37c388612f",
+      "bytes": 6711
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag.uasset",
+      "sha1": "02a94f6d908672c4edd31f01b1402f6ee249af36",
+      "bytes": 3456271
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag_PhysicsAsset.uasset",
+      "sha1": "6d9519afd312cc5892046ad8a1a2793085db499b",
+      "bytes": 41179
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag_Skeleton.uasset",
+      "sha1": "647daaebc16509351112d580d561a70f015dff10",
+      "bytes": 6540
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Textures/T_DeeDoe_BaseColor.uasset",
+      "sha1": "3ba31e527c9c4eea85b54c8ce469bc1be5034097",
+      "bytes": 20198231
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Textures/T_DeeDoe_Nml.uasset",
+      "sha1": "6707fe5c53c4e647054e64ed4f0f45f9678022f9",
+      "bytes": 18442904
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Textures/T_DeerDoe_OcclusionRoughnessMetallic.uasset",
+      "sha1": "a241ccd32cc377c4d522d1b710995f6b9dc396ef",
+      "bytes": 25157998
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_BaseColor.uasset",
+      "sha1": "21f6e43e59b12a3d1cc07d2678e183f79cce8999",
+      "bytes": 25426850
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_Nml.uasset",
+      "sha1": "2737acd2d980591497d5e42e804250c40d80755f",
+      "bytes": 27561447
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_OcclusionRoughnessMetllic.uasset",
+      "sha1": "ac41b85da55f5e34086f3508f80495c4514ab6ef",
+      "bytes": 30051293
+    },
+    {
+      "path": "Content/AnimalVarietyPack/DeerStagAndDoe/Textures/T_Stag_Specular.uasset",
+      "sha1": "dc963277a726656ff820af87385e504edb3ba551",
+      "bytes": 3456
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Bite.uasset",
+      "sha1": "2baf84adde24941405febb895ec7820e083c3974",
+      "bytes": 102506
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Death.uasset",
+      "sha1": "39d02fa1e2e6293d758c0406ac1cdee36eebf464",
+      "bytes": 129729
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GetHitFront.uasset",
+      "sha1": "22b0d282dc3f964f71e305917b4de1d08324bb4f",
+      "bytes": 102715
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GetHitLeft.uasset",
+      "sha1": "c22fd9cf10db0cb1896b90d719b92658396efb90",
+      "bytes": 102818
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GetHitRight.uasset",
+      "sha1": "84455f0059c07f9b519e340ebf2ade501ec159bc",
+      "bytes": 102672
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_GoToRest.uasset",
+      "sha1": "2dab168add7d60679caee5e30f1313b15ea09585",
+      "bytes": 111548
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleAggressive.uasset",
+      "sha1": "fbab6b2deea6785dce39d5afcde0f23f95c844df",
+      "bytes": 112936
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleBreathe.uasset",
+      "sha1": "38f09a8f2dfc44ad723651bdb0869fbd99840b88",
+      "bytes": 122246
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleLookAround.uasset",
+      "sha1": "1c7b48cc1a95148c6e9f46de554386d10e53d24f",
+      "bytes": 256140
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_JumpBite.uasset",
+      "sha1": "71d641f6bd3413c15a1a0c344937af1c82f2b662",
+      "bytes": 107154
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_JumpBite_RM.uasset",
+      "sha1": "aa315f412ab9fe50f746a2cc1d183c26ba34ffc8",
+      "bytes": 107639
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Resting.uasset",
+      "sha1": "54d73d5ce100c2058cbb4685a97884e1740b10b5",
+      "bytes": 104780
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RestToGoBackUp.uasset",
+      "sha1": "76e25f4d4efab0d8bbe30a7d094c25c20e01ddce",
+      "bytes": 122222
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Run.uasset",
+      "sha1": "f50af13eb6010cac61a61102941d2617bc98818e",
+      "bytes": 100576
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Run_RM.uasset",
+      "sha1": "b8efa6cd6435bca6ac6e471cb70aa20d10780e4f",
+      "bytes": 100769
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunBite.uasset",
+      "sha1": "5e791153787ef21ecdbd9b1db657b42ed9843943",
+      "bytes": 101293
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunBite_RM.uasset",
+      "sha1": "cfe05733054dfb4317c5fb9a76f5d4fc12d0bc64",
+      "bytes": 101557
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnL.uasset",
+      "sha1": "4095fd7398f2d5c0040eda9909a316dfa5803ed7",
+      "bytes": 100122
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnL_RM.uasset",
+      "sha1": "a58d5c376d221ffd73990ff3df78114658f8ada8",
+      "bytes": 99513
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnR.uasset",
+      "sha1": "f7821e0a00b0a6b4a425cc2794452483fc65b04e",
+      "bytes": 100919
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_RunTurnR_RM.uasset",
+      "sha1": "544296c6df2ffebcb706eae166fcbcb05435ad17",
+      "bytes": 102024
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Sleeping.uasset",
+      "sha1": "85ff1c5bb9ab94215e254e50db84dfcf57133515",
+      "bytes": 98214
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Walk.uasset",
+      "sha1": "50a38161d6863032f78ef63b9942af9e7f74ce7b",
+      "bytes": 110237
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_Walk_RM.uasset",
+      "sha1": "a5b409005a5bbcdaf0a26da25b045601dbe3ac98",
+      "bytes": 110636
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnL.uasset",
+      "sha1": "6324a433bcb2f06f44c57685c7e0972e9c6a6a47",
+      "bytes": 108782
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnL_RM.uasset",
+      "sha1": "4cbc8ac951d02e85b054d5c56b0ba333063a73c9",
+      "bytes": 110298
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnR.uasset",
+      "sha1": "e2c19086977d4a32d4f01dea20c44ceb838932ff",
+      "bytes": 110751
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Animations/ANIM_Fox_WalkTurnR_RM.uasset",
+      "sha1": "8235d321490899cbb0607d5d38437bd86181bc14",
+      "bytes": 113235
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Maps/Overview.umap",
+      "sha1": "02763ac82d1cc0a7905e3067644ee54bdebe6c30",
+      "bytes": 994403
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Maps/Overview_BuiltData.uasset",
+      "sha1": "d59d3e4039d8efd516d13ba9a52e3f27a90bd433",
+      "bytes": 43132
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Materials/M_Fox.uasset",
+      "sha1": "57f82baeda5f39dc64a222c2494a66b284646442",
+      "bytes": 135757
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Materials/M_FoxFur.uasset",
+      "sha1": "381d54a272fa6e5ad20f951445d184957887f107",
+      "bytes": 137477
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Meshes/SK_Fox.uasset",
+      "sha1": "680aa8cb7f7d40cfccbdeb52a20c3ec001ee100f",
+      "bytes": 2952246
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Meshes/SK_Fox_PhysicsAsset.uasset",
+      "sha1": "9f7cef18d567f96d8eaa8edd511ba0aaf62f0bde",
+      "bytes": 47157
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Meshes/SK_Fox_Skeleton.uasset",
+      "sha1": "e2983a63d29a7962c23d32178d1d32aec6f18e7e",
+      "bytes": 6848
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Textures/T_Fox_BaseColor.uasset",
+      "sha1": "dbc0740ff919c40ce6b1e22e802472e56d4b0739",
+      "bytes": 7437449
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Textures/T_Fox_Nml.uasset",
+      "sha1": "f020bf36c60bffcf2f42baa986c290f5f62af8cd",
+      "bytes": 7887482
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Textures/T_Fox_OcclusionRoughnessMetallic.uasset",
+      "sha1": "449572802796ea3d1db89973bec055def17d3d1b",
+      "bytes": 7672776
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Fox/Textures/T_Fox_Specular.uasset",
+      "sha1": "2a841db057740aaf26f454a0df37540fac6863d8",
+      "bytes": 3119
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_attack.uasset",
+      "sha1": "ec1112a7a64f3c0c23ab099102149a91d5244e55",
+      "bytes": 114582
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Chew.uasset",
+      "sha1": "ce1e32b1badfde6ff7662d6edb8f6b3e4510787b",
+      "bytes": 127985
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_ComboAttackForward.uasset",
+      "sha1": "166e97bb48d751d129129518bf98f8afee22d222",
+      "bytes": 153824
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_ComboAttackForward_RM.uasset",
+      "sha1": "e36ae0e9b93ea466bb771936c3317a9939aa1217",
+      "bytes": 154778
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Death.uasset",
+      "sha1": "155f2392a5a67259726e3158fbbb5c217749c92b",
+      "bytes": 145615
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_GetHit.uasset",
+      "sha1": "c70c992809ca02c5186b4e007f123024c1f912ce",
+      "bytes": 113154
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_GoBackUp.uasset",
+      "sha1": "0691b4dc0504777c29f375bc9840e7b0c3d501f5",
+      "bytes": 135767
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_GoToRest.uasset",
+      "sha1": "e276aa3329add6976df61a27c90a5dae4f8fd0a0",
+      "bytes": 123072
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_IdleBreathe.uasset",
+      "sha1": "b1568cacfac914f85f1a81908dbd3e959dccc2e0",
+      "bytes": 128216
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_IdleLookAround.uasset",
+      "sha1": "08382e4f24e0c0c5bc74f6b94b27f4b843b2e846",
+      "bytes": 311145
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_JumpAttack.uasset",
+      "sha1": "f02f8b8f2baeaa121c00d278d30fd33ab190233c",
+      "bytes": 121442
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_JumpAttack_RM.uasset",
+      "sha1": "ee105990772576987fff2d5ca60de355f92bacb3",
+      "bytes": 121841
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Rest.uasset",
+      "sha1": "6d91b5552b7e26cfc9e5952965bc2bc9b09d10dc",
+      "bytes": 116002
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Run.uasset",
+      "sha1": "c46353ffc9d72d1a05e17c620248df455ba047fc",
+      "bytes": 105663
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Run_RM.uasset",
+      "sha1": "8f1e5f438ffde0e3ae042991db3fc1027449a453",
+      "bytes": 105818
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnL.uasset",
+      "sha1": "220c7b2a462f2b9d58049ed01c766912a3122e69",
+      "bytes": 105854
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnL_RM.uasset",
+      "sha1": "8c097adf01968903d3d2da358d143b8d8d96aec1",
+      "bytes": 108151
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnR.uasset",
+      "sha1": "cc55a3bf5d9d2be9bfd4b15e4ab518c68f013122",
+      "bytes": 105513
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_RunTurnR_RM.uasset",
+      "sha1": "1e90ead8b845f4ffa5fd2f1e8de136177c698e3e",
+      "bytes": 106364
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_SniffleforFood.uasset",
+      "sha1": "714805d794f706d556823ab066187022bd98ea73",
+      "bytes": 150975
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Walk.uasset",
+      "sha1": "d43814444f3b1da4f2b78407c449b736bf216960",
+      "bytes": 116023
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_Walk_RM.uasset",
+      "sha1": "fa25bdbaf2dc0e1a873a355faf6ebf1e2ed432db",
+      "bytes": 116765
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnL.uasset",
+      "sha1": "fb88ca654f0a0cd012ebebe41ce1df82a2b8fe5a",
+      "bytes": 115400
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnL_RM.uasset",
+      "sha1": "842c3233beccf97381a8dc40100d1395848368e6",
+      "bytes": 117862
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnR.uasset",
+      "sha1": "f8a6b89d51167efd5cd52b3cf38a9a4e6ac75a03",
+      "bytes": 115462
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Animations/ANIM_Pig_WalkTurnR_RM.uasset",
+      "sha1": "e2d917f156a8a93cd79b2a90ba19882f63ce5fdf",
+      "bytes": 116734
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Maps/Overview.umap",
+      "sha1": "b68d77ece530bd5e4a2b1727f0643e4de9a992d8",
+      "bytes": 988800
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Maps/Overview_BuiltData.uasset",
+      "sha1": "7c2a87e377e7396739018a496a2caacb038359ae",
+      "bytes": 57948
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Materials/M_Pig.uasset",
+      "sha1": "ac3093953ed7f6f97a930d9a134b7a5c4c6d07d0",
+      "bytes": 107223
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Materials/M_PigDirty.uasset",
+      "sha1": "1725cea144f812501908efc93272ef5a6e5aa4c3",
+      "bytes": 108638
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Materials/M_PigHair.uasset",
+      "sha1": "3036a4567ad2b53352ceb959412ba54b8f7aad75",
+      "bytes": 114551
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Materials/M_PigHairDirty.uasset",
+      "sha1": "5690a26790c5a0775262d2ec5ca9d7b890149ab0",
+      "bytes": 115581
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Meshes/SK_Pig.uasset",
+      "sha1": "6cda509c0a8119934be365a36677e20abe414311",
+      "bytes": 3577985
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Meshes/SK_Pig_PhysicsAsset.uasset",
+      "sha1": "556a2cf333edaf60b6e43b0dc06a74895094d9f5",
+      "bytes": 48973
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Meshes/SK_Pig_Skeleton.uasset",
+      "sha1": "e95c203e04b89ae8aaa49013053cb9a5b0c6655e",
+      "bytes": 7727
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Textures/T_Pig_BaseColor.uasset",
+      "sha1": "b78c2af34bbbe0320e10eeaed7c018b55070cf0c",
+      "bytes": 22574067
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Textures/T_Pig_Nml.uasset",
+      "sha1": "4a0eb0a7919a8c073e2b44abd729ce4aad6b1397",
+      "bytes": 22580047
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Textures/T_Pig_OcclusionRoughnessMetallic.uasset",
+      "sha1": "d7595972625ff327b4dce72faa28931a163cb2b8",
+      "bytes": 30346595
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Textures/T_Pig_Specular.uasset",
+      "sha1": "a8455cc61a74ec16fd5b10d0e10a2c17828f1260",
+      "bytes": 3388
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Textures/T_PigDirty_BaseColor.uasset",
+      "sha1": "cfaa8a5b36a41b072d07a9aeeb2889c39664509c",
+      "bytes": 24797834
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Textures/T_PigDirty_Nml.uasset",
+      "sha1": "1260c1ec7b87ed6668e1a2e28457d6da92bac015",
+      "bytes": 31556464
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Pig/Textures/T_PigDirty_OcclusionRoughnessMetallic.uasset",
+      "sha1": "b9c683fa11b5bc4ece355caaf63aa0a73eab613f",
+      "bytes": 27851215
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Bite.uasset",
+      "sha1": "b4ff39c7f41d382c40ec9ad4c03d99ad3633c1bd",
+      "bytes": 107724
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Death.uasset",
+      "sha1": "742bfab9367255edd32f6de02ae7c75fe987a40d",
+      "bytes": 135144
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GetHitFront.uasset",
+      "sha1": "f47327f7af05918af7c220998e781e579c56ab28",
+      "bytes": 109696
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GetHitLeft.uasset",
+      "sha1": "1a6d935980fca0faeb6549aed7ad140e06e43e67",
+      "bytes": 110021
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GetHitRight.uasset",
+      "sha1": "b65eacd70ff8865fa44442b796300147d1f6bb7e",
+      "bytes": 109258
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_GoToRest.uasset",
+      "sha1": "4f5e7cfbe3f65102378856f22d40257304adda0e",
+      "bytes": 116994
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Howl.uasset",
+      "sha1": "b7e82065f2c9f23aafd48011c59836a330def264",
+      "bytes": 148543
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleAggressive.uasset",
+      "sha1": "13ed67a24f9b478d8d1baeb098b8e69dbdb5ee61",
+      "bytes": 128727
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleBreathe.uasset",
+      "sha1": "c6fa1bb7f1f45ecc3d68205ea0decbfcef25d346",
+      "bytes": 132734
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_IdleLookAround.uasset",
+      "sha1": "b092154cd5e413e7d20c9c73976265fb0b837177",
+      "bytes": 270233
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_JumpBite.uasset",
+      "sha1": "632ff4db36f0844b74f9e858144c0961d3f8839c",
+      "bytes": 114045
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_JumpBite_RM.uasset",
+      "sha1": "f294a260e0fd2958c282c0bbcd249e69ea3727ab",
+      "bytes": 114320
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Rest.uasset",
+      "sha1": "a8242263435f2f77a8a34539335dd0109fcadf0b",
+      "bytes": 113076
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RestToGoBackUp.uasset",
+      "sha1": "afe063642ef25cb1ae8f15c46b14bd043ee919bd",
+      "bytes": 128071
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Run.uasset",
+      "sha1": "52afd012b28d803fc9f489e7f4c400bcc574a026",
+      "bytes": 107091
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Run_RM.uasset",
+      "sha1": "9451420619d411f20a416fd751d57fb8d913cf82",
+      "bytes": 107346
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunBite.uasset",
+      "sha1": "97f0a1e525987e809c399c7f56cfe2d1f6ae467b",
+      "bytes": 108094
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunBite_RM.uasset",
+      "sha1": "20bbf8a2bf00acb1054756dba1ce3fb2e90b25cc",
+      "bytes": 108284
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnL.uasset",
+      "sha1": "e4bea8e8937a3879904b5aaf06bdfcbfb96e8145",
+      "bytes": 106100
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnL_RM.uasset",
+      "sha1": "b49899a02c90b86a93c51153b5541887868f0b68",
+      "bytes": 103971
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnR.uasset",
+      "sha1": "cba96f4bfbc3f9b5d5ff00beba6b80cdd91d9c95",
+      "bytes": 107997
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_RunTurnR_RM.uasset",
+      "sha1": "6e366b16c8256189c13aeeefd7818433cc35c747",
+      "bytes": 109041
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Sleep.uasset",
+      "sha1": "c4ddc723d40c163e2254ea97edf7527b83c8f5a1",
+      "bytes": 109593
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Walk.uasset",
+      "sha1": "a927f4d8844353ae9efe886e6d91e138939ede5e",
+      "bytes": 116826
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Walk_RM.uasset",
+      "sha1": "17263f0a3534a44eadb5266552832ed1974a02c9",
+      "bytes": 117198
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnL.uasset",
+      "sha1": "73357507984bdf6c8d2b25fa6e56c6dba329e692",
+      "bytes": 115406
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnL_RM.uasset",
+      "sha1": "8023505db1fc0da09518accaec2638dd53643096",
+      "bytes": 115990
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnR.uasset",
+      "sha1": "a10d13a870926147447c786a70491d600acda11d",
+      "bytes": 118254
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_WalkTurnR_RM.uasset",
+      "sha1": "7446f2cb8d60b87a54ccec5d6dcac9dd42f01efc",
+      "bytes": 121800
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Maps/Overview.umap",
+      "sha1": "cce7369c059eb9358ca763198b0bcade3b4c761d",
+      "bytes": 999902
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Maps/Overview_BuiltData.uasset",
+      "sha1": "9ce0ed2cc0428c86d8567b4d8b486cb12db9c9d7",
+      "bytes": 66249
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Materials/M_Wolf.uasset",
+      "sha1": "0a8904cc6132ecdc1676e2198874fa4beaee2568",
+      "bytes": 126307
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Materials/M_WolfArctic.uasset",
+      "sha1": "b02a6a175dad842c44c89f8abafcc81e2aeaddf0",
+      "bytes": 110312
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Materials/M_WolfDark.uasset",
+      "sha1": "96d96ec3ce173724e1a8012258c48f92fcf46956",
+      "bytes": 108592
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Materials/M_WolfFur.uasset",
+      "sha1": "ccc235a75d05ee6240c4b2e845e0a2f74f4bbd37",
+      "bytes": 126453
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Materials/M_WolfFurArctic.uasset",
+      "sha1": "15bb250885b0a09c694aadf13f221085c6028f08",
+      "bytes": 110458
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Materials/M_WolfFurDark.uasset",
+      "sha1": "5faddeb9906eb425584f6500c3d513e2a5351092",
+      "bytes": 107126
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Meshes/SK_Wolf.uasset",
+      "sha1": "8b24428862536351151dd8c3ffbccb8cc87c9570",
+      "bytes": 3175577
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Meshes/SK_Wolf_PhysicsAsset.uasset",
+      "sha1": "3f499800357765994e4014601d198f8941a24135",
+      "bytes": 49741
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Meshes/SK_Wolf_Skeleton.uasset",
+      "sha1": "bf0b50cce03d183478fdf05f2b5fed2865d80703",
+      "bytes": 6911
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Textures/T_Wolf_BaseColorAlpha.uasset",
+      "sha1": "784ee9c46e42e9dbc43737c36f844fb07f6b8163",
+      "bytes": 25493431
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Textures/T_Wolf_Nml.uasset",
+      "sha1": "41a8aefc4b193eaf87d8df89edb82a7b5d5ac49e",
+      "bytes": 24059562
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Textures/T_Wolf_OcclusionRoughnessMetallic.uasset",
+      "sha1": "fdedc0e889b7ef8a6766d7e60d447d28eda6ac35",
+      "bytes": 26790123
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Textures/T_Wolf_Specular.uasset",
+      "sha1": "59c5e7fda2d2007157f5b2c204db8364e80e9ca5",
+      "bytes": 3288
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Textures/T_WolfArctic_BaseColorAlpha.uasset",
+      "sha1": "83ecdb33992aa09ae3c1517f25ed91a2af6e4a1e",
+      "bytes": 24959374
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Textures/T_WolfDark_BaseColorAlpha.uasset",
+      "sha1": "29352cb532ffbd2389205e5cc77872e6725acfea",
+      "bytes": 23225120
+    },
+    {
+      "path": "Content/AnimalVarietyPack/Wolf/Textures/T_WolfDark_Illum.uasset",
+      "sha1": "54016c6731dce8474a9af16e462e7a8cbe1b9dbf",
+      "bytes": 133586
+    }
+  ],
+  "content_roots": [
+    "/Game/AnimalVarietyPack"
+  ],
+  "status": "sha1_verified_and_staged"
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "dimension": "task",
+    "value": "camera_translation_direction",
+    "qa": 448,
+    "videos": 448
+  },
+  {
+    "dimension": "task",
+    "value": "camera_view_direction_change",
+    "qa": 462,
+    "videos": 462
+  },
+  {
+    "dimension": "task",
+    "value": "object_world_motion_direction",
+    "qa": 594,
+    "videos": 506
+  },
+  {
+    "dimension": "task",
+    "value": "camera_object_distance_change",
+    "qa": 405,
+    "videos": 345
+  },
+  {
+    "dimension": "task",
+    "value": "object_pair_distance_change",
+    "qa": 234,
+    "videos": 234
+  },
+  {
+    "dimension": "task",
+    "value": "object_travel_distance_comparison",
+    "qa": 244,
+    "videos": 244
+  },
+  {
+    "dimension": "group",
+    "value": "HHH",
+    "qa": 426,
+    "videos": 208
+  },
+  {
+    "dimension": "group",
+    "value": "HHL",
+    "qa": 230,
+    "videos": 146
+  },
+  {
+    "dimension": "group",
+    "value": "HLH",
+    "qa": 339,
+    "videos": 170
+  },
+  {
+    "dimension": "group",
+    "value": "HLL",
+    "qa": 96,
+    "videos": 53
+  },
+  {
+    "dimension": "group",
+    "value": "LHH",
+    "qa": 192,
+    "videos": 95
+  },
+  {
+    "dimension": "group",
+    "value": "LHL",
+    "qa": 80,
+    "videos": 62
+  },
+  {
+    "dimension": "group",
+    "value": "LLH",
+    "qa": 848,
+    "videos": 417
+  },
+  {
+    "dimension": "group",
+    "value": "LLL",
+    "qa": 176,
+    "videos": 124
+  },
+  {
+    "dimension": "group4",
+    "value": "HLH+LHH+HHH",
+    "qa": 957,
+    "videos": 473
+  },
+  {
+    "dimension": "group4",
+    "value": "HLL+LHL+HHL",
+    "qa": 406,
+    "videos": 261
+  },
+  {
+    "dimension": "group4",
+    "value": "LLH",
+    "qa": 848,
+    "videos": 417
+  },
+  {
+    "dimension": "group4",
+    "value": "LLL",
+    "qa": 176,
+    "videos": 124
+  },
+  {
+    "dimension": "all",
+    "value": "all",
+    "qa": 2387,
+    "videos": 1275
+  }
+]

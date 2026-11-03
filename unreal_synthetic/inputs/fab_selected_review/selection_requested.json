@@ -1,0 +1,162 @@
+{
+  "selected_sources": [
+    {
+      "id": "game_animation_sample",
+      "category": "사람",
+      "rank": 1,
+      "title": "Game Animation Sample",
+      "listing_id": "880e319a-a59e-4ed2-b268-b32dac7fa016",
+      "source_url": "https://www.fab.com/listings/880e319a-a59e-4ed2-b268-b32dac7fa016",
+      "owned": true,
+      "asset_id": "c5c0cc79127c41a19fa7aaf5293d2677",
+      "manifest_bytes": 7461773881,
+      "manifest_files": 3912,
+      "status": "downloaded_and_native_demo_verified"
+    },
+    {
+      "id": "paragon_twinblast",
+      "category": "사람",
+      "rank": 2,
+      "title": "Paragon: Twinblast",
+      "listing_id": "9fa88852-5711-42e1-94fa-2491498a64da",
+      "source_url": "https://www.fab.com/listings/9fa88852-5711-42e1-94fa-2491498a64da",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "paragon_sparrow",
+      "category": "사람",
+      "rank": 2,
+      "title": "Paragon: Sparrow",
+      "listing_id": "7d76ddf0-d9ce-4d00-939e-d72793534d01",
+      "source_url": "https://www.fab.com/listings/7d76ddf0-d9ce-4d00-939e-d72793534d01",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "paragon_gadget",
+      "category": "사람",
+      "rank": 2,
+      "title": "Paragon: Gadget",
+      "listing_id": "52a621fd-28bb-4898-a2e7-93229a40e3f4",
+      "source_url": "https://www.fab.com/listings/52a621fd-28bb-4898-a2e7-93229a40e3f4",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "city_sample_vehicles",
+      "category": "차량",
+      "rank": 1,
+      "title": "City Sample Vehicles",
+      "listing_id": "2909157b-ddfa-4cef-a925-69dc2467021f",
+      "source_url": "https://www.fab.com/listings/2909157b-ddfa-4cef-a925-69dc2467021f",
+      "owned": true,
+      "asset_id": "926d85bf932a4a028374ec25eed524fc",
+      "manifest_bytes": 7943748524,
+      "manifest_files": 1405,
+      "status": "downloaded_and_native_demo_verified"
+    },
+    {
+      "id": "vehicle_variety_pack",
+      "category": "차량",
+      "rank": 2,
+      "title": "Vehicle Variety Pack",
+      "listing_id": "dc1ada50-2523-44b1-b0e2-a72d14076fb4",
+      "source_url": "https://www.fab.com/listings/dc1ada50-2523-44b1-b0e2-a72d14076fb4",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "vehicle_variety_pack_2",
+      "category": "차량",
+      "rank": 3,
+      "title": "Vehicle Variety Pack Volume 2",
+      "listing_id": "591e3b3f-9d49-4cd2-8e28-d471c1a10cab",
+      "source_url": "https://www.fab.com/listings/591e3b3f-9d49-4cd2-8e28-d471c1a10cab",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "animal_variety_pack",
+      "category": "동물",
+      "rank": 1,
+      "title": "ANIMAL VARIETY PACK",
+      "listing_id": "2dd7964c-a601-4264-a53d-465dcae1644c",
+      "source_url": "https://www.fab.com/listings/2dd7964c-a601-4264-a53d-465dcae1644c",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "construction_site_vol1",
+      "category": "조형물",
+      "rank": 1,
+      "title": "Construction Site VOL. 1",
+      "listing_id": "ba44a508-bfa5-444c-bbf4-69e8b5dee530",
+      "source_url": "https://www.fab.com/listings/ba44a508-bfa5-444c-bbf4-69e8b5dee530",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "industry_props_6",
+      "category": "조형물",
+      "rank": 2,
+      "title": "Industry Props Pack 6",
+      "listing_id": "b5603e44-e1b0-4346-9c3d-04887aa9f87d",
+      "source_url": "https://www.fab.com/listings/b5603e44-e1b0-4346-9c3d-04887aa9f87d",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "unfinished_building",
+      "category": "조형물",
+      "rank": 3,
+      "title": "Unfinished Building",
+      "listing_id": "25f2e7e5-5cca-48a5-99a3-35c38b8240ac",
+      "source_url": "https://www.fab.com/listings/25f2e7e5-5cca-48a5-99a3-35c38b8240ac",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "modular_building_set",
+      "category": "조형물",
+      "rank": 4,
+      "title": "Modular Building Set",
+      "listing_id": "474a0598-ed86-40b6-baa1-c801d96ef4ab",
+      "source_url": "https://www.fab.com/listings/474a0598-ed86-40b6-baa1-c801d96ef4ab",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "city_sample_buildings",
+      "category": "배경",
+      "rank": 1,
+      "title": "City Sample Buildings",
+      "listing_id": "008fe959-5511-428e-93bd-f99b1179f6d5",
+      "source_url": "https://www.fab.com/listings/008fe959-5511-428e-93bd-f99b1179f6d5",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "city_park_environment",
+      "category": "배경",
+      "rank": 2,
+      "title": "City Park Environment Collection",
+      "listing_id": "11cc2abb-126c-4452-9fe4-6f2381d96544",
+      "source_url": "https://www.fab.com/listings/11cc2abb-126c-4452-9fe4-6f2381d96544",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    },
+    {
+      "id": "modular_rural_cabins",
+      "category": "배경",
+      "rank": 3,
+      "title": "Modular Rural Cabins",
+      "listing_id": "508fe84a-4976-4cfe-9a40-c2b9533da601",
+      "source_url": "https://www.fab.com/listings/508fe84a-4976-4cfe-9a40-c2b9533da601",
+      "owned": false,
+      "status": "awaiting_library_addition"
+    }
+  ],
+  "requested_purpose": "download, native tests and quality review",
+  "library_checked_at_utc": "2026-10-29T06:45:42.553688+00:00"
+}

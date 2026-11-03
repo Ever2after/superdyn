@@ -1,0 +1,17 @@
+{
+  "model": "qwen25vl_3b",
+  "gpu": 0,
+  "load_seconds": 15.572734573855996,
+  "torch": "2.9.1+cu130",
+  "transformers": "4.50.0",
+  "attention": "sdpa",
+  "dtype": "bfloat16",
+  "patch_projection_check": null,
+  "model_class": "Qwen2_5_VLForConditionalGeneration",
+  "checkpoint": "/tmp/superdyn_vlm_eval255/models/qwen25vl_3b",
+  "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "geometry_encoder_enabled": false,
+  "preprocessing": "native HF ordered multi-image processor"
+}

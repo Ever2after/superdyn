@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "movies": 3,
+  "frames": 2880,
+  "seconds_each": 40,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "sources": 14,
+  "logical_placements": 51,
+  "mesh_actors": 53,
+  "local_links_checked": 11,
+  "http_checks": 6,
+  "active_tour_editors": []
+}

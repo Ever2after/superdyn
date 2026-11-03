@@ -1,0 +1,170 @@
+{
+ "m06_crane_down_crow_up_rgb": [
+  {
+   "attempt": "render_clips2",
+   "seconds": 44.446
+  }
+ ],
+ "m06_crane_down_crow_up_gt": [
+  {
+   "attempt": "render_clips2",
+   "seconds": 3.375
+  },
+  {
+   "attempt": "render_gt_all_1",
+   "seconds": 35.958
+  },
+  {
+   "attempt": "render_gt_rural_test",
+   "seconds": 15.982
+  },
+  {
+   "attempt": "render_gt_variants",
+   "seconds": 8.319
+  }
+ ],
+ "m07_tilt_up_rgb": [
+  {
+   "attempt": "render_clips2",
+   "seconds": 26.57
+  }
+ ],
+ "m07_tilt_up_gt": [
+  {
+   "attempt": "render_clips2",
+   "seconds": 5.45
+  },
+  {
+   "attempt": "render_gt_all_2",
+   "seconds": 36.742
+  },
+  {
+   "attempt": "render_gt_rural_test",
+   "seconds": 9.912
+  },
+  {
+   "attempt": "render_gt_variants",
+   "seconds": 11.712
+  }
+ ],
+ "m01_truck_right_gt": [
+  {
+   "attempt": "render_gt_all_0",
+   "seconds": 173.757
+  }
+ ],
+ "m04_pull_back_gt": [
+  {
+   "attempt": "render_gt_all_0",
+   "seconds": 89.261
+  }
+ ],
+ "c1a_static_left_gt": [
+  {
+   "attempt": "render_gt_all_0",
+   "seconds": 127.616
+  }
+ ],
+ "c2b_static_gt": [
+  {
+   "attempt": "render_gt_all_0",
+   "seconds": 168.204
+  }
+ ],
+ "m02_pan_left_gt": [
+  {
+   "attempt": "render_gt_all_1",
+   "seconds": 161.373
+  }
+ ],
+ "m05_crane_up_gt": [
+  {
+   "attempt": "render_gt_all_1",
+   "seconds": 119.343
+  }
+ ],
+ "c1b_truck_right_gt": [
+  {
+   "attempt": "render_gt_all_1",
+   "seconds": 132.24
+  }
+ ],
+ "m03_walk_forward_gt": [
+  {
+   "attempt": "render_gt_all_2",
+   "seconds": 134.775
+  }
+ ],
+ "m08_orbit_gt": [
+  {
+   "attempt": "render_gt_all_2",
+   "seconds": 133.936
+  }
+ ],
+ "c2a_follow_gt": [
+  {
+   "attempt": "render_gt_all_2",
+   "seconds": 179.24099999999999
+  }
+ ],
+ "m01_truck_right_rgb": [
+  {
+   "attempt": "render_rgb_city_0",
+   "seconds": 1336.957
+  }
+ ],
+ "m08_orbit_rgb": [
+  {
+   "attempt": "render_rgb_city_0",
+   "seconds": 1176.66
+  }
+ ],
+ "m02_pan_left_rgb": [
+  {
+   "attempt": "render_rgb_city_1",
+   "seconds": 1076.793
+  }
+ ],
+ "c1a_static_left_rgb": [
+  {
+   "attempt": "render_rgb_city_1",
+   "seconds": 991.593
+  }
+ ],
+ "m03_walk_forward_rgb": [
+  {
+   "attempt": "render_rgb_city_2",
+   "seconds": 763.007
+  }
+ ],
+ "c1b_truck_right_rgb": [
+  {
+   "attempt": "render_rgb_city_2",
+   "seconds": 1041.943
+  }
+ ],
+ "m04_pull_back_rgb": [
+  {
+   "attempt": "render_rgb_city_3",
+   "seconds": 619.129
+  }
+ ],
+ "c2a_follow_rgb": [
+  {
+   "attempt": "render_rgb_city_3",
+   "seconds": 1690.842
+  }
+ ],
+ "m05_crane_up_rgb": [
+  {
+   "attempt": "render_rgb_city_4",
+   "seconds": 1098.877
+  }
+ ],
+ "c2b_static_rgb": [
+  {
+   "attempt": "render_rgb_city_4",
+   "seconds": 1810.41
+  }
+ ]
+}

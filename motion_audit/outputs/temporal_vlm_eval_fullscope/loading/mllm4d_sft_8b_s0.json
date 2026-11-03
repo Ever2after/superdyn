@@ -1,0 +1,23 @@
+{
+  "model": "mllm4d_sft_8b",
+  "gpu": 5,
+  "load_seconds": 20.92991530895233,
+  "torch": "2.9.1+cu130",
+  "transformers": "5.19.0",
+  "attention": "sdpa",
+  "dtype": "bfloat16",
+  "patch_projection_check": {
+    "method": "bias-free linear then BF16 bias; same non-overlapping Conv3d projection",
+    "probe_patches": 16,
+    "bit_exact": true,
+    "max_abs_difference": 0.0,
+    "native_probe_seconds": 0.20540894009172916
+  },
+  "model_class": "Qwen3VLForConditionalGeneration",
+  "checkpoint": "/tmp/superdyn_vlm_eval255/models/mllm4d_sft_8b/MLLM-4D-SFT-1.0",
+  "revision": "16bb0c579bc480fc02413c05987ae992b38f306b",
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "geometry_encoder_enabled": false,
+  "preprocessing": "native HF ordered multi-image processor"
+}

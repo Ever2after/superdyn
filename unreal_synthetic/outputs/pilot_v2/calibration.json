@@ -1,0 +1,190 @@
+{
+  "crow:walk": {
+    "mesh": "/Game/AnimalVarietyPack/Crow/Meshes/SK_Crow",
+    "clip": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Walk",
+    "clip_seconds": 0.5333333611488342,
+    "feet": [
+      "CROW_-L-Foot",
+      "CROW_-L-Toe0",
+      "CROW_-L-Toe01",
+      "CROW_-L-Toe02",
+      "CROW_-L-Toe1",
+      "CROW_-L-Toe11",
+      "CROW_-L-Toe12",
+      "CROW_-R-Foot",
+      "CROW_-R-Toe0",
+      "CROW_-R-Toe01",
+      "CROW_-R-Toe02",
+      "CROW_-R-Toe1",
+      "CROW_-R-Toe11",
+      "CROW_-R-Toe12"
+    ],
+    "center_bone": null,
+    "frames": 16,
+    "sole_below_root_cm": 0.27993332173355157,
+    "native_speed_cm_s": 42.274583194569466,
+    "forward_yaw_deg": 91.88423271117951,
+    "planted_samples": 129,
+    "speed_source": "planted_feet"
+  },
+  "crow": {
+    "mesh": "/Game/AnimalVarietyPack/Crow/Meshes/SK_Crow",
+    "clip": "/Game/AnimalVarietyPack/Crow/Animations/ANIM_Crow_Walk",
+    "clip_seconds": 0.5333333611488342,
+    "feet": [
+      "CROW_-L-Foot",
+      "CROW_-L-Toe0",
+      "CROW_-L-Toe01",
+      "CROW_-L-Toe02",
+      "CROW_-L-Toe1",
+      "CROW_-L-Toe11",
+      "CROW_-L-Toe12",
+      "CROW_-R-Foot",
+      "CROW_-R-Toe0",
+      "CROW_-R-Toe01",
+      "CROW_-R-Toe02",
+      "CROW_-R-Toe1",
+      "CROW_-R-Toe11",
+      "CROW_-R-Toe12"
+    ],
+    "center_bone": null,
+    "frames": 16,
+    "sole_below_root_cm": 0.27993332173355157,
+    "native_speed_cm_s": 42.274583194569466,
+    "forward_yaw_deg": 91.88423271117951,
+    "planted_samples": 129,
+    "speed_source": "planted_feet"
+  },
+  "doe:walk": {
+    "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe",
+    "clip": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Walk",
+    "clip_seconds": 1.0,
+    "feet": [
+      "DeerDoe_-L-Foot",
+      "DeerDoe_-R-Foot"
+    ],
+    "center_bone": null,
+    "frames": 30,
+    "sole_below_root_cm": -8.701186763282749,
+    "native_speed_cm_s": 112.58699395963342,
+    "forward_yaw_deg": 89.54065765061148,
+    "planted_samples": 34,
+    "speed_source": "planted_feet"
+  },
+  "doe:run": {
+    "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe",
+    "clip": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Run",
+    "clip_seconds": 0.800000011920929,
+    "feet": [
+      "DeerDoe_-L-Foot",
+      "DeerDoe_-R-Foot"
+    ],
+    "center_bone": null,
+    "frames": 24,
+    "sole_below_root_cm": -8.208434252614097
+  },
+  "doe": {
+    "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerDoe",
+    "clip": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerDoe_Walk",
+    "clip_seconds": 1.0,
+    "feet": [
+      "DeerDoe_-L-Foot",
+      "DeerDoe_-R-Foot"
+    ],
+    "center_bone": null,
+    "frames": 30,
+    "sole_below_root_cm": -8.701186763282749,
+    "native_speed_cm_s": 112.58699395963342,
+    "forward_yaw_deg": 89.54065765061148,
+    "planted_samples": 34,
+    "speed_source": "planted_feet"
+  },
+  "wolf:walk": {
+    "mesh": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf",
+    "clip": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Walk",
+    "clip_seconds": 1.0,
+    "feet": [
+      "Wolf_-L-Foot",
+      "Wolf_-R-Foot"
+    ],
+    "center_bone": null,
+    "frames": 30,
+    "sole_below_root_cm": -6.101982389824116,
+    "native_speed_cm_s": 88.47398840130748,
+    "forward_yaw_deg": 89.99246143237717,
+    "planted_samples": 34,
+    "speed_source": "planted_feet"
+  },
+  "wolf:run": {
+    "mesh": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf",
+    "clip": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Run",
+    "clip_seconds": 0.5333333611488342,
+    "feet": [
+      "Wolf_-L-Foot",
+      "Wolf_-R-Foot"
+    ],
+    "center_bone": null,
+    "frames": 16,
+    "sole_below_root_cm": -1.0676791379009956,
+    "native_speed_cm_s": 141.30503124458087,
+    "forward_yaw_deg": 89.95447825299365,
+    "planted_samples": 4,
+    "speed_source": "planted_feet"
+  },
+  "wolf": {
+    "mesh": "/Game/AnimalVarietyPack/Wolf/Meshes/SK_Wolf",
+    "clip": "/Game/AnimalVarietyPack/Wolf/Animations/ANIM_Wolf_Walk",
+    "clip_seconds": 1.0,
+    "feet": [
+      "Wolf_-L-Foot",
+      "Wolf_-R-Foot"
+    ],
+    "center_bone": null,
+    "frames": 30,
+    "sole_below_root_cm": -6.101982389824116,
+    "native_speed_cm_s": 88.47398840130748,
+    "forward_yaw_deg": 89.99246143237717,
+    "planted_samples": 34,
+    "speed_source": "planted_feet"
+  },
+  "gadget:run": {
+    "mesh": "/Game/ParagonGadget/Characters/Heroes/Gadget/Meshes/Gadget",
+    "clip": "/Game/ParagonGadget/Characters/Heroes/Gadget/Animations/Run_Fwd",
+    "clip_seconds": 2.200000047683716,
+    "feet": [
+      "foot_l",
+      "ball_l",
+      "foot_r",
+      "ball_r"
+    ],
+    "center_bone": "pelvis",
+    "frames": 66,
+    "sole_below_root_cm": 1.3047410860090167,
+    "root_drift_cm": 0.17601384610640114,
+    "center_height_cm": 101.93526538450533,
+    "native_speed_cm_s": 351.3170286462554,
+    "forward_yaw_deg": 90.06029752417669,
+    "planted_samples": 49,
+    "speed_source": "planted_feet"
+  },
+  "gadget": {
+    "mesh": "/Game/ParagonGadget/Characters/Heroes/Gadget/Meshes/Gadget",
+    "clip": "/Game/ParagonGadget/Characters/Heroes/Gadget/Animations/Run_Fwd",
+    "clip_seconds": 2.200000047683716,
+    "feet": [
+      "foot_l",
+      "ball_l",
+      "foot_r",
+      "ball_r"
+    ],
+    "center_bone": "pelvis",
+    "frames": 66,
+    "sole_below_root_cm": 1.3047410860090167,
+    "root_drift_cm": 0.17601384610640114,
+    "center_height_cm": 101.93526538450533,
+    "native_speed_cm_s": 351.3170286462554,
+    "forward_yaw_deg": 90.06029752417669,
+    "planted_samples": 49,
+    "speed_source": "planted_feet"
+  }
+}

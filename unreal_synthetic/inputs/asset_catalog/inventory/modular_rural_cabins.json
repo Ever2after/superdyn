@@ -1,0 +1,2946 @@
+{
+  "id": "modular_rural_cabins",
+  "roots": [
+    "/Game/Modular_Rural_Cabin"
+  ],
+  "class_counts": {
+    "World": 5,
+    "MaterialInstanceConstant": 99,
+    "Material": 10,
+    "StaticMesh": 160,
+    "Blueprint": 32,
+    "Texture2D": 280
+  },
+  "assets": [
+    {
+      "path": "/Game/Modular_Rural_Cabin/Maps/Foliage_Showcase",
+      "name": "Foliage_Showcase",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Maps/Modular_Cabins_Showcase",
+      "name": "Modular_Cabins_Showcase",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Maps/Modular_Showcase",
+      "name": "Modular_Showcase",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Maps/Props_Showcase",
+      "name": "Props_Showcase",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Maps/Rural_Cabins",
+      "name": "Rural_Cabins",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Decals/Dirt_Track_1",
+      "name": "Dirt_Track_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Decals/Dirt_Track_2",
+      "name": "Dirt_Track_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Decals/Dirt_Track_Gradient",
+      "name": "Dirt_Track_Gradient",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Decals/Forest_Ground",
+      "name": "Forest_Ground",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Decals/Leaking_1",
+      "name": "Leaking_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Decals/Leaking_2",
+      "name": "Leaking_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Decals/Scattered_Leaves",
+      "name": "Scattered_Leaves",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Air_Conditioning_Unit",
+      "name": "Air_Conditioning_Unit",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Axes",
+      "name": "Axes",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Barbecue",
+      "name": "Barbecue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Bark_Pine",
+      "name": "Bark_Pine",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Birch_Bark",
+      "name": "Birch_Bark",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Birch_Branches",
+      "name": "Birch_Branches",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Bush_1",
+      "name": "Bush_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Caravan",
+      "name": "Caravan",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Caravan_2",
+      "name": "Caravan_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Caravan_Addons",
+      "name": "Caravan_Addons",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Caravan_Windows",
+      "name": "Caravan_Windows",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Cardboard_Boxes",
+      "name": "Cardboard_Boxes",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Cardboard_Boxes_Open",
+      "name": "Cardboard_Boxes_Open",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Cat_Tail",
+      "name": "Cat_Tail",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Diorama_Ground",
+      "name": "Diorama_Ground",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Door_01",
+      "name": "Door_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Fence_Old",
+      "name": "Fence_Old",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Flag",
+      "name": "Flag",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Glass_Window",
+      "name": "Glass_Window",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Grass_Patch_1",
+      "name": "Grass_Patch_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Grass_Patch_2",
+      "name": "Grass_Patch_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Ivy",
+      "name": "Ivy",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Bark",
+      "name": "MI_Pine_Tree_Bark",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Branches",
+      "name": "MI_Pine_Tree_Branches",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Mailbox",
+      "name": "Mailbox",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Barrel_1",
+      "name": "Metal_Barrel_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Barrel_2",
+      "name": "Metal_Barrel_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Barrel_3",
+      "name": "Metal_Barrel_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Bucket",
+      "name": "Metal_Bucket",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Chimney",
+      "name": "Metal_Chimney",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Generic",
+      "name": "Metal_Generic",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Overhang",
+      "name": "Metal_Overhang",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Roof",
+      "name": "Metal_Roof",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Metal_Roof_blend",
+      "name": "Metal_Roof_blend",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Office_Chair",
+      "name": "Office_Chair",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Old_Planks",
+      "name": "Old_Planks",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Old_Sofa",
+      "name": "Old_Sofa",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Outhouse",
+      "name": "Outhouse",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Outhouse_Wood",
+      "name": "Outhouse_Wood",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Pallet",
+      "name": "Pallet",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Picnic_Table",
+      "name": "Picnic_Table",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Pier",
+      "name": "Pier",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Pine_Branches",
+      "name": "Pine_Branches",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Plastic_Chair",
+      "name": "Plastic_Chair",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Plastic_Trash_Bin",
+      "name": "Plastic_Trash_Bin",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Plastic_Trash_Bin_2",
+      "name": "Plastic_Trash_Bin_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Power_Pole",
+      "name": "Power_Pole",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Power_Pole_Addons",
+      "name": "Power_Pole_Addons",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Power_Pole_Light",
+      "name": "Power_Pole_Light",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Pumpkin_Sign",
+      "name": "Pumpkin_Sign",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Pumpkins",
+      "name": "Pumpkins",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Refrigerator_Old",
+      "name": "Refrigerator_Old",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/River_Stones",
+      "name": "River_Stones",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Road_Sign",
+      "name": "Road_Sign",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Rock_1",
+      "name": "Rock_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Rocking_Chair",
+      "name": "Rocking_Chair",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Rust_Generic",
+      "name": "Rust_Generic",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Rust_Roof",
+      "name": "Rust_Roof",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Sand",
+      "name": "Sand",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Satellite_Dish",
+      "name": "Satellite_Dish",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Shopping_Cart",
+      "name": "Shopping_Cart",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Showcase_Floor",
+      "name": "Showcase_Floor",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Shrubs",
+      "name": "Shrubs",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Side_Shed_Wood",
+      "name": "Side_Shed_Wood",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Stone_Chimney",
+      "name": "Stone_Chimney",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Table_Props",
+      "name": "Table_Props",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Tire",
+      "name": "Tire",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Tree_Stump",
+      "name": "Tree_Stump",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Utility_Boxes_1",
+      "name": "Utility_Boxes_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Utility_Boxes_2",
+      "name": "Utility_Boxes_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Water_Lake",
+      "name": "Water_Lake",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wheel_Barrow",
+      "name": "Wheel_Barrow",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Window_Frame",
+      "name": "Window_Frame",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Floor_01",
+      "name": "Wood_Floor_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Generic",
+      "name": "Wood_Generic",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Generic_Painted",
+      "name": "Wood_Generic_Painted",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Old",
+      "name": "Wood_Old",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_01",
+      "name": "Wood_Planks_01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Floor",
+      "name": "Wood_Planks_Floor",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted",
+      "name": "Wood_Planks_Painted",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_2",
+      "name": "Wood_Planks_Painted_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Blue",
+      "name": "Wood_Planks_Painted_Blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Green",
+      "name": "Wood_Planks_Painted_Green",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Red",
+      "name": "Wood_Planks_Painted_Red",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Yellow",
+      "name": "Wood_Planks_Painted_Yellow",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wooden_Boat",
+      "name": "Wooden_Boat",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wooden_Crate",
+      "name": "Wooden_Crate",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wooden_Crates",
+      "name": "Wooden_Crates",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wooden_Logs",
+      "name": "Wooden_Logs",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wooden_Planks",
+      "name": "Wooden_Planks",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wooden_Stairs",
+      "name": "Wooden_Stairs",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Instances/Wooden_Table_Small",
+      "name": "Wooden_Table_Small",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Basic",
+      "name": "MM_Basic",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Basic_Overlay",
+      "name": "MM_Basic_Overlay",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_DMAR_Overlay",
+      "name": "MM_DMAR_Overlay",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Decal",
+      "name": "MM_Decal",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Foliage",
+      "name": "MM_Foliage",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Glass",
+      "name": "MM_Glass",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Tree_Branches",
+      "name": "MM_Tree_Branches",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Tree_Trunk",
+      "name": "MM_Tree_Trunk",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Vertex_Color_Blend",
+      "name": "MM_Vertex_Color_Blend",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Materials/Masters/MM_Water",
+      "name": "MM_Water",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Bush_1",
+      "name": "Bush_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Bush_Tree",
+      "name": "Bush_Tree",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Cat_Tail",
+      "name": "Cat_Tail",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Cat_Tail_2",
+      "name": "Cat_Tail_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Flower_Patch_1",
+      "name": "Flower_Patch_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Grass_Patch_1",
+      "name": "Grass_Patch_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Grass_Patch_2",
+      "name": "Grass_Patch_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Grass_Patch_Long",
+      "name": "Grass_Patch_Long",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Ivy_1",
+      "name": "Ivy_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Ivy_2",
+      "name": "Ivy_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Ivy_3",
+      "name": "Ivy_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Ivy_4",
+      "name": "Ivy_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Ivy_5",
+      "name": "Ivy_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Ivy_6",
+      "name": "Ivy_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Ivy_Roots_1",
+      "name": "Ivy_Roots_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Pine_Tree",
+      "name": "Pine_Tree",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "name": "SM_Pine_Tree_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_02",
+      "name": "SM_Pine_Tree_02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_03",
+      "name": "SM_Pine_Tree_03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_04",
+      "name": "SM_Pine_Tree_04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_05",
+      "name": "SM_Pine_Tree_05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Shrubs_1",
+      "name": "Shrubs_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Foliage/Shrubs_1_Single",
+      "name": "Shrubs_1_Single",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Bottom_Extender_4m",
+      "name": "Bottom_Extender_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Porch_4x4m",
+      "name": "Porch_4x4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Porch_Roof_4x4m",
+      "name": "Porch_Roof_4x4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Porch_Roof_8x4m",
+      "name": "Porch_Roof_8x4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_4m",
+      "name": "Roof_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_Both_Ends_4m",
+      "name": "Roof_Both_Ends_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_2_Gap_Right_4m",
+      "name": "Roof_End_2_Gap_Right_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Gap_Left_4m",
+      "name": "Roof_End_Gap_Left_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Gap_Right_4m",
+      "name": "Roof_End_Gap_Right_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Left_4m",
+      "name": "Roof_End_Left_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Right_4m",
+      "name": "Roof_End_Right_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_Gap_4m",
+      "name": "Roof_Gap_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_Gap_Filler_4m",
+      "name": "Roof_Gap_Filler_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_4m",
+      "name": "Wall_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_8m",
+      "name": "Wall_8m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_4m",
+      "name": "Wall_Door_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_Window_A_4m",
+      "name": "Wall_Door_Window_A_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_Window_B_4m",
+      "name": "Wall_Door_Window_B_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_Windows_8m",
+      "name": "Wall_Door_Windows_8m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Pillar",
+      "name": "Wall_Pillar",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_4m",
+      "name": "Wall_Top_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Door_4m",
+      "name": "Wall_Top_Door_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Door_Window_A_4m",
+      "name": "Wall_Top_Door_Window_A_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Door_Window_B_4m",
+      "name": "Wall_Top_Door_Window_B_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Window_2_4m",
+      "name": "Wall_Top_Window_2_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Window_4m",
+      "name": "Wall_Top_Window_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Window_2_4m",
+      "name": "Wall_Window_2_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Window_4m",
+      "name": "Wall_Window_4m",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Bottom_Extender_4m",
+      "name": "Bottom_Extender_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Door_01",
+      "name": "Door_01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Porch_4x4m",
+      "name": "Porch_4x4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Porch_Roof_4x4m",
+      "name": "Porch_Roof_4x4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Porch_Roof_8x4m",
+      "name": "Porch_Roof_8x4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_4m",
+      "name": "Roof_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_Both_Ends_4m",
+      "name": "Roof_Both_Ends_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_End_2_Gap_Right_4m",
+      "name": "Roof_End_2_Gap_Right_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Gap_Left_4m",
+      "name": "Roof_End_Gap_Left_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Gap_Right_4m",
+      "name": "Roof_End_Gap_Right_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Left_4m",
+      "name": "Roof_End_Left_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Right_4m",
+      "name": "Roof_End_Right_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_Gap_4m",
+      "name": "Roof_Gap_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Roof_Gap_Filler_4m",
+      "name": "Roof_Gap_Filler_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_4m",
+      "name": "Wall_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_8m",
+      "name": "Wall_8m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_4m",
+      "name": "Wall_Door_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_A_4m",
+      "name": "Wall_Door_Window_A_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_B_4m",
+      "name": "Wall_Door_Window_B_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Windows_8m",
+      "name": "Wall_Door_Windows_8m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Pillar",
+      "name": "Wall_Pillar",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_4m",
+      "name": "Wall_Top_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Door_4m",
+      "name": "Wall_Top_Door_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Door_Window_A_4m",
+      "name": "Wall_Top_Door_Window_A_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Door_Window_B_4m",
+      "name": "Wall_Top_Door_Window_B_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Window_2_4m",
+      "name": "Wall_Top_Window_2_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Window_4m",
+      "name": "Wall_Top_Window_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Window_2_4m",
+      "name": "Wall_Window_2_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Wall_Window_4m",
+      "name": "Wall_Window_4m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Window_Frame_Blinder_Left",
+      "name": "Window_Frame_Blinder_Left",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Window_Frame_Blinder_Right",
+      "name": "Window_Frame_Blinder_Right",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Modular/Window_Frame_Part",
+      "name": "Window_Frame_Part",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Air_Conditioning_Unit",
+      "name": "Air_Conditioning_Unit",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Antenna",
+      "name": "Antenna",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Axe_1",
+      "name": "Axe_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Axe_2",
+      "name": "Axe_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Barbecue",
+      "name": "Barbecue",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Blueprints/Mailbox",
+      "name": "Mailbox",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Blueprints/Outhouse",
+      "name": "Outhouse",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Blueprints/Plastic_Trash_Bin",
+      "name": "Plastic_Trash_Bin",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Blueprints/Plastic_Trash_Bin_2",
+      "name": "Plastic_Trash_Bin_2",
+      "asset_class": "Blueprint"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Bowl",
+      "name": "Bowl",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Caravan",
+      "name": "Caravan",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_1",
+      "name": "Cardboard_Box_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_2",
+      "name": "Cardboard_Box_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_3",
+      "name": "Cardboard_Box_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_4",
+      "name": "Cardboard_Box_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_5",
+      "name": "Cardboard_Box_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_Open_1",
+      "name": "Cardboard_Box_Open_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_Open_2",
+      "name": "Cardboard_Box_Open_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_Open_3",
+      "name": "Cardboard_Box_Open_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Cutting_Board",
+      "name": "Cutting_Board",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Fence_Old_1_2m",
+      "name": "Fence_Old_1_2m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Fence_Old_2_2m",
+      "name": "Fence_Old_2_2m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Fence_Old_3_2m",
+      "name": "Fence_Old_3_2m",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Fence_Old_Pole",
+      "name": "Fence_Old_Pole",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Flag",
+      "name": "Flag",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Fork",
+      "name": "Fork",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Knive",
+      "name": "Knive",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_1",
+      "name": "Log_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_2",
+      "name": "Log_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_3",
+      "name": "Log_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_4",
+      "name": "Log_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_5",
+      "name": "Log_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_6",
+      "name": "Log_6",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_Pile_1",
+      "name": "Log_Pile_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_Pile_2",
+      "name": "Log_Pile_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Log_Pile_3",
+      "name": "Log_Pile_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Mailbox_Lid",
+      "name": "Mailbox_Lid",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Mailbox_Pole",
+      "name": "Mailbox_Pole",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Metal_Barrel",
+      "name": "Metal_Barrel",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Metal_Bucket",
+      "name": "Metal_Bucket",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Metal_Chimney_1",
+      "name": "Metal_Chimney_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Metal_Chimney_2",
+      "name": "Metal_Chimney_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Metal_Overhang",
+      "name": "Metal_Overhang",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Metal_Sheet_1",
+      "name": "Metal_Sheet_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Metal_Sheet_2",
+      "name": "Metal_Sheet_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Mug",
+      "name": "Mug",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Office_Chair",
+      "name": "Office_Chair",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_1",
+      "name": "Old_Planks_Plank_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_2",
+      "name": "Old_Planks_Plank_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_3",
+      "name": "Old_Planks_Plank_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_4",
+      "name": "Old_Planks_Plank_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_5",
+      "name": "Old_Planks_Plank_5",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plywood_1",
+      "name": "Old_Planks_Plywood_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plywood_2",
+      "name": "Old_Planks_Plywood_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Old_Sofa",
+      "name": "Old_Sofa",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Outhouse_Door",
+      "name": "Outhouse_Door",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Outhouse_House",
+      "name": "Outhouse_House",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Outhouse_Lid",
+      "name": "Outhouse_Lid",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Pallet",
+      "name": "Pallet",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Pallet_Broken",
+      "name": "Pallet_Broken",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Picnic_Table",
+      "name": "Picnic_Table",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Pier",
+      "name": "Pier",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Plastic_Chair",
+      "name": "Plastic_Chair",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Plastic_Trash_Bin_Bin",
+      "name": "Plastic_Trash_Bin_Bin",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Plastic_Trash_Bin_Lid",
+      "name": "Plastic_Trash_Bin_Lid",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Plate_1",
+      "name": "Plate_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Plate_2",
+      "name": "Plate_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Porch_Planks_1",
+      "name": "Porch_Planks_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Porch_Planks_2",
+      "name": "Porch_Planks_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Porch_Planks_3",
+      "name": "Porch_Planks_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Power_Pole_1",
+      "name": "Power_Pole_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Power_Pole_Addons",
+      "name": "Power_Pole_Addons",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Power_Pole_Light",
+      "name": "Power_Pole_Light",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Pumpkin_1",
+      "name": "Pumpkin_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Pumpkin_2",
+      "name": "Pumpkin_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Pumpkin_Sign",
+      "name": "Pumpkin_Sign",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Refrigerator_Old",
+      "name": "Refrigerator_Old",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/River_Stone_1",
+      "name": "River_Stone_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/River_Stone_2",
+      "name": "River_Stone_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/River_Stone_3",
+      "name": "River_Stone_3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/River_Stone_4",
+      "name": "River_Stone_4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/River_Stone_Set_1",
+      "name": "River_Stone_Set_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Road_Sign",
+      "name": "Road_Sign",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Rock_1",
+      "name": "Rock_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Rocking_Chair",
+      "name": "Rocking_Chair",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Satellite_Dish",
+      "name": "Satellite_Dish",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Shopping_Cart",
+      "name": "Shopping_Cart",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Side_Shed",
+      "name": "Side_Shed",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Spoon",
+      "name": "Spoon",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Stone_Chimney",
+      "name": "Stone_Chimney",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Tire",
+      "name": "Tire",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Tray",
+      "name": "Tray",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Tree_Stump_1",
+      "name": "Tree_Stump_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Utility_Box_1a",
+      "name": "Utility_Box_1a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Utility_Box_1b",
+      "name": "Utility_Box_1b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Utility_Box_2a",
+      "name": "Utility_Box_2a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Utility_Box_2b",
+      "name": "Utility_Box_2b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Wheel_Barrow",
+      "name": "Wheel_Barrow",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Wooden_Boat",
+      "name": "Wooden_Boat",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Wooden_Crate",
+      "name": "Wooden_Crate",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Wooden_Crate_1",
+      "name": "Wooden_Crate_1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Wooden_Crate_2",
+      "name": "Wooden_Crate_2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Wooden_Stairs",
+      "name": "Wooden_Stairs",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Props/Wooden_Table_Small",
+      "name": "Wooden_Table_Small",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Unique/Diorama_Ground",
+      "name": "Diorama_Ground",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Unique/Diorama_Water",
+      "name": "Diorama_Water",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Unique/Pole_Cables",
+      "name": "Pole_Cables",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Unique/ShowcaseFloor",
+      "name": "ShowcaseFloor",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Meshes/Utility/Reference_man",
+      "name": "Reference_man",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_1_DET",
+      "name": "Dirt_Track_1_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_1_Opacity",
+      "name": "Dirt_Track_1_Opacity",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_1_normal",
+      "name": "Dirt_Track_1_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_2_DET",
+      "name": "Dirt_Track_2_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_2_Opacity",
+      "name": "Dirt_Track_2_Opacity",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_2_normal",
+      "name": "Dirt_Track_2_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_Gradient_Opacity",
+      "name": "Dirt_Track_Gradient_Opacity",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Forest_Ground_DET",
+      "name": "Forest_Ground_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Forest_Ground_basecolor",
+      "name": "Forest_Ground_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Forest_Ground_normal",
+      "name": "Forest_Ground_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Leaking_1_Alpha",
+      "name": "Leaking_1_Alpha",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Leaking_2_Alpha",
+      "name": "Leaking_2_Alpha",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Scattered_Leaves_BaseColor",
+      "name": "Scattered_Leaves_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Scattered_Leaves_DET",
+      "name": "Scattered_Leaves_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Decals/Scattered_Leaves_Normal",
+      "name": "Scattered_Leaves_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Bark_Pine_BaseColor",
+      "name": "Bark_Pine_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Bark_Pine_DET",
+      "name": "Bark_Pine_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Bark_Pine_Normal",
+      "name": "Bark_Pine_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Birch_Bark_BaseColor",
+      "name": "Birch_Bark_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Birch_Bark_DET",
+      "name": "Birch_Bark_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Birch_Bark_Normal",
+      "name": "Birch_Bark_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Corrugated_Sheet_BaseColor",
+      "name": "Corrugated_Sheet_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Corrugated_Sheet_DET",
+      "name": "Corrugated_Sheet_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Corrugated_Sheet_Normal",
+      "name": "Corrugated_Sheet_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Dirt_Basecolor",
+      "name": "Dirt_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Dirt_DET",
+      "name": "Dirt_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Dirt_Normal",
+      "name": "Dirt_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Fabric_Detail_Normal",
+      "name": "Fabric_Detail_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Grass_Basecolor",
+      "name": "Grass_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Grass_DET",
+      "name": "Grass_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Grass_Height",
+      "name": "Grass_Height",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Grass_Normal",
+      "name": "Grass_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_Basecolor",
+      "name": "Ground_Dirt_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_DET",
+      "name": "Ground_Dirt_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_Height",
+      "name": "Ground_Dirt_Height",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_Normal",
+      "name": "Ground_Dirt_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Metal_Generic_BaseColor",
+      "name": "Metal_Generic_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Metal_Generic_DET",
+      "name": "Metal_Generic_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Metal_Generic_Normal",
+      "name": "Metal_Generic_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Metal_Roof_BaseColor",
+      "name": "Metal_Roof_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Moss_BaseColor",
+      "name": "Moss_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Moss_DET",
+      "name": "Moss_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Moss_Normal",
+      "name": "Moss_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Mud_Basecolor",
+      "name": "Mud_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Mud_DET",
+      "name": "Mud_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Mud_Height",
+      "name": "Mud_Height",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Mud_Normal",
+      "name": "Mud_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rock_Detail_Normal",
+      "name": "Rock_Detail_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_DET",
+      "name": "Rocky_Ground_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_basecolor",
+      "name": "Rocky_Ground_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_height",
+      "name": "Rocky_Ground_height",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_normal",
+      "name": "Rocky_Ground_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rust_Generic_BaseColor",
+      "name": "Rust_Generic_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rust_Generic_DET",
+      "name": "Rust_Generic_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rust_Generic_Normal",
+      "name": "Rust_Generic_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Rust_Roof_BaseColor",
+      "name": "Rust_Roof_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Sand_DET",
+      "name": "Sand_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Sand_basecolor",
+      "name": "Sand_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Sand_height",
+      "name": "Sand_height",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Sand_normal",
+      "name": "Sand_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Stone_Wall_DET",
+      "name": "Stone_Wall_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Stone_Wall_basecolor",
+      "name": "Stone_Wall_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Stone_Wall_normal",
+      "name": "Stone_Wall_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Water_2_basecolor",
+      "name": "Water_2_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Water_2_normal",
+      "name": "Water_2_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Water_basecolor",
+      "name": "Water_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Water_normal",
+      "name": "Water_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Detail_BaseColor",
+      "name": "Wood_Detail_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Detail_DET",
+      "name": "Wood_Detail_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Detail_Normal",
+      "name": "Wood_Detail_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Floor_01_DET",
+      "name": "Wood_Floor_01_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Floor_01_basecolor",
+      "name": "Wood_Floor_01_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Floor_01_normal",
+      "name": "Wood_Floor_01_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Generic_BaseColor",
+      "name": "Wood_Generic_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Generic_DET",
+      "name": "Wood_Generic_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Generic_Normal",
+      "name": "Wood_Generic_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Old_BaseColor",
+      "name": "Wood_Old_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Old_DET",
+      "name": "Wood_Old_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Old_Normal",
+      "name": "Wood_Old_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Paint_Overlay_Basecolor",
+      "name": "Wood_Paint_Overlay_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Paint_Overlay_DET",
+      "name": "Wood_Paint_Overlay_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Paint_Overlay_Normal",
+      "name": "Wood_Paint_Overlay_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_01_BaseColor",
+      "name": "Wood_Planks_01_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_01_DET",
+      "name": "Wood_Planks_01_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_01_Normal",
+      "name": "Wood_Planks_01_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Floor_DET",
+      "name": "Wood_Planks_Floor_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Floor_basecolor",
+      "name": "Wood_Planks_Floor_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Floor_normal",
+      "name": "Wood_Planks_Floor_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Paint_Mask",
+      "name": "Wood_Planks_Paint_Mask",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wooden_Planks_DET",
+      "name": "Wooden_Planks_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wooden_Planks_basecolor",
+      "name": "Wooden_Planks_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Tiling/Wooden_Planks_normal",
+      "name": "Wooden_Planks_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Air_Conditioning_Unit_BaseColor",
+      "name": "Air_Conditioning_Unit_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Air_Conditioning_Unit_DET",
+      "name": "Air_Conditioning_Unit_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Air_Conditioning_Unit_Normal",
+      "name": "Air_Conditioning_Unit_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Axes_BaseColor",
+      "name": "Axes_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Axes_DET",
+      "name": "Axes_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Axes_Normal",
+      "name": "Axes_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Barbecue_BaseColor",
+      "name": "Barbecue_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Barbecue_DET",
+      "name": "Barbecue_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Barbecue_Normal",
+      "name": "Barbecue_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Birch_Branch_Basecolor",
+      "name": "Birch_Branch_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Birch_Branches_DET",
+      "name": "Birch_Branches_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Birch_Branches_normal",
+      "name": "Birch_Branches_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Bush_1_DET",
+      "name": "Bush_1_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Bush_1_basecolor",
+      "name": "Bush_1_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Bush_1_normal",
+      "name": "Bush_1_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Caravan_DMAR",
+      "name": "Caravan_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Caravan_Windows_BaseColor",
+      "name": "Caravan_Windows_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Caravan_Windows_DET",
+      "name": "Caravan_Windows_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Caravan_Windows_Normal",
+      "name": "Caravan_Windows_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Caravan_addons_BaseColor",
+      "name": "Caravan_addons_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Caravan_addons_DET",
+      "name": "Caravan_addons_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Caravan_addons_Normal",
+      "name": "Caravan_addons_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_BaseColor",
+      "name": "Cardboard_Boxes_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_DET",
+      "name": "Cardboard_Boxes_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Normal",
+      "name": "Cardboard_Boxes_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Open_BaseColor",
+      "name": "Cardboard_Boxes_Open_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Open_DET",
+      "name": "Cardboard_Boxes_Open_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Open_Normal",
+      "name": "Cardboard_Boxes_Open_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cat_Tail_Basecolor",
+      "name": "Cat_Tail_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cat_Tail_DET",
+      "name": "Cat_Tail_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Cat_Tail_Normal",
+      "name": "Cat_Tail_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Door_01_BaseColor",
+      "name": "Door_01_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Door_01_DET",
+      "name": "Door_01_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Door_01_Normal",
+      "name": "Door_01_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Fence_Old_DMAR",
+      "name": "Fence_Old_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Flag_BaseColor",
+      "name": "Flag_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Flag_DET",
+      "name": "Flag_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Flag_Normal",
+      "name": "Flag_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_1_DET",
+      "name": "Grass_Patch_1_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_1_basecolor",
+      "name": "Grass_Patch_1_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_1_normal",
+      "name": "Grass_Patch_1_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_2_BaseColor",
+      "name": "Grass_Patch_2_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_2_DET",
+      "name": "Grass_Patch_2_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_2_Normal",
+      "name": "Grass_Patch_2_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Ivy_DET",
+      "name": "Ivy_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Ivy_basecolor",
+      "name": "Ivy_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Ivy_normal",
+      "name": "Ivy_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Mailbox_BaseColor",
+      "name": "Mailbox_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Mailbox_DET",
+      "name": "Mailbox_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Mailbox_Normal",
+      "name": "Mailbox_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_1_BaseColor",
+      "name": "Metal_Barrel_1_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_2_BaseColor",
+      "name": "Metal_Barrel_2_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_3_BaseColor",
+      "name": "Metal_Barrel_3_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_DET",
+      "name": "Metal_Barrel_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_Normal",
+      "name": "Metal_Barrel_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Bucket_BaseColor",
+      "name": "Metal_Bucket_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Bucket_DET",
+      "name": "Metal_Bucket_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Bucket_Normal",
+      "name": "Metal_Bucket_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Chimney_BaseColor",
+      "name": "Metal_Chimney_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Chimney_DET",
+      "name": "Metal_Chimney_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Chimney_Normal",
+      "name": "Metal_Chimney_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Overhang_Basecolor",
+      "name": "Metal_Overhang_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Overhang_DET",
+      "name": "Metal_Overhang_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Metal_Overhang_Normal",
+      "name": "Metal_Overhang_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Office_Chair_BaseColor",
+      "name": "Office_Chair_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Office_Chair_DET",
+      "name": "Office_Chair_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Office_Chair_Normal",
+      "name": "Office_Chair_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Old_Planks_Basecolor",
+      "name": "Old_Planks_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Old_Planks_DET",
+      "name": "Old_Planks_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Old_Planks_Normal",
+      "name": "Old_Planks_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Old_Sofa_BaseColor",
+      "name": "Old_Sofa_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Old_Sofa_DET",
+      "name": "Old_Sofa_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Old_Sofa_Normal",
+      "name": "Old_Sofa_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Outhouse_BaseColor",
+      "name": "Outhouse_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Outhouse_DET",
+      "name": "Outhouse_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Outhouse_DMAR",
+      "name": "Outhouse_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Outhouse_Normal",
+      "name": "Outhouse_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pallet_BaseColor",
+      "name": "Pallet_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pallet_DET",
+      "name": "Pallet_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pallet_Normal",
+      "name": "Pallet_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Picnic_Table_BaseColor",
+      "name": "Picnic_Table_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Picnic_Table_DET",
+      "name": "Picnic_Table_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Picnic_Table_Normal",
+      "name": "Picnic_Table_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pier_DMAR",
+      "name": "Pier_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pine_Branches_Basecolor",
+      "name": "Pine_Branches_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pine_Branches_DET",
+      "name": "Pine_Branches_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pine_Branches_normal",
+      "name": "Pine_Branches_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Plastic_Chair_BaseColor",
+      "name": "Plastic_Chair_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Plastic_Chair_DET",
+      "name": "Plastic_Chair_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Plastic_Chair_Normal",
+      "name": "Plastic_Chair_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_2_BaseColor",
+      "name": "Plastic_Trash_Bin_2_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_BaseColor",
+      "name": "Plastic_Trash_Bin_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_DET",
+      "name": "Plastic_Trash_Bin_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_Normal",
+      "name": "Plastic_Trash_Bin_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_DMAR",
+      "name": "Power_Pole_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_BaseColor",
+      "name": "Power_Pole_Light_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_DET",
+      "name": "Power_Pole_Light_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_Emissive",
+      "name": "Power_Pole_Light_Emissive",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_Normal",
+      "name": "Power_Pole_Light_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_addons_BaseColor",
+      "name": "Power_Pole_addons_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_addons_DET",
+      "name": "Power_Pole_addons_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Power_Pole_addons_Normal",
+      "name": "Power_Pole_addons_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pumpkin_Sign_BaseColor",
+      "name": "Pumpkin_Sign_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pumpkin_Sign_DET",
+      "name": "Pumpkin_Sign_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pumpkin_Sign_Normal",
+      "name": "Pumpkin_Sign_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pumpkins_BaseColor",
+      "name": "Pumpkins_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pumpkins_DET",
+      "name": "Pumpkins_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Pumpkins_Normal",
+      "name": "Pumpkins_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Refrigerator_Old_BaseColor",
+      "name": "Refrigerator_Old_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Refrigerator_Old_DET",
+      "name": "Refrigerator_Old_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Refrigerator_Old_Normal",
+      "name": "Refrigerator_Old_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/River_Stones_BaseColor",
+      "name": "River_Stones_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/River_Stones_DET",
+      "name": "River_Stones_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/River_Stones_Normal",
+      "name": "River_Stones_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Road_Sign_BaseColor",
+      "name": "Road_Sign_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Road_Sign_DET",
+      "name": "Road_Sign_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Road_Sign_Normal",
+      "name": "Road_Sign_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Rock_1_BaseColor",
+      "name": "Rock_1_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Rock_1_DET",
+      "name": "Rock_1_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Rock_1_Normal",
+      "name": "Rock_1_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Rocking_Chair_BaseColor",
+      "name": "Rocking_Chair_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Rocking_Chair_DET",
+      "name": "Rocking_Chair_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Rocking_Chair_Normal",
+      "name": "Rocking_Chair_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Satellite_Dish_BaseColor",
+      "name": "Satellite_Dish_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Satellite_Dish_DET",
+      "name": "Satellite_Dish_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Satellite_Dish_Normal",
+      "name": "Satellite_Dish_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Shopping_Cart_DET",
+      "name": "Shopping_Cart_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Shopping_Cart_basecolor",
+      "name": "Shopping_Cart_basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Shopping_Cart_normal",
+      "name": "Shopping_Cart_normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Shrubs_Basecolor",
+      "name": "Shrubs_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Shrubs_DET",
+      "name": "Shrubs_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Shrubs_Normal",
+      "name": "Shrubs_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Side_Shed_DMAR",
+      "name": "Side_Shed_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_BaseColor",
+      "name": "Stone_Chimney_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_DET",
+      "name": "Stone_Chimney_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_DMAR",
+      "name": "Stone_Chimney_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_Normal",
+      "name": "Stone_Chimney_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/T_TT_Pine_Tree_Bark_BaseColor",
+      "name": "T_TT_Pine_Tree_Bark_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/T_TT_Pine_Tree_Bark_DET",
+      "name": "T_TT_Pine_Tree_Bark_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/T_TT_Pine_Tree_Bark_Normal",
+      "name": "T_TT_Pine_Tree_Bark_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/T_UT_Pine_Tree_Branches_Basecolor",
+      "name": "T_UT_Pine_Tree_Branches_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/T_UT_Pine_Tree_Branches_DET",
+      "name": "T_UT_Pine_Tree_Branches_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/T_UT_Pine_Tree_Branches_Normal",
+      "name": "T_UT_Pine_Tree_Branches_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Table_Props_BaseColor",
+      "name": "Table_Props_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Table_Props_DET",
+      "name": "Table_Props_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Table_Props_Normal",
+      "name": "Table_Props_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Tire_BaseColor",
+      "name": "Tire_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Tire_DET",
+      "name": "Tire_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Tire_Normal",
+      "name": "Tire_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Tree_Stump_1_DET",
+      "name": "Tree_Stump_1_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Tree_Stump_1_Normal",
+      "name": "Tree_Stump_1_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_1_BaseColor",
+      "name": "UtilityBoxes_1_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_1_DET",
+      "name": "UtilityBoxes_1_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_1_Normal",
+      "name": "UtilityBoxes_1_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_2_BaseColor",
+      "name": "UtilityBoxes_2_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_2_DET",
+      "name": "UtilityBoxes_2_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_2_Normal",
+      "name": "UtilityBoxes_2_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wheel_Barrow_BaseColor",
+      "name": "Wheel_Barrow_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wheel_Barrow_DET",
+      "name": "Wheel_Barrow_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wheel_Barrow_Normal",
+      "name": "Wheel_Barrow_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Window_Frame_BaseColor",
+      "name": "Window_Frame_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Window_Frame_DET",
+      "name": "Window_Frame_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Window_Frame_Normal",
+      "name": "Window_Frame_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Window_Glass_BaseColor",
+      "name": "Window_Glass_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Window_Glass_DET",
+      "name": "Window_Glass_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Window_Glass_Normal",
+      "name": "Window_Glass_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Boat_DMAR",
+      "name": "Wooden_Boat_DMAR",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Crate_BaseColor",
+      "name": "Wooden_Crate_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Crate_DET",
+      "name": "Wooden_Crate_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Crate_Normal",
+      "name": "Wooden_Crate_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Crates_BaseColor",
+      "name": "Wooden_Crates_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Crates_DET",
+      "name": "Wooden_Crates_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Crates_Normal",
+      "name": "Wooden_Crates_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Logs_BaseColor",
+      "name": "Wooden_Logs_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Logs_DET",
+      "name": "Wooden_Logs_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Logs_Normal",
+      "name": "Wooden_Logs_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Stairs_BaseColor",
+      "name": "Wooden_Stairs_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Stairs_DET",
+      "name": "Wooden_Stairs_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Stairs_Normal",
+      "name": "Wooden_Stairs_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Table_Small_BaseColor",
+      "name": "Wooden_Table_Small_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Table_Small_DET",
+      "name": "Wooden_Table_Small_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/Wooden_Table_Small_Normal",
+      "name": "Wooden_Table_Small_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Unique/tree_Stump_1_BaseColor",
+      "name": "Tree_Stump_1_BaseColor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Utility/Default_Basecolor",
+      "name": "Default_Basecolor",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Utility/Default_DET",
+      "name": "Default_DET",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Utility/Default_Emissive",
+      "name": "Default_Emissive",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Utility/Default_Normal",
+      "name": "Default_Normal",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/Modular_Rural_Cabin/Textures/Utility/T_TT_Gradient_Mask",
+      "name": "T_TT_Gradient_Mask",
+      "asset_class": "Texture2D"
+    }
+  ]
+}

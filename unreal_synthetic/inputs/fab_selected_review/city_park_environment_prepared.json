@@ -1,0 +1,5626 @@
+{
+  "source": {
+    "id": "city_park_environment",
+    "category": "배경",
+    "rank": 2,
+    "title": "City Park Environment Collection",
+    "listing_id": "11cc2abb-126c-4452-9fe4-6f2381d96544",
+    "source_url": "https://www.fab.com/listings/11cc2abb-126c-4452-9fe4-6f2381d96544",
+    "owned": false,
+    "status": "awaiting_library_addition"
+  },
+  "original_files_verified": 1123,
+  "original_bytes": 4365042758,
+  "asset_id": "c56a42ca613c47f788ac1ca23d30d996",
+  "engine": {
+    "artifactId": "CityPark4a0303ba7c3fV1",
+    "matchType": "fallback",
+    "requested": "UE_5.8",
+    "selected": "UE_5.7",
+    "available": [
+      "UE_4.24",
+      "UE_4.25",
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4",
+      "UE_5.5",
+      "UE_5.6",
+      "UE_5.7"
+    ]
+  },
+  "copied_content": [
+    {
+      "path": "Content/CityPark/Blueprints/BP_SplineMeshes.uasset",
+      "sha1": "927c657fb616efda01c60134c43eb2c900a86094",
+      "bytes": 142749
+    },
+    {
+      "path": "Content/CityPark/Maps/Overview.umap",
+      "sha1": "da5f6ec3ee3722e12c15b7b02510e27f9af9eac6",
+      "bytes": 830057
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase.umap",
+      "sha1": "7b5222ddc98899fc68a949b3492f8f65c6c59f97",
+      "bytes": 461579065
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_BuiltData.uasset",
+      "sha1": "4ebd04876c90f042ecd61e0a39e667f2641ae289",
+      "bytes": 8389966
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_NotOptimized.umap",
+      "sha1": "9b1c1eef0016245cd250806875b076615c856773",
+      "bytes": 527740386
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_sharedassets/1_LayerInfo.uasset",
+      "sha1": "264d57acd7c5ce1f1ad0f5e44147460b32757da3",
+      "bytes": 1380
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_sharedassets/2_LayerInfo.uasset",
+      "sha1": "686b0431dc46048fda323b743eeb8db9847f23b8",
+      "bytes": 1380
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_sharedassets/3_LayerInfo.uasset",
+      "sha1": "ad40c5d8979d6b45bce1b2a05eb30737728b18e6",
+      "bytes": 1380
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_sharedassets/4_LayerInfo.uasset",
+      "sha1": "0c55393ce72084639ad716623e6241e077d8755d",
+      "bytes": 1380
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_sharedassets/5_LayerInfo.uasset",
+      "sha1": "d8d9fb54d5ac0fac610c375d0e52895e9400f179",
+      "bytes": 1380
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_sharedassets/6_LayerInfo.uasset",
+      "sha1": "5c385709a877e22e338aed9e0f21cc9c898f7705",
+      "bytes": 1380
+    },
+    {
+      "path": "Content/CityPark/Maps/Showcase_sharedassets/7_LayerInfo.uasset",
+      "sha1": "cf8085cca58287c9e54dcd337090656d398f383e",
+      "bytes": 1380
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_BaseballField.uasset",
+      "sha1": "a873d1aadd7f1742a63d7fc137580c7d565bbfab",
+      "bytes": 130052
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_FloraShader_V_04.uasset",
+      "sha1": "4b272897b289f243478e10863c66219521d52f78",
+      "bytes": 183597
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_GlassShader_V_02.uasset",
+      "sha1": "74a4191cfb2d9813d52d11963a3699b7f8e48a94",
+      "bytes": 126357
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_gray.uasset",
+      "sha1": "738bf73823dc791b25f097f7f18ecf22b781dd30",
+      "bytes": 88458
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_LandscapeShader_V_01.uasset",
+      "sha1": "4829bceca6fbef2830173e61ad7b90a3ccaaa5ba",
+      "bytes": 231138
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_MainShader_V_11.uasset",
+      "sha1": "43bfc556327e6d110b8d9d5b7b138e4aadc93bac",
+      "bytes": 331451
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_Particle_water.uasset",
+      "sha1": "9c3a35ae26034553065b33b7108423a210d3fce1",
+      "bytes": 72239
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_PixelNormalShader_V_01.uasset",
+      "sha1": "0df99bd149a341d8a458c88b3bc47c466bf01d15",
+      "bytes": 155385
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/M_WaterShader_V_01.uasset",
+      "sha1": "1bf99d1d1d8c5e697c58e58e368eac40aef0ec60",
+      "bytes": 133038
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/MaterialFunction/MF_FlipbookWindAddSpeed.uasset",
+      "sha1": "307cc750d1a387c5b33b42182e30b7fc54f45a31",
+      "bytes": 104240
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/MaterialFunction/MF_LandscapeLayer1.uasset",
+      "sha1": "39e9a3163ae46af99bf8e7be6e977b11b0ba5145",
+      "bytes": 95369
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/MaterialFunction/MF_LandscapeTexturePosition1.uasset",
+      "sha1": "0a76f004dea53caa74463241c86fc663a99a589f",
+      "bytes": 87224
+    },
+    {
+      "path": "Content/CityPark/Materials/BaseMaterial/PostProcessingMaterial/M_Unsharp.uasset",
+      "sha1": "870a791339572eee3ab7b8db22b93241abadb3e3",
+      "bytes": 89308
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_BuildingsGlass.uasset",
+      "sha1": "5978d15c4527a6b64404609b2e99d7cd5e82f840",
+      "bytes": 92910
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_CafeBuilding01.uasset",
+      "sha1": "99857f976dcba42200ef193a2b4dc03ba6d202bd",
+      "bytes": 93327
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_CafeGlass01.uasset",
+      "sha1": "ec3d769affbe65f8c36c4dd4cce253c85ff94c4c",
+      "bytes": 82466
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Floor01.uasset",
+      "sha1": "dbea22aedb30fed4a4a1f569485a3ed7cf49a9a0",
+      "bytes": 96769
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_House01.uasset",
+      "sha1": "d9da5775c66491908cc1bd5b1677398330210406",
+      "bytes": 88283
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_House02.uasset",
+      "sha1": "ade6b7d96b44d1f12f8bc31de5a610fb17276a00",
+      "bytes": 90543
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_RoofTile01_1.uasset",
+      "sha1": "8680a87c67a69f9bf611904b5a060a51526f6b87",
+      "bytes": 103910
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_RoofTile01_2.uasset",
+      "sha1": "87ff76afb2062f7139ae37ebe6d7986b090aa87e",
+      "bytes": 78613
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_RoofTile02_1.uasset",
+      "sha1": "1e4368433a7c41988291daf0c18cb7dd241c5f17",
+      "bytes": 97140
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_RoofTile02_2.uasset",
+      "sha1": "ff6909e434290bb1a5ab39bd857954d890077263",
+      "bytes": 96304
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_RoofTile02_3.uasset",
+      "sha1": "e6edcb5d229ea847b501e4864d0c74b2486f20d5",
+      "bytes": 96556
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_RoofTile02_4.uasset",
+      "sha1": "1193f9c01eb269b40f84667f4f551bdc72af204c",
+      "bytes": 88477
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Stairs01.uasset",
+      "sha1": "e61479d19783054a3e7c11b72e27bd88108bca46",
+      "bytes": 101115
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall01_1.uasset",
+      "sha1": "109f6fa453a30961f00cb4f8e5584f8c437d53b4",
+      "bytes": 112818
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_1.uasset",
+      "sha1": "5a40ac729bfe697b7989b819cc350fad94295716",
+      "bytes": 98675
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_2.uasset",
+      "sha1": "b2eaa5f2f1a1d13e05c9f568ba31274b8b9ab172",
+      "bytes": 88989
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_3.uasset",
+      "sha1": "74fabd81f188a61a2a24decd0b67f10f5c96c865",
+      "bytes": 99448
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_4.uasset",
+      "sha1": "9b6200bce61d0a58518b4e7bc499ace29d91a760",
+      "bytes": 103390
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_5.uasset",
+      "sha1": "40873b20470d2d3f272334dcc4a96ec314a7079a",
+      "bytes": 99957
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_6.uasset",
+      "sha1": "b71067130091d696f1d7b069aff837d0fb6e33e3",
+      "bytes": 95521
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_7.uasset",
+      "sha1": "426974f4e8a3a76a4d2763a71cec808b2dbe3f07",
+      "bytes": 99128
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_8.uasset",
+      "sha1": "6059e946abc83d79079eef63246d930aec1e5474",
+      "bytes": 103665
+    },
+    {
+      "path": "Content/CityPark/Materials/Buildings/MI_Wall02_9.uasset",
+      "sha1": "74fc60ffc31d7bf740d8e739eb4caea4bf263cf2",
+      "bytes": 79870
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush01.uasset",
+      "sha1": "66aee82db3726623b41af099fbacdfee7b2da598",
+      "bytes": 140729
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush01_2.uasset",
+      "sha1": "45bb532d84d7009482179c18576baaa145698d06",
+      "bytes": 143236
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush02.uasset",
+      "sha1": "c62da1fc485bb3e779c100e40c58c10a8a1c0629",
+      "bytes": 135611
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush02_2.uasset",
+      "sha1": "bf301047a11d34ed622d39f22a5cba534b36763b",
+      "bytes": 135222
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush04.uasset",
+      "sha1": "626c05f50523f6350a47a882cad827860f8ca98f",
+      "bytes": 139466
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush04_2.uasset",
+      "sha1": "53a70d741098eadc847d860fde51f4e76df11e6e",
+      "bytes": 146950
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush05.uasset",
+      "sha1": "4faad3df903f036155d18ad9cbbffd456232350f",
+      "bytes": 134283
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Bushs/MI_Bush05_2.uasset",
+      "sha1": "347d1803f1a427ca641d337735185a630878f4b3",
+      "bytes": 140408
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass01.uasset",
+      "sha1": "2646c4ea4118a160c69a3cfb74be53f1eb2783ce",
+      "bytes": 132586
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass02.uasset",
+      "sha1": "6b1a8710248a89857dc288de068805a1972b4c35",
+      "bytes": 104016
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass03.uasset",
+      "sha1": "5400361d11183d7bf0ec3dc8acc82446f7a3ec5a",
+      "bytes": 102543
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass04.uasset",
+      "sha1": "20d87d855120a2769c4e7668f05100103fff0386",
+      "bytes": 100315
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass05.uasset",
+      "sha1": "b303f4b6d5476c7332ca271c451eff5f8ddee4c0",
+      "bytes": 101801
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass06.uasset",
+      "sha1": "c1882e21f77a244deefa57cefe13b74669159697",
+      "bytes": 127187
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass07.uasset",
+      "sha1": "6b05d5e888543172542e5f4b9db7c4f2369a779b",
+      "bytes": 121083
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass08.uasset",
+      "sha1": "18e2abd153c251327b1f9571e24ffae8a3d52b9e",
+      "bytes": 131119
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass09.uasset",
+      "sha1": "346beeb7970b21005fc66cdc75fd31acdee6e5b9",
+      "bytes": 136775
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass10.uasset",
+      "sha1": "ab93611eb6ddc4723e34fdbffedb236a99ad0c32",
+      "bytes": 136918
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass11.uasset",
+      "sha1": "b5ed50a5d54ab903b59eab7b8cc766eadb4723db",
+      "bytes": 120805
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass12.uasset",
+      "sha1": "2d71538954aa2b73b5ba830754426039a830f854",
+      "bytes": 131196
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass13.uasset",
+      "sha1": "a9ae03daa00209c146bf9f8f0a7bc3dde6a1ba95",
+      "bytes": 115229
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Grass14.uasset",
+      "sha1": "c0273ecb711cc49177520cb365af72f5e653b2ba",
+      "bytes": 113823
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_Lawn01.uasset",
+      "sha1": "04d9d67942c66ee6a78cdb041b9f52b46bc09695",
+      "bytes": 119213
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Grass/MI_WaterPlants.uasset",
+      "sha1": "596f6bef33b446942d6bf91d4aa1dffac506d2f2",
+      "bytes": 117718
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Ivy/MI_Ivy01.uasset",
+      "sha1": "2f3ec41494cc30b338cefd2e92a3ca7264a7de3e",
+      "bytes": 124128
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/MI_BushMaster.uasset",
+      "sha1": "1f3980f3e95bd57eb66006f4231f55a8b8550356",
+      "bytes": 99942
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/MI_GrassMaster.uasset",
+      "sha1": "983732c4db21a47a728ca24e84f2dd7b00c5ef6d",
+      "bytes": 93662
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/MI_TreeMaster.uasset",
+      "sha1": "0aaea2800b14acd58a66c14f39e7fbdbf1cbecca",
+      "bytes": 98894
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_AmurCorkBranch01.uasset",
+      "sha1": "441382ab9b59486b3600d54c18cba30b34eab407",
+      "bytes": 132313
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_ElmBranch01.uasset",
+      "sha1": "a4593e417e1bcb5e1e35ec22979dc18d6b235f2b",
+      "bytes": 129487
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_MapleBranch01.uasset",
+      "sha1": "d8bf5afc69e7df1bdfd713d92ba71eab882bc509",
+      "bytes": 128107
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_TreeBark01.uasset",
+      "sha1": "b92381aafd576c3d60eadb3caf48527a74d7f835",
+      "bytes": 116371
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_TreeBark02_1.uasset",
+      "sha1": "54b005664f6456e4dcf59ef45e0e9b3647e0e585",
+      "bytes": 112661
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_TreeBark02_2.uasset",
+      "sha1": "4ae516b615743e89814bf087ed60d1a890445cb5",
+      "bytes": 108383
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_TreeBark03.uasset",
+      "sha1": "e3ede09b06d522470380c1426a39c05a63039052",
+      "bytes": 113347
+    },
+    {
+      "path": "Content/CityPark/Materials/Flora/Trees/MI_WeepingWillowBranch01.uasset",
+      "sha1": "11c9cf5c0951dfeb9eb841bfc76960dfd51e042d",
+      "bytes": 145700
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_DryLeaves.uasset",
+      "sha1": "16e6c4278bae6bd39eaaff24270b1f72ba5af557",
+      "bytes": 106778
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Ground01.uasset",
+      "sha1": "0cd89ed35c4f696e70059fbd882940700ceb37df",
+      "bytes": 112457
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Ground02.uasset",
+      "sha1": "e9e0d1acdab0f315c3298ae537be456940d40c2d",
+      "bytes": 108658
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Ground03.uasset",
+      "sha1": "c8bc082738881e822bfe62dd1d4f1aa8465a5619",
+      "bytes": 101607
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Landscape.uasset",
+      "sha1": "39d35af8f642bc71c18d7c98e40394ad20937e5d",
+      "bytes": 107078
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock01.uasset",
+      "sha1": "f5a2590126c0732ad7fb271692a3588dd4c2d97d",
+      "bytes": 104142
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock01_2.uasset",
+      "sha1": "cadc16061c3a2a81403e50875dd5cda19a537ccc",
+      "bytes": 105361
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock04.uasset",
+      "sha1": "8189b66a0cc8a236222836a70bf75e079aa97429",
+      "bytes": 102794
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock04_2.uasset",
+      "sha1": "adfdfd8c2ba650372ebaed95d2985475cfd5acde",
+      "bytes": 104922
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock06.uasset",
+      "sha1": "e0b62b1da419c34b34d1f0856a830fd132fe8469",
+      "bytes": 102155
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock06_2.uasset",
+      "sha1": "699505d02c17576182c5a3c5970e8c7f7b259c95",
+      "bytes": 102942
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock07.uasset",
+      "sha1": "3ed10f0eff775dbb33fbe6478493a0e6dfac6420",
+      "bytes": 107784
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Rock07_2.uasset",
+      "sha1": "f4754ea45102379227509e8c9880a605b03562bc",
+      "bytes": 110149
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Stone01.uasset",
+      "sha1": "55935a91a8a9449787c5a885079036b24110512d",
+      "bytes": 99115
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Water1.uasset",
+      "sha1": "cd9b52ef45ef4f8d6e5f3775eecba8fe71ad8778",
+      "bytes": 91430
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Water2.uasset",
+      "sha1": "5e327f8ac84fca1e16ec8ce3cb5e9dbf90e3f329",
+      "bytes": 110455
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Water3.uasset",
+      "sha1": "d6a1e94fc1e96f84ba55a70d8047c77477d5cca6",
+      "bytes": 115500
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Water4.uasset",
+      "sha1": "ad80d4f42e01e5c51fef8c0d846f842981ad0a32",
+      "bytes": 104604
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Water5.uasset",
+      "sha1": "e9aa7d6b1291c691c68176e1e50a9dd8004a3173",
+      "bytes": 87267
+    },
+    {
+      "path": "Content/CityPark/Materials/Ground/MI_Water6.uasset",
+      "sha1": "2e9cfc6898fdc579a5669a534131989f0e2dbd83",
+      "bytes": 109206
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_Fountain01.uasset",
+      "sha1": "5b9a0e5b50a1d33bb21007fbb259c7488a86fcb5",
+      "bytes": 92446
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare01.uasset",
+      "sha1": "f333e06413cd106bd0f0be6d11fe5b8801ebf578",
+      "bytes": 102883
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare02.uasset",
+      "sha1": "0d58fe283c38d4e1e41236b1c6b4fdb7f563509c",
+      "bytes": 102516
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare03.uasset",
+      "sha1": "ed41ac8bb7700574c55911e8c74a1fac7af31f58",
+      "bytes": 100023
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare04.uasset",
+      "sha1": "15eff15a25060516b363f40a6e5dca68fe714f23",
+      "bytes": 109314
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare04_2.uasset",
+      "sha1": "4b7a40af5fb3a3448dbc09d68f500fa05b973fce",
+      "bytes": 110304
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare05.uasset",
+      "sha1": "9ae50420c39f635a9a16575c3603c642222027fa",
+      "bytes": 99156
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare06.uasset",
+      "sha1": "7f73c61f396edf0e66ba6e3b88356e7148bfe72f",
+      "bytes": 103491
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare07.uasset",
+      "sha1": "651f91c8883459d6bb736e3f5a6ef35b1c979ada",
+      "bytes": 102876
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare08.uasset",
+      "sha1": "c3dd43f96887a10365e6b329c6f0d3836d5c6787",
+      "bytes": 105230
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare09.uasset",
+      "sha1": "783792a235ac221780c2b98f177a9767e90ac38c",
+      "bytes": 103573
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare10.uasset",
+      "sha1": "8df61c1e99d9bec529fa8275990c9e9862d7eacb",
+      "bytes": 98118
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare11.uasset",
+      "sha1": "0fc9f3ded3c67ec27aacca9e2af6c8033368fa90",
+      "bytes": 105701
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquare13.uasset",
+      "sha1": "e800707001b10e757a865461f013c477091925b2",
+      "bytes": 93513
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_ParkSquareDoor01.uasset",
+      "sha1": "c84a2a98dd631383f3431edff547220136e768d4",
+      "bytes": 85226
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_Pool01.uasset",
+      "sha1": "ec1c5306bf1d3b690c82d521085161ea670bc4e1",
+      "bytes": 95115
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_Pool02_1.uasset",
+      "sha1": "ab7f733adc2a1bea9539b28649ba5ccb6bc45989",
+      "bytes": 92234
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_Pool02_2.uasset",
+      "sha1": "5b0e40609194da75a6c0f577cf36ece39cf1b518",
+      "bytes": 85552
+    },
+    {
+      "path": "Content/CityPark/Materials/ParkSquare/MI_Pool02_3.uasset",
+      "sha1": "186bb1b34b839fac2314893d35338ae184aee2e8",
+      "bytes": 97963
+    },
+    {
+      "path": "Content/CityPark/Materials/Particles/MI_Fountain.uasset",
+      "sha1": "27fc1ede045e9afdb9e71d607b359f5cae615dc5",
+      "bytes": 75694
+    },
+    {
+      "path": "Content/CityPark/Materials/Particles/MI_Leaves.uasset",
+      "sha1": "aa0903ac209348d69f09e8f921063b52c69d0d71",
+      "bytes": 130230
+    },
+    {
+      "path": "Content/CityPark/Materials/Particles/MI_Splash1.uasset",
+      "sha1": "9d99a730228620917af4dadb3b8ff431895f904b",
+      "bytes": 74777
+    },
+    {
+      "path": "Content/CityPark/Materials/Particles/MI_Splash2.uasset",
+      "sha1": "9a8941df1dea6b5fb9c78c460dee0e7708ad61e5",
+      "bytes": 75401
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_01.uasset",
+      "sha1": "004f23c7dfc8f88b0e3e7fbf30c4429639d2b8b9",
+      "bytes": 105141
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_02.uasset",
+      "sha1": "62906505d6c405eb715e56792b0c07e442ba4e31",
+      "bytes": 109146
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_03.uasset",
+      "sha1": "fb5a25643940a7eaecdfd7e6875202a6f8cfed88",
+      "bytes": 100271
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_04.uasset",
+      "sha1": "22d6cb7b90aa61bfffcdb0537f4d4b2c74b42901",
+      "bytes": 107118
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_05.uasset",
+      "sha1": "03fc305a5480556812415a1c83e40f372633bf57",
+      "bytes": 112409
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_06.uasset",
+      "sha1": "01fd9898620d54ec7c1fbc159265ed205d6c55a0",
+      "bytes": 100410
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_07.uasset",
+      "sha1": "f02fc407903e5a79db3f7c0def0a2b9ad3828281",
+      "bytes": 99459
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_08.uasset",
+      "sha1": "3bbf6ad4cdfdef561f0c0cbad4ef359ae07e8776",
+      "bytes": 111127
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_09.uasset",
+      "sha1": "53050805511ceb7ca09d35d19dc13dc677ec0a62",
+      "bytes": 105589
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground1_10.uasset",
+      "sha1": "4ae155a3bb7076e22e2eb74cbf34c502e7d2a791",
+      "bytes": 108330
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground2_01.uasset",
+      "sha1": "79632e376472ff8e8bd411108165b3861ab9d57d",
+      "bytes": 83018
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground2_02.uasset",
+      "sha1": "b08ecc0827955913c93218fac98272d192b55a60",
+      "bytes": 84988
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground3_01.uasset",
+      "sha1": "339968b0fddb01e0cc3ebe34688a582952cca6e3",
+      "bytes": 98631
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground4_01.uasset",
+      "sha1": "ebb826954277c9249550c8d46cf0cadfaf53d7e7",
+      "bytes": 102915
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground4_02.uasset",
+      "sha1": "0190107420d61dfbcb9f3f125e57f0452d2cb3b4",
+      "bytes": 103733
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground4_03.uasset",
+      "sha1": "09fed883cc0efe0ca456497fcf603eb8a234820c",
+      "bytes": 104065
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground4_04.uasset",
+      "sha1": "d2ac62ba6cabaecd2fa78e4665c395187239d3c2",
+      "bytes": 100971
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground4_05.uasset",
+      "sha1": "7d2851366ae8c862c2abd9938bfc6e2b15e0ecc8",
+      "bytes": 100523
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground4_06.uasset",
+      "sha1": "c8bfc26fd3d03867010b0221246cb875d2a3a87c",
+      "bytes": 102257
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground4_07.uasset",
+      "sha1": "60e10014aff027961492f5f99a43eff04dad8085",
+      "bytes": 103563
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground5_01.uasset",
+      "sha1": "a810d4ea30bc41febd4071ee15caf9fe9e45440e",
+      "bytes": 116327
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground5_02.uasset",
+      "sha1": "2df7e594eb744098aaff049c939d04f612930d42",
+      "bytes": 104312
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground5_03.uasset",
+      "sha1": "630f524a730b98dac613021765618cb60850cea7",
+      "bytes": 119716
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground5_04.uasset",
+      "sha1": "4d6e89bff532cb5b05030abc9bb1073876c50985",
+      "bytes": 117382
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground5_05.uasset",
+      "sha1": "254a78f7b21fd78c8372db7b14b0fdc79e0fc055",
+      "bytes": 114055
+    },
+    {
+      "path": "Content/CityPark/Materials/Playground/MI_Playground5_06.uasset",
+      "sha1": "2f6c188b69144eb2eccf98e982bccf53b53e5b5a",
+      "bytes": 117354
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench1_01.uasset",
+      "sha1": "739c481b8a9f34ad9deed7a2dd8bb8058efc35d4",
+      "bytes": 87046
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench2_01.uasset",
+      "sha1": "be5ed6444516351826e05fbca085063213ed18b4",
+      "bytes": 99368
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench2_02.uasset",
+      "sha1": "6c832546794e26008887173605b72656031d1765",
+      "bytes": 100328
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench2_03.uasset",
+      "sha1": "94870f0b9cf8ab1cd9c79c96cde11c059c46dc69",
+      "bytes": 94028
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench2_04.uasset",
+      "sha1": "76953741aa666b923db5962b347dcdd66b6543bc",
+      "bytes": 91623
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench3_01.uasset",
+      "sha1": "e5b059602bb177b09d250beb3e5a338ec8a7afbe",
+      "bytes": 91648
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench3_02.uasset",
+      "sha1": "a60fc8b37bd25407a739a5121e5a112edf1dccf5",
+      "bytes": 91801
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench3_03.uasset",
+      "sha1": "df6fbc07f9684765ab0644c1e471760cfc55d7c6",
+      "bytes": 92922
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bench3_04.uasset",
+      "sha1": "4f2df5c43caf334c73b60daa3f7048afbe729278",
+      "bytes": 91856
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_BorderWood.uasset",
+      "sha1": "0ac062f3adfeebf8b36b65ec65ab152c9072ab74",
+      "bytes": 105611
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Bower_1.uasset",
+      "sha1": "48f217e5946389fbed79b62bfa516e46288bb1ab",
+      "bytes": 100876
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeChair01_1.uasset",
+      "sha1": "9258d291cfe3cb421ccdd3a090ec31543879080e",
+      "bytes": 88954
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeChair01_2.uasset",
+      "sha1": "8d46e6ab9deaa4da160d4aeb02a32603fc237101",
+      "bytes": 100900
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeChair02_1.uasset",
+      "sha1": "f1534402a277962a51c68bb3ee9e8909322ec725",
+      "bytes": 94804
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeChair02_2.uasset",
+      "sha1": "9659745707e004535c6d217ac6f38f632f22ab5c",
+      "bytes": 79179
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeTable01_1.uasset",
+      "sha1": "d6d496f4d3b85af6d86c68660cfe2b772a6d6f97",
+      "bytes": 101134
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeTable01_2.uasset",
+      "sha1": "d55bb368e9197eeb17c9fe8c3d5a25ce3b83de8b",
+      "bytes": 104681
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeTable01_3.uasset",
+      "sha1": "5bd1fba9b4fedfa67dc7683911c67db0ef10418b",
+      "bytes": 96846
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_CafeTableCloth01.uasset",
+      "sha1": "34f1d8836dec377022d67762f94d006980416237",
+      "bytes": 96908
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_DrinkingFountain_1.uasset",
+      "sha1": "6063f1cb4558b7725840383892dfab34167513c1",
+      "bytes": 99814
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Fence01_1.uasset",
+      "sha1": "7e4e490db380cd9aa0f2935cc92f6093e2132b2c",
+      "bytes": 102515
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Fence01_2.uasset",
+      "sha1": "50a764d76c1a4375b82bdd49704fc5efbf49c930",
+      "bytes": 93722
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Fence02.uasset",
+      "sha1": "5f5c58867326a4cf26fdd8403aed4dae32224829",
+      "bytes": 93371
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Fence03.uasset",
+      "sha1": "4350f10ea85d466d734466ace2d27662b45dde85",
+      "bytes": 81052
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Fence04.uasset",
+      "sha1": "64ce5b4dc8b7f43c0974c005765b8f7fcbf0bab7",
+      "bytes": 84114
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Fence05.uasset",
+      "sha1": "d328685ee069ef2674ecb9dba24ae271fea89c6f",
+      "bytes": 94335
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Fence06.uasset",
+      "sha1": "257127a8d8e9bffd9af34b6fb94b0133f37d6cea",
+      "bytes": 76539
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_FoodStalls01.uasset",
+      "sha1": "a7e0a7eb42dbbe3f037e3540f3f05a2dfe4047e9",
+      "bytes": 103834
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_FoodStallsGlass01.uasset",
+      "sha1": "30cb932b52d1c7c6d2c63c41cdb87e0cb37dea2a",
+      "bytes": 92949
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_LampPost01.uasset",
+      "sha1": "655f5171bdfbfd03b2b6434aee6db97225150713",
+      "bytes": 80017
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_LampPost01Glass.uasset",
+      "sha1": "ec760892cb7442ebb236a1dd7f8851f8d7b06e3e",
+      "bytes": 93286
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_LampPost02.uasset",
+      "sha1": "2e0202c223d85b08131902ccb8786256b517ea02",
+      "bytes": 86090
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Manholes01.uasset",
+      "sha1": "1f8c07bc2665645059491ea6b738750a255bc07a",
+      "bytes": 100847
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Net.uasset",
+      "sha1": "b504a2ae95947d2def9125145f9f9a4c68499843",
+      "bytes": 89699
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Newspaper01_1.uasset",
+      "sha1": "bccb004a9de5c50d2acc743958a9a539b2541be9",
+      "bytes": 105591
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_ParkFence01_01.uasset",
+      "sha1": "053519c3b36baf785cbd7d9226fae339757ec43a",
+      "bytes": 95004
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_RoadBlock01.uasset",
+      "sha1": "e60103de9857498850631a44d2b199da2fdc9192",
+      "bytes": 85125
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_RoadSigns01.uasset",
+      "sha1": "372c6a091b8fb5981307973bcf955473592fe558",
+      "bytes": 104742
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Statue01_1.uasset",
+      "sha1": "9ae09177660efe046000dd6e66e2ee7d7ac63910",
+      "bytes": 83239
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Statue02.uasset",
+      "sha1": "ee454cbd9c3f93cd650704aea2a9fb901c29c8b5",
+      "bytes": 96620
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Statue03.uasset",
+      "sha1": "9fdafa5cf62ce7803c36cf184729ce5332fc2bb5",
+      "bytes": 122000
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_TrafficBarrel01_1.uasset",
+      "sha1": "af0b7d9a0783dce7a4a9a851e84e6ab9a07793c8",
+      "bytes": 100688
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_TrafficLight.uasset",
+      "sha1": "4e5949f93121e4bc850a9d8a791b02b343e718bc",
+      "bytes": 107678
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_TrashCan01_1.uasset",
+      "sha1": "2ac839e569fbe7aac780c969df4ccc5a2939eac2",
+      "bytes": 81002
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Umbrella01_1.uasset",
+      "sha1": "10e9a9527eafa39b1f1ee357d221209e60696e48",
+      "bytes": 97870
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Umbrella01_2.uasset",
+      "sha1": "02336df7eb55c837198dba45ae4afac5a0db510d",
+      "bytes": 101703
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Umbrella01_3.uasset",
+      "sha1": "5cfcc14f34c1838de8ee7f6b83f3c1e95eb5ff54",
+      "bytes": 102055
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Umbrella02_1.uasset",
+      "sha1": "6a9c5a4c890c1cfd1f0c83ca82ac3005ec3d4e5d",
+      "bytes": 104770
+    },
+    {
+      "path": "Content/CityPark/Materials/Props/MI_Umbrella02_2.uasset",
+      "sha1": "6fc3c51cc2ac92afda60d9c2c5d7b5942e2429db",
+      "bytes": 102595
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Asphalt01.uasset",
+      "sha1": "13f4596f07d450b36cb029c8fd4352612166b63c",
+      "bytes": 86460
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Asphalt02.uasset",
+      "sha1": "1db566382ec40733557b4e82f9414c7892698542",
+      "bytes": 99041
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Asphalt03.uasset",
+      "sha1": "33505f6b0c1ec6a20d3932eb4f821cd8c7643194",
+      "bytes": 91753
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Border01.uasset",
+      "sha1": "a444498a742964cae4b48b10b9bb593f382dd521",
+      "bytes": 90424
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Bridge01_1.uasset",
+      "sha1": "3f76e2c92e10d24ae92b00e45ae3633f203af9fb",
+      "bytes": 104918
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Bridge01_2.uasset",
+      "sha1": "16665b4518d72ee2143f8a7822b26c179db725e5",
+      "bytes": 109882
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Bridge02_1.uasset",
+      "sha1": "c3d736d4b9cbcf7101b29cb723afe7cd26b263ec",
+      "bytes": 102679
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Bridge02_4.uasset",
+      "sha1": "123260ea2ba36d6dcdc7d1efb6bea8ce7126ca13",
+      "bytes": 95663
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Bridge03_1.uasset",
+      "sha1": "cb1ccdaa5dbfcfa515203ddc1028bbc0fab9dc11",
+      "bytes": 103149
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Bridge03_2.uasset",
+      "sha1": "8c5c247850acd08c3f2cb7abc432954dcd46c229",
+      "bytes": 99383
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_LeakDecal01.uasset",
+      "sha1": "21ec6594f7ff56193fad0a752a21842ea78aef0b",
+      "bytes": 85274
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_LeakDecal02.uasset",
+      "sha1": "ae9421448d0c04aa828f307c8a377e9280573e4b",
+      "bytes": 85414
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_ParkPath.uasset",
+      "sha1": "3c6de58249edecd01cc517c9b77d4a7fa9ff8f39",
+      "bytes": 98618
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_RoadDecal01.uasset",
+      "sha1": "3bab0cc7e9f80988f56c0b57ded4219ada6b86a8",
+      "bytes": 94953
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Sidewalk01.uasset",
+      "sha1": "a57bbbbdd7b4014b57fba8d7e936468fb3455219",
+      "bytes": 99193
+    },
+    {
+      "path": "Content/CityPark/Materials/Road/MI_Sidewalk02.uasset",
+      "sha1": "b37bbecabe4e3f899bdd363ca9eab9d4f9591a73",
+      "bytes": 106446
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_BaseballField1.uasset",
+      "sha1": "d43b18f68b5d38c9b09d19f7cde368b6d85d012b",
+      "bytes": 117007
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_BaseballGround.uasset",
+      "sha1": "687a80d00f71a962c48092a7e1e0edef6f563ab3",
+      "bytes": 83276
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_BasketballField1.uasset",
+      "sha1": "4750b2e7fb4c0c09d91fe89667845b7d40e376b7",
+      "bytes": 93423
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_BasketballField2.uasset",
+      "sha1": "b60b774d006cfd4f7d3ef0300d00e97daf95abea",
+      "bytes": 100575
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_BasketballField3.uasset",
+      "sha1": "43ad306b336f0915d3550f2414be936c1427cc12",
+      "bytes": 99276
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_BasketballHoop.uasset",
+      "sha1": "9ae82cd5309dc449d06691689a7b6e7df1309468",
+      "bytes": 82255
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_BasketballHoopGlass.uasset",
+      "sha1": "5a2489e9ca02a037ea1620bff0f9e5ca2d7202a7",
+      "bytes": 95053
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_FootballField1.uasset",
+      "sha1": "6e21a6f45d80647a7e21195df9fbde8b5722a52c",
+      "bytes": 102866
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_FootballField2.uasset",
+      "sha1": "d02a2158b75b4d83fdae329fdc7116487fca8628",
+      "bytes": 91660
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_FootballField3.uasset",
+      "sha1": "1a9a113b2e980b84df87a09ec1cdb32a4b0d9335",
+      "bytes": 129433
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_FootballGate.uasset",
+      "sha1": "17039ee7c11e79f7a2c6de89fc24a13a14bc7481",
+      "bytes": 85311
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_FootballNet.uasset",
+      "sha1": "449222e8a57db1c51c2251ce0ca75ffd99988716",
+      "bytes": 97120
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_TennisField01.uasset",
+      "sha1": "f4caca461aeae03b300b02ce445fbbc7cf54b8f0",
+      "bytes": 93444
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_TennisField2.uasset",
+      "sha1": "e4058eaffbb1263e9c8ed52643c6c2a548ecc4fc",
+      "bytes": 97498
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_TennisField3.uasset",
+      "sha1": "0edf2ccf6e3e98cf937749e4ec840b9647c71a59",
+      "bytes": 99178
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_TennisField4.uasset",
+      "sha1": "c9ef01fa8732287c41793d43ab37f8430015aa80",
+      "bytes": 98692
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_TennisNet1.uasset",
+      "sha1": "b1a82c9b7041c0e9e3ae09cdbe25fc924adc8de3",
+      "bytes": 84773
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_Tribune01.uasset",
+      "sha1": "489b522117cae8034a9438d8180f184efb56bd8f",
+      "bytes": 91503
+    },
+    {
+      "path": "Content/CityPark/Materials/SportsGround/MI_Tribune02.uasset",
+      "sha1": "b827e0b177a929f89950b7aef05ef377b849602e",
+      "bytes": 92919
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_CafeBuilding01.uasset",
+      "sha1": "57fd34bd77b1241b11c31b31023b72615c4969a1",
+      "bytes": 1128383
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_CafeBuilding02.uasset",
+      "sha1": "4b0838de47e54567f793912847dcc77d78131b78",
+      "bytes": 598678
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_CafeBuilding03.uasset",
+      "sha1": "f52db92b404de6ce21991968844458746f9fc11c",
+      "bytes": 651066
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_CafeBuilding04.uasset",
+      "sha1": "22920f21688fe8de318d132df01094557cec4109",
+      "bytes": 230879
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_CafeBuilding05.uasset",
+      "sha1": "f26606d8caf6f4c0c205fd5d50bcc9fa98266a38",
+      "bytes": 138815
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_House01.uasset",
+      "sha1": "a8bda9e40570cddee5facb0efb855c67e8486e47",
+      "bytes": 254760
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_House02_1.uasset",
+      "sha1": "eca600b0787220f504bec74af9be7c247f5a8296",
+      "bytes": 315532
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_House02_2.uasset",
+      "sha1": "4d6c7d3f51d33c4c315a13aeefdb574a335dc553",
+      "bytes": 1183553
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_House02_3.uasset",
+      "sha1": "3069133eb54dc733da232f879e684df18086c5f5",
+      "bytes": 223744
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_House02_4.uasset",
+      "sha1": "8fb87390436e18f4f5f196099b8481f3b622a218",
+      "bytes": 219125
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_House02_5.uasset",
+      "sha1": "65f811c65c5066bf9735c94897a1c62af0ae6df3",
+      "bytes": 205143
+    },
+    {
+      "path": "Content/CityPark/Meshes/Buildings/SM_House02_6.uasset",
+      "sha1": "8c4c2dbe62a1e6ab00346868dab2e4b4b0f8e678",
+      "bytes": 123727
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush1_01.uasset",
+      "sha1": "3128a15870ae7f61982a6ae0cd0e8b3b1c82f914",
+      "bytes": 130208
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush1_02.uasset",
+      "sha1": "f48bd6c933a1e55517d5d6283fe8a77a9e15cd6d",
+      "bytes": 208433
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush1_03.uasset",
+      "sha1": "d68475cc78d5263f5d6c19c5e16de3f964b8e770",
+      "bytes": 281829
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush1_04.uasset",
+      "sha1": "38a5452f49fd79f886a96e443bc9657f60c35122",
+      "bytes": 558356
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush1_05.uasset",
+      "sha1": "07314eae37abb2891f1a8f50838e40443a775802",
+      "bytes": 271814
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush2_01.uasset",
+      "sha1": "3c47811eb846a9bd87a09842d2a546424bf04a4e",
+      "bytes": 161070
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush2_02.uasset",
+      "sha1": "55a38784cff212ec820e181199a9573aa1069165",
+      "bytes": 288515
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush2_03.uasset",
+      "sha1": "fa00488d9840c714b74e7633e44cb47d253b7633",
+      "bytes": 364144
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush2_04.uasset",
+      "sha1": "d72d54a0465bfcaca1ce3720f9fbe61c6e86ed99",
+      "bytes": 1002085
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush2_05.uasset",
+      "sha1": "612bc9c88c3b43c380c8beaa844ca9d892e92977",
+      "bytes": 2228123
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush3_01.uasset",
+      "sha1": "07deddd0c84aeaff21b2c772ebaaa96fe5fa4626",
+      "bytes": 715924
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush3_02.uasset",
+      "sha1": "ef9646806c936cdd45efd3515a75d808e9982419",
+      "bytes": 1285602
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush3_03.uasset",
+      "sha1": "9d75d39d784b9ff26547554db125da9cb13d34df",
+      "bytes": 1427483
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush4_01.uasset",
+      "sha1": "2df067929a123621b35b2cc4c8f4b0f2462d7543",
+      "bytes": 184372
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush4_02.uasset",
+      "sha1": "80850284a8cafa56055c92c168472fa39764700b",
+      "bytes": 276140
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush4_03.uasset",
+      "sha1": "4560beba94d4ccb805b638dbca053bd60906837a",
+      "bytes": 376030
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush4_04.uasset",
+      "sha1": "4f14a0958616144d95a9ad6b683c90d9c9704acf",
+      "bytes": 473445
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush5_01.uasset",
+      "sha1": "24bf0a4858228ad758d031fd7698be25b88889f9",
+      "bytes": 305804
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush5_02.uasset",
+      "sha1": "8735ed564bdbb3b221c9ba092ffad93e86a0405e",
+      "bytes": 642984
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush5_03.uasset",
+      "sha1": "ef19d9d93cf997276a8880ed4682028e0c722755",
+      "bytes": 1060022
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Bushs/SM_Bush5_04.uasset",
+      "sha1": "0e7da7dced4aba5544f003a53873e55c1e75d063",
+      "bytes": 2746159
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass01_1.uasset",
+      "sha1": "548e5828d1f75e335ca00bc83ea40a1c06e9c9cb",
+      "bytes": 142604
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass01_2.uasset",
+      "sha1": "83548f210e17489d54b81f177977ba6713a48c28",
+      "bytes": 126932
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass01_3.uasset",
+      "sha1": "23b6f0e6a49916dad33adf915446c2ae0b960717",
+      "bytes": 146089
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass01_4.uasset",
+      "sha1": "874119caaacfa77b74dd47aba6dcb1536597c395",
+      "bytes": 164511
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass01_5.uasset",
+      "sha1": "17521d661fd35f8004505101f59676b38ba12d03",
+      "bytes": 113696
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass02.uasset",
+      "sha1": "220b76adc28a890b2c8d753240ca07f96b8d423f",
+      "bytes": 118709
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass03.uasset",
+      "sha1": "e0bd3e8abe848d32f03cddee88fd17696b40a47d",
+      "bytes": 113236
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass04.uasset",
+      "sha1": "788cc44d6eeccef8a86e9561cdcc322506379603",
+      "bytes": 112654
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass05.uasset",
+      "sha1": "bf35014113b10ac8138af2b91ab96681ea07da29",
+      "bytes": 106852
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass06_1.uasset",
+      "sha1": "b02256ff7447c7ed7627643775f73b8f98c26aff",
+      "bytes": 147333
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass06_2.uasset",
+      "sha1": "99ff455d60a8dfc70780becb63682b6267d2fd6e",
+      "bytes": 137094
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass06_3.uasset",
+      "sha1": "d0d609a9887c3d761dff7330fd525a4dd11f410c",
+      "bytes": 104020
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass06_4.uasset",
+      "sha1": "5dd10051dbf89c6682c2cc70865effd4e68fefd1",
+      "bytes": 103072
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass06_5.uasset",
+      "sha1": "0d6a940f3c9bf535cd905b16c5a71191afceb4aa",
+      "bytes": 141162
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass07_1.uasset",
+      "sha1": "5629a6b4f7f875f6be7006cc2d1777f72a1bc0de",
+      "bytes": 119209
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass07_2.uasset",
+      "sha1": "b6818b076ced99c6a8a4190188c5e50c13ec86d6",
+      "bytes": 123819
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass08_1.uasset",
+      "sha1": "63ea1998786ae0e81b774bb6217efe8ae1b7a010",
+      "bytes": 102831
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass08_2.uasset",
+      "sha1": "982f1fbdae5a4b37d68506176f2958e1315e327e",
+      "bytes": 116215
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass08_3.uasset",
+      "sha1": "d7f607b6ac8a217cb956ffc071976b82f55acbca",
+      "bytes": 157445
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass09_1.uasset",
+      "sha1": "6310f75a43e6120a8d4ecc813f98abc1b5490ade",
+      "bytes": 131409
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass09_2.uasset",
+      "sha1": "6589f17773152a73e9b3cbafec6dabef29930e1e",
+      "bytes": 120423
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass09_3.uasset",
+      "sha1": "351297829a194274a0f5cce41db2121a669083c5",
+      "bytes": 135559
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass09_4.uasset",
+      "sha1": "376f58809fd09839e26fab76bce19ec5f20eb270",
+      "bytes": 186153
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass09_5.uasset",
+      "sha1": "b9d0f64624b23da42789dd6584ab53c0e6c1df0b",
+      "bytes": 247821
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_grass10_1.uasset",
+      "sha1": "255e602ac8f15aaac547d637821f5991b111f3e4",
+      "bytes": 98766
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass10_2.uasset",
+      "sha1": "7163c72f070871a9c69adf4125088bb6fdfdda6b",
+      "bytes": 94394
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass10_3.uasset",
+      "sha1": "6d7280928561b0676e2cfc17292df218cb7bd921",
+      "bytes": 148174
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass10_4.uasset",
+      "sha1": "fe4520f7811618e4ff150c01a4d222f0b0128a1d",
+      "bytes": 229468
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass10_5.uasset",
+      "sha1": "c7a9f881f336fb3d398f36717dfc65f16e4e052c",
+      "bytes": 305733
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass10_6.uasset",
+      "sha1": "06da1d800c7e61dd33dcff75eed1c54261057867",
+      "bytes": 274373
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass10_7.uasset",
+      "sha1": "2d103e4eb5003be57bab96911052163254dc8423",
+      "bytes": 332088
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass10_8.uasset",
+      "sha1": "7c909736b47441b17c49548c73ec224c7caf570d",
+      "bytes": 163157
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass11_1.uasset",
+      "sha1": "1300a7f08bba30d222da67fcf739a17cebaee6be",
+      "bytes": 96222
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass11_2.uasset",
+      "sha1": "c0068efa2d3ccce8d5376b0d87cbdb82fce274cf",
+      "bytes": 105676
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass11_3.uasset",
+      "sha1": "7388c7a19dab85ae9be71c5a0f5ebc56fc76570f",
+      "bytes": 120917
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass11_4.uasset",
+      "sha1": "8992feb59be3c8db6b1cb0a0f08b47026ce286b5",
+      "bytes": 126315
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass12_1.uasset",
+      "sha1": "2a137f7c51a5d1bbc2964079a26f5f7f7793977d",
+      "bytes": 81648
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass12_2.uasset",
+      "sha1": "4dfbe217204b7d8c2241efea88133dd85d1b05f9",
+      "bytes": 85381
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass12_3.uasset",
+      "sha1": "4f5a65b5db0906941b79ab7ebbc64903c888429f",
+      "bytes": 88612
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass12_4.uasset",
+      "sha1": "86c3c1df40f355c245b60731abd81e96e886ae40",
+      "bytes": 92914
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass12_5.uasset",
+      "sha1": "4c7d19feac993f3b18da46efcaabf37515069b51",
+      "bytes": 106340
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass12_6.uasset",
+      "sha1": "8e75d096721b07a6259cb6185c5331a2da2cee6c",
+      "bytes": 114601
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass13_1.uasset",
+      "sha1": "8e5114a1b4acb4432b294f5f8aff7430c2247c03",
+      "bytes": 199559
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass13_2.uasset",
+      "sha1": "e96f4c1d7d7f28ed8dafc9d8ce8c2c5fa97f0b67",
+      "bytes": 184087
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass13_3.uasset",
+      "sha1": "245f31967ccb0fa656cfd1ba369fdc3f85df0d0b",
+      "bytes": 164160
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass13_4.uasset",
+      "sha1": "b05c316268d00b3291f8dfcb6251b46b0e4f9986",
+      "bytes": 132396
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass14_1.uasset",
+      "sha1": "ed9cda5a763b4928d78173b125eee919871196b8",
+      "bytes": 140384
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Grass14_2.uasset",
+      "sha1": "3d2460d252097e6f9e109517a99ce34c4389fb26",
+      "bytes": 172167
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_Lawn01_1.uasset",
+      "sha1": "e121e0d0f5c914bf735486fb7a4957e86820ccea",
+      "bytes": 105637
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_SmallBush1_01.uasset",
+      "sha1": "431e771e0196540b6617c511824a5edc2dc24058",
+      "bytes": 118235
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_SmallBush1_02.uasset",
+      "sha1": "4f5171392a1f6282dced9f0d5c3be0e2578ed75c",
+      "bytes": 104669
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_SmallBush2_01.uasset",
+      "sha1": "1afa55fb1c94b1a37837402ac37b9481c734baf8",
+      "bytes": 115129
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_SmallBush2_02.uasset",
+      "sha1": "32c6d0e671876e72603a7be1c9795096a563a4d7",
+      "bytes": 119725
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_WaterPlant01.uasset",
+      "sha1": "c291091869c6e4f4da28053e4037c23c8c3f1d3b",
+      "bytes": 86775
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_WaterPlant02.uasset",
+      "sha1": "69dd4fbe62806228db5e6afa5de4401d4c447214",
+      "bytes": 89169
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_WaterPlant03.uasset",
+      "sha1": "20b4eaafbc14116a0279d0cb42bde119053a0c93",
+      "bytes": 90958
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Grass/SM_WaterPlant04.uasset",
+      "sha1": "18f6be94e9e1aae703e2ef1bd18811c8f9edc8da",
+      "bytes": 95951
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_01.uasset",
+      "sha1": "8f966ac1c35b336004706b6f9678bfdd657439c1",
+      "bytes": 775667
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_02.uasset",
+      "sha1": "0c1be63aa27921a1571d2309eb3cddc4228dd481",
+      "bytes": 703165
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_03.uasset",
+      "sha1": "71a113226b179b85d864a88a05fcca8898376199",
+      "bytes": 413861
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_04.uasset",
+      "sha1": "e5ec3fac8f3822e0076684ac89db04b2d6540b21",
+      "bytes": 352528
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_05.uasset",
+      "sha1": "bb69f3683c2e725d82dac58136293113f18f77c5",
+      "bytes": 380752
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_06.uasset",
+      "sha1": "397ec30def7eaa7343f3eac3b47105467b5667de",
+      "bytes": 185722
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_07.uasset",
+      "sha1": "e09b3a0b393fe83864a99696a804875a28259cb0",
+      "bytes": 344865
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_08.uasset",
+      "sha1": "3a89e1e33192de39963316e0b5aa622b473ff527",
+      "bytes": 326323
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_09.uasset",
+      "sha1": "857fc379405572bbbbf9b67c3663937c13e2dff8",
+      "bytes": 258191
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_10.uasset",
+      "sha1": "ea2703aed93d01d6a3bb8b497c233e01eea48b37",
+      "bytes": 119715
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_11.uasset",
+      "sha1": "62c15dba3225927a6ac1d1c4fd55cc676143b36c",
+      "bytes": 105766
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy1_12.uasset",
+      "sha1": "92345ae63cfe3d67c85b43dbd293d9bb0a18ebd8",
+      "bytes": 93958
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy2_01.uasset",
+      "sha1": "0562ef39524ce0f4ceff92f505bc24bd223f385a",
+      "bytes": 16710917
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy2_02.uasset",
+      "sha1": "96ce99049af444a83fef7cbf29293fa024bccb5b",
+      "bytes": 6210348
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy2_03.uasset",
+      "sha1": "ee8f114f4173ff32e645134f16c727797cc0bdbe",
+      "bytes": 7284453
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy2_04.uasset",
+      "sha1": "4b808b34fe92f1cf7ed6da0e3ae02ac6245a8f1c",
+      "bytes": 5128190
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy2_05.uasset",
+      "sha1": "39fa0d1b616e0e7879afd3372c99e3db42aa677e",
+      "bytes": 5137775
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Ivy/SM_Ivy2_06.uasset",
+      "sha1": "dc9fe1e1eb904606a2f68289b2aadd0bb70f54fe",
+      "bytes": 8475161
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork01.uasset",
+      "sha1": "59bd1139f3d08f4ca225c96267831d4067833ef0",
+      "bytes": 152585
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork02.uasset",
+      "sha1": "ff8e9db390f6eb6701e6b6bf00c2534e4ff947ed",
+      "bytes": 173310
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork03.uasset",
+      "sha1": "25e2ffdd19d55fba106d247f522d8762b2fd3ddf",
+      "bytes": 177638
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork04.uasset",
+      "sha1": "0dfa4accb324ab5f55253e816ebeab9f8ac26632",
+      "bytes": 366118
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork05.uasset",
+      "sha1": "4332b76483d6d644fb5624bcb16f7dbb6126629b",
+      "bytes": 810479
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork06.uasset",
+      "sha1": "3e308d436764690b0b6fb4a917384e50f8b7df2e",
+      "bytes": 1312029
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork07.uasset",
+      "sha1": "194ab9fbf0cf3b88aea8660e842b0d8ec48d4886",
+      "bytes": 2337915
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork08.uasset",
+      "sha1": "5914a0701057a17609e9844b185fa6c4f82cbbd8",
+      "bytes": 1970887
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork09.uasset",
+      "sha1": "f0fb61dc56544b610afb8023206e8442a7b558ca",
+      "bytes": 2309041
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork10.uasset",
+      "sha1": "2304213a19bf1a345527f46f2cb8244ed1038bdb",
+      "bytes": 2983907
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork11.uasset",
+      "sha1": "8e542bc66b606ebaf24329a6701aadd1aa2c58da",
+      "bytes": 3127968
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork12.uasset",
+      "sha1": "3e1d1fe3f851b8626987c43deebd5f0230dfce74",
+      "bytes": 3529344
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork13.uasset",
+      "sha1": "36c648e0f173577660e61932125a12832d74e48a",
+      "bytes": 3617133
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_AmurCork14.uasset",
+      "sha1": "95fa68d44785ad1e6d2a025f5f37ef460d8c283e",
+      "bytes": 6532359
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm01.uasset",
+      "sha1": "0319ebbb4dbd68e88bd4b116d3761015d839209e",
+      "bytes": 201396
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm02.uasset",
+      "sha1": "a09929a503c295fb05c1478a52276fc7cd52df23",
+      "bytes": 193606
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm03.uasset",
+      "sha1": "5c5897904f3df75c99b23f5fa34b22c4bc204de0",
+      "bytes": 263793
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm04.uasset",
+      "sha1": "ea89414f2fbe65c3e5f08aa1d2fb35918addf61e",
+      "bytes": 323134
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm05.uasset",
+      "sha1": "e61a963c20d0bc2f5392a35aa35e718a572c49ad",
+      "bytes": 1475296
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm06.uasset",
+      "sha1": "be652af8ce03f4d490ad6f27db4f88709f874da3",
+      "bytes": 2607608
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm07.uasset",
+      "sha1": "8804b0f48b7391cd5ad58bb820fd1b90160c7ca1",
+      "bytes": 2667722
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm08.uasset",
+      "sha1": "c5c2891105cf8654045e0ca5531011666fcbe023",
+      "bytes": 1452869
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm09.uasset",
+      "sha1": "f19cf9a4fb26c497b3256d334191e8497b11cc09",
+      "bytes": 1785672
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm10.uasset",
+      "sha1": "7577d7585d40905831dda52a0d3b80e6b9feb817",
+      "bytes": 2608225
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm11.uasset",
+      "sha1": "d043d60232ad02182c82af5d2525f3621ba6d8fc",
+      "bytes": 4806967
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm12.uasset",
+      "sha1": "1eac850eeda1321d70a898e4b3c99f4cb7e4bd59",
+      "bytes": 6039645
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm13.uasset",
+      "sha1": "7e998ba301ecd98ea12d657eb792e115c9bc5ca1",
+      "bytes": 8227884
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm14.uasset",
+      "sha1": "b19bba3cacc7fef7e5f2c62d47e9bb5e4276a9f0",
+      "bytes": 16609211
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm15.uasset",
+      "sha1": "07148fe150efd78f86a936a1b01a9aa86f2f5ec2",
+      "bytes": 17607399
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm16.uasset",
+      "sha1": "e9853fb3fe81e193267d4732c6df74a26e5bb22d",
+      "bytes": 27379399
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Elm17.uasset",
+      "sha1": "598f7fec7a5a377baf766eb54c25328c1afdf994",
+      "bytes": 37535769
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple01.uasset",
+      "sha1": "0c4ed16cff424ca750da133d73f1a1059863b678",
+      "bytes": 255911
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple02.uasset",
+      "sha1": "3dca71afd1a45d9330f54fa194e3092003710266",
+      "bytes": 239727
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple03.uasset",
+      "sha1": "cb9614dce14e7e19d989b9770a75f3d2030b92b1",
+      "bytes": 366008
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple04.uasset",
+      "sha1": "05bcc722107c038c5fd85b752845be5895ec2d35",
+      "bytes": 593544
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple05.uasset",
+      "sha1": "dbd61cd6558659196136ee36b0906561a20da353",
+      "bytes": 644566
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple06.uasset",
+      "sha1": "1745ce13f4153d568beeb6de445aafdf4333e938",
+      "bytes": 1130273
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple07.uasset",
+      "sha1": "b9bcd4178fa83ad6f74dcf1210ac029835982eb1",
+      "bytes": 1244516
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple08.uasset",
+      "sha1": "e9ac82b7dd280daea13c459f40bf8e99a7db14c5",
+      "bytes": 2319394
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple09.uasset",
+      "sha1": "6661f0f911a7507745257e7224c67cf08e9c1599",
+      "bytes": 1171532
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple10.uasset",
+      "sha1": "843b8ce64a2bb03afd658a845246d990cf19ae3b",
+      "bytes": 2117702
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple11.uasset",
+      "sha1": "e5306a68e8675c84344bc888ae3232ed48f95ed3",
+      "bytes": 2483795
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_Maple12.uasset",
+      "sha1": "c62930fcf3855917552318122f9b12e7e71b8647",
+      "bytes": 4722060
+    },
+    {
+      "path": "Content/CityPark/Meshes/Flora/Trees/SM_WeepingWillow01.uasset",
+      "sha1": "f8476a93b60a676008283ffff2b4ad0e230b54a0",
+      "bytes": 7590523
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_DryLeaves01.uasset",
+      "sha1": "4c8de35668c4951ad1644fe908378f520d1d9261",
+      "bytes": 88404
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_DryLeaves02.uasset",
+      "sha1": "218908884ca8531af5d7c86a1a82d06937e3b2c7",
+      "bytes": 100430
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_DryLeaves03.uasset",
+      "sha1": "04ca127fece18b9759f06902d567e6edf3282e32",
+      "bytes": 117753
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_DryLeaves04.uasset",
+      "sha1": "df61828ac007f79c6914a605b5fd417edcfeafd2",
+      "bytes": 89164
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_DryLeaves05.uasset",
+      "sha1": "eabcd369876323cade051bb551cd19705761542f",
+      "bytes": 95350
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_DryLeaves06.uasset",
+      "sha1": "6f0222a64a672598c48bc4511d542ff855dd0659",
+      "bytes": 173905
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_DryLeaves07.uasset",
+      "sha1": "69334cf1b34d957e71dcbf60a8aaee67bc7d36e2",
+      "bytes": 173667
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock01.uasset",
+      "sha1": "5afd84c1c947d3a8ba681472b3576235ddc36ad9",
+      "bytes": 163432
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock02.uasset",
+      "sha1": "e7692d437288f37551d4ba2e47b8f38c2232e620",
+      "bytes": 160691
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock03.uasset",
+      "sha1": "dd27df91f23dece33f20adfe594a64303acd7ce8",
+      "bytes": 162504
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock04.uasset",
+      "sha1": "a8ec2ed13fff341513706e64b39e7fe0d88b570f",
+      "bytes": 169899
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock04_2.uasset",
+      "sha1": "f20d0797f5c9cb792159ac373446e041f479c0d6",
+      "bytes": 167624
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock05.uasset",
+      "sha1": "69b9227d418ec1ea1920793e72c77406928f9af3",
+      "bytes": 365702
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock05_2.uasset",
+      "sha1": "88efbebf83b9b9372f52d0504678e62a304d3bb7",
+      "bytes": 365153
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock06.uasset",
+      "sha1": "cc30ad84c156e90c7d3e0eaf33ba2d9290ac8b57",
+      "bytes": 999011
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock06_2.uasset",
+      "sha1": "f72ef6127f02d1ba51e4898d55fb221c52abeb28",
+      "bytes": 998623
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock07.uasset",
+      "sha1": "19b5d24fc97a8c205545f86d12d442aea791a237",
+      "bytes": 2057166
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_Rock07_2.uasset",
+      "sha1": "c3c0429b144893f1b3c1b55fbcd22742dfa67aed",
+      "bytes": 2054339
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_StickDebris01.uasset",
+      "sha1": "02d039c8f64516704dfadb2129ac7fba4030976e",
+      "bytes": 90236
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_StickDebris02.uasset",
+      "sha1": "664e320dbb53fa89771b501c46987649a0aafaa6",
+      "bytes": 104669
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_StickDebris03.uasset",
+      "sha1": "f20953027277eea2b4c0e063bcdb9eb89dbe3d60",
+      "bytes": 111582
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_StickDebris04.uasset",
+      "sha1": "fbfe60c7dfe2af4138fb0be487f490b07cb23ea9",
+      "bytes": 127227
+    },
+    {
+      "path": "Content/CityPark/Meshes/Ground/SM_WaterPlane.uasset",
+      "sha1": "1e64d8087c4607afd5383afe16c3d3c2d652ccbc",
+      "bytes": 79700
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedBridge01.uasset",
+      "sha1": "280971fc87b5b148b07a46e0836c7ea841b51c40",
+      "bytes": 6912172
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedBridge03.uasset",
+      "sha1": "7373f5d17964a4847ccdf2aa9564b199d106e396",
+      "bytes": 7239118
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedBridge03_2.uasset",
+      "sha1": "8fda7439929e9c3daa6d274acbaf322443f5bfc0",
+      "bytes": 415287
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence01_1.uasset",
+      "sha1": "def4ae553d5395a2187652434db24fcc368eef36",
+      "bytes": 43891054
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence01_2.uasset",
+      "sha1": "bb8551a578664d1711f5d6a38b037ea0b1caa9f0",
+      "bytes": 46367644
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence01_3.uasset",
+      "sha1": "c20d65cd3b1e41036bb897d0222d8d360fe4a529",
+      "bytes": 8434839
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence01_4.uasset",
+      "sha1": "562e795e555a5a92d48f7386e7c942928b143dfe",
+      "bytes": 19634003
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence01_5.uasset",
+      "sha1": "3c072fea267abb5fb1bf71612a8dc966242380d1",
+      "bytes": 8178934
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence01_6.uasset",
+      "sha1": "af283e6374685078fd82363fb81295a6c31df6aa",
+      "bytes": 17579353
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence02_1.uasset",
+      "sha1": "e82450d7d136944dec9340c8bf41d661ca33478c",
+      "bytes": 3825816
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence02_2.uasset",
+      "sha1": "e14cff53a5162a51374e5a8419a10767d1d006fe",
+      "bytes": 5286569
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence02_3.uasset",
+      "sha1": "ab18d25c479cd7d4a971edc6f31be773dd54e695",
+      "bytes": 4610730
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence02_4.uasset",
+      "sha1": "b0dbaec66e5dfddc81e0f6c33d69ffc1dd031f7f",
+      "bytes": 4974249
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence03_1.uasset",
+      "sha1": "bf5e824178a94d921d87abf631f14bfa6b183c6c",
+      "bytes": 7991337
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence03_2.uasset",
+      "sha1": "0bd29e4c109a9b4d67b0b9b8913233c71f80bd1d",
+      "bytes": 6218920
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence03_3.uasset",
+      "sha1": "a93f2cf73c5a5d8f30e2ca465a160ece76e3293a",
+      "bytes": 24388120
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence03_4.uasset",
+      "sha1": "3880be92588f3f218bf5fb61a3d7a723c4b8fd1e",
+      "bytes": 5529139
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence03_5.uasset",
+      "sha1": "8c082cca386f1427174923d1274ddf5a60a18638",
+      "bytes": 11681116
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence03_6.uasset",
+      "sha1": "e6260bab4bd7fa80096cd296ff199d5eeca92b12",
+      "bytes": 7370584
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence04.uasset",
+      "sha1": "d398bc736d088b6b6c1cb5e443c2c2df1a7ed96b",
+      "bytes": 8556683
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence05.uasset",
+      "sha1": "31196d6f9658eb6b39c15f74d5a7c4bb83092fd3",
+      "bytes": 2644236
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence06_1.uasset",
+      "sha1": "c40fc792d3d8cf80ef7c3db9eb6c5319e51b31ce",
+      "bytes": 22677470
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedFence06_2.uasset",
+      "sha1": "b2073d0b870dc9a4b7e7825e543ec722877eabbc",
+      "bytes": 12480265
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedGround01.uasset",
+      "sha1": "31f05d09445f483d9f372204531b7bd26166080c",
+      "bytes": 423841
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedLeaks01.uasset",
+      "sha1": "019b7766fd7651e2d88cb949cf07195cccf918a5",
+      "bytes": 203880
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkFence02.uasset",
+      "sha1": "e053f0ff455f137e36c65ba9ba01582c760530ef",
+      "bytes": 21745031
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_1.uasset",
+      "sha1": "7586e45530a3fe237334581d9025434e2da497ba",
+      "bytes": 6488984
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_2.uasset",
+      "sha1": "65423afa91c37da95837a7b4f1a72cdb36dcf598",
+      "bytes": 8067175
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_3.uasset",
+      "sha1": "26bac17c6f23cc5aa8cba514525321f8bdf9103b",
+      "bytes": 2295532
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03_4.uasset",
+      "sha1": "a8c789e11c2cdf35f870dcae1d9961ce83dab0bc",
+      "bytes": 51859030
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_1.uasset",
+      "sha1": "6258b810a1fffdc7585c8deffb215e646a5e382f",
+      "bytes": 30945232
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_2.uasset",
+      "sha1": "c718b19675b64ba98c7f3440623b2e6becd7e993",
+      "bytes": 15106789
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_3.uasset",
+      "sha1": "962f65121c43fe36407c5b5158e328ad06007b5b",
+      "bytes": 11296183
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01_4.uasset",
+      "sha1": "03d1c29628231ca1bbe0586e5643d10777eb1b47",
+      "bytes": 5616083
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedRoad01.uasset",
+      "sha1": "fff71887b16e3e70b85cdbaab4fc3a2b98523b3f",
+      "bytes": 12480532
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedRoad02.uasset",
+      "sha1": "53afb5ebce3f1a3750410cd80cef494bdd9ddf23",
+      "bytes": 12154008
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedRoad03.uasset",
+      "sha1": "d748d51a0a8291b6a746ba2c4b643388beada713",
+      "bytes": 10474102
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedRoad04.uasset",
+      "sha1": "960254335492828e1a662d9d0b6a390092c5272f",
+      "bytes": 10278946
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedRoad05.uasset",
+      "sha1": "04156c4751aeb959cd9c4886a90dc50087b16747",
+      "bytes": 15148550
+    },
+    {
+      "path": "Content/CityPark/Meshes/MergeMeshes/SM_MergedTunnel01.uasset",
+      "sha1": "a93fa0fe676335ffe819e20c257e32972ca176f0",
+      "bytes": 8493013
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_Fountain01.uasset",
+      "sha1": "90bcea855dbad89a4b3f1170e71b6e743a7b37bb",
+      "bytes": 783220
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_1.uasset",
+      "sha1": "c823bb9e699cdaa53c81b5a3a8ef385150242943",
+      "bytes": 109653
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_10.uasset",
+      "sha1": "0530982fe5e523400441820a5f6f9e6aacdb2f1e",
+      "bytes": 217577
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_11.uasset",
+      "sha1": "6fa6a79646f61a6156ee664a911f1a6e70d60730",
+      "bytes": 126185
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_2.uasset",
+      "sha1": "7afd232b9640d7562b529634c60901520a1ce0af",
+      "bytes": 137372
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_3.uasset",
+      "sha1": "cf767951ea8325845035d334c9a34095ba1a7926",
+      "bytes": 204880
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_4.uasset",
+      "sha1": "8c0e625622239e3ce5288184a8ae05a14f9212e3",
+      "bytes": 158008
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_5.uasset",
+      "sha1": "95e61b8d1bca88144cb545f585d5fb2cfbcdd9bc",
+      "bytes": 200004
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_6.uasset",
+      "sha1": "033b5566951f621beb4e00421f794d86fffdfd3e",
+      "bytes": 127229
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_7.uasset",
+      "sha1": "7de437798156ea0919602168f68a122bb99c576a",
+      "bytes": 156286
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_8.uasset",
+      "sha1": "b83de282ad5f61cd0264fc32fe724dc743433cf6",
+      "bytes": 159746
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare01_9.uasset",
+      "sha1": "912bb23f498e22a3d19c041865948dd78b2f6e9c",
+      "bytes": 214578
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_1.uasset",
+      "sha1": "e9b8465dc36ff9775ab397b0b50b5a307da0f91e",
+      "bytes": 102538
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_2.uasset",
+      "sha1": "c241cdfd648f3db4b5cf5084d0d482e465e13251",
+      "bytes": 98007
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_3.uasset",
+      "sha1": "efdd95c6361e527e2102215aa560e3755416c792",
+      "bytes": 100417
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_4.uasset",
+      "sha1": "e86806da77ac6fa6785f78ac57c4782726962fa5",
+      "bytes": 179658
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_5.uasset",
+      "sha1": "9668249d89462d18fa5a910cbeb7374c6aabd939",
+      "bytes": 110079
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_6.uasset",
+      "sha1": "8db795564ce23c1006d30f700e00f501be21244e",
+      "bytes": 130274
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_7.uasset",
+      "sha1": "b4bff08e5f2e64a44119596da1c21fa16ca938bb",
+      "bytes": 128556
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare02_8.uasset",
+      "sha1": "eec64d19f5410c38a50f06f608cb1e576a8ab0a5",
+      "bytes": 94610
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_1.uasset",
+      "sha1": "d05270adf4b43c64a57b3dbaa43a325805e3da69",
+      "bytes": 118130
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_2.uasset",
+      "sha1": "e4151cdde606abe0429c436f479c7eca583a5498",
+      "bytes": 116993
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_3.uasset",
+      "sha1": "024b1b2b66ec7b65bf4cd979bcec1af5820f3f43",
+      "bytes": 119696
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_4.uasset",
+      "sha1": "bbbab71681f477d863692434a7c0b12a472982e1",
+      "bytes": 117491
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_5.uasset",
+      "sha1": "deb0b79e66513cc7d210b96c652f74065519076e",
+      "bytes": 118354
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_6.uasset",
+      "sha1": "a4c297ebc6c78f898eaf1efb2216c2972d287627",
+      "bytes": 114508
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_7.uasset",
+      "sha1": "6bd0e8e627ca4d3de073d23eb488f52b6d420d99",
+      "bytes": 266964
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare03_8.uasset",
+      "sha1": "ec2a04c3d44b097a1a2638ce3254fe57c9b6309b",
+      "bytes": 242091
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare04_1.uasset",
+      "sha1": "3353f5b673bc688ae626b7a9898c4e7f2d63d8bd",
+      "bytes": 97894
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare04_2.uasset",
+      "sha1": "73e1760ab9169da494419690d60385a9816d681f",
+      "bytes": 90224
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_1.uasset",
+      "sha1": "705e2954efcaefd1f98bcf6745fd2cd4b67ddbd1",
+      "bytes": 94031
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_10.uasset",
+      "sha1": "1dc40dc3b86e96beaa0e84c6cb77a9fa7034ea63",
+      "bytes": 88150
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_11.uasset",
+      "sha1": "884ba1f94310741289010a77b38de38e947a8d87",
+      "bytes": 87421
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_12.uasset",
+      "sha1": "56a4cea0abe61cd32cd99a6717f549c5faf869cb",
+      "bytes": 96583
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_2.uasset",
+      "sha1": "4770cef292815432105d07a9a4fddf48e6f7bb92",
+      "bytes": 93944
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_3.uasset",
+      "sha1": "da2ff3b36fde13b92611f49daa4854dbd35ea4a1",
+      "bytes": 93988
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_4.uasset",
+      "sha1": "ae531a717ddbf3ad7571dee0637856f3025de36b",
+      "bytes": 93899
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_5.uasset",
+      "sha1": "783b081b76125b67bf0f022a526dd39f185e9b05",
+      "bytes": 94266
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_6.uasset",
+      "sha1": "d7a8d2e7bc3885e5a4ce58a0034155664df040a9",
+      "bytes": 148431
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_7.uasset",
+      "sha1": "8df35151da41f652a0761d558a9d583f4cb6e069",
+      "bytes": 90945
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_8.uasset",
+      "sha1": "9e3a961b75e7e16ea54aacb410207602da9973d2",
+      "bytes": 83545
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare05_9.uasset",
+      "sha1": "c1fd155004556c592a3a0826041f4465c92ff12f",
+      "bytes": 88393
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare06_1.uasset",
+      "sha1": "0131b0efe767924f352aea9a6f4356dc66a43f2b",
+      "bytes": 169977
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare06_2.uasset",
+      "sha1": "cebb0807f1d1e2680cd652d38564d674e0b8df98",
+      "bytes": 257706
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare06_3.uasset",
+      "sha1": "5542cc412b8cb8f296712d8bddfb8dda3c773526",
+      "bytes": 262079
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare06_4.uasset",
+      "sha1": "833a02421999f46517244072f8280e930d3525c7",
+      "bytes": 255345
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare06_5.uasset",
+      "sha1": "394aa9ae1f5be223abad56ae37a5aab01b416e3c",
+      "bytes": 257848
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare06_6.uasset",
+      "sha1": "c376fc9962fee8249e4d51241f8c5e6eed44f7e1",
+      "bytes": 104144
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare07_1.uasset",
+      "sha1": "a0fc7886ce13b2f3ee33e344c473000521103146",
+      "bytes": 99142
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare07_2.uasset",
+      "sha1": "0cab13379798fc064945ea01f31e4ae7b7c956ac",
+      "bytes": 123355
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare07_3.uasset",
+      "sha1": "1db8e8424db4f372ded6d41fdaba28045c70ab73",
+      "bytes": 106311
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare08.uasset",
+      "sha1": "63e3054df33b4e1e1a05d1db1b0d77752a182326",
+      "bytes": 92931
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare09_1.uasset",
+      "sha1": "46eb8f3ad7ac9f69a249605215302e32273d0b86",
+      "bytes": 101034
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare09_2.uasset",
+      "sha1": "ef5ea1b000d903b60c435a626c3ae0f7490f41fe",
+      "bytes": 79938
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare09_3.uasset",
+      "sha1": "8ba4695f2a076bd31bac3b76883d0965860fa358",
+      "bytes": 86649
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare09_4.uasset",
+      "sha1": "7f618611c142cce12e0eb6201b67dd80ac56ec6a",
+      "bytes": 75584
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare10.uasset",
+      "sha1": "90c499d9a41cc0c79265d84e935bfa116393478d",
+      "bytes": 95173
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare11_1.uasset",
+      "sha1": "25143466df7c5af5d4eb07c9c7cd7678820b92d8",
+      "bytes": 113278
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare11_2.uasset",
+      "sha1": "a1c0f336bad44728497862e0f0c481dd2ee5fab2",
+      "bytes": 125732
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare11_3.uasset",
+      "sha1": "0bf5ea7d82535c58f5db594a825035a5fbe828dd",
+      "bytes": 133010
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare12_1.uasset",
+      "sha1": "35c8c16c9cd278c17c1b884566f0e0a5a582f93a",
+      "bytes": 502616
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare12_2.uasset",
+      "sha1": "aad44f5c4189c53d31e2268a6ceec63f01f344e9",
+      "bytes": 885593
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare12_3.uasset",
+      "sha1": "56615cf0c9039bddea03a7ff0809555c2aa42f1b",
+      "bytes": 1018049
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare13_1.uasset",
+      "sha1": "19cffad7f21b41191db129c593fe87b88acf6512",
+      "bytes": 241563
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare13_2.uasset",
+      "sha1": "c37039a8c7a195d6106771df7a7c4a8768ddb990",
+      "bytes": 242726
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare13_3.uasset",
+      "sha1": "7a72c81343fc170c6d0a86e81b665703f8591f19",
+      "bytes": 241396
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare13_4.uasset",
+      "sha1": "b3c82b3b83c0eea9eb16b8b57a275c3cdeac1a9d",
+      "bytes": 88444
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare13_5.uasset",
+      "sha1": "79c2518204024aafeff993a3e207e071263b1e16",
+      "bytes": 105981
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare13_6.uasset",
+      "sha1": "216a48820e981ec31435236ae10d2423fa945c41",
+      "bytes": 94705
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare13_7.uasset",
+      "sha1": "27720376b284c3896e07b176490558a4061a7d5e",
+      "bytes": 241367
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare14_1.uasset",
+      "sha1": "97812599040e69fda49d860328560602b9a73e05",
+      "bytes": 259499
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare14_2.uasset",
+      "sha1": "4a2d6713c5765664d5cbbd35247d0189ad8395aa",
+      "bytes": 237493
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare14_3.uasset",
+      "sha1": "415084c33c49b425fe94371b1abd39a4ea693f25",
+      "bytes": 84406
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare14_4.uasset",
+      "sha1": "4273172670e3758d6fdd1a255991df2e261e5cb4",
+      "bytes": 117220
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_ParkSquare14_5.uasset",
+      "sha1": "c96b4cbaf9a1cee080d8fb83ae340200e26c1cf6",
+      "bytes": 88600
+    },
+    {
+      "path": "Content/CityPark/Meshes/ParkSquare/SM_Pool.uasset",
+      "sha1": "bfaac44c65a77ddbefe940e0015cd08618f194fb",
+      "bytes": 1254798
+    },
+    {
+      "path": "Content/CityPark/Meshes/Particles/SM_Leaves01.uasset",
+      "sha1": "fd7aa9701dc1414f0f545a84db9b712b6f89e695",
+      "bytes": 71951
+    },
+    {
+      "path": "Content/CityPark/Meshes/Particles/SM_Splash.uasset",
+      "sha1": "f986cf2ef10459615b63b56fce9aedb46eca72d1",
+      "bytes": 84832
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround1_01.uasset",
+      "sha1": "294e08002e1bdde517e0fc7b50e3812db65ffa74",
+      "bytes": 181203
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround1_02.uasset",
+      "sha1": "9efe92d4d514c5396c5addcac907082392f1fcec",
+      "bytes": 149053
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround1_03.uasset",
+      "sha1": "8e6d4355d801b47d2e4949d67c54cfac16224205",
+      "bytes": 243150
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround1_04.uasset",
+      "sha1": "4fc6e60f96fff4893fd8fb9939968403fb4fcfae",
+      "bytes": 243570
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround1_05.uasset",
+      "sha1": "15f6064404e7351f7ca1a425d62536bd7343a4a1",
+      "bytes": 178976
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround2_01.uasset",
+      "sha1": "412663c9ed46d1b570c1c0d3b9ce77267ec5d617",
+      "bytes": 229925
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround2_02.uasset",
+      "sha1": "8ef67ef72de44c98fae503ef09c890713eba0276",
+      "bytes": 238231
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_01.uasset",
+      "sha1": "7e131758b09dd901092aa6643bd1251ae087673a",
+      "bytes": 328741
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_02.uasset",
+      "sha1": "3752ebc3a438675e0f373cfa3ecf0b29e72c1c23",
+      "bytes": 256461
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_03.uasset",
+      "sha1": "e1901fa7d2bf0ce6fbee88f735ee9f8c324f0df9",
+      "bytes": 320514
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_04.uasset",
+      "sha1": "6bb11f15875c4b9bedd2234f6b2f2a75f3a79d29",
+      "bytes": 241074
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_05.uasset",
+      "sha1": "14fa1c7b10ab25638d0309e398cf635b6973b09e",
+      "bytes": 188983
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_06.uasset",
+      "sha1": "c0b42a2151af1acbb3bcb01c168f6442390390b2",
+      "bytes": 247124
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_07.uasset",
+      "sha1": "2828be8c4c5f51936f70830378ed975ccf6c5e1b",
+      "bytes": 213367
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_08.uasset",
+      "sha1": "a46574c87fdb3784b74d63a737abda886389b170",
+      "bytes": 264786
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_09.uasset",
+      "sha1": "ada981cca59199722dacddfb568a6afd9c21e31d",
+      "bytes": 230124
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround3_10.uasset",
+      "sha1": "1c5695290e59d600ad01c1af1c93811eb6b6ff8e",
+      "bytes": 174980
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround4_01.uasset",
+      "sha1": "a7b92003cc1090bec0b1a2b0eadcfc7a8cb9fc1e",
+      "bytes": 502886
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround5_01.uasset",
+      "sha1": "1bf4629bf4be22a4b6098f349c7a1d286d3b60c5",
+      "bytes": 278312
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround5_02.uasset",
+      "sha1": "18646e339941a1ee530c4d6261c28a28ff3e5291",
+      "bytes": 291975
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround5_03.uasset",
+      "sha1": "bb81ef9df920d8613db49884c462a9245f19b3ab",
+      "bytes": 163583
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround6_01.uasset",
+      "sha1": "c2cb42df0514d2bfd6af9a4ba861bf5a46f2b4ef",
+      "bytes": 148889
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround6_02.uasset",
+      "sha1": "ab0fd1beaa69d155404352081d3bea169b9675a9",
+      "bytes": 271369
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround6_03.uasset",
+      "sha1": "857d2c8ad70c26077b44b06652c62f9027cd53b5",
+      "bytes": 1017171
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround6_04.uasset",
+      "sha1": "e4e525cdc2b71d98ad469e17133206b6126d3296",
+      "bytes": 138714
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround6_05.uasset",
+      "sha1": "ce1591741225e17ae2c3c4e4a40dbf64be1e04c5",
+      "bytes": 649812
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround6_06.uasset",
+      "sha1": "dec68b49c4e7737d929923116b7e8740f662aae7",
+      "bytes": 299133
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround6_07.uasset",
+      "sha1": "74a252a3ccfee151e66a2801e8b80c47c6b19546",
+      "bytes": 692837
+    },
+    {
+      "path": "Content/CityPark/Meshes/Playground/SM_PlayGround7_01.uasset",
+      "sha1": "5989b5ac2d7784096daaecbf8ec5e409fd01339b",
+      "bytes": 189080
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns01.uasset",
+      "sha1": "63d997ee2e019cf6fa12ebca56fa0a752f04cda1",
+      "bytes": 96367
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns02.uasset",
+      "sha1": "e351fb14201b5be99aa38e53b1bac046331edc89",
+      "bytes": 92869
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns03.uasset",
+      "sha1": "720e6933dbb042a8eb92b6478904633b8f0006b8",
+      "bytes": 88765
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns04.uasset",
+      "sha1": "d90d1b9a767d3700e8eba26e76a9e2e06b3d0c7e",
+      "bytes": 87525
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns05.uasset",
+      "sha1": "2ad9692d65971cb07d7214fa624f828590dcda91",
+      "bytes": 87588
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns06.uasset",
+      "sha1": "7f08f9faaaac0106b8e4b80ab3347b5ec936b180",
+      "bytes": 95896
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns07.uasset",
+      "sha1": "2edf0ea39c612261abbd710eaa112aa5ee240ca4",
+      "bytes": 96961
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns08.uasset",
+      "sha1": "93ba75aac30fed9b80b699e9ec29af3833286f93",
+      "bytes": 96112
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns09.uasset",
+      "sha1": "950b543452cc1c63603f9c63f8fa4166a9c0f40f",
+      "bytes": 98533
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns10.uasset",
+      "sha1": "78798130884ad1924c7d3b53d2b589f440eab9e8",
+      "bytes": 95757
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns11.uasset",
+      "sha1": "2664aae7c38cc0bcac641d815ea3abc705fbbd7b",
+      "bytes": 96409
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns12.uasset",
+      "sha1": "b7d7b1f3fd6a552c616c318e880f9143b86e7edf",
+      "bytes": 94890
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns13.uasset",
+      "sha1": "e40c3558328a80c70ead1756a26cad5761e445e7",
+      "bytes": 96137
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns14.uasset",
+      "sha1": "f7f948d25298647c5135c5a07e36a9d3c66e5380",
+      "bytes": 97027
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns15.uasset",
+      "sha1": "b047d60ec21c0b03fb61dba4a3ccd51960b0a48a",
+      "bytes": 97475
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns16.uasset",
+      "sha1": "cf071ab580ce7521ca54a0c086de3d1fabd7f20d",
+      "bytes": 94871
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns17.uasset",
+      "sha1": "0f81e224270013df3e81c8361ffc25ec5d081e6a",
+      "bytes": 94458
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns18.uasset",
+      "sha1": "fcf98a2cbceefb8ffd7b78299d89d76cd36c9a4b",
+      "bytes": 100601
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns19.uasset",
+      "sha1": "5fea6860f8afd1ffad435678ceaf26ae2f57805c",
+      "bytes": 99611
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns20.uasset",
+      "sha1": "957d661cd887219468800a90d8f2ca8db5fbe059",
+      "bytes": 99127
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns21.uasset",
+      "sha1": "ad4a8f6b143005dfd3d3d56fc2f1eaeaa2a54ab2",
+      "bytes": 99747
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns22.uasset",
+      "sha1": "8a9b100c3426b34ceef173ce91dff347c9b86212",
+      "bytes": 99390
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns23.uasset",
+      "sha1": "2c107dc059deaa28a9b19ed426af3ad00e1f1c46",
+      "bytes": 103452
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns24.uasset",
+      "sha1": "fbb08e10299b9fde63a8dd727ce1178a1828efe0",
+      "bytes": 96560
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/RoadSigns/SM_RoadSigns25.uasset",
+      "sha1": "04964ed10e36a9663554edc65bd0a47e05d1a729",
+      "bytes": 92012
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Bench01_1.uasset",
+      "sha1": "d56cf6522a83d045bc3ef231b519f4224f2496aa",
+      "bytes": 169721
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Bench01_2.uasset",
+      "sha1": "cdfba22b10e8638d3ffc716ac4904620d6469b4e",
+      "bytes": 263568
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Bench02_1.uasset",
+      "sha1": "b7ee0e49fda7ec3228e4477259c6ab3c88b94ea4",
+      "bytes": 189503
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Bench02_2.uasset",
+      "sha1": "0e30f7b1b2d0ce919e52cf952b31bdcab87cf149",
+      "bytes": 154277
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Bench03.uasset",
+      "sha1": "d993cae8e71040da52f3b207737852d2628b02ec",
+      "bytes": 603468
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_BorderWood.uasset",
+      "sha1": "6e4277cf28d62327287965f50e6a5fc56cd596e3",
+      "bytes": 111739
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Bower01.uasset",
+      "sha1": "403a1b1b6a21b5747ff63fe5c58ed68563a10651",
+      "bytes": 2480806
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Bower02.uasset",
+      "sha1": "61a620f0f75bc250d2626c422af9735dbf984022",
+      "bytes": 2504051
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeChair01.uasset",
+      "sha1": "7eb032a4f9001c70a5a831090fa411d3a9d2a6fa",
+      "bytes": 190543
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeChair02.uasset",
+      "sha1": "7add251d27926b8606a633afa2613763385abf89",
+      "bytes": 180001
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeChair03.uasset",
+      "sha1": "bfb63930fc2038be6aef4a6217eaa69c2a2bddf8",
+      "bytes": 241227
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeChair04.uasset",
+      "sha1": "a7a8c35fa070984faebf05363615ce2b13df769c",
+      "bytes": 253642
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeTable01.uasset",
+      "sha1": "7321ce505777e8f70b402d3b15c702158e9affe8",
+      "bytes": 191164
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeTable02.uasset",
+      "sha1": "1c45d353640d423c40fedae6ff899ec131853304",
+      "bytes": 203059
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeTable03.uasset",
+      "sha1": "6f60a489e576f49b705637cfe3ff214b9ce4d0d8",
+      "bytes": 161105
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeTableCloth01.uasset",
+      "sha1": "1d59823e6e2e1e3fdda0ae62136b9a4be4dc4231",
+      "bytes": 206470
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_CafeTableCloth02.uasset",
+      "sha1": "f504b4cd4a48b8a84a14c6d1c5b3538e6a8fc8ca",
+      "bytes": 278826
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_DrinkingFountain.uasset",
+      "sha1": "697a95092bf1d1b43e9ba29f35a31aa9be1f43d3",
+      "bytes": 116989
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence01_1.uasset",
+      "sha1": "9ee013254507ff44cebe0f9b48ff0ad71ed73674",
+      "bytes": 412477
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence01_2.uasset",
+      "sha1": "650afdd7d8b8e7624e6774a44519e69a1df3e346",
+      "bytes": 257130
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence01_3.uasset",
+      "sha1": "dec4817703e1ab047c33cf39f2f4d3fe200a526d",
+      "bytes": 518658
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence01_4.uasset",
+      "sha1": "11f50050bebeb9225f6e3cf6a09fdd6f2488ceb8",
+      "bytes": 359063
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence02_1.uasset",
+      "sha1": "73866ffaec97ac9a55fb8d6da3e31da401383a0f",
+      "bytes": 120396
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence02_2.uasset",
+      "sha1": "07d4bb80d773fe0a6d65649b98d4ce3181d01654",
+      "bytes": 107197
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence03_1.uasset",
+      "sha1": "b0dfd9460fb6c5cbeb5c3ca3f71017cacdecd907",
+      "bytes": 130066
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence03_2.uasset",
+      "sha1": "548c109a3298c6736972c03ff65407b0f9d20907",
+      "bytes": 99077
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence03_3.uasset",
+      "sha1": "92e133e8ba2c096c95a80495406c9eafff13b35f",
+      "bytes": 154305
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence03_4.uasset",
+      "sha1": "e3c7224c706fef8234a9ef7f29608621f81a4d8b",
+      "bytes": 99334
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence03_5.uasset",
+      "sha1": "433c2aed2ec876288258468450a86c3d05104cc6",
+      "bytes": 170377
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence04_1.uasset",
+      "sha1": "cc3cca37d95dbf2517f0a1c578b8eb3e8e26a73c",
+      "bytes": 138969
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence05_1.uasset",
+      "sha1": "b1f9a4be73f655b11752d1bbf059a478972eae02",
+      "bytes": 131342
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence06_1.uasset",
+      "sha1": "2d56f4f8ffda40ed561e19efb8008ab437e5305c",
+      "bytes": 178724
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence06_2.uasset",
+      "sha1": "499a486fc6d076304541ebd699c2aa36548e7cf7",
+      "bytes": 111349
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence06_3.uasset",
+      "sha1": "1d86c9d578ff2f6fdc89972ea5da859ba3025091",
+      "bytes": 168749
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence06_4.uasset",
+      "sha1": "6bef358094f7201579eb6e08a7e4c5ecd376f17b",
+      "bytes": 105032
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence06_5.uasset",
+      "sha1": "2cca2f6d5bb5a5fbc747067fa5456b65e206bbe9",
+      "bytes": 203161
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Fence06_6.uasset",
+      "sha1": "b5efb6dbbf3b390ed139b311fe63377059bd2f4b",
+      "bytes": 193932
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_FoodStalls01.uasset",
+      "sha1": "8eda879c44141bb044500d016097511c2f341782",
+      "bytes": 1735590
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_FoodStalls02.uasset",
+      "sha1": "82f78dafa89cdd3ff3d5d88127264e8090b3aaa2",
+      "bytes": 1079123
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_FoodStalls03.uasset",
+      "sha1": "f71e8862072672e40cff131d79e893a041f4f060",
+      "bytes": 628773
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_FoodStalls04.uasset",
+      "sha1": "344a0da660e28ff0a39f193109af4b4215a53a39",
+      "bytes": 371828
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_LampPost01.uasset",
+      "sha1": "124045649eb76c63566e7f8fa68a451bd3bcd1ef",
+      "bytes": 252207
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_LampPost02_1.uasset",
+      "sha1": "e912b3ad11d683e4bfeef39dfb97d55774531a83",
+      "bytes": 196107
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_LampPost02_2.uasset",
+      "sha1": "5cd47b60ee648fab6729b4ecb38b8fe3a7b350df",
+      "bytes": 225485
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_LampPost02_3.uasset",
+      "sha1": "b4acadfcc48b90a76eb5efd618792be2012933ca",
+      "bytes": 137439
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes01.uasset",
+      "sha1": "f7d24f20b0573c8479b68fdf0fe56fed17204a59",
+      "bytes": 94893
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes02.uasset",
+      "sha1": "0d572102eff43aadfe0457481226fb9753608804",
+      "bytes": 97762
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes03.uasset",
+      "sha1": "68062ae9fe1e56455c67f26f834d831ad7ba5850",
+      "bytes": 97636
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes04.uasset",
+      "sha1": "db19defe3a76e495e96bebfa209b3da5f88d7c95",
+      "bytes": 93743
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes05.uasset",
+      "sha1": "863b713b732dadaaedd5d5aa8211d01fa8154a16",
+      "bytes": 91930
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes06.uasset",
+      "sha1": "cd7a2ab4a5b07e850891d95cc1eaa74e8e3cc341",
+      "bytes": 87508
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes07.uasset",
+      "sha1": "1871872f1f88c3f8576ec60d29830b6df008be56",
+      "bytes": 94104
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes08.uasset",
+      "sha1": "487c7c2f97c30b01399f8e5efbbab652b7c52f2f",
+      "bytes": 91143
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes09.uasset",
+      "sha1": "7ec4820ea04a05ece8509fd0d8efbf6a17a3e622",
+      "bytes": 87257
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Manholes10.uasset",
+      "sha1": "832f73d3529e1ab17bbe608b34767b577166660d",
+      "bytes": 85534
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Newspaper01.uasset",
+      "sha1": "230b9f31cd6e78023861af0af45d083bb1caa7f4",
+      "bytes": 98835
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Newspaper02.uasset",
+      "sha1": "cc6debaca365ec13c1d20b42314d3bfd1c54635c",
+      "bytes": 119147
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Newspaper03.uasset",
+      "sha1": "a4001d8865ef435fea36b01a7065d183416ca9a3",
+      "bytes": 129293
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence01.uasset",
+      "sha1": "6a14e8a3231137b6ddfaa1f4857800d79ffe4c45",
+      "bytes": 88898
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence02_1.uasset",
+      "sha1": "773df95b3d09f510b2c2df6cefa0846e248b58b0",
+      "bytes": 104582
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence02_2.uasset",
+      "sha1": "93dad7dbb445acaa8052d216f00e3f0f5cc2bc07",
+      "bytes": 98335
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence02_3.uasset",
+      "sha1": "f7f57386a2cbc412220c085515b6dbb9fc01e1d9",
+      "bytes": 111034
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence02_4.uasset",
+      "sha1": "fda4bd19ec5bb3fba73cc7034af33dc421d7849c",
+      "bytes": 95505
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence03_1.uasset",
+      "sha1": "6210d887e016e7a147cff4441d44093fa8645710",
+      "bytes": 164111
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence03_2.uasset",
+      "sha1": "30cb9f305dee031269d50680ad677de059d68ad6",
+      "bytes": 153569
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_ParkFence03_3.uasset",
+      "sha1": "738192004417f22a6b8336f35a0e927ec46c3d51",
+      "bytes": 121606
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Pier01.uasset",
+      "sha1": "d9bb069aa9bbc6d0e80ffff0d7b05379a31b46d5",
+      "bytes": 173786
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Pier02.uasset",
+      "sha1": "bdad0aefdca8298441d39866f2268e60a3d3b872",
+      "bytes": 133782
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Pier03.uasset",
+      "sha1": "7c26142a905db47927f300fff9754b968fc6812e",
+      "bytes": 118289
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_RoadBlock01.uasset",
+      "sha1": "15f8ee8fcff42f31839b031ccd8e2ef763bd04a5",
+      "bytes": 187747
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_RoadBlock02.uasset",
+      "sha1": "6bcc3b52dfab25a77f5c21302ee7e01e5f32e4ff",
+      "bytes": 194509
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Statue01.uasset",
+      "sha1": "e7a826fbab376ab89f52148f43df8bff9f67f29e",
+      "bytes": 4049636
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Statue02.uasset",
+      "sha1": "15ea7cfd9f37c96ace44ad33cc6fe05850742ef6",
+      "bytes": 5242749
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Statue03.uasset",
+      "sha1": "20de107d62ff415bc9eebe37d381d5fb1aa50135",
+      "bytes": 1159999
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Statue04.uasset",
+      "sha1": "1ce5a9a7c926dbff13087caf76ab6238a03038e4",
+      "bytes": 402241
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Statue05.uasset",
+      "sha1": "d7e054cef3bf79c6f3e2229a7373db7495bbc5fd",
+      "bytes": 74974
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Statue06.uasset",
+      "sha1": "43f605625dc460bfef30e3b742ffe222ed3d6c93",
+      "bytes": 89800
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Statue07.uasset",
+      "sha1": "4c79dc9062957f66256a57f3135d86da2dde4cf9",
+      "bytes": 132131
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrafficBarrel01.uasset",
+      "sha1": "f4981f9445e6cda9ea528ca72e5ab55173cde3e7",
+      "bytes": 152921
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrafficLight_01.uasset",
+      "sha1": "32acc14800f29d55fd1dd2d25b986b919218fe1e",
+      "bytes": 225196
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrafficLight_02.uasset",
+      "sha1": "46f3b8f108804505173c9f46c8561d1af91817d6",
+      "bytes": 194621
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrafficLight_03.uasset",
+      "sha1": "e29d7e6a5b2b2f70a90f608f6c17222cbc64f6ee",
+      "bytes": 195246
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrafficLight_04.uasset",
+      "sha1": "df05adc5369829aaa88565c0fbeb217ef4d3a316",
+      "bytes": 283672
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrafficLight_05.uasset",
+      "sha1": "3d7417679b20a638c9ddf92e472c49e536650df0",
+      "bytes": 452723
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrashCan01.uasset",
+      "sha1": "7486ec1d16cd16377d1c308dd25f9ad53aefed93",
+      "bytes": 83867
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_TrashCan02.uasset",
+      "sha1": "88386a527cb9e053f9c425daa93aa2cf6f964616",
+      "bytes": 144620
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Umbrella01.uasset",
+      "sha1": "83ce20686098f01ca96f2bea5229af2a1ea2027f",
+      "bytes": 416527
+    },
+    {
+      "path": "Content/CityPark/Meshes/Props/SM_Umbrella02.uasset",
+      "sha1": "cebf515f56943121e209ea88636175f0704c881a",
+      "bytes": 428132
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_1.uasset",
+      "sha1": "76c3d8ffff7a67c1c055a07d5cd4701b0ea3129e",
+      "bytes": 105218
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_10.uasset",
+      "sha1": "240029c2dbe20fe81dd33befe4ff8cc50eab1ce3",
+      "bytes": 116481
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_11.uasset",
+      "sha1": "228cf15a30d8a68b2de763cc91ed8e206c2536dd",
+      "bytes": 132341
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_2.uasset",
+      "sha1": "ce1f2290990a80cd7ac82914f425908ded80304a",
+      "bytes": 114407
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_3.uasset",
+      "sha1": "e9217ee940d989b962da037f1ddcefa2a103b51e",
+      "bytes": 121009
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_4.uasset",
+      "sha1": "df18102ae0adf44990bcb1fc8b59f9d15994e9ac",
+      "bytes": 123975
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_5.uasset",
+      "sha1": "b67db4353891ec4f1afc67ea188ccaa6b680b8c1",
+      "bytes": 110775
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_6.uasset",
+      "sha1": "beca960a6ae35388989590fe66a8502853108375",
+      "bytes": 111576
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_7.uasset",
+      "sha1": "cf13f48c28ce2195b07d4b275903ea9e3ace97c9",
+      "bytes": 114556
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_8.uasset",
+      "sha1": "469032489cc5c23266d0aca65338c7a2726f685e",
+      "bytes": 115133
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt01_9.uasset",
+      "sha1": "bfbf33925117f090c81ca1625d8d2d3c46f526e3",
+      "bytes": 116053
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_1.uasset",
+      "sha1": "6e8274a632512bc7546534f7c8932d5dbaab0845",
+      "bytes": 100398
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_10.uasset",
+      "sha1": "15f2502373dc9ea3f41aade2edc8e2fc71496f7a",
+      "bytes": 100829
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_11.uasset",
+      "sha1": "d5f09c26ce90ffdda84d5eaf55f1137fe4df2063",
+      "bytes": 100833
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_2.uasset",
+      "sha1": "7fed0f3eb1fec30db8ce62059caf0da66b84c466",
+      "bytes": 111826
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_3.uasset",
+      "sha1": "f78f19352289298f7441e080a18411299d81e6cd",
+      "bytes": 107829
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_4.uasset",
+      "sha1": "ba2f999ccc247e27acd71f53898b96d355398441",
+      "bytes": 108314
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_5.uasset",
+      "sha1": "3d7691f952c9fb50801339aefec28387c048a042",
+      "bytes": 117055
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_6.uasset",
+      "sha1": "4626762dfcdbfee3159745edd1c93ba78ebc619a",
+      "bytes": 111136
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_7.uasset",
+      "sha1": "a9bde440a07795bbe28ca8fe62e8a8be5d589c43",
+      "bytes": 111679
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_8.uasset",
+      "sha1": "c2ce0a6e337dcc22c7e5a0893a9ff7e535987121",
+      "bytes": 125170
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt02_9.uasset",
+      "sha1": "721bb489d1402c8357769f3093d13d8c397423e5",
+      "bytes": 125574
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt03_1.uasset",
+      "sha1": "73321d690f2c0328ac3621f7fb9ffe0abcbc96bc",
+      "bytes": 118301
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Asphalt03_2.uasset",
+      "sha1": "31bc3f612ba8404c23681ad23dd0b25da840dbc9",
+      "bytes": 108117
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Border01.uasset",
+      "sha1": "4733a25544786489c9f5c1d62b92a1e8df5319d9",
+      "bytes": 100491
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Border02.uasset",
+      "sha1": "1e578e594f6f67579e54ec581ea5983d2b1b0ecb",
+      "bytes": 104275
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Border03.uasset",
+      "sha1": "18b9b2b5f8ea248c1894f5d607961614ec54b44f",
+      "bytes": 91186
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge01_1.uasset",
+      "sha1": "5c6d94ec70e83ab6013327d0a1a3d5fa67952545",
+      "bytes": 180215
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge01_2.uasset",
+      "sha1": "086351fdac0ba5f2931f297a33095c303d6a5efd",
+      "bytes": 112054
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge02_1.uasset",
+      "sha1": "a8d8270305cd1fd15cddae18d4b0d26c0eea2854",
+      "bytes": 632564
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge02_2.uasset",
+      "sha1": "e82318e0a34c930b9d714716ef747f720ccad191",
+      "bytes": 1417623
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge02_3.uasset",
+      "sha1": "e0daf5c0a3265f7afb9ae2ab6655d98fcde3e8d5",
+      "bytes": 121488
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge02_4.uasset",
+      "sha1": "f17022fad213b7c919ef4d2f156e8403c435acf1",
+      "bytes": 561086
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge02_5.uasset",
+      "sha1": "188525b279ce02989d266412180cc9a79ebbecb2",
+      "bytes": 149867
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_1.uasset",
+      "sha1": "48383a3485e0ae2455e9d6e6f303ec91ed8df5fe",
+      "bytes": 292325
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_10.uasset",
+      "sha1": "a6a7c6041716ae1d003effaac83cbae21b00f293",
+      "bytes": 119886
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_11.uasset",
+      "sha1": "b341218e086852339e1d5a71e35a7a985587c451",
+      "bytes": 90139
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_12.uasset",
+      "sha1": "c3b1d0035e262ec04707040fd44c96fdd1778c0e",
+      "bytes": 148949
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_2.uasset",
+      "sha1": "73b88d30875faecad1213c326d27ae3c26c060de",
+      "bytes": 265468
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_3.uasset",
+      "sha1": "21b21359f806a6df95e791bd93ad1092e3e03b5d",
+      "bytes": 181308
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_4.uasset",
+      "sha1": "51e926eb2f49a76c2a1430f905e8ab8341af73d8",
+      "bytes": 222436
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_5.uasset",
+      "sha1": "1522919c7fe33f6c4dc4af59639d06c7e33fcbf4",
+      "bytes": 195896
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_6.uasset",
+      "sha1": "1f2d1d23666f5ef2dca010043d90283f5affc0b7",
+      "bytes": 118857
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_7.uasset",
+      "sha1": "5b96ae5d33eee5cb0deb39be0715cb00edaa337e",
+      "bytes": 158440
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_8.uasset",
+      "sha1": "825353484c094b49db642efd976bb4184b982d3f",
+      "bytes": 150472
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Bridge03_9.uasset",
+      "sha1": "3c3b17f2c40de5732d26208e2f013538c6eb13a5",
+      "bytes": 120040
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_LeakDecal01.uasset",
+      "sha1": "3f9298dd95134e9671ee38eadefcd1bfce74c557",
+      "bytes": 94323
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_LeakDecal02.uasset",
+      "sha1": "0a30296844acf50782f3578b1f75d5b1007f5195",
+      "bytes": 92586
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_LeakDecal03.uasset",
+      "sha1": "4d54e2a6fc959dcc272fe3a963a737915102f3dd",
+      "bytes": 93659
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_ParkPath1_1.uasset",
+      "sha1": "8bad4a3403547fadcd2dc9b1989fa3eb974d7a5b",
+      "bytes": 100152
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_ParkPath1_2.uasset",
+      "sha1": "7739c1d95a734dca3ee7abd8daf73657378b297c",
+      "bytes": 110702
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_ParkPath1_3.uasset",
+      "sha1": "5c2c01eecd56c84b746b55ffe2aaed26b8932a03",
+      "bytes": 107633
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_ParkPath1_4.uasset",
+      "sha1": "67c5fa489e6d6bb3e18c83f33f5963ef46213872",
+      "bytes": 106536
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_ParkPath2_1.uasset",
+      "sha1": "ad244d2e6cac2c801b1269ea7cbcb39a361fd27f",
+      "bytes": 101406
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal01.uasset",
+      "sha1": "854e233927408fe1a8fc82aacdeaa3aed0057950",
+      "bytes": 96015
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal02.uasset",
+      "sha1": "2a6ac88bc7b937359b42e7795161f19d9a7850b3",
+      "bytes": 96405
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal03.uasset",
+      "sha1": "dbb4675a1e428c35af4e3d48116aad8c007acbcc",
+      "bytes": 95929
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal04.uasset",
+      "sha1": "d9c7628e7c4dec73daaf774be759f6677b55cc0a",
+      "bytes": 99610
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal05.uasset",
+      "sha1": "712ecbce1638fb2c9e62171081c4cb94aae60a37",
+      "bytes": 86303
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal06.uasset",
+      "sha1": "b6b08a32a164f94cc3fe2be48356a39d72a88119",
+      "bytes": 87205
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal07.uasset",
+      "sha1": "cbde827e02f22c0b1ca87b76de531818e3ee0b64",
+      "bytes": 99155
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal08.uasset",
+      "sha1": "22001dd1e04eb757af982546501dff962aca452f",
+      "bytes": 92225
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal09.uasset",
+      "sha1": "92878d912ee49975c5767548aa461fd54b9f5483",
+      "bytes": 95971
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal10.uasset",
+      "sha1": "bf0a89d7d58f6dcb8caaf58e2838849c18f28e42",
+      "bytes": 85627
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal11.uasset",
+      "sha1": "991ae042ef954641cb6f9b7bf434f7b3ca0c23a2",
+      "bytes": 108898
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal12.uasset",
+      "sha1": "0b1e1fe8c563c0c682eef221fac17b929f9bee02",
+      "bytes": 99372
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_RoadDecal13.uasset",
+      "sha1": "c72507c46700873c9adeb58c4b89da4b20e1255f",
+      "bytes": 90179
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Sidewalk01.uasset",
+      "sha1": "0af9119fa01c81a9fe24f481f57ea2fa62c8f3a0",
+      "bytes": 141187
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Sidewalk02.uasset",
+      "sha1": "25b1a3c3a91bc3f7a80b1ad2581ab4cbd91d9f2a",
+      "bytes": 104300
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Sidewalk03.uasset",
+      "sha1": "079877d2ea985101f278216b445cc57be90f8c81",
+      "bytes": 123862
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Sidewalk04.uasset",
+      "sha1": "497640787f04adc7023b3232f665cf13f19b3182",
+      "bytes": 124209
+    },
+    {
+      "path": "Content/CityPark/Meshes/Road/SM_Sidewalk05.uasset",
+      "sha1": "d5e7ee3dc5ebf0b38ae2b696352eb691b48cc48c",
+      "bytes": 92052
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_BaseballField.uasset",
+      "sha1": "86cb1b832bd2bcf7309ac23b57853bc15aa8c23c",
+      "bytes": 214550
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_BaseballGate.uasset",
+      "sha1": "c34b445045f3f2adbd8ca365258c85a77fe3184e",
+      "bytes": 1095924
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_BasketballField.uasset",
+      "sha1": "60ac4b594efcaf86bd460d7c2468bd4ba0be004b",
+      "bytes": 277462
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_BasketballHoop.uasset",
+      "sha1": "5f06179a6f5970f758deaf2c93c99d86163d8580",
+      "bytes": 166177
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_FootballField01.uasset",
+      "sha1": "fa03085a3675b49ff1d16efd62019143ee5f4901",
+      "bytes": 6142550
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_FootballField02.uasset",
+      "sha1": "0c3ada77d0bd9f791455b06f2ac93412d61a02bc",
+      "bytes": 114630
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_FootballGate.uasset",
+      "sha1": "23544f58fcb3359f5468db73a2823129dba20177",
+      "bytes": 235846
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_TennisBench.uasset",
+      "sha1": "67d36d9baafebae383998cb3389f8e5bbc241e9d",
+      "bytes": 226532
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_TennisField1.uasset",
+      "sha1": "ef6c12fc51a49262d7388da25a2a6ea8e3c33d4b",
+      "bytes": 130638
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_TennisFloodlight.uasset",
+      "sha1": "8c6c7de848f7d47f855afa6a5fe12d9144d8ebf1",
+      "bytes": 214558
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_TennisNet.uasset",
+      "sha1": "e0059e49d6566766a5dd42e98c186a4f3f288eae",
+      "bytes": 401200
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_TennisUmpiresChair.uasset",
+      "sha1": "ddd28fa45163226ce0754a09db98a0aaf46968e0",
+      "bytes": 187150
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_Tribune01.uasset",
+      "sha1": "d8efeb6c48f578b61cb4da3ee2dccccb8e3134f5",
+      "bytes": 144698
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_Tribune02.uasset",
+      "sha1": "69cd13eaf22c9a37f04fd4ac109a8df4f0267981",
+      "bytes": 215341
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_Tribune03.uasset",
+      "sha1": "48d1d844cfac91ec802f48b2ada4d6a82f5bcf7d",
+      "bytes": 104788
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_Tribune04.uasset",
+      "sha1": "511eec45b3f50a6b50001a04946cc5a92166b797",
+      "bytes": 105308
+    },
+    {
+      "path": "Content/CityPark/Meshes/SportsGround/SM_Tribune05.uasset",
+      "sha1": "7165594c09ae47d7bb74bb5db79d5e35e8a11f17",
+      "bytes": 93194
+    },
+    {
+      "path": "Content/CityPark/Particles/P_Fountain1.uasset",
+      "sha1": "e068b64bb1aa6b8e286a431e9333238e42aabbde",
+      "bytes": 27410
+    },
+    {
+      "path": "Content/CityPark/Particles/P_Fountain2.uasset",
+      "sha1": "3a5f6594361d9256ed1eb6cadb2584610216e417",
+      "bytes": 25964
+    },
+    {
+      "path": "Content/CityPark/Particles/P_Leaves.uasset",
+      "sha1": "17fb738a485cd86c7da06c548f272fd5655d24ed",
+      "bytes": 35123
+    },
+    {
+      "path": "Content/CityPark/Particles/P_Splash.uasset",
+      "sha1": "5976d00069cb11e8df9c0ae797516fd5f4cc717e",
+      "bytes": 62781
+    },
+    {
+      "path": "Content/CityPark/Sound/S_156969__martats__fountain.uasset",
+      "sha1": "292834813a4cd125fc3709c6a9def86459115558",
+      "bytes": 5085894
+    },
+    {
+      "path": "Content/CityPark/Sound/S_231537__vkproduktion__forest-birds-loop-02.uasset",
+      "sha1": "1698bec12b4bdcd652dbdf63e1b1c50c35a40f23",
+      "bytes": 5296391
+    },
+    {
+      "path": "Content/CityPark/Sound/S_345852__hargissssound__spring-birds-loop-with-low-cut-new-jersey.uasset",
+      "sha1": "d38b5d050ecbd61da9440b77f427d5297ebc6edb",
+      "bytes": 28039180
+    },
+    {
+      "path": "Content/CityPark/Sound/S_354121__sean-sd2007__fountain.uasset",
+      "sha1": "4015962bb30f5fa5b3fa560e59e3c4317549c3ad",
+      "bytes": 3503899
+    },
+    {
+      "path": "Content/CityPark/Sound/S_469009__innorecords__relaxing-mountains-rivers-streams-running-water.uasset",
+      "sha1": "91635afec4881c588f7a8cd46d239479dfe9b9a6",
+      "bytes": 52905635
+    },
+    {
+      "path": "Content/CityPark/Sound/S_511078__nox-sound__ambiance-waterfall-loop-01.uasset",
+      "sha1": "179842639e3837b336fdff24ec796b342227e93b",
+      "bytes": 5621055
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_B_N.uasset",
+      "sha1": "68b58e1a018633b1e25df6ffe10e8f66b32224a2",
+      "bytes": 3422
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_BB_D.uasset",
+      "sha1": "e51b7711d3cfdd8607fc418349dfa9940974fabc",
+      "bytes": 3134
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_BG_D.uasset",
+      "sha1": "f74da433652952b636041ef4aea4143f3755fd2c",
+      "bytes": 3153
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_Brush01.uasset",
+      "sha1": "8055567014ded26dc96302a8def9af3594d35a85",
+      "bytes": 85572
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_BW_D.uasset",
+      "sha1": "1e845f3b1ef2df0a4e879ced0c2e2ee378109dca",
+      "bytes": 3152
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_Dirt_N.uasset",
+      "sha1": "f397c1e0c9ff606ce5a152a9a802e561571a90ad",
+      "bytes": 2488111
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_gradient_D.uasset",
+      "sha1": "d82dc2711e73bbbf0d40ae97289e7919c4a37ded",
+      "bytes": 89774
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_lens_dirt.uasset",
+      "sha1": "68725c241e308d6ff2f2bd783154a3898ad08094",
+      "bytes": 880008
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_LUT01.uasset",
+      "sha1": "cb9e40fd23df5cc8b2c113075e1ee828d5c1f875",
+      "bytes": 4041
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_LUT02.uasset",
+      "sha1": "75bdb94bb64627546dfe802a35a8b70239f28961",
+      "bytes": 4042
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_MASK1.uasset",
+      "sha1": "412a063a5a2fffc2c93c25426aa667ae4e998be5",
+      "bytes": 140533
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_MASK2.uasset",
+      "sha1": "7171545ecea61ac7b3fa0ffece91e2fcf94a6075",
+      "bytes": 1789545
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_Water_N.uasset",
+      "sha1": "682bea1116a4726e94c6b29d56306acc2bf138c0",
+      "bytes": 962307
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/T_WaterFoam_D.uasset",
+      "sha1": "bf5d815c9fd3cbed895190f2f0551a971d50561f",
+      "bytes": 724345
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/TC_HDR.uasset",
+      "sha1": "31204fa8067463736b003404fbc832ec833359eb",
+      "bytes": 11852
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/TC_HDR01.uasset",
+      "sha1": "9ef6705c3a1b169cd5d972840c867d0835e72056",
+      "bytes": 306590
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/TC_HDR02.uasset",
+      "sha1": "b9b59a0f697e56946a2360f5c218d8a818dc83d9",
+      "bytes": 2169134
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/TC_HDR03.uasset",
+      "sha1": "a8698190084e59e5d0b8138e3d1b9ec45d1c52ca",
+      "bytes": 447398
+    },
+    {
+      "path": "Content/CityPark/Textures/BaseTextures/TC_HDR04.uasset",
+      "sha1": "326db078bce58889b6087a1e7c3aaad3e6ed82cb",
+      "bytes": 447564
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_CafeBuilding_D.uasset",
+      "sha1": "4ec478b11e8a83e7ce6a351093e2d0d8503e880c",
+      "bytes": 26616415
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_CafeBuilding_N.uasset",
+      "sha1": "e1045bc6f90c89b5ba2d978e76288117916dac8a",
+      "bytes": 16810221
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_CafeBuilding_SRM.uasset",
+      "sha1": "788096acf7b0565a88ed100d8bc539d7b6573ae7",
+      "bytes": 13257578
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Floor01_D.uasset",
+      "sha1": "58425bde455d28dec958b2c509d2920e5a3f7a4a",
+      "bytes": 7611389
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Floor01_N.uasset",
+      "sha1": "aa3b069e5f0bf8230c634a9cf3b5e778db762770",
+      "bytes": 7413405
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Floor01_SRM.uasset",
+      "sha1": "a7d0f141ce8a6745b356161e1ecf04998ca7701f",
+      "bytes": 5312718
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_House01_D.uasset",
+      "sha1": "307984fb9761fef4e8f4dde5eb498fffd59b9ece",
+      "bytes": 6063236
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_House01_N.uasset",
+      "sha1": "f310ebf406615060bbbde7d22f80443978925e26",
+      "bytes": 6249045
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_House01_SRM.uasset",
+      "sha1": "1f68534f0c21d0e0d1e25d8af35951092ce99a43",
+      "bytes": 4871608
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_House02_D.uasset",
+      "sha1": "f6f66fc24a3d97873903a1a13d1415bc71133d05",
+      "bytes": 27160890
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_House02_N.uasset",
+      "sha1": "1823fc284810541af679a58cd81f0e262f3b7bbb",
+      "bytes": 16470254
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_House02_SRM.uasset",
+      "sha1": "90b189c02e814a35d52f0b71671022edfa32a377",
+      "bytes": 17868528
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_RoofTile01_D.uasset",
+      "sha1": "be0557c61c00b272e8eeb9a440d17f577ebd8af8",
+      "bytes": 1769272
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_RoofTile01_N.uasset",
+      "sha1": "07bfb81bcb277244f66cb9ce5e6e3e2fe041cb93",
+      "bytes": 1682591
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_RoofTile01_SRM.uasset",
+      "sha1": "d1c32df0496c55a19ae518a01b934728f0e4c632",
+      "bytes": 1488800
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_RoofTile02_D.uasset",
+      "sha1": "fc46cde779c974c4aa9da3aa508455ce5b0d9286",
+      "bytes": 7204400
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_RoofTile02_N.uasset",
+      "sha1": "7858e75e33d3b5f5122f2e87cb3f726ba59aebea",
+      "bytes": 6636939
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_RoofTile02_SRM.uasset",
+      "sha1": "9197f5c210283e258cdbfa8b53ff249a2aa0947b",
+      "bytes": 4625348
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Stairs01_D.uasset",
+      "sha1": "8ee8547662f33e3274f48815a8c0df9df34b191b",
+      "bytes": 976394
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Stairs01_N.uasset",
+      "sha1": "176c550451166be90086c9cc4bd17f59eb97a36c",
+      "bytes": 1178167
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Stairs01_SRM.uasset",
+      "sha1": "446836b5161ca5251f062f226627b2baf4e0844d",
+      "bytes": 707377
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Wall01_D.uasset",
+      "sha1": "94f58f49c95e42f8a691f2f9e7f8796426a04be9",
+      "bytes": 9602849
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Wall01_N.uasset",
+      "sha1": "32ab983f507632e8e0dcaeb9a7440704bce1292c",
+      "bytes": 9666841
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Wall01_SRM.uasset",
+      "sha1": "1d478ca27855fb8d2c921f03af1166c205796298",
+      "bytes": 5188893
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Wall02_D.uasset",
+      "sha1": "436145231e76dbbc2706e59075b5751f69efc986",
+      "bytes": 6384775
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Wall02_N.uasset",
+      "sha1": "5c8725d758c44adf62b43766689ab14c128e75c7",
+      "bytes": 10370949
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Wall03_D.uasset",
+      "sha1": "9207e602db9b2a491035972e0a8ef3c217293a11",
+      "bytes": 5770199
+    },
+    {
+      "path": "Content/CityPark/Textures/Buildings/T_Wall03_N.uasset",
+      "sha1": "037eb037f6f3a61294eef6484b64ad17d2bcd695",
+      "bytes": 7134420
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush01_D.uasset",
+      "sha1": "5fb4bd85569169414f40d27276124941a5ba24c1",
+      "bytes": 1406786
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush01_N.uasset",
+      "sha1": "d1397492237ca6ae7722f6e0c96eefceb9a1d857",
+      "bytes": 1098991
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush01_SRM.uasset",
+      "sha1": "c06e7a518b492bcfc399589e32fbe01cacc1a669",
+      "bytes": 1159018
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush02_D.uasset",
+      "sha1": "133c2c2e3d9f5872f8abd14661634991672c44d1",
+      "bytes": 1072353
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush02_N.uasset",
+      "sha1": "625b1e9e73fa31787d029ed9046c2e9e505ca466",
+      "bytes": 923812
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush02_SRM.uasset",
+      "sha1": "ffec7cfdbfdb3acdc6c1cc31c7c36a61e633f684",
+      "bytes": 1203051
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush04_D.uasset",
+      "sha1": "1d775b31b963e7c0866ac46dadfc37157e331364",
+      "bytes": 3465499
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush04_N.uasset",
+      "sha1": "e03088c6b0735b801c679eac289cefb9fef25a08",
+      "bytes": 2593731
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush04_SRM.uasset",
+      "sha1": "2abd7874c3e2c1a708183eec4f92178b83b5cba1",
+      "bytes": 4414505
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush05_D.uasset",
+      "sha1": "a9d9432ddb88b69ee8c11929b64ab076075bce23",
+      "bytes": 2552032
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush05_N.uasset",
+      "sha1": "9b3f2fa4dde7e4a6f09c1b46e9fc4173783bfaf1",
+      "bytes": 3044880
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Bushs/T_Bush05_SRM.uasset",
+      "sha1": "25cace21ffceaaf95d43297a6346d8dcc9bf7d92",
+      "bytes": 3734429
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass01_D.uasset",
+      "sha1": "96c1664ff28ec0a18c8e7b6ab61a61e2587bf446",
+      "bytes": 633056
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass01_N.uasset",
+      "sha1": "be60b80becac529140b75e986f3815f44f6b2e34",
+      "bytes": 1144149
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass02_D.uasset",
+      "sha1": "9f6a18d33d34616a9d92ad3ccc35ab6421e9605b",
+      "bytes": 1081830
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass02_N.uasset",
+      "sha1": "fd6386fff8a91bcbc2f0a2171122eef14d9981a9",
+      "bytes": 1408495
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass03_D.uasset",
+      "sha1": "21e58ffdbe2581274571e8c8f758796909af6ae5",
+      "bytes": 785071
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass03_N.uasset",
+      "sha1": "7649678f9e03e73a5249f39b3bb96c54207901a6",
+      "bytes": 1061792
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass04_D.uasset",
+      "sha1": "2a56482ec74d2cf6d797e1a7c1bfb81f0158606c",
+      "bytes": 691983
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass04_N.uasset",
+      "sha1": "fc14c9427966fff69e3ab53c2cb759efe715ec58",
+      "bytes": 852916
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass05_D.uasset",
+      "sha1": "58dcdf538be50a92d70d21d9719cc3793feb03a9",
+      "bytes": 855283
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass05_N.uasset",
+      "sha1": "3be5738959bee4ebadfc89184ba0384edac86380",
+      "bytes": 999386
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass06_D.uasset",
+      "sha1": "1d3b528be8ad4ee38f88ff69073cf6ca1e3fe8bc",
+      "bytes": 587755
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass06_N.uasset",
+      "sha1": "98b031d6468fdd3c61eb21e171cc543ebfdda472",
+      "bytes": 618056
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass07_D.uasset",
+      "sha1": "3a354a9129f123aa6397160bef180c16c1aecc49",
+      "bytes": 4268254
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass07_N.uasset",
+      "sha1": "c79e4304b2afaf0091131c33aabaa9269aebad16",
+      "bytes": 8591968
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass08_D.uasset",
+      "sha1": "1553d54f0473379106bb91ef1546eaa5efb00f27",
+      "bytes": 1085382
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass08_N.uasset",
+      "sha1": "122f68340de0d12664db877f98136097bbfbc569",
+      "bytes": 1019056
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass09_D.uasset",
+      "sha1": "3a76ef67c284d5f22e47bb3b1e5ca4ce257c9d0e",
+      "bytes": 798834
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass09_N.uasset",
+      "sha1": "589db941a02be452d72589ef1642c178d5a539ad",
+      "bytes": 969418
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass10_D.uasset",
+      "sha1": "ddfad5f903f6b1553910fae5116b2fc63076fa4f",
+      "bytes": 914850
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass10_N.uasset",
+      "sha1": "4af58360c33d441e40c2be7b5539e0460175e67f",
+      "bytes": 724706
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass11_D.uasset",
+      "sha1": "c3e7198272d1fb2f1b02148940ae18fa252b0174",
+      "bytes": 316211
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass11_N.uasset",
+      "sha1": "aa3ee64e0135d49533b0f39ace22031e5208a7ab",
+      "bytes": 594457
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass12_D.uasset",
+      "sha1": "851e8903e773b8473451fe0a91168b495c529cc5",
+      "bytes": 674255
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass12_N.uasset",
+      "sha1": "47acc151b3a9599fb68d521eae67b9788838aa83",
+      "bytes": 546033
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass13_D.uasset",
+      "sha1": "f4903873a78f2f27a951565a3c85448d6b5e2716",
+      "bytes": 817665
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass13_N.uasset",
+      "sha1": "3490ac61374798dc65d8c6f621e0a123c0adc6ab",
+      "bytes": 823419
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass14_D.uasset",
+      "sha1": "1428f7848673c490be3d1b63e17a3723d34f0ff1",
+      "bytes": 155440
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_Grass14_N.uasset",
+      "sha1": "686501d8823862e1b111d56d4d1b1abe5a5c50c3",
+      "bytes": 164618
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_WaterPlant_D.uasset",
+      "sha1": "fb97a119c030cb1d68ffb1b8bddf7ee005e01b35",
+      "bytes": 951252
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Grass/T_WaterPlant_N.uasset",
+      "sha1": "dead35abb9b6f9f43a670556b04643544438c848",
+      "bytes": 1086889
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Ivy/T_Ivy_D.uasset",
+      "sha1": "a715c0fe25c0a340e0dc38e4e58961d2e654172b",
+      "bytes": 1098738
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Ivy/T_Ivy_N.uasset",
+      "sha1": "27f030833219197b70fddfe266fac7842ebaf745",
+      "bytes": 1244762
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_AmurCorkBranch01_D.uasset",
+      "sha1": "28c602cb5002c40f8fbc320f5ec6acd046cb21d6",
+      "bytes": 2918143
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_AmurCorkBranch01_N.uasset",
+      "sha1": "8c23c182713031dd1abed8910596d29b112afa43",
+      "bytes": 3367470
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_AmurCorkBranch01_SRM.uasset",
+      "sha1": "d5f883736a00bb09b6dcbb98b16a55fd200d69b8",
+      "bytes": 4626250
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_ElmBranch01_D.uasset",
+      "sha1": "1918d4f651799c9f4171291ff2aaa6c02efd4e28",
+      "bytes": 2654128
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_ElmBranch01_N.uasset",
+      "sha1": "fb6587fa577101594b96e4759e939d42c8c8a0a3",
+      "bytes": 2685472
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_ElmBranch01_SRM.uasset",
+      "sha1": "419779ade1641cea43599b91d7924194c881045c",
+      "bytes": 4851398
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_MapleBranch01_D.uasset",
+      "sha1": "7bb5cbe698f46f89e4aa18b13d1c21bf3fc3954c",
+      "bytes": 3041116
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_MapleBranch01_N.uasset",
+      "sha1": "14bf48e075aebf7ce0fe7130a4bf6a091d630ff8",
+      "bytes": 3164734
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_MapleBranch01_SRM.uasset",
+      "sha1": "d54f81597954df18bebadf62faa1eba83b8c16a4",
+      "bytes": 4949538
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark01_D.uasset",
+      "sha1": "895311879898074ef9e35ab52ebdd82279a50d9b",
+      "bytes": 2155722
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark01_N.uasset",
+      "sha1": "55f43815cece7228c8643d0c50840c7cf95af1e5",
+      "bytes": 2728394
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark01_SRM.uasset",
+      "sha1": "7988c6678ea0239ca55d4b80f70657e680a8aaec",
+      "bytes": 1636938
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark02_D.uasset",
+      "sha1": "f254e8275ec8a7f6d892990fac97bad03cd7012d",
+      "bytes": 2346902
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark02_N.uasset",
+      "sha1": "e836fdf0780623be4a38ae9a2c3ad0739ab1a59f",
+      "bytes": 2326624
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark02_SRM.uasset",
+      "sha1": "0bd9e68521f53f5df543fb3901b32c4dacf30867",
+      "bytes": 1572405
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark03_D.uasset",
+      "sha1": "323ffe70bd5f6bd46785d757afe3c6b3c8bb8280",
+      "bytes": 1260902
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark03_N.uasset",
+      "sha1": "d3a00f8ede4fe1dd2f9f0665f5a31538897a0405",
+      "bytes": 1464318
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_TreeBark03_SRM.uasset",
+      "sha1": "66893d8259db76a3f25a3e19b028ff6697177692",
+      "bytes": 1559865
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_WeepingWillowBranch_D.uasset",
+      "sha1": "7e4bbd793654e44db4681f7b2ce8ab5851f3169d",
+      "bytes": 1657161
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_WeepingWillowBranch_N.uasset",
+      "sha1": "7e20cdf684a6b2a6f3c47c792ba40f7fec50b5fb",
+      "bytes": 4401
+    },
+    {
+      "path": "Content/CityPark/Textures/Flora/Trees/T_WeepingWillowBranch_SRM.uasset",
+      "sha1": "99b7fd082b35b972866ca8325bdb0d6cfd038ec6",
+      "bytes": 2557483
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_DryLeaves_D.uasset",
+      "sha1": "606ae76a42cda14b9ae50873fc8272bb2354ef2d",
+      "bytes": 1587353
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_DryLeaves_N.uasset",
+      "sha1": "5aea18f26081576764bce736ab4ac15782204d50",
+      "bytes": 1528261
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground01_D.uasset",
+      "sha1": "abff3230040aad26838020db14f8143c828703c6",
+      "bytes": 14210433
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground01_N.uasset",
+      "sha1": "e65eb68360f8fb5c9be4b17ae79f0b1cc0850ba2",
+      "bytes": 10946011
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground02_D.uasset",
+      "sha1": "3f0481ba147f2ee99a46aba660a19933034bc483",
+      "bytes": 13250441
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground02_N.uasset",
+      "sha1": "47f4f263f012cf86115293af7f6b56a2d32f6fd7",
+      "bytes": 10062409
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground03_D.uasset",
+      "sha1": "88e18a9cf95899c3e5df62ba7e71bb71d69dc856",
+      "bytes": 13195207
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground03_N.uasset",
+      "sha1": "62f40dd37d9c9e0306aa97f74a2c5083cbac3a9b",
+      "bytes": 10639929
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground05_D.uasset",
+      "sha1": "91bdadeb68ff8941c3e6dba7a5ef571ba44bb536",
+      "bytes": 13612820
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Ground05_N.uasset",
+      "sha1": "7e8b27ad48083e8fa5bf1949426a81d8b1f5610a",
+      "bytes": 8829249
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock01_D.uasset",
+      "sha1": "ac077cc6a1e52ec5c447fd999ea52179e9e26e71",
+      "bytes": 1785803
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock01_D2.uasset",
+      "sha1": "c999eafa7cf471c76c98bc69aa537528cd3b28be",
+      "bytes": 1586648
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock01_N.uasset",
+      "sha1": "a4de8dddc9448fdee108b87332974ac038c4ed25",
+      "bytes": 1769612
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock01_SRM.uasset",
+      "sha1": "c0cc9b0f1c8ae603c1b2f7c90c74de127d4953bb",
+      "bytes": 1521633
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock04_D.uasset",
+      "sha1": "f4023469142606036581d7ec8021eb16636bab43",
+      "bytes": 1799090
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock04_D2.uasset",
+      "sha1": "da86fc02984e0482689725da3997116198067c28",
+      "bytes": 1966980
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock04_N.uasset",
+      "sha1": "ac2e96b6abd5a13f263fec4a34d765751aa5cc7e",
+      "bytes": 1799389
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock04_SRM.uasset",
+      "sha1": "9f551a4f3efe49de557ff5412918483e093a40ce",
+      "bytes": 1511630
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock06_D.uasset",
+      "sha1": "e3c49c39510b129f37c4b3073570e1660e0480a9",
+      "bytes": 6753442
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock06_D2.uasset",
+      "sha1": "97f2692ba7020f8bdc46231421773028c2f60c7f",
+      "bytes": 7231375
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock06_N.uasset",
+      "sha1": "0e1746dfe0f326a07313559f7af04a582b04ae64",
+      "bytes": 6403575
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock06_SRM.uasset",
+      "sha1": "248cd1fa45e593934199cdc7fcabfac532cc532a",
+      "bytes": 5817963
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock07_D.uasset",
+      "sha1": "e9ba3ee5d68857cd2faef2ae4f3e411da7775b70",
+      "bytes": 28811113
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock07_D2.uasset",
+      "sha1": "0ace242e277cda9af3e826dbc2c1dc18ed14200e",
+      "bytes": 30676663
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock07_N.uasset",
+      "sha1": "9cc00521911ab85a70d256e774b7b524484e2744",
+      "bytes": 26860088
+    },
+    {
+      "path": "Content/CityPark/Textures/Ground/T_Rock07_SRM.uasset",
+      "sha1": "418807adcc66f62db137671472818e35340acf22",
+      "bytes": 23447953
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Fountain01_D.uasset",
+      "sha1": "c251808c3f194d9633e80d2368e995d600e23d75",
+      "bytes": 7688369
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Fountain01_N.uasset",
+      "sha1": "09c022f0fab93ed3504f8ef7db3c77f54c956eb9",
+      "bytes": 7548575
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Fountain01_SRM.uasset",
+      "sha1": "63fde7d115345d861b4637744fffc38a92ffc846",
+      "bytes": 5104566
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare01_D.uasset",
+      "sha1": "4c8cd68ccb081339ed9d3bee77c3eabdebef754e",
+      "bytes": 27955648
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare01_N.uasset",
+      "sha1": "47b740bbdc336229a69f21d63bf5603dc8bddf5a",
+      "bytes": 20624612
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare01_SRM.uasset",
+      "sha1": "39dded1bd1ce58187823b2c0eb7c70c5cd2d3b06",
+      "bytes": 23412355
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare02_D.uasset",
+      "sha1": "54a8d19ed8865fa936fec5c5933154629e482ff7",
+      "bytes": 31691731
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare02_N.uasset",
+      "sha1": "2c1c1369d150f9ed13ab323486e65ac88a691f12",
+      "bytes": 30217387
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare02_SRM.uasset",
+      "sha1": "fdc8d28f9708fb8c4879c54c1057031ef7d1b484",
+      "bytes": 22441264
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare03_D.uasset",
+      "sha1": "ae59eea3463ddfb705619ffbccc7ac651f727364",
+      "bytes": 30796368
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare03_N.uasset",
+      "sha1": "45cd330e936a7eca62cecd404ebeba487e8ec72f",
+      "bytes": 30090626
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare03_SRM.uasset",
+      "sha1": "29c6316e700bf2e1451b0194375986f91c6d1c40",
+      "bytes": 24014994
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare04_D.uasset",
+      "sha1": "dfdd32dbd9292e472b71c203d0bf678501264d6a",
+      "bytes": 8346678
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare04_N.uasset",
+      "sha1": "2ee99675e5909aa29697dae3ff6e2ca7c201005e",
+      "bytes": 8744660
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare04_SRM.uasset",
+      "sha1": "dd5e2ac43e3f1c5ee3082e0f76784eab44a8dcaf",
+      "bytes": 5970817
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare05_D.uasset",
+      "sha1": "9d6c50b90e362fcab53f27d8d328bbc24ef966a9",
+      "bytes": 32439609
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare05_N.uasset",
+      "sha1": "7cb022f125d1c775b62a5dabeb78ce904a178676",
+      "bytes": 31334618
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare05_SRM.uasset",
+      "sha1": "7e17da6f849ef99ce602a1a2fa7be2d0fa15b7cd",
+      "bytes": 28106117
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare06_D.uasset",
+      "sha1": "68ebe9b799972d38c3dbbcfc8d26ff136ec8ea8c",
+      "bytes": 30402143
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare06_N.uasset",
+      "sha1": "7cd27b1cbf2e30caa93d655518d1a545bb79f18c",
+      "bytes": 30555608
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare06_SRM.uasset",
+      "sha1": "0a8cedad277878fb5fea908e37610b2e45fe6220",
+      "bytes": 21049887
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare07_D.uasset",
+      "sha1": "453c170fcf3dad2626bc5236156e3e1eec789983",
+      "bytes": 31378370
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare07_N.uasset",
+      "sha1": "491f7228e3d7801333a21e65a344ba85271336e1",
+      "bytes": 30196117
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare07_SRM.uasset",
+      "sha1": "0f671085b5a96de3c14cf16a398494ba8ab11dbe",
+      "bytes": 21850821
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare08_D.uasset",
+      "sha1": "3d8fa285547a0a3eba84ce1422d5a1b9986715cc",
+      "bytes": 7800743
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare08_N.uasset",
+      "sha1": "50986a0083d1ef1c910ca902e0d17f8a277e5e21",
+      "bytes": 5560244
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare08_SRM.uasset",
+      "sha1": "d889bd80516a874bc3b261720c412ca484af7a55",
+      "bytes": 6586006
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare09_D.uasset",
+      "sha1": "a7bf9ac6749f788b3d91c5a59caf57a2fc407ff8",
+      "bytes": 9087999
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare09_N.uasset",
+      "sha1": "cd0f03019877fabdcb303662c2342dbd3fe1dc24",
+      "bytes": 4692523
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare09_SRM.uasset",
+      "sha1": "bee319422e16932043732fa2065a4da4ea7cfd80",
+      "bytes": 5324050
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare10_D.uasset",
+      "sha1": "a9f81d7bb1906f832ca8769fa63cb195695290f8",
+      "bytes": 7464775
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare10_N.uasset",
+      "sha1": "c3be0fc0e5659066268c59ca49f193954f3f9140",
+      "bytes": 7711976
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare10_SRM.uasset",
+      "sha1": "201bd07d2a98b9a10e8748ed77e763f1f3163d01",
+      "bytes": 5013686
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare11_D.uasset",
+      "sha1": "ece75850e30696a8089491b15372c004ca6edbbf",
+      "bytes": 8458982
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare11_N.uasset",
+      "sha1": "f8de2e35b05d08082e1bab9ebbb8d357ce4fec69",
+      "bytes": 8664878
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare11_SRM.uasset",
+      "sha1": "e20a85f8843af2a4ca20fd13367fd4045d093446",
+      "bytes": 6930048
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare13_D.uasset",
+      "sha1": "1382220e7cc3f2926b528028ece8e7a0ad303bfb",
+      "bytes": 28979861
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare13_N.uasset",
+      "sha1": "4fa88c6ce99cfcf80fe7223dad5bd9569c4e5055",
+      "bytes": 21880063
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquare13_SRM.uasset",
+      "sha1": "4e9e0718d4272372cd1e3d57ca74640a215038b0",
+      "bytes": 25042216
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquareDoor_D.uasset",
+      "sha1": "831166db5d53227833bc9d7deaca3eaa5feefe75",
+      "bytes": 1516205
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_ParkSquareDoor_N.uasset",
+      "sha1": "301a4dd5aa3065e183dfb334161f7deb47a05a47",
+      "bytes": 1001415
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Poo1_D.uasset",
+      "sha1": "e318b9c36b41d8f321138df21ba1e40234b38e08",
+      "bytes": 17403776
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Pool1_N.uasset",
+      "sha1": "cb1245076245703379a610c45e9e0b51a0bcf84b",
+      "bytes": 8285556
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Pool1_SRM.uasset",
+      "sha1": "49a0728558d7fae285ab02db796a4d46f2d6f6bf",
+      "bytes": 11191921
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Pool2_D.uasset",
+      "sha1": "34e59d87e681b109acfb5873ad62543420f9c8f9",
+      "bytes": 1950487
+    },
+    {
+      "path": "Content/CityPark/Textures/ParkSquare/T_Pool2_N.uasset",
+      "sha1": "95c53bd339d88ce4ce0fc019e101c88b57619a14",
+      "bytes": 1513426
+    },
+    {
+      "path": "Content/CityPark/Textures/Particles/T_ParticlesWater_D.uasset",
+      "sha1": "c236f84bc6db8b77cb1db4521041dd2b6fc7146f",
+      "bytes": 242670
+    },
+    {
+      "path": "Content/CityPark/Textures/Particles/T_ParticlesWater_N.uasset",
+      "sha1": "94c3b9bb95af1e5f2ff2a3df419f8d5552ceabce",
+      "bytes": 226978
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground01_D.uasset",
+      "sha1": "13b694f1f58614fc8f3f4a965b7348b664f1f542",
+      "bytes": 576287
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground01_N.uasset",
+      "sha1": "cd177ae6b2618853d728b064d8c43d2ad805dd7e",
+      "bytes": 434039
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground02_D.uasset",
+      "sha1": "8c32e746f794d0859f104ff8500c47a4056eaf3b",
+      "bytes": 686489
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground02_N.uasset",
+      "sha1": "0d7ce331bfa12ddbb43c42a37e8fb96844304487",
+      "bytes": 639850
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground03_D.uasset",
+      "sha1": "9a472a6e105e2ef2e703186d9d3a9b6443ab83b9",
+      "bytes": 610168
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground03_N.uasset",
+      "sha1": "27af92111ca286ce636646b416f35c8df77895a4",
+      "bytes": 560985
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground04_D.uasset",
+      "sha1": "fc5cdd54e215c5c88cd1b68dd0300971694b1906",
+      "bytes": 22330618
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground04_N.uasset",
+      "sha1": "ebd76fd2b28ec399c8c6a8841ab123e4d274700c",
+      "bytes": 19831919
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground04_SRM.uasset",
+      "sha1": "6554eef19cd3c2a627ee01008b978d3e0b304ec9",
+      "bytes": 22745658
+    },
+    {
+      "path": "Content/CityPark/Textures/Playground/T_Playground05_D.uasset",
+      "sha1": "2e493852413a00e45031d5429ecc49fd274a11ce",
+      "bytes": 643678
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench01_D.uasset",
+      "sha1": "b77c093211070cb511e1b445b6b82ab80e386678",
+      "bytes": 2762088
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench01_N.uasset",
+      "sha1": "8ec92c01b3bcbd0b0aa3c8944445cc2967d70099",
+      "bytes": 2427241
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench01_SRM.uasset",
+      "sha1": "aa523f3185729864c7dc54032950b2b64ffb936f",
+      "bytes": 3070728
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench02_D.uasset",
+      "sha1": "d86bb194d03e6cfda2a7ef78202cc417dcf36c32",
+      "bytes": 3513867
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench02_N.uasset",
+      "sha1": "a7aa3b74f3975b24e80f9d6062b5968acea24912",
+      "bytes": 3917269
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench02_SRM.uasset",
+      "sha1": "aaae44e0ba2a08553d3a40dd2710933aca125c0d",
+      "bytes": 2374511
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench03_D.uasset",
+      "sha1": "8bb4d697ef963714650e55af0d0d757b1f9a01ad",
+      "bytes": 7131257
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench03_N.uasset",
+      "sha1": "404b3f3d072db320e7d5793a49df9e2ee3e645ed",
+      "bytes": 5179366
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bench03_SRM.uasset",
+      "sha1": "fd0af469e70b225cf71b6c9d22efca311e682b53",
+      "bytes": 5787648
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_BorderWood_D.uasset",
+      "sha1": "4b3389252f1215b51a2e3eecd0b579ca013b24ee",
+      "bytes": 2417003
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_BorderWood_N.uasset",
+      "sha1": "d93b1721dd23466e03747956126ab227ae80b56b",
+      "bytes": 2486133
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_BorderWood_SRM.uasset",
+      "sha1": "83e6b9d451efa5eb50955436498a0b4251e142de",
+      "bytes": 1570830
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bower_D.uasset",
+      "sha1": "6ded4344b60ab11485f5172480194fc52825c478",
+      "bytes": 9513256
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bower_N.uasset",
+      "sha1": "9aabcc6e1ac8507f01380eff274e6e1a58571155",
+      "bytes": 9946340
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Bower_SRM.uasset",
+      "sha1": "5ab4c0dd489455f598c0cfa925a37cd8099c1710",
+      "bytes": 7077418
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeChair1_D.uasset",
+      "sha1": "e855e34806e4d080f64128d57efa868ef542c65e",
+      "bytes": 2660623
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeChair1_N.uasset",
+      "sha1": "0c39ac9387d5e78cc7b0b930bc9dc9a772ddacdc",
+      "bytes": 1664148
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeChair1_SRM.uasset",
+      "sha1": "2e01dc619b3792c5064e5c398daeb34edd9a8cf6",
+      "bytes": 1778126
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeChair2_D.uasset",
+      "sha1": "fc9c954882c83cb6078595b7e9a87c264890b07a",
+      "bytes": 1937040
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeChair2_N.uasset",
+      "sha1": "dc9e2a931c10a8ea7b0fbe2f1f096eeb629d560e",
+      "bytes": 636475
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeChair2_SRM.uasset",
+      "sha1": "0253b061c4c6291e54b392704c6d9aba3c13ba34",
+      "bytes": 789584
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeTable_D.uasset",
+      "sha1": "f5277a1f4412f68eee4bc0fe013b1567a4f9d4bb",
+      "bytes": 7966441
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeTable_N.uasset",
+      "sha1": "cbb15899035b0b7e8496fff06b56a8fdd700f2db",
+      "bytes": 6347851
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeTable_SRM.uasset",
+      "sha1": "a3fdb44c2d5b26e52d77671e17d56a5e5ee5e5fc",
+      "bytes": 5947992
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeTableCloth_D.uasset",
+      "sha1": "edf99d2281aa3b810d614cdaec761b94d6729fce",
+      "bytes": 779364
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeTableCloth_N.uasset",
+      "sha1": "4bd2a924fb4226b83744db2c152e4e154069e9c4",
+      "bytes": 620244
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_CafeTableCloth_SRM.uasset",
+      "sha1": "b22738a7412663a24ab19cfe63f5cc5898e3c9ee",
+      "bytes": 239730
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_DrinkingFountain_D.uasset",
+      "sha1": "704129117318568716ae017a8b32ce20b7ddb42e",
+      "bytes": 2117738
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_DrinkingFountain_N.uasset",
+      "sha1": "5a9920fce5144fed97331b26483fb9262bf13554",
+      "bytes": 1735034
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_DrinkingFountain_SRM.uasset",
+      "sha1": "4253aa64a639465e25b349991a0067cf4278a796",
+      "bytes": 1705652
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence01_1_D.uasset",
+      "sha1": "e15069f94bcb1467ba4f5c0b1bee3960b6d6a6f8",
+      "bytes": 4403707
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence01_1_N.uasset",
+      "sha1": "109ea8cf7d2acc12589c64a57bf6fc8440d17e68",
+      "bytes": 4365451
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence01_2_D.uasset",
+      "sha1": "62c3a3ed7644f468c4c0023346da1258175ef3c2",
+      "bytes": 1929598
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence01_2_N.uasset",
+      "sha1": "5106facf078ac41468bd4dfc2417178d49cd9603",
+      "bytes": 2152583
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence02_D.uasset",
+      "sha1": "58e6a971a1d9abd5494d9914d4c48139228be001",
+      "bytes": 4216083
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence02_N.uasset",
+      "sha1": "8330756ca6132942813f993440d1ebcc5ad6d015",
+      "bytes": 3515768
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence02_SRM.uasset",
+      "sha1": "fa86ab6dbd6e8696a3e53e1a89fbae69a9c8e5b7",
+      "bytes": 3609737
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence04_D.uasset",
+      "sha1": "8e449ccb72b27fea258ece64aa81a42b7c65d876",
+      "bytes": 9878494
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence04_N.uasset",
+      "sha1": "1ab6b1fc53429f4f15d353933ef1c7151493e9d7",
+      "bytes": 9176088
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence04_SRM.uasset",
+      "sha1": "cc7639755bf9d678a096de3dac709d63bb2d2b04",
+      "bytes": 7656038
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence05_D.uasset",
+      "sha1": "891dd23325653fe62c1461a21abc161b4712e225",
+      "bytes": 3857710
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence05_N.uasset",
+      "sha1": "3937270fc0b9e10b12fb09434d2bee2a19068f80",
+      "bytes": 4237941
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence05_SRM.uasset",
+      "sha1": "dbc9140bf8ca1420e099adb248cef4dee2a8f261",
+      "bytes": 2983677
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence06_D.uasset",
+      "sha1": "53f82d3aecf30c6d8af898cade11375d237ed04c",
+      "bytes": 780404
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence06_N.uasset",
+      "sha1": "59eaf8313f55d2ab1d133fa015c8eee071047e09",
+      "bytes": 778658
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Fence06_SRM.uasset",
+      "sha1": "ca50f9aa83535b85fe80798fbb58d0c716564159",
+      "bytes": 268925
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_FoodStalls_D.uasset",
+      "sha1": "ef0fc08661ce5d70a876ecaa471eb6e441725fdb",
+      "bytes": 26282200
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_FoodStalls_N.uasset",
+      "sha1": "b1ce8416c2170b63d5f5d3a95b94250402868d6e",
+      "bytes": 18452659
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_FoodStalls_SRM.uasset",
+      "sha1": "1901d7bc6e9afd1b050a9fe4476339add39863ec",
+      "bytes": 13447059
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_LampPost01_D.uasset",
+      "sha1": "cdee92ec8691b8412d87d75539b04a793ab2df7a",
+      "bytes": 7538567
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_LampPost01_N.uasset",
+      "sha1": "6e72185b2f032575b0736d75592e081dcacc1707",
+      "bytes": 5497031
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_LampPost01_SRM.uasset",
+      "sha1": "be10b3b925967fb325a3636dc5e2b5251f7d3e5b",
+      "bytes": 8351491
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_LampPost02_D.uasset",
+      "sha1": "348cf822bd0b61d021e3a1a2c7771c3f99da268b",
+      "bytes": 1541905
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_LampPost02_N.uasset",
+      "sha1": "4c886e64d49325cd4dc304b8ed9d304be725babd",
+      "bytes": 615991
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_LampPost02_SRM.uasset",
+      "sha1": "546680dba958f59d6354737a2bce27fa13542993",
+      "bytes": 1249392
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Manholes_D.uasset",
+      "sha1": "940bef23247b7840858338912d8a81fbc5bf3657",
+      "bytes": 7335076
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Manholes_N.uasset",
+      "sha1": "dce99e1810b61814bc0d665100e1823115eb4b7f",
+      "bytes": 5312432
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Manholes_SRM.uasset",
+      "sha1": "fad775413bc6317a2ae9b81c7313e764879e2740",
+      "bytes": 8834651
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Net_D.uasset",
+      "sha1": "86e0645e22e021b1455c6ec790995cc57bb1b5e4",
+      "bytes": 609323
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Net_N.uasset",
+      "sha1": "8d0bc001ea5f1029972ca5b759b8d913e8a218f7",
+      "bytes": 442802
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Newspaper01_D.uasset",
+      "sha1": "8c22ddd1f62348d681a1376c125378249fbf00e7",
+      "bytes": 2179787
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Newspaper01_N.uasset",
+      "sha1": "1e6cb80e90562517a780b64a7eb14181ae8d2f00",
+      "bytes": 2017827
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Newspaper01_SRM.uasset",
+      "sha1": "dabf5e98448c603ed5b1ff8493ae021d57ab9aaf",
+      "bytes": 1827819
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_ParkFence01_D.uasset",
+      "sha1": "938b0ca8e7034da8b76bc783a6ed32fb4248d605",
+      "bytes": 8981553
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_ParkFence01_N.uasset",
+      "sha1": "471e29a952e7a93b413b41dfa4f040aa4b6d4b12",
+      "bytes": 5014715
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_ParkFence01_SRM.uasset",
+      "sha1": "3722a3584e2f38e2fd3ca31599d7391a0caaaf68",
+      "bytes": 5923887
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_ParkFence03_D.uasset",
+      "sha1": "3530cd7a9253f0599d21d76ddc35e6d937ded30a",
+      "bytes": 5255370
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_ParkFence03_N.uasset",
+      "sha1": "b13845ebba38c6d76c3e66c84b620060f171f1b0",
+      "bytes": 4737469
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_ParkFence03_SRM.uasset",
+      "sha1": "e504858f58a53e77c7273e6f914ae7d6c0ccdec5",
+      "bytes": 5070243
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_RoadSigns_D.uasset",
+      "sha1": "3ba6bb34b087e4b1384167b0973fac07181e19ef",
+      "bytes": 26780615
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_RoadSigns_N.uasset",
+      "sha1": "570c2f386c185fbe00d1125336dcfe70b3413bf4",
+      "bytes": 7668344
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_RoadSigns_SRM.uasset",
+      "sha1": "1aa691ecc6c7c373c502d977d49b9dc0e7df7499",
+      "bytes": 15429915
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue1_D.uasset",
+      "sha1": "4855b1cc36f535a98f5637eacbe91936bbd51789",
+      "bytes": 2128687
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue1_N.uasset",
+      "sha1": "02ae4eb8507955a823a395fdd8d6613cf720c0da",
+      "bytes": 1655908
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue2_D.uasset",
+      "sha1": "6b2b471e31ff24f4e39c0da9d90635fed8eac629",
+      "bytes": 28659593
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue2_N.uasset",
+      "sha1": "713f8a9a2d879291ed1717eca73cb68611c40d5a",
+      "bytes": 32041261
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue2_SRM.uasset",
+      "sha1": "4ccac25fbfad722c5e71fb88bc9e89497330b69b",
+      "bytes": 18047776
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue3_1_D.uasset",
+      "sha1": "52fe5391a1f340d3af9ab60fa2a133994a0b8ad8",
+      "bytes": 8951361
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue3_1_N.uasset",
+      "sha1": "26d7f5d8e46a48727a7719b5d45cffe8cc824b65",
+      "bytes": 9087127
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Statue3_2_D.uasset",
+      "sha1": "bbdaa8c362ae32b18b70240863863794265183ee",
+      "bytes": 9781721
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrafficBarrel01_D.uasset",
+      "sha1": "57057666113d416ed371fe25076116ed80fa1434",
+      "bytes": 3489961
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrafficBarrel01_N.uasset",
+      "sha1": "23b42f9232f0bdca2c283544e57d996df59badc9",
+      "bytes": 476699
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrafficBarrel01_SRM.uasset",
+      "sha1": "d1d2a98e5cc3b3710bdfabed5a1e6a0aa067d32c",
+      "bytes": 4871579
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrafficLight_D.uasset",
+      "sha1": "b46685ddb3928adbc576b8d618b639835870db07",
+      "bytes": 486194
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrafficLight_E.uasset",
+      "sha1": "699aefeacf1d91e10c33857966c5d59f0d11b43b",
+      "bytes": 121423
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrafficLight_N.uasset",
+      "sha1": "d94fd9e7f8b03601da2629053ce6256487967d97",
+      "bytes": 286170
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrafficLight_SRM.uasset",
+      "sha1": "38e742a2214df4f31da83c21d02bbacd670acf7a",
+      "bytes": 116220
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrashCan01_D.uasset",
+      "sha1": "5a386c6dde29c2f7ee4271cb87378199b87beb18",
+      "bytes": 1630132
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrashCan01_N.uasset",
+      "sha1": "7ab025e0191e58b7f36c471e9ae1b7cf9ef75bbf",
+      "bytes": 1165659
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_TrashCan01_SRM.uasset",
+      "sha1": "1c58427abe3ec553c3621c255918b122b8bbf769",
+      "bytes": 2248167
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Umbrella01_D.uasset",
+      "sha1": "8397f433f73af24c198ebb78d7195152a3e78420",
+      "bytes": 7010629
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Umbrella01_N.uasset",
+      "sha1": "e5957a617925d696ccb8f15e49fa110565f0b47c",
+      "bytes": 7867019
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Umbrella01_SRM.uasset",
+      "sha1": "6936b5cb77edf13ba049967290bb59082443a1a0",
+      "bytes": 5786494
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Umbrella02_D.uasset",
+      "sha1": "8a68b326b6ed0e5fe57a54e743d83cebd171e022",
+      "bytes": 6425093
+    },
+    {
+      "path": "Content/CityPark/Textures/Props/T_Umbrella02_N.uasset",
+      "sha1": "4b727f8d673ffe07babcf6aa10b00cef4046b4c2",
+      "bytes": 5071912
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Asphalt_D.uasset",
+      "sha1": "b9106bda5b9324d9aca669eb81268083de2c6249",
+      "bytes": 9710416
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Asphalt_N.uasset",
+      "sha1": "1c248f8a2e3eefee29dab038d4dcae75f0103c9d",
+      "bytes": 10840302
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Asphalt_SRM.uasset",
+      "sha1": "688eb4ed1af58a2461850d4c88cdcb2faf45940b",
+      "bytes": 8010308
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Border01_D.uasset",
+      "sha1": "c9be2037ee69806d1bf732f77db89bb7fcd66adf",
+      "bytes": 557771
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Border01_N.uasset",
+      "sha1": "6c00e45711c88b799cbff59e1f4c6e4924e9c890",
+      "bytes": 51954
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge01_D.uasset",
+      "sha1": "13e0c430e2169f7bc90eb379970772cef36abf59",
+      "bytes": 11278465
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge01_N.uasset",
+      "sha1": "6ffef71ac8a40d7d8596f56546d6df58c0562b4f",
+      "bytes": 7064797
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge01_SRM.uasset",
+      "sha1": "ca72c63343a7c0f46af0de52aa3f28abefed2502",
+      "bytes": 4496441
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge02_1_D.uasset",
+      "sha1": "ed442c5bf3e01fa91f3164034e00bcc488ee7068",
+      "bytes": 34383122
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge02_1_N.uasset",
+      "sha1": "5920722d85afd969f86028221a0423c7f6a60aef",
+      "bytes": 25727392
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge02_1_SRM.uasset",
+      "sha1": "0f19244ad2ddafb907bab3196d5f042d6bd49fda",
+      "bytes": 24219001
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge02_4_D.uasset",
+      "sha1": "4f71a889d6ce703d3656eb601d11c271305c620f",
+      "bytes": 34911902
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge02_4_N.uasset",
+      "sha1": "18f05050629d875b844a171071204a9212c70f09",
+      "bytes": 17406047
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge02_4_SRM.uasset",
+      "sha1": "4f243daa97464ea0d5343cc0c1ee79e6b1a313ec",
+      "bytes": 25087844
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge03_1_D.uasset",
+      "sha1": "ad8880df68c4d6e1f0a136a3eb2fe82d0c14511a",
+      "bytes": 9563187
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge03_1_N.uasset",
+      "sha1": "2da5e073d57262509d292a2dd4026c60cf00b63e",
+      "bytes": 7199912
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge03_1_SRM.uasset",
+      "sha1": "ed5cc75fd159c434dc29d6545d3f1481c1253a32",
+      "bytes": 5158208
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge03_2_D.uasset",
+      "sha1": "ba33ae73d8d2e18892eb5b88f0a691b63d9d6ce5",
+      "bytes": 1924500
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge03_2_N.uasset",
+      "sha1": "7798301720ed12b38f3d49a4c642d6e88e7ede17",
+      "bytes": 1444385
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Bridge03_2_SRM.uasset",
+      "sha1": "d46d484518b4eb66c674a59d8186b0bd20562e69",
+      "bytes": 1195830
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_LeakDecal01_D.uasset",
+      "sha1": "a2ed5f1077b51c05663c46c601ed07edf17e2359",
+      "bytes": 498636
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_LeakDecal01_N.uasset",
+      "sha1": "dd43304f3ddaf0af4e4fb9dd75ff0ab8a136f826",
+      "bytes": 576066
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_ParkPath01_D.uasset",
+      "sha1": "e3747938021e149f51b0e651174595e0c531fd38",
+      "bytes": 5402880
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_ParkPath01_N.uasset",
+      "sha1": "b657e1c83b182b3a95fc03ab9531cb35d085ace3",
+      "bytes": 5527576
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_ParkPath01_SRM.uasset",
+      "sha1": "70419a509cacb0c908acd662cfae6813556666df",
+      "bytes": 3225004
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_RoadDecal_D.uasset",
+      "sha1": "d85655af16713ad9dcebcfaa974e35f3b8df84f4",
+      "bytes": 1170169
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_RoadDecal_N.uasset",
+      "sha1": "f00ba6ab2f8aa1e35e3731f80bf742b7eae8b422",
+      "bytes": 1226651
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Sidewalk01_D.uasset",
+      "sha1": "b6ac421911a980c817fb78e1e6ffac9bd77a89b4",
+      "bytes": 9371155
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Sidewalk01_N.uasset",
+      "sha1": "2b5459790720587cbdebe197124f52692b30ee4e",
+      "bytes": 9731695
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Sidewalk01_SRM.uasset",
+      "sha1": "855783bd204a98c6855c1a598bf4d1eec88626bd",
+      "bytes": 6644395
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Sidewalk02_D.uasset",
+      "sha1": "bbcd8ac90df1d5a6c59bc2dc8af4c23216f0c26c",
+      "bytes": 10597620
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Sidewalk02_N.uasset",
+      "sha1": "b9e10b60a35b9892e401f7a02cbeb584ee3758c9",
+      "bytes": 9414634
+    },
+    {
+      "path": "Content/CityPark/Textures/Road/T_Sidewalk02_SRM.uasset",
+      "sha1": "013887361c7c0afd57e26f39e4e5a85336f8c917",
+      "bytes": 6344336
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_BaseballFieldMask_D.uasset",
+      "sha1": "4754d14cb34a92b8342528f4f7d0f5216a72e13a",
+      "bytes": 87348
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_BaseballGround_D.uasset",
+      "sha1": "42a286d73c883e5327dd0ce29d48daa07a534002",
+      "bytes": 997570
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_BaseballGround_N.uasset",
+      "sha1": "af2408c2470d0664c32d3be4c266d7e7e9f33b88",
+      "bytes": 2323296
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_BasketballHoop_D.uasset",
+      "sha1": "a846cfed4ba05689ac4a0cbed130477965fdbd65",
+      "bytes": 1994566
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_BasketballHoop_N.uasset",
+      "sha1": "89b6e78593c86715079aad4a25034a74c6c38751",
+      "bytes": 1873571
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_BasketballHoop_SRM.uasset",
+      "sha1": "931710a02b06b4b17953e2542068aef51fc1d3f4",
+      "bytes": 1106455
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_Field_D.uasset",
+      "sha1": "88952f304e28bf7f7462a92caa8830c54dfcb5fd",
+      "bytes": 7405291
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_Field_N.uasset",
+      "sha1": "aff313f587c459e41e504d25cb2dd239e939992f",
+      "bytes": 7303764
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballField_D.uasset",
+      "sha1": "3a3e223870125bf464de3153e9cc39ef7e9ed8a8",
+      "bytes": 744601
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballField_N.uasset",
+      "sha1": "fbb317b48e7985d85b36592e2b819bbd17c6b30b",
+      "bytes": 561155
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballFieldMask_D.uasset",
+      "sha1": "ba8658f2de68b180f53c24002efa084c03fccd1d",
+      "bytes": 5341
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballGate_D.uasset",
+      "sha1": "fff8c6d6a9b227bfb4737ee915c244a42d619924",
+      "bytes": 211291
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballGate_N.uasset",
+      "sha1": "8a81ad2e14510a412e2bff389d7d8e8f17e7e6ee",
+      "bytes": 203857
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballGate_SRM.uasset",
+      "sha1": "c43e5d55f673eb82a787c51d96d4d3ebfe7f11cd",
+      "bytes": 130030
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballNet_D.uasset",
+      "sha1": "f132bf50a5c34f383fdcfa84b7016e97c5153ea0",
+      "bytes": 795280
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_FootballNet_N.uasset",
+      "sha1": "05185025df7795eb4f7cf039532c7b9cea41c68a",
+      "bytes": 640768
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_TennisField_D.uasset",
+      "sha1": "6c558bc2cf6933ff98ae648195e309da60ecc40a",
+      "bytes": 31880528
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_TennisField_N.uasset",
+      "sha1": "2539ae4efa3acae7016f7c434dd1d6b6c77adbde",
+      "bytes": 27460883
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_TennisField_SRM.uasset",
+      "sha1": "47e9b9264b450a50c8e813833565951be5ea4c8b",
+      "bytes": 13837455
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_Tribune_D.uasset",
+      "sha1": "03f3015ee24eb079e351d8009282f3ae80ae7c2a",
+      "bytes": 6437774
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_Tribune_N.uasset",
+      "sha1": "a835d7351790aa6ab2f37d524f26c846532fd8f9",
+      "bytes": 5039742
+    },
+    {
+      "path": "Content/CityPark/Textures/SportsGround/T_Tribune_SRM.uasset",
+      "sha1": "c4a2bdfc999171cb13bc161167ee4c522e54612d",
+      "bytes": 5782076
+    }
+  ],
+  "content_roots": [
+    "/Game/CityPark"
+  ],
+  "status": "sha1_verified_and_staged"
+}

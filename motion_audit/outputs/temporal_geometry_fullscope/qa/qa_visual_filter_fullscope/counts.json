@@ -1,0 +1,106 @@
+[
+  {
+    "dimension": "task",
+    "value": "camera_object_distance_change",
+    "qa": 405,
+    "keep": 396,
+    "exclude": 6,
+    "review": 3
+  },
+  {
+    "dimension": "task",
+    "value": "camera_translation_direction",
+    "qa": 448,
+    "keep": 448,
+    "exclude": 0,
+    "review": 0
+  },
+  {
+    "dimension": "task",
+    "value": "camera_view_direction_change",
+    "qa": 462,
+    "keep": 462,
+    "exclude": 0,
+    "review": 0
+  },
+  {
+    "dimension": "task",
+    "value": "object_pair_distance_change",
+    "qa": 234,
+    "keep": 220,
+    "exclude": 13,
+    "review": 1
+  },
+  {
+    "dimension": "task",
+    "value": "object_travel_distance_comparison",
+    "qa": 244,
+    "keep": 187,
+    "exclude": 55,
+    "review": 2
+  },
+  {
+    "dimension": "task",
+    "value": "object_world_motion_direction",
+    "qa": 594,
+    "keep": 549,
+    "exclude": 38,
+    "review": 7
+  },
+  {
+    "dimension": "group4",
+    "value": "HH",
+    "qa": 957,
+    "keep": 896,
+    "exclude": 56,
+    "review": 5
+  },
+  {
+    "dimension": "group4",
+    "value": "HL",
+    "qa": 406,
+    "keep": 399,
+    "exclude": 6,
+    "review": 1
+  },
+  {
+    "dimension": "group4",
+    "value": "LH",
+    "qa": 848,
+    "keep": 794,
+    "exclude": 47,
+    "review": 7
+  },
+  {
+    "dimension": "group4",
+    "value": "LL",
+    "qa": 176,
+    "keep": 173,
+    "exclude": 3,
+    "review": 0
+  },
+  {
+    "dimension": "prior_video_decision",
+    "value": "exclude",
+    "qa": 6,
+    "keep": 6,
+    "exclude": 0,
+    "review": 0
+  },
+  {
+    "dimension": "prior_video_decision",
+    "value": "not_previously_flagged",
+    "qa": 2353,
+    "keep": 2230,
+    "exclude": 110,
+    "review": 13
+  },
+  {
+    "dimension": "prior_video_decision",
+    "value": "review",
+    "qa": 28,
+    "keep": 26,
+    "exclude": 2,
+    "review": 0
+  }
+]

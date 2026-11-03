@@ -1,0 +1,102 @@
+[
+  {
+    "actor": "SD_AB_ab_012_skm_uefn_mannequin",
+    "foot_bones": [
+      "foot_l",
+      "ball_l",
+      "foot_r",
+      "ball_r"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_013_twinblast",
+    "foot_bones": [
+      "foot_l",
+      "ball_l",
+      "foot_r",
+      "ball_r"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_014_sparrow",
+    "foot_bones": [
+      "foot_l",
+      "ball_l",
+      "foot_r",
+      "ball_r"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_015_gadget",
+    "foot_bones": [
+      "foot_l",
+      "ball_l",
+      "foot_r",
+      "ball_r"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_016_sk_wolf",
+    "foot_bones": [
+      "Wolf_-L-Foot",
+      "Wolf_-R-Foot"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_017_sk_fox",
+    "foot_bones": [
+      "Fox_-L-Foot",
+      "Fox_-R-Foot"
+    ],
+    "root_adjustment_cm": 4.440892098500626e-16
+  },
+  {
+    "actor": "SD_AB_ab_018_sk_deerstag",
+    "foot_bones": [
+      "STAG_-L-Foot",
+      "STAG_-R-Foot"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_019_sk_deerdoe",
+    "foot_bones": [
+      "DeerDoe_-L-Foot",
+      "DeerDoe_-R-Foot"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_020_sk_pig",
+    "foot_bones": [
+      "PIG_-L-Foot",
+      "PIG_-R-Foot"
+    ],
+    "root_adjustment_cm": 0.0
+  },
+  {
+    "actor": "SD_AB_ab_021_sk_crow",
+    "foot_bones": [
+      "CROW_-L-Foot",
+      "CROW_-L-Toe0",
+      "CROW_-L-Toe01",
+      "CROW_-L-Toe02",
+      "CROW_-L-Toe1",
+      "CROW_-L-Toe11",
+      "CROW_-L-Toe12",
+      "CROW_-R-Foot",
+      "CROW_-R-Toe0",
+      "CROW_-R-Toe01",
+      "CROW_-R-Toe02",
+      "CROW_-R-Toe1",
+      "CROW_-R-Toe11",
+      "CROW_-R-Toe12"
+    ],
+    "root_adjustment_cm": 0.0
+  }
+]

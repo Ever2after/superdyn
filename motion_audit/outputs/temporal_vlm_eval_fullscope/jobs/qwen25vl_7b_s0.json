@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "model": "qwen25vl_7b",
+  "gpu": 1,
+  "pid": 376531,
+  "updated_at": "2026-10-21T10:57:39.170121+00:00"
+}

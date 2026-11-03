@@ -1,0 +1,90 @@
+{
+  "planned": 4457,
+  "source": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/qa/source",
+  "base_port": 19620,
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "qa_thresholds": {
+    "camera_translation": 0.1,
+    "object_translation": 0.1,
+    "direction_dominance": 2.0,
+    "direction_gap": 0.05,
+    "camera_turn_deg": 15.0,
+    "camera_turn_gap_deg": 8.0,
+    "camera_object_range_abs": 0.1,
+    "camera_object_range_relative": 0.2,
+    "pair_range_abs": 0.1,
+    "pair_range_relative": 0.2,
+    "pair_initial_separation": 0.08,
+    "travel_gap": 0.1,
+    "travel_ratio": 1.5,
+    "travel_max_min": 0.2,
+    "bootstrap_gap": 0.05,
+    "min_time_span": 0.2,
+    "min_intervals": 2,
+    "min_tracks": 32,
+    "min_track_survival": 0.15,
+    "sam_score": 0.8,
+    "min_mask_pixels": 150,
+    "min_forward_coverage": 0.25,
+    "max_fb_error_px": 2.0,
+    "max_pair_mask_overlap": 0.05,
+    "seed_count": 256,
+    "bootstrap_replicates": 128,
+    "bootstrap_direction_agreement": 0.95
+  },
+  "tasks": [
+    "camera_translation_direction",
+    "camera_view_direction_change",
+    "object_world_motion_direction",
+    "camera_object_distance_change",
+    "object_pair_distance_change",
+    "object_travel_distance_comparison"
+  ],
+  "excluded_sources": [
+    "dynamic_replica",
+    "dynpose-100k",
+    "point_odyssey",
+    "spring"
+  ],
+  "video_selection_quality_filter": false,
+  "new_vggt_inference": false,
+  "qwen": {
+    "model": "/home/jovyan/data-1/jusang/freesee/models/Qwen3.8-27B",
+    "gpu_memory_utilization": 0.3,
+    "concurrency_per_replica": 2
+  },
+  "input_manifest": "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/qa_manifest.json",
+  "cache_roots": [
+    "/home/jovyan/data-1/jusang/superdyn/motion_audit/outputs/temporal_geometry_fullscope/geometry"
+  ],
+  "skipped_missing_cache": [],
+  "manual_review": false,
+  "code_sha256": {
+    "pipeline.py": "6029031b911d41565eb0c015ac0c97d8e231685a394e7d23dad0a165170b5dd0",
+    "questions.py": "7a3088e62fa6b842e7197a65441e760eb38d103299b8b1f363875d07c42f1abf",
+    "objects.py": "425b91fbe148f61463586f49c9549a25787d41031e723fc4ac01fb5f75a88966",
+    "cli.py": "60ee74d2deb68618e4da17cb40cca7dae898c69318365a364940dca74feb5c0f",
+    "tracking.py": "3cf81ac400e4a9b051cb5c1f0bd25392ead008bdfe8a2df7cefb844db55f8ed1",
+    "frames.py": "dd6d589ac9168d9bd91cc9984702f6478f3a40b1c97b0316bd6bea013e21d350",
+    "__init__.py": "7d432abe8baf5015a3f7f9db7dc9a2d4b42964b201ccc8fb7391b90edde5ca94",
+    "inventory.py": "005e961688ce01bbedbdb52f28ce631b657d1cd2ccecc069776583b7c3adc982",
+    "inference.py": "76dfe06a69704f5eb51bcdb82b67d71e2721a4e8909db79966045ae9ac1fc0ba",
+    "extraction.py": "a8b5693eee66609c9fdef5fbc46f59bef47ea38f3e78a64fd50c3dbe2d3735c7",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "generation.py": "308ea7e0f7855a6f4a5529fc00826d1647616938cc378474ea2e9eed553566aa",
+    "storage.py": "b8a474166856d5eed2c27a4a3fb74dd92952195b00f00735d456039ddb1bbbb5",
+    "config.py": "5caf0ce66e6a83ce8ab25c059e1b3a502a26ba9e08182536fb70fbb78fed26cb",
+    "preprocess.py": "e0848415b1a260234e1d6ff50026c616c2120833ef8657dcfaebd9f79a228a9a",
+    "metrics.py": "8304fa48564ee5e06b520e186f449872dfab31ceb8373c123e1f7360d237e2a3",
+    "flow.py": "fd086e6f3e4b99db4c6184fb0923fcdb960db8a3a44ea9a1cd30ab8dedcd3b47"
+  }
+}

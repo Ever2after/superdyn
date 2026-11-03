@@ -1,0 +1,2816 @@
+{
+  "status": "built",
+  "family": {
+    "id": "park",
+    "title": "Woodland terrace park",
+    "title_ko": "완만한 경사와 쉼터가 있는 공원",
+    "seed": 303,
+    "xy_scale": 1.5,
+    "ground_texture": "Grass004",
+    "wall_texture": "Concrete033",
+    "path_texture": "PavingStones046",
+    "ground_tile_cm": 150,
+    "wall_tint": [
+      0.54,
+      0.57,
+      0.45
+    ],
+    "description": "Grass terraces, a paved winding trail, trees and shrubs, a timber shelter, and separate animal clearings.",
+    "asset_groups": [
+      {
+        "asset": "shelter",
+        "count": 1,
+        "size_cm": 420
+      },
+      {
+        "asset": "pine",
+        "count": 9,
+        "size_cm": 620,
+        "height_size": true
+      },
+      {
+        "asset": "tree",
+        "count": 7,
+        "size_cm": 550,
+        "height_size": true
+      },
+      {
+        "asset": "bush",
+        "count": 10,
+        "size_cm": 120
+      },
+      {
+        "asset": "rock",
+        "count": 6,
+        "size_cm": 115
+      },
+      {
+        "asset": "bench",
+        "count": 3,
+        "size_cm": 180
+      },
+      {
+        "asset": "deer",
+        "count": 2,
+        "size_cm": 205
+      },
+      {
+        "asset": "fox",
+        "count": 1,
+        "size_cm": 115
+      },
+      {
+        "asset": "worker",
+        "count": 1,
+        "size_cm": 178,
+        "height_size": true
+      }
+    ]
+  },
+  "map_path": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/Maps/park",
+  "objects": [
+    {
+      "asset": "shelter",
+      "count": 1,
+      "size_cm": 420,
+      "id": "shelter_00",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Modular/Porch_Roof_4x4m",
+      "actor": "SD_Main_shelter_00",
+      "anchor_m": [
+        10.25,
+        11.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        2.1,
+        1.9850924061106234
+      ],
+      "collision_half_xy_m": [
+        2.1,
+        1.9850924061106234
+      ],
+      "transform": {
+        "location_cm": [
+          1018.7537235102925,
+          1349.6666819189982,
+          716.1771316725869
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.9599594213581653,
+          0.9599594213581653,
+          0.9599594213581653
+        ]
+      },
+      "instance_id": 10,
+      "evaluated_world_matrix_cm": [
+        [
+          0.9599594213581653,
+          -0.0,
+          0.0,
+          1018.7537235102925
+        ],
+        [
+          0.0,
+          0.9599594213581653,
+          -0.0,
+          1349.6666819189982
+        ],
+        [
+          0.0,
+          0.0,
+          0.9599594213581653,
+          716.1771316725869
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "deer",
+      "count": 2,
+      "size_cm": 205,
+      "id": "deer_00",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe",
+      "actor": "SD_Main_deer_00",
+      "anchor_m": [
+        13.25,
+        12.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.4990474578374195,
+        1.025
+      ],
+      "collision_half_xy_m": [
+        0.4990474578374195,
+        1.025
+      ],
+      "transform": {
+        "location_cm": [
+          1325.000005477152,
+          1188.4555770390527,
+          150.57887418141516
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.9572016602520758,
+          0.9572016602520758,
+          0.9572016602520758
+        ]
+      },
+      "instance_id": 11,
+      "foot_adjustment_cm": -9.250750962153802,
+      "evaluated_world_matrix_cm": [
+        [
+          0.9572016602520758,
+          -0.0,
+          0.0,
+          1325.000005477152
+        ],
+        [
+          0.0,
+          0.9572016602520758,
+          -0.0,
+          1188.4555770390527
+        ],
+        [
+          0.0,
+          0.0,
+          0.9572016602520758,
+          141.32812321926136
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "deer",
+      "count": 2,
+      "size_cm": 205,
+      "id": "deer_01",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/DeerStagAndDoe/Meshes/SK_DeerStag",
+      "animation": "/Game/AnimalVarietyPack/DeerStagAndDoe/Animations/ANIM_DeerStag_IdleBreathe",
+      "actor": "SD_Main_deer_01",
+      "anchor_m": [
+        13.25,
+        9.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.49904745783741966,
+        1.025
+      ],
+      "collision_half_xy_m": [
+        0.49904745783741966,
+        1.025
+      ],
+      "transform": {
+        "location_cm": [
+          1324.999994522848,
+          961.5444229609473,
+          150.57887418141516
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.9572016602520758,
+          0.9572016602520758,
+          0.9572016602520758
+        ]
+      },
+      "instance_id": 12,
+      "foot_adjustment_cm": -9.250750962153802,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.9572016602520758,
+          -1.172233949366237e-16,
+          0.0,
+          1324.999994522848
+        ],
+        [
+          1.172233949366237e-16,
+          -0.9572016602520758,
+          0.0,
+          961.5444229609473
+        ],
+        [
+          0.0,
+          0.0,
+          0.9572016602520758,
+          141.32812321926136
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 3,
+      "size_cm": 180,
+      "id": "bench_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_00",
+      "anchor_m": [
+        12.75,
+        -7.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "collision_half_xy_m": [
+        0.3250577141604035,
+        0.9
+      ],
+      "transform": {
+        "location_cm": [
+          1274.3459261179003,
+          -750.0,
+          306.3741419296532
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 13,
+      "evaluated_world_matrix_cm": [
+        [
+          2.467366793566436e-16,
+          -0.8710086853664534,
+          0.0,
+          1274.3459261179003
+        ],
+        [
+          0.8710086853664534,
+          2.467366793566436e-16,
+          -0.0,
+          -750.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          306.3741419296532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 3,
+      "size_cm": 180,
+      "id": "bench_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_01",
+      "anchor_m": [
+        12.75,
+        -9.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "collision_half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "transform": {
+        "location_cm": [
+          1275.0,
+          -899.3459261179004,
+          306.3741419296532
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 14,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8710086853664534,
+          -0.0,
+          0.0,
+          1275.0
+        ],
+        [
+          0.0,
+          0.8710086853664534,
+          -0.0,
+          -899.3459261179004
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          306.3741419296532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bench",
+      "count": 3,
+      "size_cm": 180,
+      "id": "bench_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Props/SM_Bench01_1",
+      "actor": "SD_Main_bench_02",
+      "anchor_m": [
+        14.25,
+        -8.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "collision_half_xy_m": [
+        0.9,
+        0.3250577141604035
+      ],
+      "transform": {
+        "location_cm": [
+          1425.0,
+          -799.3459261179004,
+          306.3741419296532
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8710086853664534,
+          0.8710086853664534,
+          0.8710086853664534
+        ]
+      },
+      "instance_id": 15,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8710086853664534,
+          -0.0,
+          0.0,
+          1425.0
+        ],
+        [
+          0.0,
+          0.8710086853664534,
+          -0.0,
+          -799.3459261179004
+        ],
+        [
+          0.0,
+          0.0,
+          0.8710086853664534,
+          306.3741419296532
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "worker",
+      "count": 1,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_00",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "actor": "SD_Main_worker_00",
+      "anchor_m": [
+        -11.75,
+        11.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.1723357592403923,
+        0.6416543242244878
+      ],
+      "collision_half_xy_m": [
+        0.1723357592403923,
+        0.6416543242244878
+      ],
+      "transform": {
+        "location_cm": [
+          -1175.0850944109452,
+          1150.0,
+          300.5082177809724
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          1.0750485795151041,
+          1.0750485795151041,
+          1.0750485795151041
+        ]
+      },
+      "instance_id": 16,
+      "foot_adjustment_cm": -2.9526980560179936,
+      "evaluated_world_matrix_cm": [
+        [
+          3.0453647720520145e-16,
+          1.0750485795151041,
+          0.0,
+          -1175.0850944109452
+        ],
+        [
+          -1.0750485795151041,
+          3.0453647720520145e-16,
+          0.0,
+          1150.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0750485795151041,
+          297.5555197249544
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_00",
+      "anchor_m": [
+        -9.25,
+        12.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.4348133283720611,
+        0.6
+      ],
+      "collision_half_xy_m": [
+        0.4348133283720611,
+        0.6
+      ],
+      "transform": {
+        "location_cm": [
+          -927.2462536038987,
+          1246.7117348153367,
+          300.5110951677464
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 17,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8872884849669165,
+          -0.0,
+          0.0,
+          -927.2462536038987
+        ],
+        [
+          0.0,
+          0.8872884849669165,
+          -0.0,
+          1246.7117348153367
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          300.5110951677464
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_01",
+      "anchor_m": [
+        -9.25,
+        11.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "collision_half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "transform": {
+        "location_cm": [
+          -922.7537463961013,
+          1103.2882651846633,
+          300.5110951677464
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 18,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.8872884849669165,
+          -1.0866150030350387e-16,
+          0.0,
+          -922.7537463961013
+        ],
+        [
+          1.0866150030350387e-16,
+          -0.8872884849669165,
+          0.0,
+          1103.2882651846633
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          300.5110951677464
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_02",
+      "anchor_m": [
+        -0.25,
+        -5.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.6,
+        0.43481332837206116
+      ],
+      "collision_half_xy_m": [
+        0.6,
+        0.43481332837206116
+      ],
+      "transform": {
+        "location_cm": [
+          -21.711734815336648,
+          -552.2462536038987,
+          150.51109516774645
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 19,
+      "evaluated_world_matrix_cm": [
+        [
+          2.513483712507605e-16,
+          -0.8872884849669165,
+          0.0,
+          -21.711734815336648
+        ],
+        [
+          0.8872884849669165,
+          2.513483712507605e-16,
+          -0.0,
+          -552.2462536038987
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          150.51109516774645
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_03",
+      "anchor_m": [
+        0.75,
+        -4.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "collision_half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "transform": {
+        "location_cm": [
+          77.24625360389868,
+          -396.7117348153366,
+          150.51109516774645
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 20,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.8872884849669165,
+          -1.0866150030350387e-16,
+          0.0,
+          77.24625360389868
+        ],
+        [
+          1.0866150030350387e-16,
+          -0.8872884849669165,
+          0.0,
+          -396.7117348153366
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          150.51109516774645
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_04",
+      "anchor_m": [
+        1.25,
+        -5.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "collision_half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "transform": {
+        "location_cm": [
+          127.24625360389868,
+          -546.7117348153366,
+          150.51109516774645
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 21,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.8872884849669165,
+          -1.0866150030350387e-16,
+          0.0,
+          127.24625360389868
+        ],
+        [
+          1.0866150030350387e-16,
+          -0.8872884849669165,
+          0.0,
+          -546.7117348153366
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          150.51109516774645
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_05",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_05",
+      "anchor_m": [
+        0.75,
+        4.0
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.4348133283720611,
+        0.6
+      ],
+      "collision_half_xy_m": [
+        0.4348133283720611,
+        0.6
+      ],
+      "transform": {
+        "location_cm": [
+          72.75374639610132,
+          396.7117348153366,
+          0.5110951677464354
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 22,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8872884849669165,
+          -0.0,
+          0.0,
+          72.75374639610132
+        ],
+        [
+          0.0,
+          0.8872884849669165,
+          -0.0,
+          396.7117348153366
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          0.5110951677464354
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_06",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_06",
+      "anchor_m": [
+        0.75,
+        2.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "collision_half_xy_m": [
+        0.43481332837206116,
+        0.6
+      ],
+      "transform": {
+        "location_cm": [
+          77.24625360389868,
+          253.28826518466335,
+          0.5110951677464354
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 23,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.8872884849669165,
+          -1.0866150030350387e-16,
+          0.0,
+          77.24625360389868
+        ],
+        [
+          1.0866150030350387e-16,
+          -0.8872884849669165,
+          0.0,
+          253.28826518466335
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          0.5110951677464354
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_07",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_07",
+      "anchor_m": [
+        -0.75,
+        4.0
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.6,
+        0.43481332837206116
+      ],
+      "collision_half_xy_m": [
+        0.6,
+        0.43481332837206116
+      ],
+      "transform": {
+        "location_cm": [
+          -71.71173481533665,
+          397.75374639610135,
+          0.5110951677464354
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 24,
+      "evaluated_world_matrix_cm": [
+        [
+          2.513483712507605e-16,
+          -0.8872884849669165,
+          0.0,
+          -71.71173481533665
+        ],
+        [
+          0.8872884849669165,
+          2.513483712507605e-16,
+          -0.0,
+          397.75374639610135
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          0.5110951677464354
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_08",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_08",
+      "anchor_m": [
+        -4.75,
+        -0.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.4348133283720611,
+        0.6
+      ],
+      "collision_half_xy_m": [
+        0.4348133283720611,
+        0.6
+      ],
+      "transform": {
+        "location_cm": [
+          -477.24625360389865,
+          -53.28826518466335,
+          150.51109516774645
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 25,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8872884849669165,
+          -0.0,
+          0.0,
+          -477.24625360389865
+        ],
+        [
+          0.0,
+          0.8872884849669165,
+          -0.0,
+          -53.28826518466335
+        ],
+        [
+          0.0,
+          0.0,
+          0.8872884849669165,
+          150.51109516774645
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "bush",
+      "count": 10,
+      "size_cm": 120,
+      "id": "bush_09",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Bushs/SM_Bush1_01",
+      "actor": "SD_Main_bush_09",
+      "anchor_m": [
+        -6.25,
+        -0.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.6000000000000001,
+        0.43481332837206127
+      ],
+      "collision_half_xy_m": [
+        0.6000000000000001,
+        0.43481332837206127
+      ],
+      "transform": {
+        "location_cm": [
+          -628.2882651846634,
+          -47.75374639610133,
+          150.51109516774645
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.8872884849669165,
+          0.8872884849669165,
+          0.8872884849669165
+        ]
+      },
+      "instance_id": 26,
+      "evaluated_world_matrix_cm": [
+        [
+          2.513483712507605e-16,
+          0.8872884849669165,
+          0.0,
+          -628.2882651846634
+        ],
+        [
+          -0.8872884849669165,
+          2.513483712507605e-16,
+          0.0,
+          -47.75374639610133
+        ],
+        [
+          0.0,
+          -0.0,
+          0.8872884849669165,
+          150.51109516774645
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01",
+      "actor": "SD_Main_rock_00",
+      "anchor_m": [
+        -4.25,
+        -2.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.5086605043235459,
+        0.4061597202053573
+      ],
+      "collision_half_xy_m": [
+        0.5086605043235459,
+        0.4061597202053573
+      ],
+      "transform": {
+        "location_cm": [
+          -425.0,
+          -200.00001864631756,
+          196.11417710979353
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          1.9552081078209855,
+          1.9552081078209855,
+          1.9552081078209855
+        ]
+      },
+      "instance_id": 27,
+      "evaluated_world_matrix_cm": [
+        [
+          5.538653793928249e-16,
+          -1.9552081078209855,
+          0.0,
+          -425.0
+        ],
+        [
+          1.9552081078209855,
+          5.538653793928249e-16,
+          -0.0,
+          -200.00001864631756
+        ],
+        [
+          0.0,
+          0.0,
+          1.9552081078209855,
+          196.11417710979353
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01",
+      "actor": "SD_Main_rock_01",
+      "anchor_m": [
+        -11.25,
+        -14.0
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.5086605043235459,
+        0.4061597202053573
+      ],
+      "collision_half_xy_m": [
+        0.5086605043235459,
+        0.4061597202053573
+      ],
+      "transform": {
+        "location_cm": [
+          -1125.0,
+          -1400.0000186463176,
+          46.11417710979354
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          1.9552081078209855,
+          1.9552081078209855,
+          1.9552081078209855
+        ]
+      },
+      "instance_id": 28,
+      "evaluated_world_matrix_cm": [
+        [
+          5.538653793928249e-16,
+          -1.9552081078209855,
+          0.0,
+          -1125.0
+        ],
+        [
+          1.9552081078209855,
+          5.538653793928249e-16,
+          -0.0,
+          -1400.0000186463176
+        ],
+        [
+          0.0,
+          0.0,
+          1.9552081078209855,
+          46.11417710979354
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01",
+      "actor": "SD_Main_rock_02",
+      "anchor_m": [
+        -12.75,
+        -11.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.508660504323546,
+        0.4061597202053573
+      ],
+      "collision_half_xy_m": [
+        0.508660504323546,
+        0.4061597202053573
+      ],
+      "transform": {
+        "location_cm": [
+          -1275.0,
+          -1149.9999813536824,
+          46.11417710979354
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          1.9552081078209855,
+          1.9552081078209855,
+          1.9552081078209855
+        ]
+      },
+      "instance_id": 29,
+      "evaluated_world_matrix_cm": [
+        [
+          5.538653793928249e-16,
+          1.9552081078209855,
+          0.0,
+          -1275.0
+        ],
+        [
+          -1.9552081078209855,
+          5.538653793928249e-16,
+          0.0,
+          -1149.9999813536824
+        ],
+        [
+          0.0,
+          -0.0,
+          1.9552081078209855,
+          46.11417710979354
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01",
+      "actor": "SD_Main_rock_03",
+      "anchor_m": [
+        -9.25,
+        -11.5
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.5086605043235459,
+        0.4061597202053573
+      ],
+      "collision_half_xy_m": [
+        0.5086605043235459,
+        0.4061597202053573
+      ],
+      "transform": {
+        "location_cm": [
+          -925.0,
+          -1150.0000186463176,
+          46.11417710979354
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          1.9552081078209855,
+          1.9552081078209855,
+          1.9552081078209855
+        ]
+      },
+      "instance_id": 30,
+      "evaluated_world_matrix_cm": [
+        [
+          5.538653793928249e-16,
+          -1.9552081078209855,
+          0.0,
+          -925.0
+        ],
+        [
+          1.9552081078209855,
+          5.538653793928249e-16,
+          -0.0,
+          -1150.0000186463176
+        ],
+        [
+          0.0,
+          0.0,
+          1.9552081078209855,
+          46.11417710979354
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01",
+      "actor": "SD_Main_rock_04",
+      "anchor_m": [
+        13.25,
+        2.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.4061597202053573,
+        0.5086605043235459
+      ],
+      "collision_half_xy_m": [
+        0.4061597202053573,
+        0.5086605043235459
+      ],
+      "transform": {
+        "location_cm": [
+          1324.9999813536824,
+          200.0,
+          196.11417710979353
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1.9552081078209855,
+          1.9552081078209855,
+          1.9552081078209855
+        ]
+      },
+      "instance_id": 31,
+      "evaluated_world_matrix_cm": [
+        [
+          1.9552081078209855,
+          -0.0,
+          0.0,
+          1324.9999813536824
+        ],
+        [
+          0.0,
+          1.9552081078209855,
+          -0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.9552081078209855,
+          196.11417710979353
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "rock",
+      "count": 6,
+      "size_cm": 115,
+      "id": "rock_05",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Ground/SM_Rock01",
+      "actor": "SD_Main_rock_05",
+      "anchor_m": [
+        11.75,
+        2.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.4061597202053573,
+        0.508660504323546
+      ],
+      "collision_half_xy_m": [
+        0.4061597202053573,
+        0.508660504323546
+      ],
+      "transform": {
+        "location_cm": [
+          1175.0000186463176,
+          250.0,
+          196.11417710979353
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          1.9552081078209855,
+          1.9552081078209855,
+          1.9552081078209855
+        ]
+      },
+      "instance_id": 32,
+      "evaluated_world_matrix_cm": [
+        [
+          -1.9552081078209855,
+          -2.394439350909923e-16,
+          0.0,
+          1175.0000186463176
+        ],
+        [
+          2.394439350909923e-16,
+          -1.9552081078209855,
+          0.0,
+          250.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.9552081078209855,
+          196.11417710979353
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "fox",
+      "count": 1,
+      "size_cm": 115,
+      "id": "fox_00",
+      "source_pack": "animal_variety_pack",
+      "mesh": "/Game/AnimalVarietyPack/Fox/Meshes/SK_Fox",
+      "animation": "/Game/AnimalVarietyPack/Fox/Animations/ANIM_Fox_IdleBreathe",
+      "actor": "SD_Main_fox_00",
+      "anchor_m": [
+        13.25,
+        3.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.10198341252273715,
+        0.575
+      ],
+      "collision_half_xy_m": [
+        0.10198341252273715,
+        0.575
+      ],
+      "transform": {
+        "location_cm": [
+          1325.0,
+          360.8234320743918,
+          150.8007877760302
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1.0742420526771492,
+          1.0742420526771492,
+          1.0742420526771492
+        ]
+      },
+      "instance_id": 33,
+      "foot_adjustment_cm": -3.430638016699703,
+      "evaluated_world_matrix_cm": [
+        [
+          1.0742420526771492,
+          -0.0,
+          0.0,
+          1325.0
+        ],
+        [
+          0.0,
+          1.0742420526771492,
+          -0.0,
+          360.8234320743918
+        ],
+        [
+          0.0,
+          0.0,
+          1.0742420526771492,
+          147.3701497593305
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_00",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_00",
+      "anchor_m": [
+        3.25,
+        11.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        1.3984076327497366,
+        1.3531292192155309
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          327.76722311242173,
+          1154.076904386012,
+          173.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 34,
+      "evaluated_world_matrix_cm": [
+        [
+          0.4758490475177299,
+          -0.0,
+          0.0,
+          327.76722311242173
+        ],
+        [
+          0.0,
+          0.4758490475177299,
+          -0.0,
+          1154.076904386012
+        ],
+        [
+          0.0,
+          0.0,
+          0.4758490475177299,
+          173.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_01",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_01",
+      "anchor_m": [
+        4.75,
+        10.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        1.3984076327497366,
+        1.3531292192155309
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          477.76722311242173,
+          1054.076904386012,
+          173.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 35,
+      "evaluated_world_matrix_cm": [
+        [
+          0.4758490475177299,
+          -0.0,
+          0.0,
+          477.76722311242173
+        ],
+        [
+          0.0,
+          0.4758490475177299,
+          -0.0,
+          1054.076904386012
+        ],
+        [
+          0.0,
+          0.0,
+          0.4758490475177299,
+          173.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_02",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_02",
+      "anchor_m": [
+        3.75,
+        10.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        1.3531292192155309,
+        1.3984076327497366
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          370.923095613988,
+          1052.7672231124218,
+          173.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 36,
+      "evaluated_world_matrix_cm": [
+        [
+          1.3479706440602203e-16,
+          -0.4758490475177299,
+          0.0,
+          370.923095613988
+        ],
+        [
+          0.4758490475177299,
+          1.3479706440602203e-16,
+          -0.0,
+          1052.7672231124218
+        ],
+        [
+          0.0,
+          0.0,
+          0.4758490475177299,
+          173.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_03",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_03",
+      "anchor_m": [
+        11.25,
+        8.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        1.3531292192155309,
+        1.3984076327497366
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          1120.923095613988,
+          852.7672231124218,
+          173.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 37,
+      "evaluated_world_matrix_cm": [
+        [
+          1.3479706440602203e-16,
+          -0.4758490475177299,
+          0.0,
+          1120.923095613988
+        ],
+        [
+          0.4758490475177299,
+          1.3479706440602203e-16,
+          -0.0,
+          852.7672231124218
+        ],
+        [
+          0.0,
+          0.0,
+          0.4758490475177299,
+          173.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_04",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_04",
+      "anchor_m": [
+        10.25,
+        8.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        1.3984076327497366,
+        1.3531292192155309
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          1027.7672231124218,
+          854.076904386012,
+          173.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 38,
+      "evaluated_world_matrix_cm": [
+        [
+          0.4758490475177299,
+          -0.0,
+          0.0,
+          1027.7672231124218
+        ],
+        [
+          0.0,
+          0.4758490475177299,
+          -0.0,
+          854.076904386012
+        ],
+        [
+          0.0,
+          0.0,
+          0.4758490475177299,
+          173.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_05",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_05",
+      "anchor_m": [
+        9.25,
+        8.5
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        1.3531292192155309,
+        1.3984076327497366
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          920.923095613988,
+          852.7672231124218,
+          173.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 39,
+      "evaluated_world_matrix_cm": [
+        [
+          1.3479706440602203e-16,
+          -0.4758490475177299,
+          0.0,
+          920.923095613988
+        ],
+        [
+          0.4758490475177299,
+          1.3479706440602203e-16,
+          -0.0,
+          852.7672231124218
+        ],
+        [
+          0.0,
+          0.0,
+          0.4758490475177299,
+          173.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_06",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_06",
+      "anchor_m": [
+        14.25,
+        -9.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        1.3531292192155309,
+        1.3984076327497368
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          1429.076904386012,
+          -902.7672231124218,
+          323.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 40,
+      "evaluated_world_matrix_cm": [
+        [
+          1.3479706440602203e-16,
+          0.4758490475177299,
+          0.0,
+          1429.076904386012
+        ],
+        [
+          -0.4758490475177299,
+          1.3479706440602203e-16,
+          0.0,
+          -902.7672231124218
+        ],
+        [
+          0.0,
+          -0.0,
+          0.4758490475177299,
+          323.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_07",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_07",
+      "anchor_m": [
+        13.75,
+        -7.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        1.3531292192155309,
+        1.3984076327497368
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          1379.076904386012,
+          -702.7672231124218,
+          323.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 41,
+      "evaluated_world_matrix_cm": [
+        [
+          1.3479706440602203e-16,
+          0.4758490475177299,
+          0.0,
+          1379.076904386012
+        ],
+        [
+          -0.4758490475177299,
+          1.3479706440602203e-16,
+          0.0,
+          -702.7672231124218
+        ],
+        [
+          0.0,
+          -0.0,
+          0.4758490475177299,
+          323.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pine",
+      "count": 9,
+      "size_cm": 620,
+      "height_size": true,
+      "id": "pine_08",
+      "source_pack": "modular_rural_cabins",
+      "mesh": "/Game/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01",
+      "actor": "SD_Main_pine_08",
+      "anchor_m": [
+        14.75,
+        -7.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        1.3984076327497368,
+        1.3531292192155309
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          1472.2327768875782,
+          -704.076904386012,
+          323.50432739093526
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.4758490475177299,
+          0.4758490475177299,
+          0.4758490475177299
+        ]
+      },
+      "instance_id": 42,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.4758490475177299,
+          -5.827470129199047e-17,
+          0.0,
+          1472.2327768875782
+        ],
+        [
+          5.827470129199047e-17,
+          -0.4758490475177299,
+          0.0,
+          -704.076904386012
+        ],
+        [
+          0.0,
+          0.0,
+          0.4758490475177299,
+          323.50432739093526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_00",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_00",
+      "anchor_m": [
+        -10.75,
+        13.5
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        3.24856087946178,
+        3.2568805242198504
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          -1111.971423957942,
+          1293.152812430174,
+          311.50173805614025
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          3.124115392435967,
+          3.124115392435967,
+          3.124115392435967
+        ]
+      },
+      "instance_id": 43,
+      "evaluated_world_matrix_cm": [
+        [
+          8.849898638293376e-16,
+          -3.124115392435967,
+          0.0,
+          -1111.971423957942
+        ],
+        [
+          3.124115392435967,
+          8.849898638293376e-16,
+          -0.0,
+          1293.152812430174
+        ],
+        [
+          0.0,
+          0.0,
+          3.124115392435967,
+          311.50173805614025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_01",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_01",
+      "anchor_m": [
+        -9.75,
+        14.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        3.24856087946178,
+        3.2568805242198504
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          -1011.9714239579421,
+          1343.152812430174,
+          311.50173805614025
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          3.124115392435967,
+          3.124115392435967,
+          3.124115392435967
+        ]
+      },
+      "instance_id": 44,
+      "evaluated_world_matrix_cm": [
+        [
+          8.849898638293376e-16,
+          -3.124115392435967,
+          0.0,
+          -1011.9714239579421
+        ],
+        [
+          3.124115392435967,
+          8.849898638293376e-16,
+          -0.0,
+          1343.152812430174
+        ],
+        [
+          0.0,
+          0.0,
+          3.124115392435967,
+          311.50173805614025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_02",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_02",
+      "anchor_m": [
+        -12.25,
+        10.0
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        3.248560879461781,
+        3.256880524219851
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          -1188.028576042058,
+          1056.847187569826,
+          311.50173805614025
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          3.124115392435967,
+          3.124115392435967,
+          3.124115392435967
+        ]
+      },
+      "instance_id": 45,
+      "evaluated_world_matrix_cm": [
+        [
+          8.849898638293376e-16,
+          3.124115392435967,
+          0.0,
+          -1188.028576042058
+        ],
+        [
+          -3.124115392435967,
+          8.849898638293376e-16,
+          0.0,
+          1056.847187569826
+        ],
+        [
+          0.0,
+          -0.0,
+          3.124115392435967,
+          311.50173805614025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_03",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_03",
+      "anchor_m": [
+        -0.75,
+        -4.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        3.24856087946178,
+        3.2568805242198504
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          -111.97142395794204,
+          -456.847187569826,
+          161.50173805614025
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          3.124115392435967,
+          3.124115392435967,
+          3.124115392435967
+        ]
+      },
+      "instance_id": 46,
+      "evaluated_world_matrix_cm": [
+        [
+          8.849898638293376e-16,
+          -3.124115392435967,
+          0.0,
+          -111.97142395794204
+        ],
+        [
+          3.124115392435967,
+          8.849898638293376e-16,
+          -0.0,
+          -456.847187569826
+        ],
+        [
+          0.0,
+          0.0,
+          3.124115392435967,
+          161.50173805614025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_04",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_04",
+      "anchor_m": [
+        2.25,
+        -4.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        3.256880524219851,
+        3.248560879461781
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          281.847187569826,
+          -436.971423957942,
+          161.50173805614025
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          3.124115392435967,
+          3.124115392435967,
+          3.124115392435967
+        ]
+      },
+      "instance_id": 47,
+      "evaluated_world_matrix_cm": [
+        [
+          -3.124115392435967,
+          -3.825937915513684e-16,
+          0.0,
+          281.847187569826
+        ],
+        [
+          3.825937915513684e-16,
+          -3.124115392435967,
+          0.0,
+          -436.971423957942
+        ],
+        [
+          0.0,
+          0.0,
+          3.124115392435967,
+          161.50173805614025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_05",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_05",
+      "anchor_m": [
+        2.75,
+        -5.0
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        3.24856087946178,
+        3.2568805242198504
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          238.02857604205798,
+          -556.847187569826,
+          161.50173805614025
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          3.124115392435967,
+          3.124115392435967,
+          3.124115392435967
+        ]
+      },
+      "instance_id": 48,
+      "evaluated_world_matrix_cm": [
+        [
+          8.849898638293376e-16,
+          -3.124115392435967,
+          0.0,
+          238.02857604205798
+        ],
+        [
+          3.124115392435967,
+          8.849898638293376e-16,
+          -0.0,
+          -556.847187569826
+        ],
+        [
+          0.0,
+          0.0,
+          3.124115392435967,
+          161.50173805614025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "tree",
+      "count": 7,
+      "size_cm": 550,
+      "height_size": true,
+      "id": "tree_06",
+      "source_pack": "city_park_environment",
+      "mesh": "/Game/CityPark/Meshes/Flora/Trees/SM_AmurCork01",
+      "actor": "SD_Main_tree_06",
+      "anchor_m": [
+        -2.25,
+        4.0
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        3.256880524219851,
+        3.248560879461781
+      ],
+      "collision_half_xy_m": [
+        0.4,
+        0.4
+      ],
+      "transform": {
+        "location_cm": [
+          -168.15281243017398,
+          363.028576042058,
+          11.501738056140262
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          3.124115392435967,
+          3.124115392435967,
+          3.124115392435967
+        ]
+      },
+      "instance_id": 49,
+      "evaluated_world_matrix_cm": [
+        [
+          -3.124115392435967,
+          -3.825937915513684e-16,
+          0.0,
+          -168.15281243017398
+        ],
+        [
+          3.825937915513684e-16,
+          -3.124115392435967,
+          0.0,
+          363.028576042058
+        ],
+        [
+          0.0,
+          0.0,
+          3.124115392435967,
+          11.501738056140262
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "logical_objects": 40,
+  "architecture_actors": [
+    "SD_Main_BackgroundTree_00",
+    "SD_Main_BackgroundTree_01",
+    "SD_Main_BackgroundTree_02",
+    "SD_Main_BackgroundTree_03",
+    "SD_Main_BackgroundTree_04",
+    "SD_Main_BackgroundTree_05",
+    "SD_Main_BackgroundTree_06",
+    "SD_Main_BackgroundTree_07",
+    "SD_Main_BackgroundTree_08",
+    "SD_Main_BackgroundTree_09",
+    "SD_Main_BackgroundTree_10",
+    "SD_Main_BackgroundTree_11",
+    "SD_Main_BackgroundTree_12",
+    "SD_Main_BackgroundTree_13",
+    "SD_Main_BackgroundTree_14",
+    "SD_Main_BackgroundTree_15",
+    "SD_Main_BackgroundTree_16",
+    "SD_Main_BackgroundTree_17",
+    "SD_Main_BackgroundTree_18",
+    "SD_Main_BackgroundTree_19",
+    "SD_Main_shelter_post_-1_-1",
+    "SD_Main_shelter_post_-1_1",
+    "SD_Main_shelter_post_1_-1",
+    "SD_Main_shelter_post_1_1"
+  ],
+  "source_packs": [
+    "animal_variety_pack",
+    "city_park_environment",
+    "game_animation_sample",
+    "modular_rural_cabins"
+  ],
+  "lighting_source": {
+    "asset": "kloofendal_48d_partly_cloudy_puresky",
+    "title": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+    "authors": {
+      "Greg Zaal": "Original",
+      "Jarod Guest": "Sky edits"
+    },
+    "publisher": "Poly Haven",
+    "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "api_terms_url": "https://polyhaven.com/our-api",
+    "credit": "Powered by Poly Haven",
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+    "relative_path": "inputs/lighting/polyhaven/kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+    "bytes": 20674857,
+    "md5": "816340c969d2e60d659051d13ac3c4dc",
+    "sha256": "3061c00a16ecae748e84fd6c44c04804f539c118bb66325db858bad87b11bf88",
+    "resolution": [
+      4096,
+      2048
+    ],
+    "purpose": "Pure sky for visible sky dome, skylight illumination and reflections; no exterior scenery",
+    "luminance": {
+      "upper_median": 0.3444511592388153,
+      "spherical_mean": 0.6914662485189841,
+      "maximum": 74608.84375
+    },
+    "background_multiplier": 0.8128873789211726,
+    "skylight_intensity": 0.7954112021780047,
+    "sun_direction_world": [
+      0.3774760124257408,
+      -0.5547432295333827,
+      0.7414659866305633
+    ],
+    "directional_light_rotation": {
+      "pitch": -47.8564453125,
+      "yaw": 124.2333984375,
+      "roll": 0
+    },
+    "whitebalance_kelvin": 5400,
+    "basis": "Unreal long-lat cubemap import: sample-space direction=(sin(phi)*sin(theta),-sin(phi)*cos(theta),cos(phi))"
+  },
+  "architecture_materials": "Native solid-volume construction with original Modular Building Set shopfront/brick modules in the urban family",
+  "scope": "Independent seeded terrain and coherent family dressing; root-static scene inspection with idle clips; benchmark dynamics and QA are a later stage"
+}

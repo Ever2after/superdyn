@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "qa": 2387,
+  "unique_videos": 1275,
+  "marked_frames_validated": 21483,
+  "reference_answers_supplied": false,
+  "decisions_only": true,
+  "existing_evaluation_inputs_unchanged": true,
+  "html_reports_created": false,
+  "manual_ground_truth_validation": false
+}

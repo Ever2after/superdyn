@@ -1,0 +1,1806 @@
+{
+  "status": "built",
+  "family": {
+    "id": "industrial",
+    "title": "Terraced logistics yard",
+    "title_ko": "단차형 산업 야드",
+    "seed": 101,
+    "xy_scale": 1.25,
+    "ground_texture": "Asphalt012",
+    "wall_texture": "Concrete033",
+    "path_texture": "Concrete033",
+    "ground_tile_cm": 220,
+    "wall_tint": [
+      0.7,
+      0.74,
+      0.77
+    ],
+    "description": "Loading terraces, connected vehicle ramps, a warehouse edge, container storage and grouped construction supplies.",
+    "asset_groups": [
+      {
+        "asset": "container",
+        "count": 2,
+        "size_cm": 520,
+        "zone": "edge"
+      },
+      {
+        "asset": "pickup",
+        "count": 1,
+        "size_cm": 440
+      },
+      {
+        "asset": "sedan",
+        "count": 1,
+        "size_cm": 430
+      },
+      {
+        "asset": "pallet",
+        "count": 6,
+        "size_cm": 115
+      },
+      {
+        "asset": "crate",
+        "count": 4,
+        "size_cm": 100
+      },
+      {
+        "asset": "reel",
+        "count": 3,
+        "size_cm": 110
+      },
+      {
+        "asset": "barrel",
+        "count": 6,
+        "size_cm": 90
+      },
+      {
+        "asset": "worker",
+        "count": 2,
+        "size_cm": 178,
+        "height_size": true
+      }
+    ]
+  },
+  "map_path": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/Maps/industrial",
+  "objects": [
+    {
+      "asset": "container",
+      "count": 2,
+      "size_cm": 520,
+      "zone": "edge",
+      "id": "container_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_FreightContainer_01",
+      "actor": "SD_Main_container_00",
+      "anchor_m": [
+        -2.6875,
+        8.4375
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        1.0233636425535115,
+        2.6
+      ],
+      "collision_half_xy_m": [
+        1.0233636425535115,
+        2.6
+      ],
+      "transform": {
+        "location_cm": [
+          -269.47448936467447,
+          859.3019698156089,
+          300.5244434244195
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8334673583531632,
+          0.8334673583531632,
+          0.8334673583531632
+        ]
+      },
+      "instance_id": 10,
+      "evaluated_world_matrix_cm": [
+        [
+          2.361020869334877e-16,
+          -0.8334673583531632,
+          0.0,
+          -269.47448936467447
+        ],
+        [
+          0.8334673583531632,
+          2.361020869334877e-16,
+          -0.0,
+          859.3019698156089
+        ],
+        [
+          0.0,
+          0.0,
+          0.8334673583531632,
+          300.5244434244195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "container",
+      "count": 2,
+      "size_cm": 520,
+      "zone": "edge",
+      "id": "container_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_FreightContainer_01",
+      "actor": "SD_Main_container_01",
+      "anchor_m": [
+        -10.1875,
+        8.4375
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        2.6,
+        1.0233636425535115
+      ],
+      "collision_half_xy_m": [
+        2.6,
+        1.0233636425535115
+      ],
+      "transform": {
+        "location_cm": [
+          -1034.301969815609,
+          843.0255106353255,
+          300.5244434244195
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.8334673583531632,
+          0.8334673583531632,
+          0.8334673583531632
+        ]
+      },
+      "instance_id": 11,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.8334673583531632,
+          -1.0207031326010013e-16,
+          0.0,
+          -1034.301969815609
+        ],
+        [
+          1.0207031326010013e-16,
+          -0.8334673583531632,
+          0.0,
+          843.0255106353255
+        ],
+        [
+          0.0,
+          0.0,
+          0.8334673583531632,
+          300.5244434244195
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pickup",
+      "count": 1,
+      "size_cm": 440,
+      "id": "pickup_00",
+      "source_pack": "vehicle_variety_pack",
+      "mesh": "/Game/VehicleVarietyPack/Skeletons/SK_Pickup",
+      "actor": "SD_Main_pickup_00",
+      "anchor_m": [
+        -7.6875,
+        3.9375
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.9801980577636052,
+        2.1999999999999997
+      ],
+      "collision_half_xy_m": [
+        0.9801980577636052,
+        2.1999999999999997
+      ],
+      "transform": {
+        "location_cm": [
+          -763.5744488651081,
+          388.57444104036506,
+          301.0201612908963
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          1.0256047290471073,
+          1.0256047290471073,
+          1.0256047290471073
+        ]
+      },
+      "instance_id": 12,
+      "evaluated_world_matrix_cm": [
+        [
+          2.9053017430140517e-16,
+          -1.0256047290471073,
+          0.0,
+          -763.5744488651081
+        ],
+        [
+          1.0256047290471073,
+          2.9053017430140517e-16,
+          -0.0,
+          388.57444104036506
+        ],
+        [
+          0.0,
+          0.0,
+          1.0256047290471073,
+          301.0201612908963
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "sedan",
+      "count": 1,
+      "size_cm": 430,
+      "id": "sedan_00",
+      "source_pack": "vehicle_variety_pack_2",
+      "mesh": "/Game/VehicleVarietyVol2/Skeletons/SK_Sedan_01a",
+      "actor": "SD_Main_sedan_00",
+      "anchor_m": [
+        12.8125,
+        5.4375
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.9383957557305114,
+        2.1500000000000004
+      ],
+      "collision_half_xy_m": [
+        0.9383957557305114,
+        2.1500000000000004
+      ],
+      "transform": {
+        "location_cm": [
+          1281.25,
+          534.4964221201946,
+          150.50813064083349
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.872579735569494,
+          0.872579735569494,
+          0.872579735569494
+        ]
+      },
+      "instance_id": 13,
+      "evaluated_world_matrix_cm": [
+        [
+          2.4718172165841784e-16,
+          0.872579735569494,
+          0.0,
+          1281.25
+        ],
+        [
+          -0.872579735569494,
+          2.4718172165841784e-16,
+          0.0,
+          534.4964221201946
+        ],
+        [
+          0.0,
+          -0.0,
+          0.872579735569494,
+          150.50813064083349
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "worker",
+      "count": 2,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_00",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "actor": "SD_Main_worker_00",
+      "anchor_m": [
+        11.3125,
+        5.4375
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.1723357592403923,
+        0.6416543242244878
+      ],
+      "collision_half_xy_m": [
+        0.1723357592403923,
+        0.6416543242244878
+      ],
+      "transform": {
+        "location_cm": [
+          1131.1649055890548,
+          543.75,
+          150.50821778097242
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          1.0750485795151041,
+          1.0750485795151041,
+          1.0750485795151041
+        ]
+      },
+      "instance_id": 14,
+      "foot_adjustment_cm": -2.952698056018022,
+      "evaluated_world_matrix_cm": [
+        [
+          3.0453647720520145e-16,
+          1.0750485795151041,
+          0.0,
+          1131.1649055890548
+        ],
+        [
+          -1.0750485795151041,
+          3.0453647720520145e-16,
+          0.0,
+          543.75
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0750485795151041,
+          147.5555197249544
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "worker",
+      "count": 2,
+      "size_cm": 178,
+      "height_size": true,
+      "id": "worker_01",
+      "source_pack": "game_animation_sample",
+      "mesh": "/Game/Characters/UEFN_Mannequin/Meshes/SKM_UEFN_Mannequin",
+      "animation": "/Game/Characters/UEFN_Mannequin/Animations/Idle/M_Neutral_Stand_Idle_Loop",
+      "actor": "SD_Main_worker_01",
+      "anchor_m": [
+        10.8125,
+        6.9375
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.6416543242244878,
+        0.17233575924039216
+      ],
+      "collision_half_xy_m": [
+        0.6416543242244878,
+        0.17233575924039216
+      ],
+      "transform": {
+        "location_cm": [
+          1081.25,
+          693.6649055890549,
+          150.50821778097242
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1.0750485795151041,
+          1.0750485795151041,
+          1.0750485795151041
+        ]
+      },
+      "instance_id": 15,
+      "foot_adjustment_cm": -2.952698056018022,
+      "evaluated_world_matrix_cm": [
+        [
+          1.0750485795151041,
+          -0.0,
+          0.0,
+          1081.25
+        ],
+        [
+          0.0,
+          1.0750485795151041,
+          -0.0,
+          693.6649055890549
+        ],
+        [
+          0.0,
+          0.0,
+          1.0750485795151041,
+          147.5555197249544
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "actor": "SD_Main_pallet_00",
+      "anchor_m": [
+        -0.1875,
+        -8.5625
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.40920256832973706,
+        0.4841583296877301
+      ],
+      "collision_half_xy_m": [
+        0.40920256832973706,
+        0.4841583296877301
+      ],
+      "transform": {
+        "location_cm": [
+          22.15129481422754,
+          -904.6468615052225,
+          300.744450424633
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.8252995919297021,
+          0.8252995919297021,
+          0.8252995919297021
+        ]
+      },
+      "instance_id": 16,
+      "evaluated_world_matrix_cm": [
+        [
+          2.3378834701453663e-16,
+          -0.8252995919297021,
+          0.0,
+          22.15129481422754
+        ],
+        [
+          0.8252995919297021,
+          2.3378834701453663e-16,
+          -0.0,
+          -904.6468615052225
+        ],
+        [
+          0.0,
+          0.0,
+          0.8252995919297021,
+          300.744450424633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "actor": "SD_Main_pallet_01",
+      "anchor_m": [
+        -0.1875,
+        -10.0625
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.4092025683297371,
+        0.48415832968773015
+      ],
+      "collision_half_xy_m": [
+        0.4092025683297371,
+        0.48415832968773015
+      ],
+      "transform": {
+        "location_cm": [
+          -59.65129481422753,
+          -957.8531384947775,
+          300.744450424633
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.8252995919297021,
+          0.8252995919297021,
+          0.8252995919297021
+        ]
+      },
+      "instance_id": 17,
+      "evaluated_world_matrix_cm": [
+        [
+          2.3378834701453663e-16,
+          0.8252995919297021,
+          0.0,
+          -59.65129481422753
+        ],
+        [
+          -0.8252995919297021,
+          2.3378834701453663e-16,
+          0.0,
+          -957.8531384947775
+        ],
+        [
+          0.0,
+          -0.0,
+          0.8252995919297021,
+          300.744450424633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_02",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "actor": "SD_Main_pallet_02",
+      "anchor_m": [
+        -1.6875,
+        -9.0625
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.4092025683297371,
+        0.48415832968773015
+      ],
+      "collision_half_xy_m": [
+        0.4092025683297371,
+        0.48415832968773015
+      ],
+      "transform": {
+        "location_cm": [
+          -209.65129481422753,
+          -857.8531384947775,
+          300.744450424633
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.8252995919297021,
+          0.8252995919297021,
+          0.8252995919297021
+        ]
+      },
+      "instance_id": 18,
+      "evaluated_world_matrix_cm": [
+        [
+          2.3378834701453663e-16,
+          0.8252995919297021,
+          0.0,
+          -209.65129481422753
+        ],
+        [
+          -0.8252995919297021,
+          2.3378834701453663e-16,
+          0.0,
+          -857.8531384947775
+        ],
+        [
+          0.0,
+          -0.0,
+          0.8252995919297021,
+          300.744450424633
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_03",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "actor": "SD_Main_pallet_03",
+      "anchor_m": [
+        -12.6875,
+        -6.5625
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.48415832968773015,
+        0.40920256832973706
+      ],
+      "collision_half_xy_m": [
+        0.48415832968773015,
+        0.40920256832973706
+      ],
+      "transform": {
+        "location_cm": [
+          -1220.3531384947773,
+          -615.3487051857725,
+          150.74445042463293
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.8252995919297021,
+          0.8252995919297021,
+          0.8252995919297021
+        ]
+      },
+      "instance_id": 19,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.8252995919297021,
+          -1.0107005035943265e-16,
+          0.0,
+          -1220.3531384947773
+        ],
+        [
+          1.0107005035943265e-16,
+          -0.8252995919297021,
+          0.0,
+          -615.3487051857725
+        ],
+        [
+          0.0,
+          0.0,
+          0.8252995919297021,
+          150.74445042463293
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_04",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "actor": "SD_Main_pallet_04",
+      "anchor_m": [
+        -12.1875,
+        -8.0625
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.4092025683297371,
+        0.48415832968773015
+      ],
+      "collision_half_xy_m": [
+        0.4092025683297371,
+        0.48415832968773015
+      ],
+      "transform": {
+        "location_cm": [
+          -1259.6512948142276,
+          -757.8531384947775,
+          150.74445042463293
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.8252995919297021,
+          0.8252995919297021,
+          0.8252995919297021
+        ]
+      },
+      "instance_id": 20,
+      "evaluated_world_matrix_cm": [
+        [
+          2.3378834701453663e-16,
+          0.8252995919297021,
+          0.0,
+          -1259.6512948142276
+        ],
+        [
+          -0.8252995919297021,
+          2.3378834701453663e-16,
+          0.0,
+          -757.8531384947775
+        ],
+        [
+          0.0,
+          -0.0,
+          0.8252995919297021,
+          150.74445042463293
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "pallet",
+      "count": 6,
+      "size_cm": 115,
+      "id": "pallet_05",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a",
+      "actor": "SD_Main_pallet_05",
+      "anchor_m": [
+        -13.6875,
+        -8.0625
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.4841583296877301,
+        0.409202568329737
+      ],
+      "collision_half_xy_m": [
+        0.4841583296877301,
+        0.409202568329737
+      ],
+      "transform": {
+        "location_cm": [
+          -1417.1468615052227,
+          -847.1512948142275,
+          150.74445042463293
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.8252995919297021,
+          0.8252995919297021,
+          0.8252995919297021
+        ]
+      },
+      "instance_id": 21,
+      "evaluated_world_matrix_cm": [
+        [
+          0.8252995919297021,
+          -0.0,
+          0.0,
+          -1417.1468615052227
+        ],
+        [
+          0.0,
+          0.8252995919297021,
+          -0.0,
+          -847.1512948142275
+        ],
+        [
+          0.0,
+          0.0,
+          0.8252995919297021,
+          150.74445042463293
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "reel",
+      "count": 3,
+      "size_cm": 110,
+      "id": "reel_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "actor": "SD_Main_reel_00",
+      "anchor_m": [
+        13.3125,
+        -2.5625
+      ],
+      "ground_z_m": 1.5000000000000002,
+      "half_xy_m": [
+        0.55,
+        0.4486539184936687
+      ],
+      "collision_half_xy_m": [
+        0.55,
+        0.4486539184936687
+      ],
+      "transform": {
+        "location_cm": [
+          1331.2044881809184,
+          -212.9411893155758,
+          150.50000000000003
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7204498974235154,
+          0.7204498974235154,
+          0.7204498974235154
+        ]
+      },
+      "instance_id": 22,
+      "evaluated_world_matrix_cm": [
+        [
+          0.7204498974235154,
+          -0.0,
+          0.0,
+          1331.2044881809184
+        ],
+        [
+          0.0,
+          0.7204498974235154,
+          -0.0,
+          -212.9411893155758
+        ],
+        [
+          0.0,
+          0.0,
+          0.7204498974235154,
+          150.50000000000003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "reel",
+      "count": 3,
+      "size_cm": 110,
+      "id": "reel_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "actor": "SD_Main_reel_01",
+      "anchor_m": [
+        11.8125,
+        -3.0625
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.55,
+        0.4486539184936687
+      ],
+      "collision_half_xy_m": [
+        0.55,
+        0.4486539184936687
+      ],
+      "transform": {
+        "location_cm": [
+          1181.2044881809184,
+          -262.9411893155758,
+          150.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7204498974235154,
+          0.7204498974235154,
+          0.7204498974235154
+        ]
+      },
+      "instance_id": 23,
+      "evaluated_world_matrix_cm": [
+        [
+          0.7204498974235154,
+          -0.0,
+          0.0,
+          1181.2044881809184
+        ],
+        [
+          0.0,
+          0.7204498974235154,
+          -0.0,
+          -262.9411893155758
+        ],
+        [
+          0.0,
+          0.0,
+          0.7204498974235154,
+          150.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "reel",
+      "count": 3,
+      "size_cm": 110,
+      "id": "reel_02",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_CableReel",
+      "actor": "SD_Main_reel_02",
+      "anchor_m": [
+        11.3125,
+        -1.5625
+      ],
+      "ground_z_m": 1.5,
+      "half_xy_m": [
+        0.5500000000000002,
+        0.4486539184936688
+      ],
+      "collision_half_xy_m": [
+        0.5500000000000002,
+        0.4486539184936688
+      ],
+      "transform": {
+        "location_cm": [
+          1131.2955118190816,
+          -199.5588106844242,
+          150.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.7204498974235154,
+          0.7204498974235154,
+          0.7204498974235154
+        ]
+      },
+      "instance_id": 24,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.7204498974235154,
+          -8.82296660825747e-17,
+          0.0,
+          1131.2955118190816
+        ],
+        [
+          8.82296660825747e-17,
+          -0.7204498974235154,
+          0.0,
+          -199.5588106844242
+        ],
+        [
+          0.0,
+          0.0,
+          0.7204498974235154,
+          150.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_00",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "actor": "SD_Main_crate_00",
+      "anchor_m": [
+        13.8125,
+        -8.5625
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.32966211032907167,
+        0.5
+      ],
+      "collision_half_xy_m": [
+        0.32966211032907167,
+        0.5
+      ],
+      "transform": {
+        "location_cm": [
+          1384.8856335700902,
+          -858.4252971900322,
+          0.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.7478003071029277,
+          0.7478003071029277,
+          0.7478003071029277
+        ]
+      },
+      "instance_id": 25,
+      "evaluated_world_matrix_cm": [
+        [
+          2.1183458637823708e-16,
+          -0.7478003071029277,
+          0.0,
+          1384.8856335700902
+        ],
+        [
+          0.7478003071029277,
+          2.1183458637823708e-16,
+          -0.0,
+          -858.4252971900322
+        ],
+        [
+          0.0,
+          0.0,
+          0.7478003071029277,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_01",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "actor": "SD_Main_crate_01",
+      "anchor_m": [
+        11.8125,
+        -9.0625
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.5,
+        0.32966211032907167
+      ],
+      "collision_half_xy_m": [
+        0.5,
+        0.32966211032907167
+      ],
+      "transform": {
+        "location_cm": [
+          1183.425297190032,
+          -902.6143664299096,
+          0.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.7478003071029277,
+          0.7478003071029277,
+          0.7478003071029277
+        ]
+      },
+      "instance_id": 26,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.7478003071029277,
+          -9.157912524950081e-17,
+          0.0,
+          1183.425297190032
+        ],
+        [
+          9.157912524950081e-17,
+          -0.7478003071029277,
+          0.0,
+          -902.6143664299096
+        ],
+        [
+          0.0,
+          0.0,
+          0.7478003071029277,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_02",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "actor": "SD_Main_crate_02",
+      "anchor_m": [
+        12.3125,
+        -8.0625
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.5,
+        0.32966211032907167
+      ],
+      "collision_half_xy_m": [
+        0.5,
+        0.32966211032907167
+      ],
+      "transform": {
+        "location_cm": [
+          1233.425297190032,
+          -802.6143664299096,
+          0.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.7478003071029277,
+          0.7478003071029277,
+          0.7478003071029277
+        ]
+      },
+      "instance_id": 27,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.7478003071029277,
+          -9.157912524950081e-17,
+          0.0,
+          1233.425297190032
+        ],
+        [
+          9.157912524950081e-17,
+          -0.7478003071029277,
+          0.0,
+          -802.6143664299096
+        ],
+        [
+          0.0,
+          0.0,
+          0.7478003071029277,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "crate",
+      "count": 4,
+      "size_cm": 100,
+      "id": "crate_03",
+      "source_pack": "construction_site_vol1",
+      "mesh": "/Game/Construction_VOL1/Meshes/SM_Crate_01a",
+      "actor": "SD_Main_crate_03",
+      "anchor_m": [
+        1.3125,
+        -0.5625
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.32966211032907167,
+        0.5
+      ],
+      "collision_half_xy_m": [
+        0.32966211032907167,
+        0.5
+      ],
+      "transform": {
+        "location_cm": [
+          134.88563357009036,
+          -58.425297190032175,
+          0.5
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.7478003071029277,
+          0.7478003071029277,
+          0.7478003071029277
+        ]
+      },
+      "instance_id": 28,
+      "evaluated_world_matrix_cm": [
+        [
+          2.1183458637823708e-16,
+          -0.7478003071029277,
+          0.0,
+          134.88563357009036
+        ],
+        [
+          0.7478003071029277,
+          2.1183458637823708e-16,
+          -0.0,
+          -58.425297190032175
+        ],
+        [
+          0.0,
+          0.0,
+          0.7478003071029277,
+          0.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_00",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "actor": "SD_Main_barrel_00",
+      "anchor_m": [
+        2.3125,
+        -3.0625
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.2741991561615865,
+        0.2741670353842933
+      ],
+      "collision_half_xy_m": [
+        0.2741991561615865,
+        0.2741670353842933
+      ],
+      "transform": {
+        "location_cm": [
+          231.25,
+          -306.2499849815185,
+          0.6879337681628718
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.9842512031263806,
+          0.9842512031263806,
+          0.9842512031263806
+        ]
+      },
+      "instance_id": 29,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.9842512031263806,
+          -1.2053600854656533e-16,
+          0.0,
+          231.25
+        ],
+        [
+          1.2053600854656533e-16,
+          -0.9842512031263806,
+          0.0,
+          -306.2499849815185
+        ],
+        [
+          0.0,
+          0.0,
+          0.9842512031263806,
+          0.6879337681628718
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_01",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "actor": "SD_Main_barrel_01",
+      "anchor_m": [
+        1.8125,
+        -4.0625
+      ],
+      "ground_z_m": 0.0,
+      "half_xy_m": [
+        0.2741991561615865,
+        0.2741670353842933
+      ],
+      "collision_half_xy_m": [
+        0.2741991561615865,
+        0.2741670353842933
+      ],
+      "transform": {
+        "location_cm": [
+          181.25,
+          -406.2500150184815,
+          0.6879337681628718
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.9842512031263806,
+          0.9842512031263806,
+          0.9842512031263806
+        ]
+      },
+      "instance_id": 30,
+      "evaluated_world_matrix_cm": [
+        [
+          0.9842512031263806,
+          -0.0,
+          0.0,
+          181.25
+        ],
+        [
+          0.0,
+          0.9842512031263806,
+          -0.0,
+          -406.2500150184815
+        ],
+        [
+          0.0,
+          0.0,
+          0.9842512031263806,
+          0.6879337681628718
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_02",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "actor": "SD_Main_barrel_02",
+      "anchor_m": [
+        -6.1875,
+        9.4375
+      ],
+      "ground_z_m": 3.0,
+      "half_xy_m": [
+        0.2741991561615865,
+        0.2741670353842933
+      ],
+      "collision_half_xy_m": [
+        0.2741991561615865,
+        0.2741670353842933
+      ],
+      "transform": {
+        "location_cm": [
+          -618.75,
+          943.7500150184815,
+          300.68793376816285
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          180
+        ],
+        "scale": [
+          0.9842512031263806,
+          0.9842512031263806,
+          0.9842512031263806
+        ]
+      },
+      "instance_id": 31,
+      "evaluated_world_matrix_cm": [
+        [
+          -0.9842512031263806,
+          -1.2053600854656533e-16,
+          0.0,
+          -618.75
+        ],
+        [
+          1.2053600854656533e-16,
+          -0.9842512031263806,
+          0.0,
+          943.7500150184815
+        ],
+        [
+          0.0,
+          0.0,
+          0.9842512031263806,
+          300.68793376816285
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_03",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "actor": "SD_Main_barrel_03",
+      "anchor_m": [
+        -4.6875,
+        7.9375
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.2741670353842933,
+        0.2741991561615865
+      ],
+      "collision_half_xy_m": [
+        0.2741670353842933,
+        0.2741991561615865
+      ],
+      "transform": {
+        "location_cm": [
+          -468.7500150184815,
+          793.75,
+          300.6879337681629
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.9842512031263806,
+          0.9842512031263806,
+          0.9842512031263806
+        ]
+      },
+      "instance_id": 32,
+      "evaluated_world_matrix_cm": [
+        [
+          2.788156738184666e-16,
+          0.9842512031263806,
+          0.0,
+          -468.7500150184815
+        ],
+        [
+          -0.9842512031263806,
+          2.788156738184666e-16,
+          0.0,
+          793.75
+        ],
+        [
+          0.0,
+          -0.0,
+          0.9842512031263806,
+          300.6879337681629
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_04",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "actor": "SD_Main_barrel_04",
+      "anchor_m": [
+        -4.1875,
+        6.9375
+      ],
+      "ground_z_m": 3.0000000000000004,
+      "half_xy_m": [
+        0.2741670353842933,
+        0.2741991561615865
+      ],
+      "collision_half_xy_m": [
+        0.2741670353842933,
+        0.2741991561615865
+      ],
+      "transform": {
+        "location_cm": [
+          -418.7500150184815,
+          693.75,
+          300.6879337681629
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          270
+        ],
+        "scale": [
+          0.9842512031263806,
+          0.9842512031263806,
+          0.9842512031263806
+        ]
+      },
+      "instance_id": 33,
+      "evaluated_world_matrix_cm": [
+        [
+          2.788156738184666e-16,
+          0.9842512031263806,
+          0.0,
+          -418.7500150184815
+        ],
+        [
+          -0.9842512031263806,
+          2.788156738184666e-16,
+          0.0,
+          693.75
+        ],
+        [
+          0.0,
+          -0.0,
+          0.9842512031263806,
+          300.6879337681629
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "asset": "barrel",
+      "count": 6,
+      "size_cm": 90,
+      "id": "barrel_05",
+      "source_pack": "industry_props_6",
+      "mesh": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "actor": "SD_Main_barrel_05",
+      "anchor_m": [
+        11.3125,
+        3.9375
+      ],
+      "ground_z_m": 1.5000000000000002,
+      "half_xy_m": [
+        0.2741670353842933,
+        0.2741991561615865
+      ],
+      "collision_half_xy_m": [
+        0.2741670353842933,
+        0.2741991561615865
+      ],
+      "transform": {
+        "location_cm": [
+          1131.2500150184815,
+          393.75,
+          150.6879337681629
+        ],
+        "rotation_rpy_deg": [
+          0,
+          0,
+          90
+        ],
+        "scale": [
+          0.9842512031263806,
+          0.9842512031263806,
+          0.9842512031263806
+        ]
+      },
+      "instance_id": 34,
+      "evaluated_world_matrix_cm": [
+        [
+          2.788156738184666e-16,
+          -0.9842512031263806,
+          0.0,
+          1131.2500150184815
+        ],
+        [
+          0.9842512031263806,
+          2.788156738184666e-16,
+          -0.0,
+          393.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.9842512031263806,
+          150.6879337681629
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "logical_objects": 25,
+  "architecture_actors": [
+    "SD_Main_warehouse",
+    "SD_Main_warehouse_roof",
+    "SD_Main_loading_door_0",
+    "SD_Main_door_rib_0_0",
+    "SD_Main_door_rib_0_1",
+    "SD_Main_door_rib_0_2",
+    "SD_Main_door_rib_0_3",
+    "SD_Main_door_rib_0_4",
+    "SD_Main_door_rib_0_5",
+    "SD_Main_door_rib_0_6",
+    "SD_Main_loading_door_1",
+    "SD_Main_door_rib_1_0",
+    "SD_Main_door_rib_1_1",
+    "SD_Main_door_rib_1_2",
+    "SD_Main_door_rib_1_3",
+    "SD_Main_door_rib_1_4",
+    "SD_Main_door_rib_1_5",
+    "SD_Main_door_rib_1_6",
+    "SD_Main_loading_door_2",
+    "SD_Main_door_rib_2_0",
+    "SD_Main_door_rib_2_1",
+    "SD_Main_door_rib_2_2",
+    "SD_Main_door_rib_2_3",
+    "SD_Main_door_rib_2_4",
+    "SD_Main_door_rib_2_5",
+    "SD_Main_door_rib_2_6"
+  ],
+  "source_packs": [
+    "construction_site_vol1",
+    "game_animation_sample",
+    "industry_props_6",
+    "vehicle_variety_pack",
+    "vehicle_variety_pack_2"
+  ],
+  "lighting_source": {
+    "asset": "kloofendal_48d_partly_cloudy_puresky",
+    "title": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+    "authors": {
+      "Greg Zaal": "Original",
+      "Jarod Guest": "Sky edits"
+    },
+    "publisher": "Poly Haven",
+    "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "api_terms_url": "https://polyhaven.com/our-api",
+    "credit": "Powered by Poly Haven",
+    "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+    "relative_path": "inputs/lighting/polyhaven/kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+    "bytes": 20674857,
+    "md5": "816340c969d2e60d659051d13ac3c4dc",
+    "sha256": "3061c00a16ecae748e84fd6c44c04804f539c118bb66325db858bad87b11bf88",
+    "resolution": [
+      4096,
+      2048
+    ],
+    "purpose": "Pure sky for visible sky dome, skylight illumination and reflections; no exterior scenery",
+    "luminance": {
+      "upper_median": 0.3444511592388153,
+      "spherical_mean": 0.6914662485189841,
+      "maximum": 74608.84375
+    },
+    "background_multiplier": 0.8128873789211726,
+    "skylight_intensity": 0.7954112021780047,
+    "sun_direction_world": [
+      0.3774760124257408,
+      -0.5547432295333827,
+      0.7414659866305633
+    ],
+    "directional_light_rotation": {
+      "pitch": -47.8564453125,
+      "yaw": 124.2333984375,
+      "roll": 0
+    },
+    "whitebalance_kelvin": 5400,
+    "basis": "Unreal long-lat cubemap import: sample-space direction=(sin(phi)*sin(theta),-sin(phi)*cos(theta),cos(phi))"
+  },
+  "architecture_materials": "Native solid-volume construction with original Modular Building Set shopfront/brick modules in the urban family",
+  "scope": "Independent seeded terrain and coherent family dressing; root-static scene inspection with idle clips; benchmark dynamics and QA are a later stage"
+}

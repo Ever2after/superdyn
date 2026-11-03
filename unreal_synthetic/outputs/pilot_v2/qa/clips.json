@@ -1,0 +1,654 @@
+[
+  {
+    "id": "m01_truck_right",
+    "video_id": "synth_pilot__m01_truck_right",
+    "env": "city_park",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 10.958556518554687,
+    "group": "HLH",
+    "group_evidence": {
+      "translation_path_depths": 0.45581374977098504,
+      "rotation_path_deg": 2.757734466504105,
+      "object_image_motion_diagonals": 0.4015003553950368,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      27,
+      27
+    ],
+    "mask_pixels": {
+      "A": [
+        5022,
+        5951,
+        4527,
+        5578,
+        5582,
+        5974,
+        5783,
+        6622,
+        7034
+      ],
+      "B": [
+        5389,
+        4135,
+        2799,
+        1854,
+        1344,
+        936,
+        830,
+        711,
+        665
+      ],
+      "D2": [
+        2336,
+        2312,
+        2309,
+        2308,
+        2272,
+        2211,
+        2222,
+        2161,
+        1481
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "m02_pan_left",
+    "video_id": "synth_pilot__m02_pan_left",
+    "env": "city_park",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 8.474219970703125,
+    "group": "LHH",
+    "group_evidence": {
+      "translation_path_depths": 0.013647624900772476,
+      "rotation_path_deg": 47.77991950268905,
+      "object_image_motion_diagonals": 0.49407798941477726,
+      "translation_high": false,
+      "rotation_high": true,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      26,
+      27
+    ],
+    "mask_pixels": {
+      "A": [
+        845,
+        883,
+        910,
+        715,
+        594,
+        614,
+        516,
+        433,
+        366
+      ],
+      "B": [
+        2350,
+        6174,
+        5049,
+        4656,
+        4863,
+        5598,
+        7091,
+        9138,
+        8211
+      ],
+      "D2": [
+        888,
+        843,
+        821,
+        815,
+        883,
+        986,
+        1123,
+        1263,
+        1429
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "m03_walk_forward",
+    "video_id": "synth_pilot__m03_walk_forward",
+    "env": "city_park",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 9.569682006835937,
+    "group": "HLH",
+    "group_evidence": {
+      "translation_path_depths": 0.8355536392779136,
+      "rotation_path_deg": 2.83445321887278,
+      "object_image_motion_diagonals": 0.13775099289729892,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      23,
+      23
+    ],
+    "mask_pixels": {
+      "A": [
+        6048,
+        5927,
+        7137,
+        9102,
+        12050,
+        19708,
+        30044,
+        35664,
+        35818
+      ],
+      "B": [
+        1480,
+        1616,
+        1922,
+        2670,
+        4285,
+        7573,
+        14692,
+        31566,
+        58033
+      ],
+      "D2": [
+        2508,
+        2784,
+        3746,
+        4955,
+        5684,
+        110,
+        0,
+        0,
+        0
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "m04_pull_back",
+    "video_id": "synth_pilot__m04_pull_back",
+    "env": "city_park",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 15.992820434570312,
+    "group": "HLL",
+    "group_evidence": {
+      "translation_path_depths": 0.2811465397442913,
+      "rotation_path_deg": 2.9738550486342517,
+      "object_image_motion_diagonals": 0.06471368226065068,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": false
+    },
+    "center_in_mask": [
+      27,
+      27
+    ],
+    "mask_pixels": {
+      "A": [
+        620,
+        665,
+        761,
+        856,
+        962,
+        1073,
+        1215,
+        1438,
+        1866
+      ],
+      "B": [
+        777,
+        760,
+        779,
+        760,
+        742,
+        723,
+        735,
+        760,
+        815
+      ],
+      "D2": [
+        1423,
+        1402,
+        1319,
+        1185,
+        1108,
+        1011,
+        952,
+        887,
+        878
+      ]
+    },
+    "collisions": 5,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "m05_crane_up",
+    "video_id": "synth_pilot__m05_crane_up",
+    "env": "city_park",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 8.852416381835937,
+    "group": "HLH",
+    "group_evidence": {
+      "translation_path_depths": 0.4069838399989459,
+      "rotation_path_deg": 22.261936792750333,
+      "object_image_motion_diagonals": 0.42645889211357924,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      25,
+      25
+    ],
+    "mask_pixels": {
+      "A": [
+        4308,
+        4337,
+        4202,
+        3922,
+        3580,
+        3422,
+        3295,
+        3093,
+        3035
+      ],
+      "B": [
+        1591,
+        1636,
+        1564,
+        1503,
+        1473,
+        1382,
+        947,
+        0,
+        0
+      ],
+      "D2": [
+        2921,
+        2846,
+        2882,
+        2918,
+        2911,
+        2871,
+        2820,
+        2783,
+        2782
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "m06_crane_down_crow_up",
+    "video_id": "synth_pilot__m06_crane_down_crow_up",
+    "env": "rural_cabins",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 7.9320166015625,
+    "group": "HLH",
+    "group_evidence": {
+      "translation_path_depths": 0.37743259651768907,
+      "rotation_path_deg": 6.8274842212259585,
+      "object_image_motion_diagonals": 0.43454342723187994,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      19,
+      22
+    ],
+    "mask_pixels": {
+      "A": [
+        0,
+        82,
+        1034,
+        751,
+        457,
+        499,
+        0,
+        0,
+        0
+      ],
+      "B": [
+        4490,
+        4615,
+        4835,
+        4796,
+        4784,
+        4641,
+        4529,
+        4314,
+        4337
+      ],
+      "D2": [
+        2456,
+        2362,
+        2664,
+        2526,
+        2306,
+        2491,
+        2134,
+        1926,
+        1984
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 2
+  },
+  {
+    "id": "m07_tilt_up",
+    "video_id": "synth_pilot__m07_tilt_up",
+    "env": "rural_cabins",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 7.29771240234375,
+    "group": "LLH",
+    "group_evidence": {
+      "translation_path_depths": 0.0,
+      "rotation_path_deg": 27.3832798004116,
+      "object_image_motion_diagonals": 0.30976360079210724,
+      "translation_high": false,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      25,
+      25
+    ],
+    "mask_pixels": {
+      "A": [
+        464,
+        449,
+        294,
+        310,
+        314,
+        363,
+        430,
+        416,
+        443
+      ],
+      "B": [
+        194,
+        425,
+        380,
+        315,
+        272,
+        258,
+        298,
+        0,
+        0
+      ],
+      "D2": [
+        3226,
+        2524,
+        2520,
+        2513,
+        2559,
+        2691,
+        2886,
+        2571,
+        2490
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 1
+  },
+  {
+    "id": "m08_orbit",
+    "video_id": "synth_pilot__m08_orbit",
+    "env": "city_park",
+    "split": "matched",
+    "pair": null,
+    "scale_m": 11.491877441406249,
+    "group": "HLH",
+    "group_evidence": {
+      "translation_path_depths": 0.47868009675103207,
+      "rotation_path_deg": 34.8799776349169,
+      "object_image_motion_diagonals": 0.2612641900297769,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      27,
+      27
+    ],
+    "mask_pixels": {
+      "A": [
+        5868,
+        5254,
+        5339,
+        5078,
+        4460,
+        4683,
+        4774,
+        4478,
+        4476
+      ],
+      "B": [
+        4940,
+        5714,
+        5902,
+        6458,
+        6143,
+        6084,
+        5868,
+        5434,
+        4829
+      ],
+      "D2": [
+        1410,
+        1445,
+        1480,
+        1526,
+        833,
+        1831,
+        1939,
+        2045,
+        2105
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "c1a_static_left",
+    "video_id": "synth_pilot__c1a_static_left",
+    "env": "city_park",
+    "split": "counterfactual",
+    "pair": "cf1",
+    "scale_m": 12.54261474609375,
+    "group": "LLH",
+    "group_evidence": {
+      "translation_path_depths": 0.0,
+      "rotation_path_deg": 0.0,
+      "object_image_motion_diagonals": 0.23223755288195996,
+      "translation_high": false,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      18,
+      18
+    ],
+    "mask_pixels": {
+      "A": [
+        3864,
+        4741,
+        3479,
+        3689,
+        4576,
+        3788,
+        4120,
+        4175,
+        3849
+      ],
+      "D1": [
+        691,
+        668,
+        713,
+        691,
+        668,
+        713,
+        691,
+        668,
+        713
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "c1b_truck_right",
+    "video_id": "synth_pilot__c1b_truck_right",
+    "env": "city_park",
+    "split": "counterfactual",
+    "pair": "cf1",
+    "scale_m": 11.794014892578126,
+    "group": "HLH",
+    "group_evidence": {
+      "translation_path_depths": 0.635629710018635,
+      "rotation_path_deg": 2.958923679532419,
+      "object_image_motion_diagonals": 0.1790324250430859,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      18,
+      18
+    ],
+    "mask_pixels": {
+      "A": [
+        3884,
+        4717,
+        4037,
+        3993,
+        3849,
+        4411,
+        3471,
+        3898,
+        4491
+      ],
+      "D1": [
+        909,
+        959,
+        801,
+        653,
+        695,
+        906,
+        894,
+        915,
+        1059
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "c2a_follow",
+    "video_id": "synth_pilot__c2a_follow",
+    "env": "city_park",
+    "split": "counterfactual",
+    "pair": "cf2",
+    "scale_m": 13.276483764648438,
+    "group": "HLH",
+    "group_evidence": {
+      "translation_path_depths": 0.5271752557999166,
+      "rotation_path_deg": 2.7602513536213356,
+      "object_image_motion_diagonals": 0.49323976265754854,
+      "translation_high": true,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      18,
+      18
+    ],
+    "mask_pixels": {
+      "A": [
+        3077,
+        2755,
+        2796,
+        3007,
+        2957,
+        3061,
+        2942,
+        3052,
+        2846
+      ],
+      "B": [
+        5967,
+        5972,
+        5945,
+        5760,
+        5532,
+        4800,
+        5736,
+        5831,
+        5877
+      ]
+    },
+    "collisions": 0,
+    "line_of_sight_blocked": 0
+  },
+  {
+    "id": "c2b_static",
+    "video_id": "synth_pilot__c2b_static",
+    "env": "city_park",
+    "split": "counterfactual",
+    "pair": "cf2",
+    "scale_m": 13.0434423828125,
+    "group": "LLH",
+    "group_evidence": {
+      "translation_path_depths": 0.0,
+      "rotation_path_deg": 0.0,
+      "object_image_motion_diagonals": 0.43727917486435086,
+      "translation_high": false,
+      "rotation_high": false,
+      "dynamic_high": true
+    },
+    "center_in_mask": [
+      18,
+      18
+    ],
+    "mask_pixels": {
+      "A": [
+        3067,
+        3106,
+        3078,
+        3102,
+        3071,
+        3079,
+        3101,
+        3060,
+        3055
+      ],
+      "B": [
+        5944,
+        6148,
+        6110,
+        5923,
+        5761,
+        4641,
+        4399,
+        5573,
+        5741
+      ]
+    },
+    "collisions": 2,
+    "line_of_sight_blocked": 0
+  }
+]

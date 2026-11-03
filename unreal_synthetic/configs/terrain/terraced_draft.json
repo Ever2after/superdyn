@@ -1,0 +1,272 @@
+{
+  "title": "Connected terraced ground draft",
+  "title_ko": "\uc5f0\uacb0\ub41c \ub2e8\ucc28 \uc9c0\uba74 draft",
+  "bounds": [
+    -12,
+    12,
+    -11,
+    11
+  ],
+  "grid_step": 0.125,
+  "bottom_z": -0.35,
+  "levels": [
+    0,
+    1.5,
+    3,
+    4.5
+  ],
+  "plateaus": [
+    {
+      "id": "west",
+      "bounds": [
+        -12,
+        -4,
+        -2,
+        6
+      ],
+      "height": 1.5
+    },
+    {
+      "id": "middle",
+      "bounds": [
+        -4,
+        4,
+        1,
+        6
+      ],
+      "height": 1.5
+    },
+    {
+      "id": "northwest_landing",
+      "bounds": [
+        -12,
+        -8,
+        5,
+        11
+      ],
+      "height": 1.5
+    },
+    {
+      "id": "east",
+      "bounds": [
+        4,
+        12,
+        0,
+        6
+      ],
+      "height": 3
+    },
+    {
+      "id": "rear",
+      "bounds": [
+        -2,
+        12,
+        6,
+        11
+      ],
+      "height": 4.5
+    }
+  ],
+  "ramps": [
+    {
+      "id": "west_entry",
+      "bounds": [
+        -10,
+        -6,
+        -8,
+        -2
+      ],
+      "axis": "y",
+      "z0": 0,
+      "z1": 1.5
+    },
+    {
+      "id": "east_entry",
+      "bounds": [
+        6,
+        10,
+        -8,
+        0
+      ],
+      "axis": "y",
+      "z0": 0,
+      "z1": 3
+    },
+    {
+      "id": "middle_entry",
+      "bounds": [
+        -2,
+        2,
+        -4,
+        1
+      ],
+      "axis": "y",
+      "z0": 0,
+      "z1": 1.5
+    },
+    {
+      "id": "middle_to_east",
+      "bounds": [
+        0,
+        4,
+        1.5,
+        5.5
+      ],
+      "axis": "x",
+      "z0": 1.5,
+      "z1": 3
+    },
+    {
+      "id": "west_to_rear",
+      "bounds": [
+        -8,
+        -2,
+        6,
+        11
+      ],
+      "axis": "x",
+      "z0": 1.5,
+      "z1": 4.5
+    },
+    {
+      "id": "east_to_rear",
+      "bounds": [
+        6,
+        10,
+        3,
+        8
+      ],
+      "axis": "y",
+      "z0": 3,
+      "z1": 4.5
+    }
+  ],
+  "people": [
+    [
+      -2.8,
+      -7,
+      0
+    ],
+    [
+      3.0,
+      -4.8,
+      25
+    ],
+    [
+      -8,
+      0,
+      30
+    ],
+    [
+      -10,
+      8,
+      -50
+    ],
+    [
+      11,
+      1.5,
+      145
+    ],
+    [
+      2.0,
+      8.2,
+      -110
+    ],
+    [
+      9.5,
+      10,
+      160
+    ],
+    [
+      -2.9,
+      3.3,
+      15
+    ]
+  ],
+  "rovers": [
+    [
+      -8,
+      -4.8,
+      90
+    ],
+    [
+      8,
+      -4.0,
+      90
+    ]
+  ],
+  "props": [
+    {
+      "id": "west_low_wall",
+      "center": [
+        -5.1,
+        0
+      ],
+      "size": [
+        1.3,
+        2.8,
+        0.85
+      ]
+    },
+    {
+      "id": "middle_low_wall",
+      "center": [
+        -3,
+        4.5
+      ],
+      "size": [
+        1.5,
+        0.5,
+        1.1
+      ]
+    },
+    {
+      "id": "east_block",
+      "center": [
+        11,
+        4
+      ],
+      "size": [
+        1.0,
+        1.6,
+        0.9
+      ]
+    },
+    {
+      "id": "rear_low_wall",
+      "center": [
+        3,
+        10
+      ],
+      "size": [
+        3,
+        0.6,
+        1.0
+      ]
+    },
+    {
+      "id": "west_marker",
+      "center": [
+        -11,
+        3
+      ],
+      "size": [
+        0.45,
+        0.45,
+        2.0
+      ]
+    },
+    {
+      "id": "rear_marker",
+      "center": [
+        11,
+        9
+      ],
+      "size": [
+        0.45,
+        0.45,
+        2.0
+      ]
+    }
+  ]
+}

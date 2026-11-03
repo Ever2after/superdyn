@@ -1,0 +1,516 @@
+{
+  "schema": 1,
+  "checked_on_kst": "2026-10-28",
+  "purpose": "Rendered synthetic data for non-generative object detection/tracking training and evaluation",
+  "current_engine": "5.8.4",
+  "platform": "Linux",
+  "scope": "Original research catalog, with representative-model demo validation for 10 acquired sources",
+  "recommendation": {
+    "vehicle": [
+      "template_sports_car",
+      "city_sample_vehicles"
+    ],
+    "human": [
+      "microsoft_rocketbox",
+      "makehuman_core"
+    ],
+    "animal": [
+      "animal_variety_pack",
+      "khronos_fox"
+    ],
+    "paid_animal_option": "rog_creatures_pack"
+  },
+  "licensing_notes": {
+    "noai": "Official Fab documentation describes NoAI as a generative-AI restriction. Non-generative suitability is an assessment, subject to actual acquisition terms and product-specific restrictions.",
+    "noai_reference": "https://dev.epicgames.com/documentation/fab/licenses-and-pricing-in-fab?lang=en-US",
+    "fab_license_reference": "https://www.fab.com/eula",
+    "fab_exact_license_status": "Listings displaying License terms '-' were not treated as proof of an exact Standard or legacy Marketplace grant.",
+    "metahuman": "Excluded from shortlist because of separate AI restrictions in Unreal EULA 6(e); includes City Sample Crowd. This is not a claim that every rendered output is subject to an identical blanket prohibition.",
+    "engine_license_reference": "https://www.unrealengine.com/eula/unreal",
+    "quaternius": "Pack pages/creator itch list CC0 while site license is QAL v1.0 updated 2026-08-28. Record exact download and bundled license; do not label entire publisher CC0."
+  },
+  "assets": [
+    {
+      "id": "template_sports_car",
+      "category": "vehicle",
+      "publisher": "Epic Games",
+      "source_url": "https://dev.epicgames.com/documentation/unreal-engine/vehicle-template-in-unreal-engine",
+      "offer_observed": "included_with_engine",
+      "license_assessment": {
+        "name": "Unreal Engine EULA — template Examples",
+        "url": "https://www.unrealengine.com/eula/unreal",
+        "status": "local_source_confirmed"
+      },
+      "formats": [
+        "Unreal uasset"
+      ],
+      "content": {
+        "models": "SportsCar",
+        "local_source": "unreal_synthetic/.engine/Templates/TemplateResources/Standard/Vehicles/Content/SportsCar",
+        "files_confirmed": [
+          "SKM_SportsCar.uasset",
+          "SM_SportsCar.uasset",
+          "SM_SportsCar_Glass.uasset",
+          "SM_SportsCar_Wheel.uasset",
+          "ABP_SportsCar.uasset"
+        ]
+      },
+      "priority": "first",
+      "notes": [
+        "Import dependent materials and separated body/glass/wheels; real vehicle size may require trajectory changes."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/template_sports_car/native_validation.json"
+    },
+    {
+      "id": "city_sample_vehicles",
+      "category": "vehicle",
+      "publisher": "Epic Games",
+      "source_url": "https://www.fab.com/listings/2909157b-ddfa-4cef-a925-69dc2467021f",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "UE-Only explicitly stated; exact acquisition terms pending",
+        "url": "https://www.fab.com/listings/2909157b-ddfa-4cef-a925-69dc2467021f",
+        "status": "conditional_on_acquisition_terms"
+      },
+      "formats": [
+        "Unreal Engine"
+      ],
+      "content": {
+        "driveable_vehicles": 13,
+        "examples": [
+          "sedan",
+          "coupe",
+          "SUV",
+          "hatchback",
+          "sports car",
+          "pickup",
+          "semi truck",
+          "garbage truck",
+          "taxi",
+          "bus",
+          "delivery van"
+        ]
+      },
+      "priority": "first_expansion",
+      "notes": [
+        "Use the standalone vehicle pack; avoid bringing in City Sample MetaHuman crowd. Inspect materials, skeletons and native compatibility."
+      ],
+      "fab_allows_usage_with_ai_label": "No",
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/fab_source_demos/city_sample_vehicles/native_validation.json"
+    },
+    {
+      "id": "kenney_car_kit",
+      "category": "vehicle",
+      "publisher": "Kenney",
+      "source_url": "https://kenney.nl/assets/car-kit",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "CC0",
+        "url": "https://kenney.nl/assets/car-kit",
+        "status": "publisher_page_confirmed"
+      },
+      "formats": [
+        "OBJ",
+        "FBX",
+        "glTF"
+      ],
+      "content": {
+        "publisher_file_count": 45,
+        "examples": [
+          "cars",
+          "trucks",
+          "vans"
+        ],
+        "style": "low_poly"
+      },
+      "priority": "prototype",
+      "notes": [
+        "45 is the displayed file count, not a verified count of distinct drivable vehicles."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/kenney_car_kit/native_validation.json"
+    },
+    {
+      "id": "kenney_watercraft_kit",
+      "category": "vehicle",
+      "publisher": "Kenney",
+      "source_url": "https://kenney.nl/assets/watercraft-kit",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "CC0",
+        "url": "https://kenney.nl/assets/watercraft-kit",
+        "status": "publisher_page_confirmed"
+      },
+      "formats": [],
+      "content": {
+        "publisher_file_count": 45,
+        "style": "low_poly",
+        "theme": "watercraft"
+      },
+      "priority": "future_scene",
+      "notes": [
+        "Specific file formats and rigs require archive inspection; needs a water scene."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/kenney_watercraft_kit/native_validation.json"
+    },
+    {
+      "id": "microsoft_rocketbox",
+      "category": "human",
+      "publisher": "Microsoft Research",
+      "source_url": "https://github.com/microsoft/Microsoft-Rocketbox",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "MIT",
+        "url": "https://github.com/microsoft/Microsoft-Rocketbox/blob/master/LICENSE.md",
+        "status": "repository_license_confirmed"
+      },
+      "formats": [
+        "FBX"
+      ],
+      "content": {
+        "rigged_avatars": 115,
+        "compatible_animations": 417,
+        "unreal_importer_path": "Tools/Unreal/Import",
+        "repository_archived_on": "2026-10-02"
+      },
+      "priority": "first",
+      "notes": [
+        "Preserve applicable MIT notices. Verify old importer on 5.8, axis/scale, hair transparency and animation retargeting."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/microsoft_rocketbox/native_validation.json"
+    },
+    {
+      "id": "makehuman_core",
+      "category": "human",
+      "publisher": "MakeHuman Community",
+      "source_url": "https://www.makehumancommunity.org/about/license.html",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "CC0 core assets/output; GPL/AGPL program code separate",
+        "url": "https://github.com/makehumancommunity/makehuman/blob/master/LICENSE.md",
+        "status": "core_license_confirmed_third_party_assets_separate"
+      },
+      "formats": [
+        "FBX",
+        "OBJ",
+        "DAE",
+        "MHX2"
+      ],
+      "content": {
+        "type": "parametric_human_generator"
+      },
+      "priority": "first_expansion",
+      "notes": [
+        "Check separate licenses for community clothing/hair. Rig and retarget exported models; Manny animation is not automatic."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/makehuman_core/native_validation.json"
+    },
+    {
+      "id": "game_animation_sample",
+      "category": "human_animation",
+      "publisher": "Epic Games",
+      "source_url": "https://www.fab.com/listings/880e319a-a59e-4ed2-b268-b32dac7fa016",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "Epic/Fab acquisition terms pending",
+        "url": "https://www.fab.com/eula",
+        "status": "conditional_on_acquisition_terms"
+      },
+      "formats": [
+        "Unreal Engine"
+      ],
+      "content": {
+        "animation_count_minimum": 500,
+        "official_ue_5_8_update": "https://www.unrealengine.com/tech-blog/download-the-latest-game-animation-sample-project-now-updated-for-ue-5-8"
+      },
+      "priority": "motion_expansion",
+      "notes": [
+        "Motion sample rather than a diverse human-mesh library. Select non-MetaHuman content and check original animation provenance."
+      ],
+      "fab_allows_usage_with_ai_label": "No",
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/fab_source_demos/game_animation_sample/native_validation.json"
+    },
+    {
+      "id": "animal_variety_pack",
+      "category": "animal",
+      "publisher": "PROTOFACTOR INC",
+      "source_url": "https://www.fab.com/listings/2dd7964c-a601-4264-a53d-465dcae1644c",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "Fab acquisition terms pending; NoAI interpretation separately documented",
+        "url": "https://www.fab.com/eula",
+        "status": "conditional_on_acquisition_terms"
+      },
+      "formats": [
+        "Unreal Engine"
+      ],
+      "content": {
+        "listed_model_entries": [
+          "crow",
+          "fox",
+          "deer_stag",
+          "deer_doe",
+          "pig",
+          "wolf"
+        ],
+        "animation_counts_by_model": {
+          "crow": 17,
+          "fox": 26,
+          "deer_stag": 20,
+          "deer_doe": 20,
+          "pig": 20,
+          "wolf": 26
+        }
+      },
+      "priority": "first",
+      "notes": [
+        "Page says 5 animals but lists six model entries because deer sexes are separate. Use included skeletons/motions; check exact acquired license."
+      ],
+      "fab_allows_usage_with_ai_label": "No",
+      "acquisition_status": "not_acquired",
+      "ue_5_8_4_linux_import_render_verified": false
+    },
+    {
+      "id": "animals_full_pack",
+      "category": "animal",
+      "publisher": "PROTOFACTOR INC",
+      "source_url": "https://www.fab.com/listings/de8a696d-8e26-41a0-8e76-f1f1af240374",
+      "offer_observed": "purchase_option_price_not_verified",
+      "license_assessment": {
+        "name": "Fab acquisition terms pending",
+        "url": "https://www.fab.com/eula",
+        "status": "conditional_on_acquisition_terms"
+      },
+      "formats": [
+        "Unreal Engine",
+        "Unity"
+      ],
+      "content": {
+        "animals": 30,
+        "themes": [
+          "African",
+          "birds",
+          "farm",
+          "forest",
+          "ocean"
+        ],
+        "root_motion": true
+      },
+      "priority": "paid_expansion",
+      "notes": [
+        "Price and tier require checkout verification; choose land species first."
+      ],
+      "fab_allows_usage_with_ai_label": "No",
+      "acquisition_status": "not_acquired",
+      "ue_5_8_4_linux_import_render_verified": false
+    },
+    {
+      "id": "rog_creatures_pack",
+      "category": "animal",
+      "publisher": "Atlant Games",
+      "source_url": "https://www.fab.com/listings/025e0331-3ce6-4ee7-948f-c572fd85b0a1",
+      "offer_observed": "purchase_option_price_not_verified",
+      "license_assessment": {
+        "name": "Fab acquisition terms pending",
+        "url": "https://www.fab.com/eula",
+        "status": "conditional_on_acquisition_terms"
+      },
+      "formats": [
+        "Unreal Engine"
+      ],
+      "content": {
+        "animals": [
+          "bear",
+          "boar",
+          "deer",
+          "mammoth",
+          "wolf"
+        ],
+        "polygonal_fur": true,
+        "fur_variants_and_lods": true
+      },
+      "priority": "paid_expansion",
+      "notes": [
+        "Listing AI label Yes is not a substitute for license acquisition. Inspect included animations and LODs; mammoth is distinct from living wildlife classes."
+      ],
+      "fab_allows_usage_with_ai_label": "Yes",
+      "acquisition_status": "not_acquired",
+      "ue_5_8_4_linux_import_render_verified": false
+    },
+    {
+      "id": "quaternius_ultimate_animated_animals",
+      "category": "animal",
+      "publisher": "Quaternius",
+      "source_url": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "Pack page CC0; current site QAL v1.0 differs",
+        "url": "https://quaternius.com/license.html",
+        "status": "download_specific_license_evidence_needed"
+      },
+      "formats": [
+        "FBX",
+        "OBJ",
+        "glTF",
+        "Blend"
+      ],
+      "content": {
+        "animal_models": 12,
+        "animations_per_model_minimum": 12,
+        "style": "low_poly"
+      },
+      "priority": "conditional_prototype",
+      "notes": [
+        "Record exact archive license and source; do not assert all current Quaternius content is CC0."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/quaternius_ultimate_animated_animals/native_validation.json"
+    },
+    {
+      "id": "quaternius_farm_animals",
+      "category": "animal",
+      "publisher": "Quaternius",
+      "source_url": "https://quaternius.itch.io/lowpoly-animated-animals",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "Creator itch page CC0; current publisher site QAL differs",
+        "url": "https://quaternius.itch.io/lowpoly-animated-animals",
+        "status": "download_specific_license_evidence_needed"
+      },
+      "formats": [
+        "FBX",
+        "OBJ",
+        "Blend"
+      ],
+      "content": {
+        "animal_models": 6,
+        "advertised_motions": [
+          "Death",
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ],
+        "style": "low_poly"
+      },
+      "priority": "conditional_prototype",
+      "notes": [
+        "Advertised motion coverage is not archive verification. Preserve license bundled with exact download."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/quaternius_farm_animals/native_validation.json"
+    },
+    {
+      "id": "khronos_fox",
+      "category": "animal",
+      "publisher": "Khronos sample repository; PixelMannen, tomkranis, AsoboStudio, scurest",
+      "source_url": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Fox",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "CC0 model + CC-BY-4.0 rigging/animation and glTF conversion",
+        "url": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/Fox/metadata.json",
+        "status": "per_component_license_confirmed"
+      },
+      "formats": [
+        "glTF",
+        "GLB"
+      ],
+      "content": {
+        "models": 1,
+        "animations": [
+          "Survey",
+          "Walk",
+          "Run"
+        ]
+      },
+      "priority": "first_small_import",
+      "notes": [
+        "Credit animation/conversion contributors and include CC-BY license/change notices. Test Unreal Interchange or convert to FBX; cannot label entire animated package CC0."
+      ],
+      "fab_allows_usage_with_ai_label": null,
+      "acquisition_status": "representative_imported_and_rendered",
+      "ue_5_8_4_linux_import_render_verified": true,
+      "demo_validation": "outputs/source_demos/khronos_fox/native_validation.json"
+    },
+    {
+      "id": "meerkat_demo",
+      "category": "animal",
+      "publisher": "Epic Games / Weta Digital",
+      "source_url": "https://www.fab.com/listings/5ca1076f-c495-449a-b65a-1ae898ab9d37",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "UE-Only explicitly stated; exact acquisition terms pending",
+        "url": "https://www.fab.com/listings/5ca1076f-c495-449a-b65a-1ae898ab9d37",
+        "status": "conditional_on_acquisition_terms"
+      },
+      "formats": [
+        "Unreal Engine"
+      ],
+      "content": {
+        "type": "high_quality_animal_short_film_sample",
+        "hair_fur_feathers": true
+      },
+      "priority": "advanced_rendering",
+      "notes": [
+        "Not a small general-purpose animal pack; Groom/platform and scene dependencies need validation."
+      ],
+      "fab_allows_usage_with_ai_label": "No",
+      "acquisition_status": "not_acquired",
+      "ue_5_8_4_linux_import_render_verified": false
+    },
+    {
+      "id": "stack_o_bot",
+      "category": "robot",
+      "publisher": "Epic Games",
+      "source_url": "https://www.fab.com/listings/b4dfff49-0e7d-4c4b-a6c5-8a0315831c9c",
+      "offer_observed": "free",
+      "license_assessment": {
+        "name": "Epic/Fab acquisition terms pending",
+        "url": "https://www.fab.com/eula",
+        "status": "conditional_on_acquisition_terms"
+      },
+      "formats": [
+        "Unreal Engine"
+      ],
+      "content": {
+        "character": "BP_Bot",
+        "control_rig": true
+      },
+      "priority": "extra_class",
+      "notes": [
+        "Import required robot content rather than entire sample; add distinct semantic/instance ID."
+      ],
+      "fab_allows_usage_with_ai_label": "No",
+      "acquisition_status": "not_acquired",
+      "ue_5_8_4_linux_import_render_verified": false
+    }
+  ],
+  "latest_demo": {
+    "checked_on_kst": "2026-10-29",
+    "rendered_sources": 8,
+    "pending_sources": 7,
+    "manifest": "outputs/source_demos/manifest.json"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "model": "mllm4d_sft_8b",
+  "gpu": 5,
+  "pid": 376535,
+  "updated_at": "2026-10-21T09:59:27.487409+00:00"
+}

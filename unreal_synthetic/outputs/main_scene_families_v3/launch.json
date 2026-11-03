@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/tmp/superdyn_unreal_1002/ue_5_8_4/Engine/Binaries/Linux/UnrealEditor",
+    "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/SuperDynUnreal.uproject",
+    "-unattended",
+    "-nosplash",
+    "-nosound",
+    "-RenderOffscreen",
+    "-vulkan",
+    "-graphicsadapter=5",
+    "-corelimit=16",
+    "-ExecCmds=r.RDG.AsyncCompute 0,py '/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/Content/Python/run_scene_families.py'",
+    "-stdout",
+    "-FullStdOutLogOutput",
+    "-norhithread"
+  ],
+  "gpu": 5,
+  "entry_sha256": "13f1dca70238301b532f2d786db933fc7165fff7a58012874f996e1097cc8267"
+}

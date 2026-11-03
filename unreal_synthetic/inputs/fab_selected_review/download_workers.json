@@ -1,0 +1,13 @@
+{
+  "results": [
+    {
+      "worker": "other_selected",
+      "exit_code": 0
+    },
+    {
+      "worker": "city_buildings",
+      "exit_code": 0
+    }
+  ],
+  "running": []
+}

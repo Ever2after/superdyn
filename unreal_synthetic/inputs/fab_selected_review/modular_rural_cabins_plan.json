@@ -1,0 +1,2971 @@
+{
+  "candidate": "modular_rural_cabins",
+  "id": "6c5d4acc17eb47ae82596c5d68c026fd",
+  "title": "Modular Rural Cabins",
+  "engine": {
+    "artifactId": "ModularRf3f14927a7dcV2",
+    "matchType": "exact",
+    "requested": "UE_5.8",
+    "selected": "UE_5.8",
+    "available": [
+      "UE_4.22",
+      "UE_4.23",
+      "UE_4.24",
+      "UE_4.25",
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4",
+      "UE_5.5",
+      "UE_5.6",
+      "UE_5.7",
+      "UE_5.8"
+    ]
+  },
+  "file_count": 587,
+  "bytes": 1659214296,
+  "unique_chunk_bytes": 1649263402,
+  "chunk_count": 1583,
+  "artifact": "ModularRf3f14927a7dcV2",
+  "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+  "files": [
+    {
+      "filename": "Content/Modular_Rural_Cabin/Maps/Foliage_Showcase.umap",
+      "size": 118099,
+      "sha1": "a543b82a669064b7e03e6ddd1a22c9cb3714cdb9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Maps/Modular_Cabins_Showcase.umap",
+      "size": 424333,
+      "sha1": "7af6aedb220400debda08b4f41194cc4d7b43f55"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Maps/Modular_Showcase.umap",
+      "size": 125093,
+      "sha1": "afe717b702a0e4de6d52177deb2bffa6af08b352"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Maps/Props_Showcase.umap",
+      "size": 176270,
+      "sha1": "34e2462cd1411fcc6711aaaa98e093aa2db29606"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Maps/Rural_Cabins.umap",
+      "size": 6421372,
+      "sha1": "cbf4561a723311a9845b34a008a149b5099ed9e8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Decals/Dirt_Track_1.uasset",
+      "size": 115036,
+      "sha1": "5a52f42a635fd509db69e70eca859e4567c79315"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Decals/Dirt_Track_2.uasset",
+      "size": 114063,
+      "sha1": "3a28aeb25fe40b53f066b2c271d36a56314a6eb3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Decals/Dirt_Track_Gradient.uasset",
+      "size": 113459,
+      "sha1": "b1b1f6301d9578a6de9e5d591424401817c36087"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Decals/Forest_Ground.uasset",
+      "size": 137508,
+      "sha1": "570b20d1254d1b3351d7361618a42e0f7c2f5b4b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Decals/Leaking_1.uasset",
+      "size": 134180,
+      "sha1": "a864169961ef1315d456fced0a920da4d3cff910"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Decals/Leaking_2.uasset",
+      "size": 143431,
+      "sha1": "10332085011e9735a70d0f93d973d1dcbe38f9ec"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Decals/Scattered_Leaves.uasset",
+      "size": 152831,
+      "sha1": "2f6d40ad9bb5b29d4085bca59bbff9e2134945b4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Air_Conditioning_Unit.uasset",
+      "size": 143471,
+      "sha1": "b3c0f7d481781118f2f721900d5bf0b57e26c98e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Axes.uasset",
+      "size": 137436,
+      "sha1": "19db734fee26d75b69d4c153d18743ef4c6b9e02"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Barbecue.uasset",
+      "size": 144002,
+      "sha1": "ca4e6006d06b652c4add137aa4a3fcda71014434"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Bark_Pine.uasset",
+      "size": 141880,
+      "sha1": "510a2ce38c03f6f7eb0b0aad607caafdbe937c30"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Birch_Bark.uasset",
+      "size": 142057,
+      "sha1": "893fd0b4ac1139b0d4f29141baea4ab93f008499"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Birch_Branches.uasset",
+      "size": 173255,
+      "sha1": "112c2c103dfa65edf1e69316847dab8e626b1659"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Bush_1.uasset",
+      "size": 164807,
+      "sha1": "9ccb06d465db2ae3ebb1c616877d8e3fb86731e1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Caravan.uasset",
+      "size": 164037,
+      "sha1": "d26dec5609a49559e49db0f0b423632158f696af"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Caravan_2.uasset",
+      "size": 161060,
+      "sha1": "4faec7ab2c2d0ded0186bc4463c630c0e1b0d0e2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Caravan_Addons.uasset",
+      "size": 141971,
+      "sha1": "f79a74e44bba260a7a3832d2c4ffd2b42760ef44"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Caravan_Windows.uasset",
+      "size": 129141,
+      "sha1": "d2b583b444d80bd635037569af112c9c2ace4730"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Cardboard_Boxes.uasset",
+      "size": 138854,
+      "sha1": "4d5ac6c6f7db442e424e6d16b69e6572732655db"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Cardboard_Boxes_Open.uasset",
+      "size": 140246,
+      "sha1": "5b1cd6922464804bfe459844304d66756f96c792"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Cat_Tail.uasset",
+      "size": 147886,
+      "sha1": "f1d6b732be107f31daac663c499eb64cb1bbd39b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Diorama_Ground.uasset",
+      "size": 140957,
+      "sha1": "21fe03b69ededafe33659be7437bc972764cf692"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Door_01.uasset",
+      "size": 143869,
+      "sha1": "9534fd7c5bd0de21e4548c0aa54853deec64ff28"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Fence_Old.uasset",
+      "size": 141714,
+      "sha1": "ce3220031335da681a94803baf7a80be347e84fa"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Flag.uasset",
+      "size": 145502,
+      "sha1": "c19aced61a24cffed5aa7f7f5599b02bfe5421b4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Glass_Window.uasset",
+      "size": 127128,
+      "sha1": "8dd6eb0fb64693d296bfb52dbda48956a7c09ec3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Grass_Patch_1.uasset",
+      "size": 12938,
+      "sha1": "f93ee1aeab621192943a1edcb84faf4ac64ae34e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Grass_Patch_2.uasset",
+      "size": 167693,
+      "sha1": "de11d385a9ac2f1b631ff98ea471f78b4607ff1f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Ivy.uasset",
+      "size": 154078,
+      "sha1": "ea343fe5426753d3411332422bd632d266c428ea"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Mailbox.uasset",
+      "size": 135765,
+      "sha1": "6f6a648e4cef73ebbaa2a8322cd569aa9726ee11"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Barrel_1.uasset",
+      "size": 139284,
+      "sha1": "d0fe60a607388dcb52677e00165eec42df014af5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Barrel_2.uasset",
+      "size": 139488,
+      "sha1": "b96de4a2a6d524cfb2146fbd3a26c355e18f84a5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Barrel_3.uasset",
+      "size": 139234,
+      "sha1": "c56c3f3e9a59a4b4cad3a18340577c0f9589eba7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Bucket.uasset",
+      "size": 140282,
+      "sha1": "defe76a5e6a933e480608908183b381cc96b0a2e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Chimney.uasset",
+      "size": 142432,
+      "sha1": "090b3bac5bf5c2ae701d5ed45f5924528f06f320"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Generic.uasset",
+      "size": 136887,
+      "sha1": "7470e3ba54a62cec5c436e4c46ec3b6c871b5ac5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Overhang.uasset",
+      "size": 142658,
+      "sha1": "f2e23976e452cdedd43ad166e3b6cd0319361411"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Roof.uasset",
+      "size": 136136,
+      "sha1": "de0d99d1edd777e12a914cc67d6bf0b10a79ab6f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Metal_Roof_blend.uasset",
+      "size": 138743,
+      "sha1": "426b355985d832767f3f5237b852c55ab56388b7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Bark.uasset",
+      "size": 16216,
+      "sha1": "ce81daf7916aea077d9d1c144e7b1e35369523ba"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/MI_Pine_Tree_Branches.uasset",
+      "size": 19367,
+      "sha1": "6cb305543cbf72a4709565f21d384a1a42376ec3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Office_Chair.uasset",
+      "size": 135284,
+      "sha1": "08697ac5f38762a0d53cd572c86f3c034f6a4e8b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Old_Planks.uasset",
+      "size": 139939,
+      "sha1": "8753e44621a4507e447143e2be31ad03ce1fd1f0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Old_Sofa.uasset",
+      "size": 145652,
+      "sha1": "290bafb202d3cb844f16fe70fc70efcbc04ebc9f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Outhouse.uasset",
+      "size": 134691,
+      "sha1": "e752601acb1ae82efdafdf276e8437c0e79232d5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Outhouse_Wood.uasset",
+      "size": 137453,
+      "sha1": "285be45dcb91523e134402f7193d48eb012bccd8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Pallet.uasset",
+      "size": 143535,
+      "sha1": "e84da420a02dc1b8e26369c19b938917e0a9ce19"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Picnic_Table.uasset",
+      "size": 138165,
+      "sha1": "55c7a47af2751e09defd1400ee38588312c734cd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Pier.uasset",
+      "size": 166332,
+      "sha1": "d36aef1603869d61aef3fab8972027757dc53f8d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Pine_Branches.uasset",
+      "size": 17221,
+      "sha1": "497bbb6ca00935be707462c96b3b79608d61c24b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Plastic_Chair.uasset",
+      "size": 137603,
+      "sha1": "84f37d729c7c135a3821562b9874d249ead578a3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Plastic_Trash_Bin.uasset",
+      "size": 142741,
+      "sha1": "679e8105b1d1a86d4cc3f70b29acb86d1ec9fef8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Plastic_Trash_Bin_2.uasset",
+      "size": 138436,
+      "sha1": "76109293de934a86b3968b348ac19ffa66d72b9c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Power_Pole.uasset",
+      "size": 139043,
+      "sha1": "e2fb8a70c013a4a6a926415095f268c51d9c4b78"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Power_Pole_Addons.uasset",
+      "size": 139001,
+      "sha1": "aa6dd8e6cf81302cc3311dab6e13a9445dfbf55c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Power_Pole_Light.uasset",
+      "size": 133881,
+      "sha1": "268ff70b6216f096ddfc522d07b4b82c8fc4e38c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Pumpkin_Sign.uasset",
+      "size": 145134,
+      "sha1": "9bf0811afb9537ecb21be7711cc9d7c0dcb3c77d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Pumpkins.uasset",
+      "size": 143352,
+      "sha1": "bb424372c43e442710dcc3475e2daec7a8dd0766"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Refrigerator_Old.uasset",
+      "size": 137155,
+      "sha1": "e8e0a9ba093522cb263f1886f6ff0d2b97faa5f0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/River_Stones.uasset",
+      "size": 142953,
+      "sha1": "47b5071955d373cbff03ef2875425aceae677bdf"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Road_Sign.uasset",
+      "size": 147402,
+      "sha1": "34f4a67eedd1ea289513b65c5bf1ddb9fef6bdd0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Rock_1.uasset",
+      "size": 173275,
+      "sha1": "de4d7a50adf9f6cc50ae0c349b88148e213e9a9f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Rocking_Chair.uasset",
+      "size": 135351,
+      "sha1": "b70c6aadc7e5666ab917835c47ae3db330637335"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Rust_Generic.uasset",
+      "size": 137529,
+      "sha1": "5678d362686d2ebfcd4d007e59dfadab41b78683"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Rust_Roof.uasset",
+      "size": 135845,
+      "sha1": "23f08296e99c13d3093f01bf2dfac4ba52e05baa"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Sand.uasset",
+      "size": 135546,
+      "sha1": "a4838c9c1e159f90866435f6e9e477ebc939db0e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Satellite_Dish.uasset",
+      "size": 139355,
+      "sha1": "eb463da234ae9d0ba57aa0e77d17faf67004b9ad"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Shopping_Cart.uasset",
+      "size": 139103,
+      "sha1": "1cdaaf7914b065924594fc1e3713cb09ede62acf"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Showcase_Floor.uasset",
+      "size": 10865,
+      "sha1": "a388bb1bec749df913e3cc8f71488b3daf2c16fa"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Shrubs.uasset",
+      "size": 11641,
+      "sha1": "2ec1ed2b3aa0e1f6ff8f99678ea107a89a37e2fb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Side_Shed_Wood.uasset",
+      "size": 13974,
+      "sha1": "a8798e6d246c5ae9e5e5c33bba0f3547bf82c763"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Stone_Chimney.uasset",
+      "size": 139844,
+      "sha1": "f51e86cc5fe78375887933a6f3a4331f5b50c508"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Table_Props.uasset",
+      "size": 138606,
+      "sha1": "636cc8b05e88d0800d7dd6c2d59e422cde77e1ab"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Tire.uasset",
+      "size": 130541,
+      "sha1": "32016bde147fe3b24c08b87fbdcbedddf481246c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Tree_Stump.uasset",
+      "size": 153739,
+      "sha1": "0ab11c57365ad5a919e94907bfc0d9d4f027a0cd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Utility_Boxes_1.uasset",
+      "size": 138585,
+      "sha1": "1e6614e90e20d5467775c978d9ffc728ef12afd7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Utility_Boxes_2.uasset",
+      "size": 136458,
+      "sha1": "a73bf5e5ce5b93c9d72eaaffca876db53ab1c1a4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Water_Lake.uasset",
+      "size": 129077,
+      "sha1": "8022725ef365cabc99997419dca1c9753f6e0beb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wheel_Barrow.uasset",
+      "size": 138281,
+      "sha1": "09976e483d2baea0ca75f0c37a48be762c9d4956"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Window_Frame.uasset",
+      "size": 144714,
+      "sha1": "a706c3680e13b3c44061fc18700397a645041ded"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Floor_01.uasset",
+      "size": 140076,
+      "sha1": "af3331d62b7877e7f0744c795af1b14c796b2fc9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Generic.uasset",
+      "size": 143105,
+      "sha1": "bb147257426a357f812f8013e1fe90e92d3d33af"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Generic_Painted.uasset",
+      "size": 141834,
+      "sha1": "62212f61041c9a87bfca3a4c1e20b1380ac770b8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Old.uasset",
+      "size": 161151,
+      "sha1": "5c1ddfac622ddb7da7d4223be06940af1ae5cfac"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_01.uasset",
+      "size": 145146,
+      "sha1": "360a8dfd9a26d270897a9436eadc49bef4c2d680"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Floor.uasset",
+      "size": 143487,
+      "sha1": "45ca40c0c27bd5223f7be46ceec50560ac1fead9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted.uasset",
+      "size": 143754,
+      "sha1": "cc16487ec30fca79ffa0f8eb9a514005780fcf57"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_2.uasset",
+      "size": 143632,
+      "sha1": "2b7d8da71e5bd0a81122a92d50f77dd5ecfd7b0c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Blue.uasset",
+      "size": 147008,
+      "sha1": "e8f59ddd5017a0ecbdebbf59a34fa6858fd857f7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Green.uasset",
+      "size": 146094,
+      "sha1": "36c7b153e6b0d54bb7d896694a7c08f03e258b83"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Red.uasset",
+      "size": 147042,
+      "sha1": "12aaebcb3f44b3ab4b2b155e36e2eb76cae574ae"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wood_Planks_Painted_Yellow.uasset",
+      "size": 141911,
+      "sha1": "9bedbafcd741e54b43e427f857da53e9196e422c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wooden_Boat.uasset",
+      "size": 147290,
+      "sha1": "9e6cc169d4e3bcc915ff58d2b3238cc683a7fedd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wooden_Crate.uasset",
+      "size": 132989,
+      "sha1": "eef13e24a0b7c214d92bb9451990e3335cd49b1b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wooden_Crates.uasset",
+      "size": 138332,
+      "sha1": "e5c2a5d425a8d2ee9d76571febdc32c0c8f1e6c8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wooden_Logs.uasset",
+      "size": 145312,
+      "sha1": "559ddfff6b8d1b4dd97ff8baa6163c274bd3be4e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wooden_Planks.uasset",
+      "size": 137218,
+      "sha1": "de37f86beff9081a0010d080262d238e668cc550"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wooden_Stairs.uasset",
+      "size": 143943,
+      "sha1": "653a8f006f8464145c7b421683f5bc7d29c7e391"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Instances/Wooden_Table_Small.uasset",
+      "size": 142590,
+      "sha1": "7a89bdc9726772d3e077cb9354ebd4ac76821845"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/Landscape_1.uasset",
+      "size": 740,
+      "sha1": "dacad2280b9fcc204d99dbaa2928492e164ab0ae"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Basic.uasset",
+      "size": 28145,
+      "sha1": "e8b903bbbbdcb4df84b275edeef814989805639e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Basic_Overlay.uasset",
+      "size": 43334,
+      "sha1": "8bea8a3af287805613d02b9347888ed80493f1f4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Decal.uasset",
+      "size": 102854,
+      "sha1": "841dd79e6d340b9298f08a924b086d21e4b79736"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_DMAR_Overlay.uasset",
+      "size": 185235,
+      "sha1": "370b6e1c1b0e647c7df2d2c2c61808f7aea2f7ac"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Foliage.uasset",
+      "size": 29231,
+      "sha1": "557935a5078087085f59691e115993798ec460b9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Glass.uasset",
+      "size": 99842,
+      "sha1": "7e61c444bb12a7e178c95c1ec26b7f9ccfc8c79d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Tree_Branches.uasset",
+      "size": 46074,
+      "sha1": "c82044875ae8196bc105ed171995c6a1a4c5309f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Tree_Trunk.uasset",
+      "size": 36533,
+      "sha1": "3fc64bad1d2ddd071eb0dfe34d845cd9ae723988"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Vertex_Color_Blend.uasset",
+      "size": 127958,
+      "sha1": "bab1bf52a6a922f3cd91a68b7fa7a03986e23b02"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Materials/Masters/MM_Water.uasset",
+      "size": 161406,
+      "sha1": "c46ecc453ff53288e7b0765ba4d5b0be3b5bf545"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Bush_1.uasset",
+      "size": 22318,
+      "sha1": "44edf4d0e787bfa487bb81446e190ce5a0415a82"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Bush_Tree.uasset",
+      "size": 86277,
+      "sha1": "332d2383a958b3c45bfe3966b80f15548c7a4f09"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Cat_Tail.uasset",
+      "size": 140418,
+      "sha1": "7676e3235e810a73d2c827e5385e857e608422e7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Cat_Tail_2.uasset",
+      "size": 43636,
+      "sha1": "6a6a6ba3f4f2fb5562a58d7aea0b5932ae233e54"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Flower_Patch_1.uasset",
+      "size": 27777,
+      "sha1": "26eed503eb76f352b18086f201d828b1f8605d6c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Grass_Patch_1.uasset",
+      "size": 46962,
+      "sha1": "79c6bae43ee8c40d19bc882b3a4df315862ec2bb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Grass_Patch_2.uasset",
+      "size": 24265,
+      "sha1": "1e531ed9b3886d3725fb2fc48d6f255cdc6d83cb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Grass_Patch_Long.uasset",
+      "size": 41505,
+      "sha1": "c537254b5cc23faae96605062419bee773bd4875"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Ivy_1.uasset",
+      "size": 47396,
+      "sha1": "be68d119b90459058c7f106d5033ee1699ad5984"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Ivy_2.uasset",
+      "size": 73345,
+      "sha1": "804d217b9e92e6ba8311b15746c50fa8fb915ce9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Ivy_3.uasset",
+      "size": 62263,
+      "sha1": "1281c7304df234ffe1a3f02f8eb3b9b23971d3f9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Ivy_4.uasset",
+      "size": 52159,
+      "sha1": "db51abec00501da132bd46858046eaaeb99c8805"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Ivy_5.uasset",
+      "size": 67053,
+      "sha1": "41787a11c57fb8aefd020b2e4010c82bdefc97f7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Ivy_6.uasset",
+      "size": 51905,
+      "sha1": "e8c88f71daa7cca18e5dbd72e0f10d04d2dc9e41"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Ivy_Roots_1.uasset",
+      "size": 21391,
+      "sha1": "d9d5710505dfa624ffc4b71e43f62210d3abeb09"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Pine_Tree.uasset",
+      "size": 579487,
+      "sha1": "71025e954ad7086cda580b9cdfdbee7d9c6bd503"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Shrubs_1.uasset",
+      "size": 123775,
+      "sha1": "ef3d5b6dbcf0dfd0bbac65e16f0255a1f65a5e53"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/Shrubs_1_Single.uasset",
+      "size": 137055,
+      "sha1": "c21a73a1c0608a3a18eb72aa203089e8b42c018e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_01.uasset",
+      "size": 2186434,
+      "sha1": "33daae1f4736ca5099432a77fbeab05a28f19fc0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_02.uasset",
+      "size": 1322338,
+      "sha1": "d6d47dfc3585c3a7e366cf6234971480be869679"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_03.uasset",
+      "size": 1034315,
+      "sha1": "608296c5a9dae15f80dcca2b98a0ac7a8ba57229"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_04.uasset",
+      "size": 846848,
+      "sha1": "8bebaa0ab4a0f24bd6fa4db39846db65cc6fd1c8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Foliage/SM_Pine_Tree_05.uasset",
+      "size": 701393,
+      "sha1": "b562f4ac93e158769b8cfd0883f06c992c9f09e3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Bottom_Extender_4m.uasset",
+      "size": 27434,
+      "sha1": "995ffa08eebd96cfa4936dc5ed1602e88e9533b8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Porch_4x4m.uasset",
+      "size": 28368,
+      "sha1": "d0347f765ddf062a1eab1ab2ab0d823283615028"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Porch_Roof_4x4m.uasset",
+      "size": 128973,
+      "sha1": "d69c04567e807171ebb8040ce1be7512253a786a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Porch_Roof_8x4m.uasset",
+      "size": 27717,
+      "sha1": "abf50e1aff81479f850056d1dba064d2b4891412"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_4m.uasset",
+      "size": 120646,
+      "sha1": "ce26784b4c7be5d8a9075bf5868508646257201d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_Both_Ends_4m.uasset",
+      "size": 121234,
+      "sha1": "fb1970257e43584696e2f0aa53a7370d0093417c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_2_Gap_Right_4m.uasset",
+      "size": 116739,
+      "sha1": "d56a0fc15d8b6c040963d60ef88bca4211e6d513"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Gap_Left_4m.uasset",
+      "size": 121436,
+      "sha1": "d4331a5bd78e54365567be4c5fe41404d520c676"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Gap_Right_4m.uasset",
+      "size": 29899,
+      "sha1": "daf70c54bc4d43eea11d67ace045c76303b14ce9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Left_4m.uasset",
+      "size": 29834,
+      "sha1": "5796456934c63728ef6ae473e54a8fea59b593df"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_End_Right_4m.uasset",
+      "size": 29733,
+      "sha1": "730c28cf890f4337be68fd8621e6c4fb8f2018cb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_Gap_4m.uasset",
+      "size": 122277,
+      "sha1": "7ba8142cc8d7a6025226b3cb35fa8c70468bdc62"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Roof_Gap_Filler_4m.uasset",
+      "size": 28457,
+      "sha1": "b02745c06a74f91e628a37b47ff2d2ba9807d52b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_4m.uasset",
+      "size": 138034,
+      "sha1": "2c99080f7cb70f61132ac26696338e7b2d517903"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_8m.uasset",
+      "size": 133230,
+      "sha1": "c0cce87633a116d957f771202800bff9a1b9e385"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_4m.uasset",
+      "size": 31284,
+      "sha1": "e6284651e2195030e74598979c9042bf8c400306"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_Window_A_4m.uasset",
+      "size": 129328,
+      "sha1": "8235812812e8c1b102ee8160305dfaa3d9936c97"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_Window_B_4m.uasset",
+      "size": 128741,
+      "sha1": "44193ebce27b6b066b8ecd891424fa2d4086a186"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Door_Windows_8m.uasset",
+      "size": 38673,
+      "sha1": "6dc4819fb8c4e4d8d331b314467c14f8e9046a6f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Pillar.uasset",
+      "size": 27472,
+      "sha1": "4e5a6e42728491cff66614c05068f695456c5a7b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_4m.uasset",
+      "size": 29707,
+      "sha1": "6b28863756bdbd48e9fcdadfe795b16d4d7e7b89"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Door_4m.uasset",
+      "size": 122060,
+      "sha1": "4bc889c51da57c7d4f27d2da854c1cf423e3db46"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Door_Window_A_4m.uasset",
+      "size": 127226,
+      "sha1": "1ac8ad96d3106f1dfd22e9b05cc4589a6d04ddeb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Door_Window_B_4m.uasset",
+      "size": 126818,
+      "sha1": "808cda4ab613ae1181a9223e1c975e0d3e85c81b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Window_2_4m.uasset",
+      "size": 146559,
+      "sha1": "70fb52bb2987a22bb5a7b9346678857bb3b406f3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Top_Window_4m.uasset",
+      "size": 142094,
+      "sha1": "c0ede19eccbe1fc631c2d43bbf805123d305379d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Window_2_4m.uasset",
+      "size": 38210,
+      "sha1": "d350c7693b59eef3c896cb9b244396a2ad912b11"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Blueprints/Wall_Window_4m.uasset",
+      "size": 34518,
+      "sha1": "885d8204a78bfaf44664bd132d0438586788f3a9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Bottom_Extender_4m.uasset",
+      "size": 22998,
+      "sha1": "6e09a358b91e1a7a5df6b365a43d05e770392770"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Door_01.uasset",
+      "size": 74608,
+      "sha1": "a704586fc33902cfaff4542b1c8a0f769f9ce258"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Porch_4x4m.uasset",
+      "size": 69925,
+      "sha1": "02418cb33420065f47f9cff1835c8989355ad886"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Porch_Roof_4x4m.uasset",
+      "size": 149868,
+      "sha1": "3779e913fc1e887bc7f972424daf0de7c87932c9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Porch_Roof_8x4m.uasset",
+      "size": 225759,
+      "sha1": "a0175025c755ce042669f721cd33d326a8ec4cd5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_4m.uasset",
+      "size": 159078,
+      "sha1": "a1b5bbb0363c2b3507e2969beea9e8863d690ba7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_Both_Ends_4m.uasset",
+      "size": 213485,
+      "sha1": "9207022e6513fe3ce4fb0018561289f246a412de"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_End_2_Gap_Right_4m.uasset",
+      "size": 97845,
+      "sha1": "b5f125e3920f82f33224110bd2006a46ab4714d9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Gap_Left_4m.uasset",
+      "size": 118191,
+      "sha1": "a8dbf4f6e01aee628f9d7f253e07589103faa0f0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Gap_Right_4m.uasset",
+      "size": 122906,
+      "sha1": "ca5e046d69de4e6e99a9e0076192aef84fb44614"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Left_4m.uasset",
+      "size": 186744,
+      "sha1": "26c8a0313142777490e60c82a015c552f704f924"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_End_Right_4m.uasset",
+      "size": 189448,
+      "sha1": "d136b562858bd80372c35f8561f9ee2b674b48bc"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_Gap_4m.uasset",
+      "size": 104642,
+      "sha1": "3b59f6243b90fa63cf3e38bebae7325176406c4b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Roof_Gap_Filler_4m.uasset",
+      "size": 41047,
+      "sha1": "1e91951ba5d9f40777865be4ad69fb5facaafe12"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_4m.uasset",
+      "size": 43886,
+      "sha1": "4f93e5e4f1dfcf02373c81e012a6b2e5a03881b8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_8m.uasset",
+      "size": 62184,
+      "sha1": "9d474ebf59154579d22d42f4aaed08d242b4b5c4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_4m.uasset",
+      "size": 59047,
+      "sha1": "af0d5c76fa74b489608a842a265c15c3c1be8335"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_A_4m.uasset",
+      "size": 184291,
+      "sha1": "e49298ef2c7641edd47082131a21cf78d81d323d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Window_B_4m.uasset",
+      "size": 184182,
+      "sha1": "f0fb42b98604fa07d87a1398a7608d7657898cc9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Door_Windows_8m.uasset",
+      "size": 240138,
+      "sha1": "c66e0723d655757b7275657cb82dfc8432430107"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Pillar.uasset",
+      "size": 20949,
+      "sha1": "db904953d9a82af21411cecc3da3f8d6e23e3597"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_4m.uasset",
+      "size": 49039,
+      "sha1": "d1cccd58cbedd491544396e75e6de366b6341368"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Door_4m.uasset",
+      "size": 69969,
+      "sha1": "7460b326bffe7d9205704cf138052e3e5db250b0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Door_Window_A_4m.uasset",
+      "size": 194228,
+      "sha1": "019342919dde00f2270d0860698347726e3537a7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Door_Window_B_4m.uasset",
+      "size": 193691,
+      "sha1": "7b15eae0ed213fc6f776378925549a7e2d5168d0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Window_2_4m.uasset",
+      "size": 209309,
+      "sha1": "b28b746d36651e0b9c1743fe1ab89240640b081e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Top_Window_4m.uasset",
+      "size": 185801,
+      "sha1": "c5a2cc948f44dd8546e7a7823f6ad61015dbee29"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Window_2_4m.uasset",
+      "size": 199340,
+      "sha1": "f3ace291bc9a1dcc010a6dd267df630d1878c49e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Wall_Window_4m.uasset",
+      "size": 175507,
+      "sha1": "b4ee06edf5c4c365e3b4ad1d2dec31fd44f7ddc8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Window_Frame_Blinder_Left.uasset",
+      "size": 35795,
+      "sha1": "932b8374ec50a6b290dce6e5d408418b6667285d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Window_Frame_Blinder_Right.uasset",
+      "size": 35828,
+      "sha1": "c59b50b3e0deffab3cfbcc124818c81fb199adc4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Modular/Window_Frame_Part.uasset",
+      "size": 118970,
+      "sha1": "09c27385004a6d30eb99b94dca5f02af59264eef"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Air_Conditioning_Unit.uasset",
+      "size": 235121,
+      "sha1": "a081974f0e092a6273790212fb2a59f7f66211de"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Antenna.uasset",
+      "size": 146986,
+      "sha1": "02dc90a40a3718a8884f518b628cafbf6ee0bba4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Axe_1.uasset",
+      "size": 134965,
+      "sha1": "b632d9cf652a6948dda9fd304def4584b3a52b37"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Axe_2.uasset",
+      "size": 133147,
+      "sha1": "76b33e4923405e3da91b2149fa51cf70dde14732"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Barbecue.uasset",
+      "size": 305317,
+      "sha1": "e6cd894d8836a858816ee7fd5c6c1f84f9466c6d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Blueprints/Mailbox.uasset",
+      "size": 111800,
+      "sha1": "d48624008ac3af4627ff1ac889cdd542db090792"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Blueprints/Outhouse.uasset",
+      "size": 131557,
+      "sha1": "78472c7256d5ed102cdc5e685fc1cbc7250fa21f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Blueprints/Plastic_Trash_Bin.uasset",
+      "size": 118201,
+      "sha1": "6d5814440ab0ec9dd8b095400e3bae8892580190"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Blueprints/Plastic_Trash_Bin_2.uasset",
+      "size": 111748,
+      "sha1": "5a5c64e8a797ba8f56764ae7e6f4258f155fdbed"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Bowl.uasset",
+      "size": 104981,
+      "sha1": "5f053d9b83b9dc931a9e3e58c5749a50f27d68a3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Caravan.uasset",
+      "size": 768364,
+      "sha1": "fa937aedcf291ae551071cb7ba52bb3d49fe363c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_1.uasset",
+      "size": 121211,
+      "sha1": "2f773298f5631fab0a5367771cf3cf5dfa1b7c2b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_2.uasset",
+      "size": 121807,
+      "sha1": "f77972efacfd69012084c3435a11b00325bd17d0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_3.uasset",
+      "size": 120229,
+      "sha1": "dd66b059594c9c0cf93ebcb2c9262601ab391cc4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_4.uasset",
+      "size": 119099,
+      "sha1": "f30bbc87fec239a3dbf60d8623e214507a4a0ef5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_5.uasset",
+      "size": 122891,
+      "sha1": "c902819a1391c879bb5fee03e5215559933871c3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_Open_1.uasset",
+      "size": 132486,
+      "sha1": "9c4d0e329a95cabeb3b6f90ddd017a67d4dd2a06"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_Open_2.uasset",
+      "size": 137485,
+      "sha1": "9c4ca19d7168605247703ac64f4dd90ac95a846a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cardboard_Box_Open_3.uasset",
+      "size": 137033,
+      "sha1": "12d2ee49c3bff88b64d51c770d5da8b58f88db5a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Cutting_Board.uasset",
+      "size": 96584,
+      "sha1": "5f97214602bdad17b92bb891dd37b57885b128f4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Fence_Old_1_2m.uasset",
+      "size": 159832,
+      "sha1": "b45fe15cc8054c636b3a9329faf2192cfe4df964"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Fence_Old_2_2m.uasset",
+      "size": 160652,
+      "sha1": "ff22a008e46081c5fcc0dc178f9939532a78e9bb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Fence_Old_3_2m.uasset",
+      "size": 151094,
+      "sha1": "5ea43464cbf287543d1c2df96a045a3cf6f9be71"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Fence_Old_Pole.uasset",
+      "size": 117701,
+      "sha1": "fb47d7f4765493654d0311ab7f6b47a7eac368b5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Flag.uasset",
+      "size": 111984,
+      "sha1": "582686a44874acd2c7c0dc7e3b3d3ae279e362d1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Fork.uasset",
+      "size": 89093,
+      "sha1": "d1a5790c2d68859871851af70009759af0b947d4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Knive.uasset",
+      "size": 89068,
+      "sha1": "47613d259e58e607252a1c5cd649697c00e1a28b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_1.uasset",
+      "size": 141807,
+      "sha1": "26029d7e0163911292890e2cff3df6eb2eb33cec"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_2.uasset",
+      "size": 128051,
+      "sha1": "5fa075735d0dee0ffcb7027821ca3264de4f59f9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_3.uasset",
+      "size": 174378,
+      "sha1": "3823c43e541f25d88ef281433db4b5b25762a80d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_4.uasset",
+      "size": 111507,
+      "sha1": "4886781de010255c60d3563b3c40cff42ccea05b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_5.uasset",
+      "size": 112726,
+      "sha1": "bd7b6ef81c114c20909af13410553ae58f89ddab"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_6.uasset",
+      "size": 119185,
+      "sha1": "54b22fa40e4cb4f9349128f5b569097b933c0ef6"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_Pile_1.uasset",
+      "size": 2893923,
+      "sha1": "3cbd0df5d0bd32e6ea120b1b6e1170c7bf24ffd1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_Pile_2.uasset",
+      "size": 1533005,
+      "sha1": "15a04af4fdb915ccaa4477aca21451e8d1b750c8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Log_Pile_3.uasset",
+      "size": 992294,
+      "sha1": "0abfbacf88d5904c385ec954864f8d3212aae4f3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Mailbox_Lid.uasset",
+      "size": 111524,
+      "sha1": "32c9ec57111214e8b5cd38c737fba1947c9e36e4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Mailbox_Pole.uasset",
+      "size": 134697,
+      "sha1": "63ca35c5e2df147e7cc6c4385d6f212d2fa185f8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Metal_Barrel.uasset",
+      "size": 318316,
+      "sha1": "b4439c22ea4cd288f246f79609eb6597b74fb51e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Metal_Bucket.uasset",
+      "size": 200790,
+      "sha1": "7cdf834f0e897dec50f53650c4a2b11093ebd49b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Metal_Chimney_1.uasset",
+      "size": 157529,
+      "sha1": "e134f3744f599f7f3988e130a3f96adacffae64a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Metal_Chimney_2.uasset",
+      "size": 180643,
+      "sha1": "11db46864000a2f200573f25134d960cf9604cb0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Metal_Overhang.uasset",
+      "size": 345883,
+      "sha1": "39e2d3d882d1791d57abe44a1fefa30c5fc79046"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Metal_Sheet_1.uasset",
+      "size": 131563,
+      "sha1": "5be3fe7c4a95c7aeb1d6e651958fc8e5eb27c1ad"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Metal_Sheet_2.uasset",
+      "size": 131083,
+      "sha1": "ebb34349a2915db5f8bd718977573c3262c5df0f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Mug.uasset",
+      "size": 95839,
+      "sha1": "e7d8fc7ad4d9c05d9ce92e59d4517b97c8fddcd3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Office_Chair.uasset",
+      "size": 393959,
+      "sha1": "412a9a140f474333bf896ac00ee91fcc8570fe22"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_1.uasset",
+      "size": 102549,
+      "sha1": "7023c5644044c4a0c2bf9f00910aeb4e2b60553b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_2.uasset",
+      "size": 101674,
+      "sha1": "b7fc1680e74074f4a9fd7e9f00a29f9b745c4a1e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_3.uasset",
+      "size": 102475,
+      "sha1": "3fcb638904f71be24200d4ffc03afdbefe8aa5b8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_4.uasset",
+      "size": 101946,
+      "sha1": "febfcdc9d8288e89c3d4156fb42319a18562075a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plank_5.uasset",
+      "size": 99985,
+      "sha1": "136bd4767fbdceb720518b23ff2c70396c19b158"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plywood_1.uasset",
+      "size": 105244,
+      "sha1": "4965686d7d9134b0764eb5f9bb4e2a9d1467c316"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Planks_Plywood_2.uasset",
+      "size": 103237,
+      "sha1": "fab811e6bdbce6df6e06e39b521791af4f4f8697"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Old_Sofa.uasset",
+      "size": 407294,
+      "sha1": "d8cdd8d83f9afa448d549cbf6f0a8a6389a4da92"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Outhouse_Door.uasset",
+      "size": 158338,
+      "sha1": "3bd4c2aa6467b08158d94c700c8a11cecbd2f68f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Outhouse_House.uasset",
+      "size": 376012,
+      "sha1": "22bb06c9cc40cb0e773c633bef7b275e9a61f595"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Outhouse_Lid.uasset",
+      "size": 104239,
+      "sha1": "6bfa2c36bbc3ab8a9f758a6d85a78d46a55df2d8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Pallet.uasset",
+      "size": 136740,
+      "sha1": "62d4511e87aaa032eb91ab3112f2fa41f9f971ba"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Pallet_Broken.uasset",
+      "size": 140355,
+      "sha1": "362b7172ac8fb763eb642a2fe91bfcd68fe59fab"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Picnic_Table.uasset",
+      "size": 161195,
+      "sha1": "74fe7b4a72684fee9442618d145c9fcec41dd2f2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Pier.uasset",
+      "size": 260136,
+      "sha1": "6d09ede461fa72ca847cb8331396548cf3d50d49"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Plastic_Chair.uasset",
+      "size": 284232,
+      "sha1": "5c190402fbbbccecd2ea187a7485d5bf7c72f130"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Plastic_Trash_Bin_Bin.uasset",
+      "size": 302323,
+      "sha1": "252c2c6073e7f281b693071f39cfc7cbab008b3f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Plastic_Trash_Bin_Lid.uasset",
+      "size": 157961,
+      "sha1": "0b787765f72120824a97d4c9ac0f0752d9c96e04"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Plate_1.uasset",
+      "size": 101037,
+      "sha1": "b9b6b294e09cb8671f3126d8bc7469192e83ca13"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Plate_2.uasset",
+      "size": 100045,
+      "sha1": "3c6fd1dbfebf235012360587e500d19ba7cb452b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Porch_Planks_1.uasset",
+      "size": 150938,
+      "sha1": "7c35e7274d569a91cbcba68b923e99e01bf9fcb4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Porch_Planks_2.uasset",
+      "size": 144319,
+      "sha1": "6c0d4e7959a673ce3c834d14c76506bd237025f4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Porch_Planks_3.uasset",
+      "size": 138041,
+      "sha1": "31f4863487daa98aae2e434fe701a0a05dffd83b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Power_Pole_1.uasset",
+      "size": 170774,
+      "sha1": "60648cfae065a0a88fb95d11db56513e2cc6d8b2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Power_Pole_Addons.uasset",
+      "size": 209977,
+      "sha1": "826e9387adde3325965d916296ab61a48edb64ed"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Power_Pole_Light.uasset",
+      "size": 132134,
+      "sha1": "893be794b014ff96690baab232bc7912529428e0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Pumpkin_1.uasset",
+      "size": 140935,
+      "sha1": "42419e037b05c3a6d1f56d0af191378bea467765"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Pumpkin_2.uasset",
+      "size": 142719,
+      "sha1": "111aedf28fbb776bbce0c0e3871506067210b017"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Pumpkin_Sign.uasset",
+      "size": 159343,
+      "sha1": "66037690f0e3204cd8a9acf9b1fc4a685c58d414"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Refrigerator_Old.uasset",
+      "size": 277244,
+      "sha1": "23eb966870ec5e0a4449a6e51f254cba167116df"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/River_Stone_1.uasset",
+      "size": 105288,
+      "sha1": "5702bc3ccd0b379528dffa537366cda3ca51dbfd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/River_Stone_2.uasset",
+      "size": 105165,
+      "sha1": "ee73bec16bc5c22cd145a6536669f34cd45f9633"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/River_Stone_3.uasset",
+      "size": 104441,
+      "sha1": "10147f43a09546548f9b5b774d5bbb9c5abb0f8d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/River_Stone_4.uasset",
+      "size": 107871,
+      "sha1": "166d11afbf6cbe5f5743a23b17d561a51a488b19"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/River_Stone_Set_1.uasset",
+      "size": 118346,
+      "sha1": "db8dccdf5206d986df35dd9f9e0257bfc14e7355"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Road_Sign.uasset",
+      "size": 123124,
+      "sha1": "e5f75ec2fb1dc5ca4a526a6eb4f9d4c08e315e75"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Rock_1.uasset",
+      "size": 260611,
+      "sha1": "50554dce0601a1012aa73b0157e37c9f652f8750"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Rocking_Chair.uasset",
+      "size": 334597,
+      "sha1": "bd059b67d07299ee72039c94940c652090974572"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Satellite_Dish.uasset",
+      "size": 139264,
+      "sha1": "aaf356092c0f4fb86918d676ac51681523d79241"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Shopping_Cart.uasset",
+      "size": 335483,
+      "sha1": "abdfcd89704afbf3e1898e9e527a765d48b74720"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Side_Shed.uasset",
+      "size": 351235,
+      "sha1": "69652af39d8370d17be7cde8a3c72a4eef7b5522"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Spoon.uasset",
+      "size": 89750,
+      "sha1": "6b7d807f50b22865a0b1fb478ffe44c2bc179b21"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Stone_Chimney.uasset",
+      "size": 373775,
+      "sha1": "90e6187a3dde400f1483be49ace2b2c460ef3401"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Tire.uasset",
+      "size": 191279,
+      "sha1": "5276b737f98c33c58f63cf22596765bb2a88d203"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Tray.uasset",
+      "size": 109639,
+      "sha1": "27d876f8128fed9508e8c86cbeab00e627c1452d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Tree_Stump_1.uasset",
+      "size": 210814,
+      "sha1": "2960fc304f7553ae641d68b3978f3c4f179a01fb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Utility_Box_1a.uasset",
+      "size": 152295,
+      "sha1": "013665d75636237e90664bc4c49918e9e0a88a68"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Utility_Box_1b.uasset",
+      "size": 131779,
+      "sha1": "f6c8275761b25a58677c5bed1c0fefb0ee3bbcf8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Utility_Box_2a.uasset",
+      "size": 136041,
+      "sha1": "7abd8a4733d53b50357c64acb56ddfb0b8f11c25"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Utility_Box_2b.uasset",
+      "size": 132584,
+      "sha1": "bba6e863de9843a9e0f9e9faea9a295a1be2a494"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Wheel_Barrow.uasset",
+      "size": 332040,
+      "sha1": "669b6a9a12a99582b112f878917704b8cd4fea53"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Wooden_Boat.uasset",
+      "size": 342774,
+      "sha1": "2a3bf77ff015b280901e089858bf1d5de9d63c38"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Wooden_Crate.uasset",
+      "size": 298966,
+      "sha1": "5b5befc6610ae5a96d165f0db7e1a604b53a3ff8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Wooden_Crate_1.uasset",
+      "size": 134544,
+      "sha1": "9ee151fb8474397ac2e8a1cfa34004e0f640d2e4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Wooden_Crate_2.uasset",
+      "size": 118901,
+      "sha1": "9ce3a0f8e1c4d8fb0fde526967d782ef7a475d44"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Wooden_Stairs.uasset",
+      "size": 175782,
+      "sha1": "69566c9ebdef3937f04a51b96af7a36ccb140bfe"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Props/Wooden_Table_Small.uasset",
+      "size": 151267,
+      "sha1": "e98656851493a9efc09ead29b2fb618f8b357177"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Unique/Diorama_Ground.uasset",
+      "size": 1037434,
+      "sha1": "9429655bf5b469bc26604775f1b79de82f9bcc93"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Unique/Diorama_Water.uasset",
+      "size": 110939,
+      "sha1": "64200361d7e5e450ce37eaf0ff49111d852847a4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Unique/Pole_Cables.uasset",
+      "size": 376590,
+      "sha1": "969386b9a03c278fa41a167276c908fb6932f7fc"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Unique/ShowcaseFloor.uasset",
+      "size": 129866,
+      "sha1": "092668b358a65675e5f13832cb82c7ab3d1afa7b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Meshes/Utility/Reference_man.uasset",
+      "size": 1169834,
+      "sha1": "efe57a321e270e683ce5055a72b7440ed04a9a1a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_1_DET.uasset",
+      "size": 439178,
+      "sha1": "ae83d6fc82be10fb97fe8340989bd65c1dd5962a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_1_normal.uasset",
+      "size": 1637260,
+      "sha1": "403c64a9012475511ae00bce0519d749918aec79"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_1_Opacity.uasset",
+      "size": 342005,
+      "sha1": "6b186ad1fca0916b07e51ae536cd201060bf7b24"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_2_DET.uasset",
+      "size": 340052,
+      "sha1": "f557f28a2c1ceca563e118cbd24d3b7c39375a17"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_2_normal.uasset",
+      "size": 1485043,
+      "sha1": "6eb6eabd1d00bf4e7f061b1c16185fd046579e5b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_2_Opacity.uasset",
+      "size": 156973,
+      "sha1": "ebcf5a6bf65f3b3a18aee3670a11f5078cdf08e8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Dirt_Track_Gradient_Opacity.uasset",
+      "size": 176116,
+      "sha1": "4a5902c88a2598c7cd5ef1df6a9c1d09a9fcc7c1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Forest_Ground_basecolor.uasset",
+      "size": 10975268,
+      "sha1": "3d40f090b14764edef3ce5c7a25a17aba58d4711"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Forest_Ground_DET.uasset",
+      "size": 8055637,
+      "sha1": "703aa56d40ee930948761310ba1f8c577fd79674"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Forest_Ground_normal.uasset",
+      "size": 12186663,
+      "sha1": "ed403bced276dcc9b7bb1f69bb92052b2879a388"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Leaking_1_Alpha.uasset",
+      "size": 3329552,
+      "sha1": "67cf31b3a5c0f28689dd411bd47a38320c9b7a98"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Leaking_2_Alpha.uasset",
+      "size": 3428848,
+      "sha1": "cb0de1b013a2bc0609ccafe42b050a2684b98d53"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Scattered_Leaves_BaseColor.uasset",
+      "size": 2909778,
+      "sha1": "a0ae21cb36bbe9da3527a6e1c356c723652fbbc4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Scattered_Leaves_DET.uasset",
+      "size": 1682812,
+      "sha1": "8c86e9c944179ce6ff19c59da0ddbcf9a7e02f22"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Decals/Scattered_Leaves_Normal.uasset",
+      "size": 3224702,
+      "sha1": "9ad0d5604ecbed849e0ddf481a5a5bcfadf7ed9e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Bark_Pine_BaseColor.uasset",
+      "size": 8305136,
+      "sha1": "e982f5cb7eb45bcf520efe8c3df4c8e4746af2f7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Bark_Pine_DET.uasset",
+      "size": 4521391,
+      "sha1": "c93456d7ab628103ed4ff43267ac0ed029c2f7e1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Bark_Pine_Normal.uasset",
+      "size": 10660950,
+      "sha1": "32fe64ecadeaacb9c265b7f94c0678b077992473"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Birch_Bark_BaseColor.uasset",
+      "size": 8608972,
+      "sha1": "698268ba31f15775a6c557bbc7dcfc8cc8600b3d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Birch_Bark_DET.uasset",
+      "size": 4575345,
+      "sha1": "ba1f4cb849143c2ddfaceeb2417ee3861c039348"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Birch_Bark_Normal.uasset",
+      "size": 10777858,
+      "sha1": "102c5b77530960c707626d278b84c35cb4aa8fda"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Corrugated_Sheet_BaseColor.uasset",
+      "size": 7923669,
+      "sha1": "68cc1f0f0f94496dbe6a186f8937c7990bddc8fd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Corrugated_Sheet_DET.uasset",
+      "size": 797327,
+      "sha1": "abbcfc01ffbf48d98ce2e953fa67b2951ed60ba0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Corrugated_Sheet_Normal.uasset",
+      "size": 4518232,
+      "sha1": "b26d2ddbec6b950a38d34de1e8f31fd1b166d015"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Dirt_Basecolor.uasset",
+      "size": 6516912,
+      "sha1": "55bd6cb2b8e6221c668bd5da5c920eac14e7e20b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Dirt_DET.uasset",
+      "size": 6678151,
+      "sha1": "594f083994cc027cc94111ea54195a4f6cc414e1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Dirt_Normal.uasset",
+      "size": 12184018,
+      "sha1": "f7f6d8683ec833f257f18e6ec4f41d9380f2cd91"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Fabric_Detail_Normal.uasset",
+      "size": 13578152,
+      "sha1": "95a7d6fda9897dc605efe25222b82f1ddc07d69e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Grass_Basecolor.uasset",
+      "size": 11400966,
+      "sha1": "6e2aaab543edbfac086708221f14eea03fc96ace"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Grass_DET.uasset",
+      "size": 7540954,
+      "sha1": "9ba583bf85195bf52f659f949eeca091cc5f381f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Grass_Height.uasset",
+      "size": 3039000,
+      "sha1": "a06d8a8dde0df46ee1765529c5b7863fcdba6db6"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Grass_Normal.uasset",
+      "size": 12541327,
+      "sha1": "de78cbab9de6243f47325a0476a266af09a26c80"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_Basecolor.uasset",
+      "size": 8850715,
+      "sha1": "e38a81e0117f11c024ae715c117f6e9c0b99fadb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_DET.uasset",
+      "size": 7601107,
+      "sha1": "3701a3fa47850fa9560e3f168a2523d53c1994a4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_Height.uasset",
+      "size": 2507822,
+      "sha1": "224e96159461c66ed673e6b4590b801ad4627889"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Ground_Dirt_Normal.uasset",
+      "size": 10675730,
+      "sha1": "9d9b33dcb3b04607a3d8f23590a1140d58b053a6"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Metal_Generic_BaseColor.uasset",
+      "size": 6777164,
+      "sha1": "362ad167e93ed2d62dc945784c68190d411a7ad2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Metal_Generic_DET.uasset",
+      "size": 4523874,
+      "sha1": "f374358360e1b2493b49e5a895f33cb82316ee5b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Metal_Generic_Normal.uasset",
+      "size": 6192696,
+      "sha1": "e38087e2bc81905f54f58416c90a56a5af90eb8b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Metal_Roof_BaseColor.uasset",
+      "size": 9473712,
+      "sha1": "ce78c19cea4d863017a52e1fc2a742b88af670bd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Moss_BaseColor.uasset",
+      "size": 10049175,
+      "sha1": "9ea73be09d70609e69fd24e9808abd4aba70b6da"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Moss_DET.uasset",
+      "size": 9639376,
+      "sha1": "27dada43c8e576ca07f6178033546f0ede96cba5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Moss_Normal.uasset",
+      "size": 14575266,
+      "sha1": "ee0f99ec3f40f1bb33a16ec5eaf7400abc8645b2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Mud_Basecolor.uasset",
+      "size": 9497085,
+      "sha1": "dd062b9102f0447285f48a60dbf9b715dc805827"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Mud_DET.uasset",
+      "size": 8372097,
+      "sha1": "4ddd37b6181c848d4f1be85154a7325645d11ef4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Mud_Height.uasset",
+      "size": 3322000,
+      "sha1": "8a48246719407b92be25ad50261ffb1545139cab"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Mud_Normal.uasset",
+      "size": 12041334,
+      "sha1": "b808fb1a38d1dcfc519a0e5824ec1123f804ba42"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rock_Detail_Normal.uasset",
+      "size": 12024404,
+      "sha1": "c6bb2cbe53ea69f94b4a8cdfd9f3cb575074b86d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_basecolor.uasset",
+      "size": 10609022,
+      "sha1": "c2a6e5e21ccc0991179ca99a34a77c6664b216da"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_DET.uasset",
+      "size": 8322036,
+      "sha1": "e0daa751358bc6efc51dd4ca233c949bf1988875"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_height.uasset",
+      "size": 3456170,
+      "sha1": "3dae9cbe5c601fde6101b046d796e4315bd239ef"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rocky_Ground_normal.uasset",
+      "size": 12278580,
+      "sha1": "2a156966505b6f3860b19f20a198d50d3a2b8465"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rust_Generic_BaseColor.uasset",
+      "size": 9497150,
+      "sha1": "8114047dd31001cba7965f99ccf5f759e19ad560"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rust_Generic_DET.uasset",
+      "size": 6753229,
+      "sha1": "985a977442d89501ae9f26b25018c4c6177f0023"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rust_Generic_Normal.uasset",
+      "size": 9750993,
+      "sha1": "f3c03165d658acaa53657a94473b99c5975cc426"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Rust_Roof_BaseColor.uasset",
+      "size": 9175648,
+      "sha1": "897616570abb6406cf3fd2302d01f995ee1fddd2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Sand_basecolor.uasset",
+      "size": 10937932,
+      "sha1": "c2949eb009b6cf3ac888bf1385721e733fe9f445"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Sand_DET.uasset",
+      "size": 6983373,
+      "sha1": "833776449fc7c3e834d6652115429f563d1c3843"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Sand_height.uasset",
+      "size": 1573843,
+      "sha1": "b5a47c8b755c99c4b297b07e1224c5d1a638077c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Sand_normal.uasset",
+      "size": 11311440,
+      "sha1": "760f94c85653515ec093453b4c04fc33f222893b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Stone_Wall_basecolor.uasset",
+      "size": 7876268,
+      "sha1": "753a48e75b8920e6bf62a75d0b12bd76b4f9e48c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Stone_Wall_DET.uasset",
+      "size": 6164910,
+      "sha1": "7cfd2f634fb07ef3e07a52aff6ab7a7388041ce1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Stone_Wall_normal.uasset",
+      "size": 9207070,
+      "sha1": "396aa3db19997ff4a6dff02871945a854f102377"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Water_2_basecolor.uasset",
+      "size": 5625,
+      "sha1": "7a3616b278c402fee9a4d3c5e4d969da6d8eec51"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Water_2_normal.uasset",
+      "size": 3776141,
+      "sha1": "6d85ab0f85f46011795ad7940a794a26be2dbdb5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Water_basecolor.uasset",
+      "size": 4359566,
+      "sha1": "78e5e620dcd058e381d3428e487097a567038ec3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Water_normal.uasset",
+      "size": 3560912,
+      "sha1": "ed1575c40c9969d02b5f1ef64c6132f4220bf88b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Detail_BaseColor.uasset",
+      "size": 6645167,
+      "sha1": "744b3b15239b87d2d2c43a9c982d4312cc37f319"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Detail_DET.uasset",
+      "size": 1824863,
+      "sha1": "6419491b2f0f7f167f1739295fc2959dc2d2f827"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Detail_Normal.uasset",
+      "size": 9980940,
+      "sha1": "3ca2a362fc059e76d7307145f335092ed4b045ee"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Floor_01_basecolor.uasset",
+      "size": 6677483,
+      "sha1": "754b6bfc394569216ecd1a8758fcf2c2287933b1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Floor_01_DET.uasset",
+      "size": 4883819,
+      "sha1": "b1aca0475f231cf9d34a43bdc23f55c1ce0f7662"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Floor_01_normal.uasset",
+      "size": 7268789,
+      "sha1": "e25a0ec7e6023e3068edaee829abb5d713f58d1e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Generic_BaseColor.uasset",
+      "size": 9445696,
+      "sha1": "adb6950cb5566da8ca6a87275d4440a0b925132e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Generic_DET.uasset",
+      "size": 4962116,
+      "sha1": "ecdff46920ac361c4e9df496db6b1c98f54d7401"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Generic_Normal.uasset",
+      "size": 8152777,
+      "sha1": "08f6f09825525eaf3c474867a2494615544d02f5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Old_BaseColor.uasset",
+      "size": 9363306,
+      "sha1": "4ccdf3894b4f31f7d88bc4d65c23e37527784daa"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Old_DET.uasset",
+      "size": 6990923,
+      "sha1": "2570384b1aa726b2608dec015824c2e6f7cae508"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Old_Normal.uasset",
+      "size": 12635587,
+      "sha1": "19c353d3a983e0aa670db46ce037918099aa7bf7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Paint_Overlay_Basecolor.uasset",
+      "size": 5985801,
+      "sha1": "d4542408202f949536de4c439fe47fd3dcd18a95"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Paint_Overlay_DET.uasset",
+      "size": 6030157,
+      "sha1": "ea5ee25e5e542a1b06b637332009c98d686e2eba"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Paint_Overlay_Normal.uasset",
+      "size": 5984667,
+      "sha1": "e9dc51893aa1a4dd201c02b3063f32cbace7e1de"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_01_BaseColor.uasset",
+      "size": 11307697,
+      "sha1": "9769c6618341bced6fd9de0a0e68c052044b27fd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_01_DET.uasset",
+      "size": 4720534,
+      "sha1": "6ffa8307a80fb612b9ef8d724a0fdca919f0ceac"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_01_Normal.uasset",
+      "size": 11327082,
+      "sha1": "7b996378c1ee9ecdc41c3f742c0eb9c4c84e9bdb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Floor_basecolor.uasset",
+      "size": 8693968,
+      "sha1": "90b53e994cf11cfa64ebfbf5fd535cb42f309304"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Floor_DET.uasset",
+      "size": 4608691,
+      "sha1": "2d1cb0d2b9eac3e00399daf88a59cdbdc00b1977"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Floor_normal.uasset",
+      "size": 11327100,
+      "sha1": "e73858ceb216abaa83429483ee254c7932c453e4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wood_Planks_Paint_Mask.uasset",
+      "size": 8124109,
+      "sha1": "495aa9f23c6660abac03f281198343a381f4aec8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wooden_Planks_basecolor.uasset",
+      "size": 10213456,
+      "sha1": "9ab40db30bdb43ca45f75b4b0803a47687887434"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wooden_Planks_DET.uasset",
+      "size": 5751211,
+      "sha1": "fb7cf540eb9c395c368696c853e0fdafffba834a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Tiling/Wooden_Planks_normal.uasset",
+      "size": 11512384,
+      "sha1": "f385c84f670ca294426955846454cd3249c9b8d2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Air_Conditioning_Unit_BaseColor.uasset",
+      "size": 1830125,
+      "sha1": "c0d36df24420e00218068237290ac56556d8774d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Air_Conditioning_Unit_DET.uasset",
+      "size": 1973229,
+      "sha1": "315128a47511a2321c6fd7a239c43a2cd4f477be"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Air_Conditioning_Unit_Normal.uasset",
+      "size": 846164,
+      "sha1": "7bc3bb484520a941c5431cb0e0857dcd68c25ef6"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Axes_BaseColor.uasset",
+      "size": 5289474,
+      "sha1": "6eee27c1f7feeae579a1582cf0b233a77563f292"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Axes_DET.uasset",
+      "size": 3668541,
+      "sha1": "e712b2dc7b89541b86f7a42e5a1d657483b6d9c8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Axes_Normal.uasset",
+      "size": 4433061,
+      "sha1": "e3677aa939d6e4b71efecd90874787fa5d9df21b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Barbecue_BaseColor.uasset",
+      "size": 6202934,
+      "sha1": "d6e640a6efe91fb00e3d0f5135ae79c3a0b44e75"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Barbecue_DET.uasset",
+      "size": 6023385,
+      "sha1": "458010e7813d9f484dea9db7d992666242753134"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Barbecue_Normal.uasset",
+      "size": 6954260,
+      "sha1": "c01040603a116ab524b7d83f641e5267a1e3008b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Birch_Branch_Basecolor.uasset",
+      "size": 22554144,
+      "sha1": "c55bd7ae77e19e31b681168bb5965b3686a17134"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Birch_Branches_DET.uasset",
+      "size": 19572229,
+      "sha1": "1ab0d449ecd1f02ee110199dc867cadf273c5d95"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Birch_Branches_normal.uasset",
+      "size": 19755233,
+      "sha1": "354c8bb8ec01575216ce646112a86a13bc0c6f30"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Bush_1_basecolor.uasset",
+      "size": 5895672,
+      "sha1": "142cea26109931bd26aadc40846ab17eece1b391"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Bush_1_DET.uasset",
+      "size": 3954228,
+      "sha1": "87257b584fe339f9b88236effb4ca589e5fe119c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Bush_1_normal.uasset",
+      "size": 6773243,
+      "sha1": "f5c0b783f0104c47913069adc4c0b1fb3153d3e0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Caravan_addons_BaseColor.uasset",
+      "size": 5578475,
+      "sha1": "6b968efa7fd6ba061192805607441cbee29b264b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Caravan_addons_DET.uasset",
+      "size": 5438920,
+      "sha1": "c963d19000ddf47ffbd8bcf80fa15755536ad3bd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Caravan_addons_Normal.uasset",
+      "size": 1655204,
+      "sha1": "4bf43a58b5400facf929d6c7f787dfa4e9fc169f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Caravan_DMAR.uasset",
+      "size": 7468473,
+      "sha1": "eb2e244e51b5c04777122c0d20bd90c4605bce2d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Caravan_Windows_BaseColor.uasset",
+      "size": 3685350,
+      "sha1": "4e7998827da6a41ee29cbc022acda643081ad5b0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Caravan_Windows_DET.uasset",
+      "size": 2997104,
+      "sha1": "fbff2902f5408881956381ad44ee656a844f02ac"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Caravan_Windows_Normal.uasset",
+      "size": 23328,
+      "sha1": "2765b4277d0e988b13772e377ee927faed556ad9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_BaseColor.uasset",
+      "size": 6989067,
+      "sha1": "cb471aa15519915e79afc977d49c4fb761104b5f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_DET.uasset",
+      "size": 4524683,
+      "sha1": "c8a8369578600438a4c700ddd577af1e03ceee75"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Normal.uasset",
+      "size": 5866963,
+      "sha1": "0d45791eb6a7aac1d512952fa51322efd77d561e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Open_BaseColor.uasset",
+      "size": 6670210,
+      "sha1": "d8bf48610184e1a2c0fcdc449760dd03be2c729e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Open_DET.uasset",
+      "size": 5160545,
+      "sha1": "5ad048b15f61e1e12aada5d9b28e7925c159216f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cardboard_Boxes_Open_Normal.uasset",
+      "size": 7421672,
+      "sha1": "fcced718e654303cb3d524d83d34ffa11c53252a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cat_Tail_Basecolor.uasset",
+      "size": 4472770,
+      "sha1": "d680e7bc02c17f17dae8aecf77c7aa63732547d7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cat_Tail_DET.uasset",
+      "size": 3328637,
+      "sha1": "25a6b077987eb2090760be95417b3544e9a342ab"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Cat_Tail_Normal.uasset",
+      "size": 7712279,
+      "sha1": "141b7139d90974a5e315b7a278fda06e73f40b04"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Door_01_BaseColor.uasset",
+      "size": 6123868,
+      "sha1": "f5ca5ad369ea9d6b26d79f527a72a8b2a71f1cce"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Door_01_DET.uasset",
+      "size": 4494227,
+      "sha1": "23aa12309d347713e8ea494a44757d22ed55c9d8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Door_01_Normal.uasset",
+      "size": 5618851,
+      "sha1": "41e233e82a7c58c917cd23d615da6fadda9ef0ec"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Fence_Old_DMAR.uasset",
+      "size": 5828458,
+      "sha1": "910c716741a127782a4e69d7a8394db8e3259096"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Flag_BaseColor.uasset",
+      "size": 1382378,
+      "sha1": "8351f36955327b8891a3d838a4cb3ec7241d304b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Flag_DET.uasset",
+      "size": 449106,
+      "sha1": "4adb0d38ed7eacbad597137fa6f8b7f9ba28672d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Flag_Normal.uasset",
+      "size": 739947,
+      "sha1": "a4719861cd00ed1d70061569ca0f590c2c63da69"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_1_basecolor.uasset",
+      "size": 5728666,
+      "sha1": "38cad72037baee67eb9e6de09a6f7b7b63b082b7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_1_DET.uasset",
+      "size": 3135303,
+      "sha1": "31533ffb8ed78c9b6c60f9d86351219167b99338"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_1_normal.uasset",
+      "size": 7898476,
+      "sha1": "0a9308111701d1b90ddd2dd7c4313d53056e0b44"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_2_BaseColor.uasset",
+      "size": 265529,
+      "sha1": "71307da7746d70ad55f31321280e82940a459970"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_2_DET.uasset",
+      "size": 495095,
+      "sha1": "1c6194998e7a0203bca9821888db384be8db2d59"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Grass_Patch_2_Normal.uasset",
+      "size": 1093394,
+      "sha1": "3a274f1e150f5a5aa43aef2de849dc60a8b3d03f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Ivy_basecolor.uasset",
+      "size": 2752892,
+      "sha1": "09e804e8f0e5ebd376ef016edcac39ce9387803f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Ivy_DET.uasset",
+      "size": 2891752,
+      "sha1": "5e0d7add6cb1e372a788b4785e930e2a9c23d228"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Ivy_normal.uasset",
+      "size": 6112524,
+      "sha1": "37542ecf05131c57c66ae2f728a3e034e95d58f9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Mailbox_BaseColor.uasset",
+      "size": 1832741,
+      "sha1": "2fb049eea23c7ed813ca1af3a1f4556fd328e11b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Mailbox_DET.uasset",
+      "size": 1385683,
+      "sha1": "f7ee9910bc87c8c78d71b2f16074784beb0107f3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Mailbox_Normal.uasset",
+      "size": 1825905,
+      "sha1": "e77acd85477e3456dba4125a91a9596f333684f7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_1_BaseColor.uasset",
+      "size": 9005645,
+      "sha1": "a278b64363d31e4a5a6223e2689dd40a2567f161"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_2_BaseColor.uasset",
+      "size": 9251154,
+      "sha1": "ff075f0d57631e1241a14e3247ad48ff778a661f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_3_BaseColor.uasset",
+      "size": 9104183,
+      "sha1": "4342f485bf342cdaef06902b0fec12741253b284"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_DET.uasset",
+      "size": 6977431,
+      "sha1": "86a70acc633ac0acb9b6b94533316e01050b2ec3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Barrel_Normal.uasset",
+      "size": 6608232,
+      "sha1": "21ccdd84a3dc8064ebddf981e8ccd3582aca4d0a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Bucket_BaseColor.uasset",
+      "size": 5681948,
+      "sha1": "fc0a14efce03d02c05713e346fe1185c99245d53"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Bucket_DET.uasset",
+      "size": 5425722,
+      "sha1": "da2ea018eaa56f0d9b469321ae217e76e073955f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Bucket_Normal.uasset",
+      "size": 295670,
+      "sha1": "2fe01f96b40dad8ab984c177b989745626c7798e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Chimney_BaseColor.uasset",
+      "size": 5283744,
+      "sha1": "3858e01e468cc9b4eb9f77086afdb2b162a26f1f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Chimney_DET.uasset",
+      "size": 6521731,
+      "sha1": "ebc7ab07c7cd092a85507b9b6393be99bafb5756"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Chimney_Normal.uasset",
+      "size": 4058838,
+      "sha1": "7dc97abd04b63224226be1b333917c83fc7a95be"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Overhang_Basecolor.uasset",
+      "size": 9666550,
+      "sha1": "ee3945b8517b723e1621b2b085ae67d40ac103ed"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Overhang_DET.uasset",
+      "size": 9461093,
+      "sha1": "20f06496594de8b24ca4290672523e24ce5cffa9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Metal_Overhang_Normal.uasset",
+      "size": 10481086,
+      "sha1": "e8258480a59e1f777f80bf2343b784e8af0ebd85"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Office_Chair_BaseColor.uasset",
+      "size": 7011817,
+      "sha1": "30b9f9d8459f80442e3ca9bf690bf7537b271c93"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Office_Chair_DET.uasset",
+      "size": 7013195,
+      "sha1": "5c6be823ae52c79a68dfe1d5970255ef31d12600"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Office_Chair_Normal.uasset",
+      "size": 9656250,
+      "sha1": "c8b2583ea667201ec826b507efa186c571463f26"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Old_Planks_Basecolor.uasset",
+      "size": 7719496,
+      "sha1": "3d65ba9e2469112bbab2647b1447085d9394a3c5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Old_Planks_DET.uasset",
+      "size": 4568795,
+      "sha1": "904fbd90a4742ed367b482f323b6b03fa8e34929"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Old_Planks_Normal.uasset",
+      "size": 9672929,
+      "sha1": "e8cd0e9d5284fff98d192e7ebbef6941cb839ee7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Old_Sofa_BaseColor.uasset",
+      "size": 8574404,
+      "sha1": "e99dedb9a6833613dfc674d1abfeb617871c3861"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Old_Sofa_DET.uasset",
+      "size": 4966370,
+      "sha1": "c4279385cea95d6e6b549ce67b859c0870b195eb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Old_Sofa_Normal.uasset",
+      "size": 11090308,
+      "sha1": "763deff595ec0378fc5e0b57b0a0feb06cf1516d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Outhouse_BaseColor.uasset",
+      "size": 959224,
+      "sha1": "bb51d7f99c83166a085756240d01d5bd91b7da6c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Outhouse_DET.uasset",
+      "size": 839604,
+      "sha1": "1c4835e396d12c6cea8ac21bc66b4cfda3058270"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Outhouse_DMAR.uasset",
+      "size": 6394538,
+      "sha1": "660e09b3c3c5170c0ce90fddbab162f701207b4f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Outhouse_Normal.uasset",
+      "size": 952211,
+      "sha1": "33b96057b935741ba4f09ee862836644db8d8c2e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pallet_BaseColor.uasset",
+      "size": 7733432,
+      "sha1": "ff6c68340c2a2de89f54df9a37fa2627a0353524"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pallet_DET.uasset",
+      "size": 3945604,
+      "sha1": "89e35b0de698d29edbb841c4e11b8f362ddf7769"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pallet_Normal.uasset",
+      "size": 8212774,
+      "sha1": "3e2d9f8b941b2ae48e6d7d9ae7aeca2eccbff49b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Picnic_Table_BaseColor.uasset",
+      "size": 6857346,
+      "sha1": "b38d1fdbf484c266d42ebcf1713f657a51ad4cdb"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Picnic_Table_DET.uasset",
+      "size": 3739880,
+      "sha1": "5d5c5e23a83bc4357590923943f3ddd83f7b7cb8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Picnic_Table_Normal.uasset",
+      "size": 5491984,
+      "sha1": "0b61cac908c42fe1f2379716ded6b51608227ce5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pier_DMAR.uasset",
+      "size": 6471307,
+      "sha1": "0b319066accf0bbf16269cb95f88e9d954a665a8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pine_Branches_Basecolor.uasset",
+      "size": 1667401,
+      "sha1": "8b38976c538008da86d67fbf3202a1b1e916dce7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pine_Branches_DET.uasset",
+      "size": 1686247,
+      "sha1": "ddf0b9279b42d133f92531073b8810a7f5f98d67"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pine_Branches_normal.uasset",
+      "size": 1669524,
+      "sha1": "b56f3d2cb0b84575210f0a22b1652a6fec1b3dc5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Plastic_Chair_BaseColor.uasset",
+      "size": 4604088,
+      "sha1": "826f46bcdadb80f42d8969d149acb24b391699c4"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Plastic_Chair_DET.uasset",
+      "size": 5049574,
+      "sha1": "79d7ae05eac16d26f5f6809233ce15125c150391"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Plastic_Chair_Normal.uasset",
+      "size": 5976170,
+      "sha1": "1f48b20d42ba684204965e446007b7e88caf659b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_2_BaseColor.uasset",
+      "size": 5578951,
+      "sha1": "5300ec503e179cc2d510a6f5d1a08314ccc1c09d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_BaseColor.uasset",
+      "size": 6003624,
+      "sha1": "8908705a603ca55ec8249616aec915f63c746d71"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_DET.uasset",
+      "size": 4740903,
+      "sha1": "86c4d2d8452653fd9dc0d1c8faf99eec0a05efdf"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Plastic_Trash_Bin_Normal.uasset",
+      "size": 5285154,
+      "sha1": "b94946599963e1f469fb9acc0b9681446e784c54"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_addons_BaseColor.uasset",
+      "size": 6575166,
+      "sha1": "450a3a4988a00781c69ac26531011b4a25fc9ed3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_addons_DET.uasset",
+      "size": 5194341,
+      "sha1": "640740b1458f846c16f1dbd048440004ffeb6577"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_addons_Normal.uasset",
+      "size": 5640462,
+      "sha1": "042d17282b46f3304ec09761e3f993292129b516"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_DMAR.uasset",
+      "size": 4932080,
+      "sha1": "3a22fecdff2677babc788f4cfe656fe20a713863"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_BaseColor.uasset",
+      "size": 1227281,
+      "sha1": "43a619273f9b546086c4fbffce1269a96eb587f6"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_DET.uasset",
+      "size": 1239807,
+      "sha1": "1926ccf4827ad1610eec8bb22561a4b8845d1776"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_Emissive.uasset",
+      "size": 16543,
+      "sha1": "3509db98a13eb2f82a63e9c07ac2762e8fc78a98"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Power_Pole_Light_Normal.uasset",
+      "size": 588915,
+      "sha1": "20a614d746a8bdc1b0085a85b4309155f5905159"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pumpkin_Sign_BaseColor.uasset",
+      "size": 1691830,
+      "sha1": "4d60a0216950e817ac3dc0f9ca7b3253adff9676"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pumpkin_Sign_DET.uasset",
+      "size": 976893,
+      "sha1": "4d23d5f4108bf850524755b3d5e110765226a9b1"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pumpkin_Sign_Normal.uasset",
+      "size": 2113329,
+      "sha1": "bf107f5e418d1f79536057f39124ec69fb7681aa"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pumpkins_BaseColor.uasset",
+      "size": 1874785,
+      "sha1": "9219e03009f33e0fb1b21107f2789d75d9e168cc"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pumpkins_DET.uasset",
+      "size": 1275695,
+      "sha1": "42c6b3f3df530424cc82af8d3381c350cc97788a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Pumpkins_Normal.uasset",
+      "size": 1055378,
+      "sha1": "3927c2491ca431e7fa92ad20a08e45ebce80c388"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Refrigerator_Old_BaseColor.uasset",
+      "size": 7278330,
+      "sha1": "296fbad7fa56e96d97312b200c36bd8aa827bb8d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Refrigerator_Old_DET.uasset",
+      "size": 6142597,
+      "sha1": "9ffa5414785f44281ef2363ab7e0b0ab09c6185b"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Refrigerator_Old_Normal.uasset",
+      "size": 6935911,
+      "sha1": "790ad1bfcc7d70425fb8de83ded1d02e71b1db6f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/River_Stones_BaseColor.uasset",
+      "size": 6740473,
+      "sha1": "b9e5ccd8fd5d4540f83ceedefa8fd9d5899c0003"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/River_Stones_DET.uasset",
+      "size": 5676728,
+      "sha1": "dd99e24ea701e4327db49dd3632cad5ec111ce46"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/River_Stones_Normal.uasset",
+      "size": 9892139,
+      "sha1": "92c295e45877c6913c0ae0ebf6760c7d0e715605"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Road_Sign_BaseColor.uasset",
+      "size": 6640582,
+      "sha1": "e56acff28f3ae8801d87ed25839e6c5135be8619"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Road_Sign_DET.uasset",
+      "size": 7859215,
+      "sha1": "192f759cd22d0fdb34a6abdcfd35afa0dc6536c6"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Road_Sign_Normal.uasset",
+      "size": 8766032,
+      "sha1": "8cfcdc8cdfdc33bd5a4cb75ce4c6c6f0d8ce7bbe"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Rock_1_BaseColor.uasset",
+      "size": 5269659,
+      "sha1": "d546fbe0f63eacdda20ce3fe10eb3b9ff370a115"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Rock_1_DET.uasset",
+      "size": 5093021,
+      "sha1": "a18db85775cf48d8d0817170dc7fdc16b82ab022"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Rock_1_Normal.uasset",
+      "size": 7447694,
+      "sha1": "1880a057ef5374c773c60def8191ef574b044e58"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Rocking_Chair_BaseColor.uasset",
+      "size": 5997856,
+      "sha1": "bd1bff8f2f1b49dcf3c2f9184926aaf3a996d9ce"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Rocking_Chair_DET.uasset",
+      "size": 3620204,
+      "sha1": "8293b168a150f634533db4b1cebd9127ac5509ce"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Rocking_Chair_Normal.uasset",
+      "size": 6428966,
+      "sha1": "aa4e99b2493c80b443942629912f0c58e281b22c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Satellite_Dish_BaseColor.uasset",
+      "size": 1955486,
+      "sha1": "21650e1a8a7f6fd0e2d932645f305b8dfdc64af9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Satellite_Dish_DET.uasset",
+      "size": 1806200,
+      "sha1": "90c140b589b0260839d68670ff7660048169b4bd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Satellite_Dish_Normal.uasset",
+      "size": 2244454,
+      "sha1": "53640062fbde7f012701d09b31b7f544574cc1a5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Shopping_Cart_basecolor.uasset",
+      "size": 1936503,
+      "sha1": "9314f8779a1ef9a41968d7b45c6eeab8ec522f42"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Shopping_Cart_DET.uasset",
+      "size": 2247893,
+      "sha1": "ecba8d0be88e0947f8d2bc81a5645dc405da18d2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Shopping_Cart_normal.uasset",
+      "size": 1650460,
+      "sha1": "23104fc98cdc15b120720b6409a4d29b81795fb3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Shrubs_Basecolor.uasset",
+      "size": 1522397,
+      "sha1": "1c1c19e6b02454b20fe69ce84364f11ffba7c29d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Shrubs_DET.uasset",
+      "size": 1180995,
+      "sha1": "9722fcb7a03272772f10889b51623c60e2d0dfe9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Shrubs_Normal.uasset",
+      "size": 1930156,
+      "sha1": "e5911010263d703d49b83897f2ebba8965392a08"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Side_Shed_DMAR.uasset",
+      "size": 7200230,
+      "sha1": "f5dda205914dbd47fecff9a2d1a4eea6f825dc4a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_BaseColor.uasset",
+      "size": 6377385,
+      "sha1": "423589f27f084514730c34eded34bf03b06bad04"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_DET.uasset",
+      "size": 5294775,
+      "sha1": "e02383361af663829b267857f9a6d9332c749e8c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_DMAR.uasset",
+      "size": 5107700,
+      "sha1": "fa20e67fd50ec224c1707d69206b582ccda53db2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Stone_Chimney_Normal.uasset",
+      "size": 7140764,
+      "sha1": "7f554fe7450f29b8ef1dc48f10a78c28d371055c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/T_TT_Pine_Tree_Bark_BaseColor.uasset",
+      "size": 8573661,
+      "sha1": "4460a3d0e46bdd9d04669118443ca95ac66b5ad2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/T_TT_Pine_Tree_Bark_DET.uasset",
+      "size": 3012877,
+      "sha1": "fbbae98abe0f3fb15405f115a5f7a278cc141b50"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/T_TT_Pine_Tree_Bark_Normal.uasset",
+      "size": 11652063,
+      "sha1": "12434a7d4e8bd352063677be2ef7ece2693774f5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/T_UT_Pine_Tree_Branches_Basecolor.uasset",
+      "size": 6198899,
+      "sha1": "2891d88baca7330a83d364ff76ef762b2da250cf"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/T_UT_Pine_Tree_Branches_DET.uasset",
+      "size": 2639250,
+      "sha1": "449e4883fbfac1c326239fde4cd85df112698c60"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/T_UT_Pine_Tree_Branches_Normal.uasset",
+      "size": 6020633,
+      "sha1": "cf695931999ccba1c53a7ba80fd034abb12855e9"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Table_Props_BaseColor.uasset",
+      "size": 1596411,
+      "sha1": "f947cea2b24ee5c71c08de4107e9636a9227c43d"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Table_Props_DET.uasset",
+      "size": 990755,
+      "sha1": "139aca2ace8aba405ba3ba5df1e560a86a236193"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Table_Props_Normal.uasset",
+      "size": 1809631,
+      "sha1": "4ab1fc6a65c0a8111361ec2eee9705b828ab88d0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Tire_BaseColor.uasset",
+      "size": 4716575,
+      "sha1": "405e960b11858187fa6692d68f3f492dc5995eda"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Tire_DET.uasset",
+      "size": 4137840,
+      "sha1": "0dea655fd90954a01e8723fef916e013e684cfa8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Tire_Normal.uasset",
+      "size": 6767822,
+      "sha1": "dd7657e0dead4c9bfd232facadb40dce7c787d02"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/tree_Stump_1_BaseColor.uasset",
+      "size": 4004158,
+      "sha1": "7630a922840859d3894c87afc55a40d01e997215"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Tree_Stump_1_DET.uasset",
+      "size": 3223353,
+      "sha1": "275a5fc841f0ab34c0ef6894814d3d71e92c8c90"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Tree_Stump_1_Normal.uasset",
+      "size": 4735902,
+      "sha1": "12360dd9e4b19451b8ec088b80f8125e40b8f751"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_1_BaseColor.uasset",
+      "size": 8071889,
+      "sha1": "b59f5583ea78c46cb4a94dbae8a14f69c603f11a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_1_DET.uasset",
+      "size": 7743964,
+      "sha1": "d21a809ecbca938d690f5fe616acadc856db50d0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_1_Normal.uasset",
+      "size": 4510718,
+      "sha1": "983595e69040b4b5fe47042b12279309453c63b6"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_2_BaseColor.uasset",
+      "size": 7800681,
+      "sha1": "ae27a8786df772d97a9c8b5bbcd5f1347ab3325e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_2_DET.uasset",
+      "size": 7406641,
+      "sha1": "86592359364e2fb02332283ee189b1fcde789e30"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/UtilityBoxes_2_Normal.uasset",
+      "size": 3907592,
+      "sha1": "697960b393e7d794557105af7eeccbcb1c84a3ff"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wheel_Barrow_BaseColor.uasset",
+      "size": 6455290,
+      "sha1": "a865be186ebdb32c3e4b358af6b584240b62aa1f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wheel_Barrow_DET.uasset",
+      "size": 6464483,
+      "sha1": "cb292d15383fcd808f344f67c3beb5fa2a72c59c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wheel_Barrow_Normal.uasset",
+      "size": 6131513,
+      "sha1": "6d3f83bc9542e688ae85b7bb3d9ca2e419ee2ec2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Window_Frame_BaseColor.uasset",
+      "size": 6398744,
+      "sha1": "07c3fba47a1603ab339872ac5077b202e8ef5ba3"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Window_Frame_DET.uasset",
+      "size": 4886767,
+      "sha1": "d42b0d7c89c0a3a252543cf042abc1c5cda78259"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Window_Frame_Normal.uasset",
+      "size": 5553833,
+      "sha1": "2b3bc73d437fd5d4582e2357113b0e5ceef721a8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Window_Glass_BaseColor.uasset",
+      "size": 4100804,
+      "sha1": "6f30fd973b9c0628cf8c629d160206819973c67c"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Window_Glass_DET.uasset",
+      "size": 2542127,
+      "sha1": "080b1810dfd6072068f092a0fdae22dcc72af850"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Window_Glass_Normal.uasset",
+      "size": 8453,
+      "sha1": "7b2a3ec06da4995aae93b71d14f33213f70a5fef"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Boat_DMAR.uasset",
+      "size": 6348363,
+      "sha1": "ebece7147bf0313c48514774710a31355a66ac8f"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Crate_BaseColor.uasset",
+      "size": 5734611,
+      "sha1": "c71fca16916d2a3b9faee3b43b65f46b5e3d3f4a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Crate_DET.uasset",
+      "size": 4057083,
+      "sha1": "2c9c2f43c47a92a469bd9054667c8213086d6b13"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Crate_Normal.uasset",
+      "size": 7126884,
+      "sha1": "f848e80446f08aa6dfdb5dc65bba15c934c7bffd"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Crates_BaseColor.uasset",
+      "size": 6532099,
+      "sha1": "0e674e19a4a6fef2c0ae5e57a2065d6031bce356"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Crates_DET.uasset",
+      "size": 5023590,
+      "sha1": "6af39e456d82a093e9dd9c3a40e85985c0eb8589"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Crates_Normal.uasset",
+      "size": 7253185,
+      "sha1": "65cc7377f7639272506b2d692318fff81f79ade0"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Logs_BaseColor.uasset",
+      "size": 8325652,
+      "sha1": "1c091049b9a1b333ac93e9852ec239d8def033c7"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Logs_DET.uasset",
+      "size": 4069897,
+      "sha1": "9760ef6cccde9b4155ce93694e90e258c9438d12"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Logs_Normal.uasset",
+      "size": 9994723,
+      "sha1": "e93b7e224e9b6c39018a3405221c086b750e6fc2"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Stairs_BaseColor.uasset",
+      "size": 6095535,
+      "sha1": "1d0f072e9fbfa8169ff795c6d4cc18a61cd6a7c5"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Stairs_DET.uasset",
+      "size": 3328596,
+      "sha1": "6acd176cb1ef1f896b3b40d7ded25bb20204c301"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Stairs_Normal.uasset",
+      "size": 6612491,
+      "sha1": "44d3e8dad058a093f4ccc07cd7055af93c79e78a"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Table_Small_BaseColor.uasset",
+      "size": 6510436,
+      "sha1": "cbd5a6b2a3d1333c1d5f0a9fb45f04c55b555921"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Table_Small_DET.uasset",
+      "size": 2913685,
+      "sha1": "dac0ed06786ba7009c2952f55e2b73e3d6687ed8"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Unique/Wooden_Table_Small_Normal.uasset",
+      "size": 6825617,
+      "sha1": "16e23c7ad2bc90e346f27061416ef6b5fe740c39"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Utility/Default_Basecolor.uasset",
+      "size": 5040,
+      "sha1": "c59912acae09d953b591b8870ccb605a22bc0968"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Utility/Default_DET.uasset",
+      "size": 5007,
+      "sha1": "b6983787db5ea0f99cdba7de019ca584d5e1acbc"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Utility/Default_Emissive.uasset",
+      "size": 5038,
+      "sha1": "7334303ba20c03101b15861912599383f48dee3e"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Utility/Default_Normal.uasset",
+      "size": 5313,
+      "sha1": "11cea1082873e0f07f2b9c2fa5921c3fa4699659"
+    },
+    {
+      "filename": "Content/Modular_Rural_Cabin/Textures/Utility/T_TT_Gradient_Mask.uasset",
+      "size": 22921,
+      "sha1": "519c9d2bb52be31ee29fe0a3693c8aa667c3d755"
+    }
+  ]
+}

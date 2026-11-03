@@ -1,0 +1,1601 @@
+{
+  "id": "modular_building_set",
+  "roots": [
+    "/Game/ModularBuildingSet"
+  ],
+  "class_counts": {
+    "World": 2,
+    "StaticMesh": 137,
+    "ObjectRedirector": 3,
+    "Material": 73,
+    "MaterialInstanceConstant": 34,
+    "Texture2D": 68
+  },
+  "assets": [
+    {
+      "path": "/Game/ModularBuildingSet/Demo_Scene",
+      "name": "Demo_Scene",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_1x1",
+      "name": "beam_metal_window_divider_1x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_4x1",
+      "name": "beam_metal_window_divider_4x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_5x1",
+      "name": "beam_metal_window_divider_5x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_corner",
+      "name": "beam_metal_window_divider_corner",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1_top",
+      "name": "beam_pillar_metal_1_top",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2",
+      "name": "beam_pillar_metal_1x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2_tiling",
+      "name": "beam_pillar_metal_1x2_tiling",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x4",
+      "name": "beam_pillar_metal_1x4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_corner_top",
+      "name": "beam_pillar_metal_corner_top",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_tiles_corner_bottom",
+      "name": "beam_pillar_tiles_corner_bottom",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_beam_a",
+      "name": "deco_building_electrical_beam_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_beam_b",
+      "name": "deco_building_electrical_beam_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_wire_a",
+      "name": "deco_building_electrical_wire_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_wire_b",
+      "name": "deco_building_electrical_wire_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_building_exhaust_vent",
+      "name": "deco_building_exhaust_vent",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_store_awning_intact_4x1",
+      "name": "deco_store_awning_intact_4x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_store_awning_torn_4x1",
+      "name": "deco_store_awning_torn_4x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_windows_airconditioning",
+      "name": "deco_windows_airconditioning",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_a",
+      "name": "deco_windows_panel_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_b",
+      "name": "deco_windows_panel_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_c",
+      "name": "deco_windows_panel_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_d",
+      "name": "deco_windows_panel_d",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_poster_lost_chicken",
+      "name": "decal_poster_lost_chicken",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_health_code",
+      "name": "decal_sign_store_health_code",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_hours",
+      "name": "decal_sign_store_hours",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_sorry_open",
+      "name": "decal_sign_store_sorry_open",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_alarm_warning",
+      "name": "decal_sticker_alarm_warning",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_address_a",
+      "name": "decal_sticker_store_address_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_address_b",
+      "name": "decal_sticker_store_address_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_pull",
+      "name": "decal_sticker_store_pull",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_push",
+      "name": "decal_sticker_store_push",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_1x1_a",
+      "name": "beam_roof_trim_1x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_4x1_a",
+      "name": "beam_roof_trim_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_4x1_a_interior",
+      "name": "beam_roof_trim_4x1_a_interior",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_1x1_a",
+      "name": "beam_roof_trim_corner_1x1_a",
+      "asset_class": "ObjectRedirector"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_1x1_a_interior",
+      "name": "beam_roof_trim_corner_1x1_a_interior",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_2x2_a",
+      "name": "beam_roof_trim_corner_2x2_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_2x2_b",
+      "name": "beam_roof_trim_corner_2x2_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_4x4_a",
+      "name": "beam_roof_trim_corner_4x4_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_4x4_a_interior",
+      "name": "beam_roof_trim_corner_4x4_a_interior",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_5x4_a",
+      "name": "beam_roof_trim_corner_5x4_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_5x4_a_interior",
+      "name": "beam_roof_trim_corner_5x4_a_interior",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_end_cap_a",
+      "name": "beam_roof_trim_end_cap_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_end_cap_b",
+      "name": "beam_roof_trim_end_cap_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Rubble_Piles/rubble_dirt_pebble_pile_a",
+      "name": "rubble_dirt_pebble_pile_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Rubble_Piles/rubble_trash_pile_a",
+      "name": "rubble_trash_pile_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_a",
+      "name": "sign_store_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_a1",
+      "name": "sign_store_a1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_b",
+      "name": "sign_store_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_b1",
+      "name": "sign_store_b1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_broken_d",
+      "name": "sign_store_broken_d",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_c",
+      "name": "sign_store_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_c1",
+      "name": "sign_store_c1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Signs/sign_store_intact_d",
+      "name": "sign_store_intact_d",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_a",
+      "name": "windows_building_upper_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_b",
+      "name": "windows_building_upper_4x1_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_c",
+      "name": "windows_building_upper_4x1_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_d",
+      "name": "windows_building_upper_4x1_d",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_5x1_a",
+      "name": "windows_building_upper_5x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_door_4x1_a",
+      "name": "store_front_door_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_door_4x1_b",
+      "name": "store_front_door_4x1_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_door_5x1_a",
+      "name": "store_front_door_5x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_shutters_3x1_a",
+      "name": "store_front_shutters_3x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_shutters_4x1_a",
+      "name": "store_front_shutters_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_a",
+      "name": "store_front_windows_broken_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_b",
+      "name": "store_front_windows_broken_4x1_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_c",
+      "name": "store_front_windows_broken_4x1_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_a",
+      "name": "store_front_windows_intact_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_b",
+      "name": "store_front_windows_intact_4x1_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_c",
+      "name": "store_front_windows_intact_4x1_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_a_left",
+      "name": "store_front_door_a_left",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_a_right",
+      "name": "store_front_door_a_right",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_b_left",
+      "name": "store_front_door_b_left",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_b_right",
+      "name": "store_front_door_b_right",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_4x1_a",
+      "name": "store_front_door_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_4x1_b",
+      "name": "store_front_door_4x1_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_5x1_a",
+      "name": "store_front_door_5x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_a",
+      "name": "store_front_windows_broken_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_b",
+      "name": "store_front_windows_broken_4x1_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_c",
+      "name": "store_front_windows_broken_4x1_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_a",
+      "name": "store_front_windows_intact_4x1_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_b",
+      "name": "store_front_windows_intact_4x1_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_c",
+      "name": "store_front_windows_intact_4x1_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_clmn_1x2",
+      "name": "upper_brick_clmn_1x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_clmn_dvdr_1x1",
+      "name": "upper_brick_clmn_dvdr_1x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_2x2",
+      "name": "upper_brick_wall_a_l_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_3x2",
+      "name": "upper_brick_wall_a_l_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_r_2x2",
+      "name": "upper_brick_wall_a_r_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_r_3x2",
+      "name": "upper_brick_wall_a_r_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_l_2x2",
+      "name": "upper_brick_wndw_a_l_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_l_3x2",
+      "name": "upper_brick_wndw_a_l_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_r_2x2",
+      "name": "upper_brick_wndw_a_r_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_r_3x2",
+      "name": "upper_brick_wndw_a_r_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_l_2x2",
+      "name": "upper_brick_wndw_b_l_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_l_3x2",
+      "name": "upper_brick_wndw_b_l_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_r_2x2",
+      "name": "upper_brick_wndw_b_r_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_r_3x2",
+      "name": "upper_brick_wndw_b_r_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_2x2",
+      "name": "upper_brick_wndw_c_l_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_3x2",
+      "name": "upper_brick_wndw_c_l_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_r_2x2",
+      "name": "upper_brick_wndw_c_r_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_r_3x2",
+      "name": "upper_brick_wndw_c_r_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_d_2x2",
+      "name": "upper_brick_wndw_d_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_d_3x2",
+      "name": "upper_brick_wndw_d_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_balcony",
+      "name": "deco_fire_escape_balcony",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder",
+      "name": "deco_fire_escape_ladder",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder_top",
+      "name": "deco_fire_escape_ladder_top",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_0x2",
+      "name": "deco_upper_blocks_0x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_cnr_0x2",
+      "name": "deco_upper_blocks_cnr_0x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_cnr_1x2",
+      "name": "deco_upper_blocks_cnr_1x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_a",
+      "name": "deco_upper_ornament_flower_a",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_b",
+      "name": "deco_upper_ornament_flower_b",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_c",
+      "name": "deco_upper_ornament_flower_c",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_l_2x2",
+      "name": "mid_brick_wndw_cnr_l_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_l_3x2",
+      "name": "mid_brick_wndw_cnr_l_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_r_2x2",
+      "name": "mid_brick_wndw_cnr_r_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_r_3x2",
+      "name": "mid_brick_wndw_cnr_r_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_l_2x2",
+      "name": "mid_brick_wndw_l_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_l_3x2",
+      "name": "mid_brick_wndw_l_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_r_2x2",
+      "name": "mid_brick_wndw_r_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_r_3x2",
+      "name": "mid_brick_wndw_r_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_1x1",
+      "name": "beam_upper_roof_trim_a_1x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_4x1",
+      "name": "beam_upper_roof_trim_a_4x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_2x2",
+      "name": "beam_upper_roof_trim_a_cnr_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_4x4",
+      "name": "beam_upper_roof_trim_a_cnr_4x4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_1x1",
+      "name": "beam_upper_roof_trim_b_1x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_4x1",
+      "name": "beam_upper_roof_trim_b_4x1",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_cnr_2x2",
+      "name": "beam_upper_roof_trim_b_cnr_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_cnr_4x4",
+      "name": "beam_upper_roof_trim_b_cnr_4x4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_end_l",
+      "name": "beam_upper_roof_trim_end_l",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_end_r",
+      "name": "beam_upper_roof_trim_end_r",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_ground_3x3",
+      "name": "plane_ground_3x3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_ground_4x4",
+      "name": "plane_ground_4x4",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_3x2",
+      "name": "plane_wall_3x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_3x3",
+      "name": "plane_wall_3x3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_left_2x2",
+      "name": "plane_wall_left_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_left_2x3",
+      "name": "plane_wall_left_2x3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_right_2x2",
+      "name": "plane_wall_right_2x2",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_right_2x3",
+      "name": "plane_wall_right_2x3",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/beam_window_supports_metal_ao",
+      "name": "beam_window_supports_metal_ao",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/beam_window_supports_metal_c",
+      "name": "beam_window_supports_metal_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/beam_window_supports_metal_clean_c",
+      "name": "beam_window_supports_metal_clean_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/beam_window_supports_metal_clean_g",
+      "name": "beam_window_supports_metal_clean_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/beam_window_supports_metal_clean_n",
+      "name": "beam_window_supports_metal_clean_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/beam_window_supports_metal_g",
+      "name": "beam_window_supports_metal_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/beam_window_supports_metal_n",
+      "name": "beam_window_supports_metal_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/brick_wall_tiling_c_beige",
+      "name": "brick_wall_tiling_c_beige",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/brick_wall_tiling_c_dark_red",
+      "name": "brick_wall_tiling_c_dark_red",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/brick_wall_tiling_c_grey",
+      "name": "brick_wall_tiling_c_grey",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/brick_wall_tiling_c_orange",
+      "name": "brick_wall_tiling_c_orange",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/brick_wall_tiling_c_red",
+      "name": "brick_wall_tiling_c_red",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/brick_wall_tiling_g",
+      "name": "brick_wall_tiling_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/brick_wall_tiling_n",
+      "name": "brick_wall_tiling_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/bricks_red_c",
+      "name": "bricks_red_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/bricks_red_concrete_trim_c",
+      "name": "bricks_red_concrete_trim_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/bricks_red_concrete_trim_g",
+      "name": "bricks_red_concrete_trim_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/bricks_red_concrete_trim_n",
+      "name": "bricks_red_concrete_trim_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/bricks_red_g",
+      "name": "bricks_red_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/bricks_red_n",
+      "name": "bricks_red_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/cloth_awning_intact_c",
+      "name": "cloth_awning_intact_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/cloth_awning_intact_g",
+      "name": "cloth_awning_intact_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/cloth_awning_intact_n",
+      "name": "cloth_awning_intact_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/cloth_awning_torn_c",
+      "name": "cloth_awning_torn_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/cloth_awning_torn_g",
+      "name": "cloth_awning_torn_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/cloth_awning_torn_n",
+      "name": "cloth_awning_torn_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/concrete_trim_c",
+      "name": "concrete_trim_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/concrete_trim_g",
+      "name": "concrete_trim_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/concrete_trim_n",
+      "name": "concrete_trim_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_bird_poop_c",
+      "name": "decal_bird_poop_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_concrete_muck_n",
+      "name": "decal_concrete_muck_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_grunge_muck_01",
+      "name": "decal_grunge_muck_01",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_grunge_muck_c",
+      "name": "decal_grunge_muck_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_grunge_rust_c",
+      "name": "decal_grunge_rust_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_grunge_rust_dripping_01",
+      "name": "decal_grunge_rust_dripping_01",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_grunge_scratches_01",
+      "name": "decal_grunge_scratches_01",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/decal_rust_dripping_1_c",
+      "name": "decal_rust_dripping_1_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/glass_shards_c",
+      "name": "glass_shards_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/glass_shards_n",
+      "name": "glass_shards_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/glass_window_broken_c",
+      "name": "glass_window_broken_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/glass_window_broken_g",
+      "name": "glass_window_broken_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/glass_window_broken_n",
+      "name": "glass_window_broken_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/ground_gravel_dirt_c",
+      "name": "ground_gravel_dirt_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/ground_gravel_dirt_g",
+      "name": "ground_gravel_dirt_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/ground_gravel_dirt_n",
+      "name": "ground_gravel_dirt_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_c",
+      "name": "grunge_dirt_pebble_pile_a_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_g",
+      "name": "grunge_dirt_pebble_pile_a_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_n",
+      "name": "grunge_dirt_pebble_pile_a_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/grunge_rubble_pile_c",
+      "name": "grunge_rubble_pile_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/grunge_rubble_pile_g",
+      "name": "grunge_rubble_pile_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/grunge_rubble_pile_n",
+      "name": "grunge_rubble_pile_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/signs_decals_chinese_stores_c",
+      "name": "signs_decals_chinese_stores_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/signs_decals_chinese_stores_g",
+      "name": "signs_decals_chinese_stores_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/signs_decals_chinese_stores_n",
+      "name": "signs_decals_chinese_stores_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/signs_decals_stickers_c",
+      "name": "signs_decals_stickers_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/tiles_wall_broken_c",
+      "name": "tiles_wall_broken_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/tiles_wall_broken_g",
+      "name": "tiles_wall_broken_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/tiles_wall_broken_n",
+      "name": "tiles_wall_broken_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/tiles_wall_clean_ao",
+      "name": "tiles_wall_clean_ao",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/tiles_wall_clean_c",
+      "name": "tiles_wall_clean_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/tiles_wall_clean_g",
+      "name": "tiles_wall_clean_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/tiles_wall_clean_n",
+      "name": "tiles_wall_clean_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/window_bump_detal_n",
+      "name": "window_bump_detal_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/window_depth_a",
+      "name": "window_depth_a",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/window_spec",
+      "name": "window_spec",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/window_store_shutters_c",
+      "name": "window_store_shutters_c",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/window_store_shutters_g",
+      "name": "window_store_shutters_g",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/Textures/window_store_shutters_n",
+      "name": "window_store_shutters_n",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_beige",
+      "name": "brick_wall_beige",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_dark_red",
+      "name": "brick_wall_dark_red",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_grey",
+      "name": "brick_wall_grey",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_orange",
+      "name": "brick_wall_orange",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_red",
+      "name": "brick_wall_red",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/bricks_red",
+      "name": "bricks_red",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/bricks_red_concrete_trim",
+      "name": "bricks_red_concrete_trim",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim___default",
+      "name": "tile_trim___default",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim__color_pckr",
+      "name": "tile_trim__color_pckr",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean___default",
+      "name": "tile_trim_clean___default",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean__color_pckr",
+      "name": "tile_trim_clean__color_pckr",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_blue",
+      "name": "tile_trim_clean_color_blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_red",
+      "name": "tile_trim_clean_color_red",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_white",
+      "name": "tile_trim_clean_color_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_black",
+      "name": "tile_trim_color_black",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_blue",
+      "name": "tile_trim_color_blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_green",
+      "name": "tile_trim_color_green",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_red",
+      "name": "tile_trim_color_red",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_white",
+      "name": "tile_trim_color_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Cloth/cloth_awning_intact__default",
+      "name": "cloth_awning_intact__default",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Cloth/cloth_awning_torn__default",
+      "name": "cloth_awning_torn__default",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Cloth/cloth_intact_clr_pckr_blue",
+      "name": "cloth_intact_clr_pckr_blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Cloth/cloth_intact_clr_pckr_red",
+      "name": "cloth_intact_clr_pckr_red",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Cloth/cloth_torn_clr_pckr_blue",
+      "name": "cloth_torn_clr_pckr_blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Cloth/cloth_torn_clr_pckr_red",
+      "name": "cloth_torn_clr_pckr_red",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Concrete/concrete_trim",
+      "name": "concrete_trim",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Concrete/concrete_trim_CLR_BLK",
+      "name": "concrete_trim_CLR_BLK",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Concrete/concrete_trim_CLR_PKR",
+      "name": "concrete_trim_CLR_PKR",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck01",
+      "name": "dark_muck01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck02",
+      "name": "dark_muck02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck03",
+      "name": "dark_muck03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a01",
+      "name": "dripping_a01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a02",
+      "name": "dripping_a02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a03",
+      "name": "dripping_a03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a04",
+      "name": "dripping_a04",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a01",
+      "name": "dripping_a01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a02",
+      "name": "dripping_a02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a03",
+      "name": "dripping_a03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a04",
+      "name": "dripping_a04",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck01",
+      "name": "lite_muck01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck02",
+      "name": "lite_muck02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck03",
+      "name": "lite_muck03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a01",
+      "name": "dripping_a01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a02",
+      "name": "dripping_a02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a03",
+      "name": "dripping_a03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a04",
+      "name": "dripping_a04",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck01",
+      "name": "mid_muck01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck02",
+      "name": "mid_muck02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck03",
+      "name": "mid_muck03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a01",
+      "name": "decal_rust_dripping_a01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a02",
+      "name": "decal_rust_dripping_a02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a03",
+      "name": "decal_rust_dripping_a03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a04",
+      "name": "decal_rust_dripping_a04",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b01",
+      "name": "decal_rust_dripping_b01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b02",
+      "name": "decal_rust_dripping_b02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b03",
+      "name": "decal_rust_dripping_b03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b04",
+      "name": "decal_rust_dripping_b04",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_01",
+      "name": "scratch_01",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_02",
+      "name": "scratch_02",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_03",
+      "name": "scratch_03",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Grunge/bird_poop",
+      "name": "bird_poop",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/White",
+      "name": "White",
+      "asset_class": "ObjectRedirector"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/Yellow",
+      "name": "Yellow",
+      "asset_class": "ObjectRedirector"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/stickers_decals",
+      "name": "stickers_decals",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/store_signs",
+      "name": "store_signs",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/t_alpha_white",
+      "name": "t_alpha_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/t_alpha_yellow",
+      "name": "t_alpha_yellow",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/x_alpha_dark",
+      "name": "x_alpha_dark",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/x_alpha_grey",
+      "name": "x_alpha_grey",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/x_alpha_white",
+      "name": "x_alpha_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Decals_Signs/x_alpha_yellow",
+      "name": "x_alpha_yellow",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Glass/Glass",
+      "name": "Glass",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Glass/Glass2",
+      "name": "Glass2",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Glass/Glass_Cracked",
+      "name": "Glass_Cracked",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Glass/Glass_Opaq_Cracked",
+      "name": "Glass_Opaq_Cracked",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Glass/Glass_Opaque",
+      "name": "Glass_Opaque",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Glass/Glass_Shards",
+      "name": "Glass_Shards",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/Light",
+      "name": "Light",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/Road",
+      "name": "Road",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/Road_Inst",
+      "name": "Road_Inst",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/dirt_pebble_pile",
+      "name": "dirt_pebble_pile",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/dirt_pebble_pile_dark",
+      "name": "dirt_pebble_pile_dark",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/ground_gravel_dirt",
+      "name": "ground_gravel_dirt",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/ground_gravel_dirt_dark",
+      "name": "ground_gravel_dirt_dark",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Ground_Rubble/trash_pile",
+      "name": "trash_pile",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Lights/LGT_white",
+      "name": "LGT_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Lights/interior_lights",
+      "name": "interior_lights",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Lights/window_lgt_blue",
+      "name": "window_lgt_blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Lights/window_lgt_default",
+      "name": "window_lgt_default",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Lights/window_lgt_white",
+      "name": "window_lgt_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Lights/window_lgt_yellow",
+      "name": "window_lgt_yellow",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_shutters",
+      "name": "metal_shutters",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim___default",
+      "name": "metal_trim___default",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim__color_pckr",
+      "name": "metal_trim__color_pckr",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim__roughness+color_pckr",
+      "name": "metal_trim__roughness+color_pckr",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_black",
+      "name": "metal_trim_black",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_black_glossy",
+      "name": "metal_trim_black_glossy",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_blue",
+      "name": "metal_trim_blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean___default",
+      "name": "metal_trim_clean___default",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean__color_pckr",
+      "name": "metal_trim_clean__color_pckr",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_black",
+      "name": "metal_trim_clean_black",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_blue",
+      "name": "metal_trim_clean_blue",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_green",
+      "name": "metal_trim_clean_green",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_white",
+      "name": "metal_trim_clean_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_green",
+      "name": "metal_trim_green",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_grey_glossy",
+      "name": "metal_trim_grey_glossy",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_light_grey",
+      "name": "metal_trim_light_grey",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/Metal/metal_trim_white",
+      "name": "metal_trim_white",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/ModularBuildingSet/materials/black_interior",
+      "name": "black_interior",
+      "asset_class": "Material"
+    }
+  ]
+}

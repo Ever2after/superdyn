@@ -1,0 +1,486 @@
+{
+  "id": "industry_props_6",
+  "roots": [
+    "/Game/IndustryPropsPack6"
+  ],
+  "class_counts": {
+    "World": 2,
+    "StaticMesh": 30,
+    "MaterialInstanceConstant": 22,
+    "Material": 1,
+    "Texture2D": 37,
+    "TextureCube": 2
+  },
+  "assets": [
+    {
+      "path": "/Game/IndustryPropsPack6/Maps/Overview",
+      "name": "Overview",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Maps/Showcase",
+      "name": "Showcase",
+      "asset_class": "World"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/BaseMaterial/M_base",
+      "name": "M_base",
+      "asset_class": "Material"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Barrel01_1",
+      "name": "MI_Barrel01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Barrel01_2",
+      "name": "MI_Barrel01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Barrel01_3",
+      "name": "MI_Barrel01_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Barrel01_4",
+      "name": "MI_Barrel01_4",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Barrel01_5",
+      "name": "MI_Barrel01_5",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Barrel01_6",
+      "name": "MI_Barrel01_6",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Box01_1",
+      "name": "MI_Box01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Box01_2",
+      "name": "MI_Box01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Box01_3",
+      "name": "MI_Box01_3",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Box01_4",
+      "name": "MI_Box01_4",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Cartonbox01_1",
+      "name": "MI_Cartonbox01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Cartonbox01_2",
+      "name": "MI_Cartonbox01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Gray",
+      "name": "MI_Gray",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Hose01_1",
+      "name": "MI_Hose01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Hose01_2",
+      "name": "MI_Hose01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Newspaper01_1",
+      "name": "MI_Newspaper01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Newspaper01_2",
+      "name": "MI_Newspaper01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Rack01_1",
+      "name": "MI_Rack01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_Tarp01_1",
+      "name": "MI_Tarp01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_TrafficBarrel01_1",
+      "name": "MI_TrafficBarrel01_1",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/MI_WaterTank01",
+      "name": "MI_WaterTank01",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Materials/Mi_Tarp01_2",
+      "name": "MI_Tarp01_2",
+      "asset_class": "MaterialInstanceConstant"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Barrel01",
+      "name": "SM_Barrel01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Barrel02",
+      "name": "SM_Barrel02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Barrel03",
+      "name": "SM_Barrel03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Barrel04",
+      "name": "SM_Barrel04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Box01",
+      "name": "SM_Box01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Box02",
+      "name": "SM_Box02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Box03",
+      "name": "SM_Box03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonBox01",
+      "name": "SM_CartonBox01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonBox02",
+      "name": "SM_CartonBox02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonBox03",
+      "name": "SM_CartonBox03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage01",
+      "name": "SM_CartonGarbage01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage02",
+      "name": "SM_CartonGarbage02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage03",
+      "name": "SM_CartonGarbage03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage04",
+      "name": "SM_CartonGarbage04",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage05",
+      "name": "SM_CartonGarbage05",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage06",
+      "name": "SM_CartonGarbage06",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage07",
+      "name": "SM_CartonGarbage07",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage08",
+      "name": "SM_CartonGarbage08",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_CartonGarbage09",
+      "name": "SM_CartonGarbage09",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Hose01",
+      "name": "SM_Hose01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Newspaper01",
+      "name": "SM_Newspaper01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Newspaper02",
+      "name": "SM_Newspaper02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Newspaper03",
+      "name": "SM_Newspaper03",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Pallet01",
+      "name": "SM_Pallet01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Rack01",
+      "name": "SM_Rack01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Rack02",
+      "name": "SM_Rack02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Tarp01",
+      "name": "SM_Tarp01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_Tarp02",
+      "name": "SM_Tarp02",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_TrafficBarrel01",
+      "name": "SM_TrafficBarrel01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Meshes/SM_WaterTank01",
+      "name": "SM_WaterTank01",
+      "asset_class": "StaticMesh"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/BB_D",
+      "name": "BB_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/BG_D",
+      "name": "BG_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/BW_D",
+      "name": "BW_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/B_N",
+      "name": "B_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/TC_HDR01",
+      "name": "TC_HDR01",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/TC_HDR02",
+      "name": "TC_HDR02",
+      "asset_class": "TextureCube"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/T_Dirt_N",
+      "name": "T_Dirt_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/T_MASK1",
+      "name": "T_MASK1",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/T_MASK2",
+      "name": "T_MASK2",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/BaseTextures/T_gradient_D",
+      "name": "T_gradient_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Barrel01_D",
+      "name": "T_Barrel01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Barrel01_N",
+      "name": "T_Barrel01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Barrel01_SRM",
+      "name": "T_Barrel01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Box01_D",
+      "name": "T_Box01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Box01_N",
+      "name": "T_Box01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Box01_SRM",
+      "name": "T_Box01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Cartonbox01_D",
+      "name": "T_Cartonbox01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Cartonbox01_N",
+      "name": "T_Cartonbox01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Cartonbox01_SRM",
+      "name": "T_Cartonbox01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Hose_D",
+      "name": "T_Hose_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Hose_N",
+      "name": "T_Hose_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Hose_SRM",
+      "name": "T_Hose_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Newspaper01_D",
+      "name": "T_Newspaper01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Newspaper01_N",
+      "name": "T_Newspaper01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Newspaper01_SRM",
+      "name": "T_Newspaper01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Rack_D",
+      "name": "T_Rack_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Rack_N",
+      "name": "T_Rack_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Rack_SRM",
+      "name": "T_Rack_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Tarp01_D",
+      "name": "T_Tarp01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Tarp01_N",
+      "name": "T_Tarp01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Tarp01_SRM",
+      "name": "T_Tarp01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Tarp02_D",
+      "name": "T_Tarp02_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_Tarp02_N",
+      "name": "T_Tarp02_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_TrafficBarrel01_D",
+      "name": "T_TrafficBarrel01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_TrafficBarrel01_N",
+      "name": "T_TrafficBarrel01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_TrafficBarrel01_SRM",
+      "name": "T_TrafficBarrel01_SRM",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_WaterTank01_D",
+      "name": "T_WaterTank01_D",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_WaterTank01_N",
+      "name": "T_WaterTank01_N",
+      "asset_class": "Texture2D"
+    },
+    {
+      "path": "/Game/IndustryPropsPack6/Textures/T_WaterTank01_SRM",
+      "name": "T_WaterTank01_SRM",
+      "asset_class": "Texture2D"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "overall": 0.28996865203761757,
+  "per_task": {
+    "camera_translation_direction": 0.16666666666666663,
+    "camera_view_direction_change": 0.25,
+    "object_world_motion_direction": 0.16666666666666666,
+    "camera_object_distance_change": 0.5,
+    "object_pair_distance_change": 0.5,
+    "object_travel_distance_comparison": 0.5
+  },
+  "per_group": {
+    "HLH": 0.29031465093411996,
+    "LHH": 0.30512152777777773,
+    "HHH": 0.2828638497652582
+  }
+}

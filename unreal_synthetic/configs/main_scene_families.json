@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "stage": "scene_families",
+  "render": {"width": 1280, "height": 720, "fps": 24, "frames": 192, "horizontal_fov_degrees": 80, "spatial_samples": 4, "exposure_bias": -1.2},
+  "families": [
+    {
+      "id": "industrial", "title": "Terraced logistics yard", "title_ko": "단차형 산업 야드",
+      "seed": 101, "xy_scale": 1.25,
+      "ground_texture": "Asphalt012", "wall_texture": "Concrete033", "path_texture": "Concrete033",
+      "ground_tile_cm": 220, "wall_tint": [0.70, 0.74, 0.77],
+      "description": "Loading terraces, connected vehicle ramps, a warehouse edge, container storage and grouped construction supplies.",
+      "asset_groups": [
+        {"asset": "container", "count": 2, "size_cm": 520, "zone": "edge"},
+        {"asset": "pickup", "count": 1, "size_cm": 440},
+        {"asset": "sedan", "count": 1, "size_cm": 430},
+        {"asset": "pallet", "count": 6, "size_cm": 115},
+        {"asset": "crate", "count": 4, "size_cm": 100},
+        {"asset": "reel", "count": 3, "size_cm": 110},
+        {"asset": "barrel", "count": 6, "size_cm": 90},
+        {"asset": "worker", "count": 2, "size_cm": 178, "height_size": true}
+      ]
+    },
+    {
+      "id": "urban", "title": "Stepped pedestrian quarter", "title_ko": "경사 보행로와 계단형 도시 광장",
+      "seed": 202, "xy_scale": 1.35,
+      "ground_texture": "PavingStones046", "wall_texture": "Concrete033", "path_texture": "Concrete033",
+      "ground_tile_cm": 240, "wall_tint": [0.82, 0.77, 0.68],
+      "description": "Shopfront buildings, paved upper and lower plazas, connecting ramps, street furniture and parked cars.",
+      "asset_groups": [
+        {"asset": "cafe", "count": 1, "size_cm": 480},
+        {"asset": "sedan", "count": 2, "size_cm": 430},
+        {"asset": "bench", "count": 5, "size_cm": 180},
+        {"asset": "lamp", "count": 5, "size_cm": 340, "height_size": true},
+        {"asset": "trash", "count": 3, "size_cm": 90, "height_size": true},
+        {"asset": "tree", "count": 4, "size_cm": 480, "height_size": true},
+        {"asset": "worker", "count": 3, "size_cm": 178, "height_size": true}
+      ]
+    },
+    {
+      "id": "park", "title": "Woodland terrace park", "title_ko": "완만한 경사와 쉼터가 있는 공원",
+      "seed": 303, "xy_scale": 1.5,
+      "ground_texture": "Grass004", "wall_texture": "Concrete033", "path_texture": "PavingStones046",
+      "ground_tile_cm": 150, "wall_tint": [0.54, 0.57, 0.45],
+      "description": "Grass terraces, a paved winding trail, trees and shrubs, a timber shelter, and separate animal clearings.",
+      "asset_groups": [
+        {"asset": "shelter", "count": 1, "size_cm": 420},
+        {"asset": "pine", "count": 9, "size_cm": 620, "height_size": true},
+        {"asset": "tree", "count": 7, "size_cm": 550, "height_size": true},
+        {"asset": "bush", "count": 10, "size_cm": 120},
+        {"asset": "rock", "count": 6, "size_cm": 115},
+        {"asset": "bench", "count": 3, "size_cm": 180},
+        {"asset": "deer", "count": 2, "size_cm": 205},
+        {"asset": "fox", "count": 1, "size_cm": 115},
+        {"asset": "worker", "count": 1, "size_cm": 178, "height_size": true}
+      ]
+    }
+  ]
+}

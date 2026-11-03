@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "adapter_classes_ast_unchanged": true,
+  "protocol_functions_ast_unchanged": true,
+  "prepared_qa": 896,
+  "reused_predictions": 6272,
+  "models": 7,
+  "model_loads": 0,
+  "scores_match_final": true,
+  "filtered_four_cohort_regression": {
+    "status": "passed",
+    "qa": 2262,
+    "models": 7,
+    "task_standardized_estimates_unchanged": true
+  },
+  "unit_tests_passed": 52,
+  "source_hashes_unchanged": true,
+  "final_asset_links_resolve": true,
+  "selected_prediction_files": 6272
+}

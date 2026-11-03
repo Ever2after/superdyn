@@ -1,0 +1,14 @@
+{
+  "ready": true,
+  "action": "render",
+  "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west",
+  "map_path": "/Game/SuperDyn/ABWalkthroughs/Maps/PopulatedYard",
+  "cases": [
+    {
+      "id": "01_east_to_west",
+      "title": "East yard, upper terrace and west structures",
+      "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/ab_walkthroughs/01_east_to_west",
+      "sequence_path": "/Game/SuperDyn/ABWalkthroughs/Sequences/LS_01_east_to_west"
+    }
+  ]
+}

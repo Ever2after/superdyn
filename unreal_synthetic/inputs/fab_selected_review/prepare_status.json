@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "id": "game_animation_sample",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "paragon_twinblast",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "paragon_sparrow",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "paragon_gadget",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "city_sample_vehicles",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "vehicle_variety_pack",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "vehicle_variety_pack_2",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "animal_variety_pack",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "construction_site_vol1",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "industry_props_6",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "unfinished_building",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "modular_building_set",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "city_sample_buildings",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "city_park_environment",
+      "status": "sha1_verified_and_staged"
+    },
+    {
+      "id": "modular_rural_cabins",
+      "status": "sha1_verified_and_staged"
+    }
+  ],
+  "complete": true
+}

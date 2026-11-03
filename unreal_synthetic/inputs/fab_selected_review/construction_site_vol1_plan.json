@@ -1,0 +1,1241 @@
+{
+  "candidate": "construction_site_vol1",
+  "id": "4a7cfedb67d64baab44a9da4c81778e1",
+  "title": "Construction Site VOL. 1 - Supply and Material Props",
+  "engine": {
+    "artifactId": "Construcd2144e19eb5eV2",
+    "matchType": "exact",
+    "requested": "UE_5.8",
+    "selected": "UE_5.8",
+    "available": [
+      "UE_4.17",
+      "UE_4.18",
+      "UE_4.19",
+      "UE_4.20",
+      "UE_4.21",
+      "UE_4.22",
+      "UE_4.23",
+      "UE_4.24",
+      "UE_4.25",
+      "UE_4.26",
+      "UE_4.27",
+      "UE_5.0",
+      "UE_5.1",
+      "UE_5.2",
+      "UE_5.3",
+      "UE_5.4",
+      "UE_5.5",
+      "UE_5.6",
+      "UE_5.7",
+      "UE_5.8"
+    ]
+  },
+  "file_count": 240,
+  "bytes": 624313263,
+  "unique_chunk_bytes": 608529156,
+  "chunk_count": 596,
+  "artifact": "Construcd2144e19eb5eV2",
+  "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+  "files": [
+    {
+      "filename": "Construction_VOL1.png",
+      "size": 126157,
+      "sha1": "7e885be370939d21aead3d116b55043cb3e99edb"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BoxStack_01.uasset",
+      "size": 120290,
+      "sha1": "81a38738a7230208bd42c964406c2ae477da2ce6"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BoxStack_02.uasset",
+      "size": 119456,
+      "sha1": "756627f50b0194bb1ec26296f972b9cdbdb2a51b"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BoxStack_03.uasset",
+      "size": 121333,
+      "sha1": "a386445cb6fa909649f177a433d4832f8834d672"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BrickStack_01.uasset",
+      "size": 122762,
+      "sha1": "c1178c53940a9b3e78a19baa08d520c225d46087"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BrickStack_02.uasset",
+      "size": 128003,
+      "sha1": "22d694198a071de125b061ae1924504c244adb5d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BrickStack_03.uasset",
+      "size": 123277,
+      "sha1": "b17b956a0c39b71977845c3aba238e8984ec8c24"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BrickStack_04.uasset",
+      "size": 128299,
+      "sha1": "59de97b7c002b0aec4a44d608469e8a8573ae4dc"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BrickStack_05.uasset",
+      "size": 122736,
+      "sha1": "9d33ebed0b0eaf1189727c6fa432858259cde475"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_BrickStack_06.uasset",
+      "size": 124043,
+      "sha1": "6c493b62fdfff88d76a4d0c818eed82b07dd8502"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_Cinderstack_01.uasset",
+      "size": 123160,
+      "sha1": "621b1d885a1df63681ddc0c01c2eeab61872b913"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_Cinderstack_02.uasset",
+      "size": 130302,
+      "sha1": "6293a29e2d279454b5560c57ec8f70b5243feeb5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_Cinderstack_03.uasset",
+      "size": 123205,
+      "sha1": "448ccd8682bdc935017f1994c00c8982bdd362a2"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_Cinderstack_04.uasset",
+      "size": 126339,
+      "sha1": "12f6eae9ef38dc0ab7436211f74acef9f58bfcb1"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_ConcreteStack_01.uasset",
+      "size": 129504,
+      "sha1": "2297d71352f39325e2c3b9dca0e2863f8e06ab10"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_ConcreteStack_02.uasset",
+      "size": 123264,
+      "sha1": "cdd88b2bee9fba89b033f56025d70064fcdaa901"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_ConcreteStack_03.uasset",
+      "size": 128891,
+      "sha1": "f7eab819fcb0c777ed21fa05738f8f520558d66d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_ConstructionFence_01a.uasset",
+      "size": 132650,
+      "sha1": "b116b96569ce2461ae65f756ef4ec7317f1837cc"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_DrywallStack_01.uasset",
+      "size": 25352,
+      "sha1": "1389820e64d0e88c35f398a255d29624c11bc58f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_LightGenerator_01.uasset",
+      "size": 126763,
+      "sha1": "c41bcc470ba8a1c6a2012c598216f8e649ebf853"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Blueprints/BP_Portapotty_01.uasset",
+      "size": 108712,
+      "sha1": "2d4bd4620ec7f5cece34c4ea0ad199c2c88d1e8a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Maps/Demonstration.umap",
+      "size": 523828,
+      "sha1": "5ebe0c962e544da98fc5d0ae476abee4f31727cf"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Maps/Demonstration_BuiltData.uasset",
+      "size": 400136,
+      "sha1": "a2d8140814e00266fb6dbe7997ed27de0494210c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Maps/Overview.umap",
+      "size": 1065076,
+      "sha1": "e6fda83f77d4597fc27c111e6e072829f15d2eed"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Maps/Overview_BuiltData.uasset",
+      "size": 230571,
+      "sha1": "bae00b6c99cf44a9a84f567a8d86a3faf4641d96"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Functions/MF_MicroDetail_01a.uasset",
+      "size": 129185,
+      "sha1": "77846fe84ca9f1945c83d54dac30eaec55c1b0b0"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Functions/MF_VertexBlend_01a.uasset",
+      "size": 52585,
+      "sha1": "0055fa29a8323178144599f9b92cd335c673a592"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Functions/MI_VertexBlend_02a.uasset",
+      "size": 100212,
+      "sha1": "68849d48e87f041046629e214e62bb25db99eb40"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Background_01a.uasset",
+      "size": 16658,
+      "sha1": "f6350e20f58748461a5e5e8a2d31a637f961312c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_BrickPaletteStack_01a.uasset",
+      "size": 124001,
+      "sha1": "908ba0aeba9f5849f0125425c40131521047a681"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_CableReel_01a.uasset",
+      "size": 128116,
+      "sha1": "965c0c63319b7383fbc02e2f8fa2625218164df5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_CardboardBoxes_01a.uasset",
+      "size": 115098,
+      "sha1": "1555aab0eb45c79db255549532cc8208757aa39d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Cinderstack_01a.uasset",
+      "size": 24309,
+      "sha1": "a581d9f78db3307117ba1199d50c76a0a153b6f7"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_ConcreteBag_01a.uasset",
+      "size": 119596,
+      "sha1": "33a0a1e59c7dad4d4a2ac930cbd1236dfa0052de"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_ConcretePipe_01a.uasset",
+      "size": 19597,
+      "sha1": "9119fb2d23a4e704d7615843f61894b3091071d9"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_ConstructionPylon_01a.uasset",
+      "size": 121657,
+      "sha1": "5bd4a1eac6ca1fb1be4028eadade5d19a22d8007"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Crate_01a.uasset",
+      "size": 117734,
+      "sha1": "786350816ab9fbe0e36cf08e012d4dfdbdbbb336"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_DebrisTile_01a.uasset",
+      "size": 26702,
+      "sha1": "8110016b1193873c66dfa2b16ee0758a4516ade3"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Decal_01a.uasset",
+      "size": 103882,
+      "sha1": "647a412517668ea24d8c4dac0c588b76e9b5ac7f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Drywall_01a.uasset",
+      "size": 106860,
+      "sha1": "8f6eecabb10a997d6f356d2ddb1db5c297903ae1"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Dumpster_01a.uasset",
+      "size": 26456,
+      "sha1": "1ce88f010d13a4c2276a410331cff89b752adfd8"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Fence_01a.uasset",
+      "size": 131894,
+      "sha1": "475f08cd1c15db081c4560aa84a7891672dfd1b5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_FreightContainer_01a.uasset",
+      "size": 126674,
+      "sha1": "596a752f2015c51230a6267c1a78959fa8dd3516"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_FreightContainer_01b.uasset",
+      "size": 138114,
+      "sha1": "70054dad379895c01411a309c21c0dda4be1075e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Lightgenerator_01a.uasset",
+      "size": 124467,
+      "sha1": "fe113f310071016c205f936e937e60b3d0fe2f71"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Lightgenerator_01b.uasset",
+      "size": 127908,
+      "sha1": "3f42e979991fc269c0df76cf67fef774ed25b617"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_OilBarrel_01a.uasset",
+      "size": 13974,
+      "sha1": "968d5dc22e66b4d0c6ab448782250e6a5f499526"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_PlasticBarrel_01a.uasset",
+      "size": 124911,
+      "sha1": "235106497b4ad058878a88b961a1a27805aab21a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Portapotty_01a.uasset",
+      "size": 119724,
+      "sha1": "82c7dd5078b58ff9b2f0e5cb2dbf892201c67af3"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Portapotty_01b.uasset",
+      "size": 130680,
+      "sha1": "79e44cc3348a7ab16a1307b9f1cbaa3c1b14896e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Propanetank_01a.uasset",
+      "size": 117127,
+      "sha1": "3df0b96fead5a9d388a217d2f96a614d60af9ca5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Rebar_01a.uasset",
+      "size": 113970,
+      "sha1": "c19d3f24361baa61fb50018708bc1f16ecc2b4b1"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Roadblock_01a.uasset",
+      "size": 126044,
+      "sha1": "839305f60dd3d1a27e8f11dc447e2f9c2120ef51"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Skybox.uasset",
+      "size": 85007,
+      "sha1": "15f624295cfe128ad70c1501ec152f9805402e20"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Spool_01a.uasset",
+      "size": 122960,
+      "sha1": "fbb290cda196096c403eab3d7e015ea9b1a0c305"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Tarp_01a.uasset",
+      "size": 14795,
+      "sha1": "da1a971bc5de8d07bf02efd1cfb234489fe04edd"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_Trafficbarrier_01a.uasset",
+      "size": 123981,
+      "sha1": "ee164a16a9f8e273b8bfaa1e7a6b799923c072f8"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_WaterTank_01a.uasset",
+      "size": 120838,
+      "sha1": "4a4512d8e8789a7f366d7be401a956af1ab48c84"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Instances/MI_WoodenPalette_01a.uasset",
+      "size": 116985,
+      "sha1": "f91ef3de7826bc75cf8a18ff5ec3e1277f5ad6fc"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Masters/MM_Background_01a.uasset",
+      "size": 40055,
+      "sha1": "b67024bd42f2b40b6a7e3291b5c6c2bdb75569b7"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Masters/MM_Decal_01.uasset",
+      "size": 91349,
+      "sha1": "6567c7986d2fe432d60af1631a66ca87f4266c84"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Masters/MM_MasterMaterial_01.uasset",
+      "size": 153357,
+      "sha1": "2f66e19d5b13abf1b804f0f68780e02c9ddec058"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Masters/MM_PP_Sharpen.uasset",
+      "size": 96404,
+      "sha1": "f90150d5bb7a02ce9e72205d5cc7c1b5f6e0e220"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Materials/Masters/MM_SkyBox.uasset",
+      "size": 115684,
+      "sha1": "681b3f8e2ff5ce234235aa6507486e97a3d05b03"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Barrel_01.uasset",
+      "size": 263357,
+      "sha1": "2ab88ee9c2119636e98351b441d48520f4980b45"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Boxes_01a.uasset",
+      "size": 241066,
+      "sha1": "454bf83b5a60fada630b1b5fa0cb528de8f7914d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Boxes_02a.uasset",
+      "size": 210167,
+      "sha1": "2745f99f99ba8a95b8239871dfcf8e8671829523"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Boxes_03a.uasset",
+      "size": 118276,
+      "sha1": "d55bb07acdabf1c391f86564888bb18e9a47c8a6"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Boxes_04a.uasset",
+      "size": 121056,
+      "sha1": "9f0610c97a493b962c82420973b5dc3b43ba0b89"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_01a.uasset",
+      "size": 174915,
+      "sha1": "ea81915f0b8eb53081e1400f48d078bc81ac86b0"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_01b.uasset",
+      "size": 122824,
+      "sha1": "621d84e1844969fbd2380c36e009d3a0c107298a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_01c.uasset",
+      "size": 154395,
+      "sha1": "f69723a1d2a5609da616f8fc146af518f8bbeaae"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_01d.uasset",
+      "size": 164182,
+      "sha1": "a465de59ea3d6427d515f442e1ac7f42f63c0a7c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_01e.uasset",
+      "size": 120940,
+      "sha1": "4b0b47ed1f8fff83a7b19e08219cb96d05fe894c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_01f.uasset",
+      "size": 169761,
+      "sha1": "d966836900fc18edbee9ee91fda7595883481eca"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_01g.uasset",
+      "size": 146255,
+      "sha1": "996439afe090b1a87a105613ebb1b1eb28326f68"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_BrickPaletteStack_Brick_01a.uasset",
+      "size": 102096,
+      "sha1": "2ba53b6568bd7e78d33e47d7d03df4f9155f7254"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_CableReel.uasset",
+      "size": 480014,
+      "sha1": "79f4d895f8ecfa956e33ef93bf2b4dd93939cc34"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_CinderStack_01a.uasset",
+      "size": 2593162,
+      "sha1": "0f5c6240a3876b27a9b443f694b2a72b9f542f94"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_CinderStack_01b.uasset",
+      "size": 1595038,
+      "sha1": "2735d9dc9c3acb3a681c74c7db9302f122a168d9"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_CinderStack_02a.uasset",
+      "size": 625194,
+      "sha1": "4aa68cec29d38c2785f3c6fe04126a6b8f29a98e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_CinderStack_03a.uasset",
+      "size": 415527,
+      "sha1": "33fab82c6dfffeb9a73db11e9b6eb60e550c7771"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_CinderStack_Pallete_01a.uasset",
+      "size": 140855,
+      "sha1": "fb7b0b909da9c50332cba3fa89f4e2238543138c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_CinderStack_Single_01a.uasset",
+      "size": 129764,
+      "sha1": "7aaa7b8f4ee0295e12b03a17299089d2cc669f09"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcreteBag_01a.uasset",
+      "size": 126333,
+      "sha1": "cfc51a931515d1eb5999ee8bff27b0b5f768caa5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcreteBag_02a.uasset",
+      "size": 212955,
+      "sha1": "cd9b4c3964933b3b57bc843bfbac06b25bce0961"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcreteBag_03a.uasset",
+      "size": 611620,
+      "sha1": "05089bc213d0daa32822fab78473f7d35ffbd1dc"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcreteBag_04a.uasset",
+      "size": 157020,
+      "sha1": "73fde51ecacdf2c8cdca6afad1660c68adf9fb7a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcreteBag_05a.uasset",
+      "size": 186231,
+      "sha1": "a1a1c9e607258eea8769e0a015a649b7649e7dc4"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcretePipe_01.uasset",
+      "size": 219577,
+      "sha1": "44656c056500d6facf296219ab8ae88a4eac55d2"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcretePipe_02.uasset",
+      "size": 247210,
+      "sha1": "136bd14ca677f60d157b59be89b4861221093766"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConcretePipe_03.uasset",
+      "size": 222828,
+      "sha1": "afc48ee89a06155e97c2754e65d3e707a59314c4"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_construction_fence_01a.uasset",
+      "size": 145847,
+      "sha1": "1b219a7d0d7184b32374a2bddf740ba974bfec8d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_construction_fence_connectors_01a.uasset",
+      "size": 119790,
+      "sha1": "0fc6106b5b51c2a330b176fe2431a053abd1ea4e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_construction_fence_support_01a.uasset",
+      "size": 110707,
+      "sha1": "c66d94a393bccb09ede681bcd3e08a02357a2a4b"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConstructionPylons_01a.uasset",
+      "size": 159399,
+      "sha1": "f2d6292d7be67629c7bddaa8f7ba14487855b14f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConstructionPylons_01b.uasset",
+      "size": 195074,
+      "sha1": "799fe495392356eff393c7d172107514d7f71ef1"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConstructionPylons_01c.uasset",
+      "size": 220070,
+      "sha1": "e3f7dd96d0b643b2fc8253098c0a58a0b69140af"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConstructionPylons_01d.uasset",
+      "size": 253650,
+      "sha1": "6bc04be3223f89eb4bc75a61bcdc2bf39fe36a7d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConstructionPylons_01e.uasset",
+      "size": 116657,
+      "sha1": "31abd92bfb2b0378341e4ffed9eafc2adf353dab"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConstructionPylons_01f.uasset",
+      "size": 180491,
+      "sha1": "717d57d3fe01b5783e198bd8e690be34561faac5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ConstructionPylons_01g.uasset",
+      "size": 127923,
+      "sha1": "3d80af17e5b57fdc030979a3ad5f8b792583e25d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Crate_01a.uasset",
+      "size": 212911,
+      "sha1": "5e90793a3252577d0044a6f275c4f6746213bdf8"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Crate_Base_01a.uasset",
+      "size": 207093,
+      "sha1": "d35f383782f6f039aa9d72cba7748b9abf96d9a0"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Crate_Lid_01a.uasset",
+      "size": 118665,
+      "sha1": "3a4180908afe27ab4a97af3071c4c1a3643a1b8a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Drywall_01a.uasset",
+      "size": 103886,
+      "sha1": "be29deacf0de701962869ab79bf26c655f4e6d78"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Drywall_01b.uasset",
+      "size": 105964,
+      "sha1": "0174731eeb01df73ed8a2fad0945c74241028bbd"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Dumpster.uasset",
+      "size": 1103440,
+      "sha1": "2d4577a8d7862d46113e6f23f9ee280af75f4e8d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_FreightContainer_01.uasset",
+      "size": 470888,
+      "sha1": "72b79080709062dc81c7ab3b476f36f6929e9938"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_LightGenerator_01a.uasset",
+      "size": 2333037,
+      "sha1": "6629b6ae20429400a00092757ddefc009125aa4a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_LightGenerator_Base_01a.uasset",
+      "size": 1038182,
+      "sha1": "95fc8262e1d6e981ea4da046246fb270c2370faa"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_LightGenerator_Lights_01a.uasset",
+      "size": 390440,
+      "sha1": "de5ec2c0556b3a0d42cfe5ea215b8e34f5adec8e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_PlasticBarrel_01a.uasset",
+      "size": 301372,
+      "sha1": "4d5774adfeb24f50d99881e587a41366731732a6"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Portapotty_01.uasset",
+      "size": 373336,
+      "sha1": "79aba99e515d550e576f5c3ae184b19d531ac2c5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Portapotty_02.uasset",
+      "size": 575695,
+      "sha1": "ab1e74ba77f2f84aaf18f5ff71573b320ea1d8f8"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Portapotty_03.uasset",
+      "size": 150020,
+      "sha1": "7493057bc7cea5b63a6cf4730cdcddccab524993"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Rebar_01a.uasset",
+      "size": 323890,
+      "sha1": "3213f67048455d2aa56b5f396d7d8a9b25ec1d55"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Rebar_01b.uasset",
+      "size": 100718,
+      "sha1": "b9cee251ac2553d0a0b3b3464479eae2f6912459"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Roadblock_01a.uasset",
+      "size": 487497,
+      "sha1": "729f593d283f82a8514b5a3cf8df33c5f8f07a6b"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Roadblock_02a.uasset",
+      "size": 397678,
+      "sha1": "c073b8c974574af2e7ff7e51f535dfa732f8eb58"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Roadblock_03a.uasset",
+      "size": 513525,
+      "sha1": "a9ac5f6d3e848ee5396f41b8e2540e5fee22950f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Roadblock_03b.uasset",
+      "size": 478578,
+      "sha1": "7fc753f4376c4e67380190c4abd0880bccb45c5f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Roadblock_04a.uasset",
+      "size": 346321,
+      "sha1": "ecd92f11775f98954631f085104c0e0f4694b26e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Roadblock_Flag_03a.uasset",
+      "size": 118396,
+      "sha1": "f84c812ac315094a930a9ed162d0ed4e16f01c2f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Spool_01a.uasset",
+      "size": 214968,
+      "sha1": "92fb77953ae6eeba31a6ded248655546d99ef180"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Tarp_01.uasset",
+      "size": 233004,
+      "sha1": "c8a40eac30413902012428c6f8f1a6790b638d80"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Tarp_02.uasset",
+      "size": 330629,
+      "sha1": "4bc8ee617c0d4d58dcc8152bdbf20297cec126d8"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Tarp_03.uasset",
+      "size": 332710,
+      "sha1": "6b44f5d8abb351e56ce452f86f4697766816e7d4"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Tarp_04.uasset",
+      "size": 325690,
+      "sha1": "1d817a903906c8a2b3240cc88f583529fb8cec61"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Tarp_05.uasset",
+      "size": 111603,
+      "sha1": "045f552fc88cf07208904f8eb6a69e858f28a2ab"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Tarp_06.uasset",
+      "size": 199038,
+      "sha1": "f48efd0b7bf2f0228dbfac90fe39063d4ca575a3"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_Trafficbarrier_01.uasset",
+      "size": 305920,
+      "sha1": "8c22838e53f4bff747a6348cf9dbf10ea0264bbe"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_WaterTank_01a.uasset",
+      "size": 391754,
+      "sha1": "fba8f0cc34602ba6f0c91e0cd01f39f0e25256cb"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_woodenpalette_01.uasset",
+      "size": 322423,
+      "sha1": "4b62647beab03ab7b34c5a151e652d91b12c5bce"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ZBackdrop_01.uasset",
+      "size": 115040,
+      "sha1": "45f8b8f7c341f7b677b008c613688a1a4f2ed310"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ZPlane_01a.uasset",
+      "size": 918620,
+      "sha1": "ae8934cd64c5d891fd0d69939f531105b1468904"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Meshes/SM_ZSphere.uasset",
+      "size": 874766,
+      "sha1": "cafd9f012285605e9719fb8a6443c2ffede8bed7"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_DebrisTile_ALB.uasset",
+      "size": 2573352,
+      "sha1": "3eb4e8a777ccaf015e3e404c709e00b54425e174"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_DebrisTile_NRM.uasset",
+      "size": 3155059,
+      "sha1": "1b53e107a26c35136f135ce5c987f157449a4966"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_DebrisTile_RMA.uasset",
+      "size": 2230467,
+      "sha1": "c281048024954a3c0061e365885e7abdd8f31844"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_Dirt_01_ALB.uasset",
+      "size": 2976012,
+      "sha1": "ae8fd9a6e0caa71e0558a89a95bab33acd21b6ed"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_Micro_MASK.uasset",
+      "size": 659112,
+      "sha1": "a14e8ab712cab1352bcca4173a6436d3b6eff1dc"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_Noise_NRM.uasset",
+      "size": 669978,
+      "sha1": "d49fd03384676a9ae4760e62dc06c41c42c95f44"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_RockyMud_01_ALB.uasset",
+      "size": 8501080,
+      "sha1": "b67c8e3c33e8919e6c77dcdc4d0344e7c7a03600"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_RockyMud_01_NRM.uasset",
+      "size": 10932042,
+      "sha1": "b1c082fe3eae6ba6efa9908e387298d1dccc8447"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_RockyMud_01_RHA.uasset",
+      "size": 7535378,
+      "sha1": "4b7710b11bfb431797ccf8f914db182c37912790"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_RockyMud_02_ALB.uasset",
+      "size": 7288835,
+      "sha1": "b411cc630b03146538ae4bf5c6e4a89f61ae0f9a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_RockyMud_02_NRM.uasset",
+      "size": 11008249,
+      "sha1": "52a03951a06646c1d219b76dd02394c9eb7410df"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Tileable/TX_RockyMud_02_RHA.uasset",
+      "size": 7490499,
+      "sha1": "b8e7c44cbc125aa1ae10723ee738a473b8d2e765"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Boxes_01a_ALB.uasset",
+      "size": 8296542,
+      "sha1": "186153c4f221b0f80ed1e79dbcf69670a51f4b33"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Boxes_01a_NRM.uasset",
+      "size": 5964495,
+      "sha1": "15dfd35b87509ef5dcc9f8d9b5a5a3c67118aad6"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Boxes_01a_RMA.uasset",
+      "size": 4574496,
+      "sha1": "b59a92d85a4b4900dede8884eb6cfebcb93a6e12"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_BrickPaletteStack_01_ALB.uasset",
+      "size": 8482836,
+      "sha1": "47579e5c7e43c4d7f8192f2f5685a0fbbd1463d0"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_BrickPaletteStack_01_NRM.uasset",
+      "size": 10088632,
+      "sha1": "44e77bbe6548b4d5172a9e982f157494480e0d3f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_BrickPaletteStack_01_RMA.uasset",
+      "size": 7503128,
+      "sha1": "d049272fe07e8182f4b9646a7fe4cac4d2296fa3"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_CableReel_ALB.uasset",
+      "size": 4348460,
+      "sha1": "dc8d99dbfe2aad5d5ec425fdb12bb748f1391c48"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_CableReel_NRM.uasset",
+      "size": 6438056,
+      "sha1": "950c91b288e9b3b66694a158c35946aba5251d67"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_CableReel_RMA.uasset",
+      "size": 4854298,
+      "sha1": "5fb09025935e49b7ceee342887048d6a4ecdb034"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_CinderStack_ALB.uasset",
+      "size": 5099427,
+      "sha1": "f0e4c80b990526b4a2c9a7426b932a7e461c1fd7"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_CinderStack_NRM.uasset",
+      "size": 6868693,
+      "sha1": "26b97762cef9457c0ea0bdd7c4d5eccf79c975ff"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_CinderStack_RMA.uasset",
+      "size": 3629464,
+      "sha1": "e0d96ff4e63567a6b4749044ef02f405cd9d390d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConcreteBag_01a_ALB.uasset",
+      "size": 6990277,
+      "sha1": "454a70c6862bcd4f7640c5d7d1b95c63b73d4f75"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConcreteBag_01a_NRM.uasset",
+      "size": 8824662,
+      "sha1": "9bb1deb32b129ff5b923e973b1e80784888d277e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConcreteBag_01a_RMA.uasset",
+      "size": 2081004,
+      "sha1": "2590c3195a6111b1c08e0b94483c815d67da2c26"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConcretePipe_Set_ALB.uasset",
+      "size": 8333650,
+      "sha1": "802408e0cdefd351fb4570e21450a68abb8ecd37"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConcretePipe_Set_NRM.uasset",
+      "size": 7543155,
+      "sha1": "43612757809c922e5fd7818412bafc5714911a37"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConcretePipe_Set_RMA.uasset",
+      "size": 5451014,
+      "sha1": "a1c23c6c80ee4c3bbf3c3422a51f555bea036a17"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_ALB.uasset",
+      "size": 3439374,
+      "sha1": "fa8b8911748384b726e1368af420480f8969ef17"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_DISP.uasset",
+      "size": 318839,
+      "sha1": "d1171ff0c2b557bf0fff2f119c3223ed78a7b5eb"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_NRM.uasset",
+      "size": 2513096,
+      "sha1": "d95e259ff91d96a1a95c6c9add9820979935b709"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConstructionFence_01a_RMA.uasset",
+      "size": 6971622,
+      "sha1": "94d587b28fc5bd792a7e5401f5f9878a6c9655f5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConstructionPylons_01_ALB.uasset",
+      "size": 6758894,
+      "sha1": "66c41d9a6f26329b1ead09338489ee3558429c2b"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConstructionPylons_01_NRM.uasset",
+      "size": 4584583,
+      "sha1": "e571966ac0d8bac191f541c16cee0369517b6ea5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_ConstructionPylons_01_RMA.uasset",
+      "size": 4907128,
+      "sha1": "551a74fe34949b6242cb0da7075ba74fecbabc71"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Crates_01a_ALB.uasset",
+      "size": 5792433,
+      "sha1": "7c4de873d0ab16563b74ed21bf39fcc5331db232"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Crates_01a_NRM.uasset",
+      "size": 5325133,
+      "sha1": "1672fffa9e81683c18e4f511602667a293bb76db"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Crates_01a_RMA.uasset",
+      "size": 3000600,
+      "sha1": "947f45161a305205744989fd06913fe65df5665f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Decal_01a_ALB.uasset",
+      "size": 1268538,
+      "sha1": "70aef5e47970d652afc2ddc4e5f0cdf93aaad494"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Drywall_01a_ALB.uasset",
+      "size": 5628789,
+      "sha1": "81681011f17e87ec89344a30d31d59b47598b854"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Drywall_01a_NRM.uasset",
+      "size": 2115475,
+      "sha1": "d8dcae8566f97f5e0bc286f66b98ba7c50a6a850"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Drywall_01a_RMA.uasset",
+      "size": 3695099,
+      "sha1": "653390ce69d20cba62aad7d18b2b3ecccba01190"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Dumpster_ALB.uasset",
+      "size": 8027881,
+      "sha1": "3d3396dc6c88ea581a358e7ee3a608bc7ddfbd0d"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Dumpster_NRM.uasset",
+      "size": 8115198,
+      "sha1": "be0657654ac5a341b54a927fed2df533ac5c9118"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Dumpster_RMA.uasset",
+      "size": 6466209,
+      "sha1": "4afde9e3afa539ea73e8710b308971ecb161df66"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_FreightContainer_01a_ALB.uasset",
+      "size": 8470916,
+      "sha1": "954093a4cd8c4a1466dbc5fc9ba49bcba2201373"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_FreightContainer_01a_NRM.uasset",
+      "size": 8472786,
+      "sha1": "daf83091569c79027f27fd696ec0746914dbc961"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_FreightContainer_01a_RMA.uasset",
+      "size": 6061246,
+      "sha1": "a774dea071f9a92500a17eb9240b5e9e4b58990f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_FreightContainer_01b_ALB.uasset",
+      "size": 7892636,
+      "sha1": "66321406e6dc7c991672d19c5d2dea728004efd8"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_FreightContainer_01b_NRM.uasset",
+      "size": 7933775,
+      "sha1": "88f566a321292b5b542ba5f3eaa8449ddc4c0bb4"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_FreightContainer_01b_RMA.uasset",
+      "size": 6931929,
+      "sha1": "97f7335fa40decaff98eed72c5c8f2cf6ed92a5a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_LightGenerator_01a_ALB.uasset",
+      "size": 6578317,
+      "sha1": "7e06bcdb499f23ff7a20c3dd95bff60b76211e60"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_LightGenerator_01a_NRM.uasset",
+      "size": 6390791,
+      "sha1": "e7c3a4f4fbe303dba4d43f21a446bfd8ff3df59f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_LightGenerator_01a_RMA.uasset",
+      "size": 5457089,
+      "sha1": "c4e381835c10505b6bdd360322c9a91ac3a431c5"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_LightGenerator_01b_ALB.uasset",
+      "size": 6394433,
+      "sha1": "ab3ef54512c7a25d861d456866c7826ec8a46c4c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_LightGenerator_01b_NRM.uasset",
+      "size": 7409518,
+      "sha1": "b67a432a990cd655e11eb5eec3e03292caaaa280"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_LightGenerator_01b_RMA.uasset",
+      "size": 5991211,
+      "sha1": "4f63ff8598e89b4148601442c7a4d65c1d2e161c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_OilBarrel_01a_ALB.uasset",
+      "size": 3664286,
+      "sha1": "b58f5b26adf4e38d96db40be04dc8c344172759a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_OilBarrel_01a_NRM.uasset",
+      "size": 6260031,
+      "sha1": "035587bfe7bc7381d14ba40f8411314ca7b05006"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_OilBarrel_01a_RMA.uasset",
+      "size": 4855180,
+      "sha1": "c5a389a6d304439c20afec5ad86e788e88427f47"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_PlasticBarrel_01a_ALB.uasset",
+      "size": 6770191,
+      "sha1": "60a98d1e5e6edfc952f06a9ce750655d02fd3f99"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_PlasticBarrel_01a_NRM.uasset",
+      "size": 7669922,
+      "sha1": "b3fe9d531810c6f3ab72927ebe373e176696e4e2"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_PlasticBarrel_01a_RMA.uasset",
+      "size": 5103348,
+      "sha1": "1c3f27b5a8782a09fa1ffb90a13ad4c13a5f128a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_PortableWaterTank_01_ALB.uasset",
+      "size": 5275938,
+      "sha1": "8980dacb2b85de87de44a2941d65b166bada1882"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_PortableWaterTank_01_NRM.uasset",
+      "size": 4039041,
+      "sha1": "6ad3840128a391c9831d2bba6dc366e3aa979409"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_PortableWaterTank_01_RMA.uasset",
+      "size": 5341823,
+      "sha1": "96a5b19b8cc921dbfd0c786b41af5237baa091ed"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Portapotty_01_ALB.uasset",
+      "size": 9288184,
+      "sha1": "001fe528cbe57d4d4561dc8e4088a5fc3f60e933"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Portapotty_01_NRM.uasset",
+      "size": 3981709,
+      "sha1": "ced29d928a1e924e733655c15fe6da74d4d22a8c"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Portapotty_01_RMA.uasset",
+      "size": 6572866,
+      "sha1": "9ab07f17f18f45d20b4dd47408fc5e1bc05f089f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Portapotty_02_ALB.uasset",
+      "size": 8976542,
+      "sha1": "0645d3a53d7a0c39a1808c1f4fc399a1246063e9"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Portapotty_02_NRM.uasset",
+      "size": 3247656,
+      "sha1": "d2d6aa42b6d8f4191124337b492191b5f567cda6"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Portapotty_02_RMA.uasset",
+      "size": 6442592,
+      "sha1": "dace46e0d79e1694d2683aead47d52ebe7ed758e"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Propane_01_ALB.uasset",
+      "size": 5806824,
+      "sha1": "a985bb0eba2865ffe14c95b2e37519d012763d61"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Propane_01_NRM.uasset",
+      "size": 6442972,
+      "sha1": "4feae2f9b18b2b6dcaaf2cf7bc04c6de80bf9e0a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Propane_01_RMA.uasset",
+      "size": 6542202,
+      "sha1": "7488068b825d56393c612f0a7c451affadc5cc20"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Rebar_ALB.uasset",
+      "size": 9408758,
+      "sha1": "d8efd9ba8b500bbf92dfebbf819de50d3fb8aebb"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Rebar_NRM.uasset",
+      "size": 7052319,
+      "sha1": "a3e93d595bb7068373c055377ad841725e6b0995"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Rebar_RMA.uasset",
+      "size": 9356229,
+      "sha1": "cd1802758e07fb640f660638a223cd1e37826dbe"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Roadblock_ALB.uasset",
+      "size": 9197982,
+      "sha1": "72699f4f5a909e345de7a9fcc7dc840aa43b8563"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Roadblock_NRM.uasset",
+      "size": 3399711,
+      "sha1": "18141cd09e2ea70563816c2b657be2b0ad5d4556"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Roadblock_RMA.uasset",
+      "size": 5537372,
+      "sha1": "9e367e55e9e4f53a52b603f24692dd3d30775324"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Spool_01a_ALB.uasset",
+      "size": 4700013,
+      "sha1": "9973b986c1d21f1d86ec5fc036075201e045b717"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Spool_01a_NRM.uasset",
+      "size": 5497619,
+      "sha1": "7c36756041f3211aeeb7e9aa7bef0dfe78aaf909"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Spool_01a_RMA.uasset",
+      "size": 5134575,
+      "sha1": "aa55890229fb4234dabcd8725c08273c2ced014f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Tarp_01_ALB.uasset",
+      "size": 9010393,
+      "sha1": "350137cb471b3898939e81267de077768dbbb300"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Tarp_01_NRM.uasset",
+      "size": 12169337,
+      "sha1": "052d50fadc3c0491e4d72ab206781df4bf5c8269"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Tarp_01_RMA.uasset",
+      "size": 7900511,
+      "sha1": "3a6e5ecb3669b9e978740e4d4eff331b889404a3"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Trafficbarrier_ALB.uasset",
+      "size": 9891820,
+      "sha1": "8c36cc303a1b47d2a5aa6cf6c6eecaa49f531fa9"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Trafficbarrier_NRM.uasset",
+      "size": 1519964,
+      "sha1": "658a1f4a862f9a0afe6b5fdc9445812f8a91b5b9"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_Trafficbarrier_RMA.uasset",
+      "size": 6668330,
+      "sha1": "1d45639e71faa1c956adc93cfa6b1ac5d1a261bc"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_WoodenPalette_01_ALB.uasset",
+      "size": 8142493,
+      "sha1": "7ea7d493278d12acb2b460a28819f939f73d727b"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_WoodenPalette_01_NRM.uasset",
+      "size": 7652821,
+      "sha1": "6fabd93d0851a86ec4debfa0b0742f634f5b071a"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Unique/TX_WoodenPalette_01_RMA.uasset",
+      "size": 5334795,
+      "sha1": "2fcf91c834106de5e68884037434ed3522e8070f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_Backdrop_01_ALB.uasset",
+      "size": 5351223,
+      "sha1": "09b2cf32368d8b15d67ea8aac763ab8ff5e43381"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_Backdrop_01_NRM.uasset",
+      "size": 5096500,
+      "sha1": "895583d34109f6389d4b52ce89a800662c4f34f4"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_Cubemap_Stairs.uasset",
+      "size": 1495976,
+      "sha1": "5ef7da2903a2e08cb447e1c3bdec1beb66916a39"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_Fill_01_ALB.uasset",
+      "size": 3619,
+      "sha1": "d27e88460b7048c05f35c8837f094b258b96bb1f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_Fill_01_NRM.uasset",
+      "size": 4943,
+      "sha1": "4cfe05566d254b42abac628433dccbb574ef678f"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_Fill_01_RMA.uasset",
+      "size": 3777,
+      "sha1": "59916d37444ea03f5e5931299bc4e915b0380997"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_Lookup_01a_LUT.uasset",
+      "size": 9542,
+      "sha1": "0ccc561961e825ef15976aa9979b5005ea41df80"
+    },
+    {
+      "filename": "Content/Construction_VOL1/Textures/Utility/TX_LUT_01.uasset",
+      "size": 11862,
+      "sha1": "73343ae00524211a16cd4be7650faa9c8106e85b"
+    }
+  ]
+}

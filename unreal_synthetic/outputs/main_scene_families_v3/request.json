@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/main_scene_families_v3",
+  "jobs": [
+    {
+      "id": "industrial",
+      "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/main_scene_families_v3/industrial",
+      "map_path": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/Maps/industrial",
+      "asset_root": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/industrial",
+      "input_sha256": "bb0979f738624fd17fa8df882a97e35a329ad3ab9f4d8aaf19878c568e29ca6b"
+    },
+    {
+      "id": "urban",
+      "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/main_scene_families_v3/urban",
+      "map_path": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/Maps/urban",
+      "asset_root": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/urban",
+      "input_sha256": "013b0591cb244efacdd49e52f13e47759746745ccb4adf89d80eb7e4987c6fa7"
+    },
+    {
+      "id": "park",
+      "output": "/home/jovyan/data-1/jusang/superdyn/unreal_synthetic/outputs/main_scene_families_v3/park",
+      "map_path": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/Maps/park",
+      "asset_root": "/Game/SuperDyn/SyntheticMain/main_scene_families_v3/park",
+      "input_sha256": "2939f92633cdba85eefa54634dc13fa5bf04983baceb7403e8a3db9ff86f339c"
+    }
+  ],
+  "source_hashes": {
+    "synthetic/configs/terraced_sampling.json": "edf43dfc70a047f4ff03a9472a6fb521841810766a3f8f5f298be2885e9f2866",
+    "synthetic/synth/layouts/height_patterns.py": "425bda7e27d913b3cbcaacbd38613dab82b39fdff3bffac0303cfb2e922a08f3",
+    "synthetic/synth/layouts/surfaces.py": "dce6a15a4da1f7d173bccb4e7ff4db538f0fc614f3e5144bb11a5330b8b47206",
+    "synthetic/synth/layouts/terraced.py": "5b5f705c97075545d0fb8e8d08d7c04875dbf76a79c088a552d0063b37168c70",
+    "synthetic/synth/layouts/terraced_sampling.py": "430500ad4b8e189c231003f5861009813fc5316d8390b8cbb0873b870015239c",
+    "synthetic/synth/trajectories/terraced_video.py": "496918090dfd968dabbe5936e7c54f25706bfd36a7d6ab5de1500b1d72915fab",
+    "synthetic/synth/validation/terraced.py": "8dec1c5caea264d4309d0a14869c835015b0805fcefd18a23245e68932a2960e",
+    "unreal_synthetic/Content/Python/run_scene_families.py": "13f1dca70238301b532f2d786db933fc7165fff7a58012874f996e1097cc8267",
+    "unreal_synthetic/Content/Python/superdyn_ue/__init__.py": "b942b06dd1efdfcc3eb61c97f83c0f933e09264b8eb948b380eb907b4d8766e2",
+    "unreal_synthetic/Content/Python/superdyn_ue/asset_layout.py": "9b686063617b0be3e3aad320fde78e04764672c5eb1acf81dfc82a07ab534c7f",
+    "unreal_synthetic/Content/Python/superdyn_ue/audit.py": "0b8f2f5154e03ef577e95d789439fa99e1cfd7232dc9e918c0826504acbaacd3",
+    "unreal_synthetic/Content/Python/superdyn_ue/enclosure.py": "cb2a8cd884755cc5989b07e793ab57e7eac713f71b2c2e130c7f267b74cfc9e9",
+    "unreal_synthetic/Content/Python/superdyn_ue/enclosure_audit.py": "6de56f898dc922e820fe7b6c5b49a037d5b6c2025ca6bb34a3027d695b881292",
+    "unreal_synthetic/Content/Python/superdyn_ue/family_builder.py": "9dbd2aa8a0c803a603469196552515bd973ca6e7b1b4aee3c70c8e25c1ac664d",
+    "unreal_synthetic/Content/Python/superdyn_ue/family_geometry.py": "e3013b785afd73bebcb95c286e9cbcc54847ca9285369fd2000a41abf6fd2098",
+    "unreal_synthetic/Content/Python/superdyn_ue/hdri.py": "74110d677e3b679e56e13b796b3fc9dce3bde7da7918c5a4e620690af5ae3bd8",
+    "unreal_synthetic/Content/Python/superdyn_ue/io_utils.py": "c80dab78e6f5181e927823b84a6e6c23fe070d369aed3e41b8e6ce21ff351b82",
+    "unreal_synthetic/Content/Python/superdyn_ue/materials.py": "f0621afc2f953000ef668ec7fd2a32cc52d3f8dd50cf92ae65cecb0f8e940c7d",
+    "unreal_synthetic/Content/Python/superdyn_ue/math3d.py": "bfe767e9149471fc092805dc4f5dbe36faadf90fde44f64116912aa907497771",
+    "unreal_synthetic/Content/Python/superdyn_ue/official_assets.py": "f8971d774d649017a22cf6b1727d03173dcf8d62cc36af4fb72f7f61cb9d0719",
+    "unreal_synthetic/Content/Python/superdyn_ue/render_queue.py": "1f8b8abd31fc4f0bb76239bbaef7cf4381878cfcbe8d3d0223a286a352af4e4a",
+    "unreal_synthetic/Content/Python/superdyn_ue/scene_builder.py": "fca2f75de4a5dab3bc422fe0928ea11e31160cc76c3aea067d9ddfe43d0e61ca",
+    "unreal_synthetic/Content/Python/superdyn_ue/theme_design.py": "bef7ff0a10888230d54a96eae80561e8f0e11c9e45cc0112399dfe635b8bc315",
+    "unreal_synthetic/Content/Python/superdyn_ue/theme_materials.py": "fb8f4a78f66e0ad1e3d8e972f0381b7783d030012f32da0695cf4a6bfc728855",
+    "unreal_synthetic/Content/Python/superdyn_ue/themes.py": "96e94becd7e496e4846ee8e9a48b10007fe1edc08f51e1688e099d2710ff65f4",
+    "unreal_synthetic/bridge.py": "80bae453b10304a5d82eec76004c28823651561d3f301636eb28f06dbc6826b0",
+    "unreal_synthetic/configs/main_scene_families.json": "d78dc21cb71cf28a8157fa67e33d99f13ced09114d21a46dbdd0f39f80f6a642",
+    "unreal_synthetic/manage.py": "b9c263c4ba211a0c67942d1cadc70026d872ac3ce9280a10f43407420412b5ea",
+    "unreal_synthetic/scene_families.py": "2cdb5b45bb5b6434e6df6c171cf909ddf92b135f7fb697ae552cc72f93d6152b",
+    "unreal_synthetic/scripts/render_scene_families.py": "e0f8ed604cfa1f209efbda35a1ad732acd60253dab5baeb907253f101cb5234a"
+  },
+  "spatial_samples": 4,
+  "stage": "scene_families"
+}

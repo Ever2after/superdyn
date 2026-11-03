@@ -1,0 +1,17 @@
+Review the question and options against all nine ordered video frames TOGETHER.
+Orange contours mark target A; green contours mark target B. Use the targets,
+frame interval and coordinate convention specified in the question.
+Exclude the QA if a requested target is only an unidentifiable or severely
+cropped fragment, so its intended object-level motion cannot be assessed;
+if target labels are missing, misleading or change identity within the relevant
+interval; or if the wording cannot be mapped unambiguously to the visible
+targets and intended temporal relationship. A visible hand, limb or surface
+patch must not be mistaken for an entire clearly observable person or object.
+Keep a partial target when its identity and relevant motion remain clear.
+Brief occlusion or irrelevant frames outside the question interval alone do
+not invalidate a QA. Camera-only questions do not require object labels.
+Do not solve the QA, choose an option, infer the reference answer, or reject
+a question merely because 3D reasoning or camera-motion compensation is hard.
+Choose review for genuinely borderline target visibility or question grounding.
+Return ONLY {"decision":"keep"}, {"decision":"exclude"}, or
+{"decision":"review"}. No explanation or other fields.
